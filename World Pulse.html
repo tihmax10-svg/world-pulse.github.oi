@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="World Pulse — глобальный медиаиндекс напряжённости и агрегатор мировых новостей в реальном времени.">
+<title>World Pulse — Пульс мира</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #050506;
+  --pn: #0c0d0f;
+  --bd: rgba(255,255,255,.08);
+  --bd2: rgba(255,255,255,.18);
+  --t: #fafafa;
+  --m: #8a8f98;
+  --g: #3ecf8e;
+  --y: #f5a524;
+  --r: #ff5d5d;
+  --hv: rgba(255,255,255,.045);
+}
+[data-theme="light"] {
+  --bg: #f7f7f8;
+  --pn: #ffffff;
+  --bd: rgba(0,0,0,.08);
+  --bd2: rgba(0,0,0,.18);
+  --t: #0a0a0b;
+  --m: #656a72;
+  --hv: rgba(0,0,0,.04);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--t);
+  font: 14px/1.55 "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background .25s, color .25s;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 440px;
+  background: radial-gradient(65% 100% at 50% 0, rgba(99, 125, 255, .12), transparent 72%);
+  pointer-events: none;
+  z-index: 0;
+}
+.mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+.serif { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: color-mix(in srgb, var(--bg) 76%, transparent);
+  border-bottom: 1px solid var(--bd);
+}
+.bar {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 28px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -.01em;
+  text-decoration: none;
+  color: var(--t);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--g);
+  box-shadow: 0 0 0 0 var(--g);
+  animation: pl 2s infinite;
+  flex: none;
+}
+.dot.warn { background: var(--y); box-shadow: 0 0 0 0 var(--y); }
+@keyframes pl {
+  70% { box-shadow: 0 0 0 8px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+nav { display: flex; gap: 2px; }
+nav a {
+  color: var(--m);
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: .15s;
+  font-size: 13px;
+}
+nav a:hover { color: var(--t); background: var(--hv); }
+.sp { flex: 1; }
+.btn {
+  font: inherit;
+  font-size: 13px;
+  color: var(--t);
+  background: transparent;
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  transition: .15s;
+  user-select: none;
+}
+.btn:hover { border-color: var(--bd2); background: var(--hv); }
+.btn.pri {
+  background: var(--t);
+  color: var(--bg);
+  border-color: var(--t);
+  font-weight: 500;
+}
+.btn.pri:hover { opacity: .88; background: var(--t); }
+.btn.on { border-color: color-mix(in srgb, var(--g) 55%, var(--bd)); color: var(--g); }
+kbd {
+  font: 11px "JetBrains Mono", monospace;
+  color: var(--m);
+  border: 1px solid var(--bd);
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.tick {
+  border-bottom: 1px solid var(--bd);
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--m);
+  font-size: 12px;
+  padding: 7px 0;
+  position: relative;
+  z-index: 1;
+}
+.tick div {
+  display: inline-block;
+  animation: mq 65s linear infinite;
+}
+.tick:hover div { animation-play-state: paused; }
+.tick span { margin: 0 24px; cursor: pointer; transition: color .15s; }
+.tick span:hover { color: var(--t); }
+.tick span::before {
+  content: "●";
+  color: var(--y);
+  margin-right: 10px;
+  font-size: 8px;
+  vertical-align: middle;
+}
+@keyframes mq { to { transform: translateX(-50%); } }
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 28px 64px;
+  position: relative;
+  z-index: 1;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1.12fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 58px 0 42px;
+}
+.badge {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid var(--bd);
+  background: var(--pn);
+  border-radius: 99px;
+  padding: 4px 13px;
+  color: var(--m);
+  font-size: 12px;
+}
+h1 {
+  font-size: 66px;
+  line-height: 1.02;
+  letter-spacing: -.02em;
+  margin: 18px 0 14px;
+}
+h1 em { color: var(--m); font-style: italic; }
+.lead {
+  color: var(--m);
+  font-size: 16px;
+  max-width: 480px;
+  margin: 0 0 24px;
+}
+.acts { display: flex; gap: 10px; flex-wrap: wrap; }
+.status-line {
+  color: var(--m);
+  font-size: 12px;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card {
+  position: relative;
+  background: var(--pn);
+  border: 1px solid var(--bd);
+  border-radius: 16px;
+  padding: 22px;
+  overflow: hidden;
+  transition: border-color .2s;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(280px circle at var(--x, 50%) var(--y, 0), var(--hv), transparent 70%);
+  opacity: 0;
+  transition: opacity .25s;
+  pointer-events: none;
+}
+.card:hover { border-color: var(--bd2); }
+.card:hover::after { opacity: 1; }
+.gs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.g { text-align: center; padding: 6px 0; }
+.g svg { width: 154px; height: 154px; display: block; margin: 0 auto; }
+.g .l { font-weight: 500; margin-top: 4px; font-size: 14px; }
+.g .s { font-size: 12px; margin-top: 2px; font-weight: 500; }
+.g .n { font-size: 12px; color: var(--m); margin-top: 5px; }
+h2 {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--m);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin: 0 0 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row { display: grid; gap: 16px; margin-bottom: 16px; }
+.r3 { grid-template-columns: 2fr 1fr; }
+#chart { width: 100%; height: auto; display: block; cursor: crosshair; }
+.tip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--t);
+  color: var(--bg);
+  font-size: 12px;
+  padding: 4px 9px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity .12s;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+}
+.src {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  margin: 0 -8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .15s;
+  user-select: none;
+}
+.src:hover { background: var(--hv); }
+.sw {
+  width: 30px;
+  height: 17px;
+  border-radius: 99px;
+  background: var(--bd2);
+  position: relative;
+  transition: .2s;
+  flex: none;
+}
+.sw::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--bg);
+  transition: .2s;
+}
+.src.on .sw { background: var(--t); }
+.src.on .sw::after { left: 15px; }
+.src:not(.on) { opacity: .42; }
+.src .nm { flex: 1; font-weight: 500; }
+.src .v { color: var(--m); font-size: 12px; }
+.tools {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  align-items: center;
+}
+.search {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+  padding: 0 10px;
+  background: transparent;
+  transition: border-color .15s;
+}
+.search input {
+  flex: 1;
+  background: none;
+  border: 0;
+  outline: 0;
+  color: var(--t);
+  font: inherit;
+  padding: 7px 0;
+}
+.search:focus-within { border-color: var(--bd2); }
+select {
+  font: inherit;
+  font-size: 13px;
+  background: var(--pn);
+  color: var(--t);
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  outline: none;
+}
+select:hover { border-color: var(--bd2); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.chip {
+  font-size: 12px;
+  border: 1px solid var(--bd);
+  border-radius: 99px;
+  padding: 4px 12px;
+  cursor: pointer;
+  color: var(--m);
+  transition: .15s;
+  user-select: none;
+}
+.chip:hover { color: var(--t); border-color: var(--bd2); }
+.chip.a { background: var(--t); color: var(--bg); border-color: var(--t); font-weight: 500; }
+.ev {
+  border-top: 1px solid var(--bd);
+  padding: 14px 6px;
+  margin: 0 -6px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background .15s;
+}
+.ev:hover { background: var(--hv); }
+.ev:first-of-type { border-top: 0; }
+.eh { display: flex; gap: 12px; align-items: flex-start; }
+.ei { width: 7px; height: 7px; border-radius: 50%; margin-top: 7px; flex: none; }
+.et { flex: 1; font-weight: 500; line-height: 1.45; }
+.em { color: var(--m); font-size: 12px; margin-top: 4px; }
+.ex { display: none; margin: 10px 0 2px 19px; color: var(--m); line-height: 1.55; }
+.ev.open .ex { display: block; animation: fd .22s ease-out; }
+.ev-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--t);
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 8px;
+  padding: 3px 9px;
+  border: 1px solid var(--bd2);
+  border-radius: 6px;
+  transition: .15s;
+}
+.ev-link:hover { background: var(--t); color: var(--bg); }
+@keyframes fd { from { opacity: 0; transform: translateY(-4px); } }
+.tb { height: 4px; background: var(--bd); border-radius: 9px; margin-top: 10px; overflow: hidden; }
+.tb i { display: block; height: 100%; border-radius: 9px; }
+.rg {
+  padding: 11px 8px;
+  margin: 0 -8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .15s;
+}
+.rg:hover, .rg.a { background: var(--hv); }
+.rg .t { display: flex; justify-content: space-between; font-weight: 500; }
+.rg .b { height: 5px; background: var(--bd); border-radius: 9px; margin-top: 8px; overflow: hidden; }
+.rg .b i {
+  display: block;
+  height: 100%;
+  border-radius: 9px;
+  transition: width .8s cubic-bezier(.2, .8, .2, 1);
+}
+.empty { color: var(--m); padding: 32px 0; text-align: center; }
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  background: var(--t);
+  color: var(--bg);
+  padding: 8px 18px;
+  border-radius: 99px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: .28s;
+  z-index: 60;
+}
+.toast.s { opacity: 1; transform: translate(-50%, 0); }
+footer {
+  color: var(--m);
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid var(--bd);
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.spin { display: inline-block; animation: sp .75s linear; }
+@keyframes sp { to { transform: rotate(360deg); } }
+@media (max-width: 980px) {
+  .hero, .r3 { grid-template-columns: 1fr; }
+  h1 { font-size: 44px; }
+  nav { display: none; }
+  .bar, main { padding-left: 16px; padding-right: 16px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a href="#top" class="logo"><span class="dot" id="hdr-dot"></span>World Pulse</a>
+    <nav>
+      <a href="#top">Обзор</a>
+      <a href="#trend">Динамика</a>
+      <a href="#events">События</a>
+      <a href="#regions">Регионы</a>
+    </nav>
+    <div class="sp"></div>
+    <select id="int" title="Интервал автообновления">
+      <option value="15">15 мин</option>
+      <option value="30" selected>30 мин</option>
+      <option value="60">60 мин</option>
+    </select>
+    <button class="btn on" id="auto">Авто: вкл</button>
+    <button class="btn" id="theme" title="Переключить тему (T)">◐</button>
+    <button class="btn pri" id="ref"><span id="ri">↻</span> Обновить <kbd>R</kbd></button>
+  </div>
+</header>
+
+<div class="tick mono"><div id="tk"></div></div>
+
+<main id="top">
+  <section class="hero">
+    <div>
+      <span class="badge mono">
+        <span class="dot" id="hero-dot"></span>
+        <span>Обновлено в <strong id="upd">—</strong></span> · <span>след. через <span id="cd">30:00</span></span>
+      </span>
+      <h1 class="serif">Пульс мира,<br><em>собранный за минуту</em></h1>
+      <p class="lead">Заголовки ключевых мировых СМИ в одной сводке: кластеризация главных событий, региональный фон и индекс напряжённости, обновляемый автоматически.</p>
+      <div class="acts">
+        <button class="btn pri" id="cp">Копировать сводку</button>
+        <button class="btn" id="ex">Скачать data.json</button>
+        <button class="btn" id="fs">На весь экран</button>
+      </div>
+      <div class="status-line mono" id="demo"></div>
+    </div>
+    <div class="card gs" id="gs">
+      <div class="g" id="g1"></div>
+      <div class="g" id="g2"></div>
+    </div>
+  </section>
+
+  <div class="row r3" id="trend">
+    <div class="card">
+      <h2><span>Динамика индекса (24 часа)</span><span class="mono" id="cv"></span></h2>
+      <div style="position:relative">
+        <svg id="chart" viewBox="0 0 600 180"></svg>
+        <div class="tip mono" id="tip"></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2><span>Источники</span><span class="mono" id="sc"></span></h2>
+      <div id="srcs"></div>
+    </div>
+  </div>
+
+  <div class="row r3" id="events">
+    <div class="card">
+      <h2><span>Главные сюжеты</span><span class="mono" id="ec"></span></h2>
+      <div class="tools">
+        <label class="search">
+          <span style="color:var(--m)">⌕</span>
+          <input id="q" placeholder="Поиск по заголовкам и сводкам...">
+          <kbd>/</kbd>
+        </label>
+        <select id="so">
+          <option value="imp">По важности</option>
+          <option value="new">Сначала свежие</option>
+          <option value="ten">По напряжённости</option>
+        </select>
+      </div>
+      <div class="chips" id="cats"></div>
+      <div id="evs"></div>
+    </div>
+    <div class="card" id="regions">
+      <h2>
+        <span>Регионы</span>
+        <span class="chip" id="rst" style="display:none">Сбросить фильтр</span>
+      </h2>
+      <div id="rgs"></div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <span>Медиаиндекс отражает тональность заголовков мировых агентств (0% — штиль, 100% — острый кризис).</span>
+  <span class="mono">Клавиши: [R] Обновить · [T] Тема · [/] Поиск</span>
+</footer>
+<div class="toast" id="toast"></div>
+
+<script>
+const DEMO = {
+  updated: Date.now(),
+  demo: true,
+  total_articles: 312,
+  claude_delta: -4,
+  second_delta: -4,
+  second_label: "Сглаженный индекс",
+  second_note: "среднее за последние 3 часа",
+  sources: [
+    { n: "BBC", v: 56 },
+    { n: "Al Jazeera", v: 68 },
+    { n: "DW", v: 54 },
+    { n: "France 24", v: 59 },
+    { n: "The Guardian", v: 55 },
+    { n: "NPR", v: 47 },
+    { n: "Sky News", v: 58 },
+    { n: "Reuters", v: 53 },
+    { n: "AP", v: 52 }
+  ],
+  regions: [
+    { n: "Европа", v: 56 },
+    { n: "Ближний Восток", v: 76 },
+    { n: "Азия", v: 48 },
+    { n: "Африка", v: 61 },
+    { n: "Америка", v: 43 }
+  ],
+  events: [
+    {
+      id: 1,
+      t: "Дипломатические миссии обсуждают параметры прекращения огня в регионе",
+      x: "Сборщик автоматически группирует похожие публикации из разных мировых агентств в единый сюжет, исключая информационный шум и дубли.",
+      r: "Ближний Восток",
+      c: "Конфликты",
+      imp: 96,
+      ten: 79,
+      ago: 14,
+      s: ["BBC", "Al Jazeera", "Reuters", "AP"],
+      u: "https://www.reuters.com/world/"
+    },
+    {
+      id: 2,
+      t: "Европейские лидеры согласовали новый пакет мер энергетической и оборонной безопасности",
+      x: "Решение принято на внеочередном саммите в Брюсселе после длительных консультаций министров иностранных дел.",
+      r: "Европа",
+      c: "Политика",
+      imp: 89,
+      ten: 62,
+      ago: 32,
+      s: ["DW", "France 24", "The Guardian"],
+      u: "https://www.dw.com/en/top-stories/s-9097"
+    },
+    {
+      id: 3,
+      t: "Мировые рынки адаптируются к новым торговым пошлинам и колебаниям цен на сырьё",
+      x: "Инвесторы оценивают влияние обновлённых цепочек поставок на темпы инфляции и решения крупнейших центробанков.",
+      r: "Америка",
+      c: "Экономика",
+      imp: 82,
+      ten: 49,
+      ago: 48,
+      s: ["Reuters", "BBC", "NPR"],
+      u: "https://www.bbc.com/news/world"
+    },
+    {
+      id: 4,
+      t: "Экстренные службы ликвидируют последствия мощного тайфуна на тихоокеанском побережье",
+      x: "Природные катаклизмы учитываются в общем фоне, но классифицируются отдельно от геополитических кризисов.",
+      r: "Азия",
+      c: "Природа",
+      imp: 76,
+      ten: 55,
+      ago: 75,
+      s: ["Sky News", "AP"],
+      u: "https://apnews.com/world-news"
+    },
+    {
+      id: 5,
+      t: "Гуманитарные организации расширяют коридоры поставок продовольствия в зоне Сахеля",
+      x: "Международная кооперация и гуманитарные миссии несут позитивный вес и смягчают итоговый индекс напряжённости.",
+      r: "Африка",
+      c: "Политика",
+      imp: 71,
+      ten: 64,
+      ago: 95,
+      s: ["Al Jazeera", "France 24"],
+      u: "https://www.france24.com/en/"
+    },
+    {
+      id: 6,
+      t: "Международная группа исследователей представила новый метод ранней диагностики",
+      x: "Позитивные научные и технологические прорывы снижают общий градус тревожности новостной повестки.",
+      r: "Европа",
+      c: "Наука",
+      imp: 64,
+      ten: 18,
+      ago: 130,
+      s: ["The Guardian", "BBC"],
+      u: "https://www.theguardian.com/world"
+    }
+  ]
+};
+
+const $ = s => document.querySelector(s);
+const col = v => v < 35 ? "var(--g)" : v < 65 ? "var(--y)" : "var(--r)";
+const wd = v => v < 35 ? "Спокойный фон" : v < 65 ? "Повышенный фон" : "Высокая напряжённость";
+const esc = s => String(s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+let D;
+let S = { reg: null, cat: "Все", q: "", so: "imp", off: new Set(), auto: true, iv: 30 };
+let left = 1800;
+let cur = { g1: 0, g2: 0 };
+
+try {
+  const z = JSON.parse(localStorage.getItem("wp") || "{}");
+  if (z.theme) document.documentElement.dataset.theme = z.theme;
+  if (z.iv) S.iv = +z.iv;
+  if (Array.isArray(z.off)) S.off = new Set(z.off);
+} catch (e) {}
+
+const save = () => {
+  try {
+    localStorage.setItem("wp", JSON.stringify({
+      theme: document.documentElement.dataset.theme,
+      iv: S.iv,
+      off: [...S.off]
+    }));
+  } catch (e) {}
+};
+
+const toast = m => {
+  const t = $("#toast");
+  t.textContent = m;
+  t.classList.add("s");
+  clearTimeout(toast.k);
+  toast.k = setTimeout(() => t.classList.remove("s"), 2000);
+};
+
+const idx = () => {
+  const a = (D.sources || []).filter(s => !S.off.has(s.n));
+  return a.length ? Math.round(a.reduce((p, s) => p + s.v, 0) / a.length) : 0;
+};
+
+const idx2 = () => {
+  const delta = typeof D.second_delta === "number" ? D.second_delta : (D.claude_delta || 0);
+  return Math.max(0, Math.min(100, idx() + delta));
+};
+
+function mkG(el, id, label) {
+  const R = 60, C = 2 * Math.PI * R;
+  el.innerHTML = `
+    <svg viewBox="0 0 150 150">
+      <circle cx="75" cy="75" r="${R}" fill="none" stroke="var(--bd)" stroke-width="8"/>
+      <circle id="${id}c" cx="75" cy="75" r="${R}" fill="none" stroke="var(--t)" stroke-width="8" stroke-linecap="round"
+        stroke-dasharray="${C}" stroke-dashoffset="${C}" transform="rotate(-90 75 75)"
+        style="transition:stroke-dashoffset 1s cubic-bezier(.2,.8,.2,1),stroke .4s"/>
+      <text id="${id}v" x="75" y="84" text-anchor="middle" font-size="34" class="serif" fill="currentColor">0%</text>
+    </svg>
+    <div class="l" id="${id}l">${esc(label)}</div>
+    <div class="s mono" id="${id}s"></div>
+    <div class="n" id="${id}n"></div>`;
+}
+
+function setG(id, v, note, label) {
+  const C = 2 * Math.PI * 60;
+  const c = $("#" + id + "c");
+  if (!c) return;
+  c.style.strokeDashoffset = C * (1 - v / 100);
+  c.style.stroke = col(v);
+  if (label) $("#" + id + "l").textContent = label;
+  const s = $("#" + id + "s");
+  s.textContent = wd(v);
+  s.style.color = col(v);
+  $("#" + id + "n").textContent = note;
+
+  const from = cur[id] || 0;
+  const t0 = performance.now();
+  cur[id] = v;
+  (function f(n) {
+    const p = Math.min(1, (n - t0) / 800);
+    const val = Math.round(from + (v - from) * (1 - Math.pow(1 - p, 3)));
+    $("#" + id + "v").textContent = val + "%";
+    if (p < 1) requestAnimationFrame(f);
+  })(t0);
+}
+
+function getSeries(endVal) {
+  // Use real history from collector.py if available, padding to 48 points if newly started
+  if (Array.isArray(D.history) && D.history.length >= 2) {
+    const pts = D.history.slice(-48).map(h => ({ t: h.t, v: h.v }));
+    pts[pts.length - 1].v = endVal;
+    while (pts.length < 48) {
+      const first = pts[0];
+      pts.unshift({ t: first.t - 1800 * 1000, v: first.v });
+    }
+    return pts;
+  }
+  // Deterministic fallback series for demo or initial run
+  let s = 1, a = [], v = endVal;
+  const now = D.updated || Date.now();
+  for (let i = 0; i < 48; i++) {
+    a.unshift({ t: now - i * 1800 * 1000, v: Math.round(v) });
+    s = (s * 9301 + 49297) % 233280;
+    v = Math.max(12, Math.min(92, v + (s / 233280 - 0.5) * 6));
+  }
+  return a;
+}
+
+function chart() {
+  const pts = getSeries(idx());
+  const a = pts.map(p => p.v);
+  const W = 600, H = 180, p = 12;
+  const x = i => p + i * (W - 2 * p) / (pts.length - 1);
+  const y = v => H - p - (v / 100) * (H - 2 * p);
+  const d = a.map((v, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1)).join("");
+  const curCol = col(idx());
+
+  $("#chart").innerHTML = `
+    <defs>
+      <linearGradient id="gr" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="${curCol}" stop-opacity=".26"/>
+        <stop offset="1" stop-color="${curCol}" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    ${[25, 50, 75].map(v => `<line x1="${p}" x2="${W - p}" y1="${y(v)}" y2="${y(v)}" stroke="var(--bd)" stroke-dasharray="3 4"/>`).join("")}
+    <path d="${d}L${x(pts.length - 1)} ${H}L${x(0)} ${H}Z" fill="url(#gr)"/>
+    <path d="${d}" fill="none" stroke="${curCol}" stroke-width="2.2" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" style="animation:dr 1.2s forwards"/>
+    <line id="cl" y1="${p}" y2="${H - p}" stroke="var(--bd2)" opacity="0"/>
+    <circle id="cd2" r="4.5" fill="${curCol}" opacity="0"/>`;
+
+  if (!document.getElementById("dr")) {
+    const st = document.createElement("style");
+    st.id = "dr";
+    st.textContent = "@keyframes dr{to{stroke-dashoffset:0}}";
+    document.head.append(st);
+  }
+  $("#cv").textContent = a[0] + "% → " + a[a.length - 1] + "%";
+
+  const svg = $("#chart");
+  svg.onmousemove = e => {
+    const r = svg.getBoundingClientRect();
+    const n = pts.length - 1;
+    const i = Math.max(0, Math.min(n, Math.round(((e.clientX - r.left) / r.width * W - p) / ((W - 2 * p) / n))));
+    $("#cl").setAttribute("x1", x(i));
+    $("#cl").setAttribute("x2", x(i));
+    $("#cl").setAttribute("opacity", 1);
+    $("#cd2").setAttribute("cx", x(i));
+    $("#cd2").setAttribute("cy", y(a[i]));
+    $("#cd2").setAttribute("opacity", 1);
+
+    const timeStr = new Date(pts[i].t).toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
+    const t = $("#tip");
+    t.textContent = `${a[i]}% · ${i === n ? "сейчас" : timeStr}`;
+    t.style.opacity = 1;
+    t.style.left = Math.min(r.width - 110, Math.max(0, e.clientX - r.left - 45)) + "px";
+    t.style.top = (y(a[i]) / H * r.height - 36) + "px";
+  };
+  svg.onmouseleave = () => {
+    $("#tip").style.opacity = 0;
+    $("#cl").setAttribute("opacity", 0);
+    $("#cd2").setAttribute("opacity", 0);
+  };
+}
+
+function srcs() {
+  const validNames = new Set((D.sources || []).map(s => s.n));
+  S.off.forEach(n => { if (!validNames.has(n)) S.off.delete(n); });
+
+  const on = D.sources.length - S.off.size;
+  $("#sc").textContent = on + "/" + D.sources.length;
+  $("#srcs").innerHTML = D.sources.map(s => `
+    <div class="src ${S.off.has(s.n) ? "" : "on"}" data-n="${esc(s.n)}">
+      <span class="sw"></span>
+      <span class="nm">${esc(s.n)}</span>
+      <span class="v mono" style="color:${col(s.v)}">${s.v}%</span>
+    </div>`).join("");
+
+  document.querySelectorAll(".src").forEach(e => e.onclick = () => {
+    const n = e.dataset.n;
+    if (S.off.has(n)) {
+      S.off.delete(n);
+    } else if (D.sources.length - S.off.size > 1) {
+      S.off.add(n);
+    } else {
+      return toast("Должен быть включён хотя бы один источник");
+    }
+    save();
+    all();
+  });
+}
+
+function regs() {
+  $("#rgs").innerHTML = (D.regions || []).map(r => `
+    <div class="rg ${S.reg === r.n ? "a" : ""}" data-n="${esc(r.n)}">
+      <div class="t">
+        <span>${esc(r.n)}</span>
+        <span class="mono" style="color:${col(r.v)}">${r.v}%</span>
+      </div>
+      <div class="b"><i style="width:0;background:${col(r.v)}" data-w="${r.v}"></i></div>
+    </div>`).join("");
+
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    document.querySelectorAll(".rg i").forEach(i => i.style.width = i.dataset.w + "%");
+  }));
+
+  document.querySelectorAll(".rg").forEach(e => e.onclick = () => {
+    S.reg = S.reg === e.dataset.n ? null : e.dataset.n;
+    regs();
+    evs();
+  });
+  $("#rst").style.display = S.reg ? "" : "none";
+}
+
+function cats() {
+  const c = ["Все", ...new Set((D.events || []).map(e => e.c))];
+  if (!c.includes(S.cat)) S.cat = "Все";
+  $("#cats").innerHTML = c.map(x => `<span class="chip ${S.cat === x ? "a" : ""}" data-c="${esc(x)}">${esc(x)}</span>`).join("");
+  document.querySelectorAll("#cats .chip").forEach(e => e.onclick = () => {
+    S.cat = e.dataset.c;
+    cats();
+    evs();
+  });
+}
+
+function evs() {
+  const q = S.q.toLowerCase().trim();
+  let a = (D.events || []).filter(e =>
+    (!S.reg || e.r === S.reg) &&
+    (S.cat === "Все" || e.c === S.cat) &&
+    (!q || (e.t + " " + e.x + " " + e.r).toLowerCase().includes(q)) &&
+    e.s.some(s => !S.off.has(s))
+  );
+
+  a.sort((p, q) => S.so === "new" ? p.ago - q.ago : S.so === "ten" ? q.ten - p.ten : q.imp - p.imp);
+  $("#ec").textContent = a.length + " сюж.";
+
+  $("#evs").innerHTML = a.length ? a.map(e => {
+    const agoStr = e.ago < 60 ? e.ago + " мин назад" : Math.round(e.ago / 60) + " ч назад";
+    const linkHtml = e.u ? `<a class="ev-link mono" href="${esc(e.u)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Читать первоисточник ↗</a>` : "";
+    return `
+      <div class="ev">
+        <div class="eh">
+          <span class="ei" style="background:${col(e.ten)}"></span>
+          <div class="et">
+            ${esc(e.t)}
+            <div class="em mono">${esc(e.r)} · ${esc(e.c)} · ${agoStr} · ${e.s.length} ист.</div>
+          </div>
+          <span class="mono" style="color:${col(e.ten)};font-weight:500">${e.ten}%</span>
+        </div>
+        <div class="ex">
+          <div>${esc(e.x)}</div>
+          <div class="em mono" style="margin-top:8px">Подтверждено: ${e.s.map(esc).join(", ")}</div>
+          ${linkHtml}
+          <div class="tb"><i style="width:${e.ten}%;background:${col(e.ten)}"></i></div>
+        </div>
+      </div>`;
+  }).join("") : '<div class="empty">По выбранным фильтрам событий не найдено</div>';
+
+  document.querySelectorAll(".ev").forEach(e => e.onclick = () => e.classList.toggle("open"));
+}
+
+function all() {
+  const m = idx();
+  const sLabel = D.second_label || "Сглаженный индекс";
+  const sNote = D.second_note || "среднее за последние 3 часа";
+  setG("g1", m, D.demo ? "демо-режим (тон заголовков)" : `по ${D.sources.length - S.off.size} активным СМИ`, "Медиаиндекс");
+  setG("g2", idx2(), sNote, sLabel);
+  chart();
+  srcs();
+  evs();
+}
+
+function render() {
+  $("#upd").textContent = new Date(D.updated).toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
+  const demoEl = $("#demo");
+  const dots = [$("#hdr-dot"), $("#hero-dot")];
+  if (D.demo) {
+    demoEl.textContent = "● Демо-режим · Запустите collector.py или GitHub Actions для живой сводки";
+    dots.forEach(d => d && d.classList.add("warn"));
+  } else {
+    const countTxt = D.total_articles ? ` · Проанализировано ${D.total_articles} заголовков` : "";
+    demoEl.textContent = `● Живые данные (RSS/Atom)${countTxt}`;
+    dots.forEach(d => d && d.classList.remove("warn"));
+  }
+
+  const evList = D.events && D.events.length ? D.events : DEMO.events;
+  $("#tk").innerHTML = [...evList, ...evList].map(e => `<span data-q="${esc(e.t.slice(0, 28))}">${esc(e.t)}</span>`).join("");
+  document.querySelectorAll("#tk span").forEach(sp => sp.onclick = () => {
+    $("# events")?.scrollIntoView({ behavior: "smooth" });
+  });
+
+  if (!$("#g1 svg")) {
+    mkG($("#g1"), "g1", "Медиаиндекс");
+    mkG($("#g2"), "g2", D.second_label || "Сглаженный индекс");
+  }
+  regs();
+  cats();
+  all();
+}
+
+async function load(manual) {
+  try {
+    const r = await fetch("./data.json?t=" + Date.now(), { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const json = await r.json();
+    if (!json || !Array.isArray(json.sources) || !json.sources.length) throw new Error("Invalid data.json");
+    D = json;
+  } catch (e) {
+    D = D && D.demo ? D : JSON.parse(JSON.stringify(DEMO));
+    if (manual) {
+      D.sources.forEach(s => s.v = Math.max(15, Math.min(90, s.v + Math.round((Math.random() - 0.5) * 6))));
+    }
+    D.updated = Date.now();
+  }
+  left = S.iv * 60;
+  render();
+  if (manual) {
+    toast(D.demo ? "Демо-данные обновлены" : "Живые данные обновлены");
+    const i = $("#ri");
+    i.classList.remove("spin");
+    void i.offsetWidth;
+    i.classList.add("spin");
+  }
+}
+
+$("#ref").onclick = () => load(true);
+$("#auto").onclick = e => {
+  S.auto = !S.auto;
+  e.target.textContent = "Авто: " + (S.auto ? "вкл" : "выкл");
+  e.target.classList.toggle("on", S.auto);
+};
+$("#int").value = S.iv;
+$("#int").onchange = e => {
+  S.iv = +e.target.value;
+  left = S.iv * 60;
+  save();
+};
+
+const th = () => {
+  const h = document.documentElement;
+  h.dataset.theme = h.dataset.theme === "dark" ? "light" : "dark";
+  save();
+};
+$("#theme").onclick = th;
+$("#q").oninput = e => { S.q = e.target.value; evs(); };
+$("#so").onchange = e => { S.so = e.target.value; evs(); };
+$("#rst").onclick = () => { S.reg = null; regs(); evs(); };
+
+$("#cp").onclick = () => {
+  const sLabel = D.second_label || "Сглаженный индекс";
+  const t = `World Pulse · ${new Date(D.updated).toLocaleString("ru-RU")}\n` +
+    `Медиаиндекс: ${idx()}% (${wd(idx())})\n` +
+    `${sLabel}: ${idx2()}%\n\nГлавные события:\n` +
+    D.events.map((e, i) => `${i + 1}. ${e.t} [${e.r}, напряжённость ${e.ten}%]`).join("\n");
+  navigator.clipboard.writeText(t).then(() => toast("Сводка скопирована в буфер"), () => toast("Ошибка копирования"));
+};
+
+$("#ex").onclick = () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(D, null, 2)], { type: "application/json" }));
+  a.download = "data.json";
+  a.click();
+  toast("Файл data.json скачан");
+};
+
+$("#fs").onclick = () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+  } else {
+    document.exitFullscreen().catch(() => {});
+  }
+};
+
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") {
+    if (e.key === "Escape") e.target.blur();
+    return;
+  }
+  if (e.key === "/") { e.preventDefault(); $("#q").focus(); }
+  if (e.key === "r" || e.key === "R" || e.key === "к" || e.key === "К") load(true);
+  if (e.key === "t" || e.key === "T" || e.key === "е" || e.key === "Е") th();
+});
+
+document.querySelectorAll(".card").forEach(c => c.addEventListener("mousemove", e => {
+  const r = c.getBoundingClientRect();
+  c.style.setProperty("--x", (e.clientX - r.left) + "px");
+  c.style.setProperty("--y", (e.clientY - r.top) + "px");
+}));
+
+setInterval(() => {
+  if (!S.auto) return;
+  left--;
+  if (left <= 0) load(true);
+  const m = String(Math.floor(Math.max(0, left) / 60)).padStart(2, "0");
+  const s = String(Math.max(0, left) % 60).padStart(2, "0");
+  $("#cd").textContent = m + ":" + s;
+}, 1000);
+
+load(false);
+</script>
+</body>
+</html>

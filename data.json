@@ -1,7 +1,7 @@
 {
- "updated": 1792787620023,
+ "updated": 1792797968288,
  "demo": false,
- "total_articles": 614,
+ "total_articles": 708,
  "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
@@ -12,7 +12,7 @@
   },
   {
    "n": "Al Jazeera",
-   "v": 54
+   "v": 51
   },
   {
    "n": "DW",
@@ -20,11 +20,11 @@
   },
   {
    "n": "France 24",
-   "v": 65
+   "v": 66
   },
   {
    "n": "The Guardian",
-   "v": 55
+   "v": 57
   },
   {
    "n": "Sky News",
@@ -32,7 +32,11 @@
   },
   {
    "n": "NPR",
-   "v": 65
+   "v": 62
+  },
+  {
+   "n": "UN News",
+   "v": 59
   },
   {
    "n": "CNBC",
@@ -48,7 +52,7 @@
   },
   {
    "n": "CBS News",
-   "v": 62
+   "v": 63
   },
   {
    "n": "ABC News",
@@ -60,15 +64,19 @@
   },
   {
    "n": "Fox News",
-   "v": 66
+   "v": 68
   },
   {
    "n": "ABC Australia",
-   "v": 40
+   "v": 41
   },
   {
    "n": "CNA",
-   "v": 44
+   "v": 43
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 63
   },
   {
    "n": "Africanews",
@@ -76,7 +84,7 @@
   },
   {
    "n": "Kyiv Independent",
-   "v": 54
+   "v": 51
   },
   {
    "n": "Yonhap",
@@ -84,7 +92,7 @@
   },
   {
    "n": "Nikkei Asia",
-   "v": 41
+   "v": 40
   },
   {
    "n": "The Diplomat",
@@ -96,11 +104,11 @@
   },
   {
    "n": "Times of India",
-   "v": 40
+   "v": 39
   },
   {
    "n": "The Hindu",
-   "v": 56
+   "v": 57
   },
   {
    "n": "Politico EU",
@@ -108,17 +116,25 @@
   },
   {
    "n": "Japan Times",
-   "v": 46
+   "v": 45
+  },
+  {
+   "n": "Reuters",
+   "v": 43
+  },
+  {
+   "n": "AP",
+   "v": 48
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 58
+   "v": 56
   },
   {
    "n": "Ближний Восток",
-   "v": 73
+   "v": 72
   },
   {
    "n": "Азия",
@@ -126,7 +142,7 @@
   },
   {
    "n": "Африка",
-   "v": 50
+   "v": 49
   },
   {
    "n": "Америка",
@@ -139,21 +155,23 @@
    "x": "Тридцать четыре человека также получили ранения в результате нападения в южной провинции Карак, и сейчас ведется розыск.",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 93,
-   "ten": 95,
-   "ago": 47,
+   "imp": 96,
+   "ten": 93,
+   "ago": 19,
    "s": [
     "BBC",
-    "Sky News",
+    "Al Jazeera",
     "NYT",
     "CBS News",
-    "The Hindu"
+    "The Hindu",
+    "Reuters",
+    "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd9e/live/bb37b200-cee8-11f1-b441-2b33b063138f.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 5,
+   "n": 7,
    "lat": 31.69,
    "lon": 36.28,
    "place": "Иордания",
@@ -163,245 +181,275 @@
    "x_en": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way."
   },
   {
-   "t": "Один человек убит, когда Елисей назвал стрельбу в районе Парижа «расистской террористической атакой»",
-   "x": "Прокуратура по борьбе с терроризмом расследует мотив нападения, в результате которого были серьезно ранены пятеро, в том числе 12-летняя девочка.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 86,
-   "ten": 88,
-   "ago": 9,
+   "t": "Тайфун Чампи обрушился на Тайвань, в результате чего один человек погиб и 350 получили ранения",
+   "x": "Власти предупреждают о «разрушительных ветрах» и призывают жителей укрыться, поскольку шторм проходит на северо-востоке острова.",
+   "r": "Азия",
+   "c": "Природа",
+   "imp": 90,
+   "ten": 48,
+   "ago": 15,
    "s": [
     "Al Jazeera",
-    "The Guardian",
-    "NYT"
+    "ABC News",
+    "CNA",
+    "Dawn"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/23/one-person-killed-in-suspected-islamophobic-shooting-near-paris?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/ed52b753a2b75c6d81fae075e1edfac4bc26ed44/438_0_4377_3502/master/4377.jpg?width=700&quality=85&auto=format&fit=max&s=b565fd58d89d60ae91f313483c401548",
-   "img_src": "The Guardian",
+   "u": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_8cf1c88611fc6ede98ebac11201f91cb_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": true,
-   "n": 3,
-   "lat": 48.98,
-   "lon": 2.56,
-   "place": "Париж",
-   "place_en": "Paris",
+   "n": 4,
+   "lat": 24.79,
+   "lon": 121.56,
+   "place": "Тайвань",
+   "place_en": "Taiwan",
    "id": 2,
-   "t_en": "One killed as Elysee calls Paris area shooting ‘racist, terrorist attack’",
-   "x_en": "Antiterrorism prosecutors investigating motive of attack that seriously wounded five, including a 12-year-old girl."
-  },
-  {
-   "t": "Украина заявляет, что Starlink все еще ограничен после того, как Трамп заявил, что ограничения сняты",
-   "x": "По словам источников, сеть используется украинскими военными, а Трамп говорит: «Если возникнет проблема, я ее улажу».",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 85,
-   "ten": 43,
-   "ago": 43,
-   "s": [
-    "BBC",
-    "CNBC",
-    "Times of India",
-    "The Hindu",
-    "Politico EU"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/271c/live/d171b6a0-cebc-11f1-a64c-550be9e3c66b.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 5,
-   "lat": 49.19,
-   "lon": 32.01,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 3,
-   "t_en": "Ukraine says Starlink still restricted after Trump says limits lifted",
-   "x_en": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\"."
-  },
-  {
-   "t": "Белый дом заявил, что Мелания Трамп выступила посредником в перемирии в украинском городе, «находящемся на грани катастрофы»",
-   "x": "Украина и Россия подтверждают перемирие в оккупированных Россией Олешках, жителям которых приходится питаться садовыми сорняками, чтобы выжить.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 84,
-   "ten": 21,
-   "ago": 31,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "The Guardian",
-    "CNBC",
-    "Kyiv Independent",
-    "Yonhap",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7099/live/5602f2d0-b770-11f1-a7b2-f3bdba1cd194.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 8,
-   "lat": 39.11,
-   "lon": -77.1,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 4,
-   "t_en": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-   "x_en": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive."
-  },
-  {
-   "t": "Нетаньяху взвешивает операцию на Западном Берегу перед выборами: «Политически это никому не поможет»",
-   "x": "В то время как Израиль приближается к очередным парламентским выборам на фоне возобновления насилия на оккупированном Западном Берегу, старший журналист «Едиот Ахронот» Бен-Дрор Йемини предлагает критическую оценку политических перспектив Биньямина Нетаньяху, пределов военного вмешательства.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 82,
-   "ten": 84,
-   "ago": 127,
-   "s": [
-    "France 24",
-    "NPR",
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/tv-shows/spotlight/20261023-netanyahu-weighs-west-bank-operation-ahead-of-elections-politically-it-will-not-help-anybody",
-   "img": "https://s.france24.com/media/display/5a830376-cf04-11f1-89ad-4d317af013fd/w:1024/p:16x9/EN-20261023-184343-185025-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": 32.0,
-   "lon": 35.35,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 5,
-   "t_en": "Netanyahu weighs West Bank operation ahead of elections: ‘Politically, it will not help anybody’",
-   "x_en": "As Israel approaches a consequential parliamentary election amid renewed violence in the occupied West Bank, Yedioth Ahronoth Senior Journalist Ben-Dror Yemini offers a critical assessment of Benjamin Netanyahu's political prospects, the limits of military esc"
+   "t_en": "Typhoon Champi hits Taiwan, killing one and injuring 350",
+   "x_en": "Authorities warn of 'destructive winds' and urge residents to shelter as the storm passes the island's northeast."
   },
   {
    "t": "Смертельная стрельба под Парижем — это «расистский теракт», заявил Макрон",
    "x": "В результате серии нападений один человек убит и пятеро ранены, а предполагаемый стрелок задержан.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 80,
-   "ten": 92,
-   "ago": 52,
+   "imp": 89,
+   "ten": 95,
+   "ago": 80,
    "s": [
     "BBC",
-    "France 24",
-    "Sky News"
+    "CBS News",
+    "Africanews",
+    "Reuters",
+    "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
-   "fresh": true,
-   "n": 4,
+   "fresh": false,
+   "n": 5,
    "lat": 48.63,
    "lon": 2.72,
    "place": "Париж",
    "place_en": "Paris",
-   "id": 6,
+   "id": 3,
    "t_en": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
    "x_en": "One person is killed and five wounded in a series of attacks and the suspected gunman has been apprehended."
   },
   {
-   "t": "Китай: Паника из-за землетрясения магнитудой 7,0 потрясло Тибет",
-   "x": "По данным Китайского центра сейсмических сетей, в 22:33 в четверг, 22 октября, мощное землетрясение магнитудой 7,0 произошло в уезде Бакен в Нагку, в Тибетском автономном районе на юго-западе Китая.",
-   "r": "Азия",
-   "c": "Природа",
-   "imp": 75,
-   "ten": 81,
-   "ago": 207,
+   "t": "Израиль приказал закрыть Западный Берег после того, как солдаты убили двух мужчин в результате предполагаемого нападения",
+   "x": "Израильские солдаты застрелили двух мужчин, которые, по словам военных, совершили нападение недалеко от города Хеврон на оккупированном Западном Берегу в пятницу утром. По меньшей мере пять человек получили ранения, некоторые из них находятся в критическом состоянии.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 86,
+   "ten": 92,
+   "ago": 96,
    "s": [
-    "Euronews",
-    "ABC News",
-    "Africanews",
-    "The Hindu"
+    "NPR",
+    "CBS News",
+    "The Hindu",
+    "AP"
    ],
-   "u": "https://www.euronews.com/video/2026/10/22/china-panic-as-70-magnitude-earthquake-rocks-tibet",
-   "img": "https://images.euronews.com/articles/stories/09/96/38/10/696x392_cmsv2_4f184246-ef10-5f7c-84b7-36aff58270f9-9963810.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.npr.org/2026/10/23/nx-s1-6013333/netanyahu-closure-west-bank",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb6%2F57%2F02b3f2a94bc8be8d87ea0b7696e6%2Fap26296215624787.jpg",
+   "img_src": "NPR",
    "fresh": false,
-   "n": 4,
-   "lat": 35.6,
-   "lon": 102.66,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 7,
-   "t_en": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
-   "x_en": "A powerful magnitude 7.0 earthquake struck Baqen County in Nagqu, in southwest China’s Tibet Autonomous Region, at 10.33 pm on Thursday 22 October, according to the China Earthquake Networks Center."
+   "n": 5,
+   "lat": 31.65,
+   "lon": 35.48,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 4,
+   "t_en": "Israel orders closure of West Bank after soldiers kill 2 men behind an alleged attack",
+   "x_en": "Israeli soldiers shot and killed two men who the military said had launched an attack near the city of Hebron in the occupied West Bank on Friday morning. At least five people were injured, including some critically."
   },
   {
-   "t": "Находящаяся в боевой готовности Сьюзен Коллинз объявляет об освобождении штата Мэн от пошлин Трампа в Канаде",
-   "x": "Республиканцу предстоит тяжелая борьба за переизбрание в штате, где торговая война Трампа с соседом вызвала возмущение Сьюзен Коллинз, сенатор-республиканец от штата Мэн, объявила, что несколько отраслей, имеющих решающее значение для ее штата, будут освобождены от американского тарифа",
+   "t": "Трамп снижает некоторые пошлины в Канаде, пытаясь поддержать Сьюзен Коллинз, находящуюся в боевой готовности в штате Мэн",
+   "x": "Сенатору-республиканцу предстоит решающая битва за переизбрание в штате, где торговая война президента возмутила избирателей. Дональд Трамп в пятницу снизил некоторые тарифы США на Канаду, чтобы «лучше служить общественным интересам», заявил Белый дом, отдав победу Сьюзан С.",
    "r": "Америка",
    "c": "Экономика",
-   "imp": 70,
-   "ten": 78,
-   "ago": 26,
+   "imp": 83,
+   "ten": 57,
+   "ago": 79,
    "s": [
     "The Guardian",
-    "CNBC"
+    "CNBC",
+    "Reuters",
+    "AP"
    ],
    "u": "https://www.theguardian.com/us-news/2026/oct/23/susan-collins-maine-trump-tariffs-canada",
    "img": "https://i.guim.co.uk/img/media/a656adaa305948099a0698f8410031bd96ebf2ff/261_0_2655_2125/master/2655.jpg?width=700&quality=85&auto=format&fit=max&s=bc92a2ee13be75ad2335c6e613f01a42",
    "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": 40.55,
+   "lon": -99.03,
+   "place": "США",
+   "place_en": "United States",
+   "id": 5,
+   "t_en": "Trump drops some Canada tariffs in bid to boost embattled Susan Collins in Maine",
+   "x_en": "Republican senator faces critical re-election battle in state where president’s trade war has outraged voters Donald Trump dropped some of the US’s tariffs on Canada on Friday to “better serve the public interest” the White House said, handing a win to Susan C"
+  },
+  {
+   "t": "Мелания Трамп помогла добиться прекращения огня в оккупированном Россией украинском городе, говорит Белый дом – как это произошло",
+   "x": "Жители Олешек переживают обостряющийся гуманитарный кризис из-за нехватки еды, электричества и других ресурсов. Премьер-министр Франции Себастьен Лекорню только что опубликовал заявление по поводу стрельбы в городе к западу от Парижа сегодня утром, где",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 20,
+   "ago": 57,
+   "s": [
+    "The Guardian",
+    "CNBC",
+    "CBS News",
+    "Yonhap",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
+   "img": "https://i.guim.co.uk/img/media/ace22324730cef3ddc927de0d454abf728aaa232/301_0_1414_1132/master/1414.jpg?width=700&quality=85&auto=format&fit=max&s=1a96764e0621b7c049a3772143cabb95",
+   "img_src": "The Guardian",
    "fresh": true,
-   "n": 2,
-   "lat": 40.09,
-   "lon": -97.78,
+   "n": 6,
+   "lat": 39.18,
+   "lon": -77.03,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 6,
+   "t_en": "Melania Trump has helped broker ceasefire in Russian-occupied Ukrainian town, says White House – as it happened",
+   "x_en": "Residents in Oleshky have been enduring a worsening humanitarian crisis due to the lack of food, electricity and other resources The French prime minister Sébastien Lecornu has just issued a statement on a shooting in a town west of Paris this morning where on"
+  },
+  {
+   "t": "Россия и Украина договорились о локальном прекращении огня при посредничестве Мелании Трамп",
+   "x": "Президент Трамп утверждает, что именно инициатива первой леди Мелании Трамп привела к прекращению огня в Олешках.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 26,
+   "ago": 61,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "Kyiv Independent",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/23/russia-ukraine-agree-to-melania-trump-brokered-localised-ceasefire?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/ace22324730cef3ddc927de0d454abf728aaa232/301_0_1414_1132/master/1414.jpg?width=700&quality=85&auto=format&fit=max&s=1a96764e0621b7c049a3772143cabb95",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 6,
+   "lat": 61.84,
+   "lon": 94.46,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 7,
+   "t_en": "Russia, Ukraine agree to Melania Trump-brokered localised ceasefire",
+   "x_en": "President Trump says it was First Lady Melania Trump’s initiative that led to a ceasefire in Oleshky."
+  },
+  {
+   "t": "Трамп говорит, что он приказал Министерству юстиции заблокировать сертификацию Сената Аляски по гонкам, если республиканец проиграет",
+   "x": "В бюллетенях для голосования в Сенате на Аляске фигурируют два Дэна Салливана. Министерство юстиции заявляет, что этот факт может помочь кандидату от Демократической партии Мэри Пелтоле победить их обоих.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 79,
+   "ten": 40,
+   "ago": 90,
+   "s": [
+    "CNBC",
+    "Times of India",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
+   "img": "https://static.toiimg.com/photo/msid-135150857,imgsize-1516189.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.1,
+   "lon": -98.03,
    "place": "США",
    "place_en": "United States",
    "id": 8,
-   "t_en": "Embattled Susan Collins announces exemptions for Maine from Trump Canada tariffs",
-   "x_en": "Republican facing tough re-election battle in state where Trump’s trade war with neighbor has stirred outrage Susan Collins, the embattled Republican senator for Maine, announced that several industries crucial to her state would be exempted from American tari"
+   "t_en": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
+   "x_en": "There are two Dan Sullivans on the ballot in the Senate race in Alaska. The DOJ says that fact could help Democratic nominee Mary Peltola defeat both of them."
   },
   {
-   "t": "Россия и Украина обмениваются новыми ударами, несмотря на возобновившееся стремление к мирным переговорам при посредничестве США",
-   "x": "И Путин, и Зеленский заявили в четверг, что они открыты для мирных переговоров, даже несмотря на то, что они продолжили забастовки в одночасье.",
+   "t": "Макрон осуждает расизм после того, как один человек погиб в результате «террористической» стрельбы под Парижем",
+   "x": "Вооруженный мужчина открыл огонь из автомобиля в Траппе и Верьере, убив одного и ранив еще пятерых, в том числе 12-летнюю девочку Эммануэль Макрон осудил расизм во французском обществе после того, как в пятницу боевик открыл огонь из автомобиля к западу от Парижа, убив одного человека, воу",
    "r": "Европа",
-   "c": "Политика",
-   "imp": 70,
-   "ten": 18,
-   "ago": 48,
-   "s": [
-    "CNBC",
-    "Africanews",
-    "Kyiv Independent"
-   ],
-   "u": "https://www.cnbc.com/2026/10/23/russia-ukraine-strikes-peace-talks.html",
-   "img": "https://images.euronews.com/articles/stories/09/96/47/19/640x360_cmsv2_265262eb-962a-50e2-b619-14b2529ecfc9-9964719.jpg?1792754414",
-   "img_src": "Africanews",
-   "fresh": true,
-   "n": 3,
-   "lat": 60.79,
-   "lon": 95.08,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 9,
-   "t_en": "Russia and Ukraine trade fresh strikes despite renewed push for U.S.-brokered peace talks",
-   "x_en": "Both Putin and Zelenskyy said Thursday they were open for peace negotiations, even as they continued strikes overnight."
-  },
-  {
-   "t": "Герцогиня Сассекская «глубоко обеспокоена» обвинениями в сексуальном насилии над детьми против отца",
-   "x": "Меган рассказала, что в 2018 году полиция Меган сообщила ей о «тревожных обвинениях» против него. Герцогиня Сассекская заявила, что она «глубоко расстроена» обвинениями, связанными с изображениями сексуального насилия над детьми, против ее отчужденного отца Томаса Маркла-старшего и ее отца.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 70,
-   "ten": 40,
-   "ago": 76,
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 88,
+   "ago": 101,
    "s": [
     "The Guardian",
-    "NYT",
-    "CBS News"
+    "Sky News",
+    "NYT"
    ],
-   "u": "https://www.theguardian.com/uk-news/2026/oct/23/meghan-duchess-of-sussex-distressed-child-sexual-abuse-image-claims-against-father",
-   "img": "https://i.guim.co.uk/img/media/cb82f430a06dc8d31acbdb8d325a697d131baec9/41_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=cfe61c6f581383a1ee171549693de4d9",
+   "u": "https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris",
+   "img": "https://i.guim.co.uk/img/media/ed52b753a2b75c6d81fae075e1edfac4bc26ed44/438_0_4377_3502/master/4377.jpg?width=700&quality=85&auto=format&fit=max&s=b565fd58d89d60ae91f313483c401548",
    "img_src": "The Guardian",
    "fresh": false,
    "n": 3,
-   "lat": 13.49,
-   "lon": 123.99,
-   "place": "Филиппины",
-   "place_en": "Philippines",
+   "lat": 48.91,
+   "lon": 2.12,
+   "place": "Париж",
+   "place_en": "Paris",
+   "id": 9,
+   "t_en": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris",
+   "x_en": "Gunman opens fire from car in Trappes and Verrière, killing one and injuring five others, including a 12-year-old girl Emmanuel Macron has condemned racism in French society after a gunman opened fire from a car west of Paris on Friday, killing one person, wou"
+  },
+  {
+   "t": "Тренер «Баварии» Компани госпитализирован после потери сознания во время тренировки",
+   "x": "В последние дни бельгиец перенес вирус и пропустил некоторые тренировки своей команды.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 74,
+   "ten": 44,
+   "ago": 155,
+   "s": [
+    "Al Jazeera",
+    "Sky News",
+    "ABC Australia",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/sports/2026/10/23/bayern-coach-kompany-taken-to-hospital-after-collapsing-during-training?traffic_source=rss",
+   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-vincent-kompany-bayern-munich_7384916.jpg?20261023191749",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 4,
+   "lat": 51.44,
+   "lon": 5.91,
+   "place": "Бельгия",
+   "place_en": "Belgium",
    "id": 10,
-   "t_en": "Duchess of Sussex ‘deeply distressed’ over child sexual abuse image claims against father",
-   "x_en": "Meghan reveals she was made aware of ‘disturbing allegations’ against him in 2018 by Met police The Duchess of Sussex has said she is “deeply distressed” over accusations involving child sexual abuse images against her estranged father, Thomas Markle Sr, and r"
+   "t_en": "Bayern coach Kompany taken to hospital after collapsing during training",
+   "x_en": "The Belgian had been ​nursing a virus in recent days and had ⁠missed some of his team's training sessions."
+  },
+  {
+   "t": "Иран планирует атаковать подводные кабели Персидского залива в случае повторного нападения, заявляют официальные лица",
+   "x": "Тегеран разработал подробные планы по атаке подводных кабелей связи в Персидском заливе, если США и Израиль снова нападут на Иран, сообщили Reuters два высокопоставленных представителя иранской службы безопасности. Говоря на условиях анонимности, чиновники сообщили мало подробностей.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 77,
+   "ago": 129,
+   "s": [
+    "Middle East Eye",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-has-plans-target-gulf-undersea-cables-if-attacked-again-officials",
+   "img": "https://th-i.thgim.com/public/incoming/tfbgwq/article71617798.ece/alternates/LANDSCAPE_1200/2025-12-31T182148Z_1690850205_RC2URIAT6R8C_RTRMADP_3_FINLAND-SECURITY.JPG",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": 33.01,
+   "lon": 53.41,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 11,
+   "t_en": "Iran has plans to target Gulf undersea cables if attacked again, officials say",
+   "x_en": "Tehran has drawn up detailed plans to target undersea communications cables in the Gulf if the United States and Israel attack Iran again, two senior Iranian security officials told Reuters. Speaking on condition of anonymity, the officials gave few details an"
   },
   {
    "t": "Отношения Японии и России ослабляются из-за того, что журналист сидит в московской тюрьме",
@@ -424,36 +472,64 @@
    "lon": 38.21,
    "place": "Москва",
    "place_en": "Moscow",
-   "id": 11,
+   "id": 12,
    "t_en": "Japan-Russia ties erode as journalist sits in Moscow jail",
    "x_en": "Japan is demanding access to a journalist who was arrested by Russian security services. The Kremlin claims that Japan is using journalists as spies."
   },
   {
-   "t": "Подозреваемый арестован после того, как один убит и четверо ранены в результате стрельбы в пригороде Парижа",
-   "x": "В пятницу в пригороде Парижа боевик убил одного человека и ранил еще нескольких, в том числе 12-летнюю девочку, в результате нападения, которое, как подозревают французские власти, могло быть нападением на расовой почве.",
+   "t": "Бывшим сотрудникам ФБР предъявлены обвинения по делу о ноутбуке Хантера Байдена",
+   "x": "Адвокаты двух обвиняемых чиновников говорят, что Министерство юстиции стремится возобновить скандал в преддверии промежуточных выборов.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 69,
+   "ten": 40,
+   "ago": 204,
+   "s": [
+    "Al Jazeera",
+    "CNBC",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/23/former-fbi-officials-charged-in-connection-with-hunter-biden-laptop-probe?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6adb908aea066-1792774282.jpg?resize=1858%2C1080",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.31,
+   "lon": -99.73,
+   "place": "США",
+   "place_en": "United States",
+   "id": 13,
+   "t_en": "Former FBI officials charged in connection with Hunter Biden laptop probe",
+   "x_en": "Lawyers for two accused officials say Department of Justice seeking to revive scandal in the run-up to midterm vote."
+  },
+  {
+   "t": "Украина заявляет, что Starlink все еще ограничен после того, как Трамп заявил, что ограничения сняты",
+   "x": "По словам источников, сеть используется украинскими военными, а Трамп говорит: «Если возникнет проблема, я ее улажу».",
    "r": "Европа",
    "c": "Конфликты",
    "imp": 69,
-   "ten": 95,
-   "ago": 354,
+   "ten": 43,
+   "ago": 216,
    "s": [
-    "France 24",
-    "CBS News",
-    "Africanews",
-    "The Hindu"
+    "BBC",
+    "CNBC",
+    "Times of India",
+    "The Hindu",
+    "Politico EU"
    ],
-   "u": "https://www.france24.com/en/suspect-arrested-after-1-killed-and-4-wounded-in-a-shooting-in-paris-suburb",
-   "img": "https://s.france24.com/media/display/bba2647a-ceec-11f1-9b05-bdb9616e85cf/w:1024/p:16x9/EN-20261023-160059-160614-CS.jpg",
-   "img_src": "France 24",
+   "u": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/271c/live/d171b6a0-cebc-11f1-a64c-550be9e3c66b.jpg",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 4,
-   "lat": 48.97,
-   "lon": 2.62,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 12,
-   "t_en": "Suspect arrested after 1 killed and 4 wounded in a shooting in Paris suburb",
-   "x_en": "A gunman firing from a vehicle in a Paris suburb Friday killed one person and wounded several others, including a 12-year-old girl, in what French authorities suspect may have been a racially motivated attack."
+   "n": 5,
+   "lat": 49.19,
+   "lon": 32.01,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 14,
+   "t_en": "Ukraine says Starlink still restricted after Trump says limits lifted",
+   "x_en": "The network is used by the Ukrainian military, sources say, and Trump says \"if there is a problem, I'll get it straightened out\"."
   },
   {
    "t": "Nippon Steel потратит $3 млрд на сталелитейный завод в США, чтобы обновить 90-летний завод",
@@ -476,189 +552,136 @@
    "lon": -98.79,
    "place": "США",
    "place_en": "United States",
-   "id": 13,
+   "id": 15,
    "t_en": "Nippon Steel to spend $3bn on U.S. Steel plant to update 90-year-old mill",
    "x_en": "The project is expected to be the largest under Nippon Steel's commitment to invest $11 billion by 2028."
   },
   {
-   "t": "Трамп говорит, что он приказал Министерству юстиции заблокировать сертификацию Сената Аляски по гонкам, если республиканец проиграет",
-   "x": "В бюллетенях для голосования в Сенате на Аляске фигурируют два Дэна Салливана. Министерство юстиции заявляет, что этот факт может помочь кандидату от Демократической партии Мэри Пелтоле победить их обоих.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 40,
-   "ago": 13,
-   "s": [
-    "CNBC",
-    "Times of India"
-   ],
-   "u": "https://www.cnbc.com/2026/10/23/alaska-senate-election-doj-lawsuit-sullivan.html",
-   "img": "https://static.toiimg.com/photo/msid-135150857,imgsize-1516189.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.1,
-   "lon": -98.03,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "Trump says he ordered DOJ suit to block Alaska Senate race certification if Republican loses",
-   "x_en": "There are two Dan Sullivans on the ballot in the Senate race in Alaska. The DOJ says that fact could help Democratic nominee Mary Peltola defeat both of them."
-  },
-  {
-   "t": "Освобожденного гражданина США пытали в российской тюрьме, рассказали бывшие украинские заключенные",
-   "x": "Украинцы, находившиеся рядом с американцем, говорят, что были свидетелями избиений и сексуальных унижений со стороны российских охранников во время его задержания.",
-   "r": "Америка",
+   "t": "США могут нанести удар по Ирану в эти выходные, заявил посол",
+   "x": "Соединенные Штаты могут нанести удар по Ирану уже в эти выходные, заявил в пятницу посланник США, после усиления угроз со стороны Вашингтона и Израиля на этой неделе. \"Может ли быть забастовка в эти выходные? Абсолютно\", - Том Баррак, посол США в Турции и специальный посланник.",
+   "r": "Ближний Восток",
    "c": "Конфликты",
    "imp": 67,
-   "ten": 48,
-   "ago": 15,
+   "ten": 84,
+   "ago": 63,
    "s": [
-    "BBC",
-    "CBS News"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cx7vpmn6qzmlo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9844/live/e91cc740-cf1b-11f1-9796-954775b3a434.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.6,
-   "lon": -98.94,
-   "place": "США",
-   "place_en": "United States",
-   "id": 15,
-   "t_en": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
-   "x_en": "Ukrainians held alongside the American say they witnessed beatings and sexual humiliation by Russian guards during his detention."
-  },
-  {
-   "t": "Румыния обвинила Россию в потоплении корабля в Черном море беспилотником",
-   "x": "Один моряк погиб и трое пропали без вести в результате удара корабля «Хорив» под флагом Коморских островов вблизи румынских вод.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 91,
-   "ago": 187,
-   "s": [
-    "Al Jazeera",
-    "Kyiv Independent",
+    "Middle East Eye",
     "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/23/romania-blames-russia-after-drone-sinks-ship-in-the-black-sea?traffic_source=rss",
-   "img": "https://assets.kyivindependent.com/content/images/2026/10/Screenshot-2026-10-23-at-4_09_58-PM_20261023-131951.png",
-   "img_src": "Kyiv Independent",
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-could-strike-iran-weekend-envoy-says",
+   "img": "https://th-i.thgim.com/public/incoming/rbsszz/article71617956.ece/alternates/LANDSCAPE_1200/Lebanon_US_56231.jpg",
+   "img_src": "The Hindu",
    "fresh": false,
-   "n": 3,
-   "lat": 43.34,
-   "lon": 34.08,
-   "place": "Чёрное море",
-   "place_en": "Black Sea",
+   "n": 2,
+   "lat": 38.77,
+   "lon": -98.5,
+   "place": "США",
+   "place_en": "United States",
    "id": 16,
-   "t_en": "Romania blames Russia after drone sinks ship in the Black Sea",
-   "x_en": "One sailor killed and three others missing after Comoros-flagged Khoryv hit near Romanian waters."
+   "t_en": "US could strike Iran this weekend, envoy says",
+   "x_en": "The United States could strike Iran as soon as this weekend, a US envoy said on Friday, after mounting threats by both Washington and Israel this week. “Could there be a strike this weekend? Absolutely,” Tom Barrack, the US ambassador to Turkey and special env"
   },
   {
-   "t": "Многие опасались, что оказались в ловушке после обрушения многоэтажного дома в Кении",
-   "x": "Чиновники утверждают, что здание в районе Истли Найроби не имело свидетельства о приеме на работу, но первый этаж использовался.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 72,
-   "ago": 165,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/23/many-feared-trapped-after-multistorey-building-collapses-in-kenya?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/US/nairobi-1-gty-gmh-261023_1792765584296_hpMain_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": 0.97,
-   "lon": 37.6,
-   "place": "Кения",
-   "place_en": "Kenya",
-   "id": 17,
-   "t_en": "Many feared trapped after multistorey building collapses in Kenya",
-   "x_en": "Officials say building in Nairobi's Eastleigh area had no occupation certificate, but ground floor was in use."
-  },
-  {
-   "t": "Повстанцев Тыграя призывают разоружиться, поскольку командующий клянется сражаться с правительством Эфиопии",
-   "x": "Командир повстанцев пообещал продолжать борьбу с союзными с правительством силами, захватившими столицу Эфиопии Тыграй.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 38,
-   "s": [
-    "Al Jazeera",
-    "ABC News"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/23/tigray-official-urges-rebels-to-disarm?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_64ef30aae97ed3bea93481875f8de45c_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": 13.7,
-   "lon": 39.65,
-   "place": "Тыграй",
-   "place_en": "Tigray",
-   "id": 18,
-   "t_en": "Tigray rebels urged to disarm as commander vows to fight Ethiopia’s gov’t",
-   "x_en": "Rebel commander pledged to continue fighting government-allied forces who seized Ethiopia's Tigray capital."
-  },
-  {
-   "t": "Мелания Трамп помогла добиться прекращения огня в оккупированном Россией украинском городе, говорит Белый дом – как это произошло",
-   "x": "Жители Олешек переживают обостряющийся гуманитарный кризис из-за нехватки еды, электричества и других ресурсов. Премьер-министр Франции Себастьен Лекорню только что опубликовал заявление по поводу стрельбы в городе к западу от Парижа сегодня утром, где",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 32,
-   "ago": 42,
-   "s": [
-    "The Guardian",
-    "CBS News"
-   ],
-   "u": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-   "img": "https://i.guim.co.uk/img/media/ace22324730cef3ddc927de0d454abf728aaa232/301_0_1414_1132/master/1414.jpg?width=700&quality=85&auto=format&fit=max&s=1a96764e0621b7c049a3772143cabb95",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.42,
-   "lon": -98.48,
-   "place": "США",
-   "place_en": "United States",
-   "id": 19,
-   "t_en": "Melania Trump has helped broker ceasefire in Russian-occupied Ukrainian town, says White House – as it happened",
-   "x_en": "Residents in Oleshky have been enduring a worsening humanitarian crisis due to the lack of food, electricity and other resources The French prime minister Sébastien Lecornu has just issued a statement on a shooting in a town west of Paris this morning where on"
-  },
-  {
-   "t": "В Тибете произошло мощное землетрясение, в результате которого погибли 16 человек",
-   "x": "Землетрясение произошло в гористой, малонаселенной местности в том, что Китай называет Тибетским автономным районом.",
+   "t": "Китай: Паника из-за землетрясения магнитудой 7,0 потрясло Тибет",
+   "x": "По данным Китайского центра сейсмических сетей, в 22:33 в четверг, 22 октября, мощное землетрясение магнитудой 7,0 произошло в уезде Бакен в Нагку, в Тибетском автономном районе на юго-западе Китая.",
    "r": "Азия",
    "c": "Природа",
-   "imp": 61,
-   "ten": 90,
-   "ago": 760,
+   "imp": 66,
+   "ten": 81,
+   "ago": 379,
    "s": [
-    "BBC",
-    "The Guardian",
     "Euronews",
-    "NYT",
-    "CBS News"
+    "ABC News",
+    "Africanews",
+    "The Hindu"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d9bb/live/35523df0-ce6f-11f1-a64c-550be9e3c66b.jpg",
-   "img_src": "BBC",
+   "u": "https://www.euronews.com/video/2026/10/22/china-panic-as-70-magnitude-earthquake-rocks-tibet",
+   "img": "https://images.euronews.com/articles/stories/09/96/38/10/696x392_cmsv2_4f184246-ef10-5f7c-84b7-36aff58270f9-9963810.jpg",
+   "img_src": "Euronews",
    "fresh": false,
-   "n": 5,
-   "lat": 35.62,
-   "lon": 103.29,
+   "n": 4,
+   "lat": 35.6,
+   "lon": 102.66,
    "place": "Китай",
    "place_en": "China",
+   "id": 17,
+   "t_en": "China: Panic as 7.0-magnitude earthquake rocks Tibet",
+   "x_en": "A powerful magnitude 7.0 earthquake struck Baqen County in Nagqu, in southwest China’s Tibet Autonomous Region, at 10.33 pm on Thursday 22 October, according to the China Earthquake Networks Center."
+  },
+  {
+   "t": "Трамп: США могут начать еще одну военную операцию против Ирана",
+   "x": "Президент США Дональд Трамп заявил на митинге во Флориде в пятницу, что Вашингтон может начать еще одну военную операцию против Ирана. Ранее в тот же день его спросили о комментариях посла США в Турции Тома Барака, который сказал, что США могут «абсолютно» нанести удар по Ирану, поскольку",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 65,
+   "ten": 46,
+   "ago": 131,
+   "s": [
+    "Middle East Eye",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-us-could-launch-another-military-operation-against-iran",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/israel-westbank-palestine-demolition.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": false,
+   "n": 3,
+   "lat": 38.29,
+   "lon": -99.06,
+   "place": "США",
+   "place_en": "United States",
+   "id": 18,
+   "t_en": "Trump: US could launch another military operation against Iran",
+   "x_en": "US President Donald Trump told a rally in Florida on Friday that Washington might launch another military operation against Iran. Earlier in the day, asked about comments by US Ambassador to Turkey Tom Barrack, who said the US could “absolutely” strike Iran as"
+  },
+  {
+   "t": "Израильские военные обстреливают города и деревни на юге Ливана",
+   "x": "Израильские военные обстреляли южный ливанский муниципалитет Хиам, города Заутар аль-Шаркия и Майфадун, а также деревни Барашит, Мадждал Зун и Кантара, сообщило официальное Национальное агентство новостей (ННА). Агентство сообщило, что Израиль",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 74,
+   "ago": 6,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-shells-southern-lebanon-towns-and-villages",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/israel-westbank-palestine-demolition.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 31.33,
+   "lon": 35.54,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 19,
+   "t_en": "Israeli military shells southern Lebanon towns and villages",
+   "x_en": "Israeli military has shelled the southern Lebanese municipality of Khiam, towns of Zawtar al-Sharqiyah and Mayfadoun, as well as the villages of Barashit, Majdal Zoun and Qantara, the official National News Agency (NNA) reported. The agency reported that Israe"
+  },
+  {
+   "t": "Венгрия: спустя 70 лет после подавления советских властей лидеры чтят жертв восстания",
+   "x": "Спустя семьдесят лет после восстания 1956 года в Венгрии против советской власти премьер-министр Петер Мадьяр почтил память его жертв, а Урсула фон дер Ляйен подчеркнула важность свободы и демократии.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 61,
+   "ten": 57,
+   "ago": 79,
+   "s": [
+    "Euronews",
+    "Africanews"
+   ],
+   "u": "https://www.euronews.com/video/2026/10/24/hungary-70-years-after-soviet-crackdown-leaders-honour-uprising-victims",
+   "img": "https://images.euronews.com/articles/stories/09/96/51/79/696x392_cmsv2_1d7824de-f72d-5f60-8bca-f9d862793871-9965179.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 2,
+   "lat": 46.23,
+   "lon": 18.55,
+   "place": "Венгрия",
+   "place_en": "Hungary",
    "id": 20,
-   "t_en": "Powerful earthquake hits Tibet killing 16 people, reports say",
-   "x_en": "The quake hit a mountainous, sparsely-populated area in what China calls the Tibet Autonomous Region."
+   "t_en": "Hungary: 70 years after Soviet crackdown, leaders honour uprising victims",
+   "x_en": "Seventy years after Hungary's 1956 uprising against Soviet rule, Prime Minister Péter Magyar paid tribute to its victims as Ursula von der Leyen highlighted the importance of freedom and democracy."
   },
   {
    "t": "Генеральный директор Moderna рассматривает партнерство с Китаем, несмотря на геополитическую напряженность",
@@ -757,81 +780,6 @@
    "x_en": ""
   },
   {
-   "t": "Владельцы магазинов в Париже готовятся к протестам",
-   "x": "В этом месяце тысячи предприятий подверглись вандализму или разграблению в ходе жестоких антиправительственных протестов. Владельцы магазинов в Париже готовятся к следующей крупной акции протеста, которая состоится в субботу.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 66,
-   "ago": 9,
-   "s": [
-    "NPR"
-   ],
-   "u": "https://www.npr.org/2026/10/23/nx-s1-6012392/paris-shopkeepers-brace-for-protests",
-   "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
-   "img_src": "NPR (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 48.87,
-   "lon": 2.86,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 25,
-   "t_en": "Paris shopkeepers brace for protests",
-   "x_en": "Thousands of businesses have been vandalized or looted in violent anti-government protests this month. Shopkeepers in Paris are bracing for the next big protest, due to take place on Saturday."
-  },
-  {
-   "t": "Израиль блокирует оккупированный Западный Берег после стрельбы в Хевроне",
-   "x": "Израиль ввел карантин на оккупированном Западном Берегу после того, как в результате стрельбы недалеко от Хеврона погибли два израильских солдата.",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 60,
-   "ten": 82,
-   "ago": 115,
-   "s": [
-    "Al Jazeera",
-    "CBS News"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/23/israel-locks-down-occupied-west-bank-after-hebron-shooting?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1792780659.jpg?resize=1920%2C1080&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 3,
-   "lat": 32.05,
-   "lon": 35.13,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 26,
-   "t_en": "Israel locks down occupied West Bank after Hebron shooting",
-   "x_en": "Israel has imposed a lockdown across the occupied West Bank after a shooting near Hebron killed two Israeli soldiers."
-  },
-  {
-   "t": "Британские дети с такой же вероятностью пострадали в социальных сетях, несмотря на репрессии",
-   "x": "Участники кампании называют отсутствие прогресса «ошеломляющим», поскольку Ofcom также признает незначительные изменения в серьезности вреда, наносимого детям, сталкивающимся с небезопасным контентом. Значимые меры онлайн-безопасности не смогли ограничить долю детей, страдающих от социальных сетей,",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 46,
-   "ago": 208,
-   "s": [
-    "The Guardian",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.theguardian.com/society/2026/oct/23/uk-children-just-as-likely-to-have-suffered-harm-on-social-media-despite-crackdown-ofcom-online-safety-act",
-   "img": "https://i.guim.co.uk/img/media/d8ca7107a32ae75c0414d1c2341b3ee1dd62c0ff/761_0_6147_4918/master/6147.jpg?width=700&quality=85&auto=format&fit=max&s=419bc524836477cdb24cd5dac74efacb",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 54.51,
-   "lon": -0.63,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 27,
-   "t_en": "UK children just as likely to have suffered harm on social media despite crackdown",
-   "x_en": "Campaigners call lack of progress ‘staggering’, as Ofcom also admits little change in severity of harm to children encountering unsafe content Landmark online safety measures have failed to limit the proportion of children suffering harm from social media, the"
-  },
-  {
    "t": "Обнаруженные ИИ недостатки безопасности PHP нарушают работу веб-сайтов и вызывают предупреждения по всей Азии",
    "x": "",
    "r": "Азия",
@@ -851,58 +799,59 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 28,
+   "id": 25,
    "t_en": "AI-detected PHP security flaws disrupt websites, spark warnings across Asia",
    "x_en": ""
   },
   {
-   "t": "Полицейский Индианы арестован за использование камер Flock для обыска жены",
-   "x": "Джастину Крейгу предъявлено обвинение в должностных нарушениях и мошенничестве после обыска номеров жены и «предыдущего знакомого» Офицер полиции Индианы был арестован по обвинению в том, что он сотни раз злоупотреблял камерами Flock в деле, касающемся его жены и пиара",
-   "r": "Мир",
-   "c": "Общее",
+   "t": "Рамасвами обвиняет Эктона во «лжи» по поводу рекламы с нападениями, но протоколы суда противоречат утверждениям матери – в прямом эфире",
+   "x": "В предвыборной рекламе Вивека Рамасвами изображена бывшая мать демократа Эми Эктон, обвиняющая ее во лжи о своем детстве, но копия ордера на арест 1978 года предполагает, что Эктон сказал правду. Подпишитесь на рассылку новостей в США.",
+   "r": "Америка",
+   "c": "Конфликты",
    "imp": 58,
-   "ten": 57,
-   "ago": 14,
+   "ten": 66,
+   "ago": 20,
    "s": [
     "The Guardian"
    ],
-   "u": "https://www.theguardian.com/us-news/2026/oct/23/indiana-police-arrest-flock-wife",
-   "img": "https://i.guim.co.uk/img/media/90cab358e839784729417f9695e4a77259151919/667_0_6674_5342/master/6674.jpg?width=700&quality=85&auto=format&fit=max&s=6296c337f507a785fddfdd5006e5b7f7",
+   "u": "https://www.theguardian.com/us-news/live/2026/oct/23/trump-florida-midterms-ramaswamy-latest-updates",
+   "img": "https://i.guim.co.uk/img/media/77c6a34aa2bb900afbbf02ed944afabb76c49ad9/541_0_4553_3645/master/4553.jpg?width=700&quality=85&auto=format&fit=max&s=3ea08daafbe9ba12748293f5bbaf01ed",
    "img_src": "The Guardian",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 29,
-   "t_en": "Indiana police officer arrested for using Flock cameras to search wife",
-   "x_en": "Justin Craig charged with official misconduct and fraud, after searching plates of wife and ‘previous acquaintance’ An Indiana police officer has been arrested on allegations that he misused Flock cameras hundreds of times in a case involving his wife and a pr"
+   "lat": 38.96,
+   "lon": -99.79,
+   "place": "США",
+   "place_en": "United States",
+   "id": 26,
+   "t_en": "Ramaswamy accuses Acton of ‘lying’ about attack ad, but court records contradict mother’s claim – live",
+   "x_en": "Vivek Ramaswamy campaign ad features Democrat Amy Acton’s estranged mother accusing her of lying about her childhood, but a copy of a 1978 arrest warrant suggests Acton told the truth Sign up for the Breaking News US email With less than two weeks until the mi"
   },
   {
-   "t": "Девушку обвиняют в том, что она помогала России убивать украинских солдат ядом",
-   "x": "После получения посылок с «бесплатными наркотиками» солдатам было «приказано снимать их на камеру», сообщили в полиции.",
-   "r": "Европа",
-   "c": "Общее",
+   "t": "Спустя почти 6 лет сын бывшего лидера Мьянмы Аун Сан Су Чжи слышит ее голос",
+   "x": "Ким Арис рассказал NPR, что его мать выглядит сильной, но ей больно. По его словам, она содержится по месту жительства в столице.",
+   "r": "Азия",
+   "c": "Конфликты",
    "imp": 58,
    "ten": 57,
-   "ago": 99,
+   "ago": 244,
    "s": [
-    "CBS News",
-    "The Hindu"
+    "NPR",
+    "ABC News",
+    "The Diplomat"
    ],
-   "u": "https://www.cbsnews.com/news/teen-girl-accused-helping-russia-kill-ukraine-soldiers-poison/",
-   "img": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/23/4ec2917a-ec04-498a-a69d-e2d8d11ab783/thumbnail/1200x630g2/77e7d885446ec588f36e64f70d318647/gettyimages-2278401127.jpg",
-   "img_src": "CBS News (og)",
+   "u": "https://www.npr.org/2026/10/23/nx-s1-6012784/aung-san-suu-kyi-son-phone-call-myanmar",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1970x1315+0+0/resize/1970x1315!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2F73%2Fe0e4397e4a9ba73597410c39c2f9%2Fap26295398182626.jpg",
+   "img_src": "NPR",
    "fresh": false,
-   "n": 2,
-   "lat": 47.99,
-   "lon": 30.99,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 30,
-   "t_en": "Girl accused of helping Russia kill Ukrainian soldiers with poison",
-   "x_en": "After receiving packages with \"free drugs,\" the soldiers were \"instructed to take them on camera,\" police said."
+   "n": 3,
+   "lat": 22.22,
+   "lon": 95.46,
+   "place": "Мьянма",
+   "place_en": "Myanmar",
+   "id": 27,
+   "t_en": "After nearly 6 years, ex-Myanmar leader Aung San Suu Kyi's son hears her voice",
+   "x_en": "Kim Aris tells NPR his mother sounds strong but is in pain. He says she is held at a residence in the capital."
   },
   {
    "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
@@ -924,7 +873,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 31,
+   "id": 28,
    "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
    "x_en": ""
   },
@@ -948,7 +897,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 32,
+   "id": 29,
    "t_en": "Dream Big with a Home Equity Loan",
    "x_en": ""
   },
@@ -972,7 +921,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 33,
+   "id": 30,
    "t_en": "Experts: this is the best cash back card of 2022",
    "x_en": ""
   },
@@ -996,7 +945,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 34,
+   "id": 31,
    "t_en": "It's official: now avoid credit card interest into 2024",
    "x_en": ""
   },
@@ -1020,56 +969,8 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 35,
+   "id": 32,
    "t_en": "0% intro APR until 2024 is 100% insane",
-   "x_en": ""
-  },
-  {
-   "t": "Цены на пальмовое масло в следующем году останутся высокими из-за засухи в Юго-Восточной Азии",
-   "x": "",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/commodities/palm-oil-prices-to-stay-high-next-year-on-southeast-asia-drought",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F8%2F6%2F1%2F13331683-2-eng-GB%2F5eb9859a636c-2025-08-04T005913Z_1847488640_RC2DHEAO79KF_RTRMADP_3_GLOBAL-PALMOIL-REPLANTING.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 36,
-   "t_en": "Palm oil prices to stay high next year on Southeast Asia drought",
-   "x_en": ""
-  },
-  {
-   "t": "Японский стартап рекламирует ИИ для автопроизводителей, чтобы соответствовать темпам разработки автомобилей в Китае",
-   "x": "",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/japan-startup-touts-ai-for-automakers-to-match-chinese-car-development-pace",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F4%2F3%2F4%2F13344345-1-eng-GB%2F71076879f95b-1gg.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.44,
-   "lon": 138.5,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 37,
-   "t_en": "Japan startup touts AI for automakers to match Chinese car development pace",
    "x_en": ""
   },
   {
@@ -1084,15 +985,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/business/business-asia/china-s-medtech-scores-bright-prognosis-as-it-gains-on-global-brands",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F9%2F6%2F3%2F13333690-1-eng-GB%2Fa202b0e5c7f8-20261021-BA-China-medtech-illustration-img.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 35.37,
    "lon": 103.75,
    "place": "Китай",
    "place_en": "China",
-   "id": 38,
+   "id": 33,
    "t_en": "China's medtech scores bright prognosis as it gains on global brands",
    "x_en": ""
   },
@@ -1108,15 +1009,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/politics/international-relations/krill-fishing-and-the-shifting-order-at-the-bottom-of-the-world",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F2%2F6%2F7%2F13347623-1-eng-GB%2Fda3704ec5082-2018-03-20T120540Z_789899461_RC132648D3D0_RTRMADP_3_CLIMATECHANGE-ANTARCTICA.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 39,
+   "id": 34,
    "t_en": "Krill fishing and the shifting order at the bottom of the world",
    "x_en": ""
   },
@@ -1140,8 +1041,128 @@
    "lon": 70.35,
    "place": "Пакистан",
    "place_en": "Pakistan",
-   "id": 40,
+   "id": 35,
    "t_en": "Pakistan trails India, Bangladesh, Nepal in battle against hunger",
+   "x_en": ""
+  },
+  {
+   "t": "Малайзийская компания SkyeChip присоединяется к проекту искусственной памяти, поддерживаемому SoftBank, в Японии",
+   "x": "",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/tech/semiconductors/malaysia-s-skyechip-joins-softbank-backed-ai-memory-project-in-japan",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 3.54,
+   "lon": 102.6,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 36,
+   "t_en": "Malaysia's SkyeChip joins SoftBank-backed AI memory project in Japan",
+   "x_en": ""
+  },
+  {
+   "t": "Японская компания Daiichi Life переходит на золото по мере роста рыночных рисков",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/companies/japan-s-daiichi-life-turns-to-gold-as-market-risks-rise",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.88,
+   "lon": 138.71,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 37,
+   "t_en": "Japan's Daiichi Life turns to gold as market risks rise",
+   "x_en": ""
+  },
+  {
+   "t": "Банк Японии сохранит ставку на уровне 1,25% на заседании на следующей неделе",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/bank-of-japan/boj-to-hold-rate-at-1.25-at-meeting-next-week",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 38,
+   "t_en": "BOJ to hold rate at 1.25% at meeting next week",
+   "x_en": ""
+  },
+  {
+   "t": "Филиппины повышают ключевую ставку до 5,5%, поскольку инфляция подрывает экономический рост",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/philippines-raises-key-rate-to-5.5-as-inflation-saps-growth",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 12.68,
+   "lon": 122.47,
+   "place": "Филиппины",
+   "place_en": "Philippines",
+   "id": 39,
+   "t_en": "Philippines raises key rate to 5.5% as inflation saps growth",
+   "x_en": ""
+  },
+  {
+   "t": "Техники наготове для кульминации азиатского бейсбола",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/techasia/tech-at-the-plate-for-asian-baseball-climax",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 40,
+   "t_en": "Tech at the plate for Asian baseball climax",
    "x_en": ""
   }
  ],
@@ -1157,139 +1178,143 @@
   {
    "t": 1792787620023,
    "v": 54
+  },
+  {
+   "t": 1792797968288,
+   "v": 54
   }
  ],
  "timeline": [
   {
-   "t": 1792701220023,
-   "v": 47,
-   "n": 17
-  },
-  {
-   "t": 1792704820023,
-   "v": 50,
-   "n": 19
-  },
-  {
-   "t": 1792708420023,
-   "v": 59,
-   "n": 19
-  },
-  {
-   "t": 1792712020023,
+   "t": 1792711568288,
    "v": 66,
    "n": 14
   },
   {
-   "t": 1792715620023,
-   "v": 61,
-   "n": 13
+   "t": 1792715168288,
+   "v": 69,
+   "n": 10
   },
   {
-   "t": 1792719220023,
-   "v": 57,
-   "n": 19
+   "t": 1792718768288,
+   "v": 64,
+   "n": 10
   },
   {
-   "t": 1792722820023,
-   "v": 54,
-   "n": 33
+   "t": 1792722368288,
+   "v": 55,
+   "n": 21
   },
   {
-   "t": 1792726420023,
-   "v": 54,
-   "n": 43
+   "t": 1792725968288,
+   "v": 53,
+   "n": 36
   },
   {
-   "t": 1792730020023,
+   "t": 1792729568288,
    "v": 49,
-   "n": 49
+   "n": 48
   },
   {
-   "t": 1792733620023,
+   "t": 1792733168288,
    "v": 48,
-   "n": 62
-  },
-  {
-   "t": 1792737220023,
-   "v": 48,
-   "n": 78
-  },
-  {
-   "t": 1792740820023,
-   "v": 51,
-   "n": 87
-  },
-  {
-   "t": 1792744420023,
-   "v": 53,
-   "n": 82
-  },
-  {
-   "t": 1792748020023,
-   "v": 53,
-   "n": 69
-  },
-  {
-   "t": 1792751620023,
-   "v": 53,
-   "n": 60
-  },
-  {
-   "t": 1792755220023,
-   "v": 56,
    "n": 61
   },
   {
-   "t": 1792758820023,
-   "v": 59,
-   "n": 72
+   "t": 1792736768288,
+   "v": 49,
+   "n": 76
   },
   {
-   "t": 1792762420023,
-   "v": 59,
-   "n": 94
-  },
-  {
-   "t": 1792766020023,
-   "v": 57,
-   "n": 92
-  },
-  {
-   "t": 1792769620023,
+   "t": 1792740368288,
    "v": 52,
-   "n": 90
+   "n": 84
   },
   {
-   "t": 1792773220023,
-   "v": 51,
+   "t": 1792743968288,
+   "v": 53,
+   "n": 83
+  },
+  {
+   "t": 1792747568288,
+   "v": 54,
+   "n": 65
+  },
+  {
+   "t": 1792751168288,
+   "v": 52,
+   "n": 59
+  },
+  {
+   "t": 1792754768288,
+   "v": 54,
+   "n": 65
+  },
+  {
+   "t": 1792758368288,
+   "v": 57,
+   "n": 77
+  },
+  {
+   "t": 1792761968288,
+   "v": 59,
    "n": 89
   },
   {
-   "t": 1792776820023,
+   "t": 1792765568288,
+   "v": 57,
+   "n": 78
+  },
+  {
+   "t": 1792769168288,
+   "v": 51,
+   "n": 80
+  },
+  {
+   "t": 1792772768288,
+   "v": 49,
+   "n": 97
+  },
+  {
+   "t": 1792776368288,
+   "v": 50,
+   "n": 115
+  },
+  {
+   "t": 1792779968288,
    "v": 52,
-   "n": 94
+   "n": 132
   },
   {
-   "t": 1792780420023,
-   "v": 53,
-   "n": 99
+   "t": 1792783568288,
+   "v": 51,
+   "n": 127
   },
   {
-   "t": 1792784020023,
+   "t": 1792787168288,
+   "v": 52,
+   "n": 119
+  },
+  {
+   "t": 1792790768288,
+   "v": 51,
+   "n": 96
+  },
+  {
+   "t": 1792794368288,
    "v": 48,
-   "n": 117
+   "n": 108
   },
   {
-   "t": 1792787620023,
-   "v": 46,
-   "n": 90
+   "t": 1792797968288,
+   "v": 45,
+   "n": 79
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 30
+   "items": 21
   },
   {
    "n": "Al Jazeera",
@@ -1305,7 +1330,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 33
+   "items": 32
   },
   {
    "n": "Sky News",
@@ -1317,19 +1342,19 @@
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 13
   },
   {
    "n": "CNBC",
-   "items": 30
+   "items": 29
   },
   {
    "n": "Euronews",
-   "items": 37
+   "items": 32
   },
   {
    "n": "NYT",
-   "items": 35
+   "items": 33
   },
   {
    "n": "Washington Post",
@@ -1337,7 +1362,7 @@
   },
   {
    "n": "CBS News",
-   "items": 26
+   "items": 25
   },
   {
    "n": "ABC News",
@@ -1353,7 +1378,7 @@
   },
   {
    "n": "ABC Australia",
-   "items": 9
+   "items": 12
   },
   {
    "n": "CNA",
@@ -1365,7 +1390,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1413,20 +1438,16 @@
   },
   {
    "n": "Reuters",
-   "items": 0
+   "items": 40
   },
   {
    "n": "AP",
-   "items": 0
+   "items": 40
   }
  ],
  "failed": [
-  "UN News",
   "Washington Post",
   "Times of Israel",
-  "Middle East Eye",
-  "Arab News",
-  "Reuters",
-  "AP"
+  "Arab News"
  ]
 }

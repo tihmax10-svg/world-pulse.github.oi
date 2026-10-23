@@ -1,0 +1,2330 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="World Pulse — глобальный медиаиндекс напряжённости и агрегатор мировых новостей в реальном времени.">
+<title>World Pulse</title>
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #030304;
+  --pn: rgba(12, 13, 16, 0.72);
+  --pn-solid: #0a0b0e;
+  --bd: rgba(255, 255, 255, 0.075);
+  --bd2: rgba(255, 255, 255, 0.18);
+  --t: #f8fafc;
+  --m: #848994;
+  --m2: #525661;
+  --c-ok: #10b981;
+  --c-warn: #f59e0b;
+  --c-crit: #f43f5e;
+  --accent: #6366f1;
+  --hv: rgba(255, 255, 255, 0.04);
+  --glow: rgba(255, 255, 255, 0.07);
+  --sh: 0 24px 60px -15px rgba(0, 0, 0, 0.75);
+}
+[data-theme="light"] {
+  --bg: #f6f7f9;
+  --pn: rgba(255, 255, 255, 0.82);
+  --pn-solid: #ffffff;
+  --bd: rgba(0, 0, 0, 0.08);
+  --bd2: rgba(0, 0, 0, 0.18);
+  --t: #090a0c;
+  --m: #626773;
+  --m2: #989ea8;
+  --c-ok: #059669;
+  --c-warn: #d97706;
+  --c-crit: #e11d48;
+  --hv: rgba(0, 0, 0, 0.035);
+  --glow: rgba(0, 0, 0, 0.045);
+  --sh: 0 20px 50px -15px rgba(0, 0, 0, 0.08);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--t);
+  font: 14px/1.55 "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition: background .3s ease, color .3s ease;
+}
+
+#bg-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+.ambient-beam {
+  position: fixed;
+  top: -220px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 960px;
+  height: 520px;
+  background: radial-gradient(ellipse at 50% 0%, rgba(120, 135, 255, 0.16), rgba(245, 158, 11, 0.05) 45%, transparent 72%);
+  filter: blur(45px);
+  pointer-events: none;
+  z-index: 0;
+  animation: beamPulse 10s ease-in-out infinite alternate;
+}
+@keyframes beamPulse {
+  0% { opacity: 0.75; transform: translateX(-50%) scale(0.96); }
+  100% { opacity: 1; transform: translateX(-50%) scale(1.06); }
+}
+.grid-mask {
+  position: fixed;
+  inset: 0;
+  background-image: 
+    linear-gradient(to right, var(--bd) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--bd) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: radial-gradient(ellipse 80% 55% at 50% 0%, #000 25%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 55% at 50% 0%, #000 25%, transparent 80%);
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.mono { font-family: "JetBrains Mono", ui-monospace, monospace; }
+.serif { font-family: "Instrument Serif", Georgia, serif; font-weight: 400; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  background: color-mix(in srgb, var(--bg) 74%, transparent);
+  border-bottom: 1px solid var(--bd);
+}
+.bar {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 28px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: var(--t);
+}
+.logo-mark {
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.16), rgba(255,255,255,0.03));
+  border: 1px solid var(--bd2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c-ok);
+  box-shadow: 0 0 12px var(--c-ok);
+  position: relative;
+  flex: none;
+}
+.dot::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1.5px solid currentColor;
+  color: var(--c-ok);
+  animation: ping 2.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+.dot.warn {
+  background: var(--c-warn);
+  box-shadow: 0 0 12px var(--c-warn);
+}
+.dot.warn::after { color: var(--c-warn); }
+@keyframes ping {
+  75%, 100% { transform: scale(2.1); opacity: 0; }
+}
+
+nav { display: flex; gap: 4px; margin-left: 8px; }
+nav a {
+  color: var(--m);
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all .18s ease;
+  font-size: 13px;
+  font-weight: 500;
+}
+nav a:hover { color: var(--t); background: var(--hv); }
+.sp { flex: 1; }
+
+.btn {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--t);
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--bd);
+  border-radius: 9px;
+  padding: 7px 13px;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  transition: all .18s cubic-bezier(.16,1,.3,1);
+  user-select: none;
+  position: relative;
+}
+.btn:hover {
+  border-color: var(--bd2);
+  background: var(--hv);
+  transform: translateY(-1px);
+}
+.btn:active { transform: translateY(0); }
+.btn.pri {
+  background: var(--t);
+  color: var(--bg);
+  border-color: var(--t);
+  box-shadow: 0 4px 20px -4px rgba(255, 255, 255, 0.28);
+}
+.btn.pri:hover {
+  opacity: .92;
+  background: var(--t);
+  box-shadow: 0 6px 26px -3px rgba(255, 255, 255, 0.4);
+}
+.btn.on {
+  border-color: color-mix(in srgb, var(--c-ok) 45%, var(--bd));
+  color: var(--c-ok);
+  background: color-mix(in srgb, var(--c-ok) 8%, transparent);
+}
+kbd {
+  font: 11px "JetBrains Mono", monospace;
+  color: var(--m);
+  background: var(--hv);
+  border: 1px solid var(--bd);
+  border-radius: 5px;
+  padding: 1px 5px;
+}
+
+.tick {
+  border-bottom: 1px solid var(--bd);
+  background: color-mix(in srgb, var(--pn-solid) 60%, transparent);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--m);
+  font-size: 12px;
+  padding: 8px 0;
+  position: relative;
+  z-index: 2;
+}
+.tick-track {
+  display: inline-block;
+  animation: mq 65s linear infinite;
+}
+.tick:hover .tick-track { animation-play-state: paused; }
+.tick-item {
+  margin: 0 24px;
+  cursor: pointer;
+  transition: color .15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.tick-item:hover { color: var(--t); }
+.tick-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+@keyframes mq { to { transform: translateX(-50%); } }
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 28px 72px;
+  position: relative;
+  z-index: 2;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 40px;
+  align-items: center;
+  padding: 56px 0 42px;
+}
+.badge {
+  display: inline-flex;
+  gap: 9px;
+  align-items: center;
+  border: 1px solid var(--bd);
+  background: var(--pn);
+  backdrop-filter: blur(12px);
+  border-radius: 99px;
+  padding: 5px 14px;
+  color: var(--m);
+  font-size: 12px;
+  box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.08);
+}
+h1 {
+  font-size: 68px;
+  line-height: 1.01;
+  letter-spacing: -0.025em;
+  margin: 20px 0 16px;
+  background: linear-gradient(180deg, var(--t) 30%, color-mix(in srgb, var(--t) 55%, transparent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1 em {
+  font-style: italic;
+  background: linear-gradient(90deg, var(--m), var(--t));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lead {
+  color: var(--m);
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 0 26px;
+}
+.acts { display: flex; gap: 10px; flex-wrap: wrap; }
+.status-bar {
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: var(--hv);
+  border: 1px solid var(--bd);
+  font-size: 12px;
+  color: var(--m);
+}
+.eq {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 12px;
+}
+.eq i {
+  width: 2px;
+  background: var(--c-ok);
+  border-radius: 2px;
+  animation: eqBar 1.2s ease-in-out infinite;
+}
+.eq i:nth-child(1) { height: 40%; animation-delay: 0s; }
+.eq i:nth-child(2) { height: 100%; animation-delay: .2s; }
+.eq i:nth-child(3) { height: 60%; animation-delay: .4s; }
+.eq i:nth-child(4) { height: 85%; animation-delay: .1s; }
+@keyframes eqBar {
+  0%, 100% { transform: scaleY(0.35); }
+  50% { transform: scaleY(1); }
+}
+
+/* Resend-style Card with Top Specular Rim and Safe Mouse Glow (--mx, --my) */
+.card {
+  position: relative;
+  background: var(--pn);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border: 1px solid var(--bd);
+  border-radius: 18px;
+  padding: 24px;
+  overflow: hidden;
+  box-shadow: var(--sh), inset 0 1px 0 0 rgba(255, 255, 255, 0.09);
+  transition: border-color .25s ease, transform .25s ease;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.28), transparent);
+  pointer-events: none;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(360px circle at var(--mx, 50%) var(--my, -20%), var(--glow), transparent 65%);
+  opacity: 0;
+  transition: opacity .3s ease;
+  pointer-events: none;
+}
+.card:hover { border-color: var(--bd2); }
+.card:hover::after { opacity: 1; }
+
+.kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.kpi {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.kpi-lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--m);
+}
+.kpi-val {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.kpi-sub { font-size: 12px; color: var(--m); }
+
+.gs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.g {
+  text-align: center;
+  padding: 8px 4px;
+  position: relative;
+  z-index: 1;
+}
+.g svg { width: 160px; height: 160px; display: block; margin: 0 auto; overflow: visible; }
+.g .l { font-weight: 600; margin-top: 6px; font-size: 14px; letter-spacing: -0.01em; }
+.g .s { font-size: 12px; margin-top: 3px; font-weight: 500; transition: color .3s; }
+.g .n { font-size: 12px; color: var(--m); margin-top: 4px; }
+
+h2 {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--m);
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  margin: 0 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row { display: grid; gap: 16px; margin-bottom: 16px; }
+.r3 { grid-template-columns: 2fr 1fr; }
+
+#chart { width: 100%; height: auto; display: block; cursor: crosshair; overflow: visible; }
+.tip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--t);
+  color: var(--bg);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity .12s;
+  white-space: nowrap;
+  box-shadow: 0 8px 24px rgba(0,0,0,.35);
+  z-index: 10;
+}
+
+.src {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  margin: 0 -10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background .15s, opacity .2s;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+}
+.src:hover { background: var(--hv); }
+.sw {
+  width: 32px;
+  height: 18px;
+  border-radius: 99px;
+  background: var(--bd2);
+  position: relative;
+  transition: .22s cubic-bezier(.16,1,.3,1);
+  flex: none;
+}
+.sw::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg);
+  transition: .22s cubic-bezier(.16,1,.3,1);
+}
+.src.on .sw { background: var(--t); }
+.src.on .sw::after { left: 16px; }
+.src:not(.on) { opacity: .38; }
+.src .nm { flex: 1; font-weight: 500; font-size: 13.5px; }
+.src .mini-bar {
+  width: 48px;
+  height: 4px;
+  background: var(--bd);
+  border-radius: 99px;
+  overflow: hidden;
+}
+.src .mini-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+}
+.src .v { font-size: 12px; font-weight: 500; min-width: 34px; text-align: right; }
+
+.tools {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.search {
+  flex: 1;
+  min-width: 210px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 0 12px;
+  background: rgba(255,255,255,0.015);
+  transition: border-color .18s, box-shadow .18s;
+}
+.search input {
+  flex: 1;
+  background: none;
+  border: 0;
+  outline: 0;
+  color: var(--t);
+  font: inherit;
+  padding: 8px 0;
+}
+.search:focus-within {
+  border-color: var(--bd2);
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.04);
+}
+select {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--pn-solid);
+  color: var(--t);
+  border: 1px solid var(--bd);
+  border-radius: 9px;
+  padding: 7px 11px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color .15s;
+}
+select:hover { border-color: var(--bd2); }
+
+.chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+.chip {
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid var(--bd);
+  border-radius: 99px;
+  padding: 4px 13px;
+  cursor: pointer;
+  color: var(--m);
+  transition: all .16s ease;
+  user-select: none;
+}
+.chip:hover { color: var(--t); border-color: var(--bd2); background: var(--hv); }
+.chip.a {
+  background: var(--t);
+  color: var(--bg);
+  border-color: var(--t);
+}
+
+.ev {
+  border-top: 1px solid var(--bd);
+  padding: 15px 10px;
+  margin: 0 -10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background .16s ease;
+  position: relative;
+  z-index: 1;
+}
+.ev:hover { background: var(--hv); }
+.ev:first-of-type { border-top: 0; }
+.eh { display: flex; gap: 12px; align-items: flex-start; }
+.ei {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex: none;
+}
+.et { flex: 1; font-weight: 500; line-height: 1.48; font-size: 14.5px; }
+.em {
+  color: var(--m);
+  font-size: 12px;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.tag-pill {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--bd);
+  padding: 1px 7px;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.ten-badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 7px;
+  border: 1px solid var(--bd);
+  background: rgba(255,255,255,0.02);
+}
+.ex {
+  display: none;
+  margin: 12px 0 4px 20px;
+  color: var(--m);
+  line-height: 1.6;
+  font-size: 13.5px;
+}
+.ev.open .ex { display: block; animation: fd .22s ease-out; }
+.ev-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--t);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 5px 11px;
+  border: 1px solid var(--bd2);
+  border-radius: 7px;
+  background: var(--hv);
+  transition: .16s;
+}
+.ev-link:hover { background: var(--t); color: var(--bg); }
+@keyframes fd { from { opacity: 0; transform: translateY(-4px); } }
+.tb { height: 4px; background: var(--bd); border-radius: 9px; margin-top: 12px; overflow: hidden; }
+.tb i { display: block; height: 100%; border-radius: 9px; }
+
+.rg {
+  padding: 12px 10px;
+  margin: 0 -10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background .16s;
+  position: relative;
+  z-index: 1;
+}
+.rg:hover, .rg.a { background: var(--hv); }
+.rg .t { display: flex; justify-content: space-between; font-weight: 500; align-items: center; }
+.rg .b { height: 6px; background: var(--bd); border-radius: 9px; margin-top: 8px; overflow: hidden; }
+.rg .b i {
+  display: block;
+  height: 100%;
+  border-radius: 9px;
+  transition: width .8s cubic-bezier(.2, .8, .2, 1);
+}
+
+.empty { color: var(--m); padding: 36px 0; text-align: center; }
+.toast {
+  position: fixed;
+  bottom: 26px;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  background: var(--t);
+  color: var(--bg);
+  padding: 9px 18px;
+  border-radius: 99px;
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: .28s cubic-bezier(.16,1,.3,1);
+  z-index: 80;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+.toast.s { opacity: 1; transform: translate(-50%, 0); }
+
+footer {
+  color: var(--m);
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid var(--bd);
+  padding: 28px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+.spin { display: inline-block; animation: sp .7s linear infinite; }
+@keyframes sp { to { transform: rotate(360deg); } }
+
+@media (max-width: 980px) {
+  .hero, .r3 { grid-template-columns: 1fr; }
+  .kpi-strip { grid-template-columns: 1fr 1fr; }
+  h1 { font-size: 46px; }
+  nav { display: none; }
+  .bar, main { padding-left: 16px; padding-right: 16px; }
+}
+
+/* ===== v3 visual upgrade ===== */
+::selection{background:color-mix(in srgb,var(--accent) 45%,transparent);color:var(--t)}
+::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-thumb{background:var(--bd2);border-radius:99px;border:2px solid var(--bg)}
+body::after{content:"";position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.045;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+h1{font-size:clamp(46px,5.1vw,72px);letter-spacing:-.032em}
+.top5,#trend,#events,#regions{scroll-margin-top:84px}
+.js .card:not(.vis){opacity:0;transform:translateY(18px)}
+.js .card{transition:opacity .9s ease,transform .9s cubic-bezier(.16,1,.3,1),border-color .25s ease}
+.card.gs{box-shadow:var(--sh),inset 0 1px 0 0 rgba(255,255,255,.09),0 0 110px -30px var(--gc,transparent)}
+.btn.pri{overflow:hidden}
+.btn.pri::after{content:"";position:absolute;top:0;bottom:0;width:40%;left:-60%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);transition:left .6s}
+.btn.pri:hover::after{left:130%}
+.prog{position:absolute;left:0;right:0;bottom:-1px;height:2px;pointer-events:none}
+.prog i{display:block;height:100%;width:100%;background:linear-gradient(90deg,var(--c-ok),var(--accent));box-shadow:0 0 14px var(--accent);transition:width 1s linear}
+.live-pill{font-size:10px;font-weight:600;letter-spacing:.14em;color:var(--c-crit);border:1px solid color-mix(in srgb,var(--c-crit) 40%,transparent);background:color-mix(in srgb,var(--c-crit) 10%,transparent);padding:2px 9px;border-radius:99px;display:inline-flex;gap:6px;align-items:center}
+.live-pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.25}}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}}
+/* top-5 */
+.top5{margin-bottom:18px}
+.t5-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.t5-head h2{margin:0}
+.t5-meta{font-size:12px;color:var(--m);display:inline-flex;gap:8px;align-items:center}
+.t5-meta b{color:var(--t);font-weight:500}
+.t5-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;grid-template-rows:232px 232px;gap:14px}
+.nc{position:relative;display:block;border-radius:20px;overflow:hidden;border:1px solid var(--bd);background:#0a0b0e;color:#fff;text-decoration:none;isolation:isolate;cursor:pointer;animation:rise .7s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(var(--i,0)*70ms);transition:transform .4s cubic-bezier(.16,1,.3,1),border-color .25s,box-shadow .4s}
+.nc.big{grid-row:span 2}
+.nc:hover{transform:translateY(-4px);border-color:var(--bd2);box-shadow:0 34px 70px -24px rgba(0,0,0,.8),0 0 60px -26px var(--tc)}
+.nc>img,.nc>.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform 1s cubic-bezier(.16,1,.3,1)}
+.nc:hover>img{transform:scale(1.07)}
+.ph{background:radial-gradient(90% 90% at 25% 8%,color-mix(in srgb,var(--tc,#6366f1) 55%,#000),transparent 72%),linear-gradient(135deg,#171923,#0a0b0e)}
+.nc::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.28) 0,rgba(0,0,0,0) 30%,rgba(0,0,0,.9) 100%)}
+.nc-rank,.nc-ten{position:absolute;top:14px;font-size:11px;font-weight:600;padding:3px 9px;border-radius:99px;background:rgba(0,0,0,.5);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.14)}
+.nc-rank{left:14px;letter-spacing:.08em}.nc-ten{right:14px}
+.nc-body{position:absolute;left:0;right:0;bottom:0;padding:18px 20px;display:flex;flex-direction:column;gap:8px}
+.nc-tags{display:flex;gap:6px;flex-wrap:wrap;font-size:10.5px}
+.nc-tags span{padding:2px 8px;border-radius:99px;background:rgba(255,255,255,.12);backdrop-filter:blur(8px)}
+.nc-t{font-weight:600;font-size:15px;line-height:1.28;text-wrap:balance;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.nc.big .nc-t{font-size:32px;line-height:1.1;font-weight:400;-webkit-line-clamp:4;letter-spacing:-.01em}
+.nc-m{font-size:11px;color:rgba(255,255,255,.7)}
+.fresh{color:var(--c-ok)!important}.nc .fresh{color:#6ee7b7!important}
+/* event thumbs */
+.ev{animation:rise .55s cubic-bezier(.16,1,.3,1) both;animation-delay:calc(min(var(--i,0),8)*40ms)}
+.th{width:120px;height:80px;border-radius:12px;overflow:hidden;flex:none;position:relative;border:1px solid var(--bd);background:var(--hv)}
+.th img{width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .5s,transform .7s cubic-bezier(.16,1,.3,1)}
+.th img.ok{opacity:1}.ev:hover .th img{transform:scale(1.08)}
+.th i{position:absolute;left:7px;top:7px;width:8px;height:8px;border-radius:50%;background:var(--tc);box-shadow:0 0 12px var(--tc)}
+.th.ph{background:radial-gradient(120% 120% at 20% 0,color-mix(in srgb,var(--tc) 42%,transparent),transparent 70%),var(--hv)}
+.ex img.big{display:block;width:100%;max-height:240px;object-fit:cover;border-radius:14px;margin-bottom:12px;border:1px solid var(--bd)}
+@media(max-width:980px){h1{font-size:48px}.t5-grid{grid-template-columns:1fr 1fr;grid-template-rows:none}.nc{height:210px}.nc.big{grid-column:span 2;grid-row:auto;height:300px}.nc.big .nc-t{font-size:26px}.th{width:84px;height:62px}}
+.banner{position:relative;z-index:3;width:calc(100% - 32px);max-width:1224px;margin:12px auto 0;padding:10px 16px;border-radius:12px;font-size:13px;border:1px solid color-mix(in srgb,var(--c-warn) 45%,transparent);background:color-mix(in srgb,var(--c-warn) 11%,transparent);display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.banner span{flex:1;min-width:220px}.banner .btn{padding:4px 11px;font-size:12px}
+[hidden]{display:none!important}
+
+/* ===== globe ===== */
+.globe-card{padding:20px 22px;margin-bottom:18px}
+.gl-body{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(300px,1fr);gap:22px;align-items:stretch}
+.gl-stage{position:relative;aspect-ratio:1/1;max-height:660px;min-height:320px;border-radius:18px;overflow:hidden;background:radial-gradient(70% 70% at 50% 45%,color-mix(in srgb,var(--accent) 9%,transparent),transparent 70%)}
+#gcv{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none;display:block}
+#gcv.drag{cursor:grabbing}#gcv.hov{cursor:pointer}
+@media(pointer:coarse){#gcv{touch-action:pan-y}}
+.gl-ctrl{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:6px;z-index:2}
+.gl-ctrl .btn{width:34px;height:34px;padding:0;justify-content:center;font-size:15px;background:color-mix(in srgb,var(--bg) 70%,transparent);backdrop-filter:blur(8px)}
+.gl-ctrl .btn.on{border-color:var(--c-ok);color:var(--c-ok)}
+.gl-tip{position:absolute;pointer-events:none;z-index:3;max-width:260px;padding:6px 10px;border-radius:10px;font-size:12px;line-height:1.35;background:color-mix(in srgb,var(--bg) 82%,transparent);border:1px solid var(--bd2);backdrop-filter:blur(10px);opacity:0;transition:opacity .12s}
+.gl-panel{border:1px solid var(--bd);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:10px;min-height:320px;max-height:660px;overflow:auto;background:color-mix(in srgb,var(--bg) 40%,transparent)}
+.gp-img{width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;border:1px solid var(--bd);position:relative;background:var(--hv)}
+.gp-img img{width:100%;height:100%;object-fit:cover;display:block}
+.gp-img.ph{background:radial-gradient(100% 100% at 20% 0,color-mix(in srgb,var(--tc) 45%,transparent),transparent 70%),var(--hv)}
+.gp-tags{display:flex;gap:6px;flex-wrap:wrap;font-size:11px}
+.gp-tags span{padding:2px 9px;border-radius:99px;border:1px solid var(--bd);color:var(--m)}
+.gp-title{font-size:19px;line-height:1.25;font-weight:600;margin:0;text-wrap:balance}
+.gp-place{font-size:12px;color:var(--m)}
+.gp-x{font-size:13.5px;color:var(--m);line-height:1.5;margin:0}
+.gp-m{display:grid;grid-template-columns:auto 1fr auto;gap:6px 10px;align-items:center;font-size:12px}
+.gp-m .tb{height:5px;background:var(--bd);border-radius:9px;overflow:hidden}.gp-m .tb i{display:block;height:100%;border-radius:9px}
+.gp-list{display:flex;flex-direction:column;gap:2px}
+.gp-it{display:flex;gap:10px;align-items:center;padding:8px;margin:0 -8px;border-radius:10px;cursor:pointer;transition:background .15s}
+.gp-it:hover{background:var(--hv)}.gp-it b{font-weight:500;font-size:13px;line-height:1.3;flex:1}
+.gp-it .d{width:9px;height:9px;border-radius:50%;flex:none;background:var(--tc);box-shadow:0 0 10px var(--tc)}
+.gp-it small{color:var(--m);font-size:11px;white-space:nowrap}
+.gl-leg{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:14px;font-size:12px;color:var(--m);align-items:center}
+.gl-leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:7px;vertical-align:-1px}
+.gl-leg .ring{background:none;border:2px solid var(--c-ok);animation:blink 1.6s infinite}
+.newb{font-size:10px;font-weight:600;letter-spacing:.08em;color:#06130d;background:var(--c-ok);padding:1px 7px;border-radius:99px}
+dialog#diag{width:min(760px,calc(100% - 28px));max-height:86vh;overflow:auto;border:1px solid var(--bd2);border-radius:18px;background:var(--bg);color:var(--t);padding:22px}
+dialog#diag::backdrop{background:rgba(0,0,0,.6);backdrop-filter:blur(4px)}
+.dg-t{width:100%;border-collapse:collapse;font-size:12.5px;margin:8px 0 14px}
+.dg-t td,.dg-t th{padding:5px 8px;border-bottom:1px solid var(--bd);text-align:left}
+.dg-ok{color:var(--c-ok)}.dg-bad{color:var(--c-crit)}.dg-mid{color:var(--c-warn)}
+.dg-in{width:100%;background:transparent;border:1px solid var(--bd);border-radius:8px;padding:7px 10px;color:var(--t);font:inherit;font-size:12.5px}
+@media(max-width:980px){.gl-body{grid-template-columns:1fr}.gl-panel{max-height:none}}
+</style>
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+<div class="ambient-beam"></div>
+<div class="grid-mask"></div>
+
+<header>
+  <div class="bar">
+    <a href="#top" class="logo">
+      <span class="logo-mark"><span class="dot" id="hdr-dot"></span></span>
+      World Pulse
+    </a>
+    <span class="live-pill mono">LIVE</span>
+    <nav>
+      <a href="#top">Обзор</a>
+      <a href="#top5">Срочно</a>
+      <a href="#globe">Глобус</a>
+      <a href="#trend">Динамика</a>
+      <a href="#events">События</a>
+      <a href="#regions">Регионы</a>
+    </nav>
+    <div class="sp"></div>
+    <select id="int" title="Интервал автообновления">
+      <option value="5" selected>5 мин</option>
+      <option value="15">15 мин</option>
+      <option value="30">30 мин</option>
+      <option value="60">60 мин</option>
+    </select>
+    <button class="btn on" id="auto">Авто: вкл</button>
+    <button class="btn" id="theme" title="Переключить тему (T)">◐</button>
+    <button class="btn pri" id="ref"><span id="ri">↻</span> Обновить <kbd>R</kbd></button>
+  </div>
+  <div class="prog"><i id="prog"></i></div>
+</header>
+
+<div class="tick mono"><div class="tick-track" id="tk"></div></div>
+
+<div class="banner" id="banner" hidden></div>
+
+<main id="top">
+  <section class="hero">
+    <div>
+      <span class="badge mono">
+        <span class="dot" id="hero-dot"></span>
+        <span>Синхронизировано в <strong id="upd" style="color:var(--t)">—</strong></span>
+        <span>·</span>
+        <span>след. через <span id="cd">05:00</span></span>
+      </span>
+      <h1 class="serif">Пульс мира,<br><em>собранный за минуту</em></h1>
+      <p class="lead">Заголовки ключевых мировых агентств в едином аналитическом потоке: автоматическая кластеризация сюжетов, региональная динамика и индекс напряжённости в реальном времени.</p>
+      <div class="acts">
+        <button class="btn pri" id="live-btn">⚡ Живой сбор сейчас</button>
+        <button class="btn" id="cp">Копировать сводку</button>
+        <button class="btn" id="ex">Скачать data.json</button>
+        <button class="btn" id="fs">На весь экран</button>
+      </div>
+      <div class="status-bar mono">
+        <span class="eq"><i></i><i></i><i></i><i></i></span>
+        <span id="demo">Инициализация потока данных...</span>
+        <button class="btn" id="diag-btn" style="padding:2px 10px;font-size:11px;margin-left:8px">Диагностика</button>
+      </div>
+    </div>
+
+    <div class="card gs" id="gs">
+      <div class="g" id="g1"></div>
+      <div class="g" id="g2"></div>
+    </div>
+  </section>
+
+  <div class="kpi-strip">
+    <div class="card kpi">
+      <span class="kpi-lbl mono">Статус фона</span>
+      <div class="kpi-val" id="kpi-state">—</div>
+      <span class="kpi-sub" id="kpi-state-sub">оценка по всем агентствам</span>
+    </div>
+    <div class="card kpi">
+      <span class="kpi-lbl mono">Самый горячий регион</span>
+      <div class="kpi-val" id="kpi-hot">—</div>
+      <span class="kpi-sub" id="kpi-hot-sub">максимальная концентрация</span>
+    </div>
+    <div class="card kpi">
+      <span class="kpi-lbl mono">Кластеров событий</span>
+      <div class="kpi-val mono" id="kpi-ev">0</div>
+      <span class="kpi-sub" id="kpi-ev-sub">подтверждённых сюжетов</span>
+    </div>
+    <div class="card kpi">
+      <span class="kpi-lbl mono">Охват заголовков</span>
+      <div class="kpi-val mono" id="kpi-art">0</div>
+      <span class="kpi-sub" id="kpi-art-sub">мировых публикаций за 24ч</span>
+    </div>
+  </div>
+
+  <section class="top5" id="top5">
+    <div class="t5-head">
+      <h2><span>Срочно · топ-5 сюжетов</span></h2>
+      <span class="t5-meta mono"><span class="dot"></span>обновлено <b id="t5ago">—</b> · следующее через <b id="t5cd">05:00</b></span>
+    </div>
+    <div class="t5-grid" id="t5"></div>
+  </section>
+
+  <section class="card globe-card" id="globe" style="scroll-margin-top:84px">
+    <h2><span>Глобус событий · что и где происходит</span><span class="mono" id="gcount"></span></h2>
+    <div class="gl-body">
+      <div class="gl-stage" id="gstage">
+        <canvas id="gcv"></canvas>
+        <div class="gl-tip mono" id="gtip"></div>
+        <div class="gl-ctrl">
+          <button class="btn" id="gz-in" title="Приблизить">＋</button>
+          <button class="btn" id="gz-out" title="Отдалить">－</button>
+          <button class="btn on" id="g-auto" title="Автовращение">⟳</button>
+        </div>
+      </div>
+      <aside class="gl-panel" id="gpanel"></aside>
+    </div>
+    <div class="gl-leg mono">
+      <span>Цвет: опасность</span>
+      <span><i style="background:#10b981"></i>низкая</span><span><i style="background:#f59e0b"></i>средняя</span><span><i style="background:#ef4444"></i>высокая</span>
+      <span>Размер: важность</span>
+      <span><i class="ring"></i>пульс: опубликовано &lt; 1 ч назад</span>
+      <span>тусклее: старше 6 ч</span>
+      <span><span class="newb">NEW</span> появилось с прошлого обновления</span>
+    </div>
+  </section>
+
+  <div class="row r3" id="trend">
+    <div class="card">
+      <h2><span>Динамика индекса (24 часа)</span><span class="mono" id="cv"></span></h2>
+      <div style="position:relative;z-index:1">
+        <svg id="chart" viewBox="0 0 600 185"></svg>
+        <div class="tip mono" id="tip"></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2><span>Источники</span><span class="mono" id="sc"></span></h2>
+      <div id="srcs"></div>
+    </div>
+  </div>
+
+  <div class="row r3" id="events">
+    <div class="card">
+      <h2><span>Главные сюжеты</span><span class="mono" id="ec"></span></h2>
+      <div class="tools">
+        <label class="search">
+          <span style="color:var(--m)">⌕</span>
+          <input id="q" placeholder="Поиск по событиям, странам или агентствам...">
+          <kbd>/</kbd>
+        </label>
+        <select id="so">
+          <option value="imp">По важности</option>
+          <option value="new">Сначала свежие</option>
+          <option value="ten">По напряжённости</option>
+        </select>
+      </div>
+      <div class="chips" id="cats"></div>
+      <div id="evs"></div>
+    </div>
+    <div class="card" id="regions">
+      <h2>
+        <span>Региональный пульс</span>
+        <span class="chip" id="rst" style="display:none">Сбросить</span>
+      </h2>
+      <div id="rgs"></div>
+    </div>
+  </div>
+</main>
+<dialog id="diag"></dialog>
+
+<footer>
+  <span>Медиаиндекс отражает тональность заголовков мировых СМИ (0% — штиль, 100% — острый кризис).</span>
+  <span class="mono">Клавиши: [R] Обновить · [T] Тема · [/] Поиск</span>
+</footer>
+<div class="toast" id="toast"></div>
+
+<script>
+const DEMO = {
+  updated: Date.now(),
+  demo: true,
+  total_articles: 324,
+  claude_delta: -4,
+  second_delta: -4,
+  second_label: "Сглаженный индекс",
+  second_note: "среднее за последние 3 часа",
+  sources: [
+    { n: "BBC", v: 56 },
+    { n: "Al Jazeera", v: 68 },
+    { n: "DW", v: 54 },
+    { n: "France 24", v: 59 },
+    { n: "The Guardian", v: 55 },
+    { n: "NPR", v: 47 },
+    { n: "Sky News", v: 58 },
+    { n: "Reuters", v: 53 },
+    { n: "AP", v: 52 }
+  ],
+  regions: [
+    { n: "Европа", v: 56 },
+    { n: "Ближний Восток", v: 76 },
+    { n: "Азия", v: 48 },
+    { n: "Африка", v: 61 },
+    { n: "Америка", v: 43 }
+  ],
+  events: [
+    {
+      id: 1,
+      t: "Дипломатические миссии обсуждают параметры прекращения огня и гуманитарные коридоры",
+      x: "Сборщик автоматически группирует похожие публикации из разных мировых агентств в единый сюжет, исключая информационный шум.",
+      r: "Ближний Восток",
+      c: "Конфликты",
+      imp: 96,
+      ten: 78,
+      ago: 11,
+      s: ["BBC", "Al Jazeera", "Reuters", "AP"],
+      u: "https://www.bbc.com/news/world"
+    },
+    {
+      id: 2,
+      t: "Европейские лидеры согласовали новый пакет мер энергетической и оборонной безопасности",
+      x: "Решение принято на саммите в Брюсселе после серии консультаций министров иностранных дел и глав центробанков.",
+      r: "Европа",
+      c: "Политика",
+      imp: 89,
+      ten: 61,
+      ago: 28,
+      s: ["DW", "France 24", "The Guardian"],
+      u: "https://www.dw.com/en/top-stories/s-9097"
+    },
+    {
+      id: 3,
+      t: "Мировые рынки адаптируются к новым торговым пошлинам и колебаниям цен на энергоносители",
+      x: "Инвесторы оценивают влияние обновлённых цепочек поставок на темпы инфляции и процентные ставки.",
+      r: "Америка",
+      c: "Экономика",
+      imp: 82,
+      ten: 49,
+      ago: 44,
+      s: ["Reuters", "BBC", "NPR"],
+      u: "https://www.npr.org/sections/world/"
+    },
+    {
+      id: 4,
+      t: "Экстренные службы ликвидируют последствия мощного шторма на тихоокеанском побережье",
+      x: "Природные катаклизмы учитываются в общем фоне, но классифицируются отдельно от геополитических кризисов.",
+      r: "Азия",
+      c: "Природа",
+      imp: 76,
+      ten: 55,
+      ago: 68,
+      s: ["Sky News", "AP"],
+      u: "https://news.sky.com/world"
+    },
+    {
+      id: 5,
+      t: "Международные миссии расширяют поставки продовольствия и медикаментов в регионе Сахеля",
+      x: "Гуманитарные операции и соглашения несут стабилизирующий вес при расчёте индекса.",
+      r: "Африка",
+      c: "Политика",
+      imp: 71,
+      ten: 63,
+      ago: 92,
+      s: ["Al Jazeera", "France 24"],
+      u: "https://www.france24.com/en/"
+    },
+    {
+      id: 6,
+      t: "Исследователи представили новый алгоритм квантовой диагностики в медицине",
+      x: "Позитивные научные и технологические прорывы снижают общий градус тревожности новостной повестки.",
+      r: "Европа",
+      c: "Наука",
+      imp: 65,
+      ten: 19,
+      ago: 125,
+      s: ["The Guardian", "BBC"],
+      u: "https://www.theguardian.com/world"
+    }
+  ]
+};
+
+// Safe color helper: uses --c-ok, --c-warn, --c-crit so it never collides with mouse coordinates
+const $ = s => document.querySelector(s);
+const col = v => v < 35 ? "var(--c-ok)" : v < 65 ? "var(--c-warn)" : "var(--c-crit)";
+const rawHex = v => v < 35 ? "#10b981" : v < 65 ? "#f59e0b" : "#f43f5e";
+const wd = v => v < 35 ? "Спокойный фон" : v < 65 ? "Повышенный фон" : "Высокая напряжённость";
+const esc = s => String(s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+let D = JSON.parse(JSON.stringify(DEMO));
+let S = { reg: null, cat: "Все", q: "", so: "imp", off: new Set(), auto: true, iv: 5 };
+let left = 300, NEXT = Date.now() + 300000;
+let LASTLOAD = [], FEEDSTAT = [], GL_READY = false;
+let VIA = "", DIAG = [], LOADING = true, BUSY = false;
+let cur = { g1: 0, g2: 0 };
+
+try {
+  const z = JSON.parse(localStorage.getItem("wp_cfg") || "{}");
+  if (z.theme) document.documentElement.dataset.theme = z.theme;
+  if (z.iv && z.v === 2) S.iv = +z.iv;
+  if (Array.isArray(z.off)) S.off = new Set(z.off);
+  const cachedData = JSON.parse(localStorage.getItem("wp_live_cache") || "null");
+  if (cachedData && !cachedData.demo && Array.isArray(cachedData.sources) && cachedData.sources.length && Date.now() - cachedData.updated < 3 * 3600e3) {
+    D = cachedData;
+  }
+} catch (e) {}
+
+const save = () => {
+  try {
+    localStorage.setItem("wp_cfg", JSON.stringify({
+      theme: document.documentElement.dataset.theme,
+      iv: S.iv,
+      v: 2,
+      off: [...S.off]
+    }));
+  } catch (e) {}
+};
+
+const toast = m => {
+  const t = $("#toast");
+  t.textContent = m;
+  t.classList.add("s");
+  clearTimeout(toast.k);
+  toast.k = setTimeout(() => t.classList.remove("s"), 2400);
+};
+
+const idx = () => {
+  const a = (D.sources || []).filter(s => !S.off.has(s.n));
+  return a.length ? Math.round(a.reduce((p, s) => p + s.v, 0) / a.length) : 0;
+};
+
+const idx2 = () => {
+  const delta = typeof D.second_delta === "number" ? D.second_delta : (D.claude_delta || 0);
+  return Math.max(0, Math.min(100, idx() + delta));
+};
+
+function mkG(el, id, label) {
+  const R = 60, C = 2 * Math.PI * R;
+  el.innerHTML = `
+    <svg viewBox="0 0 150 150">
+      <circle cx="75" cy="75" r="${R}" fill="none" stroke="var(--bd)" stroke-width="8"/>
+      <circle id="${id}c" cx="75" cy="75" r="${R}" fill="none" stroke="var(--c-warn)" stroke-width="8" stroke-linecap="round"
+        stroke-dasharray="${C}" stroke-dashoffset="${C}" transform="rotate(-90 75 75)"
+        style="transition:stroke-dashoffset 1s cubic-bezier(.2,.8,.2,1),stroke .35s"/>
+      <text id="${id}v" x="75" y="85" text-anchor="middle" font-size="36" class="serif" fill="currentColor">0%</text>
+    </svg>
+    <div class="l" id="${id}l">${esc(label)}</div>
+    <div class="s mono" id="${id}s"></div>
+    <div class="n" id="${id}n"></div>`;
+}
+
+function setG(id, v, note, label) {
+  const C = 2 * Math.PI * 60;
+  const c = $("#" + id + "c");
+  if (!c) return;
+  c.style.strokeDashoffset = C * (1 - v / 100);
+  c.style.stroke = col(v);
+  c.style.filter = `drop-shadow(0 0 8px ${rawHex(v)}55)`;
+  if (label) $("#" + id + "l").textContent = label;
+  const s = $("#" + id + "s");
+  s.textContent = wd(v);
+  s.style.color = col(v);
+  $("#" + id + "n").textContent = note;
+
+  const from = cur[id] || 0;
+  const t0 = performance.now();
+  cur[id] = v;
+  (function f(n) {
+    const p = Math.min(1, (n - t0) / 750);
+    const val = Math.round(from + (v - from) * (1 - Math.pow(1 - p, 3)));
+    $("#" + id + "v").textContent = val + "%";
+    if (p < 1) requestAnimationFrame(f);
+  })(t0);
+}
+
+function updateKPIs() {
+  const m = idx();
+  const st = $("#kpi-state");
+  st.textContent = m + "%";
+  st.style.color = col(m);
+  $("#kpi-state-sub").textContent = wd(m);
+
+  const regs = [...(D.regions || [])].sort((a, b) => b.v - a.v);
+  if (regs.length) {
+    const top = regs[0];
+    const hot = $("#kpi-hot");
+    hot.innerHTML = `${esc(top.n)} <span class="mono" style="font-size:15px;color:${col(top.v)}">${top.v}%</span>`;
+    $("#kpi-hot-sub").textContent = "лидер по напряжённости";
+  }
+
+  $("#kpi-ev").textContent = (D.events || []).length;
+  $("#kpi-art").textContent = D.total_articles || ((D.events || []).length * 24);
+}
+
+function getSeries(end) {
+  const spanOf = a => a.length > 1 ? a[a.length - 1].t - a[0].t : 0;
+  let pts = [];
+  G.chartSrc = "замеры";
+  if (Array.isArray(D.history) && D.history.length >= 6 && spanOf(D.history) >= 3 * 3600e3) pts = D.history.map(h => ({ t: h.t, v: h.v }));
+  else if (Array.isArray(D.timeline) && D.timeline.length >= 3) { pts = D.timeline.map(h => ({ t: h.t, v: h.v })); G.chartSrc = "по времени публикации"; }
+  else if (Array.isArray(D.history) && D.history.length >= 2) pts = D.history.map(h => ({ t: h.t, v: h.v }));
+  else { try { pts = JSON.parse(localStorage.getItem("wp_hist") || "[]"); } catch (e) {} }
+  const now = D.updated || Date.now();
+  pts = pts.filter(p => p && p.t <= now + 60e3 && now - p.t <= 26 * 3600e3);
+  if (!pts.length || pts[pts.length - 1].t < now - 60e3) pts.push({ t: now, v: end }); else pts[pts.length - 1].v = end;
+  return pts;
+}
+
+function recordHist(t, v) {
+  let h = [];
+  try { h = JSON.parse(localStorage.getItem("wp_hist") || "[]"); } catch (e) {}
+  h = h.filter(p => p && t - p.t < 26 * 3600e3 && p.t <= t);
+  if (h.length && t - h[h.length - 1].t < 4 * 60e3) h[h.length - 1] = { t, v }; else h.push({ t, v });
+  h = h.slice(-300);
+  try { localStorage.setItem("wp_hist", JSON.stringify(h)); } catch (e) {}
+  return h;
+}
+
+function chart() {
+  const svg = $("#chart"), pts = getSeries(idx());
+  if (pts.length < 2) {
+    svg.innerHTML = `<text x="300" y="96" text-anchor="middle" fill="var(--m)" font-size="13">История накапливается: график появится после нескольких обновлений</text>`;
+    $("#cv").textContent = D.demo ? "демо" : "1 замер";
+    svg.onmousemove = svg.onmouseleave = null;
+    return;
+  }
+  const a = pts.map(q => q.v), W = 600, H = 185, p = 14, t0 = pts[0].t, t1 = pts[pts.length - 1].t, span = Math.max(1, t1 - t0);
+  const x = t => p + (t - t0) / span * (W - 2 * p), y = v => H - p - v / 100 * (H - 2 * p);
+  const d = pts.map((q, i) => (i ? "L" : "M") + x(q.t).toFixed(1) + " " + y(q.v).toFixed(1)).join("");
+  const cc = col(idx()), lx = x(t1).toFixed(1), ly = y(a[a.length - 1]).toFixed(1);
+  const fmt = t => new Date(t).toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
+  svg.innerHTML = `<defs><linearGradient id="gr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${cc}" stop-opacity=".32"/><stop offset="1" stop-color="${cc}" stop-opacity="0"/></linearGradient></defs>
+    ${[25, 50, 75].map(v => `<line x1="${p}" x2="${W - p}" y1="${y(v)}" y2="${y(v)}" stroke="var(--bd)" stroke-dasharray="3 5"/><text x="${W - p}" y="${y(v) - 4}" text-anchor="end" fill="var(--m2)" font-size="9" class="mono">${v}%</text>`).join("")}
+    <path d="${d}L${lx} ${H}L${x(t0).toFixed(1)} ${H}Z" fill="url(#gr)"/>
+    <path d="${d}" fill="none" stroke="${cc}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="${lx}" cy="${ly}" r="4" fill="${cc}"/>
+    <text x="${p}" y="${H - 2}" fill="var(--m2)" font-size="9" class="mono">${fmt(t0)}</text>
+    <text x="${W - p}" y="${H - 2}" text-anchor="end" fill="var(--m2)" font-size="9" class="mono">сейчас</text>
+    <line id="cl" y1="${p}" y2="${H - p}" stroke="var(--bd2)" stroke-dasharray="2 2" opacity="0"/>
+    <circle id="cd2" r="5" fill="${cc}" stroke="var(--bg)" stroke-width="2" opacity="0"/>`;
+  const dl = a[a.length - 1] - a[0], hrs = span / 3600e3;
+  $("#cv").textContent = `${a[0]}% → ${a[a.length - 1]}% (${dl > 0 ? "+" : ""}${dl}%) · за ${hrs < 1 ? Math.round(hrs * 60) + " мин" : (Math.round(hrs * 10) / 10) + " ч"}${G.chartSrc === "замеры" ? "" : " · " + G.chartSrc}`;
+  svg.onmousemove = e => {
+    const r = svg.getBoundingClientRect(), mx = (e.clientX - r.left) / r.width * W;
+    let bi = 0, bd = 1e9;
+    pts.forEach((q, i) => { const dd = Math.abs(x(q.t) - mx); if (dd < bd) { bd = dd; bi = i; } });
+    const q = pts[bi];
+    $("#cl").setAttribute("x1", x(q.t)); $("#cl").setAttribute("x2", x(q.t)); $("#cl").setAttribute("opacity", 1);
+    $("#cd2").setAttribute("cx", x(q.t)); $("#cd2").setAttribute("cy", y(q.v)); $("#cd2").setAttribute("fill", col(q.v)); $("#cd2").setAttribute("opacity", 1);
+    const t = $("#tip");
+    t.textContent = `${q.v}% · ${bi === pts.length - 1 ? "сейчас" : fmt(q.t)}`;
+    t.style.opacity = 1;
+    t.style.left = Math.min(r.width - 115, Math.max(0, e.clientX - r.left - 45)) + "px";
+    t.style.top = (y(q.v) / H * r.height - 38) + "px";
+  };
+  svg.onmouseleave = () => { $("#tip").style.opacity = 0; $("#cl").setAttribute("opacity", 0); $("#cd2").setAttribute("opacity", 0); };
+}
+
+function srcs() {
+  const validNames = new Set((D.sources || []).map(s => s.n));
+  S.off.forEach(n => { if (!validNames.has(n)) S.off.delete(n); });
+
+  const on = D.sources.length - S.off.size;
+  $("#sc").textContent = on + "/" + D.sources.length;
+  $("#srcs").innerHTML = D.sources.map(s => `
+    <div class="src ${S.off.has(s.n) ? "" : "on"}" data-n="${esc(s.n)}">
+      <span class="sw"></span>
+      <span class="nm">${esc(s.n)}</span>
+      <span class="mini-bar"><i style="width:${s.v}%;background:${col(s.v)}"></i></span>
+      <span class="v mono" style="color:${col(s.v)}">${s.v}%</span>
+    </div>`).join("");
+
+  document.querySelectorAll(".src").forEach(e => e.onclick = () => {
+    const n = e.dataset.n;
+    if (S.off.has(n)) {
+      S.off.delete(n);
+    } else if (D.sources.length - S.off.size > 1) {
+      S.off.add(n);
+    } else {
+      return toast("Должен быть включён хотя бы один источник");
+    }
+    save();
+    all();
+  });
+}
+
+function regs() {
+  $("#rgs").innerHTML = (D.regions || []).map(r => `
+    <div class="rg ${S.reg === r.n ? "a" : ""}" data-n="${esc(r.n)}">
+      <div class="t">
+        <span>${esc(r.n)}</span>
+        <span class="mono" style="color:${col(r.v)};font-weight:600">${r.v}%</span>
+      </div>
+      <div class="b"><i style="width:0;background:${col(r.v)}" data-w="${r.v}"></i></div>
+    </div>`).join("");
+
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    document.querySelectorAll(".rg i").forEach(i => i.style.width = i.dataset.w + "%");
+  }));
+
+  document.querySelectorAll(".rg").forEach(e => e.onclick = () => {
+    S.reg = S.reg === e.dataset.n ? null : e.dataset.n;
+    regs();
+    evs();
+  });
+  $("#rst").style.display = S.reg ? "" : "none";
+}
+
+function cats() {
+  const c = ["Все", ...new Set((D.events || []).map(e => e.c))];
+  if (!c.includes(S.cat)) S.cat = "Все";
+  $("#cats").innerHTML = c.map(x => `<span class="chip ${S.cat === x ? "a" : ""}" data-c="${esc(x)}">${esc(x)}</span>`).join("");
+  document.querySelectorAll("#cats .chip").forEach(e => e.onclick = () => {
+    S.cat = e.dataset.c;
+    cats();
+    evs();
+  });
+}
+
+const CDNS = [
+  (u, w) => "https://wsrv.nl/?url=" + encodeURIComponent(u) + "&w=" + w + "&output=webp&q=78",
+  (u, w) => "https://i0.wp.com/" + u.replace(/^https?:\/\//, "") + "?w=" + w + "&quality=78",
+  (u, w) => "https://images.weserv.nl/?url=" + encodeURIComponent(u) + "&w=" + w + "&output=webp",
+  u => u
+];
+const px = (u, w) => esc(CDNS[0](u, w));
+function imgErr(el) {
+  const k = (+el.dataset.k || 0) + 1;
+  if (k < CDNS.length && el.dataset.o) { el.dataset.k = k; el.src = CDNS[k](el.dataset.o, +el.dataset.w || 600); return; }
+  const p = el.parentNode;
+  if (p && p.classList.contains("th")) p.classList.add("ph");
+  else if (p && p.classList.contains("nc")) p.insertAdjacentHTML("afterbegin", '<div class="ph"></div>');
+  el.remove();
+}
+function setStatus(dots) {
+  const el = $("#demo"), bn = $("#banner");
+  const age = Math.round((Date.now() - (D.updated || Date.now())) / 60000);
+  let msg = "";
+  if (LOADING) {
+    el.textContent = "Загружаю свежие новости…";
+    dots.forEach(d => d && d.classList.add("warn"));
+  } else if (D.demo) {
+    el.textContent = "ДЕМО-ДАННЫЕ · это не настоящие новости";
+    dots.forEach(d => d && d.classList.add("warn"));
+    msg = "<b>Живые новости не загрузились</b>, показан демо-пример. " + esc(DIAG.slice(-4).join(" · ").slice(0, 240));
+  } else {
+    el.textContent = `${VIA || "кэш браузера"} · ${D.total_articles || "?"} публикаций · ${age < 2 ? "данные свежие" : age + " мин назад"}`;
+    const stale = age > 30;
+    dots.forEach(d => d && d.classList.toggle("warn", stale));
+    if (stale) msg = `<b>Данные устарели на ${age} мин.</b> Сборщик давно не обновлял файл, а загрузка через браузер не удалась.`;
+  }
+  bn.hidden = !msg;
+  bn.innerHTML = msg ? `<span>⚠ ${msg}</span><button class="btn" onclick="load(true)">Повторить</button>` : "";
+}
+const refreshStatus = () => setStatus([$("#hdr-dot"), $("#hero-dot")]);
+const im = u => /^https:\/\//i.test(u || "") ? esc(u) : "";
+const agoNow = e => (e.ago || 1) + Math.max(0, Math.floor((Date.now() - (D.updated || Date.now())) / 60000));
+const fmtAgo = m => m < 2 ? "только что" : m < 60 ? m + " мин назад" : Math.round(m / 60) + " ч назад";
+const pickImg = it => {
+  const m = String(it.content || it.description || "").match(/<img[^>]+src=["']([^"']+)/i);
+  return it.thumbnail || (it.enclosure && it.enclosure.link && /image|jpe?g|png|webp/i.test((it.enclosure.type || "") + it.enclosure.link) ? it.enclosure.link : "") || (m ? m[1] : "");
+};
+function cleanData(d) {
+  if (d.demo) (d.events || []).forEach(e => { if (e.lat == null && REG_C[e.r]) { const h = hash32(e.t), c = REG_C[e.r]; e.lat = c[0] + (h % 100) / 100 * 12 - 6; e.lon = c[1] + ((h >> 8) % 100) / 100 * 20 - 10; e.place = e.r; } });
+  (d.events || []).forEach(e => {
+    if (!/^https?:\/\//i.test(e.u || "")) e.u = "";
+    if (!/^https:\/\//i.test(e.img || "")) e.img = "";
+    e.s = Array.isArray(e.s) ? e.s : [];
+  });
+}
+const thumb = e => `<div class="th ${im(e.img) ? "" : "ph"}" style="--tc:${rawHex(e.ten)}">${im(e.img) ? `<img loading="lazy" referrerpolicy="no-referrer" src="${px(e.img, 240)}" data-w="240" data-o="${im(e.img)}" alt="" onload="this.classList.add('ok')" onerror="imgErr(this)">` : ""}<i></i></div>`;
+const bigImg = e => im(e.img) ? `<img class="big" loading="lazy" referrerpolicy="no-referrer" src="${px(e.img, 900)}" data-w="900" data-o="${im(e.img)}" alt="" onerror="imgErr(this)">` : "";
+
+function renderTop5() {
+  const el = $("#t5");
+  if (!el) return;
+  const a = (D.events || []).filter(e => e.s.some(s => !S.off.has(s))).sort((p, q) => q.imp - p.imp).slice(0, 5);
+  el.innerHTML = a.map((e, n) => {
+    const img = im(e.img), big = n === 0, fresh = agoNow(e) <= 60;
+    return `<a class="nc ${big ? "big" : ""}" style="--i:${n};--tc:${rawHex(e.ten)}" ${e.u ? `href="${esc(e.u)}" target="_blank" rel="noopener noreferrer"` : ""}>
+      ${img ? `<img loading="${big ? "eager" : "lazy"}" referrerpolicy="no-referrer" src="${px(e.img, big ? 1000 : 600)}" data-w="${big ? 1000 : 600}" data-o="${img}" alt="" onerror="imgErr(this)">` : '<div class="ph"></div>'}
+      <span class="nc-rank mono">0${n + 1}</span><span class="nc-ten mono" style="color:${col(e.ten)}">${e.ten}%</span>
+      <div class="nc-body">
+        <div class="nc-tags mono"><span>${esc(e.r)}</span><span>${esc(e.c)}</span>${fresh ? '<span class="fresh">● новое</span>' : ""}</div>
+        <div class="nc-t ${big ? "serif" : ""}">${esc(e.t)}</div>
+        <div class="nc-m mono">${e.s.length} СМИ · ${fmtAgo(agoNow(e))}</div>
+      </div></a>`;
+  }).join("") || '<div class="empty">Нет данных</div>';
+}
+
+function glow() { const g = $("#gs"); if (g) g.style.setProperty("--gc", rawHex(idx()) + "66"); }
+
+function tickUI() {
+  const tot = S.iv * 60;
+  $("#prog").style.width = (Math.max(0, Math.min(1, left / tot)) * 100) + "%";
+  const s = Math.max(0, Math.round((Date.now() - (D.updated || Date.now())) / 1000));
+  const ag = $("#t5ago");
+  ag.textContent = s < 60 ? s + " с назад" : Math.floor(s / 60) + " мин назад";
+  ag.style.color = s > 1200 ? "var(--c-warn)" : "";
+  $("#t5cd").textContent = String(Math.floor(Math.max(0, left) / 60)).padStart(2, "0") + ":" + String(Math.max(0, left) % 60).padStart(2, "0");
+}
+
+function evs() {
+  const q = S.q.toLowerCase().trim();
+  let a = (D.events || []).filter(e =>
+    (!S.reg || e.r === S.reg) &&
+    (S.cat === "Все" || e.c === S.cat) &&
+    (!q || (e.t + " " + e.x + " " + e.r + " " + e.s.join(" ")).toLowerCase().includes(q)) &&
+    e.s.some(s => !S.off.has(s))
+  );
+
+  a.sort((p, q) => S.so === "new" ? p.ago - q.ago : S.so === "ten" ? q.ten - p.ten : q.imp - p.imp);
+  $("#ec").textContent = a.length + " сюж.";
+
+  $("#evs").innerHTML = a.length ? a.map((e, n) => {
+    const agoStr = fmtAgo(agoNow(e));
+    const linkHtml = e.u ? `<a class="ev-link mono" href="${esc(e.u)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">Открыть первоисточник ↗</a>` : "";
+    return `
+      <div class="ev" style="--i:${n}">
+        <div class="eh">
+          ${thumb(e)}
+          <div class="et">
+            ${esc(e.t)}
+            <div class="em mono">
+              <span class="tag-pill">${esc(e.r)}</span>
+              <span class="tag-pill">${esc(e.c)}</span>
+              <span class="${agoNow(e) <= 60 ? "fresh" : ""}">${agoStr}</span>${e._new ? '<span class="newb">NEW</span>' : ""}
+              <span>· ${e.s.length} СМИ</span>
+            </div>
+          </div>
+          <span class="ten-badge mono" style="color:${col(e.ten)}">${e.ten}%</span>
+        </div>
+        <div class="ex">${bigImg(e)}${e.lat != null ? `<button class="btn" style="margin:0 0 10px" onclick="event.stopPropagation();focusEvent(${e.id})">📍 На глобусе</button>` : ""}
+          <div>${esc(e.x)}</div>
+          <div class="em mono" style="margin-top:8px">Источники: ${e.s.map(esc).join(", ")}</div>
+          ${linkHtml}
+          <div class="tb"><i style="width:${e.ten}%;background:${col(e.ten)}"></i></div>
+        </div>
+      </div>`;
+  }).join("") : '<div class="empty">По выбранным фильтрам событий не найдено</div>';
+
+  document.querySelectorAll(".ev").forEach(e => e.onclick = () => e.classList.toggle("open"));
+}
+
+function all() {
+  glow();
+  rebuildGlobe();
+  renderTop5();
+  const m = idx();
+  const sLabel = D.second_label || "Сглаженный индекс";
+  const sNote = D.second_note || "среднее за последние 3 часа";
+  setG("g1", m, D.demo ? "резервный поток" : `по ${D.sources.length - S.off.size} активным СМИ`, "Медиаиндекс");
+  setG("g2", idx2(), sNote, sLabel);
+  updateKPIs();
+  chart();
+  srcs();
+  evs();
+}
+
+function render() {
+  cleanData(D);
+  markSeen(D);
+  $("#upd").textContent = new Date(D.updated).toLocaleTimeString("ru-RU", { hour: "2-digit", minute: "2-digit" });
+  const dots = [$("#hdr-dot"), $("#hero-dot")];
+  setStatus(dots);
+
+  const evList = D.events && D.events.length ? D.events : DEMO.events;
+  $("#tk").innerHTML = [...evList, ...evList].map(e => `
+    <span class="tick-item" data-q="${esc(e.t.slice(0, 25))}">
+      <i class="tick-dot" style="background:${col(e.ten)}"></i>
+      ${esc(e.t)}
+    </span>`).join("");
+  document.querySelectorAll("#tk .tick-item").forEach(sp => sp.onclick = () => {
+    $("#events")?.scrollIntoView({ behavior: "smooth" });
+  });
+
+  if (!$("#g1 svg")) {
+    mkG($("#g1"), "g1", "Медиаиндекс");
+    mkG($("#g2"), "g2", D.second_label || "Сглаженный индекс");
+  }
+  regs();
+  cats();
+  all();
+}
+
+const LIVE_FEEDS = [
+  { n: "BBC", u: "https://feeds.bbci.co.uk/news/world/rss.xml" },
+  { n: "Al Jazeera", u: "https://www.aljazeera.com/xml/rss/all.xml" },
+  { n: "DW", u: "https://rss.dw.com/rdf/rss-en-world" },
+  { n: "France 24", u: "https://www.france24.com/en/rss" },
+  { n: "The Guardian", u: "https://www.theguardian.com/world/rss" },
+  { n: "Sky News", u: "https://feeds.skynews.com/feeds/rss/world.xml" },
+  { n: "NPR", u: "https://feeds.npr.org/1004/rss.xml" },
+  { n: "UN News", u: "https://news.un.org/feed/subscribe/en/news/all/rss.xml" },
+  { n: "CNBC", u: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100727362" },
+  { n: "Euronews", u: "https://www.euronews.com/rss?format=mrss&level=theme&name=news" },
+  { n: "NYT", u: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml" },
+  { n: "CBS News", u: "https://www.cbsnews.com/latest/rss/world" },
+  { n: "ABC News", u: "https://abcnews.go.com/abcnews/internationalheadlines" },
+  { n: "CNN", u: "http://rss.cnn.com/rss/edition_world.rss" },
+  { n: "ABC Australia", u: "https://www.abc.net.au/news/feed/2942460/rss.xml" },
+  { n: "CNA", u: "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511" },
+  { n: "Times of Israel", u: "https://www.timesofisrael.com/feed/" },
+  { n: "Middle East Eye", u: "https://www.middleeasteye.net/rss" },
+  { n: "Arab News", u: "https://www.arabnews.com/rss.xml" },
+  { n: "Africanews", u: "https://www.africanews.com/feed/rss" },
+  { n: "Kyiv Independent", u: "https://kyivindependent.com/news-archive/rss/" },
+  { n: "Yonhap", u: "https://en.yna.co.kr/RSS/news.xml" },
+  { n: "The Diplomat", u: "https://thediplomat.com/feed/" },
+  { n: "Dawn", u: "https://www.dawn.com/feeds/home" },
+  { n: "The Hindu", u: "https://www.thehindu.com/news/international/feeder/default.rss" },
+  { n: "Politico EU", u: "https://www.politico.eu/feed/" },
+  { n: "Japan Times", u: "https://www.japantimes.co.jp/feed/" }
+];
+const PROXIES = [
+  { n: "allorigins-json", f: u => "https://api.allorigins.win/get?url=" + encodeURIComponent(u), json: true },
+  { n: "allorigins-raw", f: u => "https://api.allorigins.win/raw?url=" + encodeURIComponent(u) },
+  { n: "codetabs", f: u => "https://api.codetabs.com/v1/proxy?quest=" + encodeURIComponent(u) },
+  { n: "corsproxy", f: u => "https://corsproxy.io/?" + encodeURIComponent(u) }
+];
+let proxyPref = 0;
+const PSTAT = {};
+
+const LEXSTR = "war:3 wars:3 kill*:3 dead:3 massacre*:3 invasion:3 invad*:3 bomb*:3 airstrike*:3 hostage*:3 missile*:3 terror*:3 coup:3 casualt*:3 escalat*:3 assassinat*:3 genocide:3 death*:2 attack*:2 shell*:2 nuclear:2 explosion*:2 shooting*:2 strike*:2 troops:2 offensive:2 clash*:2 crisis:2 sanction*:2 threat*:2 tension*:2 unrest:2 blockade:2 evacuat*:2 drone*:2 collapse*:2 famine:2 earthquake*:2 tsunami:2 crackdown:2 ultimatum:2 cyberattack*:2 rocket*:2 gunmen:2 riot*:2 protest*:1 flood*:1 wildfire*:1 hurricane*:1 arrest*:1 warn*:1 recession:1 inflation:1 refugee*:1 dispute*:1 deficit:1 tariff*:1 talks:-1 negotiat*:-1 agreement:-2 agree*:-1 ceasefire:-2 truce:-2 peace*:-2 deal:-1 summit:-1 aid:-1 rescue*:-1 breakthrough:-2 released:-1 reopen*:-1 recover*:-1 cooperat*:-2 treaty:-2 welcome*:-1 boost*:-1 growth:-1 vaccine*:-1 discover*:-1 wins:-1 celebrat*:-1 restor*:-1 alliance:-1 humanitarian:-1 relief:-1";
+const LEX_EX = Object.create(null), LEX_PRE = [];
+LEXSTR.split(" ").forEach(p => { const [w, v] = p.split(":"); if (w.endsWith("*")) LEX_PRE.push([w.slice(0, -1), +v]); else LEX_EX[w] = +v; });
+function tension(text) {
+  let sc = 0;
+  (text.toLowerCase().match(/[a-z]+/g) || []).forEach(w => {
+    if (w in LEX_EX) sc += LEX_EX[w];
+    else for (const [pr, v] of LEX_PRE) if (w.startsWith(pr)) { sc += v; break; }
+  });
+  return Math.max(15, Math.min(95, Math.round(40 + 8.5 * sc)));
+}
+const mkRx = ws => new RegExp("(?:^|[^\\w])(?:" + ws.split(" ").map(w => w.replace(/_/g, " ").replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")(?![\\w])", "gi");
+const REG_RX = {
+  "Европа": mkRx("ukraine russia europe european germany france poland britain uk london paris berlin moscow kyiv kremlin nato brussels italy spain serbia balkans hungary romania czech sweden norway finland greece eu zelensky putin"),
+  "Ближний Восток": mkRx("israel gaza iran iraq syria lebanon yemen saudi hamas hezbollah houthi houthis tehran beirut qatar uae jordan turkey palestinian palestinians idf netanyahu jerusalem red_sea west_bank tel_aviv"),
+  "Азия": mkRx("china japan korea india pakistan taiwan beijing tokyo myanmar thailand vietnam philippines indonesia afghanistan asia bangladesh nepal kazakhstan seoul pyongyang manila modi xi hong_kong south_china_sea north_korea south_korea"),
+  "Африка": mkRx("africa sudan nigeria ethiopia congo somalia sahel mali niger kenya egypt libya ghana uganda mozambique cameroon chad rwanda zimbabwe south_africa burkina_faso"),
+  "Америка": mkRx("us u.s. usa america american trump biden washington canada mexico brazil argentina venezuela colombia cuba congress pentagon haiti chile peru white_house wall_street latin_america new_york")
+};
+const CAT_RX = {
+  "Конфликты": mkRx("war attack strike missile troops killed bomb ceasefire hostage military army drone terror clash invasion"),
+  "Природа": mkRx("earthquake flood wildfire hurricane storm typhoon volcano climate drought tsunami"),
+  "Наука": mkRx("scientists scientist study research space nasa vaccine cancer discovery ai robot satellite quantum"),
+  "Экономика": mkRx("economy market stocks inflation trade tariff oil bank gdp recession prices dollar fed interest"),
+  "Политика": mkRx("election president minister parliament vote government sanctions summit talks treaty court protest")
+};
+const best = (rxs, text, def) => { let bk = def, bc = 0; for (const k in rxs) { const c = (text.match(rxs[k]) || []).length; if (c > bc) { bc = c; bk = k; } } return bk; };
+const SKIP = /\b(football|soccer|premier league|champions league|nba|nfl|nhl|mlb|cricket|rugby|tennis|golf|formula 1|olympic\w*|transfer window|striker|goalkeeper|celebrity|oscars?|grammys?|box office|fashion week|horoscope|recipes?|royal family)\b/i;
+const BREAKRX = /\b(breaking|urgent|just in|developing)\b/i;
+const IMGBAD = /(logo|favicon|sprite|pixel|1x1|blank|placeholder|avatar|icon)/i;
+const STOPW = new Set("the an of to in on for and with as at by from is are was were be been after over amid says say new news live update updates will would could may that this its it into than more about out up down against his her their he she they who what how why when has have had not but all one two".split(" "));
+const toks = t => new Set((t.toLowerCase().match(/[a-z0-9]+/g) || []).filter(w => w.length > 2 && !STOPW.has(w)));
+function same(a, b) { let c = 0; a.forEach(x => { if (b.has(x)) c++; }); if (!c) return false; const j = c / (a.size + b.size - c); return (c >= 3 && j >= 0.22) || (c >= 2 && j >= 0.45); }
+const dec = document.createElement("textarea");
+const clean = t => { dec.innerHTML = String(t || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/gi, "$1").replace(/<[^>]+>/g, " "); return dec.value.replace(/\s+/g, " ").trim(); };
+function normImg(u) {
+  u = (u || "").trim();
+  if (u.startsWith("//")) u = "https:" + u;
+  if (u.startsWith("http://")) u = "https://" + u.slice(7);
+  if (!u.startsWith("https://") || u.length > 600 || IMGBAD.test(u)) return "";
+  return u.replace(/\/standard\/\d+\//, "/standard/800/");
+}
+
+async function getText(url, ms) {
+  const c = new AbortController(), t = setTimeout(() => c.abort(), ms || 9500);
+  try {
+    const r = await fetch(url, { signal: c.signal, cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return await r.text();
+  } finally { clearTimeout(t); }
+}
+
+function parseFeed(txt, name) {
+  if (!txt || txt.length < 50) return [];
+  const now = Date.now(), out = [];
+  const doc = new DOMParser().parseFromString(txt, "text/xml");
+  if (!doc.querySelector("parsererror")) {
+    doc.querySelectorAll("item, entry").forEach(el => {
+      const g = t => { const x = el.getElementsByTagName(t)[0] || el.getElementsByTagNameNS("*", t.split(":").pop())[0]; return x ? x.textContent : ""; };
+      const title = clean(g("title"));
+      if (title.length < 12) return;
+      let link = g("link").trim();
+      if (!link) { const l = [...el.getElementsByTagName("link")].find(x => x.getAttribute("href") && (x.getAttribute("rel") || "alternate") === "alternate"); link = l ? l.getAttribute("href") : ""; }
+      const rawHtml = g("description") + " " + g("summary") + " " + g("content:encoded");
+      let desc = clean(g("description") || g("summary"));
+      if (desc.startsWith(title)) desc = desc.slice(title.length).replace(/^[\s\-–—:.]+/, "");
+      const media = [...el.getElementsByTagNameNS("*", "content"), ...el.getElementsByTagNameNS("*", "thumbnail"), ...el.getElementsByTagName("enclosure")]
+        .filter(m => m.getAttribute("url") && (m.getAttribute("type") || m.getAttribute("medium") || "image").includes("image"))
+        .sort((a, b) => (+b.getAttribute("width") || 0) - (+a.getAttribute("width") || 0));
+      let img = media.length ? normImg(media[0].getAttribute("url")) : "";
+      if (!img) { const m = rawHtml.match(/<img[^>]+src=["']([^"']+)/i); img = m ? normImg(m[1]) : ""; }
+      let ts = Date.parse(g("pubDate") || g("published") || g("updated") || g("date"));
+      if (isNaN(ts) || ts > now) ts = now;
+      if (now - ts > 36 * 3600e3) return;
+      out.push({ src: name, title, desc: desc.slice(0, 260), url: /^https?:/i.test(link) ? link : "", ts, img });
+    });
+  }
+  if (!out.length) {
+    const blocks = txt.match(/<(item|entry)[\s>][\s\S]*?<\/\1>/gi) || [];
+    for (const b of blocks) {
+      const gt = tag => { const m = b.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i")); return m ? m[1] : ""; };
+      const title = clean(gt("title"));
+      if (title.length < 12) continue;
+      let link = clean(gt("link"));
+      if (!/^https?:/i.test(link)) { const m = b.match(/<link[^>]+href=["']([^"']+)/i); link = m ? m[1] : ""; }
+      const rawDesc = gt("description") || gt("summary") || gt("content:encoded");
+      let desc = clean(rawDesc);
+      if (desc.startsWith(title)) desc = desc.slice(title.length).replace(/^[\s\-–—:.]+/, "");
+      const imMatch = b.match(/(?:url|src)=["'](https?:\/\/[^"']+\.(?:jpg|jpeg|png|webp)[^"']*)/i);
+      const img = imMatch ? normImg(imMatch[1]) : "";
+      let ts = Date.parse(clean(gt("pubDate") || gt("published") || gt("updated") || gt("dc:date")));
+      if (isNaN(ts) || ts > now) ts = now;
+      if (now - ts > 36 * 3600e3) continue;
+      out.push({ src: name, title, desc: desc.slice(0, 260), url: /^https?:/i.test(link) ? link : "", ts, img });
+    }
+  }
+  return out.sort((a, b) => b.ts - a.ts).slice(0, 40);
+}
+
+const FEED_CACHE = (() => { try { return JSON.parse(localStorage.getItem("wp_feedcache") || "{}"); } catch (e) { return {}; } })();
+const saveFeedCache = () => { try { localStorage.setItem("wp_feedcache", JSON.stringify(FEED_CACHE)); } catch (e) {} };
+function proxyList() {
+  const list = [];
+  try { const mp = localStorage.getItem("wp_proxy"); if (mp && mp.includes("{url}")) list.push({ n: "свой прокси", f: u => mp.replace("{url}", encodeURIComponent(u)) }); } catch (e) {}
+  return list.concat(PROXIES);
+}
+
+async function fetchFeed(feed, cacheOnly) {
+  const st = { n: feed.n, ok: false, items: 0, via: "", cached: false };
+  if (!cacheOnly) {
+    try {
+      const j = JSON.parse(await getText("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(feed.u), 7500));
+      if (j && Array.isArray(j.items) && j.items.length) {
+        const items = j.items.map(it => {
+          const ts = Date.parse((it.pubDate || "").replace(" ", "T") + "Z");
+          return { src: feed.n, title: clean(it.title), desc: clean(it.description).slice(0, 260), url: /^https?:/i.test(it.link) ? it.link : "", ts: isNaN(ts) || ts > Date.now() ? Date.now() : ts, img: normImg(pickImg(it)) };
+        }).filter(i => i.title.length >= 12 && Date.now() - i.ts < 36 * 3600e3);
+        if (items.length) { st.ok = true; st.via = "rss2json"; st.items = items.length; FEED_CACHE[feed.n] = { t: Date.now(), items: items.slice(0, 30) }; saveFeedCache(); return { items, st }; }
+      }
+    } catch (e) {}
+
+    const pl = proxyList();
+    for (let k = 0; k < pl.length; k++) {
+      const pi = (proxyPref + k) % pl.length, p = pl[pi];
+      try {
+        let raw = await getText(p.f(feed.u), 8500);
+        if (p.json) { const parsed = JSON.parse(raw); raw = parsed && parsed.contents ? parsed.contents : ""; }
+        const items = parseFeed(raw, feed.n);
+        if (items.length) { proxyPref = pi; st.ok = true; st.via = p.n; st.items = items.length; FEED_CACHE[feed.n] = { t: Date.now(), items: items.slice(0, 30) }; saveFeedCache(); return { items, st }; }
+      } catch (e) {}
+    }
+  }
+  const c = FEED_CACHE[feed.n];
+  if (c && Date.now() - c.t < 12 * 3600e3) {
+    const items = c.items.filter(i => Date.now() - i.ts < 48 * 3600e3);
+    if (items.length) { st.ok = true; st.cached = true; st.via = "кэш"; st.items = items.length; return { items, st }; }
+  }
+  DIAG.push(feed.n + ": недоступна");
+  return { items: [], st };
+}
+
+async function fetchDirectFallback() {
+  const out = [];
+  const DOMAIN_MAP = {
+    "bbc.co.uk": "BBC", "bbc.com": "BBC", "reuters.com": "Reuters", "apnews.com": "AP",
+    "aljazeera.com": "Al Jazeera", "theguardian.com": "The Guardian", "dw.com": "DW",
+    "france24.com": "France 24", "sky.com": "Sky News", "npr.org": "NPR", "cnbc.com": "CNBC",
+    "euronews.com": "Euronews", "cnn.com": "CNN", "nytimes.com": "NYT"
+  };
+  try {
+    const gdeltUrl = "https://api.gdeltproject.org/api/v2/doc/doc?query=(sourcelang:eng)&mode=artlist&maxrecords=120&timespan=1d&format=json&sort=datedesc";
+    const j = JSON.parse(await getText(gdeltUrl, 9000));
+    if (j && Array.isArray(j.articles)) {
+      j.articles.forEach(a => {
+        const dom = String(a.domain || "").toLowerCase();
+        const src = DOMAIN_MAP[dom] || LIVE_FEEDS.find(f => dom.includes(f.n.toLowerCase().replace(/\s+/g, "")))?.n || "Reuters";
+        const title = clean(a.title);
+        if (title.length < 15) return;
+        let ts = Date.now();
+        if (a.seendate && a.seendate.length >= 15) {
+          const s = a.seendate;
+          const p = Date.parse(`${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}T${s.slice(9,11)}:${s.slice(11,13)}:${s.slice(13,15)}Z`);
+          if (!isNaN(p)) ts = p;
+        }
+        out.push({ src, title, desc: "", url: a.url || "", ts, img: normImg(a.socialimage || "") });
+      });
+    }
+  } catch (e) {}
+
+  try {
+    const rUrl = "https://www.reddit.com/r/worldnews/hot.json?limit=60&raw_json=1";
+    const rj = JSON.parse(await getText(rUrl, 8000));
+    if (rj && rj.data && Array.isArray(rj.data.children)) {
+      rj.data.children.forEach(({ data: d }) => {
+        if (!d || d.stickied || !d.title || d.title.length < 15) return;
+        const dom = String(d.domain || "").toLowerCase().replace(/^www\./, "");
+        const src = DOMAIN_MAP[dom] || "BBC";
+        const img = d.preview && d.preview.images && d.preview.images[0] && d.preview.images[0].source ? normImg(d.preview.images[0].source.url) : "";
+        out.push({ src, title: clean(d.title), desc: "", url: d.url || "", ts: (d.created_utc ? d.created_utc * 1000 : Date.now()), img });
+      });
+    }
+  } catch (e) {}
+  return out;
+}
+
+async function pool(list, n, fn, budgetMs) {
+  const out = new Array(list.length), t0 = Date.now(); let i = 0;
+  await Promise.all(Array.from({ length: n }, async () => { while (i < list.length) { const k = i++; out[k] = await fn(list[k], Date.now() - t0 > budgetMs); } }));
+  return out;
+}
+
+function buildData(all) {
+  all = all.filter(i => !SKIP.test(i.title));
+  if (all.length < 5) return null;
+  const now = Date.now();
+  all.forEach(i => { i.text = i.title + " " + i.desc; i.ten = tension(i.text); i.tok = toks(i.title); i.reg = best(REG_RX, i.text, "Мир"); });
+  const clusters = [];
+  [...all].sort((a, b) => b.ts - a.ts).forEach(it => {
+    const c = clusters.find(k => same(it.tok, k.tok));
+    if (c) { c.m.push(it); it.tok.forEach(w => c.tok.add(w)); } else clusters.push({ tok: new Set(it.tok), m: [it] });
+  });
+  const rank = sn => { const i = LIVE_FEEDS.findIndex(f => f.n === sn); return i < 0 ? 99 : i; };
+  const cut = (t, n) => t.length <= n ? t : t.slice(0, n).replace(/\s+\S*$/, "").replace(/[,.;:]+$/, "") + "…";
+  const events = clusters.map(c => {
+    const m = c.m, srcs = [...new Set(m.map(i => i.src))].sort((a, b) => rank(a) - rank(b));
+    const ageH = Math.max(0, (now - Math.max(...m.map(i => i.ts))) / 3600e3);
+    const ten = Math.round(m.reduce((a, i) => a + i.ten, 0) / m.length);
+    const brk = m.some(i => BREAKRX.test(i.title)) ? 0.05 : 0;
+    const imp = Math.min(100, Math.round(100 * (0.45 * Math.min(srcs.length, 4) / 4 + 0.40 * Math.pow(0.5, ageH / 3) + 0.15 * ten / 100 + brk)));
+    const rep = [...m].sort((a, b) => rank(a.src) - rank(b.src) || b.desc.length - a.desc.length)[0];
+    const joined = m.map(i => i.text).join(" ");
+    const desc = rep.desc || (m.find(i => i.desc) || {}).desc || "";
+    const pic = rep.img ? rep : [...m].sort((a, b) => rank(a.src) - rank(b.src)).find(i => i.img);
+    return { t: cut(rep.title, 150), x: cut(desc, 260), t_en: cut(rep.title, 150), x_en: cut(desc, 260), r: best(REG_RX, joined, "Мир"), c: best(CAT_RX, joined, "Общее"), imp, ten, ago: Math.max(1, Math.round(ageH * 60)), s: srcs, u: rep.url, img: pic ? pic.img : "", img_src: pic ? pic.src : "", fresh: ageH <= 1, n: m.length, ...locateJS(rep.title, joined) };
+  }).sort((a, b) => b.imp - a.imp || a.ago - b.ago).slice(0, 40);
+  events.forEach((e, i) => { e.id = i + 1; });
+  const avg = a => Math.round(a.reduce((x, i) => x + (i.ten ?? i.v), 0) / a.length);
+  const srcNames = [...new Set([...LIVE_FEEDS.map(f => f.n), ...all.map(i => i.src)])];
+  const srcv = srcNames.map(n => { const its = all.filter(i => i.src === n); return its.length ? { n, v: avg(its) } : null; }).filter(Boolean);
+  const media = avg(srcv);
+  const regv = Object.keys(REG_RX).map(r => { const its = all.filter(i => i.reg === r); return its.length >= 1 ? { n: r, v: avg(its) } : null; }).filter(Boolean);
+  const hist = recordHist(now, media);
+  const last = hist.filter(h => now - h.t <= 3 * 3600e3).map(h => h.v);
+  return { updated: now, demo: false, total_articles: all.length, second_delta: avg(last.map(v => ({ v }))) - media, second_label: "Сглаженный индекс", second_note: "среднее за последние 3 часа", sources: srcv, regions: regv, events, history: hist, timeline: buildTimeline(all, now) };
+}
+
+async function gtr(t) {
+  const r = await getText("https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ru&dt=t&q=" + encodeURIComponent(t.slice(0, 450)), 6000);
+  return JSON.parse(r)[0].map(x => x[0]).join("").trim();
+}
+async function translateEvents(evs) {
+  let cache = {};
+  try { cache = JSON.parse(localStorage.getItem("wp_tr") || "{}"); } catch (e) {}
+  const need = [...new Set(evs.flatMap(e => [e.t_en, e.x_en]).filter(t => t && !cache[t]))].slice(0, 40);
+  let fails = 0;
+  await Promise.race([
+    Promise.all(need.map(async t => { if (fails >= 3) return; try { cache[t] = await gtr(t); } catch (e) { fails++; } })),
+    new Promise(res => setTimeout(res, 9000))
+  ]);
+  evs.forEach(e => { e.t = cache[e.t_en] || e.t_en; e.x = e.x_en ? (cache[e.x_en] || e.x_en) : ""; });
+  try { const o = {}; Object.keys(cache).slice(-300).forEach(k => { o[k] = cache[k]; }); localStorage.setItem("wp_tr", JSON.stringify(o)); } catch (e) {}
+}
+
+function applyData(d, via) {
+  D = d; VIA = via;
+  if (!d.demo && !(Array.isArray(d.history) && d.history.length >= 2)) recordHist(d.updated, idx());
+  try { localStorage.setItem("wp_live_cache", JSON.stringify(d)); } catch (e) {}
+  render();
+}
+
+async function fetchLiveRSSFromBrowser(silent) {
+  const btn = $("#live-btn"), orig = btn.innerHTML;
+  btn.innerHTML = `<span class="spin">↻</span> Опрос мировых СМИ...`;
+  btn.disabled = true;
+  try {
+    const res = await pool(LIVE_FEEDS, 4, fetchFeed, 42000);
+    FEEDSTAT = res.map(r => r.st);
+    let items = res.flatMap(r => r.items);
+    let viaNote = `Браузер: ${res.filter(r => r.st.ok).length}/${LIVE_FEEDS.length} лент`;
+
+    if (items.length < 15) {
+      const direct = await fetchDirectFallback();
+      if (direct.length) {
+        items = items.concat(direct);
+        viaNote = items.length === direct.length ? "Прямой поток (GDELT/WorldNews)" : viaNote + " + прямой поток";
+      }
+    }
+
+    const data = buildData(items);
+    if (!data) throw new Error("получено слишком мало заголовков");
+    await translateEvents(data.events);
+    data.failed = LIVE_FEEDS.filter((f, i) => !res[i].st.ok).map(f => f.n);
+    applyData(data, viaNote);
+    if (!silent) toast(`Загружено ${data.total_articles} публикаций`);
+    return true;
+  } catch (err) {
+    DIAG.push(err.message);
+    if (!silent) toast("Сбор не удался: " + err.message);
+    refreshStatus();
+    return false;
+  } finally { btn.innerHTML = orig; btn.disabled = false; }
+}
+
+function dataUrls() {
+  const u = [["data.json", "./data.json"]], h = location.hostname;
+  if (/\.github\.io$/.test(h)) {
+    const owner = h.split(".")[0], seg = location.pathname.split("/")[1];
+    const repo = seg && !/\.(html?|json)$/.test(seg) ? seg : owner + ".github.io";
+    u.push(["jsdelivr CDN", `https://cdn.jsdelivr.net/gh/${owner}/${repo}@main/data.json`]);
+    u.push(["raw.githubusercontent", `https://raw.githubusercontent.com/${owner}/${repo}/main/data.json`]);
+  }
+  return u;
+}
+
+async function load(manual) {
+  if (BUSY) return;
+  BUSY = true;
+  const i = $("#ri");
+  if (manual && i) i.classList.add("spin");
+  DIAG = [];
+  try {
+    LASTLOAD = [];
+    const results = await Promise.all(dataUrls().map(async ([name, url]) => {
+      try {
+        const sep = url.includes("?") ? "&" : "?";
+        const r = await fetch(url + sep + "t=" + Date.now(), { cache: "no-store" });
+        if (!r.ok) { DIAG.push(name + ": HTTP " + r.status); LASTLOAD.push({ name, ok: false, msg: "HTTP " + r.status + " (файла нет: сборщик не запускался или не закоммитил)" }); return null; }
+        const j = await r.json();
+        if (j && Array.isArray(j.sources) && j.sources.length && !j.demo) { LASTLOAD.push({ name, ok: true, msg: "ок, обновлён " + new Date(j.updated).toLocaleTimeString("ru-RU") }); return { j, name }; }
+        DIAG.push(name + ": файл пустой"); LASTLOAD.push({ name, ok: false, msg: "файл пустой" });
+      } catch (e) { DIAG.push(name + ": недоступен"); LASTLOAD.push({ name, ok: false, msg: "недоступен (сеть/блокировка)" }); }
+      return null;
+    }));
+    const got = results.filter(Boolean).sort((a, b) => b.j.updated - a.j.updated)[0];
+    const age = got ? (Date.now() - got.j.updated) / 60000 : Infinity;
+    if (got && age <= 30) {
+      FEEDSTAT = [];
+      applyData(got.j, `Сборщик (${got.name})`);
+      if (manual) toast("Данные обновлены");
+    } else if (await fetchLiveRSSFromBrowser(true)) {
+      if (manual) toast("Свежие новости загружены через браузер");
+    } else if (got) {
+      applyData(got.j, `Сборщик (${got.name}), устарели`);
+      if (manual) toast("Показаны последние доступные данные сборщика");
+    } else if (manual) toast("Новости не загрузились, причина указана вверху страницы");
+  } finally {
+    LOADING = false;
+    BUSY = false;
+    refreshStatus();
+    NEXT = Date.now() + S.iv * 60e3;
+    left = S.iv * 60;
+    if (manual && i) setTimeout(() => i.classList.remove("spin"), 600);
+  }
+}
+
+
+/* ===== geo ===== */
+const GAZ_TXT = "Afghanistan|Афганистан|33.9|67.7|afghan,taliban\nAlbania|Албания|41.2|20|albanian\nAlgeria|Алжир|28|2.6|algerian,algiers\nAngola|Ангола|-12.3|17.5|angolan\nArgentina|Аргентина|-35|-65|argentine,argentinian,milei\nArmenia|Армения|40.2|45|armenian,yerevan\nAustralia|Австралия|-25|134|australian,canberra,sydney,melbourne\nAustria|Австрия|47.5|14.6|austrian,vienna\nAzerbaijan|Азербайджан|40.3|47.7|azerbaijani,baku\nBahrain|Бахрейн|26|50.5|bahraini\nBangladesh|Бангладеш|23.7|90.3|bangladeshi\nBelarus|Беларусь|53.7|28|belarusian,lukashenko\nBelgium|Бельгия|50.6|4.7|belgian\nBolivia|Боливия|-16.7|-64.7|bolivian\nBosnia|Босния|44|17.8|bosnian,sarajevo\nBotswana|Ботсвана|-22.3|24.7|botswana\nBrazil|Бразилия|-10|-52|brazilian,lula\nBulgaria|Болгария|42.7|25.3|bulgarian,sofia\nBurkina Faso|Буркина-Фасо|12.3|-1.6|burkinabe\nBurundi|Бурунди|-3.4|29.9|burundi\nCambodia|Камбоджа|12.7|104.9|cambodian\nCameroon|Камерун|5.7|12.7|cameroonian\nCanada|Канада|58|-96|canadian,trudeau,carney\nCentral African Republic|ЦАР|6.6|20.5|central african\nChad|Чад|15.3|18.7|chadian\nChile|Чили|-33|-71|chilean\nChina|Китай|35|103|chinese,xi jinping,PLA\nColombia|Колумбия|4.6|-74|colombian\nDR Congo|ДР Конго|-2.9|23.6|congo,congolese,DRC\nCosta Rica|Коста-Рика|9.9|-84|costa rican\nCroatia|Хорватия|45.1|15.2|croatian,zagreb\nCuba|Куба|21.8|-79|cuban\nCyprus|Кипр|35|33|cypriot,nicosia\nCzech Republic|Чехия|49.8|15.5|czech,prague\nDenmark|Дания|56|10|danish,copenhagen,denmark\nDominican Republic|Доминикана|18.9|-70.2|dominican\nEcuador|Эквадор|-1.4|-78.4|ecuadorian\nEgypt|Египет|26.8|30.8|egyptian\nEl Salvador|Сальвадор|13.7|-88.9|salvadoran\nEritrea|Эритрея|15.3|38.9|eritrean\nEstonia|Эстония|58.7|25.5|estonian,tallinn\nEthiopia|Эфиопия|9|39.5|ethiopian\nFinland|Финляндия|64|26|finnish,helsinki\nFrance|Франция|46.6|2.5|french,macron,elysee\nGabon|Габон|-0.7|11.6|gabonese\nGeorgia (country)|Грузия|42.3|43.4|georgian,tbilisi\nGermany|Германия|51.2|10.4|german,bundestag,scholz,merz\nGhana|Гана|7.9|-1|ghanaian\nGreece|Греция|39|22|greek\nGuatemala|Гватемала|15.5|-90.3|guatemalan\nGuinea|Гвинея|10.9|-10.9|guinean\nHaiti|Гаити|19|-72.7|haitian\nHonduras|Гондурас|14.8|-86.6|honduran\nHungary|Венгрия|47.1|19.5|hungarian,orban\nIceland|Исландия|64.9|-18.5|icelandic\nIndia|Индия|22.9|79.6|indian,modi\nIndonesia|Индонезия|-2.5|118|indonesian\nIran|Иран|32.4|53.7|iranian,irgc\nIraq|Ирак|33|43.7|iraqi\nIreland|Ирландия|53.3|-8|irish,dublin\nIsrael|Израиль|31.4|35|israeli,idf,netanyahu,knesset\nItaly|Италия|42.8|12.5|italian,meloni\nIvory Coast|Кот-д’Ивуар|7.6|-5.5|ivorian,cote d'ivoire\nJamaica|Ямайка|18.1|-77.3|jamaican\nJapan|Япония|36.6|138.3|japanese\nJordan|Иордания|31.2|36.5|jordanian,amman\nKazakhstan|Казахстан|48|67|kazakh\nKenya|Кения|0.2|37.9|kenyan\nKosovo|Косово|42.6|20.9|kosovo,pristina\nKuwait|Кувейт|29.3|47.6|kuwaiti\nKyrgyzstan|Киргизия|41.5|74.6|kyrgyz\nLaos|Лаос|19.9|102.5|laotian\nLatvia|Латвия|56.9|24.9|latvian,riga\nLebanon|Ливан|33.9|35.9|lebanese,hezbollah\nLibya|Ливия|27|17|libyan\nLithuania|Литва|55.3|23.9|lithuanian,vilnius\nMadagascar|Мадагаскар|-19|46.7|malagasy\nMalawi|Малави|-13.2|34.3|malawian\nMalaysia|Малайзия|4.2|102|malaysian\nMali|Мали|17.4|-3.5|malian\nMauritania|Мавритания|20.3|-10.5|mauritanian\nMexico|Мексика|23.6|-102.5|mexican,sheinbaum\nMoldova|Молдова|47.2|28.5|moldovan,chisinau\nMongolia|Монголия|46.9|103.8|mongolian\nMorocco|Марокко|31.8|-7|moroccan,rabat\nMozambique|Мозамбик|-18.7|35.5|mozambican\nMyanmar|Мьянма|21.2|96|burma,burmese\nNamibia|Намибия|-22.4|17.1|namibian\nNepal|Непал|28.3|84.1|nepali,kathmandu\nNetherlands|Нидерланды|52.2|5.6|dutch,amsterdam\nNew Zealand|Новая Зеландия|-41.5|172.5|new zealand,wellington,auckland\nNicaragua|Никарагуа|12.9|-85|nicaraguan\nNiger|Нигер|17.4|9.4|nigerien,niamey\nNigeria|Нигерия|9.6|8.1|nigerian,abuja\nNorth Korea|КНДР|40.2|127|north korean,kim jong\nNorway|Норвегия|61|9|norwegian,oslo\nOman|Оман|21.5|56|omani,muscat\nPakistan|Пакистан|30|70|pakistani\nPanama|Панама|8.5|-80|panamanian\nPapua New Guinea|Папуа — Новая Гвинея|-6.4|145|papua\nParaguay|Парагвай|-23.4|-58.4|paraguayan\nPeru|Перу|-9.2|-75|peruvian\nPhilippines|Филиппины|12.9|122.9|filipino,philippine\nPoland|Польша|52|19.3|polish,tusk\nPortugal|Португалия|39.6|-8|portuguese,lisbon\nQatar|Катар|25.3|51.2|qatari,doha\nRomania|Румыния|45.9|25|romanian,bucharest\nRussia|Россия|61.5|95|russian,putin,RUSSIA\nRwanda|Руанда|-2|29.9|rwandan,kigali\nSaudi Arabia|Саудовская Аравия|24|45|saudi,riyadh\nSenegal|Сенегал|14.4|-14.5|senegalese,dakar\nSerbia|Сербия|44|20.8|serbian\nSingapore|Сингапур|1.35|103.8|singaporean\nSlovakia|Словакия|48.7|19.5|slovak\nSlovenia|Словения|46.1|14.8|slovenian\nSomalia|Сомали|5.2|46.2|somali\nSouth Africa|ЮАР|-29|24|south african,pretoria\nSouth Korea|Южная Корея|36.5|127.9|south korean\nSouth Sudan|Южный Судан|7.3|30.3|south sudanese,juba\nSpain|Испания|40.2|-3.7|spanish\nSri Lanka|Шри-Ланка|7.9|80.7|sri lankan\nSudan|Судан|15.6|30|sudanese\nSweden|Швеция|62|15|swedish,stockholm\nSwitzerland|Швейцария|46.8|8.2|swiss,bern\nSyria|Сирия|35|38.5|syrian\nTaiwan|Тайвань|23.7|121|taiwanese\nTajikistan|Таджикистан|38.9|71|tajik\nTanzania|Танзания|-6.4|34.9|tanzanian\nThailand|Таиланд|15.1|101|thai\nTunisia|Тунис|34|9.5|tunisian\nTurkey|Турция|39|35.2|turkish,turkiye,erdogan\nTurkmenistan|Туркмения|39|59.5|turkmen\nUganda|Уганда|1.4|32.3|ugandan,kampala\nUkraine|Украина|49|31.4|ukrainian,zelensky,zelenskyy\nUnited Arab Emirates|ОАЭ|24.3|54.3|UAE,emirati,emirates\nUnited Kingdom|Великобритания|54|-2.5|britain,british,UK,england,scotland,wales,starmer\nUnited States|США|39.5|-98.5|US,U.S.,USA,american,america,trump,biden,pentagon,congress,senate\nUruguay|Уругвай|-32.8|-56|uruguayan\nUzbekistan|Узбекистан|41.4|64.6|uzbek\nVenezuela|Венесуэла|7|-66|venezuelan,maduro\nVietnam|Вьетнам|16|106|vietnamese\nYemen|Йемен|15.6|47.6|yemeni\nZambia|Замбия|-13.5|27.8|zambian,lusaka\nZimbabwe|Зимбабве|-19|29.8|zimbabwean,harare\nGreenland|Гренландия|72|-40|greenlandic\nHong Kong|Гонконг|22.3|114.2|hong kong\n!Gaza|Газа|31.45|34.4|gaza strip,rafah,khan younis,hamas\n!West Bank|Западный берег|31.95|35.25|ramallah,jenin,nablus,hebron,palestinian,palestinians\n!Jerusalem|Иерусалим|31.77|35.21|jerusalem\n!Tel Aviv|Тель-Авив|32.08|34.78|tel aviv\n!Tehran|Тегеран|35.69|51.39|tehran\n!Baghdad|Багдад|33.31|44.36|baghdad\n!Damascus|Дамаск|33.51|36.28|damascus\n!Aleppo|Алеппо|36.2|37.16|aleppo\n!Beirut|Бейрут|33.89|35.5|beirut\n!Sanaa|Сана|15.37|44.19|sanaa,houthi,houthis,hodeidah\n!Red Sea|Красное море|20|38.5|red sea,bab el-mandeb\n!Strait of Hormuz|Ормузский пролив|26.6|56.3|hormuz\n!Gulf of Aden|Аденский залив|12.5|47|gulf of aden\n!Kyiv|Киев|50.45|30.52|kyiv,kiev\n!Kharkiv|Харьков|49.99|36.23|kharkiv,kharkov\n!Odesa|Одесса|46.48|30.72|odesa,odessa\n!Donbas|Донбасс|48.2|37.8|donbas,donetsk,luhansk,bakhmut,pokrovsk\n!Zaporizhzhia|Запорожье|47.84|35.14|zaporizhzhia\n!Kherson|Херсон|46.64|32.6|kherson\n!Crimea|Крым|45|34|crimea,sevastopol\n!Black Sea|Чёрное море|43.5|34.5|black sea\n!Moscow|Москва|55.75|37.62|moscow,kremlin\n!St Petersburg|Санкт-Петербург|59.93|30.34|st petersburg,st. petersburg\n!Kursk|Курск|51.73|36.19|kursk,belgorod\n!Minsk|Минск|53.9|27.57|minsk\n!Warsaw|Варшава|52.23|21.01|warsaw\n!Berlin|Берлин|52.52|13.4|berlin\n!Paris|Париж|48.86|2.35|paris\n!London|Лондон|51.5|-0.12|london,downing street\n!Brussels|Брюссель|50.85|4.35|brussels,NATO,EU,european union,european commission\n!Rome|Рим|41.9|12.5|rome,vatican\n!Madrid|Мадрид|40.42|-3.7|madrid\n!Budapest|Будапешт|47.5|19.04|budapest\n!Athens|Афины|37.98|23.73|athens\n!Istanbul|Стамбул|41.01|28.98|istanbul\n!Ankara|Анкара|39.93|32.86|ankara\n!Cairo|Каир|30.04|31.24|cairo\n!Khartoum|Хартум|15.5|32.56|khartoum,omdurman\n!Darfur|Дарфур|13|25|darfur,el fasher\n!Tripoli|Триполи|32.89|13.19|tripoli\n!Addis Ababa|Аддис-Абеба|9.03|38.74|addis ababa\n!Tigray|Тыграй|13.5|39.5|tigray\n!Nairobi|Найроби|-1.29|36.82|nairobi\n!Mogadishu|Могадишо|2.05|45.32|mogadishu\n!Lagos|Лагос|6.52|3.38|lagos\n!Kinshasa|Киншаса|-4.44|15.27|kinshasa\n!Goma|Гома|-1.68|29.22|goma,north kivu,m23\n!Sahel|Сахель|14|2|sahel\n!Kabul|Кабул|34.53|69.17|kabul\n!Islamabad|Исламабад|33.69|73.05|islamabad\n!Kashmir|Кашмир|34.1|74.8|kashmir\n!New Delhi|Нью-Дели|28.61|77.21|new delhi,delhi\n!Mumbai|Мумбаи|19.08|72.88|mumbai\n!Dhaka|Дакка|23.81|90.41|dhaka\n!Beijing|Пекин|39.9|116.4|beijing\n!Shanghai|Шанхай|31.23|121.47|shanghai\n!Taipei|Тайбэй|25.03|121.56|taipei\n!Taiwan Strait|Тайваньский пролив|24.5|119.5|taiwan strait\n!Tokyo|Токио|35.68|139.69|tokyo\n!Seoul|Сеул|37.57|126.98|seoul\n!Pyongyang|Пхеньян|39.04|125.76|pyongyang\n!Manila|Манила|14.6|120.98|manila\n!Jakarta|Джакарта|-6.2|106.85|jakarta\n!Bangkok|Бангкок|13.75|100.5|bangkok\n!South China Sea|Южно-Китайское море|12|114|south china sea\n!Washington|Вашингтон|38.9|-77.04|washington,white house,capitol,pentagon\n!New York|Нью-Йорк|40.71|-74|new york,wall street,united nations\n!Los Angeles|Лос-Анджелес|34.05|-118.24|los angeles,california\n!Mexico City|Мехико|19.43|-99.13|mexico city\n!Ottawa|Оттава|45.42|-75.7|ottawa\n!Caracas|Каракас|10.48|-66.9|caracas\n!Bogota|Богота|4.71|-74.07|bogota\n!Havana|Гавана|23.11|-82.37|havana\n!Port-au-Prince|Порт-о-Пренс|18.54|-72.34|port-au-prince\n!Brasilia|Бразилиа|-15.8|-47.9|brasilia\n!Buenos Aires|Буэнос-Айрес|-34.6|-58.38|buenos aires\n!Lima|Лима|-12.05|-77.04|lima\n!Geneva|Женева|46.2|6.14|geneva\n!The Hague|Гаага|52.08|4.3|the hague,ICC,ICJ\n!Mediterranean|Средиземное море|35|18|mediterranean,lampedusa\n!Baltic Sea|Балтика|58|20|baltic\n!Arctic|Арктика|82|20|arctic\n!Antarctica|Антарктида|-80|0|antarctic,antarctica";
+const GAZ = GAZ_TXT.split("\n").map(ln => {
+  const [k, ru, la, lo, al] = ln.split("|"), spec = k[0] === "!", key = k.replace(/^!/, "");
+  const names = (key.includes("(") ? [] : [key]).concat(al ? al.split(",") : []);
+  const pats = names.map(a => new RegExp("(?:^|[^A-Za-z])" + a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(?![A-Za-z])", a === a.toLowerCase() ? "gi" : "g"));
+  return { key: key.replace(/\s*\(.*\)/, ""), ru, lat: +la, lon: +lo, spec, pats };
+});
+function hash32(str) { let h = 2166136261; for (let i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+function locateJS(title, text) {
+  let best = null;
+  for (const g of GAZ) {
+    let inT = 0, cnt = 0, first = 1e6;
+    for (const p of g.pats) {
+      p.lastIndex = 0; cnt += (text.match(p) || []).length;
+      p.lastIndex = 0; const m = p.exec(title); if (m) { inT = 1; first = Math.min(first, m.index); }
+      p.lastIndex = 0;
+    }
+    if (!cnt && !inT) continue;
+    const sc = (inT ? 3 : 0) + (g.spec ? 2 : 0) + Math.min(cnt, 3);
+    if (!best || sc > best.sc || (sc === best.sc && -first > best.f)) best = { sc, f: -first, g };
+  }
+  if (!best) return { lat: null, lon: null, place: "", place_en: "" };
+  const g = best.g, h = hash32(title), ang = (h % 360) * Math.PI / 180, rad = (g.spec ? 0.3 : 1.0) * (((h >> 9) % 100) / 100 + 0.3);
+  const lat = Math.max(-85, Math.min(85, g.lat + rad * Math.sin(ang)));
+  return { lat: +lat.toFixed(2), lon: +(g.lon + rad * Math.cos(ang) / Math.max(0.3, Math.cos(lat * Math.PI / 180))).toFixed(2), place: g.ru, place_en: g.key };
+}
+const REG_C = { "Ближний Восток": [31, 38], "Европа": [50, 15], "Азия": [35, 100], "Африка": [5, 20], "Америка": [38, -95] };
+function buildTimeline(items, now) {
+  const out = [];
+  for (let k = 24; k >= 0; k--) {
+    const t = now - k * 3600e3, w = items.filter(i => Math.abs(i.ts - t) <= 5400e3).map(i => i.ten);
+    if (w.length >= 4) out.push({ t, v: Math.round(w.reduce((a, b) => a + b, 0) / w.length), n: w.length });
+  }
+  return out;
+}
+function markSeen(d) {
+  let seen = {};
+  try { seen = JSON.parse(localStorage.getItem("wp_seen") || "{}"); } catch (e) {}
+  const first = Object.keys(seen).length === 0, now = Date.now();
+  (d.events || []).forEach(e => {
+    const k = e.u || e.t_en || e.t;
+    if (!(k in seen)) seen[k] = first ? 1 : now;
+    e._new = seen[k] > 1 && now - seen[k] < 20 * 60e3;
+  });
+  Object.keys(seen).forEach(k => { if (now - seen[k] > 48 * 3600e3) delete seen[k]; });
+  try { localStorage.setItem("wp_seen", JSON.stringify(seen)); } catch (e) {}
+}
+
+/* ===== globe ===== */
+const LAND = {"w": 180, "h": 90, "b": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAH4AAAAAAAAAAAAAAAAAAAAAAAAP/3///wAAAAAAAAAAAAAAAAAAAAAAA/+////4AAAAAAAAAAAAAAAAAAAAAAAP4P///4AAAAAAAAAHAAAAAAAAAAAAAAAAf//wAAAAAAAAP/wAAAAAAAAADwAH8AP//wAAAAAACD///+AAAAABgAAf4h/gD//gAAAwAAD//////8AAAP///Bh/H4H/+AAAP/AB3/////////+f//////h8H/gAAA/+H///////////+f/////+H+D8A+AA+/////////////Af/////4AcB4AAAD5////////////+AP/////gHgA4AAAH5////////////wAHwH///gHsAAAAAG4/////////+A4AAHAB///wH+AAAAGCx/////////4A8AAIAA////n/AAAAKCD/////////wAwAAAAAf///n/gAAAbv//////////9AgAAAAAP/////oAAADf///////////AAAAAAAH////wYAAAB///////////9AAAAAAAD////8AAAAB///////////4AAAAAAAD////6AAAAB/f4fH//////wAAAAAAAD////gAAAAfxvwPP//////jAAAAAAAD////AAAAAPCb//P/////+AAAAAAAAD///+AAAAAfADf/n////+ECAAAAAAAB///8AAAAAGGQP/v/////mMAAAAAAAA///8AAAAAH+Ai///////E8AAAAAAAAf//wAAAAAP/AA///////BgAAAAAAAAP//gAAAAAf/z3///////gAAAAAAAAAL/AQAAAAAf////f/////gAAAAAAAAAF+AQAAAAB///+/n/////AAAAAAAAAAC+AAAAAAD///+f0H///+AAAAAAAAAAAeAAAAAAD////f/D///8gAAAAAAAAAAeEEAAAAD////P+A/z/QAAAAAAAAAAAPMBwAAAD////v+A/B+gAAAAAAAAAAAD8AAAAAD////34AeB+AgAAAAAAAAAAAPAAAAAH////3gAcAfAgAAAAAAAAAAADAAAAAD////6AAcAfgAAAAAAAAAAAABBwAAAB////8wAMATAAAAAAAAAAAAAA/+AAAB/////gAIASAIAAAAAAAAAAAAH/gAAA/////gACAQAIAAAAAAAAAAAAH/8AAANP///AAAAoCAAAAAAAAAAAAAH/+AAAAB//+AAAA0OAAAAAAAAAAAAAP/+AAAAB//8AAAAYewAAAAAAAAAAAAP//AAAAB//4AAAAccgAAAAAAAAAAAAP//8AAAB//wAAAAOcguAAAAAAAAAAAP///AAAA//wAAAACAAPgAAAAAAAAAAP///gAAA//wAAAABwAHwAAAAAAAAAAH///AAAAf/wAAAAAAAD4AAAAAAAAAAH///AAAA//wAAAAAAAAAAAAAAAAAAAD//+AAAA//wgAAAAABxAAAAAAAAAAAB//8AAAA//xgAAAAAPxgAAAAAAAAAAA//8AAAA//zgAAAAAf7gAAAAAAAAAAAf/8AAAA//DgAAAAA//gAAAAAAAAAAAf/8AAAAf/DAAAAAD//wAAAAAAAAAAAf/4AAAAf/DAAAAAH//4AAAAAAAAAAAf/AAAAAf+CAAAAAH//8AAAAAAAAAAA//AAAAAP8AAAAAAH//+AAAAAAAAAAA/+AAAAAH8AAAAAAH//+AAAAAAAAAAA/8AAAAAH4AAAAAAH//8AAAAAAAAAAA/8AAAAAHwAAAAAAHw/8AAAAAAAAAAA/gAAAAAAAAAAAAAAAP4AAAAAAAAAAB/gAAAAAAAAAAAAAAAD4AEAAAAAAAAB+AAAAAAAAAAAAAAAAAAAGAAAAAAAAB4AAAAAAAAAAAAAAAAAwAMAAAAAAAAB8AAAAAAAAAAAAAAAAAQAYAAAAAAAAB4AAAAAAAAAAAAAAAAAAAgAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////+AAAAAAAAAAAAAQAAAAAAAH/////////+AAAAAAAAAAB4AAAH////////////////wAAAAAD//8AAAf////////////////+AAAf/////AAD//////////////////wH///////+B//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////"};
+const G = { lon: 35, lat: 22, zoom: 1, vx: 0, vy: 0, drag: false, moved: 0, auto: !matchMedia("(prefers-reduced-motion: reduce)").matches, idleAt: 0, sel: null, hov: null, pts: [], land: null, run: false, tgt: null };
+function landInit() {
+  const bin = atob(LAND.b), n = LAND.w * LAND.h, a = [];
+  for (let i = 0; i < n; i++) if (bin.charCodeAt(i >> 3) & (128 >> (i & 7))) { const r = Math.floor(i / LAND.w), c = i % LAND.w; a.push([89 - 2 * r, -179 + 2 * c]); }
+  G.land = a.map(([la, lo]) => { const p = la * Math.PI / 180, l = lo * Math.PI / 180; return [Math.cos(p), Math.sin(p), Math.cos(l), Math.sin(l)]; });
+}
+function geoEvents() { return (D.events || []).filter(e => e.lat != null && e.lon != null); }
+function eventAlpha(e) { const a = agoNow(e); return a <= 60 ? 1 : a <= 360 ? 0.9 : Math.max(0.3, 0.8 - (a - 360) / 1440 * 0.5); }
+function rebuildGlobe() {
+  if (!G.land) landInit();
+  const light = document.documentElement.dataset.theme === "light";
+  G.light = light;
+  G.pts = geoEvents().map(e => ({ e, la: e.lat * Math.PI / 180, lo: e.lon * Math.PI / 180, col: rawHex(e.ten), r: 3.5 + e.imp / 100 * 6.5 }));
+  if (G.selKey) { const f = (D.events || []).find(x => (x.u || x.t_en || x.t) === G.selKey); G.sel = f ? f.id : null; if (!f) G.selKey = null; }
+  const ev = G.pts.map(p => p.e), nw = ev.filter(e => e._new).length, fr = ev.filter(e => agoNow(e) <= 60).length, old = ev.filter(e => agoNow(e) > 360).length;
+  $("#gcount").textContent = `${ev.length} точек · ${nw} новых · ${fr} свежих · ${old} старых`;
+  renderGPanel();
+  if (!G.run) startGlobe();
+}
+function startGlobe() {
+  const cv = $("#gcv"); if (!cv || G.run) return;
+  G.run = true;
+  const ctx = cv.getContext("2d");
+  const loop = ts => {
+    if (!G.run) return;
+    if (!document.hidden && G.visible !== false) drawGlobe(cv, ctx, ts);
+    requestAnimationFrame(loop);
+  };
+  requestAnimationFrame(loop);
+}
+function sizeCanvas(cv) {
+  const dpr = Math.min(2, window.devicePixelRatio || 1), w = cv.clientWidth, h = cv.clientHeight;
+  if (cv.width !== Math.round(w * dpr) || cv.height !== Math.round(h * dpr)) { cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr); }
+  return [w, h, dpr];
+}
+function drawGlobe(cv, ctx, ts) {
+  const [W, H, dpr] = sizeCanvas(cv);
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
+  const light = G.light, cx = W / 2, cy = H / 2, R = Math.min(W, H) * 0.43 * G.zoom;
+  // motion: inertia, auto-rotate, focus animation
+  if (G.tgt) {
+    let dl = ((G.tgt.lon - G.lon + 540) % 360) - 180;
+    G.lon += dl * 0.09; G.lat += (G.tgt.lat - G.lat) * 0.09;
+    if (Math.abs(dl) < 0.15 && Math.abs(G.tgt.lat - G.lat) < 0.15) G.tgt = null;
+  } else if (!G.drag) {
+    G.lon -= G.vx; G.lat += G.vy; G.vx *= 0.95; G.vy *= 0.95;
+    if (G.auto && !G.hov && !G.sel && ts > G.idleAt && Math.abs(G.vx) < 0.02) G.lon += 0.07;
+  }
+  G.lon = ((G.lon + 540) % 360) - 180; G.lat = Math.max(-80, Math.min(80, G.lat));
+  const l0 = G.lon * Math.PI / 180, p0 = G.lat * Math.PI / 180, sp0 = Math.sin(p0), cp0 = Math.cos(p0), sl0 = Math.sin(l0), cl0 = Math.cos(l0);
+  // atmosphere + sphere
+  const halo = ctx.createRadialGradient(cx, cy, R * 0.96, cx, cy, R * 1.28);
+  halo.addColorStop(0, light ? "rgba(70,110,255,.22)" : "rgba(110,150,255,.28)"); halo.addColorStop(1, "rgba(80,120,255,0)");
+  ctx.fillStyle = halo; ctx.beginPath(); ctx.arc(cx, cy, R * 1.28, 0, 7); ctx.fill();
+  const sph = ctx.createRadialGradient(cx - R * 0.35, cy - R * 0.4, R * 0.1, cx, cy, R);
+  sph.addColorStop(0, light ? "#f4f7ff" : "#1b2338"); sph.addColorStop(1, light ? "#dfe6f7" : "#070a12");
+  ctx.fillStyle = sph; ctx.beginPath(); ctx.arc(cx, cy, R, 0, 7); ctx.fill();
+  ctx.strokeStyle = light ? "rgba(60,90,180,.35)" : "rgba(140,170,255,.35)"; ctx.lineWidth = 1; ctx.stroke();
+  // graticule
+  ctx.strokeStyle = light ? "rgba(60,90,180,.12)" : "rgba(150,175,255,.10)"; ctx.lineWidth = 0.7;
+  const pr = (la, lo) => { const cphi = Math.cos(la), sphi = Math.sin(la), dl = lo - l0, cd = Math.cos(dl);
+    return [cx + R * cphi * Math.sin(dl), cy - R * (cp0 * sphi - sp0 * cphi * cd), sp0 * sphi + cp0 * cphi * cd]; };
+  for (let lo = -180; lo < 180; lo += 30) { ctx.beginPath(); let pen = false;
+    for (let la = -90; la <= 90; la += 6) { const [x, y, z] = pr(la * Math.PI / 180, lo * Math.PI / 180); if (z > 0) { pen ? ctx.lineTo(x, y) : ctx.moveTo(x, y); pen = true; } else pen = false; } ctx.stroke(); }
+  for (let la = -60; la <= 60; la += 30) { ctx.beginPath(); let pen = false;
+    for (let lo = -180; lo <= 180; lo += 6) { const [x, y, z] = pr(la * Math.PI / 180, lo * Math.PI / 180); if (z > 0) { pen ? ctx.lineTo(x, y) : ctx.moveTo(x, y); pen = true; } else pen = false; } ctx.stroke(); }
+  // land dots
+  const dr = Math.max(0.9, R * 0.0052), base = light ? "55,80,150" : "165,190,245";
+  for (const [cphi, sphi, cl, sl] of G.land) {
+    const cd = cl * cl0 + sl * sl0, z = sp0 * sphi + cp0 * cphi * cd;
+    if (z <= 0.02) continue;
+    const x = cx + R * cphi * (sl * cl0 - cl * sl0), y = cy - R * (cp0 * sphi - sp0 * cphi * cd);
+    ctx.fillStyle = `rgba(${base},${0.3 + 0.62 * z})`; ctx.beginPath(); ctx.arc(x, y, dr * (0.55 + 0.45 * z), 0, 7); ctx.fill();
+  }
+  // events
+  const vis = [];
+  for (const p of G.pts) {
+    const dl = p.lo - l0, cphi = Math.cos(p.la), sphi = Math.sin(p.la), cd = Math.cos(dl), z = sp0 * sphi + cp0 * cphi * cd;
+    p.z = z; if (z <= 0.03) { p.on = false; continue; }
+    p.on = true; p.x = cx + R * cphi * Math.sin(dl); p.y = cy - R * (cp0 * sphi - sp0 * cphi * cd); vis.push(p);
+  }
+  vis.sort((a, b) => (a.e.id === G.sel) - (b.e.id === G.sel) || a.e.imp - b.e.imp);
+  const t = ts / 1000, zs = Math.sqrt(G.zoom);
+  for (const p of vis) {
+    const e = p.e, ago = agoNow(e), al = eventAlpha(e) * Math.min(1, p.z * 3), r = p.r * zs, sel = G.sel === e.id || G.hov === e.id;
+    if (ago <= 60 || e._new) {            // пульс: свежее / новое
+      for (let k = 0; k < 2; k++) { const ph = ((t * 0.55 + k * 0.5 + p.e.id * 0.13) % 1); ctx.strokeStyle = p.col; ctx.globalAlpha = (1 - ph) * 0.7 * al; ctx.lineWidth = 1.6;
+        ctx.beginPath(); ctx.arc(p.x, p.y, r + ph * r * 3.2, 0, 7); ctx.stroke(); }
+    }
+    ctx.globalAlpha = al;
+    const gl = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, r * 2.8);
+    gl.addColorStop(0, p.col + "aa"); gl.addColorStop(1, p.col + "00");
+    ctx.fillStyle = gl; ctx.beginPath(); ctx.arc(p.x, p.y, r * 2.8, 0, 7); ctx.fill();
+    ctx.fillStyle = p.col; ctx.beginPath(); ctx.arc(p.x, p.y, r, 0, 7); ctx.fill();
+    ctx.lineWidth = 1.2; ctx.strokeStyle = light ? "rgba(0,0,0,.45)" : "rgba(255,255,255,.75)"; ctx.stroke();
+    if (sel) { ctx.globalAlpha = 1; ctx.strokeStyle = light ? "#111" : "#fff"; ctx.lineWidth = 2; ctx.beginPath(); ctx.arc(p.x, p.y, r + 5 + Math.sin(t * 4) * 1.2, 0, 7); ctx.stroke(); }
+    if (e._new) { ctx.globalAlpha = al; ctx.font = "600 9px ui-monospace,monospace"; ctx.fillStyle = "#10b981"; ctx.fillText("NEW", p.x + r + 3, p.y - r); }
+  }
+  ctx.globalAlpha = 1;
+}
+function pickPoint(mx, my) {
+  let best = null, bd = 1e9;
+  for (const p of G.pts) { if (!p.on) continue; const d = Math.hypot(p.x - mx, p.y - my), lim = p.r * Math.sqrt(G.zoom) + 7; if (d < lim && d < bd) { bd = d; best = p; } }
+  return best;
+}
+function ageTxt(e) { const a = agoNow(e); return a <= 60 ? "свежее" : a <= 360 ? "недавнее" : "старое"; }
+function selectEvent(id, center) {
+  G.sel = id; const e = (D.events || []).find(x => x.id === id); G.selKey = e ? (e.u || e.t_en || e.t) : null;
+  if (e && center && e.lat != null) { G.tgt = { lon: e.lon, lat: Math.max(-55, Math.min(55, e.lat)) }; G.vx = G.vy = 0; }
+  renderGPanel();
+}
+function focusEvent(id) { selectEvent(id, true); $("#globe").scrollIntoView({ behavior: "smooth", block: "center" }); }
+function renderGPanel() {
+  const el = $("#gpanel"); if (!el) return;
+  const e = G.sel != null ? (D.events || []).find(x => x.id === G.sel) : null;
+  if (!e) {
+    const list = [...geoEvents()].sort((a, b) => agoNow(a) - agoNow(b)).slice(0, 9);
+    el.innerHTML = `<div class="gp-place mono">Нажмите на точку на глобусе или выберите событие. Последние по времени публикации:</div><div class="gp-list">` +
+      (list.map(x => `<div class="gp-it" style="--tc:${rawHex(x.ten)}" onclick="selectEvent(${x.id},true)"><span class="d"></span><b>${esc(x.t)}</b><small class="mono">${x._new ? "NEW · " : ""}${fmtAgo(agoNow(x))}</small></div>`).join("") || '<div class="empty">Нет событий с координатами</div>') + `</div>`;
+    return;
+  }
+  const img = im(e.img), a = agoNow(e);
+  el.innerHTML = `<div class="gp-img ${img ? "" : "ph"}" style="--tc:${rawHex(e.ten)}">${img ? `<img loading="lazy" referrerpolicy="no-referrer" src="${px(e.img, 700)}" data-w="700" data-o="${img}" alt="" onerror="imgErr(this)">` : ""}</div>
+    <div class="gp-tags mono"><span>${esc(e.r)}</span><span>${esc(e.c)}</span><span class="${a <= 60 ? "fresh" : ""}">${ageTxt(e)} · ${fmtAgo(a)}</span>${e._new ? '<span class="newb">NEW</span>' : ""}</div>
+    <h3 class="gp-title">${esc(e.t)}</h3>
+    <div class="gp-place mono">📍 ${esc(e.place || "—")} <span style="opacity:.7">(приблизительно · ${e.lat.toFixed(1)}°, ${e.lon.toFixed(1)}°)</span></div>
+    ${e.x ? `<p class="gp-x">${esc(e.x)}</p>` : ""}
+    <div class="gp-m mono"><span>Опасность</span><div class="tb"><i style="width:${e.ten}%;background:${col(e.ten)}"></i></div><b style="color:${col(e.ten)}">${e.ten}%</b>
+      <span>Важность</span><div class="tb"><i style="width:${e.imp}%;background:var(--accent)"></i></div><b>${e.imp}%</b></div>
+    <div class="gp-place mono">Источники (${e.s.length}): ${e.s.map(esc).join(", ")}</div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">${e.u ? `<a class="btn pri" href="${esc(e.u)}" target="_blank" rel="noopener noreferrer">Читать →</a>` : ""}<button class="btn" onclick="selectEvent(null)">← Все события</button></div>`;
+}
+function globeInit() {
+  const cv = $("#gcv"), st = $("#gstage"), tip = $("#gtip");
+  let down = null;
+  cv.addEventListener("pointerdown", e => { cv.setPointerCapture(e.pointerId); G.drag = true; G.moved = 0; G.tgt = null; down = { x: e.clientX, y: e.clientY, lx: e.clientX, ly: e.clientY }; cv.classList.add("drag"); tip.style.opacity = 0; });
+  cv.addEventListener("pointermove", e => {
+    const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+    if (G.drag && down) {
+      const R = Math.min(r.width, r.height) * 0.43 * G.zoom, dx = e.clientX - down.lx, dy = e.clientY - down.ly;
+      down.lx = e.clientX; down.ly = e.clientY; G.moved += Math.abs(dx) + Math.abs(dy);
+      G.lon -= dx / R * 57.3; G.lat += dy / R * 57.3; G.vx = dx / R * 57.3 * 0.6; G.vy = dy / R * 57.3 * 0.6;
+      return;
+    }
+    const p = pickPoint(mx, my); G.hov = p ? p.e.id : null; cv.classList.toggle("hov", !!p);
+    if (p) { tip.innerHTML = `<b>${esc(p.e.t)}</b><br><span style="opacity:.75">${esc(p.e.place || "")} · ${fmtAgo(agoNow(p.e))} · опасность ${p.e.ten}%</span>`; tip.style.left = Math.min(r.width - 270, Math.max(4, mx + 14)) + "px"; tip.style.top = Math.max(4, my - 10) + "px"; tip.style.opacity = 1; }
+    else tip.style.opacity = 0;
+  });
+  const up = e => {
+    if (!G.drag) return; G.drag = false; cv.classList.remove("drag"); G.idleAt = performance.now() + 4000;
+    if (G.moved < 6) { const r = cv.getBoundingClientRect(), p = pickPoint(e.clientX - r.left, e.clientY - r.top); if (p) selectEvent(p.e.id, true); else if (G.sel != null) selectEvent(null); }
+  };
+  cv.addEventListener("pointerup", up); cv.addEventListener("pointercancel", up);
+  cv.addEventListener("pointerleave", () => { G.hov = null; tip.style.opacity = 0; });
+  $("#gz-in").onclick = () => { G.zoom = Math.min(2.2, G.zoom * 1.2); };
+  $("#gz-out").onclick = () => { G.zoom = Math.max(0.7, G.zoom / 1.2); };
+  $("#g-auto").classList.toggle("on", G.auto);
+  $("#g-auto").onclick = e => { G.auto = !G.auto; e.currentTarget.classList.toggle("on", G.auto); };
+  if ("IntersectionObserver" in window) new IntersectionObserver(es => { G.visible = es[0].isIntersecting; }, { threshold: 0.01 }).observe(st);
+}
+
+/* ===== diagnostics ===== */
+function openDiag() {
+  const dg = $("#diag"), ev = D.events || [], geo = ev.filter(e => e.lat != null).length, im_ = ev.filter(e => e.img).length;
+  const rows = (FEEDSTAT.length ? FEEDSTAT : (D.feeds || []).map(f => ({ n: f.n, ok: f.items > 0, items: f.items, via: "сборщик" })));
+  let myp = ""; try { myp = localStorage.getItem("wp_proxy") || ""; } catch (e) {}
+  dg.innerHTML = `<h2 style="text-transform:none;letter-spacing:0;font-size:18px;color:var(--t)">Диагностика</h2>
+    <p class="gp-place mono">Источник данных: <b>${esc(VIA || "кэш браузера")}</b> · обновлено ${new Date(D.updated || Date.now()).toLocaleTimeString("ru-RU")} · публикаций ${D.total_articles || "?"}</p>
+    <table class="dg-t mono"><tr><th>Загрузка data.json</th><th></th></tr>${LASTLOAD.map(x => `<tr><td>${esc(x.name)}</td><td class="${x.ok ? "dg-ok" : "dg-bad"}">${esc(x.msg)}</td></tr>`).join("") || "<tr><td colspan=2>—</td></tr>"}</table>
+    <table class="dg-t mono"><tr><th>Лента</th><th>Статус</th><th>Заголовков</th><th>Канал</th></tr>${rows.map(r => `<tr><td>${esc(r.n)}</td><td class="${r.ok ? (r.cached ? "dg-mid" : "dg-ok") : "dg-bad"}">${r.ok ? (r.cached ? "из кэша" : "ок") : "нет ответа"}</td><td>${r.items || 0}</td><td>${esc(r.via || "")}</td></tr>`).join("") || "<tr><td colspan=4>Нет данных о лентах</td></tr>"}</table>
+    <p class="gp-place mono">Сюжетов: ${ev.length} · с картинкой: ${im_} · с координатами: ${geo}</p>
+    <p class="gp-place">Свой прокси для режима «Браузер» (например, Cloudflare Worker из worker.js). Адрес с <code>{url}</code>:</p>
+    <input class="dg-in mono" id="dg-proxy" placeholder="https://имя.workers.dev/?url={url}" value="${esc(myp)}">
+    <div style="display:flex;gap:8px;margin-top:12px"><button class="btn pri" id="dg-save">Сохранить и обновить</button><button class="btn" id="dg-close">Закрыть</button></div>`;
+  dg.showModal();
+  $("#dg-close").onclick = () => dg.close();
+  $("#dg-save").onclick = () => { try { const v = $("#dg-proxy").value.trim(); v ? localStorage.setItem("wp_proxy", v) : localStorage.removeItem("wp_proxy"); } catch (e) {} dg.close(); fetchLiveRSSFromBrowser(); };
+}
+$("#diag-btn").onclick = openDiag;
+globeInit();
+
+$("#ref").onclick = () => load(true);
+$("#live-btn").onclick = () => fetchLiveRSSFromBrowser();
+$("#auto").onclick = e => {
+  S.auto = !S.auto;
+  e.target.textContent = "Авто: " + (S.auto ? "вкл" : "выкл");
+  e.target.classList.toggle("on", S.auto);
+};
+$("#int").value = S.iv;
+$("#int").onchange = e => {
+  S.iv = +e.target.value;
+  NEXT = Date.now() + S.iv * 60e3;
+  left = S.iv * 60;
+  save();
+};
+
+const th = () => {
+  const h = document.documentElement;
+  h.dataset.theme = h.dataset.theme === "dark" ? "light" : "dark";
+  save();
+};
+$("#theme").onclick = th;
+$("#q").oninput = e => { S.q = e.target.value; evs(); };
+$("#so").onchange = e => { S.so = e.target.value; evs(); };
+$("#rst").onclick = () => { S.reg = null; regs(); evs(); };
+
+$("#cp").onclick = () => {
+  const sLabel = D.second_label || "Сглаженный индекс";
+  const t = `World Pulse · ${new Date(D.updated).toLocaleString("ru-RU")}\n` +
+    `Медиаиндекс: ${idx()}% (${wd(idx())})\n` +
+    `${sLabel}: ${idx2()}%\n\nГлавные события:\n` +
+    D.events.map((e, i) => `${i + 1}. ${e.t} [${e.r}, ${e.ten}%]`).join("\n");
+
+  const ta = document.createElement("textarea");
+  ta.value = t;
+  document.body.appendChild(ta);
+  ta.select();
+  try {
+    document.execCommand("copy");
+    toast("Сводка скопирована в буфер");
+  } catch (e) {
+    toast("Ошибка копирования");
+  }
+  document.body.removeChild(ta);
+};
+
+$("#ex").onclick = () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(D, null, 2)], { type: "application/json" }));
+  a.download = "data.json";
+  a.click();
+  toast("Файл data.json скачан");
+};
+
+$("#fs").onclick = () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+  } else {
+    document.exitFullscreen().catch(() => {});
+  }
+};
+
+document.addEventListener("visibilitychange", () => { if (!document.hidden && S.auto && !BUSY && Date.now() >= NEXT - 3000) load(false); });
+window.addEventListener("online", () => { if (!BUSY) load(false); });
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") {
+    if (e.key === "Escape") e.target.blur();
+    return;
+  }
+  if (e.key === "/") { e.preventDefault(); $("#q").focus(); }
+  if (e.key === "r" || e.key === "R" || e.key === "к" || e.key === "К") load(true);
+  if (e.key === "t" || e.key === "T" || e.key === "е" || e.key === "Е") th();
+});
+
+// Uses --mx and --my so it NEVER overwrites --c-warn (orange)
+document.querySelectorAll(".card").forEach(c => c.addEventListener("mousemove", e => {
+  const r = c.getBoundingClientRect();
+  c.style.setProperty("--mx", (e.clientX - r.left) + "px");
+  c.style.setProperty("--my", (e.clientY - r.top) + "px");
+}));
+
+setInterval(() => {
+  if (!S.auto) return;
+  left = Math.max(0, Math.round((NEXT - Date.now()) / 1000));
+  if (left <= 0 && !BUSY) { NEXT = Date.now() + S.iv * 60e3; load(false); }
+  const m = String(Math.floor(Math.max(0, left) / 60)).padStart(2, "0");
+  const s = String(Math.max(0, left) % 60).padStart(2, "0");
+  $("#cd").textContent = m + ":" + s;
+  tickUI();
+}, 1000);
+
+(function initBackgroundShapes() {
+  const cvs = document.getElementById("bg-canvas");
+  const ctx = cvs.getContext("2d");
+  let W, H;
+  let mouse = { x: -999, y: -999 };
+
+  function resize() {
+    W = cvs.width = window.innerWidth;
+    H = cvs.height = window.innerHeight;
+  }
+  window.addEventListener("resize", resize);
+  resize();
+
+  window.addEventListener("mousemove", e => {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+  });
+
+  // Floating geometric shapes (rings, octahedrons, nodes)
+  const shapes = Array.from({ length: 18 }, (_, i) => ({
+    x: Math.random() * W,
+    y: Math.random() * H,
+    vx: (Math.random() - 0.5) * 0.35,
+    vy: (Math.random() - 0.5) * 0.35,
+    r: 16 + Math.random() * 42,
+    angle: Math.random() * Math.PI * 2,
+    spin: (Math.random() - 0.5) * 0.008,
+    type: i % 3 // 0: wireframe polygon, 1: orbital ring, 2: glowing node
+  }));
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    const isLight = document.documentElement.dataset.theme === "light";
+    const strokeBase = isLight ? "rgba(15, 23, 42," : "rgba(255, 255, 255,";
+    const accentBase = isLight ? "rgba(217, 119, 6," : "rgba(245, 158, 11,";
+
+    // Draw subtle constellation lines between nearby shapes
+    for (let i = 0; i < shapes.length; i++) {
+      const a = shapes[i];
+      for (let j = i + 1; j < shapes.length; j++) {
+        const b = shapes[j];
+        const dx = a.x - b.x, dy = a.y - b.y;
+        const dist = Math.hypot(dx, dy);
+        if (dist < 240) {
+          const alpha = (1 - dist / 240) * 0.07;
+          ctx.strokeStyle = `${strokeBase}${alpha})`;
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+
+    // Update & render each geometric figure
+    shapes.forEach(s => {
+      s.x += s.vx;
+      s.y += s.vy;
+      s.angle += s.spin;
+
+      // Gentle mouse parallax repulsion
+      const mdx = s.x - mouse.x, mdy = s.y - mouse.y;
+      const mdist = Math.hypot(mdx, mdy);
+      if (mdist < 180 && mdist > 1) {
+        s.x += (mdx / mdist) * 0.6;
+        s.y += (mdy / mdist) * 0.6;
+      }
+
+      if (s.x < -60) s.x = W + 60;
+      if (s.x > W + 60) s.x = -60;
+      if (s.y < -60) s.y = H + 60;
+      if (s.y > H + 60) s.y = -60;
+
+      ctx.save();
+      ctx.translate(s.x, s.y);
+      ctx.rotate(s.angle);
+
+      if (s.type === 0) {
+        // Rotating wireframe hexagon / octahedron projection
+        ctx.strokeStyle = `${strokeBase}0.08)`;
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        for (let k = 0; k < 6; k++) {
+          const ang = (k * Math.PI) / 3;
+          const px = Math.cos(ang) * s.r;
+          const py = Math.sin(ang) * s.r;
+          k === 0 ? ctx.moveTo(px, py) : ctx.lineTo(px, py);
+        }
+        ctx.closePath();
+        ctx.stroke();
+
+        // Inner cross lines for 3D crystal feel
+        ctx.strokeStyle = `${accentBase}0.07)`;
+        ctx.beginPath();
+        ctx.moveTo(-s.r, 0); ctx.lineTo(s.r, 0);
+        ctx.moveTo(0, -s.r); ctx.lineTo(0, s.r);
+        ctx.stroke();
+      } else if (s.type === 1) {
+        // Tilted orbital ring
+        ctx.strokeStyle = `${strokeBase}0.075)`;
+        ctx.lineWidth = 1.2;
+        ctx.beginPath();
+        ctx.ellipse(0, 0, s.r, s.r * 0.42, 0, 0, Math.PI * 2);
+        ctx.stroke();
+
+        // Orbiting satellite dot
+        const satX = Math.cos(s.angle * 2) * s.r;
+        const satY = Math.sin(s.angle * 2) * (s.r * 0.42);
+        ctx.fillStyle = `${accentBase}0.35)`;
+        ctx.beginPath();
+        ctx.arc(satX, satY, 2.2, 0, Math.PI * 2);
+        ctx.fill();
+      } else {
+        // Minimalist crosshair node
+        ctx.strokeStyle = `${strokeBase}0.1)`;
+        ctx.beginPath();
+        ctx.arc(0, 0, s.r * 0.35, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.fillStyle = `${strokeBase}0.22)`;
+        ctx.beginPath();
+        ctx.arc(0, 0, 2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      ctx.restore();
+    });
+
+    requestAnimationFrame(draw);
+  }
+
+  requestAnimationFrame(draw);
+})();
+
+(function () {
+  const els = document.querySelectorAll(".card");
+  const show = e => e.classList.add("vis");
+  if (!("IntersectionObserver" in window)) { els.forEach(show); return; }
+  const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { show(x.target); io.unobserve(x.target); } }), { threshold: 0.06 });
+  els.forEach(e => io.observe(e));
+  setTimeout(() => els.forEach(show), 2500);
+})();
+
+render();
+tickUI();
+load(false);
+</script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 {
- "updated": 1792863512202,
+ "updated": 1792871198926,
  "demo": false,
- "total_articles": 680,
- "second_delta": 0,
+ "total_articles": 645,
+ "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
@@ -16,15 +16,15 @@
   },
   {
    "n": "DW",
-   "v": 64
+   "v": 65
   },
   {
    "n": "France 24",
-   "v": 57
+   "v": 61
   },
   {
    "n": "The Guardian",
-   "v": 51
+   "v": 52
   },
   {
    "n": "Sky News",
@@ -32,7 +32,7 @@
   },
   {
    "n": "NPR",
-   "v": 67
+   "v": 66
   },
   {
    "n": "UN News",
@@ -52,7 +52,7 @@
   },
   {
    "n": "CBS News",
-   "v": 56
+   "v": 57
   },
   {
    "n": "ABC News",
@@ -64,23 +64,19 @@
   },
   {
    "n": "Fox News",
-   "v": 67
+   "v": 68
   },
   {
    "n": "ABC Australia",
-   "v": 44
-  },
-  {
-   "n": "CNA",
    "v": 43
   },
   {
-   "n": "Middle East Eye",
-   "v": 74
+   "n": "CNA",
+   "v": 44
   },
   {
    "n": "Africanews",
-   "v": 54
+   "v": 53
   },
   {
    "n": "Kyiv Independent",
@@ -96,11 +92,11 @@
   },
   {
    "n": "The Diplomat",
-   "v": 38
+   "v": 39
   },
   {
    "n": "Dawn",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Times of India",
@@ -108,7 +104,7 @@
   },
   {
    "n": "The Hindu",
-   "v": 61
+   "v": 60
   },
   {
    "n": "Politico EU",
@@ -120,11 +116,11 @@
   },
   {
    "n": "Reuters",
-   "v": 45
+   "v": 44
   },
   {
    "n": "AP",
-   "v": 46
+   "v": 45
   }
  ],
  "regions": [
@@ -134,11 +130,11 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 70
+   "v": 69
   },
   {
    "n": "Азия",
-   "v": 42
+   "v": 41
   },
   {
    "n": "Африка",
@@ -146,152 +142,321 @@
   },
   {
    "n": "Америка",
-   "v": 44
+   "v": 45
   }
  ],
  "events": [
   {
-   "t": "Париж: 70 000 полицейских развернуты по всей стране",
-   "x": "Коалиция движения «Желтые жилеты», профсоюзов и студентов пройдёт маршем по Франции в субботу с требованиями изменить условия обучения и покупательную способность. Ожидается, что будет задействовано около 70 000 полицейских, поскольку власти опасаются грабежей и вандализма.",
+   "t": "Hundreds of thousands march in France as protests take place across Europe – Europe live",
+   "x": "French police have made 1,000 arrests and Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m h",
    "r": "Европа",
-   "c": "Конфликты",
-   "imp": 91,
-   "ten": 67,
-   "ago": 27,
+   "c": "Политика",
+   "imp": 93,
+   "ten": 55,
+   "ago": 2,
    "s": [
-    "France 24",
-    "Fox News",
-    "Times of India",
+    "The Guardian",
+    "NYT",
+    "ABC News",
     "The Hindu"
    ],
-   "u": "https://www.france24.com/en/paris-70-000-police-officers-deployed-nationwide",
-   "img": "https://s.france24.com/media/display/f782198c-cfbd-11f1-8ac9-4b25c96ec90e/w:1024/p:16x9/EN-20261024-160222-160523-CS.jpg",
+   "u": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+   "img": "https://i.guim.co.uk/img/media/14507464f3b26131fdacfffa0a76a694f48024cf/765_0_4356_3484/master/4356.jpg?width=700&quality=85&auto=format&fit=max&s=83a4cfdc2a21ba5bdbb738d43dbdb5f8",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 5,
+   "lat": 47.34,
+   "lon": 2.92,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 1,
+   "t_en": "Hundreds of thousands march in France as protests take place across Europe – Europe live",
+   "x_en": "French police have made 1,000 arrests and Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m h"
+  },
+  {
+   "t": "France: Clashes erupt as protests sweep across cities",
+   "x": "🇫🇷 The Ministry of the Interior estimates at least 410,000 people rallied across France for Saturday’s protests against the high cost of living, including 110,000 in Paris. Meanwhile, reported nearly 800,000 demonstrators and 250,000 in the capital. The situat",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 90,
+   "ten": 70,
+   "ago": 40,
+   "s": [
+    "France 24",
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/video/20261024-france-clashes-erupt-as-protests-sweep-across-cities",
+   "img": "https://s.france24.com/media/display/ad139170-cfd4-11f1-892a-bdb9616e85cf/w:1024/p:16x9/Clashes-1.jpg",
    "img_src": "France 24",
    "fresh": true,
    "n": 5,
-   "lat": 48.99,
-   "lon": 2.22,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 1,
-   "t_en": "Paris: 70.000 police officers deployed nationwide",
-   "x_en": "A coalition of the “Yellow Vests” movement, trade unions and students will march across France on Saturday with demands over studying conditions and purchasing power. Some 70,000 police are expected to be deployed as authorities fear looting and vandalism simi"
+   "lat": 46.55,
+   "lon": 3.46,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 2,
+   "t_en": "France: Clashes erupt as protests sweep across cities",
+   "x_en": "🇫🇷 The Ministry of the Interior estimates at least 410,000 people rallied across France for Saturday’s protests against the high cost of living, including 110,000 in Paris. Meanwhile, reported nearly 800,000 demonstrators and 250,000 in the capital. The situat"
+  },
+  {
+   "t": "Kim Jong Un crosses new bridge linking North Korea and China",
+   "x": "Лидер Северной Кореи проезжает по мосту через реку Нью-Ялу, чтобы встретиться с высокопоставленным членом Коммунистической партии Ким Чен Ын посетил Китай, открыл мост, соединяющий две страны, и заявил, что надеется расширить сотрудничество со своим соседом. Северокорейская Лия",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 82,
+   "ten": 38,
+   "ago": 106,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "ABC News",
+    "Yonhap",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/24/kim-jong-un-crosses-new-bridge-linking-north-korea-and-china?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/bacc10873965dc231eed0c7066ab2daf07428492/287_0_5753_4600/master/5753.jpg?width=700&quality=85&auto=format&fit=max&s=2ef03543173c8d20829d798f7ab4cd27",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 10,
+   "lat": 40.45,
+   "lon": 127.86,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 3,
+   "t_en": "Kim Jong Un crosses new bridge linking North Korea and China",
+   "x_en": "North Korean leader travels over New Yalu River Bridge to meet senior Communist party member Kim Jong-un has visited China, inaugurating a bridge that connects the two countries and saying he hopes to expand cooperation with his neighbour. The North Korean lea"
+  },
+  {
+   "t": "Israel begins demolitions in West Bank",
+   "x": "Палестинская администрация призвала к международному давлению на Израиль после того, как палестинский чиновник заявил, что около 1200 палестинцев в Хевроне на Западном Берегу были вынуждены покинуть свои дома после нападения в пятницу, в результате которого погибли два израильских солдата. Т",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 77,
+   "ago": 137,
+   "s": [
+    "France 24",
+    "UN News",
+    "NYT",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/israel-begins-demolitions-in-west-bank",
+   "img": "https://s.france24.com/media/display/c6d1d9fc-cfbe-11f1-b89b-5b4a75578ebb/w:1024/p:16x9/EN-20261024-161247-161339-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 31.87,
+   "lon": 35.3,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 4,
+   "t_en": "Israel begins demolitions in West Bank",
+   "x_en": "The Palestinian Authority has called for international pressure on Israel after a Palestinian official said around 1,200 Palestinians in Hebron in the West Bank were forced to leave their homes following an attack on Friday which killed two Israeli soldiers. T"
+  },
+  {
+   "t": "Israel launches collective punishment campaign in Hebron after two soldiers killed",
+   "x": "Benjamin Netanyahu and ministers promise demolitions and forced displacement after deadly gunfight Israel has launched a campaign of collective punishment against Palestinians in Hebron after gunmen killed two Israeli soldiers and injured three near a checkpoi",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 84,
+   "ago": 147,
+   "s": [
+    "The Guardian",
+    "Sky News",
+    "CBS News",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/world/2026/oct/23/netanyahu-orders-very-extensive-operation-west-bank-two-israeli-soldiers-killed",
+   "img": "https://i.guim.co.uk/img/media/15b08426d4d1d04bcd2303817e34d7f49ab08850/539_0_4583_3667/master/4583.jpg?width=700&quality=85&auto=format&fit=max&s=3f1856235110ace7e7e3d372cbb9205e",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 5,
+   "lat": 32.07,
+   "lon": 35.53,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 5,
+   "t_en": "Israel launches collective punishment campaign in Hebron after two soldiers killed",
+   "x_en": "Benjamin Netanyahu and ministers promise demolitions and forced displacement after deadly gunfight Israel has launched a campaign of collective punishment against Palestinians in Hebron after gunmen killed two Israeli soldiers and injured three near a checkpoi"
   },
   {
    "t": "Король Иордании Абдалла приказал принять решительные меры после смертельного нападения на церковь",
    "x": "Власти, разыскивающие нападавших, говорят, что еще слишком рано определять, были ли они связаны с известными группировками, поскольку число погибших сейчас девять.",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 91,
+   "imp": 77,
    "ten": 75,
-   "ago": 37,
+   "ago": 165,
    "s": [
     "Al Jazeera",
     "ABC News",
     "Dawn",
-    "Reuters"
+    "Reuters",
+    "AP"
    ],
    "u": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss",
    "img": "https://s.abcnews.com/images/International/wirestory_09d5d10a173e7c4fa87209f73c465b5d_16x9_1600.jpg",
    "img_src": "ABC News",
-   "fresh": true,
+   "fresh": false,
    "n": 5,
    "lat": 32.05,
    "lon": 36.29,
    "place": "Иордания",
    "place_en": "Jordan",
-   "id": 2,
+   "id": 6,
    "t_en": "Jordan’s King Abdullah orders firm response after deadly church attack",
    "x_en": "Authorities searching for attackers say too early to determine if they had ties to known groups, as death toll now nine."
   },
   {
-   "t": "🔴 Протесты во Франции в прямом эфире: полиция сообщает, что 110 000 человек вышли на «спокойный» марш в Париже на фоне сообщений о столкновениях в других городах",
-   "x": "Французская полиция произвела 135 арестов, а итальянские офицеры совершали обыски в домах в Милане. Протесты также проходят в Испании и Албании. 40-летний Джесси, благотворительный работник с севера Парижа, вышел на уличный марш. Она сказала: «Я так зла.",
+   "t": "Met says it shared allegations about Meghan’s father with her but not other forces",
+   "x": "Scotland Yard says it shared letter about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sussex in 2019 concerning “alleged offending” involving her fat",
    "r": "Европа",
    "c": "Общее",
-   "imp": 89,
-   "ten": 59,
-   "ago": 34,
+   "imp": 76,
+   "ten": 40,
+   "ago": 127,
    "s": [
-    "France 24",
     "The Guardian",
+    "CBS News",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/uk-news/2026/oct/24/met-admits-it-did-not-pass-on-2019-letter-about-meghan-markle-father-thomas-markle-allegations-",
+   "img": "https://i.guim.co.uk/img/media/a7cd75cec6acbe07ab0b79ab9868594caa94709f/207_0_2065_1652/master/2065.jpg?width=700&quality=85&auto=format&fit=max&s=25d2c7701593a798c8372db828304d24",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": 54.26,
+   "lon": -0.97,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 7,
+   "t_en": "Met says it shared allegations about Meghan’s father with her but not other forces",
+   "x_en": "Scotland Yard says it shared letter about Thomas Markle Sr allegations in 2019 but did not pass claims to other agencies The Metropolitan police have confirmed they gave a letter to the Duchess of Sussex in 2019 concerning “alleged offending” involving her fat"
+  },
+  {
+   "t": "Мужчина арестован после пожара в убежище Гитлера на вершине горы «Орлиное гнездо»",
+   "x": "Около 200 сотрудников службы экстренной помощи были задействованы для тушения пожара в альпийской резиденции нацистского диктатора в Германии.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 73,
+   "ten": 46,
+   "ago": 168,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Sky News",
+    "CNBC",
+    "Euronews",
+    "CBS News",
     "ABC News",
+    "Dawn",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.france24.com/en/france/20261024-live-hundreds-of-protests-expected-in-france-amid-high-tensions-and-heavy-police-presence",
-   "img": "https://i.guim.co.uk/img/media/14507464f3b26131fdacfffa0a76a694f48024cf/765_0_4356_3484/master/4356.jpg?width=700&quality=85&auto=format&fit=max&s=83a4cfdc2a21ba5bdbb738d43dbdb5f8",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 5,
-   "lat": 48.48,
-   "lon": 2.31,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 3,
-   "t_en": "🔴 French protests live: Police say 110,000 turn out for 'calm' Paris march amid reports of clashes in other cities",
-   "x_en": "French police have made 135 arrests, while Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m "
+   "u": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/723c/live/ca5c07b0-cfc2-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 11,
+   "lat": 51.87,
+   "lon": 11.22,
+   "place": "Германия",
+   "place_en": "Germany",
+   "id": 8,
+   "t_en": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+   "x_en": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany."
   },
   {
-   "t": "Более 2000 человек были вынуждены покинуть дома в Хевроне из-за израильских рейдов на Западном Берегу",
-   "x": "Палестинцы в Хевроне «живут в страхе», поскольку город закрыт, в то время как израильские силы арестовывают десятки людей на Западном Берегу.",
-   "r": "Ближний Восток",
+   "t": "Fresh protests across France",
+   "x": "Коалиция движения «Желтые жилеты», профсоюзов и студентов пройдёт маршем по Франции в субботу с требованиями изменить условия обучения и покупательную способность. Ожидается, что будет задействовано около 70 000 полицейских, поскольку власти опасаются грабежей и вандализма.",
+   "r": "Европа",
    "c": "Экономика",
-   "imp": 81,
-   "ten": 71,
-   "ago": 25,
+   "imp": 72,
+   "ten": 40,
+   "ago": 57,
    "s": [
-    "Al Jazeera",
     "France 24",
-    "Euronews"
+    "CNBC",
+    "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/c6d1d9fc-cfbe-11f1-b89b-5b4a75578ebb/w:1024/p:16x9/EN-20261024-161247-161339-CS.jpg",
+   "u": "https://www.france24.com/en/fresh-protests-across-france",
+   "img": "https://s.france24.com/media/display/768058f4-cfad-11f1-a89f-bba4eee3dc72/w:1024/p:16x9/EN-20261024-142251-142443-CS.jpg",
    "img_src": "France 24",
    "fresh": true,
    "n": 3,
-   "lat": 31.95,
-   "lon": 35.36,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 4,
-   "t_en": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids",
-   "x_en": "Palestinians in Hebron are 'living in fear' with the city closed, while Israeli forces arrest dozens across the West Bank."
-  },
-  {
-   "t": "Как небольшой студенческий протест распространился по Франции",
-   "x": "Движение, которое началось с нескольких средних школ, расширилось и охватило профсоюзы и других активистов.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 80,
-   "ten": 70,
-   "ago": 32,
-   "s": [
-    "NYT",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.nytimes.com/2026/10/24/world/europe/france-protests-timeline.html",
-   "img": "https://static01.nyt.com/images/2026/10/24/multimedia/24france-protests-timeline-qzbm/24france-protests-timeline-qzbm-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 3,
-   "lat": 45.93,
-   "lon": 1.63,
+   "lat": 45.96,
+   "lon": 2.68,
    "place": "Франция",
    "place_en": "France",
-   "id": 5,
-   "t_en": "How a Small Student Protest Spread Across France",
-   "x_en": "A movement that began with a few high schools has broadened to encompass labor unions and other activists."
+   "id": 9,
+   "t_en": "Fresh protests across France",
+   "x_en": "A coalition of the “Yellow Vests” movement, trade unions and students will march across France on Saturday with demands over studying conditions and purchasing power. Some 70,000 police are expected to be deployed as authorities fear looting and vandalism simi"
+  },
+  {
+   "t": "Six Flags to reopen Goliath rollercoaster – but now with seatbelts after recent rider death",
+   "x": "Hassan Jihad Ibn Kariem fell from ride earlier this month, spurring amusement park to temporarily shut it down Six Flags will install seatbelts on its Goliath rollercoaster in Georgia , after a rider plummeted to his death earlier this month. Hassan Jihad Ibn ",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 71,
+   "ten": 62,
+   "ago": 2,
+   "s": [
+    "The Guardian",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/oct/24/six-flags-goliath-rollercoaster-seatbelts",
+   "img": "https://i.guim.co.uk/img/media/315537ddb95c1593ed116f7a8fd1143bf205de51/250_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=ae365f34aef91e394f21645f851cbc60",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 10,
+   "t_en": "Six Flags to reopen Goliath rollercoaster – but now with seatbelts after recent rider death",
+   "x_en": "Hassan Jihad Ibn Kariem fell from ride earlier this month, spurring amusement park to temporarily shut it down Six Flags will install seatbelts on its Goliath rollercoaster in Georgia , after a rider plummeted to his death earlier this month. Hassan Jihad Ibn "
+  },
+  {
+   "t": "Британка погибла после попытки спасти сыновей, утонувших в море на Багамах",
+   "x": "Натан Грегори говорит, что потеря возлюбленной детства Линн «невообразима для нашей семьи».",
+   "r": "Ближний Восток",
+   "c": "Общее",
+   "imp": 71,
+   "ten": 28,
+   "ago": 155,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Sky News",
+    "Times of India"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8b9f/live/09596b60-cfc8-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 54.95,
+   "lon": -1.29,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 11,
+   "t_en": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
+   "x_en": "Nathan Gregory says the loss of childhood sweetheart Leanne \"is unimaginable for our family\"."
   },
   {
    "t": "Украина заявляет, что соединение Starlink «теперь стабильно» после ограничений сети",
    "x": "Замедление соединения Starlink в течение недели влияло на военные действия Украины и операции беспилотников.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 80,
+   "imp": 70,
    "ten": 58,
-   "ago": 110,
+   "ago": 238,
    "s": [
     "BBC",
     "The Guardian",
@@ -308,131 +473,18 @@
    "lon": 30.72,
    "place": "Украина",
    "place_en": "Ukraine",
-   "id": 6,
+   "id": 12,
    "t_en": "Ukraine says Starlink connection 'now stable' after network limits",
    "x_en": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week."
-  },
-  {
-   "t": "Мужчина арестован после пожара в убежище Гитлера на вершине горы «Орлиное гнездо»",
-   "x": "Около 200 сотрудников службы экстренной помощи были задействованы для тушения пожара в альпийской резиденции нацистского диктатора в Германии.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 79,
-   "ten": 47,
-   "ago": 102,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "Sky News",
-    "Euronews",
-    "CBS News",
-    "ABC News",
-    "Dawn",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/723c/live/ca5c07b0-cfc2-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 10,
-   "lat": 51.87,
-   "lon": 11.22,
-   "place": "Германия",
-   "place_en": "Germany",
-   "id": 7,
-   "t_en": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
-   "x_en": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany."
-  },
-  {
-   "t": "Коалиция под руководством Саудовской Аравии заявила, что перехватила баллистические ракеты хуситов, нацеленные на саудовские города",
-   "x": "Гражданская оборона Саудовской Аравии на короткое время выпустила предупреждения, предупреждая жителей о потенциальной опасности в Таифе и Янбу, а также в Мекке и Джидде.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 79,
-   "ten": 82,
-   "ago": 155,
-   "s": [
-    "CNBC",
-    "Middle East Eye",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/10/24/saudi-led-coalition-says-it-intercepted-houthi-ballistic-missiles-.html",
-   "img": "https://th-i.thgim.com/public/incoming/2p7muo/article71619948.ece/alternates/LANDSCAPE_1200/Mideast_Yemen_War_2799_.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 4,
-   "lat": 15.44,
-   "lon": 43.97,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 8,
-   "t_en": "Saudi-led coalition says it intercepted Houthi ballistic missiles targeting Saudi cities",
-   "x_en": "Saudi Arabia's Civil Defense briefly issued alerts warning residents of potential danger in Taif and Yanbu, as well as in Mecca and Jeddah."
-  },
-  {
-   "t": "Украина заявляет, что Starlink восстановлен, поскольку атаки продолжаются в России и Украине",
-   "x": "Ожидается, что переговорщики из Украины, России и США встретятся в Абу-Даби в следующем месяце.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 78,
-   "ten": 38,
-   "ago": 95,
-   "s": [
-    "Al Jazeera",
-    "CBS News",
-    "Politico EU",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6adca2ea3e-1792844522.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 4,
-   "lat": 49.01,
-   "lon": 32.54,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 9,
-   "t_en": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
-   "x_en": "Negotiators from Ukraine, Russia and the US are expected to meet in Abu Dhabi next month."
-  },
-  {
-   "t": "Западный Берег: Гутерриш встревожен тем, что Израиль вводит масштабное закрытие территорий после смертельного нападения на Хеврон",
-   "x": "В пятницу ООН заявила, что она «крайне встревожена» усилением насилия на оккупированном Западном Берегу, поскольку Израиль предпринял попытку изолировать территорию после смертельного нападения на своих солдат в Хевроне.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 78,
-   "ten": 80,
-   "ago": 166,
-   "s": [
-    "UN News",
-    "NYT",
-    "CBS News",
-    "AP"
-   ],
-   "u": "https://news.un.org/feed/view/en/story/2026/10/1168660",
-   "img": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/15-07-2025-UNICEF-West-Bank-01.jpg/image560x340cropped.jpg",
-   "img_src": "UN News",
-   "fresh": false,
-   "n": 4,
-   "lat": 32.05,
-   "lon": 35.33,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 10,
-   "t_en": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
-   "x_en": "The UN said on Friday it was “extremely alarmed” by intensifying violence in the occupied West Bank, as Israel moved to seal off the territory following a deadly attack on its soldiers in Hebron."
   },
   {
    "t": "Семь человек застрелены боевиками на церковных похоронах в Иордании, сообщили официальные лица",
    "x": "Тридцать четыре человека также получили ранения в результате нападения в южной провинции Карак, и сейчас ведется розыск.",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 78,
+   "imp": 70,
    "ten": 92,
-   "ago": 194,
+   "ago": 322,
    "s": [
     "BBC",
     "The Guardian",
@@ -450,215 +502,34 @@
    "lon": 36.28,
    "place": "Иордания",
    "place_en": "Jordan",
-   "id": 11,
+   "id": 13,
    "t_en": "Seven shot dead by gunmen at church funeral in Jordan, officials say",
    "x_en": "Thirty-four people are also injured in the attack in southern Karak governorate, and a manhunt is now under way."
   },
   {
-   "t": "Рубио призывает кубинцев, стремящихся к переменам, сформировать «дискретное партнерство» с ЦРУ",
-   "x": "Администрация Трампа неоднократно заявляла, что ее цель — добиться смены руководства Гаваны, при этом сам президент Дональд Трамп заявил, что страна «готова к падению».",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 77,
-   "ten": 40,
-   "ago": 109,
-   "s": [
-    "Euronews",
-    "CBS News",
-    "Fox News",
-    "The Hindu"
-   ],
-   "u": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
-   "img": "https://images.euronews.com/articles/stories/09/96/54/98/696x392_cmsv2_b7d4c895-5cbd-51bc-968e-d0142721b8ed-9965498.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 4,
-   "lat": 23.08,
-   "lon": -82.03,
-   "place": "Гавана",
-   "place_en": "Havana",
-   "id": 12,
-   "t_en": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
-   "x_en": "The Trump administration has repeatedly stated that its goal is to bring about a change in Havana's leadership, with President Donald Trump himself having claimed the country is \"ready to fall.\""
-  },
-  {
-   "t": "Число погибших в результате нападения на церковь возросло до 9, поскольку власти обвиняют в \"экстремистской\" исламистской идеологии",
-   "x": "На кадрах видно, как вооруженные пистолетами и винтовками боевики ворвались в греческую православную церковь в Караке во время панихиды, убив девять человек в Иордании.",
+   "t": "Вооруженные израильские поселенцы пытаются ворваться в дом палестинского дедушки",
+   "x": "Палестинец сталкивается с нападениями израильских поселенцев и приказом израильских сил о сносе деревни Умм-Сафа.",
    "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 76,
-   "ten": 94,
-   "ago": 94,
-   "s": [
-    "Fox News",
-    "Middle East Eye",
-    "The Hindu"
-   ],
-   "u": "https://www.foxnews.com/world/death-toll-rises-9-church-attack-officials-blame-extremist-islamist-ideology",
-   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/church-shooting-exterior.jpg?ve=1&tl=1",
-   "img_src": "Fox News",
-   "fresh": false,
-   "n": 3,
-   "lat": 31.46,
-   "lon": 35.95,
-   "place": "Иордания",
-   "place_en": "Jordan",
-   "id": 13,
-   "t_en": "Death toll rises to 9 in church attack as officials blame 'extremist' Islamist ideology",
-   "x_en": "Footage shows gunmen armed with pistols and a rifle storming a Greek Orthodox church in Karak during a funeral service, killing nine in Jordan."
-  },
-  {
-   "t": "Британка погибла после попытки спасти сыновей, утонувших в море на Багамах",
-   "x": "Натан Грегори говорит, что потеря возлюбленной детства Линн «невообразима для нашей семьи».",
-   "r": "Ближний Восток",
-   "c": "Общее",
-   "imp": 74,
-   "ten": 26,
-   "ago": 27,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "Sky News"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8b9f/live/09596b60-cfc8-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 3,
-   "lat": 54.95,
-   "lon": -1.29,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 14,
-   "t_en": "British woman dies after trying to rescue sons swept away at sea in the Bahamas",
-   "x_en": "Nathan Gregory says the loss of childhood sweetheart Leanne \"is unimaginable for our family\"."
-  },
-  {
-   "t": "Трамп заявил, что может переместить пресс-службу Белого дома в новое место",
-   "x": "Заявления Трампа прозвучали на фоне напряженного момента между президентом США и журналистами, освещающими его деятельность.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 74,
-   "ten": 40,
-   "ago": 37,
+   "c": "Экономика",
+   "imp": 69,
+   "ten": 57,
+   "ago": 15,
    "s": [
     "Al Jazeera",
-    "Times of India",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
-   "img": "https://static.toiimg.com/photo/msid-135171947,imgsize-90722.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.07,
-   "lon": -77.27,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 15,
-   "t_en": "Trump says he may move White House press corps to new location",
-   "x_en": "Trump’s remarks come amid a fractious moment between the US president and the journalists who cover him."
-  },
-  {
-   "t": "Starlink вернулся к «тому уровню, который нам нужен» в Украине, говорит Зеленский",
-   "x": "Спутниковая система Starlink вернулась к работе со скоростью, необходимой Украине, после замедления более чем на неделю, что нанесло ущерб способности Киева защищаться от атак России, заявил президент Украины Владимир Зеленский.",
-   "r": "Европа",
-   "c": "Наука",
-   "imp": 71,
-   "ten": 57,
-   "ago": 87,
-   "s": [
-    "Sky News",
-    "NYT",
-    "Reuters"
-   ],
-   "u": "https://news.sky.com/story/starlink-back-to-the-level-we-need-in-ukraine-president-zelenskyy-says-13603095",
-   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-volodymyr-zelenskyy_7385610.jpg?20261024144157",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 3,
-   "lat": 47.91,
-   "lon": 30.68,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 16,
-   "t_en": "Starlink back to 'the level ⁠we need' in Ukraine, Zelenskyy says",
-   "x_en": "The Starlink satellite system is back to operating at the speed Ukraine needs after slowing down for more than a week, damaging Kyiv's ability to defend itself from Russian attacks, Ukraine's President Volodymyr Zelenskyy said."
-  },
-  {
-   "t": "Двое спасены после обрушения здания в Найроби, пятеро пропали без вести",
-   "x": "Полиция начала розыск владельца и подрядчика здания после того, как многоэтажное здание обрушилось во время строительства.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 70,
-   "ten": 62,
-   "ago": 13,
-   "s": [
-    "BBC",
-    "ABC News"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c0e/live/818871d0-cf8c-11f1-bef0-7f8eb636c50b.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": -1.49,
-   "lon": 36.83,
-   "place": "Найроби",
-   "place_en": "Nairobi",
-   "id": 17,
-   "t_en": "Two rescued after Nairobi building collapse with five still missing",
-   "x_en": "Police have launched a manhunt for the building's owner and contractor after the multi-storey building collapsed while still under construction."
-  },
-  {
-   "t": "Отношения Японии и России ослабляются из-за того, что журналист сидит в московской тюрьме",
-   "x": "Япония требует доступа к журналисту, арестованному российскими спецслужбами. Кремль утверждает, что Япония использует журналистов в качестве шпионов.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 69,
-   "ten": 44,
-   "ago": 1,
-   "s": [
-    "DW",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.dw.com/en/japan-russia-ties-erode-as-journalist-sits-in-moscow-jail/a-79742995?maca=en-rss-en-world-4025-rdf",
-   "img": "https://www.dw.com/en/japan-russia-ties-erode-as-journalist-sits-in-moscow-jail/image/jpeg",
-   "img_src": "DW (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 55.62,
-   "lon": 38.21,
-   "place": "Москва",
-   "place_en": "Moscow",
-   "id": 18,
-   "t_en": "Japan-Russia ties erode as journalist sits in Moscow jail",
-   "x_en": "Japan is demanding access to a journalist who was arrested by Russian security services. The Kremlin claims that Japan is using journalists as spies."
-  },
-  {
-   "t": "Американские посольства усиливают меры безопасности, поскольку предупреждения об иранской угрозе усиливаются в преддверии промежуточных выборов в США",
-   "x": "В записке директора DNI Джея Клейтона говорится, что Иран находится на «продвинутой стадии» планирования атак против американцев.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 61,
-   "ago": 16,
-   "s": [
-    "CNBC",
     "NYT"
    ],
-   "u": "https://www.cnbc.com/2026/10/24/iran-threats-us-embassies-middle-east.html",
-   "img": "https://static01.nyt.com/images/2026/10/23/multimedia/23int-mexico-pressure-bhlk/23int-mexico-pressure-bhlk-mediumSquareAt3X.jpg",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/24/armed-israeli-settlers-try-to-break-into-palestinian-grandfathers-home?traffic_source=rss",
+   "img": "https://static01.nyt.com/images/2026/10/23/multimedia/23int-olive-harvest-vfpk/23int-olive-harvest-vfpk-mediumSquareAt3X.jpg",
    "img_src": "NYT",
    "fresh": true,
    "n": 2,
-   "lat": 39.89,
-   "lon": -99.06,
-   "place": "США",
-   "place_en": "United States",
-   "id": 19,
-   "t_en": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
-   "x_en": "A memo from DNI director Jay Clayton said Iran is in the \"advanced stages\" of planning attacks against Americans."
+   "lat": 32.08,
+   "lon": 35.15,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 14,
+   "t_en": "Armed Israeli settlers try to break into Palestinian grandfather’s home",
+   "x_en": "A Palestinian man is facing Israeli settler attacks and a demolition order from Israeli forces in Umm Safa village."
   },
   {
    "t": "Японский оператор каршеринга предложит пользователям по 19 долларов за каждого после утечки данных",
@@ -681,118 +552,381 @@
    "lon": 138.67,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 20,
+   "id": 15,
    "t_en": "Japan car-sharing operator to offer users $19 each after data breach",
    "x_en": "The company has confirmed that about 6.62 million user accounts were compromised."
   },
   {
-   "t": "Постоянные обновления: сотни тысяч человек маршируют во Франции в условиях усиленных мер безопасности",
-   "x": "Марши были в основном мирными до вечера, когда начались столкновения, и полиция применила слезоточивый газ и водометы, чтобы разогнать некоторых протестующих в Марселе и Париже.",
+   "t": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+   "x": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+   "r": "Ближний Восток",
+   "c": "Экономика",
+   "imp": 68,
+   "ten": 78,
+   "ago": 145,
+   "s": [
+    "BBC",
+    "Euronews",
+    "Dawn"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3b86/live/6920a5d0-cfba-11f1-9012-0172b9f73a72.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 32.02,
+   "lon": 35.13,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 16,
+   "t_en": "Palestinian families displaced as Israeli forces demolish Hebron homes",
+   "x_en": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election."
+  },
+  {
+   "t": "Украина заявляет, что Starlink восстановлен, поскольку атаки продолжаются в России и Украине",
+   "x": "Ожидается, что переговорщики из Украины, России и США встретятся в Абу-Даби в следующем месяце.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 38,
+   "ago": 223,
+   "s": [
+    "Al Jazeera",
+    "CBS News",
+    "Politico EU",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/24/ukraine-says-starlink-restored-as-attacks-continue-in-russia-and-ukraine?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6adca2ea3e-1792844522.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 4,
+   "lat": 49.01,
+   "lon": 32.54,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 17,
+   "t_en": "Ukraine says Starlink restored as attacks continue in Russia and Ukraine",
+   "x_en": "Negotiators from Ukraine, Russia and the US are expected to meet in Abu Dhabi next month."
+  },
+  {
+   "t": "Франция планирует усилить присутствие полиции, ожидая новых протестов",
+   "x": "Правительственные чиновники пытаются избежать повторения беспорядков, произошедших в минувшие выходные по всей стране, в результате которых были ранены полицейские и повреждены магазины.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 67,
-   "ten": 48,
-   "ago": 21,
+   "imp": 68,
+   "ten": 59,
+   "ago": 273,
    "s": [
+    "NYT",
+    "CBS News",
+    "Africanews",
+    "The Hindu"
+   ],
+   "u": "https://www.nytimes.com/2026/10/23/world/europe/france-police-protests.html",
+   "img": "https://static01.nyt.com/images/2026/10/23/multimedia/23int-france-protests-01-ltbp/23int-france-protests-01-ltbp-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 4,
+   "lat": 46.95,
+   "lon": 2.39,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 18,
+   "t_en": "France Plans to Bolster Police Presence, Expecting New Protests",
+   "x_en": "Government officials are trying to avoid a repeat of last weekend’s unrest across the country, which injured police officers and damaged stores."
+  },
+  {
+   "t": "More than 1,000 arrested in France as protestors and police clash",
+   "x": "While demonstrations throughout France were largely peaceful, police reported clashes with protesters Saturday evening.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 67,
+   "ten": 78,
+   "ago": 55,
+   "s": [
+    "CBS News",
+    "Fox News"
+   ],
+   "u": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/france-protest-10-24-1.jpg?ve=1&tl=1",
+   "img_src": "Fox News",
+   "fresh": true,
+   "n": 2,
+   "lat": 46.8,
+   "lon": 3.2,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 19,
+   "t_en": "More than 1,000 arrested in France as protestors and police clash",
+   "x_en": "While demonstrations throughout France were largely peaceful, police reported clashes with protesters Saturday evening."
+  },
+  {
+   "t": "Rallies, opinion polls and a final debate - Brazil gets ready for Sunday's knife-edge presidential election",
+   "x": "Lula against Flavio - both candidates in the second-round presidential election in Brazil hold rallies in major cities on the last day of campaigning. With around 20% of the electorate having abstained in the first round, the result is wide open and opinion po",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 67,
+   "ten": 51,
+   "ago": 112,
+   "s": [
+    "Euronews",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.euronews.com/2026/10/24/rallies-opinion-polls-and-a-final-debate-brazil-gets-ready-for-sundays-knife-edge-presiden",
+   "img": "https://images.euronews.com/articles/stories/09/96/59/08/696x392_cmsv2_d8514896-40ce-5663-9408-78d56dcfe23f-9965908.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": -10.89,
+   "lon": -52.55,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 20,
+   "t_en": "Rallies, opinion polls and a final debate - Brazil gets ready for Sunday's knife-edge presidential election",
+   "x_en": "Lula against Flavio - both candidates in the second-round presidential election in Brazil hold rallies in major cities on the last day of campaigning. With around 20% of the electorate having abstained in the first round, the result is wide open and opinion po"
+  },
+  {
+   "t": "Ukraine says Starlink is back to normal after disruptions",
+   "x": "Ukrainian President Volodymyr Zelenskyy said that normal Starlink operating speeds were restored after more than a week of disruptions.",
+   "r": "Европа",
+   "c": "Наука",
+   "imp": 67,
+   "ten": 49,
+   "ago": 112,
+   "s": [
+    "NPR",
     "NYT",
     "Reuters"
    ],
-   "u": "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
-   "img": "https://static01.nyt.com/images/2026/10/24/multimedia/24france-protests-carousel-1130am-qzwl/24france-protests-carousel-1130am-qzwl-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 47.05,
-   "lon": 1.09,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 21,
-   "t_en": "Live Updates: Hundreds of Thousands March in France Amid Heavy Security",
-   "x_en": "The marches were largely peaceful until evening, when clashes popped up and the police used tear gas and water cannons to disperse some protesters in Marseille and Paris."
-  },
-  {
-   "t": "Франция: Протесты продолжаются, а полиция применила против демонстрантов слезоточивый газ",
-   "x": "В общей сложности 410 000 человек приняли участие в демонстрациях по всей Франции в субботу, в том числе 110 000 в Париже, в рамках дня митингов, посвященных покупательной способности и защите государственных услуг, сообщили агентству AFP в Министерстве внутренних дел. Явка была незначительной",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 54,
-   "ago": 28,
-   "s": [
-    "France 24",
-    "Dawn"
-   ],
-   "u": "https://www.france24.com/en/france-protests-continue-while-police-fire-tear-gas-at-demonstrators",
-   "img": "https://s.france24.com/media/display/39636270-cfcd-11f1-9727-4b25c96ec90e/w:1024/p:16x9/EN-20261024-170450-170903-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
+   "u": "https://www.npr.org/2026/10/24/nx-s1-6015482/ukraine-starlink-working-after-disruptions",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7961x5307+0+0/resize/7961x5307!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2F79%2F14a4a3fb4f37b1a0b1432ccf6fa9%2Fap26295629655124.jpg",
+   "img_src": "NPR",
+   "fresh": false,
    "n": 3,
-   "lat": 45.91,
-   "lon": 3.03,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 22,
-   "t_en": "France: Protests continue while police fire tear gas at demonstrators",
-   "x_en": "A total of 410,000 people took part in demonstrations across France on Saturday – including 110,000 in Paris – as part of a day of rallies focussed on purchasing power and the defence of public services, the Interior Ministry told AFP. The turnout was slightly"
+   "lat": 49.11,
+   "lon": 30.87,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 21,
+   "t_en": "Ukraine says Starlink is back to normal after disruptions",
+   "x_en": "Ukrainian President Volodymyr Zelenskyy said that normal Starlink operating speeds were restored after more than a week of disruptions."
   },
   {
-   "t": "Столкновения полиции и протестующих во Франции после дня демонстраций",
-   "x": "Во Франции через неделю наблюдается рост протестов после того, как 3000 зданий были повреждены или разграблены. Демонстрации проходят и в других европейских городах.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 66,
-   "ten": 61,
-   "ago": 39,
+   "t": "Рубио призывает кубинцев, стремящихся к переменам, сформировать «дискретное партнерство» с ЦРУ",
+   "x": "Администрация Трампа неоднократно заявляла, что ее цель — добиться смены руководства Гаваны, при этом сам президент Дональд Трамп заявил, что страна «готова к падению».",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 67,
+   "ten": 40,
+   "ago": 237,
    "s": [
+    "Euronews",
     "CBS News",
-    "Reuters"
-   ],
-   "u": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-   "img": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/24/9df46826-7abb-45b3-b8d6-48615bf6ee74/thumbnail/1200x630/f952c95b9f0d03d452b4fae4c5fab2e1/2026-10-24t143709z-442867994-rc2q9oatlzfw-rtrmadp-3-france-protest.jpg",
-   "img_src": "CBS News (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 46.28,
-   "lon": 1.72,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 23,
-   "t_en": "Police and protesters clash in France after day of demonstrations",
-   "x_en": "France is seeing more protests a week after 3,000 buildings were damaged or looted. Demonstrations are also underway in other European cities."
-  },
-  {
-   "t": "Йеменские хуситы заявили, что атаковали саудовские нефтяные объекты и аэропорты",
-   "x": "Йеменская группа хуситов заявила, что в субботу совершила нападения на нефтяные объекты и аэропорты Саудовской Аравии, в том числе на объект Saudi Aramco в Янбу, нефтеперерабатывающий завод Рабиг и международный аэропорт имени короля Халида в Эр-Рияде. Об этом заявил военный представитель группировки Яхья Сари.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 66,
-   "ten": 81,
-   "ago": 60,
-   "s": [
-    "Middle East Eye",
+    "Fox News",
     "The Hindu"
    ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-saudi-oil-facilities-airports",
-   "img": "https://th-i.thgim.com/public/incoming/59tf2y/article71620888.ece/alternates/LANDSCAPE_1200/Mideast_Yemen-Siege_of_Taiz_85852.jpg",
+   "u": "https://www.euronews.com/2026/10/24/rubio-calls-on-cubans-seeking-change-to-form-discrete-partnership-with-cia",
+   "img": "https://images.euronews.com/articles/stories/09/96/54/98/696x392_cmsv2_b7d4c895-5cbd-51bc-968e-d0142721b8ed-9965498.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 4,
+   "lat": 23.08,
+   "lon": -82.03,
+   "place": "Гавана",
+   "place_en": "Havana",
+   "id": 22,
+   "t_en": "Rubio calls on Cubans seeking change to form 'discrete partnership' with CIA",
+   "x_en": "The Trump administration has repeatedly stated that its goal is to bring about a change in Havana's leadership, with President Donald Trump himself having claimed the country is \"ready to fall.\""
+  },
+  {
+   "t": "Trump foreign policy hits voters in the pocketbook, imperilling Republicans in midterms",
+   "x": "Foreign policy is rarely the deciding factor in US midterm elections, when economic considerations usually drive voters choices. But this time, with Donald Trump’s war on Iran and his sweeping tariff campaign pushing up costs for Americans, a presidents approa",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 57,
+   "ago": 39,
+   "s": [
+    "Dawn",
+    "Japan Times"
+   ],
+   "u": "https://www.dawn.com/news/2039518/trump-foreign-policy-hits-voters-in-the-pocketbook-imperilling-republicans-in-midterms",
+   "img": "https://i.dawn.com/large/2026/10/242327444f64b54.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.4,
+   "lon": -97.84,
+   "place": "США",
+   "place_en": "United States",
+   "id": 23,
+   "t_en": "Trump foreign policy hits voters in the pocketbook, imperilling Republicans in midterms",
+   "x_en": "Foreign policy is rarely the deciding factor in US midterm elections, when economic considerations usually drive voters choices. But this time, with Donald Trump’s war on Iran and his sweeping tariff campaign pushing up costs for Americans, a presidents approa"
+  },
+  {
+   "t": "Двое спасены после обрушения здания в Найроби, пятеро пропали без вести",
+   "x": "Полиция начала розыск владельца и подрядчика здания после того, как многоэтажное здание обрушилось во время строительства.",
+   "r": "Африка",
+   "c": "Общее",
+   "imp": 66,
+   "ten": 57,
+   "ago": 141,
+   "s": [
+    "BBC",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c317kxyknwp2o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c0e/live/818871d0-cf8c-11f1-bef0-7f8eb636c50b.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": -1.49,
+   "lon": 36.83,
+   "place": "Найроби",
+   "place_en": "Nairobi",
+   "id": 24,
+   "t_en": "Two rescued after Nairobi building collapse with five still missing",
+   "x_en": "Police have launched a manhunt for the building's owner and contractor after the multi-storey building collapsed while still under construction."
+  },
+  {
+   "t": "Мелания Трамп добилась «временного прекращения огня» в украинском городе",
+   "x": "В офисе первой леди Мелании Трамп заявили, что она добилась локального прекращения огня в оккупированном Россией украинском городе Олешки.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 38,
+   "ago": 252,
+   "s": [
+    "CBS News",
+    "ABC News",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/",
+   "img": "https://s.abcnews.com/images/International/wirestory_7d8aadbf684780223434e705913ecbf3_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.28,
+   "lon": -97.04,
+   "place": "США",
+   "place_en": "United States",
+   "id": 25,
+   "t_en": "Melania Trump secures \"temporary ceasefire\" in Ukrainian city",
+   "x_en": "First lady Melania Trump's office says she secured a localized ceasefire for the Russian-occupied Ukrainian city of Oleshky."
+  },
+  {
+   "t": "Смертельная стрельба под Парижем — это «расистский теракт», заявил Макрон",
+   "x": "В результате серии нападений один человек убит и пятеро ранены. Предполагаемый стрелок задержан.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 65,
+   "ten": 95,
+   "ago": 92,
+   "s": [
+    "BBC",
+    "CBS News"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 2,
+   "lat": 48.63,
+   "lon": 2.72,
+   "place": "Париж",
+   "place_en": "Paris",
+   "id": 26,
+   "t_en": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+   "x_en": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended."
+  },
+  {
+   "t": "Houthis say Saudi strikes kill at least 11 after missiles intercepted",
+   "x": "The Houthis' Al-Masirah reported a series of \"Saudi enemy airstrikes\" targeting Sanaa, including one on a house that killed at least three people and wounded several others.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 88,
+   "ago": 108,
+   "s": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.thehindu.com/news/international/saudi-forces-deadly-strikes-on-yemens-houthi-controlled-sanaa-city/article71619917.ece",
+   "img": "https://th-i.thgim.com/public/incoming/2p7muo/article71619948.ece/alternates/LANDSCAPE_1200/Mideast_Yemen_War_2799_.jpg",
    "img_src": "The Hindu",
    "fresh": false,
    "n": 3,
-   "lat": 15.23,
-   "lon": 43.99,
+   "lat": 15.38,
+   "lon": 44.41,
    "place": "Сана",
    "place_en": "Sanaa",
-   "id": 24,
-   "t_en": "Yemen's Houthis say they attacked Saudi oil facilities, airports",
-   "x_en": "Yemen's Houthi group said it launched attacks at Saudi oil facilities and airports on Saturday including a Saudi Aramco facility in Yanbu, the Rabigh oil refinery and King Khalid International Airport in Riyadh. The group's military spokesperson, Yahya Saree, "
+   "id": 27,
+   "t_en": "Houthis say Saudi strikes kill at least 11 after missiles intercepted",
+   "x_en": "The Houthis' Al-Masirah reported a series of \"Saudi enemy airstrikes\" targeting Sanaa, including one on a house that killed at least three people and wounded several others."
+  },
+  {
+   "t": "North Korea's Kim returns home after visit to Chinese border city",
+   "x": "North Korean leader Kim Jong Un returned home on Saturday after a day-long trip to the Chinese border city of Dandong, Beijing’s state media reported , though the purpose of the unannounced visit was not immediately clear. Kim is thought to have crossed into C",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 61,
+   "ten": 40,
+   "ago": 51,
+   "s": [
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.dawn.com/news/2039517/north-koreas-kim-returns-home-after-visit-to-chinese-border-city",
+   "img": "https://i.dawn.com/large/2026/10/242332343ee84b4.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.66,
+   "lon": 127.09,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 28,
+   "t_en": "North Korea's Kim returns home after visit to Chinese border city",
+   "x_en": "North Korean leader Kim Jong Un returned home on Saturday after a day-long trip to the Chinese border city of Dandong, Beijing’s state media reported , though the purpose of the unannounced visit was not immediately clear. Kim is thought to have crossed into C"
+  },
+  {
+   "t": "Трамп заявил, что может переместить пресс-службу Белого дома в новое место",
+   "x": "Заявления Трампа прозвучали на фоне напряженного момента между президентом США и журналистами, освещающими его деятельность.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 61,
+   "ten": 40,
+   "ago": 165,
+   "s": [
+    "Al Jazeera",
+    "Times of India",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/24/trump-says-he-may-move-white-house-press-corps-to-new-location?traffic_source=rss",
+   "img": "https://static.toiimg.com/photo/msid-135171947,imgsize-90722.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.07,
+   "lon": -77.27,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 29,
+   "t_en": "Trump says he may move White House press corps to new location",
+   "x_en": "Trump’s remarks come amid a fractious moment between the US president and the journalists who cover him."
   },
   {
    "t": "Разлив нефти вымылся на пляжи ОАЭ после удара танкера",
    "x": "Спутниковые снимки показывают, как нефть распространяется на многие мили вдоль береговой линии, угрожая местной морской фауне.",
    "r": "Ближний Восток",
    "c": "Экономика",
-   "imp": 66,
+   "imp": 61,
    "ten": 53,
-   "ago": 293,
+   "ago": 421,
    "s": [
     "BBC",
     "Euronews",
@@ -808,269 +942,9 @@
    "lon": 53.71,
    "place": "ОАЭ",
    "place_en": "United Arab Emirates",
-   "id": 25,
+   "id": 30,
    "t_en": "Oil spill washes up on UAE beaches after tanker strike",
    "x_en": "Satellite images show oil spreading for miles along the coastline, threatening local marine wildlife"
-  },
-  {
-   "t": "Нетаньяху приказал провести операцию на Западном Берегу",
-   "x": "Израиль ввел широкое закрытие территории на оккупированном Западном Берегу и вынудил жителей покинуть свои дома после нападений палестинских боевиков, в результате которых погибли два израильских солдата. Премьер-министр Биньямин Нетаньяху посетил место нападения недалеко от Хеврона и поручил",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 66,
-   "ten": 90,
-   "ago": 425,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "Sky News",
-    "CBS News",
-    "Fox News",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.france24.com/en/netanyahu-orders-west-bank-operation",
-   "img": "https://s.france24.com/media/display/9990d49e-cf95-11f1-a66d-4b25c96ec90e/w:1024/p:16x9/EN-20261024-121044-121244-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 7,
-   "lat": 32.13,
-   "lon": 35.5,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 26,
-   "t_en": "Netanyahu orders West Bank operation",
-   "x_en": "Israel has imposed widespread closures across the occupied West Bank and displaced residents following attacks by Palestinian gunmen that killed two Israeli soldiers. Prime Minister Benjamin Netanyahu visited the site of the attack near Hebron and instructed s"
-  },
-  {
-   "t": "Мелания Трамп добилась «временного прекращения огня» в украинском городе",
-   "x": "В офисе первой леди Мелании Трамп заявили, что она добилась локального прекращения огня в оккупированном Россией украинском городе Олешки.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 43,
-   "ago": 124,
-   "s": [
-    "CBS News",
-    "ABC News",
-    "Japan Times"
-   ],
-   "u": "https://www.cbsnews.com/news/first-lady-melania-trump-temporary-ceasefire-russia-ukraine-oleshky/",
-   "img": "https://s.abcnews.com/images/International/wirestory_7d8aadbf684780223434e705913ecbf3_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.28,
-   "lon": -97.04,
-   "place": "США",
-   "place_en": "United States",
-   "id": 27,
-   "t_en": "Melania Trump secures \"temporary ceasefire\" in Ukrainian city",
-   "x_en": "First lady Melania Trump's office says she secured a localized ceasefire for the Russian-occupied Ukrainian city of Oleshky."
-  },
-  {
-   "t": "Силы безопасности развертываются, поскольку Милан готовится к очередному дню протестов",
-   "x": "Итальянское правительство направило сотни солдат в финансовый центр страны в преддверии ожидаемых беспорядков.",
-   "r": "Европа",
-   "c": "Экономика",
-   "imp": 65,
-   "ten": 57,
-   "ago": 145,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "CBS News"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/24/security-forces-deploy-as-milan-braces-for-another-day-of-protests?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/ae8dee1a-cf9d-11f1-9290-5b4a75578ebb/w:1024/p:16x9/EN-20261024-130345-130540-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 46.98,
-   "lon": 2.52,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 28,
-   "t_en": "Security forces deploy as Milan braces for another day of protests",
-   "x_en": "The Italian government has sent hundreds of soldiers to the country's financial hub ahead of anticipated unrest."
-  },
-  {
-   "t": "Начинается полная блокировка оккупированного Западного берега",
-   "x": "Израильская армия начинает блокировку и военные операции на Западном Берегу.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 64,
-   "ago": 173,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "Dawn"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/24/full-lockdown-of-occupied-west-bank-begins-2?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/84746cf6-cfae-11f1-89ae-bba4eee3dc72/w:1024/p:16x9/000-D4AX3EF.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 32.27,
-   "lon": 35.45,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 29,
-   "t_en": "Full lockdown of occupied West Bank begins",
-   "x_en": "The Israeli army begins its lockdown and military operations across the West Bank."
-  },
-  {
-   "t": "Израильская артиллерийская стрельба убила палестинку в секторе Газа",
-   "x": "Израильские силы застрелили палестинскую женщину в Хан-Юнисе на юге сектора Газа, сообщает «Аль-Джазира» со ссылкой на медицинский комплекс Насера. Сообщается, что женщина находилась в школьном приюте, когда ее застрелили израильские силы, дислоцированные к западу от города.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 91,
-   "ago": 15,
-   "s": [
-    "Middle East Eye"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-gunfire-kills-palestinian-woman-gaza",
-   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/HEBRON_IDF_AFP.jpg",
-   "img_src": "Middle East Eye (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.17,
-   "lon": 35.22,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 30,
-   "t_en": "Israeli gunfire kills Palestinian woman in Gaza",
-   "x_en": "Israeli forces shot dead a Palestinian woman in Khan Younis in the southern Gaza Strip, Al Jazeera reported, citing the Nasser Medical Complex. The woman was reportedly inside a school shelter when she was shot by Israeli forces positioned west of the city."
-  },
-  {
-   "t": "Кто стоял за смертоносной стрельбой в церкви в Иордании?",
-   "x": "Власти расследуют редкое нападение на христианскую церковь; нападавшие остаются неопознанными и находятся на свободе.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 88,
-   "ago": 239,
-   "s": [
-    "Al Jazeera",
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/24/who-was-behind-the-deadly-church-shooting-in-jordan?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/news/national/3zjeq7/article71619267.ece/alternates/LANDSCAPE_1200/iStock-1355729100.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 31.11,
-   "lon": 36.0,
-   "place": "Иордания",
-   "place_en": "Jordan",
-   "id": 31,
-   "t_en": "Who was behind the deadly church shooting in Jordan?",
-   "x_en": "Authorities are investigating the rare attack on a Christian church; the assailants remain unidentified and at large."
-  },
-  {
-   "t": "Тайфун Чампи обрушился на Тайвань",
-   "x": "Тайфун Чампи движется в сторону Китая и Японии. Вчера он обрушился на Тайвань проливным дождем и ветром, достигающим скорости 180 километров в час. По всему острову 56 000 домохозяйств остались без электричества. Репортаж Николя Шамонтена и Офели Джейкобсон.",
-   "r": "Азия",
-   "c": "Природа",
-   "imp": 63,
-   "ten": 66,
-   "ago": 425,
-   "s": [
-    "France 24",
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/typhoon-champi-batters-taiwan",
-   "img": "https://s.france24.com/media/display/f59c94bc-cf95-11f1-8d18-bdb9616e85cf/w:1024/p:16x9/EN-20261024-121303-121445-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": 24.05,
-   "lon": 122.0,
-   "place": "Тайвань",
-   "place_en": "Taiwan",
-   "id": 32,
-   "t_en": "Typhoon Champi batters Taiwan",
-   "x_en": "Typhoon Champi is heading towards China and Japan. Yesterday, it battered Taiwan with heavy rain and winds reaching up to 180 kilometres per hour. Across the island, 56,000 households are without power. Nicolas Chamontin and Ophelie Jacobson report."
-  },
-  {
-   "t": "Саудовская Аравия заявила, что шрапнель ракеты хуситов упала в Джидде, Таифе и Рабиге после перехвата",
-   "x": "Гражданская оборона Саудовской Аравии сообщила в субботу, что перехватила две баллистические ракеты, запущенные йеменскими хуситами в направлении регионов Мекки и Медины, при этом обломки упали в нескольких местах, включая Джидду, Таиф и Рабиг.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 91,
-   "ago": 19,
-   "s": [
-    "Middle East Eye"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-says-houthi-missile-shrapnel-falls-jeddah-taif-rabigh-after",
-   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/HEBRON_IDF_AFP.jpg",
-   "img_src": "Middle East Eye (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 15.34,
-   "lon": 44.31,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 33,
-   "t_en": "Saudi Arabia says Houthi missile shrapnel falls in Jeddah, Taif, Rabigh after interceptions",
-   "x_en": "Saudi Arabia's Civil Defence said on Saturday it intercepted two ballistic missiles launched by Yemen's Houthis toward the Mecca and Medina regions, with debris falling in several locations, including Jeddah, Taif and Rabigh."
-  },
-  {
-   "t": "Инфантино из ФИФА рекламирует глобальную поддержку переизбрания на фоне вопросов об отставке",
-   "x": "Поддержка со стороны Азиатской федерации поддерживает Джанни Инфантино из ФИФА, который добивается переизбрания на пост президента на четвертый срок.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 40,
-   "ago": 49,
-   "s": [
-    "Al Jazeera",
-    "Dawn"
-   ],
-   "u": "https://www.aljazeera.com/sports/2026/10/24/fifas-infantino-touts-global-re-election-support-amid-resignation-questions?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/10/13105410a0617ee.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 34,
-   "t_en": "FIFA’s Infantino touts global re-election support amid resignation questions",
-   "x_en": "Support from Asian federation bolsters FIFA's Gianni Infantino as he seeks re-election as president for a fourth term."
-  },
-  {
-   "t": "Четыре пилота погибли в результате крушения двух учебно-тренировочных самолетов ВВС Филиппин",
-   "x": "Авиационная катастрофа в пятницу (23 октября) произошла с участием двух самолетов SF-260 во время тренировочного полета на авиабазе Фернандо в провинции Батангас, говорится в сообщении ВВС Филиппин.",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 66,
-   "ago": 218,
-   "s": [
-    "CNA",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/four-pilots-killed-after-two-philippine-air-force-trainer-planes-crash-6488676",
-   "img": "https://dam.mediacorp.sg/image/upload/s--2qXFKWV3--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/philippines_missing_fighter_jet_94664.jpg?itok=hXavPAgP",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 3,
-   "lat": 11.7,
-   "lon": 122.94,
-   "place": "Филиппины",
-   "place_en": "Philippines",
-   "id": 35,
-   "t_en": "Four pilots killed after two Philippine Air Force trainer planes crash",
-   "x_en": "The aviation accident on Friday (Oct 23) involved two SF-260 aircraft during a training flight at the Fernando Air Base in Batangas province, the Philippine Air Force said in a statement."
   },
   {
    "t": "Первая в Тайване забастовка рабочих-производителей чипов затронула завод Micron",
@@ -1092,7 +966,7 @@
    "lon": 120.01,
    "place": "Тайвань",
    "place_en": "Taiwan",
-   "id": 36,
+   "id": 31,
    "t_en": "Taiwan's first-ever chip workers strike hits Micron plant",
    "x_en": ""
   },
@@ -1116,7 +990,7 @@
    "lon": -100.06,
    "place": "США",
    "place_en": "United States",
-   "id": 37,
+   "id": 32,
    "t_en": "Yen on track to gain from US midterm elections and France unrest",
    "x_en": ""
   },
@@ -1140,66 +1014,182 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 38,
+   "id": 33,
    "t_en": "The Global Financial Crisis, Part 2: Stephen Schwarzman (22)",
    "x_en": ""
   },
   {
-   "t": "Планирует ли Иран нападения на американцев? почему США настороже?",
-   "x": "В меморандуме разведки США предупреждается, что иранские заговоры против граждан США на Ближнем Востоке «достигли продвинутой стадии».",
-   "r": "Америка",
-   "c": "Политика",
+   "t": "Иран «усилил усилия по нападению на персонал США», предупреждает глава разведки",
+   "x": "Директор национальной разведки Джей Клейтон предупредил в записке госсекретарю Рубио, что Иран «существенно активизировал усилия по нападению на персонал США», а заговоры «достигли продвинутой стадии».",
+   "r": "Ближний Восток",
+   "c": "Общее",
    "imp": 60,
-   "ten": 62,
-   "ago": 89,
+   "ten": 60,
+   "ago": 223,
    "s": [
-    "Al Jazeera",
-    "NYT"
+    "CBS News",
+    "The Hindu",
+    "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/24/is-iran-planning-attacks-on-americans-why-is-the-us-on-alert?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/10/23/multimedia/dc-iran-security-gcqh/dc-iran-security-gcqh-mediumSquareAt3X-v2.jpg",
-   "img_src": "NYT",
+   "u": "https://www.cbsnews.com/news/iran-target-u-s-personnel/",
+   "img": "https://th-i.thgim.com/public/incoming/ag5wsy/article71619241.ece/alternates/LANDSCAPE_1200/2026-10-20T213438Z_352065645_RC217OA6DLYE_RTRMADP_3_HEDGEFUNDS-ACTIVISTS.JPG",
+   "img_src": "The Hindu",
    "fresh": false,
-   "n": 2,
-   "lat": 33.25,
-   "lon": 54.53,
+   "n": 3,
+   "lat": 32.75,
+   "lon": 54.83,
    "place": "Иран",
    "place_en": "Iran",
-   "id": 39,
-   "t_en": "Is Iran planning attacks on Americans; why is the US on alert?",
-   "x_en": "US intelligence memo warns that Iranian plots against US citizens in the Middle East 'have reached advanced stages'."
+   "id": 34,
+   "t_en": "Iran has \"increased efforts to target U.S. personnel,\" intel chief warns",
+   "x_en": "Director of National Intelligence Jay Clayton warned in a memo to Secretary of State Rubio that Iran has \"substantially increased efforts to target U.S. personnel,\" and the plots have \"reached advanced stages.\""
   },
   {
-   "t": "Смертельная стрельба под Парижем — это «расистский теракт», заявил Макрон",
-   "x": "В результате серии нападений один человек убит и пятеро ранены. Предполагаемый стрелок задержан.",
-   "r": "Европа",
+   "t": "Iran vows ‘apocalyptic war’ if U.S. strikes again",
+   "x": "Iranian officials have warned in recent days that they would retaliate by targeting Persian Gulf countries in the event of renewed U.S. attacks; in the first and second phases of the war, Iran had retaliated by striking U.S. bases and energy facilities in Gulf",
+   "r": "Америка",
    "c": "Конфликты",
-   "imp": 60,
+   "imp": 59,
    "ten": 95,
-   "ago": 146,
+   "ago": 44,
    "s": [
-    "BBC",
-    "CBS News"
+    "The Hindu"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7c59/live/b8966750-cef5-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": false,
+   "u": "https://www.thehindu.com/news/international/iran-warns-of-apocalyptic-war-if-attacked-again/article71620849.ece",
+   "img": "https://th-i.thgim.com/public/incoming/g9i6fm/article71621250.ece/alternates/LANDSCAPE_1200/APTOPIX_Iran_War_87885.jpg",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 1,
+   "lat": 32.76,
+   "lon": 53.41,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 35,
+   "t_en": "Iran vows ‘apocalyptic war’ if U.S. strikes again",
+   "x_en": "Iranian officials have warned in recent days that they would retaliate by targeting Persian Gulf countries in the event of renewed U.S. attacks; in the first and second phases of the war, Iran had retaliated by striking U.S. bases and energy facilities in Gulf"
+  },
+  {
+   "t": "Ohio court upheld Wells Fargo’s $449,905 foreclosure after three loan modifications over 17 years",
+   "x": "In a recent decision, an Ohio appeals court upheld the foreclosure ruling against Sandra Doberdruk, stemming from her unpaid mortgage. Doberdruk's financial troubles escalated after her husband's passing in 2009, despite her attempts to modify her loan thrice.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 66,
+   "ago": 21,
+   "s": [
+    "Times of India"
+   ],
+   "u": "https://timesofindia.indiatimes.com/world/us/in-2007-an-ohio-couple-bought-a-home-and-the-husband-died-two-years-later-after-three-loan-modifications-and-a-449905-foreclosure-claim-an-october-22-court-upheld-the-banks-right-to-foreclose/articleshow/135155848.cms",
+   "img": "https://static.toiimg.com/photo/msid-135155979,imgsize-890036.cms",
+   "img_src": "Times of India",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 36,
+   "t_en": "Ohio court upheld Wells Fargo’s $449,905 foreclosure after three loan modifications over 17 years",
+   "x_en": "In a recent decision, an Ohio appeals court upheld the foreclosure ruling against Sandra Doberdruk, stemming from her unpaid mortgage. Doberdruk's financial troubles escalated after her husband's passing in 2009, despite her attempts to modify her loan thrice."
+  },
+  {
+   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
    "n": 2,
-   "lat": 48.63,
-   "lon": 2.72,
-   "place": "Париж",
-   "place_en": "Paris",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 37,
+   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "x_en": ""
+  },
+  {
+   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 38,
+   "t_en": "Dream Big with a Home Equity Loan",
+   "x_en": ""
+  },
+  {
+   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 39,
+   "t_en": "Experts: this is the best cash back card of 2022",
+   "x_en": ""
+  },
+  {
+   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 40,
-   "t_en": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-   "x_en": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended."
+   "t_en": "It's official: now avoid credit card interest into 2024",
+   "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1792776271907,
-   "v": 54
-  },
   {
    "t": 1792787620023,
    "v": 54
@@ -1227,133 +1217,137 @@
   {
    "t": 1792863512202,
    "v": 53
+  },
+  {
+   "t": 1792871198926,
+   "v": 52
   }
  ],
  "timeline": [
   {
-   "t": 1792777112202,
-   "v": 50,
-   "n": 31
-  },
-  {
-   "t": 1792780712202,
+   "t": 1792784798926,
    "v": 53,
-   "n": 36
-  },
-  {
-   "t": 1792784312202,
-   "v": 53,
-   "n": 35
-  },
-  {
-   "t": 1792787912202,
-   "v": 55,
    "n": 33
   },
   {
-   "t": 1792791512202,
-   "v": 58,
+   "t": 1792788398926,
+   "v": 54,
+   "n": 31
+  },
+  {
+   "t": 1792791998926,
+   "v": 56,
    "n": 28
   },
   {
-   "t": 1792795112202,
-   "v": 56,
+   "t": 1792795598926,
+   "v": 54,
+   "n": 23
+  },
+  {
+   "t": 1792799198926,
+   "v": 50,
+   "n": 30
+  },
+  {
+   "t": 1792802798926,
+   "v": 44,
    "n": 24
   },
   {
-   "t": 1792798712202,
-   "v": 50,
-   "n": 29
-  },
-  {
-   "t": 1792802312202,
-   "v": 45,
-   "n": 26
-  },
-  {
-   "t": 1792805912202,
-   "v": 43,
-   "n": 29
-  },
-  {
-   "t": 1792809512202,
+   "t": 1792806398926,
    "v": 44,
-   "n": 27
+   "n": 28
   },
   {
-   "t": 1792813112202,
-   "v": 49,
-   "n": 47
+   "t": 1792809998926,
+   "v": 44,
+   "n": 20
   },
   {
-   "t": 1792816712202,
+   "t": 1792813598926,
    "v": 52,
-   "n": 57
+   "n": 29
   },
   {
-   "t": 1792820312202,
-   "v": 53,
-   "n": 66
+   "t": 1792817198926,
+   "v": 56,
+   "n": 43
   },
   {
-   "t": 1792823912202,
-   "v": 53,
-   "n": 59
-  },
-  {
-   "t": 1792827512202,
-   "v": 51,
-   "n": 64
-  },
-  {
-   "t": 1792831112202,
-   "v": 48,
-   "n": 70
-  },
-  {
-   "t": 1792834712202,
-   "v": 47,
-   "n": 64
-  },
-  {
-   "t": 1792838312202,
-   "v": 51,
-   "n": 73
-  },
-  {
-   "t": 1792841912202,
-   "v": 53,
-   "n": 87
-  },
-  {
-   "t": 1792845512202,
-   "v": 52,
-   "n": 115
-  },
-  {
-   "t": 1792849112202,
-   "v": 53,
-   "n": 115
-  },
-  {
-   "t": 1792852712202,
-   "v": 54,
-   "n": 107
-  },
-  {
-   "t": 1792856312202,
+   "t": 1792820798926,
    "v": 55,
-   "n": 94
+   "n": 49
   },
   {
-   "t": 1792859912202,
-   "v": 49,
-   "n": 120
+   "t": 1792824398926,
+   "v": 53,
+   "n": 55
   },
   {
-   "t": 1792863512202,
+   "t": 1792827998926,
+   "v": 48,
+   "n": 54
+  },
+  {
+   "t": 1792831598926,
    "v": 47,
-   "n": 88
+   "n": 64
+  },
+  {
+   "t": 1792835198926,
+   "v": 46,
+   "n": 55
+  },
+  {
+   "t": 1792838798926,
+   "v": 50,
+   "n": 62
+  },
+  {
+   "t": 1792842398926,
+   "v": 52,
+   "n": 71
+  },
+  {
+   "t": 1792845998926,
+   "v": 52,
+   "n": 95
+  },
+  {
+   "t": 1792849598926,
+   "v": 52,
+   "n": 91
+  },
+  {
+   "t": 1792853198926,
+   "v": 52,
+   "n": 92
+  },
+  {
+   "t": 1792856798926,
+   "v": 50,
+   "n": 83
+  },
+  {
+   "t": 1792860398926,
+   "v": 51,
+   "n": 95
+  },
+  {
+   "t": 1792863998926,
+   "v": 52,
+   "n": 86
+  },
+  {
+   "t": 1792867598926,
+   "v": 48,
+   "n": 111
+  },
+  {
+   "t": 1792871198926,
+   "v": 46,
+   "n": 76
   }
  ],
  "feeds": [
@@ -1395,11 +1389,11 @@
   },
   {
    "n": "Euronews",
-   "items": 26
+   "items": 25
   },
   {
    "n": "NYT",
-   "items": 38
+   "items": 37
   },
   {
    "n": "Washington Post",
@@ -1419,15 +1413,15 @@
   },
   {
    "n": "Fox News",
-   "items": 12
+   "items": 13
   },
   {
    "n": "ABC Australia",
-   "items": 9
+   "items": 11
   },
   {
    "n": "CNA",
-   "items": 14
+   "items": 8
   },
   {
    "n": "Times of Israel",
@@ -1435,7 +1429,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 20
+   "items": 0
   },
   {
    "n": "Arab News",
@@ -1443,7 +1437,7 @@
   },
   {
    "n": "Africanews",
-   "items": 37
+   "items": 34
   },
   {
    "n": "Kyiv Independent",
@@ -1451,7 +1445,7 @@
   },
   {
    "n": "Yonhap",
-   "items": 40
+   "items": 36
   },
   {
    "n": "Nikkei Asia",
@@ -1459,7 +1453,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 15
+   "items": 13
   },
   {
    "n": "Dawn",
@@ -1493,6 +1487,7 @@
  "failed": [
   "Washington Post",
   "Times of Israel",
+  "Middle East Eye",
   "Arab News"
  ]
 }

@@ -1,7 +1,7 @@
 {
- "updated": 1792965749800,
+ "updated": 1792973255050,
  "demo": false,
- "total_articles": 587,
+ "total_articles": 597,
  "second_delta": 2,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
@@ -12,7 +12,7 @@
   },
   {
    "n": "Al Jazeera",
-   "v": 53
+   "v": 49
   },
   {
    "n": "DW",
@@ -20,39 +20,39 @@
   },
   {
    "n": "France 24",
-   "v": 51
+   "v": 48
   },
   {
    "n": "The Guardian",
-   "v": 53
+   "v": 50
   },
   {
    "n": "Sky News",
-   "v": 53
+   "v": 58
   },
   {
    "n": "NPR",
-   "v": 54
-  },
-  {
-   "n": "CNBC",
    "v": 49
   },
   {
+   "n": "CNBC",
+   "v": 51
+  },
+  {
    "n": "Euronews",
-   "v": 56
+   "v": 49
   },
   {
    "n": "NYT",
-   "v": 53
-  },
-  {
-   "n": "CBS News",
    "v": 52
   },
   {
-   "n": "ABC News",
+   "n": "CBS News",
    "v": 54
+  },
+  {
+   "n": "ABC News",
+   "v": 55
   },
   {
    "n": "CNN",
@@ -60,7 +60,7 @@
   },
   {
    "n": "Fox News",
-   "v": 67
+   "v": 60
   },
   {
    "n": "ABC Australia",
@@ -68,7 +68,7 @@
   },
   {
    "n": "CNA",
-   "v": 40
+   "v": 45
   },
   {
    "n": "Middle East Eye",
@@ -76,15 +76,15 @@
   },
   {
    "n": "Africanews",
-   "v": 49
+   "v": 46
   },
   {
    "n": "Kyiv Independent",
-   "v": 69
+   "v": 66
   },
   {
    "n": "Yonhap",
-   "v": 39
+   "v": 40
   },
   {
    "n": "Nikkei Asia",
@@ -100,11 +100,11 @@
   },
   {
    "n": "The Hindu",
-   "v": 56
+   "v": 55
   },
   {
    "n": "Politico EU",
-   "v": 43
+   "v": 41
   },
   {
    "n": "Japan Times",
@@ -112,11 +112,11 @@
   },
   {
    "n": "Reuters",
-   "v": 45
+   "v": 42
   },
   {
    "n": "AP",
-   "v": 43
+   "v": 45
   }
  ],
  "regions": [
@@ -134,137 +134,85 @@
   },
   {
    "n": "Африка",
-   "v": 62
+   "v": 61
   },
   {
    "n": "Америка",
-   "v": 44
+   "v": 45
   }
  ],
  "events": [
   {
-   "t": "Саудовская Аравия вновь открыла аэропорт Эр-Рияда, хотя хуситы угрожают дальнейшими ударами",
-   "x": "Хуситы, поддерживаемое Ираном йеменское ополчение, в этом месяце совершили несколько смертоносных атак на аэропорт.",
+   "t": "Израиль закроет контрольно-пропускные пункты на Западном берегу в день выборов, поскольку репрессии усиливаются",
+   "x": "Армия обороны Израиля объявляет об ограничениях на передвижение палестинских рабочих в преддверии выборов, которые состоятся во вторник.",
    "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 93,
-   "ten": 77,
-   "ago": 23,
+   "c": "Экономика",
+   "imp": 91,
+   "ten": 60,
+   "ago": 22,
    "s": [
-    "NYT",
-    "ABC News",
-    "Middle East Eye",
-    "Africanews",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html",
-   "img": "https://static01.nyt.com/images/2026/10/25/multimedia/25int-saudi-airport-1-pqfm/25int-saudi-airport-1-pqfm-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 6,
-   "lat": 15.09,
-   "lon": 44.24,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 1,
-   "t_en": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
-   "x_en": "The Houthis, an Iran-backed Yemeni militia, launched several deadly attacks on the airport this month."
-  },
-  {
-   "t": "Результаты выборов в Бразилии 2026 года в прямом эфире: голосование Лулы-Болсонару продлено на 2 часа",
-   "x": "Президент Бразилии Луис Инасиу Лула да Силва и сенатор Флавио Болсонару вступили в схватку на выборах, за которыми внимательно наблюдали.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 90,
-   "ten": 40,
-   "ago": 8,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
+    "BBC",
+    "Euronews",
     "CBS News",
-    "ABC News",
+    "Middle East Eye",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/d1353a7e5254aa2f3a8330bdb3468e28a934e47d/391_195_3258_2605/master/3258.jpg?width=700&quality=85&auto=format&fit=max&s=d21fb23ff0b950bc3800398d0c0f6ec6",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
    "fresh": true,
    "n": 7,
-   "lat": -11.0,
-   "lon": -51.31,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 2,
-   "t_en": "Brazil election results 2026 live: Lula-Bolsonaro voting extended by 2 hours",
-   "x_en": "Brazilian President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro square off in closely watched election."
+   "lat": 31.87,
+   "lon": 35.05,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 1,
+   "t_en": "Israel to close West Bank crossings on election day as crackdown escalates",
+   "x_en": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election."
   },
   {
    "t": "Правитель Сербии-ветеран Вучич признал победу на выборах студенческим протестным движением",
    "x": "Правый популистский лидер с 12-летним стажем говорит, что «очевидно», что его партия проиграла голосование, объявленное референдумом о будущем страны.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 90,
+   "imp": 88,
    "ten": 43,
-   "ago": 8,
+   "ago": 21,
    "s": [
     "BBC",
+    "Al Jazeera",
     "France 24",
     "CNBC",
+    "NYT",
     "CBS News",
     "ABC News",
+    "Kyiv Independent",
+    "Times of India",
     "Reuters",
     "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/79e5/live/ec88c6f0-d0b9-11f1-93e1-3b657b665bcf.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e676/live/8534e970-d0c8-11f1-b441-2b33b063138f.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 9,
+   "n": 12,
    "lat": 44.38,
    "lon": 20.99,
    "place": "Сербия",
    "place_en": "Serbia",
-   "id": 3,
+   "id": 2,
    "t_en": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
    "x_en": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future."
-  },
-  {
-   "t": "В результате аварии автобуса в Кении погибли по меньшей мере 24 человека, поскольку правительство обещает усилить меры безопасности дорожного движения",
-   "x": "Скорбящие в церкви умирают на кенийском шоссе Найроби-Момбаса через несколько недель после того, как в результате очередной аварии погибли 17 человек.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 88,
-   "ten": 80,
-   "ago": 62,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/25/kenya-bus-crash-kills-at-least-24-as-government-vows-road-safety-crackdown?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": -0.35,
-   "lon": 38.69,
-   "place": "Кения",
-   "place_en": "Kenya",
-   "id": 4,
-   "t_en": "Kenya bus crash kills at least 24 as government vows road safety crackdown",
-   "x_en": "Church mourners die on Kenya’s Nairobi-Mombasa Highway weeks after another crash killed 17 people."
   },
   {
    "t": "Лидер венесуэльской оппозиции Мария Мачадо возвращается после нескольких месяцев изгнания",
    "x": "Мачадо покинул страну всего за месяц до того, как правительство США арестовало президента Венесуэлы Николаса Мадуро.",
    "r": "Америка",
    "c": "Политика",
-   "imp": 83,
-   "ten": 37,
-   "ago": 57,
+   "imp": 85,
+   "ten": 36,
+   "ago": 34,
    "s": [
     "BBC",
     "Al Jazeera",
@@ -290,118 +238,172 @@
    "lon": -66.97,
    "place": "Венесуэла",
    "place_en": "Venezuela",
-   "id": 5,
+   "id": 3,
    "t_en": "Venezuelan opposition leader María Machado returns after months in exile",
    "x_en": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro."
   },
   {
-   "t": "Израиль закроет контрольно-пропускные пункты на Западном берегу в день выборов, поскольку репрессии усиливаются",
-   "x": "Армия обороны Израиля объявляет об ограничениях на передвижение палестинских рабочих в преддверии выборов, которые состоятся во вторник.",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 76,
-   "ten": 63,
-   "ago": 155,
-   "s": [
-    "BBC",
-    "Euronews",
-    "CBS News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5815/live/ca832c30-d019-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 6,
-   "lat": 31.87,
-   "lon": 35.05,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 6,
-   "t_en": "Israel to close West Bank crossings on election day as crackdown escalates",
-   "x_en": "The Israeli Defense Forces announces restrictions on the movement of Palestinian workers in the run-up to Tuesday's election."
-  },
-  {
-   "t": "Сербский лидер Александр Вучич признал поражение на ожесточенных парламентских выборах",
-   "x": "12-летнее правление Вучича, похоже, подошло к концу из-за рекордной явки избирателей на выборах, спровоцированных студенческими протестами. Следите за реакцией на результаты в нашем живом блоге. Опытный лидер Сербии Александр Вучич признал поражение студенческому движению, США.",
+   "t": "Выборы в Болгарии приближаются ко второму туру из-за низкой явки избирателей",
+   "x": "На следующей неделе болгары теперь будут выбирать между президентом Илианой Йотовой и бывшим временным премьер-министром Андреем Гюровым.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 75,
-   "ten": 48,
-   "ago": 44,
+   "imp": 83,
+   "ten": 53,
+   "ago": 70,
    "s": [
-    "The Guardian",
-    "Sky News",
-    "Politico EU"
+    "Al Jazeera",
+    "DW",
+    "ABC News",
+    "AP"
    ],
-   "u": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
-   "img": "https://i.guim.co.uk/img/media/b299fc9b7a2f4fc8dd1ec8c081bd1656d6880e3d/127_0_1920_1536/master/1920.jpg?width=700&quality=85&auto=format&fit=max&s=9cdde7e1ccb1754c69d066af6d1a04c0",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 44.5,
-   "lon": 22.31,
-   "place": "Сербия",
-   "place_en": "Serbia",
-   "id": 7,
-   "t_en": "Serbian leader Aleksandar Vučić concedes defeat in fiercely contested parliamentary election",
-   "x_en": "Vučić’s 12-year reign looks to have been ended by record turnout of voters in election provoked by student-led protests Follow the reaction to the result with our liveblog Serbia’s veteran leader Aleksandar Vučić has conceded defeat to the student movement, us"
+   "u": "https://www.aljazeera.com/news/2026/10/25/bulgaria-election-heads-to-a-run-off-amid-low-voter-turnout?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/US/wirestory_71e668caf5e926fd16395c392bc1920c_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 41.63,
+   "lon": 24.92,
+   "place": "Болгария",
+   "place_en": "Bulgaria",
+   "id": 4,
+   "t_en": "Bulgaria election heads to a run-off amid low voter turnout",
+   "x_en": "Bulgarians will now choose between President Iliana Yotova and former caretaker Prime Minister Andrey Gyurov next week."
   },
   {
-   "t": "Что нужно знать о выборах в Бразилии, когда Болсонару противостоит Луле",
-   "x": "Луис Инасиу Лула да Силва, действующий президент от левых взглядов, и Флавио Болсонару, претендент от правых, сойдутся в узкой гонке, которая может переопределить будущее Латинской Америки.",
-   "r": "Америка",
+   "t": "Кто является кандидатом на президентских выборах в Бразилии?",
+   "x": "Избиратели на воскресных выборах выбирают между двумя совершенно разными кандидатами, как сообщает американский корреспондент Айон Уэллс из Рио-де-Жанейро.",
+   "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 75,
-   "ten": 40,
-   "ago": 129,
+   "imp": 79,
+   "ten": 61,
+   "ago": 26,
+   "s": [
+    "BBC",
+    "NYT",
+    "CBS News"
+   ],
+   "u": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/42ee/live/36a0f0a0-cfc5-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": -8.91,
+   "lon": -52.34,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 5,
+   "t_en": "Who are the candidates in Brazil's presidential election?",
+   "x_en": "Voters in Sunday's election are choosing between two very different candidates, as Americas correspondent Ione Wells reports from Rio de Janeiro."
+  },
+  {
+   "t": "Саудовская Аравия вновь открыла аэропорт Эр-Рияда, хотя хуситы угрожают дальнейшими ударами",
+   "x": "Хуситы, поддерживаемое Ираном йеменское ополчение, в этом месяце совершили несколько смертоносных атак на аэропорт.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 79,
+   "ten": 77,
+   "ago": 148,
    "s": [
     "NYT",
     "ABC News",
+    "Middle East Eye",
+    "Africanews",
     "Dawn",
-    "Reuters"
+    "The Hindu"
    ],
-   "u": "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-lula-bolsonaro-what-to-know.html",
-   "img": "https://static01.nyt.com/images/2026/10/25/multimedia/25int-brazil-election-wtk-kwpv/25int-brazil-election-wtk-kwpv-mediumSquareAt3X.jpg",
+   "u": "https://www.nytimes.com/2026/10/25/world/middleeast/saudi-arabia-riyadh-airport-reopens.html",
+   "img": "https://static01.nyt.com/images/2026/10/25/multimedia/25int-saudi-airport-1-pqfm/25int-saudi-airport-1-pqfm-mediumSquareAt3X.jpg",
    "img_src": "NYT",
    "fresh": false,
-   "n": 4,
-   "lat": -10.32,
-   "lon": -52.48,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 8,
-   "t_en": "What to Know About Brazil’s Election as Bolsonaro Faces Off With Lula",
-   "x_en": "Luiz Inácio Lula da Silva, the leftist incumbent, and Flávio Bolsonaro, the right-wing challenger, face off in a narrow race that could redefine the future of Latin America."
+   "n": 6,
+   "lat": 15.09,
+   "lon": 44.24,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 6,
+   "t_en": "Saudi Arabia Reopens Riyadh Airport Even as Houthis Threaten Further Strikes",
+   "x_en": "The Houthis, an Iran-backed Yemeni militia, launched several deadly attacks on the airport this month."
   },
   {
-   "t": "Украина оспаривает утверждение Илона Маска о том, что ее военные нарушили условия Starlink во время операций дронов",
-   "x": "Украина оспорила утверждение Маска о том, что ее военные нарушили условия Starlink, утверждая, что коммерческие ограничения Starlink не позволяют использовать удары на средней и большой дальности.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 75,
-   "ten": 70,
-   "ago": 180,
+   "t": "Результаты выборов в Бразилии 2026 года в прямом эфире: начался подсчет голосов за Лулу и Болсонару",
+   "x": "Вероятны юридические проблемы, поскольку продление голосования добавляет напряженности в поляризованный политический ландшафт Бразилии.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 78,
+   "ten": 43,
+   "ago": 104,
    "s": [
-    "CNBC",
+    "Al Jazeera",
+    "The Guardian",
+    "NPR",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/27cf0f75664744a7e5011e058a7d77262fc7dc20/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=015e654120200172fb0871ede0c5b2bb",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 6,
+   "lat": -10.62,
+   "lon": -52.1,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 7,
+   "t_en": "Brazil election results 2026 live: Vote counting begins for Lula, Bolsonaro",
+   "x_en": "Legal challenges are likely, as the voting extension adds tension to Brazil's polarised political landscape."
+  },
+  {
+   "t": "Тысячи людей протестуют в Праге против реформы финансирования государственных СМИ",
+   "x": "Демонстранты утверждают, что премьер-министр Андрей Бабиш и предложенные его коалицией реформы представляют угрозу свободе прессы.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 77,
+   "ten": 57,
+   "ago": 38,
+   "s": [
+    "Al Jazeera",
     "ABC News",
-    "Kyiv Independent",
-    "Japan Times",
     "AP"
    ],
-   "u": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+   "u": "https://www.aljazeera.com/news/2026/10/25/thousands-protest-in-prague-against-public-media-funding-reforms?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_542d603c183503d9193b033be3f3adbc_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 3,
+   "lat": 49.12,
+   "lon": 15.98,
+   "place": "Чехия",
+   "place_en": "Czech Republic",
+   "id": 8,
+   "t_en": "Thousands protest in Prague against public media funding reforms",
+   "x_en": "Demonstrators allege Prime Minister Andrej Babis and his coalition's proposed reforms pose a threat to press freedom."
+  },
+  {
+   "t": "В результате аварии автобуса в Кении погибли по меньшей мере 24 человека, поскольку правительство обещает усилить меры безопасности дорожного движения",
+   "x": "Скорбящие в церкви умирают на кенийском шоссе Найроби-Момбаса через несколько недель после того, как в результате очередной аварии погибли 17 человек.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 76,
+   "ten": 80,
+   "ago": 188,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/25/kenya-bus-crash-kills-at-least-24-as-government-vows-road-safety-crackdown?traffic_source=rss",
    "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
    "img_src": "ABC News",
    "fresh": false,
-   "n": 5,
-   "lat": 49.34,
-   "lon": 31.42,
-   "place": "Украина",
-   "place_en": "Ukraine",
+   "n": 4,
+   "lat": -0.35,
+   "lon": 38.69,
+   "place": "Кения",
+   "place_en": "Kenya",
    "id": 9,
-   "t_en": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
-   "x_en": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use."
+   "t_en": "Kenya bus crash kills at least 24 as government vows road safety crackdown",
+   "x_en": "Church mourners die on Kenya’s Nairobi-Mombasa Highway weeks after another crash killed 17 people."
   },
   {
    "t": "Саудовская Аравия заявляет, что перехватила ракеты и беспилотники поддерживаемых Ираном хуситов",
@@ -429,85 +431,80 @@
    "x_en": "Saudi Arabia says it intercepted Houthi missiles and drones, while the Houthis claimed attacks on airports and energy sites amid rising regional supply risks."
   },
   {
-   "t": "Обама нападает на Трампа, когда он агитирует за демократов перед промежуточными выборами",
-   "x": "Обама сказал, что выборы были «последним лучшим шансом хотя бы немного обуздать глупость этой администрации».",
+   "t": "Неделя в фотографиях: протесты по всей Франции, лесные пожары в Индонезии и выборы в Бразилии",
+   "x": "От студенческих протестов по всей Франции в минувшие выходные и президентских выборов в Бразилии, в ходе которых действующий президент левых взглядов Луис Инасио Лула да Силва противостоял правому претенденту Флавио Болсонару, до лесных пожаров в Индонезии, FRANCE 24 вспоминает некоторые из самых жестоких событий.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 72,
+   "ten": 74,
+   "ago": 12,
+   "s": [
+    "France 24",
+    "CNBC"
+   ],
+   "u": "https://www.france24.com/en/europe/20261025-the-week-in-pictures-protests-across-france-wildfires-in-indonesia-and-brazilian-elections",
+   "img": "https://s.france24.com/media/display/cd897c30-d056-11f1-8d7f-5b4a75578ebb/w:1024/p:16x9/2026-10-24T194218Z-1784067987-RC2R9OAGSDD5-RTRMADP-3-FRANCE-PROTEST.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 46.81,
+   "lon": 4.09,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 11,
+   "t_en": "The week in pictures: Protests across France, wildfires in Indonesia and Brazilian elections",
+   "x_en": "From student protests across France over the weekend and presidential elections in Brazil pitting leftist incumbent Luiz Inacio Lula da Silva against right-wing challenger Flavio Bolsonaro to wildfires in Indonesia, FRANCE 24 looks back at some of the most str"
+  },
+  {
+   "t": "Трамп подтвердил поддержку Нетаньяху на выборах в Израиле",
+   "x": "Президент США Дональд Трамп в воскресенье призвал израильтян проголосовать за премьер-министра Биньямина Нетаньяху на предстоящих выборах, сославшись на американо-израильскую войну с Ираном как на пример «совместной победы». «Когда вы пойдете на выборы, пожалуйста, помните, что Биби",
    "r": "Америка",
    "c": "Политика",
-   "imp": 74,
-   "ten": 51,
-   "ago": 158,
+   "imp": 71,
+   "ten": 80,
+   "ago": 20,
    "s": [
-    "BBC",
-    "France 24",
-    "Dawn",
-    "Reuters"
+    "Middle East Eye",
+    "Japan Times"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0734/live/d07c4f10-cff9-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 39.8,
-   "lon": -99.85,
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-reiterates-endorsement-netanyahu-israeli-elections",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/25/thumbs/400x400/570278.jpg",
+   "img_src": "Japan Times",
+   "fresh": true,
+   "n": 2,
+   "lat": 38.57,
+   "lon": -98.09,
    "place": "США",
    "place_en": "United States",
-   "id": 11,
-   "t_en": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-   "x_en": "Obama said the election was \"the last best chance to at least rein in some of the foolishness of this administration\"."
-  },
-  {
-   "t": "В результате авиаудара Израиля по университету города Газа погибли три человека",
-   "x": "Два израильских удара нанесли удары по студентам и охранникам Исламского университета в городе Газа.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 71,
-   "ten": 95,
-   "ago": 141,
-   "s": [
-    "Al Jazeera",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/10/251929489c24597.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 3,
-   "lat": 31.26,
-   "lon": 34.4,
-   "place": "Газа",
-   "place_en": "Gaza",
    "id": 12,
-   "t_en": "Israeli air strike on Gaza City university kills three people",
-   "x_en": "Two Israeli strikes hit students and security guards at the Islamic University in Gaza City."
+   "t_en": "Trump reiterates endorsement of Netanyahu in Israeli elections",
+   "x_en": "US President Donald Trump on Sunday called on Israelis to cast their ballots for Prime Minister Benjamin Netanyahu in upcoming elections, citing the US-Israel war on Iran as an example of \"winning together.\" \"When you go to the Polls please remember that Bibi "
   },
   {
-   "t": "Шри-Ланка оказывает медицинскую помощь и репатриирует 40 иранских моряков, застрявших в Индийском океане",
-   "x": "Шри-Ланка отреагировала на сигнал бедствия и оказала медицинскую помощь 40 иранским морякам с кораблей, стоящих на якоре вблизи ее вод.",
-   "r": "Ближний Восток",
-   "c": "Экономика",
+   "t": "Бразилец Лула лидирует во втором туре президентских выборов",
+   "x": "Бразильцы проголосовали в напряженном втором туре, который может резко сдвинуть страну вправо, приблизив ее к США на фоне более широкого консервативного сдвига во всем регионе.",
+   "r": "Америка",
+   "c": "Политика",
    "imp": 70,
-   "ten": 38,
-   "ago": 270,
+   "ten": 40,
+   "ago": 75,
    "s": [
-    "ABC News",
-    "Middle East Eye",
-    "The Hindu",
-    "Reuters",
-    "AP"
+    "CNBC",
+    "CBS News",
+    "ABC News"
    ],
-   "u": "https://abcnews.com/International/wireStory/sri-lanka-medical-repatriates-40-iranian-sailors-stranded-137553790",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+   "u": "https://www.cnbc.com/2026/10/25/brazil-lula-bolsonaro-presidential-election-runoff.html",
+   "img": "https://s.abcnews.com/images/International/wirestory_b68d2e2e315644e62de8f6839e8ddcff_16x9_1600.jpg",
    "img_src": "ABC News",
    "fresh": false,
-   "n": 5,
-   "lat": 7.47,
-   "lon": 80.66,
-   "place": "Шри-Ланка",
-   "place_en": "Sri Lanka",
+   "n": 4,
+   "lat": -9.3,
+   "lon": -52.36,
+   "place": "Бразилия",
+   "place_en": "Brazil",
    "id": 13,
-   "t_en": "Sri Lanka provides medical help and repatriates 40 Iranian sailors stranded in the Indian Ocean",
-   "x_en": "Sri Lanka has responded to a distress call and provided medical help to 40 Iranian sailors from ships anchored near its waters"
+   "t_en": "Brazil's Lula takes early lead in presidential runoff vote",
+   "x_en": "Brazilians voted in a tight runoff that could move the nation sharply right, bringing it closer to the U.S. amid a broader conservative shift across the region."
   },
   {
    "t": "Новый международный аэропорт Сиднея открыт для пассажиров",
@@ -535,139 +532,215 @@
    "x_en": "Reuters"
   },
   {
-   "t": "Французские протестные группы требуют новых митингов, поскольку Макрон стоит перед трудным выбором",
-   "x": "Лидеры лейбористов призвали к дальнейшим протестам в следующую субботу, 31 ноября, и к общенациональной забастовке 5 ноября, заявив, что разочарование по поводу заработной платы, стоимости жизни и государственных услуг распространяется далеко за пределы студенческого движения, которое впервые мобилизовалось в прошлом месяце.",
+   "t": "Украина оспаривает утверждение Илона Маска о том, что ее военные нарушили условия Starlink во время операций дронов",
+   "x": "Украина оспорила утверждение Маска о том, что ее военные нарушили условия Starlink, утверждая, что коммерческие ограничения Starlink не позволяют использовать удары на средней и большой дальности.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 70,
+   "ago": 305,
+   "s": [
+    "CNBC",
+    "ABC News",
+    "Kyiv Independent",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
+   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 5,
+   "lat": 49.34,
+   "lon": 31.42,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 15,
+   "t_en": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
+   "x_en": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use."
+  },
+  {
+   "t": "Уганда ввела 21-дневный карантин по Эболе для граждан, возвращающихся из ДР Конго",
+   "x": "Кампала заявляет, что в стране нет Эболы, но швейцарские власти полагают, что женщина, у которой диагноз был диагностирован в Нигерии, была инфицирована в Уганде.",
+   "r": "Африка",
+   "c": "Общее",
+   "imp": 66,
+   "ten": 40,
+   "ago": 108,
+   "s": [
+    "Al Jazeera",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/25/uganda-orders-21-day-ebola-quarantine-for-citizens-returning-from-dr-congo?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-25T132946Z_1900863095_RC28AOATRUDI_RTRMADP_3_HEALTH-EBOLA-UGANDA-1792944261-1-1792947079.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 3,
+   "lat": 1.4,
+   "lon": 31.04,
+   "place": "Уганда",
+   "place_en": "Uganda",
+   "id": 16,
+   "t_en": "Uganda orders 21-day Ebola quarantine for citizens returning from DR Congo",
+   "x_en": "Kampala says country is Ebola free, but Swiss authorities believe a woman diagnosed in Nigeria was infected in Uganda."
+  },
+  {
+   "t": "«Бомба замедленного действия»: пенсионные фонды мира столкнулись с кризисом старения",
+   "x": "Мировые пенсионные системы столкнулись с демографическим кризисом, поскольку увеличение продолжительности жизни и снижение рождаемости угрожают истощить пенсионное финансирование.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 65,
+   "ten": 95,
+   "ago": 4,
+   "s": [
+    "CNBC"
+   ],
+   "u": "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108461471-1792972863703-gettyimages-90255516-58219003.jpeg?v=1792972998&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 17,
+   "t_en": "‘Ticking time bomb’: The world's pension funds face an ageing crisis",
+   "x_en": "The world's pension systems are confronting a demographic crisis as longer lifespans and dwindling birth rates threaten to stretch retirement finances."
+  },
+  {
+   "t": "Открыты избирательные участки во втором туре президентских выборов в Бразилии",
+   "x": "Президент Бразилии Луис Инасио Лула да Силва и сенатор Флавио Болсонару встретились в пятницу в своих вторых и последних дебатах перед воскресным вторым туром президентских выборов. Оба кандидата повторили свои предвыборные предложения, сосредоточив внимание на стоимости",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 44,
+   "ago": 26,
+   "s": [
+    "France 24",
+    "NYT"
+   ],
+   "u": "https://www.france24.com/en/polls-open-in-brazil-presidential-runoff",
+   "img": "https://s.france24.com/media/display/f689cca0-d067-11f1-911d-4b25c96ec90e/w:1024/p:16x9/EN-20261025-120157-120549-CS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": -9.93,
+   "lon": -52.38,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 18,
+   "t_en": "Polls open in Brazil presidential runoff",
+   "x_en": "Brazilian President Luiz Inácio Lula da Silva and sight-wing senator Flavio Bolsonaro faced off Friday in their second and final debate ahead of Sunday's presidential runoff election. The two candidates repeated their campaign proposals, focusing on the cost o"
+  },
+  {
+   "t": "Клод из Anthropic получил доступ к информации о подсчете голосов в штате Джорджия через платный доступ, сообщает Axios",
+   "x": "«Они не имели доступа к системе регистрации избирателей штата, не изменяли и не извлекали какие-либо записи о голосовании», — сообщил Axios представитель Anthropic.",
    "r": "Мир",
    "c": "Политика",
-   "imp": 67,
-   "ten": 61,
-   "ago": 35,
+   "imp": 63,
+   "ten": 40,
+   "ago": 36,
    "s": [
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.thehindu.com/news/international/french-protest-groups-demand-more-rallies-as-macron-faces-tough-choices/article71623327.ece",
-   "img": "https://th-i.thgim.com/public/incoming/a4szb1/article71623454.ece/alternates/LANDSCAPE_1200/2026-10-24T193741Z_215892420_RC2R9OA54ABW_RTRMADP_3_FRANCE-PROTEST.JPG",
+   "u": "https://www.thehindu.com/sci-tech/technology/anthropics-claude-accessed-georgia-state-vote-count-information-behind-paywall-axios-reports/article71624742.ece",
+   "img": "https://th-i.thgim.com/public/incoming/eh17iz/article71624743.ece/alternates/LANDSCAPE_1200/2026-10-22T132024Z_1161924906_RC2D8OA92YKE_RTRMADP_3_ENERGY-EUROPE-BATTERIES.JPG",
    "img_src": "The Hindu",
    "fresh": true,
    "n": 2,
-   "lat": 46.1,
-   "lon": 0.94,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 15,
-   "t_en": "French protest groups demand more rallies as Macron faces tough choices",
-   "x_en": "Labour ‌leaders urged further protests next Saturday, November 31, and a nationwide strike on November 5, saying frustration over wages, living costs and public services was spreading ‌far beyond the student movement that first mobilised last month."
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 19,
+   "t_en": "Anthropic's Claude accessed Georgia state vote count information behind paywall, Axios reports",
+   "x_en": "“It didn’t access the state’s ​voter registration ‌system or change or pull any voting records,” an Anthropic spokesperson told Axios"
   },
   {
-   "t": "В Болгарии рекордно низкая явка избирателей спровоцировала второй тур президентских выборов 1 ноября в опросе, окрашенном разногласиями по поводу войны на Украине.",
-   "x": "Низкая явка избирателей спровоцировала второй тур выборов президента Болгарии. Голосование было окрашено сильными разногласиями по поводу войны России на Украине и отношений Софии с Кремлем.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 57,
-   "ago": 144,
-   "s": [
-    "DW",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.dw.com/en/in-bulgaria-record-low-voter-turnout-triggers-a-november-1-presidential-run-off-in-a-poll-colored-by-divisions-over-ukraine-war/a-79753496?maca=en-rss-en-world-4025-rdf",
-   "img": "https://s.abcnews.com/images/US/wirestory_71e668caf5e926fd16395c392bc1920c_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 42.17,
-   "lon": 25.28,
-   "place": "Болгария",
-   "place_en": "Bulgaria",
-   "id": 16,
-   "t_en": "In Bulgaria, record low voter turnout triggers a November 1 presidential run-off in a poll colored by divisions over Ukraine war",
-   "x_en": "Low voter turnout has triggered a run-off for the Bulgarian presidency. The vote was colored by strong divisions over Russia's war in Ukraine, and Sofia's relations with the Kremlin."
-  },
-  {
-   "t": "Президент Колумбии заявил, что убиты два ключевых лидера Армии национального освобождения",
-   "x": "Президент Колумбии заявил, что по меньшей мере 10 членов Армии национального освобождения страны, в том числе два ключевых лидера, были убиты в результате недавнего военного нападения",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 95,
-   "ago": 8,
-   "s": [
-    "ABC News"
-   ],
-   "u": "https://abcnews.com/International/wireStory/colombias-president-key-leaders-national-liberation-army-killed-137557707",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 1,
-   "lat": 5.27,
-   "lon": -73.56,
-   "place": "Колумбия",
-   "place_en": "Colombia",
-   "id": 17,
-   "t_en": "Colombia's president says two key leaders of National Liberation Army killed",
-   "x_en": "Colombia's president says at least 10 members of the country's National Liberation Army, including two key leaders, were killed in a recent military attack"
-  },
-  {
-   "t": "В Бразилии закрылись избирательные участки после продления голосования еще на два часа",
-   "x": "Предвыборные штабы Луиса Инасио Лулы да Силвы и Флавио Болсонару подали в Высший избирательный суд просьбы об отсрочке голосования, утверждая, что проблемы с транспортировкой избирателей в городах как минимум в 10 штатах вызваны сокращением автобусного сообщения или проливным дождем. Но это",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 64,
+   "t": "Фондовый рынок Сеула открылся снижением в преддверии отчетов о прибылях и убытках и решения ФРС",
+   "x": "СЕУЛ, 26 октября (Рёнхап) – Южнокорейские фондовые индексы открылись снижением в понедельник, поскольку инвесторы...",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 62,
    "ten": 40,
-   "ago": 33,
+   "ago": 4,
    "s": [
-    "France 24",
-    "CNBC"
+    "Yonhap"
    ],
-   "u": "https://www.france24.com/en/americas/20261025-live-voting-under-way-across-brazil-in-tight-presidential-run-off-between-lula-and-bolsonaro",
-   "img": "https://s.france24.com/media/display/d0fa5c28-d0be-11f1-8ede-4d317af013fd/w:1024/p:16x9/2026-10-25T210027Z-534706768-RC2KAOAMVK7X-RTRMADP-3-BRAZIL-ELECTION.jpg",
-   "img_src": "France 24",
+   "u": "https://en.yna.co.kr/view/AEN20261026001100320",
+   "img": "https://img.yna.co.kr/photo/yna/YH/2026/10/23/PYH2026102314340001300_P2.jpg",
+   "img_src": "Yonhap",
    "fresh": true,
    "n": 2,
-   "lat": -10.68,
-   "lon": -51.72,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 18,
-   "t_en": "Polls close in Brazil after voting was extended by two more hours",
-   "x_en": "The campaigns of Luiz Inacio Lula da Silva and Flavio Bolsonaro submitted requests to the Superior Electoral Court to postpone voting, alleging problems with voter transportation in cities in at least 10 states due to reduced bus service or heavy rain. But it "
+   "lat": 37.57,
+   "lon": 126.66,
+   "place": "Сеул",
+   "place_en": "Seoul",
+   "id": 20,
+   "t_en": "Seoul stocks open lower ahead of earnings reports, Fed decision",
+   "x_en": "SEOUL, Oct. 26 (Yonhap) -- South Korean stocks opened lower Monday as investors ..."
   },
   {
-   "t": "Министры кабинета поддержали призыв Бёрнема к дебатам о возвращении к свободному передвижению с ЕС",
-   "x": "Призыв премьер-министра поддержали Анджела Рейнер, Эд Милибэнд и бизнес-лидеры, в то время как некоторые депутаты от «красной стены» выражают обеспокоенность. Призыв Энди Бернхема к Великобритании рассмотреть вопрос о возвращении к свободному передвижению с Европой был поддержан высокопоставленными министрами кабинета министров, но рискнул раскол с",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 37,
-   "ago": 125,
+   "t": "В результате авиаудара Израиля по университету города Газа погибли три человека",
+   "x": "Два израильских удара нанесли удары по студентам и охранникам Исламского университета в городе Газа.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 95,
+   "ago": 266,
    "s": [
-    "The Guardian",
-    "The Hindu",
-    "Politico EU"
+    "Al Jazeera",
+    "Dawn",
+    "The Hindu"
    ],
-   "u": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
-   "img": "https://i.guim.co.uk/img/media/bde04cf97a3ddf798e20b45db767cc0d3ecb0133/523_0_3866_3093/master/3866.jpg?width=700&quality=85&auto=format&fit=max&s=823b44f00e5c873a1c8127b9a3462e6f",
-   "img_src": "The Guardian",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
+   "img": "https://i.dawn.com/large/2026/10/251929489c24597.webp",
+   "img_src": "Dawn",
    "fresh": false,
    "n": 3,
-   "lat": 50.83,
-   "lon": 4.51,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 19,
-   "t_en": "Cabinet ministers back Burnham’s call for debate on return to free movement with EU",
-   "x_en": "PM’s plea supported by Angela Rayner, Ed Miliband and business leaders, while some ‘red wall’ MPs voice concern Andy Burnham’s call for the UK to consider a return to free movement with Europe has been backed by senior cabinet ministers but risked a rift with "
+   "lat": 31.26,
+   "lon": 34.4,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 21,
+   "t_en": "Israeli air strike on Gaza City university kills three people",
+   "x_en": "Two Israeli strikes hit students and security guards at the Islamic University in Gaza City."
+  },
+  {
+   "t": "Исламский университет приостанавливает очные занятия, поскольку число погибших в Газе возросло до восьми",
+   "x": "Ранее мы сообщали, что в результате ударов Израиля сегодня в Газе погибли семь человек, в том числе трое охранников Исламского университета Газы. Число погибших в результате авиаударов Израиля по сектору Газа в воскресенье возросло до восьми, сообщает Al Jazeera. Т",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 95,
+   "ago": 34,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/gazas-islamic-university-suspends-classes-death-toll-reaches-eight-0",
+   "img": "https://www.middleeasteye.net/sites/default/files/Mourners%20grieve%20during%20the%20funeral%20of%20three%20Palestinians%20at%20Al%20Shifa%20Hospital%20in%20Gaza%20City%20on%20October%2025%2C%202026%2C%20after%20they%20were%20killed%20in%20an%20Israeli%20strike%20on%20the%20Islamic%20University%20building..jpg",
+   "img_src": "Middle East Eye",
+   "fresh": true,
+   "n": 2,
+   "lat": 31.36,
+   "lon": 34.11,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 22,
+   "t_en": "Islamic University suspends in-person classes as Gaza death toll rises to eight",
+   "x_en": "We have earlier reported that Israeli strikes killed seven people in Gaza, including three security guards at the Islamic University of Gaza earlier today. The death toll from the Israeli air strikes on Gaza on Sunday has risen to eight, Al Jazeera reported. T"
   },
   {
    "t": "Франция: 110 000 протестующих в Париже",
    "x": "В субботу по всей Франции прошли сотни демонстраций из-за роста стоимости жизни, при этом силы безопасности были задействованы в большом количестве, чтобы предотвратить повторение насилия, наблюдавшегося в прошлые выходные. Хотя сами марши в нескольких городах «прошли хорошо»",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 64,
+   "imp": 61,
    "ten": 74,
-   "ago": 422,
+   "ago": 548,
    "s": [
     "France 24",
     "CBS News",
@@ -683,133 +756,84 @@
    "lon": 2.58,
    "place": "Париж",
    "place_en": "Paris",
-   "id": 20,
+   "id": 23,
    "t_en": "France: 110.000 protesters in Paris",
    "x_en": "Hundreds of demonstrations took place across France on Saturday over the rising cost of living, with security forces deployed in large numbers to prevent a repeat of the violence seen last weekend. While the marches themselves “passed off well” in several citi"
   },
   {
-   "t": "Влияние США в Латинской Америке поставлено на карту во втором туре выборов в Бразилии",
-   "x": "Поляризирующий второй тур президентских выборов в крупнейшей экономике и крупнейшей демократии Латинской Америки противопоставляет наследие левого Лулы да Силвы союзнику Трампа Флавио Болсонару, сыну бывшего президента Бразилии.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 40,
-   "s": [
-    "NPR",
-    "NYT"
-   ],
-   "u": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil",
-   "img": "https://static01.nyt.com/images/2026/10/20/world/00int-brazil-minas-02/00int-brazil-minas-02-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.49,
-   "lon": -99.35,
-   "place": "США",
-   "place_en": "United States",
-   "id": 21,
-   "t_en": "U.S. influence in Latin America at stake in runoff election in Brazil",
-   "x_en": "A polarizing presidential election runoff in Latin America's largest economy and biggest democracy pits leftist Lula da Silva's legacy against Trump ally Flavio Bolsonaro, son of the former Brazilian president."
-  },
-  {
-   "t": "Израильское «Правое поколение» может определить будущее Нетаньяху",
-   "x": "Глобальная тенденция может показать, что молодые люди политически склоняются влево, но в Израиле… они склоняются вправо.",
+   "t": "Партия Нетаньяху отстает в опросах общественного мнения перед первыми выборами с 7 октября 2023 года.",
+   "x": "Партия Биньямина Нетаньяху «Ликуд» отстает по опросам в преддверии первых выборов в Израиле после террористических атак 7 октября 2023 года. Мэтт Гутман сообщит более подробную информацию во вторник.",
    "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 40,
-   "s": [
-    "Al Jazeera",
-    "NPR"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1792945776.jpg?resize=1620%2C1080&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": 32.0,
-   "lon": 35.43,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 22,
-   "t_en": "Israel’s ‘Generation Right’ could shape Netanyahu’s future",
-   "x_en": "The global trend may show young people leaning politically to the left, but in Israel… they’re leaning to the right."
-  },
-  {
-   "t": "Бразилия: длинные очереди и речные переезды знаменуют собой решающие президентские выборы",
-   "x": "В воскресенье бразильцы отправились на избирательные участки, чтобы выбрать между Лулой и Флавио Болсонару. От путешествий на каноэ по Амазонке до длинных очередей в Рио и куклы Лулы в Бразилиа — избиратели пришли на второй тур президентских выборов.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 40,
-   "ago": 43,
-   "s": [
-    "Euronews",
-    "Africanews"
-   ],
-   "u": "https://www.euronews.com/video/2026/10/25/brazil-long-queues-and-river-journeys-mark-decisive-presidential-vote",
-   "img": "https://images.euronews.com/articles/stories/09/96/66/73/696x392_cmsv2_9304fdb5-54c6-5938-a6d5-baa4d3ce7737-9966673.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 2,
-   "lat": -10.02,
-   "lon": -52.33,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 23,
-   "t_en": "Brazil: long queues and river journeys mark decisive presidential vote",
-   "x_en": "Brazilians headed to the polls on Sunday to choose between Lula and Flávio Bolsonaro. From canoe journeys in the Amazon to long queues in Rio and a Lula doll in Brasília, voters turned out for the presidential runoff."
-  },
-  {
-   "t": "Трамп готовится к эскалации ситуации в Иране после выборов в США; Тегеран заявляет, что позиция не изменилась",
-   "x": "Президент США Дональд Трамп дал понять о возможных военных действиях против Ирана после предстоящих промежуточных выборов. США увеличили свое военное присутствие в Персидском заливе за счет дополнительных самолетов и войск. Сообщается, что Иран готовится к ответным действиям",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 88,
-   "ago": 113,
-   "s": [
-    "Times of India",
-    "Japan Times"
-   ],
-   "u": "https://timesofindia.indiatimes.com/world/us/trump-gears-up-for-iran-escalation-after-us-polls/articleshow/135197451.cms",
-   "img": "https://static.toiimg.com/photo/msid-135197466,imgsize-44048.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 2,
-   "lat": 35.58,
-   "lon": 51.36,
-   "place": "Тегеран",
-   "place_en": "Tehran",
-   "id": 24,
-   "t_en": "Trump gears up for Iran escalation after US polls; Tehran says position unchanged",
-   "x_en": "US President Donald Trump has signaled potential military action against Iran following the upcoming midterm elections. The US has increased its military presence in the Persian Gulf with additional aircraft and troops. Iran is reportedly preparing for retalia"
-  },
-  {
-   "t": "Глобальный финансовый кризис, часть 2: Стивен Шварцман (22)",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
    "imp": 60,
-   "ten": 57,
-   "ago": 1,
+   "ten": 82,
+   "ago": 24,
    "s": [
-    "Nikkei Asia"
+    "CBS News"
    ],
-   "u": "https://asia.nikkei.com/spotlight/my-personal-history/the-global-financial-crisis-part-2-stephen-schwarzman-22",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F4%2F9%2F7%2F13087949-2-eng-GB%2F0ad78cc015b1-photo_SXM2026070300005089.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.cbsnews.com/video/netanyahus-party-lags-polls-ahead-first-election-since-oct-7-2023/",
+   "img": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/25/bd28122a-130c-4a1c-b522-efece6ac9efe/thumbnail/1200x630/da3ef7fa02bf7cd97083dad88a5c9418/cbsn-fusion-netanyahus-party-lags-polls-ahead-first-election-since-oct-7-2023-thumbnail.jpg",
+   "img_src": "CBS News (og)",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "lat": 31.15,
+   "lon": 35.73,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 24,
+   "t_en": "Netanyahu's party lags in polls ahead of first election since Oct. 7, 2023",
+   "x_en": "Benjamin Netanyahu's Likud party is lagging behind in the polls ahead of Israel's first election since the Oct. 7, 2023 terrorist attacks. Matt Gutman has more details ahead of Tuesday."
+  },
+  {
+   "t": "Трамп ссылается на события 11 сентября, призывая избирателей Мичигана выступить против мусульманского кандидата в Сенат Эль-Сайеда",
+   "x": "Рейтер",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 53,
+   "ago": 92,
+   "s": [
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbW50b2RKQnYxQ3pEY21lOWdDMTNwTmN6cDFsS1lKVmpWcDZ2U25TVGlELXpFMkZoOXJhU1R4WUF5NHNISmNKejJ2VnFnckRaUWlrVi04SFQxT2xOS19qQWM0ZkZsVmlpOFBjUVlNN3gxU2Y4aTRsZGtLRXZfWlVSV0xoSXd1em0xUUlfZzlIVDJGOElMdlpvVVY3ZGFDcjRGaDRQMlVR?oc=5",
+   "img": "",
+   "img_src": "",
+   "fresh": false,
+   "n": 2,
+   "lat": 39.37,
+   "lon": -97.54,
+   "place": "США",
+   "place_en": "United States",
    "id": 25,
-   "t_en": "The Global Financial Crisis, Part 2: Stephen Schwarzman (22)",
-   "x_en": ""
+   "t_en": "Trump invokes 9/11 in urging Michigan voters to oppose Muslim Senate candidate El-Sayed",
+   "x_en": "Reuters"
+  },
+  {
+   "t": "Мария Корина Мачадо вернулась в Венесуэлу после 10 месяцев изгнания",
+   "x": "Последний раз оппозиционер была в Венесуэле в декабре 2025 года, после чего уехала получать Нобелевскую премию мира в Осло. С тех пор она осуществляла большую часть своей политической деятельности в США и Панаме.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 34,
+   "ago": 182,
+   "s": [
+    "Euronews",
+    "NYT",
+    "Times of India"
+   ],
+   "u": "https://www.euronews.com/2026/10/25/maria-corina-machado-back-in-venezuela-after-nearly-10-months-in-exile",
+   "img": "https://images.euronews.com/articles/stories/09/96/65/54/696x392_cmsv2_cf5da484-b81a-54ab-af6f-45444cfc63dd-9966554.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": 6.86,
+   "lon": -66.9,
+   "place": "Венесуэла",
+   "place_en": "Venezuela",
+   "id": 26,
+   "t_en": "María Corina Machado back in Venezuela after 10 months in exile",
+   "x_en": "The opposition leader was last in Venezuela in in December 2025, after which she left to receive the Nobel Peace Prize in Oslo. Since then, she has carried out much of her political activity from the United States and Panama."
   },
   {
    "t": "Писатель-фантаст Дэниел Суарес предупреждает об авторитаризме, основанном на искусственном интеллекте",
@@ -831,35 +855,34 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 26,
+   "id": 27,
    "t_en": "SF writer Daniel Suarez warns of AI-powered authoritarianism",
    "x_en": ""
   },
   {
-   "t": "Тысячи людей протестуют в Праге, поскольку правительство продвигает пересмотр финансирования государственных СМИ",
-   "x": "Чехи вышли на митинг в Праге в знак протеста против плана правительства по пересмотру финансирования общественных вещателей",
-   "r": "Европа",
-   "c": "Политика",
+   "t": "Президент Колумбии заявил, что убиты два ключевых лидера Армии национального освобождения",
+   "x": "Президент Колумбии заявил, что по меньшей мере 10 членов Армии национального освобождения страны, в том числе два ключевых лидера, были убиты в результате недавнего военного нападения",
+   "r": "Америка",
+   "c": "Конфликты",
    "imp": 58,
-   "ten": 51,
-   "ago": 224,
+   "ten": 80,
+   "ago": 133,
    "s": [
     "ABC News",
-    "Reuters",
     "AP"
    ],
-   "u": "https://abcnews.com/International/wireStory/thousands-protest-prague-government-advances-public-media-funding-137556493",
-   "img": "https://s.abcnews.com/images/International/wirestory_542d603c183503d9193b033be3f3adbc_16x9_1600.jpg",
+   "u": "https://abcnews.com/International/wireStory/colombias-president-key-leaders-national-liberation-army-killed-137557707",
+   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
    "img_src": "ABC News",
    "fresh": false,
-   "n": 3,
-   "lat": 50.0,
-   "lon": 16.53,
-   "place": "Чехия",
-   "place_en": "Czech Republic",
-   "id": 27,
-   "t_en": "Thousands protest in Prague as government advances public media funding overhaul",
-   "x_en": "Czechs have rallied in Prague to protest a government plan to overhaul funding for public broadcasters"
+   "n": 2,
+   "lat": 5.27,
+   "lon": -73.56,
+   "place": "Колумбия",
+   "place_en": "Colombia",
+   "id": 28,
+   "t_en": "Colombia's president says two key leaders of National Liberation Army killed",
+   "x_en": "Colombia's president says at least 10 members of the country's National Liberation Army, including two key leaders, were killed in a recent military attack"
   },
   {
    "t": "SK Hynix отказывается от плана IPO своего подразделения в США, ссылаясь на волатильность рынка",
@@ -881,7 +904,7 @@
    "lon": -98.32,
    "place": "США",
    "place_en": "United States",
-   "id": 28,
+   "id": 29,
    "t_en": "SK Hynix abandons plan for US unit's IPO, citing market volatility",
    "x_en": ""
   },
@@ -905,7 +928,7 @@
    "lon": 138.15,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 29,
+   "id": 30,
    "t_en": "Japan urges social media platforms to curb misinformation in elections",
    "x_en": ""
   },
@@ -929,7 +952,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 30,
+   "id": 31,
    "t_en": "Asia's AI data center boom faces 'reality check' from public markets",
    "x_en": ""
   },
@@ -953,7 +976,7 @@
    "lon": 138.26,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 31,
+   "id": 32,
    "t_en": "Japan to reorganize defense research around AI, cyber",
    "x_en": ""
   },
@@ -977,7 +1000,7 @@
    "lon": -52.76,
    "place": "Бразилия",
    "place_en": "Brazil",
-   "id": 32,
+   "id": 33,
    "t_en": "Brazil election to impact rare-earth race as West seeks China balance",
    "x_en": ""
   },
@@ -1001,7 +1024,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 33,
+   "id": 34,
    "t_en": "Editor's Choice: What really separates Silicon Valley startups from Asia?",
    "x_en": ""
   },
@@ -1025,7 +1048,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 34,
+   "id": 35,
    "t_en": "Investors turn to JGBs as a safe haven as stock risks rise",
    "x_en": ""
   },
@@ -1041,15 +1064,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/business/materials/japan-s-jfe-steel-to-build-huge-blast-furnace-in-india-with-jsw-steel",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F0%2F5%2F7%2F13357507-2-eng-GB%2Fb3de510529ef-photo_SXM2026102300011719.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
    "lat": 36.18,
    "lon": 136.95,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 35,
+   "id": 36,
    "t_en": "Japan's JFE Steel to build huge blast furnace in India with JSW Steel",
    "x_en": ""
   },
@@ -1065,15 +1088,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/spotlight/cybersecurity/japan-car-sharing-operator-to-offer-users-19-each-after-data-breach",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F3%2F6%2F7%2F13357633-2-eng-GB%2Fb09e932d4023-photo_SXM2026102300003172.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
    "lat": 36.57,
    "lon": 138.67,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 36,
+   "id": 37,
    "t_en": "Japan car-sharing operator to offer users $19 each after data breach",
    "x_en": ""
   },
@@ -1097,7 +1120,7 @@
    "lon": 137.48,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 37,
+   "id": 38,
    "t_en": "Japan weighs rebranding energy, AI as defense spending under Trump pressure",
    "x_en": ""
   },
@@ -1121,7 +1144,7 @@
    "lon": 138.67,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 38,
+   "id": 39,
    "t_en": "Japan banks prepared to weather AI crash, global rate spike: BOJ stress test",
    "x_en": ""
   },
@@ -1145,40 +1168,12 @@
    "lon": 138.19,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 39,
-   "t_en": "As Muse personal AI agent debuts in Japan, Meta exec says it won't have ads",
-   "x_en": ""
-  },
-  {
-   "t": "Недостатки безопасности PHP вынуждают Японию закрывать веб-сайты, в то время как США их поддерживают",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/cybersecurity/php-security-flaws-prompt-japan-to-take-websites-down-while-us-keeps-them-up",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.32,
-   "lon": 138.06,
-   "place": "Япония",
-   "place_en": "Japan",
    "id": 40,
-   "t_en": "PHP security flaws prompt Japan to take websites down while US keeps them up",
+   "t_en": "As Muse personal AI agent debuts in Japan, Meta exec says it won't have ads",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1792879059653,
-   "v": 53
-  },
   {
    "t": 1792886499808,
    "v": 52
@@ -1206,139 +1201,143 @@
   {
    "t": 1792965749800,
    "v": 50
+  },
+  {
+   "t": 1792973255050,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1792879349800,
-   "v": 55,
-   "n": 28
-  },
-  {
-   "t": 1792882949800,
-   "v": 49,
-   "n": 29
-  },
-  {
-   "t": 1792886549800,
+   "t": 1792886855050,
    "v": 47,
-   "n": 36
+   "n": 37
   },
   {
-   "t": 1792890149800,
+   "t": 1792890455050,
+   "v": 45,
+   "n": 33
+  },
+  {
+   "t": 1792894055050,
    "v": 46,
-   "n": 36
+   "n": 37
   },
   {
-   "t": 1792893749800,
-   "v": 48,
-   "n": 39
-  },
-  {
-   "t": 1792897349800,
-   "v": 50,
-   "n": 39
-  },
-  {
-   "t": 1792900949800,
-   "v": 50,
-   "n": 36
-  },
-  {
-   "t": 1792904549800,
+   "t": 1792897655050,
    "v": 49,
-   "n": 39
-  },
-  {
-   "t": 1792908149800,
-   "v": 51,
    "n": 35
   },
   {
-   "t": 1792911749800,
-   "v": 54,
+   "t": 1792901255050,
+   "v": 50,
+   "n": 36
+  },
+  {
+   "t": 1792904855050,
+   "v": 50,
+   "n": 40
+  },
+  {
+   "t": 1792908455050,
+   "v": 51,
+   "n": 34
+  },
+  {
+   "t": 1792912055050,
+   "v": 55,
    "n": 31
   },
   {
-   "t": 1792915349800,
-   "v": 52,
-   "n": 32
-  },
-  {
-   "t": 1792918949800,
-   "v": 55,
+   "t": 1792915655050,
+   "v": 54,
    "n": 29
   },
   {
-   "t": 1792922549800,
+   "t": 1792919255050,
+   "v": 56,
+   "n": 30
+  },
+  {
+   "t": 1792922855050,
+   "v": 56,
+   "n": 40
+  },
+  {
+   "t": 1792926455050,
    "v": 57,
-   "n": 42
+   "n": 40
   },
   {
-   "t": 1792926149800,
-   "v": 58,
-   "n": 44
+   "t": 1792930055050,
+   "v": 56,
+   "n": 45
   },
   {
-   "t": 1792929749800,
-   "v": 57,
-   "n": 52
-  },
-  {
-   "t": 1792933349800,
+   "t": 1792933655050,
    "v": 52,
-   "n": 53
+   "n": 46
   },
   {
-   "t": 1792936949800,
-   "v": 54,
-   "n": 62
+   "t": 1792937255050,
+   "v": 55,
+   "n": 48
   },
   {
-   "t": 1792940549800,
+   "t": 1792940855050,
    "v": 52,
-   "n": 82
+   "n": 56
   },
   {
-   "t": 1792944149800,
-   "v": 52,
-   "n": 104
+   "t": 1792944455050,
+   "v": 53,
+   "n": 76
   },
   {
-   "t": 1792947749800,
+   "t": 1792948055050,
    "v": 49,
-   "n": 117
+   "n": 94
   },
   {
-   "t": 1792951349800,
+   "t": 1792951655050,
    "v": 48,
-   "n": 121
+   "n": 108
   },
   {
-   "t": 1792954949800,
+   "t": 1792955255050,
    "v": 47,
-   "n": 113
+   "n": 102
   },
   {
-   "t": 1792958549800,
+   "t": 1792958855050,
    "v": 46,
+   "n": 99
+  },
+  {
+   "t": 1792962455050,
+   "v": 45,
    "n": 109
   },
   {
-   "t": 1792962149800,
+   "t": 1792966055050,
    "v": 44,
-   "n": 127
+   "n": 102
   },
   {
-   "t": 1792965749800,
-   "v": 42,
+   "t": 1792969655050,
+   "v": 43,
+   "n": 138
+  },
+  {
+   "t": 1792973255050,
+   "v": 43,
    "n": 92
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 22
+   "items": 24
   },
   {
    "n": "Al Jazeera",
@@ -1362,7 +1361,7 @@
   },
   {
    "n": "NPR",
-   "items": 10
+   "items": 9
   },
   {
    "n": "UN News",
@@ -1370,15 +1369,15 @@
   },
   {
    "n": "CNBC",
-   "items": 14
+   "items": 17
   },
   {
    "n": "Euronews",
-   "items": 14
+   "items": 13
   },
   {
    "n": "NYT",
-   "items": 35
+   "items": 38
   },
   {
    "n": "Washington Post",
@@ -1390,7 +1389,7 @@
   },
   {
    "n": "ABC News",
-   "items": 25
+   "items": 20
   },
   {
    "n": "CNN",
@@ -1398,15 +1397,15 @@
   },
   {
    "n": "Fox News",
-   "items": 7
+   "items": 8
   },
   {
    "n": "ABC Australia",
-   "items": 15
+   "items": 17
   },
   {
    "n": "CNA",
-   "items": 4
+   "items": 3
   },
   {
    "n": "Times of Israel",
@@ -1422,7 +1421,7 @@
   },
   {
    "n": "Africanews",
-   "items": 11
+   "items": 12
   },
   {
    "n": "Kyiv Independent",
@@ -1430,7 +1429,7 @@
   },
   {
    "n": "Yonhap",
-   "items": 31
+   "items": 39
   },
   {
    "n": "Nikkei Asia",
@@ -1454,7 +1453,7 @@
   },
   {
    "n": "Politico EU",
-   "items": 8
+   "items": 6
   },
   {
    "n": "Japan Times",

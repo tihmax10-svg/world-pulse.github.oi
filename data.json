@@ -1,7 +1,7 @@
 {
- "updated": 1793117081970,
+ "updated": 1793133499036,
  "demo": false,
- "total_articles": 701,
+ "total_articles": 707,
  "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
@@ -20,11 +20,11 @@
   },
   {
    "n": "France 24",
-   "v": 54
+   "v": 52
   },
   {
    "n": "The Guardian",
-   "v": 48
+   "v": 53
   },
   {
    "n": "Sky News",
@@ -32,27 +32,27 @@
   },
   {
    "n": "NPR",
-   "v": 46
+   "v": 45
   },
   {
    "n": "CNBC",
-   "v": 43
+   "v": 42
   },
   {
    "n": "Euronews",
-   "v": 50
+   "v": 53
   },
   {
    "n": "NYT",
-   "v": 47
+   "v": 48
   },
   {
    "n": "CBS News",
-   "v": 58
+   "v": 60
   },
   {
    "n": "ABC News",
-   "v": 51
+   "v": 55
   },
   {
    "n": "CNN",
@@ -60,55 +60,55 @@
   },
   {
    "n": "Fox News",
-   "v": 55
+   "v": 53
   },
   {
    "n": "ABC Australia",
-   "v": 42
+   "v": 41
   },
   {
    "n": "CNA",
-   "v": 40
+   "v": 41
   },
   {
    "n": "Middle East Eye",
-   "v": 59
-  },
-  {
-   "n": "Africanews",
-   "v": 59
-  },
-  {
-   "n": "Kyiv Independent",
-   "v": 70
-  },
-  {
-   "n": "Yonhap",
    "v": 43
   },
   {
+   "n": "Africanews",
+   "v": 56
+  },
+  {
+   "n": "Kyiv Independent",
+   "v": 67
+  },
+  {
+   "n": "Yonhap",
+   "v": 42
+  },
+  {
    "n": "Nikkei Asia",
-   "v": 40
+   "v": 41
   },
   {
    "n": "The Diplomat",
-   "v": 41
+   "v": 38
   },
   {
    "n": "Dawn",
-   "v": 54
+   "v": 51
   },
   {
    "n": "Times of India",
-   "v": 45
+   "v": 40
   },
   {
    "n": "The Hindu",
-   "v": 49
+   "v": 53
   },
   {
    "n": "Politico EU",
-   "v": 41
+   "v": 36
   },
   {
    "n": "Japan Times",
@@ -116,21 +116,21 @@
   },
   {
    "n": "Reuters",
-   "v": 45
+   "v": 43
   },
   {
    "n": "AP",
-   "v": 44
+   "v": 47
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 51
+   "v": 52
   },
   {
    "n": "Ближний Восток",
-   "v": 57
+   "v": 55
   },
   {
    "n": "Азия",
@@ -138,267 +138,424 @@
   },
   {
    "n": "Африка",
-   "v": 69
+   "v": 65
   },
   {
    "n": "Америка",
-   "v": 41
+   "v": 43
   }
  ],
  "events": [
-  {
-   "t": "Число погибших в результате нападения боевиков на северо-востоке Нигерии возросло до 62",
-   "x": "Бандиты атаковали деревню Биннари в штате Тараба, поджигая дома, магазины, продукты питания и мотоциклы.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 97,
-   "ten": 92,
-   "ago": 11,
-   "s": [
-    "Al Jazeera",
-    "Sky News",
-    "ABC News",
-    "Africanews",
-    "Times of India",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/27/death-toll-from-attack-by-gunmen-in-northeastern-nigeria-rises-to-62?traffic_source=rss",
-   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-nigeria-binnari-karim_7388758.jpg?20261027150454",
-   "img_src": "Sky News",
-   "fresh": true,
-   "n": 6,
-   "lat": 9.64,
-   "lon": 7.8,
-   "place": "Нигерия",
-   "place_en": "Nigeria",
-   "id": 1,
-   "t_en": "Death toll from attack by gunmen in northeastern Nigeria rises to 62",
-   "x_en": "Bandits targeted Binnari village in Taraba state, setting fire to homes, shops, food supplies and motorcycles."
-  },
-  {
-   "t": "Число случаев Эболы в ДР Конго превысило 10 000 из-за самой быстрорастущей вспышки",
-   "x": "Почти половина людей, у которых было подтверждено наличие вируса, умерла в результате самой быстрорастущей за всю историю вспышки Эболы в ДРК.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 88,
-   "ten": 42,
-   "ago": 19,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/27/ebola-cases-in-dr-congo-surpass-10000-in-fastest-growing-outbreak?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/8f829b28-d219-11f1-aa6f-bba4eee3dc72/w:1024/p:16x9/AP26269826068205.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 4,
-   "lat": -2.22,
-   "lon": 23.82,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 2,
-   "t_en": "Ebola cases in DR Congo surpass 10,000 in fastest-growing outbreak",
-   "x_en": "Nearly half of the people confirmed to have the virus have died in DRC's fastest-growing Ebola outbreak on record."
-  },
-  {
-   "t": "«Неприемлемое нарушение»: Сирия осуждает авиаудары Иордании",
-   "x": "Представитель правительства заявил, что Иордания «избегала» гражданских объектов и сожалеет о «непреднамеренных жертвах», подчеркнув, что страна испытывает «глубокое уважение» к сирийскому государству и народу.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 88,
-   "ten": 92,
-   "ago": 83,
-   "s": [
-    "Euronews",
-    "NYT",
-    "The Hindu",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/2026/10/27/unacceptable-violation-syria-condemns-jordan-airstrikes",
-   "img": "https://images.euronews.com/articles/stories/09/96/90/36/696x392_cmsv2_1fb0cab2-db10-5f75-a532-eb44f1ca6262-9969036.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 6,
-   "lat": 34.85,
-   "lon": 38.83,
-   "place": "Сирия",
-   "place_en": "Syria",
-   "id": 3,
-   "t_en": "'Unacceptable violation': Syria condemns Jordan airstrikes",
-   "x_en": "A government spokesperson said Jordan had \"avoided\" civilian sites and that it regretted \"unintended casualties,\" stressing that the country had \"deep respect\" for the Syrian state and people."
-  },
   {
    "t": "Циклон Арнаб обрушился на восточное побережье Индии",
    "x": "Сильные дожди и прибрежные наводнения обрушились на восточное побережье Индии во вторник, когда циклон Арнаб обрушился на берег.",
    "r": "Азия",
    "c": "Природа",
-   "imp": 87,
-   "ten": 62,
-   "ago": 53,
+   "imp": 93,
+   "ten": 59,
+   "ago": 6,
    "s": [
     "Al Jazeera",
     "NYT",
     "ABC News",
     "CNA",
-    "Dawn",
     "AP"
    ],
    "u": "https://www.aljazeera.com/video/newsfeed/2026/10/27/cyclone-arnab-batters-indias-east-coast?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/10/27/multimedia/27int-india-cyclone-gqwp/27int-india-cyclone-gqwp-mediumSquareAt3X.jpg",
+   "img": "https://static01.nyt.com/images/2026/10/27/world/asia/27vid-india-cyclone-cover-image/27vid-india-cyclone-cover-image-mediumSquareAt3X.jpg",
    "img_src": "NYT",
    "fresh": true,
-   "n": 6,
+   "n": 5,
    "lat": 23.29,
    "lon": 78.99,
    "place": "Индия",
    "place_en": "India",
-   "id": 4,
+   "id": 1,
    "t_en": "Cyclone Arnab batters India’s east coast",
    "x_en": "Heavy rains and coastal floodings hit India’s east coast on Tuesday as cyclone Arnab is making landfall."
   },
   {
-   "t": "Британца обвиняют в помощи иранской разведке в инциденте с ВВС Великобритании в Фэрфорде",
-   "x": "Во вторник второму британцу также были предъявлены обвинения в связи с событиями в ВВС Великобритании. Фэрфорд, база, используемая Соединенными Штатами в войне против Ирана.",
+   "t": "🔴Прямой эфир: израильские экзитполы показывают небольшое преимущество оппозиции, но нет явного большинства против Нетаньяху",
+   "x": "Блок оппозиционных партий, включающий две преимущественно арабские партии, по-видимому, лидировал над партией «Ликуд» премьер-министра Биньямина Нетаньяху и его союзниками.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 90,
+   "ten": 40,
+   "ago": 4,
+   "s": [
+    "France 24",
+    "CNBC",
+    "NYT",
+    "Middle East Eye"
+   ],
+   "u": "https://www.france24.com/en/middle-east/20261027-live-polls-open-in-first-israeli-election-since-october-7-attack",
+   "img": "https://static01.nyt.com/images/2026/10/27/multimedia/27israel-promo-415-jtzq/27israel-promo-415-jtzq-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 7,
+   "lat": 31.77,
+   "lon": 35.45,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 2,
+   "t_en": "🔴Live: Israeli exit polls show narrow edge for opposition but no clear majority against Netanyahu",
+   "x_en": "A bloc of opposition parties, including two predominantly Arab parties, appeared to be leading over Prime Minister Benjamin Netanyahu’s Likud party and his allies."
+  },
+  {
+   "t": "Результаты выборов в Израиле в прямом эфире: явного победителя нет – первые телевизионные экзитполы",
+   "x": "Высокая явка на голосование широко считается самой значимой в истории Израиля.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 90,
+   "ten": 44,
+   "ago": 12,
+   "s": [
+    "Al Jazeera",
+    "Euronews",
+    "Middle East Eye",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-results-live-exit-polls-soon-as-netanyahu-faces-tight-race?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/96/97/17/696x392_cmsv2_d4fd8425-b52c-59d0-8310-ce30ed02d061-9969717.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 4,
+   "lat": 32.05,
+   "lon": 35.28,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 3,
+   "t_en": "Israel election results live: No clear winner – first TV exit polls",
+   "x_en": "High turnout in vote widely described as the most consequential in Israel's history."
+  },
+  {
+   "t": "Нетаньяху предстоят первые национальные выборы с 7 октября 2023 года.",
+   "x": "Премьер-министру Израиля Биньямину Нетаньяху предстоят первые в стране национальные выборы после теракта ХАМАС 7 октября 2023 года. Мэтт Гутман смотрит на то, что поставлено на карту и кто может свергнуть Нетаньяху.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 89,
+   "ten": 57,
+   "ago": 28,
+   "s": [
+    "CBS News",
+    "Fox News",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://www.cbsnews.com/video/netanyahu-faces-first-national-election-since-oct-7-2023/",
+   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Israeli-Election.jpg?ve=1&tl=1",
+   "img_src": "Fox News",
+   "fresh": true,
+   "n": 4,
+   "lat": 31.48,
+   "lon": 34.34,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 4,
+   "t_en": "Netanyahu faces first national election since Oct. 7, 2023",
+   "x_en": "Israeli Prime Minister Benjamin Netanyahu is facing his country's first national election since the Oct. 7, 2023, Hamas terror attack. Matt Gutman takes a look at what's at stake and who might unseat Netanyahu."
+  },
+  {
+   "t": "Заговор RAF Fairford «координируется куратором, работающим от имени Ирана»",
+   "x": "Суд сообщил, что двое мужчин, обвиненных в соответствии с Законом о национальной безопасности, получили указание от куратора, предположительно работавшего на иранскую разведку.",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 80,
-   "ten": 66,
-   "ago": 22,
+   "imp": 89,
+   "ten": 53,
+   "ago": 29,
    "s": [
+    "The Guardian",
     "NYT",
     "Fox News",
     "Reuters"
    ],
-   "u": "https://www.nytimes.com/2026/10/27/world/europe/raf-fairford-charges-uk-air-base-us-iran.html",
-   "img": "https://static01.nyt.com/images/2026/10/27/multimedia/27uk-raf-fairford-charges-hqvg/27uk-raf-fairford-charges-hqvg-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
+   "u": "https://www.theguardian.com/uk-news/2026/oct/27/two-men-charged-raf-fairford",
+   "img": "https://i.guim.co.uk/img/media/9b7950d0712c5d8ce86a64d38c74f0acd1668dc6/289_242_2564_2053/master/2564.jpg?width=700&quality=85&auto=format&fit=max&s=d9c1e2fa24fb1b3309aab076fcf9ca99",
+   "img_src": "The Guardian",
    "fresh": true,
-   "n": 3,
-   "lat": 54.11,
-   "lon": -3.54,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
+   "n": 4,
+   "lat": 31.99,
+   "lon": 54.22,
+   "place": "Иран",
+   "place_en": "Iran",
    "id": 5,
-   "t_en": "British Man Charged With Helping Iranian Intelligence In RAF Fairford Incident",
-   "x_en": "A second British man was also charged on Tuesday in connection with the events at R.A.F. Fairford, a base used by the United States in its war against Iran."
+   "t_en": "RAF Fairford plot ‘coordinated by handler working on behalf of Iran’",
+   "x_en": "Two men charged under National Security Act were directed by handler believed to have been working for Iranian intelligence, court told A group of men were directed to drive vans loaded with petrol to Fairford RAF base by a handler known as Ali, who police bel"
   },
   {
-   "t": "Второй тур выборов в Бразилии, как это было: мировые лидеры поздравляют Лулу с исторической победой на выборах, поскольку Болсонару отказывается уступить",
-   "x": "Левый президент Луис Инасио Лула да Силва победил крайне правого сенатора и был избран президентом Бразилии на четвертый срок подряд Полный отчет: Лула побеждает на четвертом сроке на посту президента Бразилии над Флавио Болсонару Результаты второго тура в прямом эфире Местный",
+   "t": "Лидеры Норвегии и Финляндии провели редкий разговор с Путиным",
+   "x": "Прекращение конфликта в Украине «не будет достигнуто молчанием», заявил президент Финляндии Александр Стубб.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 89,
+   "ten": 59,
+   "ago": 34,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "NYT",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": 61.33,
+   "lon": 8.42,
+   "place": "Норвегия",
+   "place_en": "Norway",
+   "id": 6,
+   "t_en": "Norway and Finland leaders hold rare call with Putin",
+   "x_en": "An end to the conflict in Ukraine \"will not be achieved through silence,\" Finland's President Alexander Stubb said."
+  },
+  {
+   "t": "Флавио Болсонару бежит из Бразилии после поражения на президентских выборах, говорится в сообщениях",
+   "x": "Крайне правый сенатор летит в США, пропустив срок сдачи паспорта после поражения от Лулы. Крайне правый сенатор Флавио Болсонару, как сообщается, бежал из Бразилии и направляется в Соединенные Штаты после поражения на воскресных президентских выборах левыми",
    "r": "Америка",
    "c": "Политика",
-   "imp": 79,
-   "ten": 36,
-   "ago": 83,
+   "imp": 87,
+   "ten": 40,
+   "ago": 31,
    "s": [
     "The Guardian",
-    "NPR",
+    "Euronews",
+    "NYT",
+    "Fox News",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
+   "img": "https://i.guim.co.uk/img/media/3ef222ab0dad82e1fda7dafb6d9e2ec911a85e26/945_122_2901_2320/master/2901.jpg?width=700&quality=85&auto=format&fit=max&s=52f2da863a3db293ac4b82b5ac862c10",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 7,
+   "lat": -10.15,
+   "lon": -51.57,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 7,
+   "t_en": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
+   "x_en": "Far-right senator on plane to US after missing deadline to hand over his passport since loss to Lula The far-right senator Flávio Bolsonaro has reportedly fled Brazil and is on his way to the United States after losing Sunday’s presidential election to the lef"
+  },
+  {
+   "t": "В результате нападений погибли по меньшей мере 60 православных христиан в Эфиопии, сообщает церковь",
+   "x": "Эфиопская православная церковь сообщает, что в результате двух нападений в Оромии погибли не менее 60 православных христиан.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 84,
+   "ten": 92,
+   "ago": 116,
+   "s": [
+    "ABC News",
+    "Africanews",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/attacks-kill-60-orthodox-christians-ethiopia-church-137600132",
+   "img": "https://s.abcnews.com/images/International/wirestory_2619e078e655a87f0f29cd1e8dd9db5d_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 7.8,
+   "lon": 39.39,
+   "place": "Эфиопия",
+   "place_en": "Ethiopia",
+   "id": 8,
+   "t_en": "Attacks kill at least 60 Orthodox Christians in Ethiopia, church says",
+   "x_en": "The Ethiopian Orthodox Church reports that two attacks in Oromia have killed at least 60 Orthodox Christians"
+  },
+  {
+   "t": "Смертоносный торнадо обрушился на стройку в Турции",
+   "x": "Торнадо обрушился на строительную площадку в Анталье (Турция), в результате чего четверо рабочих погибли и еще один получил ранения.",
+   "r": "Ближний Восток",
+   "c": "Общее",
+   "imp": 83,
+   "ten": 74,
+   "ago": 106,
+   "s": [
+    "Al Jazeera",
+    "Euronews",
+    "ABC News",
+    "Africanews"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/27/deadly-tornado-strikes-construction-site-in-turkiye?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/96/88/19/696x392_cmsv2_654ca191-c112-5911-aeec-feeb8df3b7b9-9968819.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.75,
+   "lon": 36.1,
+   "place": "Турция",
+   "place_en": "Turkey",
+   "id": 9,
+   "t_en": "Deadly tornado strikes construction site in Turkiye",
+   "x_en": "A tornado has hit a construction site in Antalya, Turkey, killing four workers and injuring another"
+  },
+  {
+   "t": "Сингапур и Индонезия создали рабочую группу по борьбе с дымкой от незаконного сжигания",
+   "x": "Индонезия и Сингапур договорились работать вместе в борьбе с незаконным поджогом земель, которое вызвало токсичную дымку в Юго-Восточной Азии.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 81,
+   "ten": 46,
+   "ago": 1,
+   "s": [
+    "ABC News",
+    "Nikkei Asia",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/singapore-indonesia-set-task-force-combat-haze-illegal-137603935",
+   "img": "https://s.abcnews.com/images/International/wirestory_16109886ad54f7f8e0fa0dea6b91e424_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 3,
+   "lat": 0.49,
+   "lon": 104.28,
+   "place": "Сингапур",
+   "place_en": "Singapore",
+   "id": 10,
+   "t_en": "Singapore and Indonesia set up a task force to combat haze from illegal burning",
+   "x_en": "Indonesia and Singapore have agreed to work together to tackle illegal land burning, which has caused a toxic haze across Southeast Asia"
+  },
+  {
+   "t": "Заключенный в тюрьму лидер оппозиции Танзании Тунду Лиссу прекратил короткую голодовку",
+   "x": "Лиссу, которой предъявлено обвинение в государственной измене, влекущее за собой смертный приговор, отказалась от еды после того, как ей отказали в доступе к адвокатам.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 77,
+   "ago": 38,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "Africanews"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/27/tanzanias-jailed-opposition-leader-tundu-lissu-ends-brief-hunger-strike?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_982e063ea4a213077d5bd9604bb6f6a8_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 3,
+   "lat": -5.35,
+   "lon": 34.32,
+   "place": "Танзания",
+   "place_en": "Tanzania",
+   "id": 11,
+   "t_en": "Tanzania’s jailed opposition leader Tundu Lissu ends brief hunger strike",
+   "x_en": "Lissu, who faces treason charge carrying a possible death sentence, refused food after being denied access to lawyers."
+  },
+  {
+   "t": "Израиль голосует на решающих выборах: что происходит после закрытия избирательных участков?",
+   "x": "Израильтяне голосуют на решающих выборах во вторник (27 октября), поскольку их страна борется с неразрешенными войнами, продолжает ощущать последствия атаки Хамаса в 2023 году и глубоко разделена по поводу характера государства и подходящего человека, который сможет его возглавить. Подробности на ФРАНЦИЯ 24",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 79,
+   "ten": 54,
+   "ago": 18,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "NYT"
+   ],
+   "u": "https://www.france24.com/en/video/20261027-israel-s-unique-political-system-what-happens-after-polls-close",
+   "img": "https://s.france24.com/media/display/26988dbe-d216-11f1-add4-4b25c96ec90e/w:1024/p:16x9/capture-9b7810f8.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 3,
+   "lat": 30.69,
+   "lon": 35.82,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 12,
+   "t_en": "Israel votes in decisive election: What happens after polls close?",
+   "x_en": "Israelis are voting in a pivotal election Tuesday (October 27) as their country wrestles with unresolved wars, continues to reel from Hamas' 2023 attack and is deeply divided over the character of the state and the right person to lead it. Details by FRANCE 24"
+  },
+  {
+   "t": "Высокопоставленный чиновник Ватикана заявил, что диагноз рака, поставленный Папе Римскому, «изменил правила игры» для папства",
+   "x": "Высокопоставленный чиновник Ватикана заявил, что диагноз рака легких Папы Льва XIV «немного меняет правила игры» для Ватикана.",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 76,
+   "ten": 40,
+   "ago": 22,
+   "s": [
+    "ABC News",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/top-vatican-official-popes-cancer-diagnosis-game-changer-137615717",
+   "img": "https://s.abcnews.com/images/US/wirestory_522450ce3503e920b5ee56e6a9057e23_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 3,
+   "lat": 41.84,
+   "lon": 12.23,
+   "place": "Рим",
+   "place_en": "Rome",
+   "id": 13,
+   "t_en": "Top Vatican official says pope's cancer diagnosis a 'game-changer' for the papacy",
+   "x_en": "A top Vatican official says that Pope Leo XIV's lung cancer diagnosis is “a bit of a gamechanger” for the Vatican"
+  },
+  {
+   "t": "Большая часть столицы Судана обесточена из-за атаки дронов",
+   "x": "Удар беспилотника поразил крупную электростанцию ​​в столице Судана, в результате чего большая часть города осталась без электричества более чем на 12 часов.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 73,
+   "ten": 95,
+   "ago": 23,
+   "s": [
+    "ABC News",
+    "Africanews"
+   ],
+   "u": "https://abcnews.com/International/wireStory/large-parts-sudans-capital-lose-power-after-drone-137614732",
+   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 2,
+   "lat": 15.9,
+   "lon": 30.97,
+   "place": "Судан",
+   "place_en": "Sudan",
+   "id": 14,
+   "t_en": "Large parts of Sudan's capital lose power after drone attack",
+   "x_en": "A drone strike hits a major power substation in Sudan's capital, leaving large parts of the city without electricity for over 12 hours"
+  },
+  {
+   "t": "Египетская журналистка Лина Аттала задержана после постановления суда о закрытии новостного сайта",
+   "x": "Amnesty International заявила, что приговор Аттале и независимому изданию Мада Маср представляет собой «сокрушительный удар по свободе прессы».",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 72,
+   "ten": 57,
+   "ago": 197,
+   "s": [
+    "BBC",
+    "NYT",
     "Africanews",
     "The Hindu"
    ],
-   "u": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
-   "img": "https://i.guim.co.uk/img/media/12419465c89789c79295caff90cc2957feb4543c/512_0_3320_2656/master/3320.jpg?width=700&quality=85&auto=format&fit=max&s=3c19cee491a48ee485c07eb2dd0e29a0",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/cw8rz14k1jvxo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3b1e/live/f0d3b6c0-d21c-11f1-b8e4-17c9744a7f8e.jpg",
+   "img_src": "BBC",
    "fresh": false,
    "n": 4,
-   "lat": -9.54,
-   "lon": -52.52,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 6,
-   "t_en": "Brazil runoff as it happened: world leaders congratulate Lula on historic election win as Bolsonaro refuses to concede",
-   "x_en": "Leftist president Luiz Inácio Lula da Silva defeated the far-right senator and was elected president of Brazil for a fourth non-consecutive term Full report: Lula wins fourth term as Brazil’s president over Flávio Bolsonaro Live second round results The local "
-  },
-  {
-   "t": "Россия нацелена на Киев, поскольку финские и норвежские лидеры проводят редкий разговор с Путиным",
-   "x": "Забастовки ударили по главному мосту в украинской столице, поскольку лидеры настаивают на «прямых дискуссиях» о прекращении войны.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 51,
-   "ago": 26,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "Politico EU"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/025d6c56a3dfcbd9cd8eea7f6fbd0567ff7d6150/735_406_6166_4934/master/6166.jpg?width=700&quality=85&auto=format&fit=max&s=f727796e3da0b4d7330fadcca3f34eed",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 50.34,
-   "lon": 30.99,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 7,
-   "t_en": "Russia targets Kyiv as Finnish, Norwegian leaders hold rare call with Putin",
-   "x_en": "Strikes hit a major bridge in the Ukrainian capital as leaders push for 'direct discussions' to end the war."
-  },
-  {
-   "t": "Мбаппе извинился за «необдуманное» замечание Мао после негативной реакции в Китае",
-   "x": "Звезда Франции назвал бывшего китайского лидера «диктатором» во время интервью о мемах.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 75,
-   "ten": 40,
-   "ago": 30,
-   "s": [
-    "BBC",
-    "Sky News",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 3,
-   "lat": 35.67,
-   "lon": 102.84,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 8,
-   "t_en": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
-   "x_en": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes."
-  },
-  {
-   "t": "На юге Украины начинается локальное перемирие при посредничестве Мелании Трамп.",
-   "x": "Локальное прекращение огня между Украиной и Россией вступило в силу рано утром во вторник перед началом гуманитарной миссии при посредничестве первой леди США Мелании Трамп, поскольку в Киеве возобновились ракетные обстрелы.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 25,
-   "ago": 135,
-   "s": [
-    "NPR",
-    "Euronews",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3228x2152+0+0/resize/3228x2152!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2Fc5%2Ff2474865439294dcfc51ebea89a5%2Fap26287677889466.jpg",
-   "img_src": "NPR",
-   "fresh": false,
-   "n": 5,
-   "lat": 40.21,
-   "lon": -99.69,
-   "place": "США",
-   "place_en": "United States",
-   "id": 9,
-   "t_en": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
-   "x_en": "A localized ceasefire between Ukraine and Russia took effect early Tuesday ahead of a humanitarian mission brokered by U.S. first lady Melania Trump, as missile attacks resumed in Kyiv."
+   "lat": 26.48,
+   "lon": 29.62,
+   "place": "Египет",
+   "place_en": "Egypt",
+   "id": 15,
+   "t_en": "Egyptian journalist Lina Attalah detained after court orders news site's closure",
+   "x_en": "Amnesty International said the verdict against Attalah and independent outlet Mada Masr represented \"a crushing blow to press freedom\"."
   },
   {
    "t": "Шквал дипломатии в Иране на фоне сообщений о планах США и Израиля возобновить войну",
    "x": "Саудовская Аравия, Турция и Пакистан совершили редкий совместный визит в Тегеран на фоне сообщений о том, что США и Израиль разрабатывают планы возобновления атак на Иран.",
    "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 71,
+   "imp": 70,
    "ten": 74,
-   "ago": 15,
+   "ago": 25,
    "s": [
     "NYT",
     "CBS News"
@@ -412,111 +569,9 @@
    "lon": 53.21,
    "place": "Иран",
    "place_en": "Iran",
-   "id": 10,
+   "id": 16,
    "t_en": "Flurry of Diplomacy in Iran Amid Reports of U.S. and Israeli Plans to Renew War",
    "x_en": "Saudi Arabia, Turkey and Pakistan made a rare joint visit to Tehran amid reports that the U.S. and Israel were drawing up plans to renew their attacks on Iran."
-  },
-  {
-   "t": "Заключенный в тюрьму лидер оппозиции Танзании прекратил голодовку после встречи со своим братом",
-   "x": "Заключенный в тюрьму лидер оппозиции Танзании Тунду Лиссу прекратил короткую голодовку после того, как тюремные власти разрешили ему встретиться наедине со своим младшим братом",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 71,
-   "ten": 78,
-   "ago": 20,
-   "s": [
-    "ABC News",
-    "Africanews"
-   ],
-   "u": "https://abcnews.com/International/wireStory/tanzanias-jailed-opposition-leader-ends-hunger-strike-after-137606392",
-   "img": "https://s.abcnews.com/images/International/wirestory_982e063ea4a213077d5bd9604bb6f6a8_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": -6.19,
-   "lon": 34.52,
-   "place": "Танзания",
-   "place_en": "Tanzania",
-   "id": 11,
-   "t_en": "Tanzania’s jailed opposition leader ends hunger strike after meeting with his brother",
-   "x_en": "Tanzania’s jailed opposition leader Tundu Lissu has ended a brief hunger strike after prison authorities allowed him to meet privately with his younger brother"
-  },
-  {
-   "t": "Килиан Мбаппе извинился за слова «диктатора», разозлившие китайских фанатов",
-   "x": "«Мой комментарий был необдуманным, и теперь я понимаю, что он задел многих людей», — говорит Мбаппе после того, как китайские бренды отказались от него.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 70,
-   "ten": 40,
-   "ago": 197,
-   "s": [
-    "Al Jazeera",
-    "The Hindu",
-    "Politico EU",
-    "Japan Times"
-   ],
-   "u": "https://www.aljazeera.com/sports/2026/10/27/kylian-mbappe-apologises-after-dictator-comment-angers-chinese-fans?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/news/national/8ygcd3/article71630238.ece/alternates/LANDSCAPE_1200/AFP__20261027__D4J38CU__v1__HighRes__FblChinaAdvertisingPoliticsMbappe.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 4,
-   "lat": 34.5,
-   "lon": 101.99,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 12,
-   "t_en": "Kylian Mbappe apologises after ‘dictator’ comment angers Chinese fans",
-   "x_en": "'My comment was ill-judged and I now understand that it hurt many people,' Mbappe says after Chinese brands dropped him."
-  },
-  {
-   "t": "Бывший премьер-министр Японии Такео Фукуда, сторонник связей с Китаем, умер в возрасте 90 лет",
-   "x": "Умер бывший премьер-министр Японии Ясуо Фукуда, который был активным сторонником улучшения связей с Китаем.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "ABC News",
-    "Nikkei Asia"
-   ],
-   "u": "https://abcnews.com/International/wireStory/japans-former-pm-takeo-fukuda-proponent-ties-china-137564121",
-   "img": "https://s.abcnews.com/images/International/wirestory_7b036fa04eb545214572136f145ed0c3_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": 36.47,
-   "lon": 138.69,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 13,
-   "t_en": "Japan's former PM Takeo Fukuda, proponent of ties with China, dies at 90",
-   "x_en": "Former Japanese Prime Minister Yasuo Fukuda, who was an active proponent of better ties with China, has died"
-  },
-  {
-   "t": "Microsoft предлагает добровольный выкуп 60 000 сотрудников, поскольку ИИ способствует повышению эффективности",
-   "x": "Microsoft пытается сбалансировать быстрое создание инфраструктуры искусственного интеллекта с эффективностью использования капитала.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNBC",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108464648-1793029800901-gettyimages-2225682496-MICROSOFT_HACK.jpeg?v=1793029842&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 14,
-   "t_en": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
-   "x_en": "Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency."
   },
   {
    "t": "Экономика Южной Кореи выросла на 1,0% в третьем квартале благодаря буму чипов",
@@ -539,316 +594,163 @@
    "lon": 127.29,
    "place": "Южная Корея",
    "place_en": "South Korea",
-   "id": 15,
+   "id": 17,
    "t_en": "South Korea's economy grows 1.0% in 3rd quarter on chip boom",
    "x_en": "A contraction in consumption underscored an increasingly uneven expansion that may complicate the trajectory for further interest-rate hikes."
   },
   {
-   "t": "Лидеры Норвегии и Финляндии провели редкий разговор с Путиным",
-   "x": "Это первый раз, когда европейские лидеры имели прямое общение с президентом России более чем за год.",
-   "r": "Европа",
-   "c": "Политика",
+   "t": "Мбаппе извинился за «необдуманное» замечание Мао после негативной реакции в Китае",
+   "x": "Звезда Франции назвал бывшего китайского лидера «диктатором» во время интервью о мемах.",
+   "r": "Азия",
+   "c": "Общее",
    "imp": 68,
-   "ten": 49,
-   "ago": 102,
-   "s": [
-    "BBC",
-    "Kyiv Independent",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/62a7/live/0a738c90-d1fa-11f1-8c9f-8d21fef6ffad.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 61.33,
-   "lon": 8.42,
-   "place": "Норвегия",
-   "place_en": "Norway",
-   "id": 16,
-   "t_en": "Norway and Finland leaders hold rare call with Putin",
-   "x_en": "This is the first time European leaders have had direct communication with Russia's president in more than a year."
-  },
-  {
-   "t": "Возвращение Лулы в Бразилию подрывает амбиции Трампа в отношении Латинской Америки",
-   "x": "Отношения Трампа и Лулы, возможно, и потеплели, но некоторые проблемы могут вновь разжечь напряженность между двумя лидерами.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 67,
-   "ten": 48,
-   "ago": 16,
-   "s": [
-    "BBC",
-    "The Guardian"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cq62yg6rggj0o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/05b2/live/06753110-d192-11f1-8c41-0bbbeafdc6d4.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": -10.76,
-   "lon": -51.42,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 17,
-   "t_en": "Lula's comeback in Brazil dents Trump's ambitions for Latin America",
-   "x_en": "The Trump-Lula relationship may have thawed, but several issues could reignite tensions between the two leaders."
-  },
-  {
-   "t": "Израильская полиция арестовала мужчину с ножом рядом с лидером левых сил",
-   "x": "Мужчина с ножом был арестован на израильском мероприятии по выборам лидера левого крыла Яира Голана, когда израильтяне голосуют на решающих выборах.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 67,
-   "ten": 66,
-   "ago": 37,
-   "s": [
-    "CBS News",
-    "Middle East Eye"
-   ],
-   "u": "https://www.cbsnews.com/news/israel-yair-golan-police-arrest-man-knife-election-day/",
-   "img": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/27/dc6c3e76-6109-4b54-ad02-c76a1da6d396/thumbnail/1200x630/e46b233fecc007b5187280cbea5f7945/gettyimages-2296281300.jpg",
-   "img_src": "CBS News (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 31.48,
-   "lon": 34.08,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 18,
-   "t_en": "Israeli police arrest man with knife near left-wing leader",
-   "x_en": "A man with a knife was arrested at an Israeli election event for left-wing leader Yair Golan as Israelis vote in a crucial election."
-  },
-  {
-   "t": "Акции Boeing упали на 9%, поскольку компания заявляет, что не будет значительно наращивать производство 737 Max до конца 2027 года.",
-   "x": "Boeing собирается проинформировать инвесторов о перспективах производства самолетов, когда представит квартальные результаты перед открытием рынка во вторник.",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 66,
    "ten": 40,
-   "ago": 19,
-   "s": [
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/10/27/-boeing-ba-q3-2026-earnings.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108469569-1793115881380-gettyimages-2271074696-BOEING_FACTORY.jpeg?v=1793115913&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 19,
-   "t_en": "Boeing stock sinks 9% as company says it won't significantly ramp up 737 Max production until late 2027",
-   "x_en": "Boeing is set to brief investors on its aircraft production outlook when it reports quarterly results before the market opens Tuesday."
-  },
-  {
-   "t": "Явка на выборах в Израиле самая высокая за 50 лет, голосование продолжается",
-   "x": "К середине дня почти 45 процентов израильских избирателей проголосовали.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 40,
-   "ago": 21,
-   "s": [
-    "Al Jazeera",
-    "The Guardian"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/27/israel-election-turnout-highest-in-50-years-as-voting-continues?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/68b4a81839c637283757b2b096050bf05db5d083/460_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=41b803776cfad11214405c1aa86cf307",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": 31.23,
-   "lon": 36.28,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 20,
-   "t_en": "Israel election turnout highest in 50 years as voting continues",
-   "x_en": "Almost 45 percent of Israeli voters had cast their ballots by mid-afternoon."
-  },
-  {
-   "t": "Карибское турне короля Чарльза: обсудит ли он репарации за рабство?",
-   "x": "Король Великобритании Чарльз начинает девятидневный тур по Карибскому морю на фоне вопросов монархии и растущих требований о репарациях за рабство.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 40,
-   "ago": 120,
-   "s": [
-    "Al Jazeera",
-    "NYT",
-    "ABC News"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/27/king-charless-caribbean-tour-will-he-discuss-slavery-reparations?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/10/27/multimedia/27int-uk-king-charles-abroad-01-chbj/27int-uk-king-charles-abroad-01-chbj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": 55.03,
-   "lon": -2.88,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 21,
-   "t_en": "King Charles’s Caribbean tour: Will he discuss slavery reparations?",
-   "x_en": "UK's King Charles launches nine-day Caribbean tour amid monarchy questions and growing demands for slavery reparations."
-  },
-  {
-   "t": "От слесаря ​​до президента Бразилии: восхождение Лулы да Силвы",
-   "x": "Лула побил свой неудачный рекорд с 1989 года, выиграв второй тур после поражения в первом туре, увенчав карьеру, которая привела его от рабочего-металлиста к президенту Бразилии.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 40,
-   "ago": 125,
-   "s": [
-    "Euronews",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/2026/10/26/from-metalworker-to-brazils-president-lula-da-silvas-rise",
-   "img": "https://images.euronews.com/articles/stories/09/96/22/01/696x392_cmsv2_654a776a-49bb-51eb-b5f9-1b5f72264551-9962201.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": -9.35,
-   "lon": -51.56,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 22,
-   "t_en": "From metalworker to Brazil's president: Lula da Silva's rise",
-   "x_en": "Lula broke with his unfavourable record since 1989, winning the runoff after losing the first round, crowning a career that took him from metalworker to Brazil's presidency."
-  },
-  {
-   "t": "Иордания нанесла смертельный удар по Сирии в ответ на нападение на церковь",
-   "x": "В результате нападения на деревню в Сирии погибли пять человек, включая женщин и детей, сообщили представители сирийского здравоохранения.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 95,
-   "ago": 581,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "CBS News",
-    "Dawn"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/309b/live/f7a08cb0-d1a1-11f1-9ca8-7ff2fe25f975.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 30.98,
-   "lon": 36.8,
-   "place": "Иордания",
-   "place_en": "Jordan",
-   "id": 23,
-   "t_en": "Jordan carries out deadly strike in Syria in retaliation for church attack",
-   "x_en": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said."
-  },
-  {
-   "t": "Хуситы атаковали нефтеперерабатывающий завод в Саудовской Аравии, поскольку Иран предупреждает о «разрушительном» ответе на дальнейшие американо-израильские атаки",
-   "x": "Отправлено Элисом Джевори во вторник, 27.10.2026 - 12:02 Силы, поддерживаемые Саудовской Аравией, сообщают об ударах по позициям хуситов, поскольку посольство США предупреждает своих граждан покинуть королевство, поскольку нападения усиливаются. Мужчина проезжает на велосипеде мимо большого рекламного щита, выставленного на площади Энгелаб в Тегеране",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 80,
    "ago": 88,
    "s": [
-    "Middle East Eye",
+    "BBC",
+    "Sky News",
     "Reuters"
    ],
-   "u": "https://www.middleeasteye.net/news/houthis-hit-saudi-oil-refinery-iran-warns-more-devastating-response-further-us-israeli",
-   "img": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D4F36DT.jpg.jpg?itok=fB5DmpkQ",
-   "img_src": "Middle East Eye",
+   "u": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e10e/live/f7b26730-d1c6-11f1-9381-5f06d29fdf11.jpg",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 2,
-   "lat": 15.45,
-   "lon": 44.16,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 24,
-   "t_en": "Houthis hit Saudi refinery as Iran warns of ‘devastating’ response to further US-Israeli attacks",
-   "x_en": "Submitted by Elis Gjevori on Tue, 10/27/2026 - 12:02 Saudi-backed forces report strikes on Houthi positions as US embassy warns its citizens to leave the kingdom as attacks intensify A man cycles past a large billboard displayed in Enghelab Square in Tehran of"
+   "n": 3,
+   "lat": 35.67,
+   "lon": 102.84,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 18,
+   "t_en": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+   "x_en": "The France star had referred to the former Chinese leader as a \"dictator\" during an interview about memes."
   },
   {
-   "t": "В результате нападений погибли по меньшей мере 60 православных христиан в Эфиопии, сообщает церковь",
-   "x": "Эфиопская православная церковь сообщает, что в результате двух нападений в Оромии погибли не менее 60 православных христиан.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 95,
-   "ago": 108,
-   "s": [
-    "ABC News",
-    "Africanews"
-   ],
-   "u": "https://abcnews.com/International/wireStory/attacks-kill-60-orthodox-christians-ethiopia-church-137600132",
-   "img": "https://s.abcnews.com/images/International/wirestory_2619e078e655a87f0f29cd1e8dd9db5d_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 2,
-   "lat": 7.8,
-   "lon": 39.39,
-   "place": "Эфиопия",
-   "place_en": "Ethiopia",
-   "id": 25,
-   "t_en": "Attacks kill at least 60 Orthodox Christians in Ethiopia, church says",
-   "x_en": "The Ethiopian Orthodox Church reports that two attacks in Oromia have killed at least 60 Orthodox Christians"
-  },
-  {
-   "t": "Двое обвинены в нарушении безопасности в связи с заговором на британской авиабазе, используемой США",
-   "x": "Антитеррористическая полиция Великобритании заявила во вторник, что двум мужчинам были предъявлены обвинения в нарушении национальной безопасности после инцидента, произошедшего в прошлом месяце на британской авиабазе, используемой Соединенными Штатами, что связывает панику с Ираном. Глава Национальной контртеррористической полиции Лау",
+   "t": "Великобритания предъявила обвинения двум мужчинам, причастным к предполагаемому террористическому заговору против авиабазы",
+   "x": "Двум мужчинам, арестованным в связи с предполагаемым террористическим заговором, связанным с Ираном, направленным против ВВС Великобритании в Фэрфорде в Англии, предъявлены обвинения в нарушении национальной безопасности.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 63,
-   "ten": 57,
+   "imp": 66,
+   "ten": 75,
    "ago": 169,
    "s": [
+    "CBS News",
     "Dawn",
-    "The Hindu",
-    "AP"
+    "Times of India"
    ],
-   "u": "https://www.dawn.com/news/2040232/two-charged-with-security-offences-over-plot-at-uk-airbase-used-by-us",
+   "u": "https://www.cbsnews.com/news/uk-raf-fairford-terror-plot-iran-2-men-charged-security-offenses/",
    "img": "https://i.dawn.com/large/2026/10/271813285ba4799.webp",
    "img_src": "Dawn",
    "fresh": false,
    "n": 3,
-   "lat": 54.27,
-   "lon": -1.72,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 26,
-   "t_en": "Two charged with security offences over plot at UK airbase used by US",
-   "x_en": "UK anti-terrorism police said on Tuesday that two men have been charged with national security offences after an incident last month at a British airbase used by the United States, linking the scare to Iran. The head of National Counter Terrorism Policing, Lau"
+   "lat": 33.03,
+   "lon": 53.47,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 19,
+   "t_en": "U.K. charges 2 men linked to alleged terror plot against air base",
+   "x_en": "Two men arrested in connection with the alleged Iran-linked terror plot targeting RAF Fairford in England have been charged with national security offenses."
   },
   {
-   "t": "Турция: торнадо убил по меньшей мере четверых рабочих на стройке в Анталии",
-   "x": "По меньшей мере четверо рабочих погибли, когда торнадо обрушился на строительную площадку в Анталье, опрокинув жилые домики и башенный кран. Сильный дождь также затопил дороги в Стамбуле.",
-   "r": "Ближний Восток",
-   "c": "Общее",
-   "imp": 63,
-   "ten": 80,
-   "ago": 217,
+   "t": "ЮАР утверждает, что грузовой поезд длиной 7,6 км является самым длинным в истории",
+   "x": "Государственная компания в Южной Африке утверждает, что отправила в пробный пробег самый длинный грузовой поезд в истории.",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 40,
+   "ago": 23,
    "s": [
-    "Euronews",
-    "ABC News",
+    "Africanews",
+    "AP"
+   ],
+   "u": "http://www.africanews.com/2026/10/27/south-africa-claims-76-kilometer-long-freight-train-is-the-longest-ever/",
+   "img": "https://images.euronews.com/articles/stories/09/96/94/88/640x360_cmsv2_99d53e63-d703-5ffd-89c1-1a444003e574-9969488.jpg?1793116860",
+   "img_src": "Africanews",
+   "fresh": true,
+   "n": 2,
+   "lat": -29.58,
+   "lon": 25.02,
+   "place": "ЮАР",
+   "place_en": "South Africa",
+   "id": 20,
+   "t_en": "South Africa claims 7.6 kilometer-long freight train is the longest ever",
+   "x_en": "A government-run company in South Africa claims that it has sent the longest freight train ever on a test run."
+  },
+  {
+   "t": "«Мечта сбылась» – Гарри Кейн о победе в «Золотом мяче»",
+   "x": "Это первый раз, когда английский игрок поднял этот трофей после Майкла Оуэна в 2001 году.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 40,
+   "ago": 120,
+   "s": [
+    "BBC",
+    "Al Jazeera",
     "Africanews"
    ],
-   "u": "https://www.euronews.com/video/2026/10/27/turkey-tornado-kills-at-least-four-workers-at-antalya-construction-site",
-   "img": "https://images.euronews.com/articles/stories/09/96/88/19/696x392_cmsv2_654ca191-c112-5911-aeec-feeb8df3b7b9-9968819.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.bbc.co.uk/news/videos/cm9wznvx1l17o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f5cf/live/45485530-d1ff-11f1-b30f-21253679b290.jpg",
+   "img_src": "BBC",
    "fresh": false,
    "n": 3,
-   "lat": 39.33,
-   "lon": 35.69,
-   "place": "Турция",
-   "place_en": "Turkey",
-   "id": 27,
-   "t_en": "Turkey: tornado kills at least four workers at Antalya construction site",
-   "x_en": "At least four workers died when a tornado struck a construction site in Antalya, overturning accommodation cabins and a tower crane. Heavy rain also flooded roads in Istanbul."
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 21,
+   "t_en": "'A dream come true' - Harry Kane on his Ballon d'Or win",
+   "x_en": "It's the first time an English player has lifted the trophy since Michael Owen in 2001."
+  },
+  {
+   "t": "«Генерал» WhatsApp, стоящий за возвращением Лулы на выборы в Бразилии",
+   "x": "Андре Янонес собрал армию WhatsApp, насчитывающую почти 11 миллионов подписчиков. Помогло ли это Луле победить?",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 40,
+   "ago": 123,
+   "s": [
+    "Al Jazeera",
+    "CNBC",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/27/the-whatsapp-general-behind-lulas-election-comeback-in-brazil?traffic_source=rss",
+   "img": "https://th-i.thgim.com/public/incoming/l8x0oq/article71629618.ece/alternates/LANDSCAPE_1200/Brazil_Election_23_25.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": -9.99,
+   "lon": -51.44,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 22,
+   "t_en": "The WhatsApp ‘general’ behind Lula’s election comeback in Brazil",
+   "x_en": "Andre Janones built a WhatsApp army of nearly 11 million subscribers. Did it help Lula win?"
+  },
+  {
+   "t": "Парламент Египта одобрил военную поддержку Саудовской Аравии в условиях атак хуситов",
+   "x": "Египет одобрил военную помощь Саудовской Аравии, если она об этом попросит, поскольку нападения хуситов угрожают королевству и судоходству в Красном море. Голосование проходит в то время, когда саудовские чиновники проводят переговоры в Иране на фоне региональных усилий по предотвращению дальнейшей эскалации боевых действий.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 64,
+   "ten": 95,
+   "ago": 101,
+   "s": [
+    "Euronews",
+    "Africanews"
+   ],
+   "u": "https://www.euronews.com/2026/10/27/egypts-parliament-approves-military-support-for-saudi-arabia-amid-houthi-attacks",
+   "img": "https://images.euronews.com/articles/stories/09/95/70/33/696x392_cmsv2_0016d26a-c8ff-5c7a-a805-089c78f7ac3d-9957033.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 2,
+   "lat": 15.46,
+   "lon": 44.21,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 23,
+   "t_en": "Egypt’s parliament approves military support for Saudi Arabia amid Houthi attacks",
+   "x_en": "Egypt has approved military help for Saudi Arabia if requested as Houthi attacks threaten the kingdom and Red Sea shipping. The vote comes as Saudi officials hold talks in Iran amid regional efforts to prevent a further escalation of the fighting."
   },
   {
    "t": "Кибератака на японского интернет-провайдера GMO угрожает компьютерам клиентов",
@@ -870,160 +772,109 @@
    "lon": 137.77,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 28,
+   "id": 24,
    "t_en": "Cyberattack on Japan internet provider GMO threatens customer computers",
    "x_en": ""
   },
   {
-   "t": "Израиль голосует на решающих выборах: что происходит после закрытия избирательных участков?",
-   "x": "Израильтяне голосуют на решающих выборах во вторник (27 октября), поскольку их страна борется с неразрешенными войнами, продолжает ощущать последствия атаки Хамаса в 2023 году и глубоко разделена по поводу характера государства и подходящего человека, который сможет его возглавить. Подробности на ФРАНЦИЯ 24",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 61,
-   "ago": 69,
-   "s": [
-    "France 24",
-    "NYT"
-   ],
-   "u": "https://www.france24.com/en/video/20261027-israel-s-unique-political-system-what-happens-after-polls-close",
-   "img": "https://s.france24.com/media/display/26988dbe-d216-11f1-add4-4b25c96ec90e/w:1024/p:16x9/capture-9b7810f8.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 2,
-   "lat": 30.69,
-   "lon": 35.82,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 29,
-   "t_en": "Israel votes in decisive election: What happens after polls close?",
-   "x_en": "Israelis are voting in a pivotal election Tuesday (October 27) as their country wrestles with unresolved wars, continues to reel from Hamas' 2023 attack and is deeply divided over the character of the state and the right person to lead it. Details by FRANCE 24"
-  },
-  {
-   "t": "Египет задерживает журналистку Лину Атталу после решения суда",
-   "x": "Египетская журналистка Лина Аттала, главный редактор ведущего независимого новостного агентства страны Mada Masr, была задержана силами безопасности после того, как во вторник ее оштрафовали в ходе быстрого судебного разбирательства, сообщает издание.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 61,
-   "ago": 76,
-   "s": [
-    "Africanews",
-    "The Hindu"
-   ],
-   "u": "http://www.africanews.com/2026/10/27/egypt-detains-journalist-lina-attalah-after-court-ruling/",
-   "img": "https://images.euronews.com/articles/stories/09/96/92/30/640x360_cmsv2_d920b05e-03d1-5668-91e7-7874271fa00e-9969230.jpg?1793110371",
-   "img_src": "Africanews",
-   "fresh": false,
-   "n": 2,
-   "lat": 26.06,
-   "lon": 30.74,
-   "place": "Египет",
-   "place_en": "Egypt",
-   "id": 30,
-   "t_en": "Egypt detains journalist Lina Attalah after court ruling",
-   "x_en": "Egyptian journalist Lina Attalah, editor-in-chief of the country's leading independent news outlet Mada Masr, was detained by security forces after being fined in a swift trial on Tuesday, the publication said."
-  },
-  {
-   "t": "Россия нанесла удар по Киеву в преддверии локального прекращения огня в Олешках",
-   "x": "Россия несколько раз ударила по Киеву в понедельник вечером, за несколько часов до вступления в силу гуманитарного прекращения огня в Олешках.",
-   "r": "Европа",
+   "t": "По словам чиновников, наводнение на Гаити и в Доминиканской Республике приводит к гибели людей и разрушению домов",
+   "x": "Официальные лица сообщают, что проливные дожди на Гаити и в Доминиканской Республике привели к гибели нескольких человек и отрезали доступ к десяткам населенных пунктов.",
+   "r": "Америка",
    "c": "Конфликты",
    "imp": 62,
-   "ten": 32,
-   "ago": 140,
+   "ten": 91,
+   "ago": 23,
    "s": [
-    "Al Jazeera",
-    "CNBC",
-    "Times of India"
+    "ABC News"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/27/russia-strikes-kyiv-ahead-of-localised-ceasefire-in-oleshky?traffic_source=rss",
-   "img": "https://static.toiimg.com/photo/msid-135234829,imgsize-64280.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 4,
-   "lat": 50.42,
-   "lon": 30.94,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 31,
-   "t_en": "Russia strikes Kyiv ahead of localised ceasefire in Oleshky",
-   "x_en": "Russia struck Kyiv multiple times on Monday night, hours before a humanitarian ceasefire in Oleshky took effect."
-  },
-  {
-   "t": "Нидерланды снова отказались от участия в Евровидении из-за участия Израиля",
-   "x": "Голландская телекомпания отменила решение об участии, сославшись на «чувствительность» по поводу участия Израиля.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 40,
-   "ago": 155,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmr4y5dvlzneo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cb2/live/07dc3780-d208-11f1-b3b6-c1e79e957e40.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 51.99,
-   "lon": 6.44,
-   "place": "Нидерланды",
-   "place_en": "Netherlands",
-   "id": 32,
-   "t_en": "Netherlands pulls out of Eurovision again over Israel participation",
-   "x_en": "A Dutch broadcaster reverses a decision to take part, citing \"sensitivities\" over Israel's participation."
-  },
-  {
-   "t": "Киев одобрил альтернативные переходы через Днепр после российских ударов по мостам",
-   "x": "Утром 27 октября в Южный мост Киева попала по меньшей мере одна российская баллистическая ракета, в результате чего в конструкции образовалась большая дыра и мост закрылся для автомобильного и железнодорожного движения.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 82,
-   "ago": 19,
-   "s": [
-    "Kyiv Independent"
-   ],
-   "u": "https://kyivindependent.com/kyiv-approves-alternative-dnipro-crossings-after-russian-strikes-on-bridges/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/10/19839_20261027-153820.jpg",
-   "img_src": "Kyiv Independent",
+   "u": "https://abcnews.com/International/wireStory/flooding-haiti-dominican-republic-causes-deaths-destroys-homes-137615008",
+   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": true,
    "n": 1,
-   "lat": 50.42,
-   "lon": 29.92,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 33,
-   "t_en": "Kyiv approves alternative Dnipro crossings after Russian strikes on bridges",
-   "x_en": "Kyiv's Southern Bridge was struck by at least one Russian ballistic missile on the morning of Oct. 27, leaving a large hole in the structure and closing the bridge to both road and rail traffic."
+   "lat": 18.85,
+   "lon": -69.64,
+   "place": "Доминикана",
+   "place_en": "Dominican Republic",
+   "id": 25,
+   "t_en": "Flooding in Haiti and the Dominican Republic causes deaths and destroys homes, officials say",
+   "x_en": "Officials say heavy rains in Haiti and the Dominican Republic have killed several people and cut off access to dozens of communities"
   },
   {
-   "t": "Израильские военные задержали перешедшего границу гражданина Египта",
-   "x": "Египтянин задержан после перехода границы с Израилем недалеко от Ницаны, мотивы его перехода до сих пор неизвестны.",
+   "t": "Сотрудник голландского зоопарка умер после того, как его растерзали в вольере с леопардами",
+   "x": "Женщина начала свою карьеру в парке, когда ей было 17 лет, и время от времени проработала там четыре десятилетия.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 62,
+   "ten": 57,
+   "ago": 68,
+   "s": [
+    "BBC",
+    "CBS News"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4d5f/live/cfa3dd20-d22d-11f1-b8e4-17c9744a7f8e.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 2,
+   "lat": 52.44,
+   "lon": 6.08,
+   "place": "Нидерланды",
+   "place_en": "Netherlands",
+   "id": 26,
+   "t_en": "Dutch zookeeper dies after being mauled in leopard enclosure",
+   "x_en": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades."
+  },
+  {
+   "t": "Иордания заявляет, что ее смертельные удары в Сирии были направлены против Исламского государства",
+   "x": "По словам Иордании, авиаудары поздно вечером в понедельник, в результате которых, по словам сирийского агентства, погибли по меньшей мере семь мирных жителей, были ответом на нападение на иорданскую церковь.",
    "r": "Ближний Восток",
    "c": "Конфликты",
    "imp": 61,
-   "ten": 40,
-   "ago": 54,
+   "ten": 95,
+   "ago": 125,
    "s": [
-    "Al Jazeera",
+    "NYT",
     "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/27/israeli-military-detains-egyptian-national-who-crossed-border?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/99jljo/article71630189.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-27%20at%2012.31.15.jpeg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 31.34,
-   "lon": 34.02,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 34,
-   "t_en": "Israeli military detains Egyptian national who crossed border",
-   "x_en": "Egyptian man held after crossing into Israel near Nitzana, his motive for the crossing still unknown."
+   "u": "https://www.nytimes.com/2026/10/27/world/middleeast/jordan-syria-strikes-attack.html",
+   "img": "https://static01.nyt.com/images/2026/10/27/multimedia/27int-jordan-strikes-wkql/27int-jordan-strikes-wkql-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 3,
+   "lat": 30.05,
+   "lon": 36.09,
+   "place": "Иордания",
+   "place_en": "Jordan",
+   "id": 27,
+   "t_en": "Jordan Says Its Deadly Strikes in Syria Targeted Islamic State",
+   "x_en": "The airstrikes late Monday, which a Syrian agency said killed at least seven civilians, were in retaliation for an attack on a Jordanian church, Jordan said."
+  },
+  {
+   "t": "Число погибших в результате нападения боевиков на северо-востоке Нигерии возросло до 62",
+   "x": "Бандиты атаковали деревню Биннари в штате Тараба, поджигая дома, магазины, продукты питания и мотоциклы.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 94,
+   "ago": 285,
+   "s": [
+    "Al Jazeera",
+    "Sky News",
+    "ABC News"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/27/death-toll-from-attack-by-gunmen-in-northeastern-nigeria-rises-to-62?traffic_source=rss",
+   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-nigeria-binnari-karim_7388758.jpg?20261027150454",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 3,
+   "lat": 9.64,
+   "lon": 7.8,
+   "place": "Нигерия",
+   "place_en": "Nigeria",
+   "id": 28,
+   "t_en": "Death toll from attack by gunmen in northeastern Nigeria rises to 62",
+   "x_en": "Bandits targeted Binnari village in Taraba state, setting fire to homes, shops, food supplies and motorcycles."
   },
   {
    "t": "Атаки на Черном море сократили экспорт украинской пшеницы в Индонезию и Бангладеш",
@@ -1045,136 +896,281 @@
    "lon": 34.78,
    "place": "Чёрное море",
    "place_en": "Black Sea",
-   "id": 35,
+   "id": 29,
    "t_en": "Black Sea attacks cut Ukraine wheat exports to Indonesia, Bangladesh",
    "x_en": ""
   },
   {
-   "t": "Honda предупреждает, что 50-процентные пошлины на автомобили в Канаде будут катастрофическими для автопрома",
-   "x": "Президент Дональд Трамп пригрозил удвоить тарифы на канадские автомобили и запчасти с 25% до 50%, если между двумя странами не будет заключено торговое соглашение.",
+   "t": "Препятствия в экспорте и ожидание виз для украинских компаний вынуждают Пентагон замедлить конкурс на дроны",
+   "x": "Однажды утром в июне руководитель отдела экспорта украинской компании по производству дронов Stellarion неожиданно обнаружил, что ему нужен U-Haul возле аэропорта Детройт Метро в Мичигане. Stellarion собиралась протестировать свои дроны перед американскими солдатами на соревновательной организации.",
    "r": "Америка",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 91,
+   "ago": 37,
+   "s": [
+    "Kyiv Independent"
+   ],
+   "u": "https://kyivindependent.com/export-hurdles-and-visa-waits-for-ukrainian-companies-force-pentagon-to-slow-its-drone-contest/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2300418998_20261027-154202.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 1,
+   "lat": 38.71,
+   "lon": -77.42,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 30,
+   "t_en": "Export hurdles and visa waits for Ukrainian companies force Pentagon to slow its drone contest",
+   "x_en": "One morning in June, the head of export at Ukrainian drone company Stellarion found himself unexpectedly in need of a U-Haul outside the Detroit Metro Airport in Michigan. Stellarion was set to test its drones in front of American soldiers at a competition org"
+  },
+  {
+   "t": "Экономическое будущее Израиля оказалось в бюллетенях после того, как Нетаньяху сделал мрачный прогноз.",
+   "x": "Премьер-министр Биньямин Нетаньяху заявил, что экономика Израиля здорова, но предупредил, что его финансовая изоляция может углубляться.",
+   "r": "Ближний Восток",
    "c": "Экономика",
    "imp": 60,
-   "ten": 74,
-   "ago": 16,
+   "ten": 44,
+   "ago": 68,
    "s": [
-    "CNBC"
+    "NYT",
+    "The Hindu"
    ],
-   "u": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108122414-17431043312025-03-27t193607z_820098562_rc2tldaijr6i_rtrmadp_0_usa-trump-tariffs-autos.jpeg?v=1743104555&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 58.79,
-   "lon": -94.31,
-   "place": "Канада",
-   "place_en": "Canada",
-   "id": 36,
-   "t_en": "Honda warns 50% Canada auto tariffs would be catastrophic for auto industry",
-   "x_en": "President Donald Trump has threatened to double tariffs on Canadian vehicles and parts from 25% to 50% if a trade deal is not reached between the two countries."
-  },
-  {
-   "t": "Мужчина обвинен в содействии «службе иностранной разведки» после инцидента на британской базе, использовавшейся для ударов по Ирану",
-   "x": "Двум мужчинам предъявлены обвинения в сфере национальной безопасности Великобритании после инцидента на британской авиабазе, используемой американскими войсками во время ударов по Ирану.",
-   "r": "Ближний Восток",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 74,
-   "ago": 24,
-   "s": [
-    "CNBC"
-   ],
-   "u": "https://www.cnbc.com/2026/10/27/uk-national-security-raf-fairford-iran.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108368480-1790500104599-gettyimages-2286922212-Getty.jpeg?v=1790500131&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 53.62,
-   "lon": -4.49,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 37,
-   "t_en": "Man charged with assisting ‘foreign intelligence service’ after incident at UK base used for Iran strikes",
-   "x_en": "Two men face U.K. national security charges after an incident at a British air base used by U.S. forces during strikes on Iran."
-  },
-  {
-   "t": "Расчеты Ирана на фоне надвигающейся эскалации США: доверие, промежуточные выборы, Ормуз",
-   "x": "Тегеран остается твердым в своих требованиях, несмотря на дипломатическую необходимость предотвратить эскалацию продолжающегося американо-израильского конфликта.",
-   "r": "Ближний Восток",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 91,
-   "ago": 38,
-   "s": [
-    "Al Jazeera"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/27/irans-calculations-as-us-escalation-looms-trust-midterms-hormuz?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ae062593a336-1793090137.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 26.51,
-   "lon": 56.59,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 38,
-   "t_en": "Iran’s calculations as US escalation looms: Trust, midterms, Hormuz",
-   "x_en": "Tehran remains firm on demands despite diplomatic urgency to prevent escalation in the ongoing US-Israeli conflict."
-  },
-  {
-   "t": "Израильские избирательные органы и волонтеры стремятся противодействовать угрозам голосованию",
-   "x": "Наблюдатели за выборами указывают на риски, в том числе на растущую сложность и распространенность контента, генерируемого искусственным интеллектом, а также на высокопоставленных правительственных чиновников, которые неоднократно предполагали, что результаты могут быть сфальсифицированы.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 58,
-   "ten": 57,
-   "ago": 15,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/10/27/world/middleeast/israeli-election-authorities-and-volunteers-seek-to-counter-threats-to-voting.html",
-   "img": "https://static01.nyt.com/images/2026/10/27/multimedia/27israel-election-integrity-wqfg/27israel-election-integrity-wqfg-mediumSquareAt3X.jpg",
+   "u": "https://www.nytimes.com/live/2026/10/27/world/israel-elections/israels-economic-future-is-on-the-ballot-after-netanyahu-offers-a-grim-forecast",
+   "img": "https://static01.nyt.com/images/2026/10/27/multimedia/27israel-economy-jmcw/27israel-economy-jmcw-mediumSquareAt3X.jpg",
    "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": 31.78,
-   "lon": 36.45,
+   "fresh": false,
+   "n": 2,
+   "lat": 31.88,
+   "lon": 34.13,
    "place": "Израиль",
    "place_en": "Israel",
-   "id": 39,
-   "t_en": "Israeli Election Authorities and Volunteers Seek to Counter Threats to Voting",
-   "x_en": "Election observers point to risks including the growing sophistication and prevalence of A.I.-generated content and senior government officials who have repeatedly suggested the results could be rigged."
+   "id": 31,
+   "t_en": "Israel’s economic future is on the ballot after Netanyahu offers a grim forecast.",
+   "x_en": "Prime Minister Benjamin Netanyahu has argued that Israel’s economy is healthy, but warned that its financial isolation could deepen."
   },
   {
-   "t": "Лейбористов обвиняют в нарушении обещаний манифеста относительно минимальной заработной платы для молодежи – политика Великобритании в прямом эфире",
-   "x": "Зеленые заявляют, что лейбористы «не уважают молодых людей» на фоне сообщений о том, что канцлер приостановит уравнивание минимальной заработной платы для лиц младше 21 года с зарплатой пожилых работников. Джонатан Рейнольдс, министр бизнеса, не оспаривал сообщения о том, что в бюджете",
-   "r": "Европа",
+   "t": "Выборы в Израиле: референдум по «Биби» Нетаньяху?",
+   "x": "ОБЗОР ПРЕССЫ – Вторник, 27 октября: Израильские, палестинские и ливанские газеты рассказывают, что поставлено на карту в день выборов для Израиля и его соседей. Кроме того, французское правительство объявляет о своих первых крупных уступках протестующим старшеклассникам.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 43,
+   "ago": 71,
+   "s": [
+    "France 24",
+    "Middle East Eye"
+   ],
+   "u": "https://www.france24.com/en/tv-shows/press-review/20261027-israeli-election-a-referendum-on-bibi-netanyahu",
+   "img": "https://s.france24.com/media/display/0bb98da0-d1f2-11f1-a2cb-bdb9616e85cf/w:1024/p:16x9/capture-4622d283.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 32.28,
+   "lon": 34.22,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 32,
+   "t_en": "Israeli election: A referendum on 'Bibi' Netanyahu?",
+   "x_en": "PRESS REVIEW – Tuesday, October 27: The Israeli, Palestinian and Lebanese papers break down what's at stake on election day for Israel and its neighbours. Also, the French government announces its first major concessions to protesting high school students, hop"
+  },
+  {
+   "t": "Папа Римский заявил, что «священной войны не существует» в послании религиозным лидерам",
+   "x": "Папа Лев XIV осудил религиозное оправдание войн, бушующих по всему миру, заявив, что «священной войны не существует».",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 80,
+   "ago": 127,
+   "s": [
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/pope-thing-holy-war-message-religious-leaders-137610698",
+   "img": "https://s.abcnews.com/images/US/wirestory_f6b88a4526364c4302c5b783e20edb01_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 33,
+   "t_en": "Pope says 'there is no such thing as a holy war' in message to religious leaders",
+   "x_en": "Pope Leo XIV has denounced the religious justification for wars raging around the world, saying “there is no such thing as a holy war.”"
+  },
+  {
+   "t": "Jay-Z выступит на шоу в перерыве Супербоула",
+   "x": "Рэпер уже много лет участвует в шоу, но никогда раньше не выступал на играх чемпионата НФЛ.",
+   "r": "Мир",
    "c": "Общее",
    "imp": 58,
    "ten": 40,
-   "ago": 30,
+   "ago": 210,
    "s": [
-    "The Guardian"
+    "BBC",
+    "ABC Australia",
+    "AP"
    ],
-   "u": "https://www.theguardian.com/politics/live/2026/oct/27/budget-burnham-healey-everday-fixes-gherkins-conservatives-miliband-carers-latest-news-updates",
-   "img": "https://i.guim.co.uk/img/media/c7c5d73b4f06b20ffe927f50e3e0c55647fec1db/730_0_6830_5464/master/6830.jpg?width=700&quality=85&auto=format&fit=max&s=f1369e535ac15e92e44c17277f992245",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/cq8ezg4364epo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9d63/live/e4feb0b0-d1d2-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 34.29,
+   "lon": -118.43,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
+   "id": 34,
+   "t_en": "Jay-Z to perform at Super Bowl half-time show",
+   "x_en": "The rapper has been involved with the show for years but has never before performed at the NFL championship game."
+  },
+  {
+   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 35,
+   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "x_en": ""
+  },
+  {
+   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": 54.78,
-   "lon": -1.23,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 36,
+   "t_en": "Dream Big with a Home Equity Loan",
+   "x_en": ""
+  },
+  {
+   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 37,
+   "t_en": "Experts: this is the best cash back card of 2022",
+   "x_en": ""
+  },
+  {
+   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 38,
+   "t_en": "It's official: now avoid credit card interest into 2024",
+   "x_en": ""
+  },
+  {
+   "t": "Начальная годовая процентная ставка 0% до 2024 года — это 100% безумие.",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 39,
+   "t_en": "0% intro APR until 2024 is 100% insane",
+   "x_en": ""
+  },
+  {
+   "t": "Японский строитель Takenaka предложит иностранным сотрудникам сертификат «мейстера»",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/japan-immigration/japanese-builder-takenaka-to-offer-meister-credential-for-foreign-staff",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F6%2F9%2F8%2F13358968-4-eng-GB%2F3c50ecb53447-photo_SXM2026102200001965.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 37.18,
+   "lon": 137.3,
+   "place": "Япония",
+   "place_en": "Japan",
    "id": 40,
-   "t_en": "Labour faces accusations of breaking manifesto pledge over minimum wage for young people – UK politics live",
-   "x_en": "Greens say Labour has ‘no respect for young people’ amid reports chancellor will pause equalisation of minimum wage for under-21s with that paid to older workers Jonathan Reynolds , the business secretary, has not contested reports saying that, in the budget t"
+   "t_en": "Japanese builder Takenaka to offer 'meister' credential for foreign staff",
+   "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793033689829,
-   "v": 50
-  },
   {
    "t": 1793049410662,
    "v": 48
@@ -1194,139 +1190,143 @@
   {
    "t": 1793117081970,
    "v": 48
+  },
+  {
+   "t": 1793133499036,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1793030681970,
-   "v": 52,
-   "n": 32
-  },
-  {
-   "t": 1793034281970,
-   "v": 45,
-   "n": 31
-  },
-  {
-   "t": 1793037881970,
-   "v": 45,
-   "n": 30
-  },
-  {
-   "t": 1793041481970,
-   "v": 44,
-   "n": 27
-  },
-  {
-   "t": 1793045081970,
+   "t": 1793047099036,
    "v": 48,
-   "n": 20
+   "n": 12
   },
   {
-   "t": 1793048681970,
-   "v": 52,
-   "n": 24
-  },
-  {
-   "t": 1793052281970,
-   "v": 48,
-   "n": 20
-  },
-  {
-   "t": 1793055881970,
-   "v": 48,
-   "n": 20
-  },
-  {
-   "t": 1793059481970,
-   "v": 50,
-   "n": 18
-  },
-  {
-   "t": 1793063081970,
-   "v": 52,
+   "t": 1793050699036,
+   "v": 51,
    "n": 19
   },
   {
-   "t": 1793066681970,
+   "t": 1793054299036,
+   "v": 49,
+   "n": 14
+  },
+  {
+   "t": 1793057899036,
+   "v": 53,
+   "n": 14
+  },
+  {
+   "t": 1793061499036,
+   "v": 56,
+   "n": 6
+  },
+  {
+   "t": 1793065099036,
    "v": 50,
-   "n": 32
+   "n": 19
   },
   {
-   "t": 1793070281970,
+   "t": 1793068699036,
    "v": 43,
-   "n": 38
+   "n": 25
   },
   {
-   "t": 1793073881970,
-   "v": 43,
-   "n": 52
+   "t": 1793072299036,
+   "v": 42,
+   "n": 35
   },
   {
-   "t": 1793077481970,
+   "t": 1793075899036,
+   "v": 42,
+   "n": 36
+  },
+  {
+   "t": 1793079499036,
    "v": 44,
-   "n": 55
+   "n": 45
   },
   {
-   "t": 1793081081970,
+   "t": 1793083099036,
    "v": 45,
+   "n": 57
+  },
+  {
+   "t": 1793086699036,
+   "v": 46,
+   "n": 71
+  },
+  {
+   "t": 1793090299036,
+   "v": 48,
+   "n": 70
+  },
+  {
+   "t": 1793093899036,
+   "v": 51,
+   "n": 69
+  },
+  {
+   "t": 1793097499036,
+   "v": 53,
+   "n": 60
+  },
+  {
+   "t": 1793101099036,
+   "v": 49,
    "n": 73
   },
   {
-   "t": 1793084681970,
-   "v": 45,
-   "n": 81
-  },
-  {
-   "t": 1793088281970,
-   "v": 47,
-   "n": 87
-  },
-  {
-   "t": 1793091881970,
-   "v": 49,
-   "n": 80
-  },
-  {
-   "t": 1793095481970,
-   "v": 53,
-   "n": 98
-  },
-  {
-   "t": 1793099081970,
-   "v": 52,
-   "n": 128
-  },
-  {
-   "t": 1793102681970,
-   "v": 50,
-   "n": 164
-  },
-  {
-   "t": 1793106281970,
-   "v": 50,
-   "n": 182
-  },
-  {
-   "t": 1793109881970,
-   "v": 49,
-   "n": 178
-  },
-  {
-   "t": 1793113481970,
+   "t": 1793104699036,
    "v": 48,
-   "n": 198
+   "n": 90
   },
   {
-   "t": 1793117081970,
-   "v": 45,
-   "n": 133
+   "t": 1793108299036,
+   "v": 49,
+   "n": 103
+  },
+  {
+   "t": 1793111899036,
+   "v": 51,
+   "n": 118
+  },
+  {
+   "t": 1793115499036,
+   "v": 49,
+   "n": 132
+  },
+  {
+   "t": 1793119099036,
+   "v": 50,
+   "n": 143
+  },
+  {
+   "t": 1793122699036,
+   "v": 49,
+   "n": 156
+  },
+  {
+   "t": 1793126299036,
+   "v": 49,
+   "n": 156
+  },
+  {
+   "t": 1793129899036,
+   "v": 46,
+   "n": 192
+  },
+  {
+   "t": 1793133499036,
+   "v": 44,
+   "n": 132
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 23
+   "items": 27
   },
   {
    "n": "Al Jazeera",
@@ -1342,7 +1342,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 39
+   "items": 38
   },
   {
    "n": "Sky News",
@@ -1350,7 +1350,7 @@
   },
   {
    "n": "NPR",
-   "items": 9
+   "items": 10
   },
   {
    "n": "UN News",
@@ -1362,7 +1362,7 @@
   },
   {
    "n": "Euronews",
-   "items": 33
+   "items": 35
   },
   {
    "n": "NYT",
@@ -1374,7 +1374,7 @@
   },
   {
    "n": "CBS News",
-   "items": 24
+   "items": 23
   },
   {
    "n": "ABC News",
@@ -1386,15 +1386,15 @@
   },
   {
    "n": "Fox News",
-   "items": 7
+   "items": 10
   },
   {
    "n": "ABC Australia",
-   "items": 18
+   "items": 19
   },
   {
    "n": "CNA",
-   "items": 15
+   "items": 12
   },
   {
    "n": "Times of Israel",
@@ -1426,11 +1426,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 20
+   "items": 17
   },
   {
    "n": "Dawn",
-   "items": 26
+   "items": 28
   },
   {
    "n": "Times of India",

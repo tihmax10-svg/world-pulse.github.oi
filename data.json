@@ -1,8 +1,8 @@
 {
- "updated": 1793049410662,
+ "updated": 1793061150223,
  "demo": false,
- "total_articles": 678,
- "second_delta": 1,
+ "total_articles": 668,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
@@ -12,7 +12,7 @@
   },
   {
    "n": "Al Jazeera",
-   "v": 49
+   "v": 53
   },
   {
    "n": "DW",
@@ -20,7 +20,7 @@
   },
   {
    "n": "France 24",
-   "v": 46
+   "v": 47
   },
   {
    "n": "The Guardian",
@@ -28,15 +28,19 @@
   },
   {
    "n": "Sky News",
-   "v": 54
+   "v": 56
   },
   {
    "n": "NPR",
-   "v": 47
+   "v": 48
+  },
+  {
+   "n": "UN News",
+   "v": 90
   },
   {
    "n": "CNBC",
-   "v": 47
+   "v": 45
   },
   {
    "n": "Euronews",
@@ -52,7 +56,7 @@
   },
   {
    "n": "ABC News",
-   "v": 52
+   "v": 47
   },
   {
    "n": "CNN",
@@ -60,7 +64,7 @@
   },
   {
    "n": "Fox News",
-   "v": 55
+   "v": 53
   },
   {
    "n": "ABC Australia",
@@ -68,11 +72,7 @@
   },
   {
    "n": "CNA",
-   "v": 44
-  },
-  {
-   "n": "Middle East Eye",
-   "v": 50
+   "v": 43
   },
   {
    "n": "Africanews",
@@ -80,7 +80,7 @@
   },
   {
    "n": "Kyiv Independent",
-   "v": 68
+   "v": 67
   },
   {
    "n": "Yonhap",
@@ -92,7 +92,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 50
+   "v": 44
   },
   {
    "n": "Dawn",
@@ -100,7 +100,7 @@
   },
   {
    "n": "Times of India",
-   "v": 43
+   "v": 42
   },
   {
    "n": "The Hindu",
@@ -116,11 +116,11 @@
   },
   {
    "n": "Reuters",
-   "v": 43
+   "v": 44
   },
   {
    "n": "AP",
-   "v": 42
+   "v": 43
   }
  ],
  "regions": [
@@ -130,7 +130,7 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 58
+   "v": 64
   },
   {
    "n": "Азия",
@@ -138,7 +138,7 @@
   },
   {
    "n": "Африка",
-   "v": 68
+   "v": 70
   },
   {
    "n": "Америка",
@@ -147,40 +147,96 @@
  ],
  "events": [
   {
-   "t": "Коалиция под руководством Саудовской Аравии заявила, что сбила две ракеты, выпущенные хуситами",
-   "x": "АП Новости",
+   "t": "Иордания нанесла авиаудары по Сирии в ответ на стрельбу в церкви со смертельным исходом",
+   "x": "Сирия отрицает предварительную координацию действий с Иорданией после смертоносных авиаударов по двум провинциям, в результате которых погибли по меньшей мере семь человек.",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 97,
-   "ten": 80,
+   "imp": 93,
+   "ten": 91,
+   "ago": 42,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/94116308-d06c-11f1-88fd-5b4a75578ebb/w:1024/p:16x9/b65b319e54017e17feaa4f11998604f254a999a2.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 5,
+   "lat": 31.49,
+   "lon": 35.31,
+   "place": "Иордания",
+   "place_en": "Jordan",
+   "id": 1,
+   "t_en": "Jordan launches air strikes in Syria in response to a fatal church shooting",
+   "x_en": "Syria denies prior coordination with Jordan after deadly air strikes hit two provinces, killing at least seven people."
+  },
+  {
+   "t": "Лидер венесуэльской оппозиции Мария Мачадо возвращается после нескольких месяцев изгнания",
+   "x": "Мачадо покинул страну всего за месяц до того, как правительство США арестовало президента Венесуэлы Николаса Мадуро.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 87,
+   "ten": 33,
+   "ago": 18,
+   "s": [
+    "BBC",
+    "DW",
+    "NPR",
+    "Euronews",
+    "CBS News",
+    "Fox News",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4dcf/live/679d8fc0-d0a0-11f1-87fa-c1809f43a7a8.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 8,
+   "lat": 7.35,
+   "lon": -66.97,
+   "place": "Венесуэла",
+   "place_en": "Venezuela",
+   "id": 2,
+   "t_en": "Venezuelan opposition leader María Machado returns after months in exile",
+   "x_en": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro."
+  },
+  {
+   "t": "Коалиция под руководством Саудовской Аравии заявила, что сбила две ракеты, выпущенные хуситами",
+   "x": "Хуситы нанесли волны ударов по международному аэропорту имени короля Халида в Эр-Рияде, включая нападение в этом месяце, в результате которого 13 человек погибли и более 300 получили ранения.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 86,
+   "ten": 85,
    "ago": 1,
    "s": [
     "Nikkei Asia",
     "The Hindu",
-    "Japan Times",
-    "AP"
+    "Japan Times"
    ],
    "u": "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis",
    "img": "https://th-i.thgim.com/public/incoming/3xbk87/article71625592.ece/alternates/LANDSCAPE_1200/2026-10-25T131533Z_501958587_RC28MNAMI4AL_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN.JPG",
    "img_src": "The Hindu",
    "fresh": true,
-   "n": 4,
+   "n": 3,
    "lat": 15.33,
    "lon": 44.45,
    "place": "Сана",
    "place_en": "Sanaa",
-   "id": 1,
+   "id": 3,
    "t_en": "Saudi-led coalition says it downed 2 missiles fired by Houthis",
-   "x_en": "AP News"
+   "x_en": "The Houthis have carried out waves of strikes on the King Khalid International Airport in Riyadh, including an attack this month that killed 13 people and injured more than 300"
   },
   {
    "t": "Украина: российские удары по Одессе и Запорожью, четверо ранены",
    "x": "Ночные забастовки российских войск ранили четырех человек в Запорожье и спровоцировали пожары в Одесской области в понедельник. Украинские экстренные службы сообщили, что промышленный объект пострадал еще дважды, пока пожарные боролись с огнем.",
    "r": "Европа",
    "c": "Экономика",
-   "imp": 95,
+   "imp": 86,
    "ten": 75,
-   "ago": 9,
+   "ago": 80,
    "s": [
     "Euronews",
     "NYT",
@@ -190,431 +246,204 @@
    "u": "https://www.euronews.com/video/2026/10/26/ukraine-russian-strikes-hit-odesa-and-zaporizhzhia-injuring-four",
    "img": "https://images.euronews.com/articles/stories/09/96/77/47/696x392_cmsv2_073be709-9730-51ab-b171-27a2adfa5a60-9967747.jpg",
    "img_src": "Euronews",
-   "fresh": true,
+   "fresh": false,
    "n": 4,
    "lat": 46.63,
    "lon": 30.74,
    "place": "Одесса",
    "place_en": "Odesa",
-   "id": 2,
+   "id": 4,
    "t_en": "Ukraine: Russian strikes hit Odesa and Zaporizhzhia, injuring four",
    "x_en": "Russian overnight strikes injured four people in Zaporizhzhia and sparked fires in the Odesa region on Monday. Ukrainian emergency services said an industrial site was hit twice more as firefighters battled the flames."
   },
   {
-   "t": "Иордания арестовала троих подозреваемых в смертельном нападении на церковь",
-   "x": "Власти Иордании арестовали троих родственников в связи с нападением на церковь в Караке, в результате которого погибли восемь человек.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 92,
-   "ten": 89,
-   "ago": 42,
+   "t": "Англичанин Гарри Кейн выиграл «Золотой мяч», Алексия Путеллас получила женскую награду",
+   "x": "Нападающий мюнхенской «Баварии» становится первым англичанином, получившим престижную награду за 25 лет, после Майкла Оуэна в 2001 году.",
+   "r": "Европа",
+   "c": "Природа",
+   "imp": 84,
+   "ten": 38,
+   "ago": 47,
    "s": [
     "Al Jazeera",
     "France 24",
     "Sky News",
-    "CBS News",
-    "ABC News",
-    "The Hindu"
+    "Reuters"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/94116308-d06c-11f1-88fd-5b4a75578ebb/w:1024/p:16x9/b65b319e54017e17feaa4f11998604f254a999a2.jpg",
+   "u": "https://www.aljazeera.com/sports/2026/10/26/englands-harry-kane-wins-ballon-dor-alexia-putellas-takes-womens-award?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/23d66ae0-d196-11f1-a0cd-4b25c96ec90e/w:1024/p:16x9/a87952700e7615cda57f1779147c524a2f3b16a8.jpg",
    "img_src": "France 24",
    "fresh": true,
-   "n": 6,
-   "lat": 31.64,
-   "lon": 35.59,
-   "place": "Иордания",
-   "place_en": "Jordan",
-   "id": 3,
-   "t_en": "Jordan arrests three suspects over deadly church attack",
-   "x_en": "Jordanian authorities have arrested three relatives over a church attack in Karak that killed eight people."
+   "n": 4,
+   "lat": 53.4,
+   "lon": -2.13,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 5,
+   "t_en": "England’s Harry Kane wins Ballon d’Or, Alexia Putellas takes women’s award",
+   "x_en": "Bayern Munich striker becomes the first Englishman to win the prestigious award in 25 years, after Michael Owen in 2001."
+  },
+  {
+   "t": "Бывшему директору ФБР Джеймсу Коми предъявлены третьи обвинения при Трампе",
+   "x": "Коми, которого уволили во время первого срока Трампа, обвинили в незаконном разглашении информации о национальной безопасности.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 84,
+   "ten": 40,
+   "ago": 53,
+   "s": [
+    "Al Jazeera",
+    "CNBC",
+    "Times of India",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/26/former-fbi-director-james-comey-hit-with-third-set-of-charges-under-trump?traffic_source=rss",
+   "img": "https://static.toiimg.com/photo/msid-135221630,imgsize-77632.cms",
+   "img_src": "Times of India",
+   "fresh": true,
+   "n": 5,
+   "lat": 39.73,
+   "lon": -97.67,
+   "place": "США",
+   "place_en": "United States",
+   "id": 6,
+   "t_en": "Former FBI director James Comey hit with third set of charges under Trump",
+   "x_en": "Comey, who was fired during Trump's first term, has been accused of unlawfully divulging national security information."
   },
   {
    "t": "Бывший премьер-министр Японии Такео Фукуда, сторонник связей с Китаем, умер в возрасте 90 лет",
    "x": "Умер бывший премьер-министр Японии Ясуо Фукуда, который был активным сторонником улучшения связей с Китаем.",
    "r": "Азия",
    "c": "Политика",
-   "imp": 91,
+   "imp": 80,
    "ten": 40,
    "ago": 1,
    "s": [
     "ABC News",
     "Nikkei Asia",
-    "Japan Times",
-    "AP"
+    "Japan Times"
    ],
    "u": "https://abcnews.com/International/wireStory/japans-former-pm-takeo-fukuda-proponent-ties-china-137564121",
    "img": "https://s.abcnews.com/images/International/wirestory_7b036fa04eb545214572136f145ed0c3_16x9_1600.jpg",
    "img_src": "ABC News",
    "fresh": true,
-   "n": 4,
+   "n": 3,
    "lat": 36.47,
    "lon": 138.69,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 4,
+   "id": 7,
    "t_en": "Japan's former PM Takeo Fukuda, proponent of ties with China, dies at 90",
    "x_en": "Former Japanese Prime Minister Yasuo Fukuda, who was an active proponent of better ties with China, has died"
-  },
-  {
-   "t": "Студенты свергли правительство Вучича в Сербии",
-   "x": "Список, возглавляемый студентами, победил на выборах в Сербии с убедительным большинством голосов, вытеснив самого влиятельного политика в стране.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 89,
-   "ten": 42,
-   "ago": 18,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "Kyiv Independent",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/26/aje-onl-nf_music-dnrexp-261026-kopcicn-serbian_elections-261026?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_fcb7957e91bbb25de9e6947c1c051469_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 4,
-   "lat": 43.02,
-   "lon": 21.21,
-   "place": "Сербия",
-   "place_en": "Serbia",
-   "id": 5,
-   "t_en": "Students topple Vucic’s government in Serbia",
-   "x_en": "A student-led list won Serbia’s elections by a convincing majority, ousting the most powerful politician in the country."
-  },
-  {
-   "t": "Лула побеждает на четвертый срок в драматическом возвращении на выборы в Бразилии",
-   "x": "Левый действующий президент проиграл первый тур правому претенденту Флавио Болсонару.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 35,
-   "ago": 14,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "France 24",
-    "NYT",
-    "Dawn",
-    "Japan Times"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/eab1/live/a6b767f0-d15c-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 8,
-   "lat": -10.84,
-   "lon": -52.0,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 6,
-   "t_en": "Lula wins fourth term in dramatic Brazil election comeback",
-   "x_en": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro."
-  },
-  {
-   "t": "Администрация Трампа незаконно уволила дочь Джеймса Коми, постановил судья",
-   "x": "Морин Коми считает, что ее уволили с должности федерального прокурора, потому что ее отец — бывший директор ФБР.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 40,
-   "ago": 21,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "Times of India",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ck78px6glw3lo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ad39/live/ee5424f0-d165-11f1-87df-afb7a168a1f2.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 5,
-   "lat": 39.72,
-   "lon": -98.76,
-   "place": "США",
-   "place_en": "United States",
-   "id": 7,
-   "t_en": "Trump administration illegally fired James Comey's daughter, judge rules",
-   "x_en": "Maurene Comey believes she was let go from her job as a federal prosecutor because her father is the former FBI director."
-  },
-  {
-   "t": "Как канал WhatsApp «Армия Лулы» помог изменить ход выборов в Бразилии",
-   "x": "Миллионы людей присоединились к каналу «Армия Лулы», который помог превратить онлайн-энтузиазм в реальную мобилизацию.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 83,
-   "ten": 36,
-   "ago": 57,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "The Guardian",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d3bd/live/33178300-d14a-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 4,
-   "lat": -9.72,
-   "lon": -51.6,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 8,
-   "t_en": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
-   "x_en": "Millions joined a 'Lula's Army' channel that helped to transform online enthusiasm into real-world mobilisation."
-  },
-  {
-   "t": "Египет одобрил военную поддержку Саудовской Аравии на фоне эскалации атак хуситов",
-   "x": "Египет приближается к региональному конфликту после того, как парламент одобрил военную поддержку Саудовской Аравии на фоне эскалации атак хуситов.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 82,
-   "ten": 81,
-   "ago": 119,
-   "s": [
-    "Africanews",
-    "Dawn",
-    "Reuters",
-    "AP"
-   ],
-   "u": "http://www.africanews.com/2026/10/26/egypt-approves-military-support-for-saudi-arabia-amid-escalating-houthi-attacks/",
-   "img": "https://images.euronews.com/articles/stories/09/96/77/77/640x360_cmsv2_cf5cee47-0f31-51f8-8991-c2854a421b43-9967777.jpg?1793021482",
-   "img_src": "Africanews",
-   "fresh": false,
-   "n": 5,
-   "lat": 15.3,
-   "lon": 44.03,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 9,
-   "t_en": "Egypt approves military support for Saudi Arabia amid escalating Houthi attacks",
-   "x_en": "Egypt is moving closer to the regional conflict, after parliament approved military support for Saudi Arabia amid escalating Houthi attacks."
   },
   {
    "t": "Женщину, лечившуюся от Эболы в Нигерии, эвакуируют в Швейцарию",
    "x": "Власти сообщают, что женщина, лечившаяся от Эболы в Нигерии, была эвакуирована в Швейцарию.",
    "r": "Африка",
    "c": "Общее",
-   "imp": 79,
-   "ten": 67,
-   "ago": 138,
+   "imp": 76,
+   "ten": 70,
+   "ago": 180,
    "s": [
     "Sky News",
     "ABC News",
     "Africanews",
-    "Reuters",
     "AP"
    ],
    "u": "https://news.sky.com/story/woman-treated-for-ebola-in-nigeria-is-evacuated-to-switzerland-13604127",
    "img": "https://e3.365dm.com/26/10/1920x1080/skynews-ebola-nigeria-switzerland_7388120.jpg?20261026173642",
    "img_src": "Sky News",
    "fresh": false,
-   "n": 5,
+   "n": 4,
    "lat": 9.96,
    "lon": 8.23,
    "place": "Нигерия",
    "place_en": "Nigeria",
-   "id": 10,
+   "id": 8,
    "t_en": "Woman treated for Ebola in Nigeria is evacuated to Switzerland",
    "x_en": "A woman being treated for Ebola in Nigeria has been medically evacuated to Switzerland, authorities say."
   },
   {
-   "t": "Microsoft предлагает добровольный выкуп 60 000 сотрудников, поскольку ИИ способствует повышению эффективности",
-   "x": "Microsoft пытается сбалансировать быстрое создание инфраструктуры искусственного интеллекта с эффективностью использования капитала.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 75,
-   "ten": 40,
-   "ago": 32,
+   "t": "Иордания арестовала троих подозреваемых в смертельном нападении на церковь",
+   "x": "Власти Иордании арестовали троих родственников в связи с нападением на церковь в Караке, в результате которого погибли восемь человек.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 89,
+   "ago": 238,
    "s": [
-    "CNBC",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108464648-1793029800901-gettyimages-2225682496-MICROSOFT_HACK.jpeg?v=1793029842&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 11,
-   "t_en": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
-   "x_en": "Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency."
-  },
-  {
-   "t": "Как Лула победил крайне правого Болсонару в Бразилии – The Latest",
-   "x": "Бразилец Луис Инасио Лула да Силва выиграл исторический четвертый срок на посту президента, победив крайне правого кандидата Флавио Болсонару в драматическом возвращении. Лула — первый кандидат, победивший во втором туре выборов после поражения в первом туре.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 38,
-   "ago": 45,
-   "s": [
-    "The Guardian",
-    "NYT",
+    "Al Jazeera",
+    "Sky News",
+    "CBS News",
+    "ABC News",
+    "Dawn",
     "The Hindu"
    ],
-   "u": "https://www.theguardian.com/news/audio/2026/oct/26/how-lula-beat-far-right-bolsonaro-in-brazil-the-latest",
-   "img": "https://i.guim.co.uk/img/media/4e9c4d20de76c17bf3e6697923160cc69575abfb/734_642_3499_2798/master/3499.jpg?width=700&quality=85&auto=format&fit=max&s=4fb7df65be84606be1eb04862a4bb79b",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 4,
-   "lat": -10.32,
-   "lon": -51.75,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 12,
-   "t_en": "How Lula beat far-right Bolsonaro in Brazil – The Latest",
-   "x_en": "Brazil’s Luiz Inácio Lula da Silva has won a historic fourth term as president, defeating the far-right candidate Flávio Bolsonaro in a dramatic comeback. Lula is the first candidate to win a runoff election after losing in the first round, taking victory with"
-  },
-  {
-   "t": "Лула побеждает на выборах в Бразилии, но ему предстоит тяжелая борьба за власть",
-   "x": "Победа Луиса Инасиу Лулы да Силвы с небольшим перевесом на выборах в воскресенье нанесла удар по крайне правым в Бразилии, но глубокие политические разногласия сохраняются. Недавно переизбранный президент должен решать проблемы экономики и безопасности внутри страны, одновременно сглаживая международную напряженность.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 42,
-   "ago": 164,
-   "s": [
-    "France 24",
-    "CNBC",
-    "Euronews",
-    "ABC News"
-   ],
-   "u": "https://www.france24.com/en/americas/20261026-lula-wins-brazil-election-but-faces-uphill-battle-to-govern",
-   "img": "https://s.france24.com/media/display/fd221fee-d13a-11f1-84ec-5b4a75578ebb/w:1024/p:16x9/000-D4EJ8VV.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": -10.88,
-   "lon": -51.66,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 13,
-   "t_en": "Lula wins Brazil election but faces uphill battle to govern",
-   "x_en": "Luiz Inacio Lula da Silva's narrow election victory on Sunday has dealt a blow to Brazil's far right, but deep political divisions remain. The newly re-elected president must tackle economic and security concerns at home while navigating international tensions"
-  },
-  {
-   "t": "Крис Браун получил восемь месяцев условно за нападение на ночной клуб",
-   "x": "Звезда R&B ранее признал себя виновным в драке после того, как напал на музыкального продюсера со стеклянной бутылкой.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 54,
-   "ago": 186,
-   "s": [
-    "BBC",
-    "NYT",
-    "ABC News",
-    "Africanews",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5fd6/live/13ac2140-d151-11f1-9eb5-811878e0f07d.jpg",
-   "img_src": "BBC",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/26/jordan-arrests-three-suspects-over-deadly-church-attack?traffic_source=rss",
+   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-jordan-church_7387552.jpg?20261026085249",
+   "img_src": "Sky News",
    "fresh": false,
    "n": 6,
-   "lat": 51.6,
-   "lon": -0.26,
-   "place": "Лондон",
-   "place_en": "London",
-   "id": 14,
-   "t_en": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-   "x_en": "The R&B star previously pleaded guilty to affray, after attacking a music producer with a glass bottle."
+   "lat": 31.64,
+   "lon": 35.59,
+   "place": "Иордания",
+   "place_en": "Jordan",
+   "id": 9,
+   "t_en": "Jordan arrests three suspects over deadly church attack",
+   "x_en": "Jordanian authorities have arrested three relatives over a church attack in Karak that killed eight people."
   },
   {
-   "t": "В Иордании арестованы трое человек в связи с нападением на церковь, сообщают государственные СМИ",
-   "x": "Девять человек были убиты и десятки ранены в результате нападения на греческую православную церковь на юге Иордании на прошлой неделе.",
+   "t": "Сообщается, что Нетаньяху оказывал давление на военных, чтобы они атаковали Иран в преддверии выборов",
+   "x": "Премьер-министр Израиля усиливает паникерскую риторику, поскольку его крайне правая коалиция с небольшим отрывом отстает в опросах",
    "r": "Ближний Восток",
    "c": "Конфликты",
    "imp": 70,
-   "ten": 95,
-   "ago": 48,
+   "ten": 68,
+   "ago": 108,
    "s": [
+    "The Guardian",
     "NYT",
     "Dawn"
    ],
-   "u": "https://www.nytimes.com/2026/10/26/world/middleeast/jordan-arrests-terror-attack-church.html",
-   "img": "https://static01.nyt.com/images/2026/10/26/multimedia/26int-jordan-attack-1-kcfq/26int-jordan-attack-1-kcfq-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.11,
-   "lon": 35.72,
-   "place": "Иордания",
-   "place_en": "Jordan",
-   "id": 15,
-   "t_en": "Jordan Arrests 3 in Connection With Church Attack, State Media Reports",
-   "x_en": "Nine people were killed and dozens were wounded in the attack last week on a Greek Orthodox Church in southern Jordan."
+   "u": "https://www.theguardian.com/world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election",
+   "img": "https://i.guim.co.uk/img/media/f096c8d4947f607c4643153917ab8903ff877046/0_0_5417_4334/master/5417.jpg?width=700&quality=85&auto=format&fit=max&s=b2dbc51e663a0d02eaeefd9e1297facd",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 31.0,
+   "lon": 35.45,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 10,
+   "t_en": "Netanyahu reportedly pressured military to attack Iran in run-up to election",
+   "x_en": "Israeli prime minister increases alarmist rhetoric as his far-right coalition narrowly trails in polls Benjamin Netanyahu has resorted to increasingly alarmist rhetoric and reportedly put pressure on Israel’s military to take action against Iran as his far-rig"
   },
   {
-   "t": "Толпы приветствуют Марию Мачадо из Венесуэлы после нескольких месяцев изгнания",
-   "x": "Лидер венесуэльской оппозиции провел более 10 месяцев в изгнании после того, как сбежал из страны на скоростном катере.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 70,
-   "ten": 32,
-   "ago": 172,
+   "t": "Медсестра погибла в результате нападения во время реагирования на предупреждение о вирусе Эбола в ДР Конго",
+   "x": "Сообщается, что местная молодежь обвинила медицинских работников в загрязнении источников воды и распространении Эболы.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 78,
+   "ago": 134,
    "s": [
     "BBC",
-    "DW",
-    "NPR",
-    "CNBC",
-    "Euronews",
-    "NYT",
-    "CBS News",
-    "ABC News",
-    "Fox News",
-    "AP"
+    "Africanews",
+    "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/videos/cwgkv8kmly4zo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/276a/live/9bd2b450-d11d-11f1-a701-fddedf244c16.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0b16/live/de274990-d133-11f1-be77-d1864d279cb0.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 11,
-   "lat": 7.43,
-   "lon": -66.0,
-   "place": "Венесуэла",
-   "place_en": "Venezuela",
-   "id": 16,
-   "t_en": "Crowds welcome Venezuela's María Machado after months in exile",
-   "x_en": "The Venezuelan opposition leader spent more than 10 months in exile after escaping the country on a speedboat."
-  },
-  {
-   "t": "Ватикан опубликовал обновленную информацию о состоянии здоровья Папы Римского перед поездкой в ​​Южную Америку",
-   "x": "Папа хорошо восстанавливается после операции по поводу рака, и его поездка в Южную Америку состоится, как и планировалось, в следующем месяце, заявили в Ватикане.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 69,
-   "ten": 35,
-   "ago": 198,
-   "s": [
-    "Sky News",
-    "Euronews",
-    "CBS News",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://news.sky.com/story/pope-in-good-health-and-trip-to-south-america-will-go-ahead-as-planned-vatican-says-13604112",
-   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7388090.jpg?20261026175701",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 5,
-   "lat": 41.91,
-   "lon": 12.62,
-   "place": "Рим",
-   "place_en": "Rome",
-   "id": 17,
-   "t_en": "Vatican issues Pope health update ahead of South America trip",
-   "x_en": "The Pope is recovering well from cancer surgery and his trip to South America will go ahead as planned next month, the Vatican has said."
+   "n": 3,
+   "lat": -2.87,
+   "lon": 22.66,
+   "place": "ДР Конго",
+   "place_en": "DR Congo",
+   "id": 11,
+   "t_en": "Nurse killed in attack while responding to Ebola alert in DR Congo",
+   "x_en": "Local youths reportedly accused the health workers of contaminating water sources and spreading Ebola."
   },
   {
    "t": "Сообщается, что SoftBank планирует инвестировать в технологии 50 миллиардов долларов в развивающуюся «нацию искусственного интеллекта» Малайзию.",
@@ -637,208 +466,362 @@
    "lon": 101.54,
    "place": "Малайзия",
    "place_en": "Malaysia",
-   "id": 18,
+   "id": 12,
    "t_en": "SoftBank reportedly plans $50 billion tech investment in aspiring 'AI nation' Malaysia",
    "x_en": "SoftBank Group reportedly plans to invest $50 billion in Malaysia's technology sector, including artificial intelligence and data centers."
   },
   {
-   "t": "80 человек получили ранения в результате падения автобуса на набережную недалеко от Барселоны",
-   "x": "Местные службы экстренной помощи сообщают, что более 80 человек получили ранения в результате крушения автобуса недалеко от Барселоны в Испании.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 40,
-   "ago": 87,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/26/80-injured-after-bus-plunges-down-embankment-near-barcelona?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.59,
-   "lon": -4.58,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 19,
-   "t_en": "80 injured after bus plunges down embankment near Barcelona",
-   "x_en": "Local emergency services report that more than 80 people have been injured in a bus crash near Barcelona in Spain"
-  },
-  {
-   "t": "Уолтер Кениг, актер, наиболее известный по роли Чехова в «Звездном пути», умер в возрасте 90 лет",
-   "x": "Актер появлялся в культовом сериале 1960-х годов, а также во многих фильмах, но также работал писателем. Уолтер Кениг, актер, известный по роли Павла Чехова во франшизе «Звездный путь», умер, подтвердил Hollywood Reporter его представитель. Он",
+   "t": "Австралийская страховая компания Challenger отклонила предложение о поглощении подразделения Daiichi Life",
+   "x": "Австралийское подразделение Daiichi Life на прошлой неделе предложило купить оставшиеся 79,5% акций Challenger по цене 11,80 австралийских долларов за акцию.",
    "r": "Мир",
    "c": "Общее",
    "imp": 68,
    "ten": 40,
-   "ago": 92,
+   "ago": 1,
    "s": [
-    "The Guardian",
+    "Nikkei Asia",
+    "Japan Times"
+   ],
+   "u": "https://asia.nikkei.com/business/business-deals/australian-insurer-challenger-rejects-daiichi-life-unit-s-takeover-bid",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/26/thumbs/400x400/570488.jpg",
+   "img_src": "Japan Times",
+   "fresh": true,
+   "n": 2,
+   "lat": -24.48,
+   "lon": 133.99,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 13,
+   "t_en": "Australian insurer Challenger rejects Daiichi Life unit's takeover bid",
+   "x_en": "Daiichi Life's Australian unit last week offered to buy the remaining 79.5% of Challenger at 11.80 Australian dollars per share."
+  },
+  {
+   "t": "Планы Anthropic по IPO: сохранение выручки на 900%, но убытки в первом полугодии — 80 миллиардов долларов",
+   "x": "Все подробности из проспекта IPO Anthropic в Комиссии по ценным бумагам и биржам.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 68,
+   "ten": 40,
+   "ago": 5,
+   "s": [
+    "CNBC",
+    "The Hindu"
+   ],
+   "u": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+   "img": "https://th-i.thgim.com/public/incoming/xjjnjb/article71627727.ece/alternates/LANDSCAPE_1200/2026-10-22T132024Z_1161924906_RC2D8OA92YKE_RTRMADP_3_ENERGY-EUROPE-BATTERIES.JPG",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 14,
+   "t_en": "Anthropic's IPO plans: 900% revenue retention, but $80 billion in first-half losses",
+   "x_en": "All the details from Anthropic's IPO prospectus with the Securities and Exchange Commission."
+  },
+  {
+   "t": "Как канал WhatsApp «Армия Лулы» помог изменить ход выборов в Бразилии",
+   "x": "Миллионы людей присоединились к каналу «Армия Лулы», который помог превратить онлайн-энтузиазм в реальную мобилизацию.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 33,
+   "ago": 210,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "France 24",
     "Dawn",
+    "Japan Times"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cwz0vg4v3ndeo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d3bd/live/33178300-d14a-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 7,
+   "lat": -9.72,
+   "lon": -51.6,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 15,
+   "t_en": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
+   "x_en": "Millions joined a 'Lula's Army' channel that helped to transform online enthusiasm into real-world mobilisation."
+  },
+  {
+   "t": "Франция пошла на уступки студентам, но не настолько, чтобы остановить протесты",
+   "x": "Правительство пообещало постепенно отказаться от непопулярной системы приема в университеты к 2028 году. Студенческие группы требуют большего.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 66,
+   "ten": 51,
+   "ago": 130,
+   "s": [
+    "NYT",
+    "Politico EU",
+    "Reuters"
+   ],
+   "u": "https://www.nytimes.com/2026/10/26/world/europe/france-student-protests.html",
+   "img": "https://static01.nyt.com/images/2026/10/26/multimedia/26int-france-students-1-bvfj/26int-france-students-1-bvfj-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 3,
+   "lat": 46.21,
+   "lon": 1.63,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 16,
+   "t_en": "France Makes Concessions to Students, but Not Enough to Halt Protests",
+   "x_en": "The government promised to phase out an unpopular university admissions system by 2028. Student groups are pushing for more."
+  },
+  {
+   "t": "Бразилия сопротивляется региональному сдвигу вправо и возвращает Лулу",
+   "x": "АП Новости",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 40,
+   "ago": 21,
+   "s": [
+    "Times of India",
     "AP"
    ],
-   "u": "https://www.theguardian.com/culture/2026/oct/26/walter-koenig-actor-star-trek-dies",
-   "img": "https://i.guim.co.uk/img/media/918d6d33374b484bf2b6e6fa18a26a262c362b17/374_377_1785_1428/master/1785.jpg?width=700&quality=85&auto=format&fit=max&s=0ee4bcd9cb11c73d96c216f4f578fe18",
+   "u": "https://timesofindia.indiatimes.com/world/rest-of-world/brazil-bucks-regional-shift-to-right-brings-back-lula/articleshow/135222016.cms",
+   "img": "https://static.toiimg.com/photo/msid-135222066,imgsize-41264.cms",
+   "img_src": "Times of India",
+   "fresh": true,
+   "n": 2,
+   "lat": -10.32,
+   "lon": -51.76,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 17,
+   "t_en": "Brazil bucks regional shift to right, brings back Lula",
+   "x_en": "AP News"
+  },
+  {
+   "t": "Вопросы и ответы читателей: После сенсационной победы Лулы на президентских выборах в Бразилии задайте свои вопросы корреспонденту Guardian в Латинской Америке.",
+   "x": "Проиграв первый тур президентских выборов в Бразилии крайне правому сопернику Флавиу Болсонару, действующий президент Луис Инасио Лула да Силва эффектно одержал победу во втором. Что будет дальше с Бразилией? Том Филлипс из The Guardian ответит на ваш вопрос",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 64,
+   "ten": 44,
+   "ago": 32,
+   "s": [
+    "The Guardian",
+    "NYT"
+   ],
+   "u": "https://www.theguardian.com/world/live/2026/oct/27/brazil-election-reader-questions-lula-bolsonaro",
+   "img": "https://i.guim.co.uk/img/media/f7975b381e5fff70c5e117ef42e308e459969785/0_0_2000_1600/master/2000.jpg?width=700&quality=85&auto=format&fit=max&s=a4326cb9f19744b73452b12d4016c690",
    "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": -9.28,
+   "lon": -51.32,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 18,
+   "t_en": "Reader Q&A: After Lula’s sensational victory in Brazil’s presidential election, post your questions for the Guardian’s Latin America correspondent",
+   "x_en": "Having lost the first round of Brazil’s presidential election to far right rival Flávio Bolsonaro, incumbent Luiz Inácio Lula da Silva spectacularly triumphed in the second. What comes next for Brazil? The Guardian’s Tom Phillips will be answering your questio"
+  },
+  {
+   "t": "Бразилия: побежденный Флавио Болсонару приказал сдать паспорта",
+   "x": "Крайне правому сенатору запретили покидать страну, поскольку в постановлении судьи Верховного суда упоминается дело об отмывании денег. Крайне правому сенатору Флавио Болсонару запретили выезд из Бразилии и приказали сдать паспорта всего через несколько часов после его драматического происшествий.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 63,
+   "ten": 40,
+   "ago": 37,
+   "s": [
+    "The Guardian",
+    "NYT"
+   ],
+   "u": "https://www.theguardian.com/world/2026/oct/26/flavio-bolsonaro-brazil-lula-election",
+   "img": "https://i.guim.co.uk/img/media/0de4d058b50f7c1ef96360807b8a7d704ff3313e/688_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=32dc48b0607bc1081e1e220a9a605a8a",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": -10.61,
+   "lon": -52.51,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 19,
+   "t_en": "Brazil: defeated Flávio Bolsonaro ordered to surrender passports",
+   "x_en": "Far-right senator banned from leaving country as supreme court judge’s ruling makes reference to money-laundering case The far-right senator Flávio Bolsonaro was banned from leaving Brazil and ordered to surrender his passports just hours after his dramatic lo"
+  },
+  {
+   "t": "Болсонару заявил, что полиция требует паспорта после поражения на выборах в Бразилии",
+   "x": "Флавио Болсонару опубликовал в социальных сетях видео, в котором говорится, что полиция приказала ему сдать паспорта.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 63,
+   "ten": 40,
+   "ago": 39,
+   "s": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/26/bolsonaro-says-police-demand-passports-after-brazil-election-defeat?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1793058453.jpg?resize=1920%2C1080&quality=80",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": -10.16,
+   "lon": -51.43,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 20,
+   "t_en": "Bolsonaro says police demand passports after Brazil election defeat",
+   "x_en": "Flavio Bolsonaro posted a video on social media saying police ordered him to surrender his passports"
+  },
+  {
+   "t": "От слесаря ​​до президента Бразилии: восхождение Лулы да Силвы",
+   "x": "Лула побил свой неудачный рекорд с 1989 года, выиграв второй тур после поражения в первом туре, увенчав карьеру, которая привела его от рабочего-металлиста к президенту Бразилии.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 40,
+   "ago": 151,
+   "s": [
+    "Euronews",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.euronews.com/2026/10/26/from-metalworker-to-brazils-president-lula-da-silvas-rise",
+   "img": "https://images.euronews.com/articles/stories/09/96/22/01/696x392_cmsv2_654a776a-49bb-51eb-b5f9-1b5f72264551-9962201.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 4,
+   "lat": -9.35,
+   "lon": -51.56,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 21,
+   "t_en": "From metalworker to Brazil's president: Lula da Silva's rise",
+   "x_en": "Lula broke with his unfavourable record since 1989, winning the runoff after losing the first round, crowning a career that took him from metalworker to Brazil's presidency."
+  },
+  {
+   "t": "Крис Браун получил восемь месяцев условно за нападение на ночной клуб",
+   "x": "Звезда R&B ранее признал себя виновным в драке после того, как напал на музыкального продюсера со стеклянной бутылкой.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 54,
+   "ago": 382,
+   "s": [
+    "BBC",
+    "NYT",
+    "ABC News",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5fd6/live/13ac2140-d151-11f1-9eb5-811878e0f07d.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 5,
+   "lat": 51.6,
+   "lon": -0.26,
+   "place": "Лондон",
+   "place_en": "London",
+   "id": 22,
+   "t_en": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+   "x_en": "The R&B star previously pleaded guilty to affray, after attacking a music producer with a glass bottle."
+  },
+  {
+   "t": "(LEAD) Акции Сеула открылись ростом на фоне роста Уолл-стрит и возобновления оптимизма в области искусственного интеллекта",
+   "x": "СЕУЛ, 27 октября (Рёнхап) – Южнокорейские фондовые индексы открылись ростом во вторник, следуя...",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 61,
+   "ten": 40,
+   "ago": 9,
+   "s": [
+    "Yonhap"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261027001751320",
+   "img": "https://img.yna.co.kr/photo/yna/YH/2026/10/26/PYH2026102616920001300_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 3,
+   "lat": 37.38,
+   "lon": 126.56,
+   "place": "Сеул",
+   "place_en": "Seoul",
+   "id": 23,
+   "t_en": "(LEAD) Seoul stocks open higher on Wall Street gains, renewed AI optimism",
+   "x_en": "SEOUL, Oct. 27 (Yonhap) -- South Korean stocks opened higher Tuesday, tracking o..."
+  },
+  {
+   "t": "Как кампания Лулы в социальных сетях помогла ему победить на выборах в Бразилии",
+   "x": "Президент Луис Инасио Лула да Силва выиграл еще один срок в воскресенье благодаря сенсационной кампании в социальных сетях, которая убедила бразильцев отвергнуть его соперника.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 61,
+   "ten": 40,
+   "ago": 161,
+   "s": [
+    "NYT",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.nytimes.com/2026/10/26/world/americas/brazil-election-lula-social-media.html",
+   "img": "https://static01.nyt.com/images/2026/10/26/multimedia/26brazil-election-assess-mwht/26brazil-election-assess-mwht-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 3,
+   "lat": -10.09,
+   "lon": -50.9,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 24,
+   "t_en": "How Lula’s Social Media Campaign Helped Him Win Brazil’s Election",
+   "x_en": "President Luiz Inácio Lula da Silva won another term on Sunday, with the help of a seismic social media campaign that convinced Brazilians to reject his rival."
+  },
+  {
+   "t": "Microsoft предлагает добровольный выкуп 60 000 сотрудников, поскольку ИИ способствует повышению эффективности",
+   "x": "Microsoft пытается сбалансировать быстрое создание инфраструктуры искусственного интеллекта с эффективностью использования капитала.",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 61,
+   "ten": 40,
+   "ago": 168,
+   "s": [
+    "CNBC",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108464648-1793029800901-gettyimages-2225682496-MICROSOFT_HACK.jpeg?v=1793029842&w=1920&h=1080",
+   "img_src": "CNBC (og)",
    "fresh": false,
    "n": 3,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 20,
-   "t_en": "Walter Koenig, actor best known as Chekov on Star Trek, dies aged 90",
-   "x_en": "The actor appeared in the cult 1960s show as well as many of the films but also worked as a writer Walter Koenig, the actor known for playing Pavel Chekov throughout the Star Trek franchise, has died, his representative confirmed to the Hollywood Reporter . He"
-  },
-  {
-   "t": "Пезешкиан: Иран поддерживает единство мусульманских стран",
-   "x": "Президент Ирана Масуд Пезешкиан заявил, что Иран поддерживает укрепление единства и сплоченности среди исламских стран, сообщило в понедельник официальное иранское информационное агентство IRNA. «Мусульманские страны должны объединиться против угроз, направленных против их народов», — Пезешкиа",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 40,
-   "ago": 21,
-   "s": [
-    "Middle East Eye",
-    "Yonhap"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/pezeshkian-says-iran-supports-unity-among-muslim-countries",
-   "img": "https://img.yna.co.kr/etc/inner/EN/2026/10/27/AEN20261027000500315_01_i_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": true,
-   "n": 3,
-   "lat": 32.06,
-   "lon": 53.1,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 21,
-   "t_en": "Pezeshkian says Iran supports unity among Muslim countries",
-   "x_en": "Iranian President Masoud Pezeshkian said that Iran supports strengthening unity and cohesion among Islamic countries, Iran's official IRNA news agency reported on Monday. \"Muslim nations should stand together against threats targeting their peoples,\" Pezeshkia"
-  },
-  {
-   "t": "Празднования в Сербии после того, как правитель-ветеран Вучич проиграл выборы студенческому протестному движению",
-   "x": "Правый популистский лидер с 12-летним стажем говорит, что «очевидно», что его партия проиграла голосование, объявленное референдумом о будущем страны.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 40,
-   "ago": 278,
-   "s": [
-    "BBC",
-    "France 24",
-    "The Guardian",
-    "CNBC"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f0c7/live/712973e0-d110-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 44.33,
-   "lon": 21.07,
-   "place": "Сербия",
-   "place_en": "Serbia",
-   "id": 22,
-   "t_en": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-   "x_en": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future."
-  },
-  {
-   "t": "Французскому правительству не удалось убедить студентов прекратить протесты",
-   "x": "Студенческие группы заявили, что продолжат протестовать в эти выходные и в последующие выходные.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 52,
-   "ago": 42,
-   "s": [
-    "Politico EU",
-    "Reuters"
-   ],
-   "u": "https://www.politico.eu/article/government-concessions-fail-to-convince-french-students-to-stop-protests/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "img": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/10/26/GettyImages-2301684134.jpg",
-   "img_src": "Politico EU (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 46.84,
-   "lon": 2.91,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 23,
-   "t_en": "French government fails to convince students to stop protests",
-   "x_en": "Student groups said they will continue protesting this weekend and the weekend after."
-  },
-  {
-   "t": "Великобритания: в центре Лондона начинается пешеходная зона Оксфорд-стрит",
-   "x": "Пешеходы захватили часть лондонской Оксфорд-стрит после вступления в силу нового запрета на движение.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 40,
-   "ago": 288,
-   "s": [
-    "Euronews",
-    "ABC News",
-    "Africanews",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/video/2026/10/26/uk-oxford-street-pedestrianisation-begins-in-central-london",
-   "img": "https://images.euronews.com/articles/stories/09/96/79/47/696x392_cmsv2_57536570-ce86-5703-8aa5-1a458c7f1af5-9967947.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 4,
-   "lat": 51.62,
-   "lon": -0.33,
-   "place": "Лондон",
-   "place_en": "London",
-   "id": 24,
-   "t_en": "UK: Oxford Street pedestrianisation begins in central London",
-   "x_en": "Pedestrians have taken over part of London's Oxford Street as a new traffic ban comes into force."
-  },
-  {
-   "t": "Заявка Anthropic на IPO демонстрирует взрывной рост, риски и ошеломляющие затраты.",
-   "x": "Подача документов позволит компании дебютировать на Уолл-стрит в следующем месяце, что потенциально затмит IPO SpaceX.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 63,
-   "ten": 32,
-   "ago": 29,
-   "s": [
-    "Al Jazeera",
-    "CNBC"
-   ],
-   "u": "https://www.aljazeera.com/economy/2026/10/26/anthropics-ipo-filing-shows-explosive-growth-risks-and-staggering-costs?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP24325666568913-1790561963_996dd6-1790562176.jpg?resize=1200%2C630&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.86,
-   "lon": -73.56,
-   "place": "Нью-Йорк",
-   "place_en": "New York",
    "id": 25,
-   "t_en": "Anthropic’s IPO filing shows explosive growth, risks and staggering costs",
-   "x_en": "The filing sets up the company for a Wall Street debut next month, potentially eclipsing SpaceX's IPO."
+   "t_en": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+   "x_en": "Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency."
   },
   {
    "t": "Что означает поражение Вучича для внешней политики Сербии",
    "x": "Тем, кто ожидает, что Белград склонится к Западу, возможно, потребуется терпение, пока новое правительство занимается внутренними проблемами.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 63,
+   "imp": 61,
    "ten": 40,
-   "ago": 38,
+   "ago": 169,
    "s": [
     "Al Jazeera",
+    "CBS News",
     "Reuters"
    ],
    "u": "https://www.aljazeera.com/news/2026/10/26/what-vucics-defeat-means-for-serbias-foreign-policy?traffic_source=rss",
    "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26298849023884-1792998658.jpg?resize=1920%2C1440",
    "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 2,
+   "fresh": false,
+   "n": 3,
    "lat": 43.62,
    "lon": 19.1,
    "place": "Сербия",
@@ -848,132 +831,32 @@
    "x_en": "Those expecting Belgrade to tilt towards the West may need patience while the new government deals with domestic issues."
   },
   {
-   "t": "Нетаньяху опроверг сообщения о том, что он уволит главу администрации",
-   "x": "Премьер-министр Израиля Биньямин Нетаньяху опроверг в понедельник сообщения, циркулирующие в израильских СМИ, об увольнении израильского военного начальника Эяля Замира. «Очередной фейк на панических каналах 12 и 13 накануне выборов: я не собираюсь",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 57,
-   "ago": 55,
+   "t": "Реальное положение Бразилии падает после переизбрания Лулы",
+   "x": "Инвесторы отреагировали на победу Лулы резким падением реального курса и обеспокоенностью по поводу увеличения расходов и финансовых проблем.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 61,
+   "ten": 39,
+   "ago": 360,
    "s": [
-    "Middle East Eye",
-    "Dawn"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-denies-reports-he-will-fire-chief-staff",
-   "img": "https://i.dawn.com/large/2026/10/26110703163ff4c.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.04,
-   "lon": 35.93,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 27,
-   "t_en": "Netanyahu denies reports he will fire chief of staff",
-   "x_en": "Israeli Prime Minister Benjamin Netanyahu denied on Monday reports circulating in Israeli media regarding firing the Israeli military chief, Eyal Zamir. \"Another piece of fake news on panic channels 12 and 13 on the eve of the elections: I have no intention of"
-  },
-  {
-   "t": "Удары суданских военизированных дронов привели к массовым отключениям электроэнергии в восточных штатах",
-   "x": "Силы быстрой поддержки нанесли удар по пяти электростанциям в трех штатах, контролируемых суданской армией. Военизированные силы быстрой поддержки Судана начали скоординированную атаку беспилотников на пять электростанций, что привело к массовым отключениям электроэнергии на востоке страны.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 88,
-   "ago": 239,
-   "s": [
-    "The Guardian",
+    "Al Jazeera",
+    "Euronews",
+    "ABC News",
     "Africanews",
     "The Hindu"
    ],
-   "u": "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states",
-   "img": "https://i.guim.co.uk/img/media/01da2c62d76761f8f011d8881a3751607009102c/216_0_2446_1957/master/2446.jpg?width=700&quality=85&auto=format&fit=max&s=fe825df23bc24843f8673bb12ef47210",
-   "img_src": "The Guardian",
+   "u": "https://www.aljazeera.com/economy/2026/10/26/brazils-real-sinks-after-lulas-re-election-victory?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/96/70/83/696x392_cmsv2_34a57052-7c5a-5a26-aa84-003c449e7555-9967083.jpg",
+   "img_src": "Euronews",
    "fresh": false,
-   "n": 3,
-   "lat": 15.91,
-   "lon": 29.7,
-   "place": "Судан",
-   "place_en": "Sudan",
-   "id": 28,
-   "t_en": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
-   "x_en": "Rapid Support Forces strike five power stations in three states controlled by Sudanese army Sudan’s paramilitary Rapid Support Forces have launched a coordinated drone attack against five power stations, causing mass power outages across the country’s east, a "
-  },
-  {
-   "t": "Макрон обещает «конкретные меры» в ответ на требования французских студентов",
-   "x": "Президент Франции Эммануэль Макрон заявил, что в понедельник (26 октября) правительство объявит о «конкретных мерах» по удовлетворению требований школьников после нескольких недель беспорядков. Премьер-министр Себастьен Лекорню должен был встретиться со студентами позднее в понедельник. ФРАНЦИЯ",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 63,
-   "ago": 201,
-   "s": [
-    "France 24",
-    "Sky News",
-    "Times of India"
-   ],
-   "u": "https://www.france24.com/en/video/20261026-french-president-promises-concrete-measures-in-response-to-french-students-demands",
-   "img": "https://s.france24.com/media/display/f3422bda-cfbf-11f1-9c62-4b25c96ec90e/w:1024/p:16x9/000-D4AX74W.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 47.4,
-   "lon": 1.36,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 29,
-   "t_en": "Macron promises 'concrete measures' in response to French students' demands",
-   "x_en": "French President Emmanuel Macron said the government would announce “concrete measures\" on Monday (October 26) to address school students’ demands after weeks of unrest. Prime Minister Sébastien Lecornu was scheduled to meet with students later Monday. FRANCE "
-  },
-  {
-   "t": "Алжир отправит войска в Нигер впервые с 1973 года",
-   "x": "Ожидается, что войска будут защищать энергетические объекты на севере Нигера, недалеко от ливийской границы.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 66,
-   "ago": 201,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "Euronews"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cm4g14n1e5wko?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e457/live/393c15f0-d11a-11f1-9a61-7b8d75492b97.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 28.87,
-   "lon": 3.02,
-   "place": "Алжир",
-   "place_en": "Algeria",
-   "id": 30,
-   "t_en": "Algeria to send troops to Niger in first foreign deployment since 1973",
-   "x_en": "The troops are expected to protect energy facilities in northern Niger, near the Libyan border."
-  },
-  {
-   "t": "Акции закрылись ростом, поскольку ажиотаж по поводу подачи заявки на IPO Anthropic стимулирует технологический сектор: текущие обновления",
-   "x": "Трейдеры ожидали самой загруженной недели отчетности и решения Федеральной резервной системы, которое должно состояться в среду.",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 61,
-   "ten": 40,
-   "ago": 52,
-   "s": [
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/10/25/stock-market-today-live-updates.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108464631-17930291812026-10-26t153216z_654724425_rc21boa55wz2_rtrmadp_0_usa-stocks.jpeg?v=1793029211&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 31,
-   "t_en": "Stocks close higher as excitement over Anthropic IPO filing propels tech sector: Live updates",
-   "x_en": "Traders looked ahead to the busiest week of earnings and the Federal Reserve's policy decision due on Wednesday."
+   "n": 6,
+   "lat": -9.68,
+   "lon": -51.01,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 27,
+   "t_en": "Brazil’s real sinks after Lula’s re-election victory",
+   "x_en": "Investors react to Lula's victory with a sharp decline in the real and concern over increased spending and fiscal challenges."
   },
   {
    "t": "Атаки на Черном море сократили экспорт украинской пшеницы в Индонезию и Бангладеш",
@@ -995,85 +878,187 @@
    "lon": 34.78,
    "place": "Чёрное море",
    "place_en": "Black Sea",
-   "id": 32,
+   "id": 28,
    "t_en": "Black Sea attacks cut Ukraine wheat exports to Indonesia, Bangladesh",
    "x_en": ""
   },
   {
-   "t": "Великобритания ввела санкции против суданских командиров за изнасилование с применением оружия",
-   "x": "Командирам Сил быстрой поддержки (RSF) и Суданских вооруженных сил грозят поездки и замораживание активов.",
-   "r": "Европа",
-   "c": "Политика",
+   "t": "Заявки Anthropic на IPO показывают резкий рост продаж и огромные убытки",
+   "x": "Гигант искусственного интеллекта Anthropic публично подал заявку на первичное публичное размещение акций (IPO) у регуляторов рынка США. Документ давал представление о финансах компании, но также содержал около 100 страниц, посвященных рискам, связанным с инвестированием в компанию. Подача заявки повторно",
+   "r": "Америка",
+   "c": "Наука",
    "imp": 60,
-   "ten": 63,
-   "ago": 224,
+   "ten": 40,
+   "ago": 64,
    "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "Sky News"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/26/britain-sanctions-sudanese-commanders-over-weaponised-rape?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/c671810cd05b5ef573941d3edd85008c82d9bedf/687_437_3773_3019/master/3773.jpg?width=700&quality=85&auto=format&fit=max&s=524e936e3a83127f39f5d50fd08297b6",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 53.56,
-   "lon": -3.77,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 33,
-   "t_en": "Britain sanctions Sudanese commanders over weaponised rape",
-   "x_en": "Commanders from the Rapid Support Forces (RSF) and Sudanese Armed Forces face travel and asset freezes."
-  },
-  {
-   "t": "Медсестра погибла в результате нападения во время реагирования на предупреждение о вирусе Эбола в ДР Конго",
-   "x": "Сообщается, что местная молодежь обвинила медицинских работников в загрязнении источников воды и распространении Эболы.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 84,
-   "ago": 276,
-   "s": [
-    "BBC",
-    "Africanews",
+    "France 24",
     "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/crx2dyd24188o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0b16/live/de274990-d133-11f1-be77-d1864d279cb0.jpg",
-   "img_src": "BBC",
+   "u": "https://www.france24.com/en/tv-shows/business/20261026-anthropic-s-ipo-filing-shows-soaring-sales-and-steep-losses",
+   "img": "https://s.france24.com/media/display/b8b37604-d186-11f1-9cf6-4d317af013fd/w:1024/p:16x9/202606241200WD-ANTHROPIC-ARCHIVE-O.png",
+   "img_src": "France 24",
    "fresh": false,
    "n": 3,
-   "lat": -2.87,
-   "lon": 22.66,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 34,
-   "t_en": "Nurse killed in attack while responding to Ebola alert in DR Congo",
-   "x_en": "Local youths reportedly accused the health workers of contaminating water sources and spreading Ebola."
+   "lat": 38.63,
+   "lon": -97.98,
+   "place": "США",
+   "place_en": "United States",
+   "id": 29,
+   "t_en": "Anthropic's IPO filing shows soaring sales and steep losses",
+   "x_en": "AI giant Anthropic has publicly filed for an initial public offering (IPO) with US market regulators. The document offered a glimpse into the company's finances but also contained nearly 100 pages related to risks around investing in the company. The filing re"
   },
   {
-   "t": "Мужчина, найденный мертвым во время наводнения в Квинсленде, назван бывшим советником и кандидатом от \"Единой нации\"",
-   "x": "Мэр побережья Фрейзер охарактеризовал Джеймса Хансена как «всегда готового помочь другим, внести свой вклад в жизнь общества и активно защищать интересы». Получайте наши последние новости по электронной почте, в бесплатном приложении или подкасте ежедневных новостей. Джеймс Хансен, бывший советник Квинсленда, был идентифицирован как",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 74,
-   "ago": 21,
+   "t": "Суд заблокировал предложение Министерства юстиции США запретить Калифорнии подсчитывать бюллетени, присланные по почте",
+   "x": "Министерство юстиции США приказало округам Калифорнии отложить и проверить заявления о том, что избирательные бюллетени принадлежат избирателям-негражданам. Апелляционный суд США в понедельник вынес решение против Министерства юстиции Дональда Трампа в крупном споре по поводу голосования в преддверии промежуточных выборов, де",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 60,
+   "ten": 44,
+   "ago": 68,
    "s": [
-    "The Guardian"
+    "The Guardian",
+    "AP"
    ],
-   "u": "https://www.theguardian.com/australia-news/2026/oct/26/man-found-dead-in-queensland-floodwaters-as-state-hit-by-days-long-deluge",
-   "img": "https://i.guim.co.uk/img/media/e6e43fb5c365d9627b5b6c1a267abb30374c3d50/0_0_850_681/master/850.jpg?width=700&quality=85&auto=format&fit=max&s=e9879762a1ac8e1fe8a530cbf1b16026",
+   "u": "https://www.theguardian.com/us-news/2026/oct/26/court-california-ballots",
+   "img": "https://i.guim.co.uk/img/media/9f2bcff7c1f5c030204ad7781402f357847b1064/250_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=c738714cc8cf58677901a3a489bc6337",
    "img_src": "The Guardian",
-   "fresh": true,
-   "n": 1,
+   "fresh": false,
+   "n": 2,
+   "lat": 34.1,
+   "lon": -118.48,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
+   "id": 30,
+   "t_en": "Court blocks bid by Trump DoJ to stop California from counting mail-in ballots",
+   "x_en": "California counties were told by DoJ to set aside and verify ballots administration claims belong to noncitizen voters A ⁠US appeals court on Monday ruled against Donald ⁠Trump’s ​justice department in a major voting dispute ahead ⁠of the midterm elections, de"
+  },
+  {
+   "t": "Медики попали под обстрел, университетский кампус обстрелян в результате атаки российской баллистической ракеты в Киеве: 1 погиб, 10 ранены",
+   "x": "«Российские баллистические ракеты поразили территорию университета в Киеве и территорию вокруг него — фактически кампус, парк Киото, территорию возле станции метро и жилые дома», — заявил президент Владимир Зеленский.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 88,
+   "ago": 124,
+   "s": [
+    "Kyiv Independent",
+    "Reuters"
+   ],
+   "u": "https://kyivindependent.com/paramedics-caught-under-fire-as-russian-ballistic-missiles-slam-kyiv/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/10/Screenshot-2026-10-26-at-5_57_56-PM_20261026-220343_20261026-220459.png",
+   "img_src": "Kyiv Independent",
+   "fresh": false,
+   "n": 2,
+   "lat": 50.14,
+   "lon": 30.45,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 31,
+   "t_en": "Paramedics caught under fire, university campus struck as Russian ballistic missile attack kills 1, injures 10 in Kyiv",
+   "x_en": "\"Russian ballistic missiles struck the grounds of a university in Kyiv and the area around it — effectively the campus, Kyoto Park, the area near a metro station, and residential buildings,\" President Volodymyr Zelensky said."
+  },
+  {
+   "t": "Страны Меккского пакта проводят переговоры с Ираном, чтобы предотвратить возобновление войны на Ближнем Востоке",
+   "x": "Высокопоставленные чиновники Саудовской Аравии, Турции и Пакистана провели в понедельник в Иране переговоры, направленные на предотвращение возобновления боевых действий на Ближнем Востоке, при этом Тегеран назвал переговоры «очень хорошими». Дипломатический толчок, на котором присутствовал министр обороны Саудовской Аравии принц Хал.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 36,
+   "ago": 68,
+   "s": [
+    "France 24",
+    "The Hindu"
+   ],
+   "u": "https://www.france24.com/en/middle-east/20261026-iran-talks-mecca-pact-nations-war",
+   "img": "https://s.france24.com/media/display/484996fa-cd8f-11f1-8da3-4da0d2c6855d/w:1024/p:16x9/2f310afab0f2ee355e67e96c836f9f342820c590.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 2,
+   "lat": 32.96,
+   "lon": 53.96,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 32,
+   "t_en": "Mecca pact nations hold talks with Iran to prevent renewed Middle East war",
+   "x_en": "Senior officials from Saudi Arabia, Turkey and Pakistan held talks in Iran on Monday aimed at preventing renewed fighting in the Middle East, with Tehran describing discussions as “very good”. The diplomatic push, attended by Saudi Defence Minister Prince Khal"
+  },
+  {
+   "t": "Федеральная торговая комиссия и 20 штатов подали в суд на Dollar General, обвиняя торговую сеть в завышении цен с клиентов",
+   "x": "В иске, в котором упоминается расследование Guardian от 2025 года, утверждается, что «пример неточного ценообразования», который «влияет на миллионы покупок» Федеральная торговая комиссия и 20 штатов подали в суд на Dollar General, крупнейшую в стране сеть долларовых магазинов, за постоянное завышение цен.",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 59,
+   "ten": 40,
+   "ago": 70,
+   "s": [
+    "The Guardian",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/oct/26/dollar-general-ftc-lawsuit",
+   "img": "https://i.guim.co.uk/img/media/a34600fdbe0c8c057b324927e3ebe25a7f573372/373_0_3500_2800/master/3500.jpg?width=700&quality=85&auto=format&fit=max&s=8e7210880cd1802348e0edcaaf7e39ce",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 2,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
+   "id": 33,
+   "t_en": "FTC and 20 states sue Dollar General, accusing bargain chain of overcharging customers",
+   "x_en": "Suit that cites 2025 Guardian investigation alleges ‘pattern of inaccurate pricing’ that ‘affects millions of purchases’ The Federal Trade Commission and 20 states have sued Dollar General, the nation’s largest dollar-store chain, for persistently overcharging"
+  },
+  {
+   "t": "Египет одобрил военную поддержку Саудовской Аравии на фоне эскалации атак хуситов",
+   "x": "Египет приближается к региональному конфликту после того, как парламент одобрил военную поддержку Саудовской Аравии на фоне эскалации атак хуситов.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 86,
+   "ago": 314,
+   "s": [
+    "Africanews",
+    "Dawn",
+    "Reuters"
+   ],
+   "u": "http://www.africanews.com/2026/10/26/egypt-approves-military-support-for-saudi-arabia-amid-escalating-houthi-attacks/",
+   "img": "https://images.euronews.com/articles/stories/09/96/77/77/640x360_cmsv2_cf5cee47-0f31-51f8-8991-c2854a421b43-9967777.jpg?1793021482",
+   "img_src": "Africanews",
+   "fresh": false,
+   "n": 4,
+   "lat": 15.3,
+   "lon": 44.03,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 34,
+   "t_en": "Egypt approves military support for Saudi Arabia amid escalating Houthi attacks",
+   "x_en": "Egypt is moving closer to the regional conflict, after parliament approved military support for Saudi Arabia amid escalating Houthi attacks."
+  },
+  {
+   "t": "Ватикан опубликовал обновленную информацию о состоянии здоровья Папы Римского перед поездкой в ​​Южную Америку",
+   "x": "Папа хорошо восстанавливается после операции по поводу рака, и его поездка в Южную Америку состоится, как и планировалось, в следующем месяце, заявили в Ватикане.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 59,
+   "ten": 34,
+   "ago": 393,
+   "s": [
+    "Sky News",
+    "Euronews",
+    "CBS News",
+    "ABC News"
+   ],
+   "u": "https://news.sky.com/story/pope-in-good-health-and-trip-to-south-america-will-go-ahead-as-planned-vatican-says-13604112",
+   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-pope-leo_7388090.jpg?20261026175701",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 4,
+   "lat": 41.91,
+   "lon": 12.62,
+   "place": "Рим",
+   "place_en": "Rome",
    "id": 35,
-   "t_en": "Man found dead in Queensland floods named as former councillor and One Nation candidate",
-   "x_en": "Fraser coast mayor described James Hansen as ‘always ready to help others, contribute to the community and advocate strongly’ Get our breaking news email , free app or daily news podcast James Hansen, a former Queensland councillor, has been identified as the "
+   "t_en": "Vatican issues Pope health update ahead of South America trip",
+   "x_en": "The Pope is recovering well from cancer surgery and his trip to South America will go ahead as planned next month, the Vatican has said."
   },
   {
    "t": "Писатель-фантаст Дэниел Суарес предупреждает об авторитаризме, основанном на искусственном интеллекте",
@@ -1100,80 +1085,29 @@
    "x_en": ""
   },
   {
-   "t": "Президентские выборы в Бразилии — это проверка силы Трампа как создателя королей.",
-   "x": "Сторонники правого кандидата в президенты Флавио Болсонару размахивали американскими флагами и размахивали надувной куклой президента Трампа, сжимающего в руках заключенного президента Луиса Инасио Лулу да Силву на митинге в прошлом месяце в Сан-Паулу, Бразилия.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 58,
-   "ten": 40,
-   "ago": 75,
-   "s": [
-    "NYT",
-    "Reuters"
-   ],
-   "u": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/the-presidential-election-in-brazil-is-a-test-of-trumps-power-as-a-kingmaker",
-   "img": "https://static01.nyt.com/images/2026/09/28/multimedia/il-election-trump-influence-VERSION/28int-brazil-us-election-lgjb-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 2,
-   "lat": -9.38,
-   "lon": -52.12,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 37,
-   "t_en": "The presidential election in Brazil is a test of Trump’s power as a kingmaker.",
-   "x_en": "Supporters of the right-wing presidential candidate Flávio Bolsonaro waved American flags and brandished a blowup doll of President Trump clutching an imprisoned President Luiz Inácio Lula da Silva at a rally last month in São Paulo, Brazil."
-  },
-  {
-   "t": "Франция обещает ввести новый прием в университеты для студентов, чтобы подавить гнев после протестов",
-   "x": "Правительство Франции пообещало заменить национальную онлайн-платформу приема в университеты в 2028 году.",
+   "t": "Франция: толпы людей заполняют Старый порт Марселя в знак протеста против расизма",
+   "x": "Сотни людей собрались в Вье-Пор в Марселе в понедельник вечером, чтобы выразить протест против расизма после смертельной стрельбы недалеко от Парижа. Полиция оценила толпу в 800 человек, а организаторы оценили явку более чем в 1000 человек.",
    "r": "Европа",
    "c": "Политика",
    "imp": 58,
-   "ten": 44,
-   "ago": 83,
+   "ten": 74,
+   "ago": 132,
    "s": [
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/macron-promises-measures-response-french-students-demands-after-137572555",
-   "img": "https://s.abcnews.com/images/International/wirestory_66403512e943e3aee4cdca64ecccfe33_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 2,
-   "lat": 45.88,
-   "lon": 1.95,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 38,
-   "t_en": "France pledges new university admissions for students to quell anger after protests",
-   "x_en": "France’s government has pledged to replace its national online university admissions platform in 2028"
-  },
-  {
-   "t": "Как улицы и социальные сети привели Лулу к историческому возвращению в Бразилию",
-   "x": "Вирусный канал WhatsApp и студенческие протесты сыграли ключевую роль в победе ветерана бразильских левых сил на выборах. После первого тура президентских выборов в Бразилии три недели назад действующий президент левых сил Луис Инасиу Лула да Силва, как сообщается,",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 58,
-   "ten": 37,
-   "ago": 200,
-   "s": [
-    "The Guardian",
     "Euronews",
     "Africanews"
    ],
-   "u": "https://www.theguardian.com/world/2026/oct/26/lula-victory-brazil-bolsonaro-analysis",
-   "img": "https://i.guim.co.uk/img/media/283e1ac50a1454733ab10a8ca77a18f71caf5773/329_0_2134_1709/master/2134.jpg?width=700&quality=85&auto=format&fit=max&s=0bfffba4c88f86a57d2fd3c9feb2c7a6",
-   "img_src": "The Guardian",
+   "u": "https://www.euronews.com/video/2026/10/26/france-crowds-fill-marseilles-old-port-in-anti-racism-protest",
+   "img": "https://images.euronews.com/articles/stories/09/96/82/10/696x392_cmsv2_9875d83c-cdbe-5a94-8773-3e9a78dabbbf-9968210.jpg",
+   "img_src": "Euronews",
    "fresh": false,
-   "n": 3,
-   "lat": -10.7,
-   "lon": -51.53,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 39,
-   "t_en": "How the streets and social media drove Lula to a historic comeback in Brazil",
-   "x_en": "A viral WhatsApp channel and student-led protests played a key role in the veteran Brazilian leftist’s election victory After the first round of the Brazilian presidential election three weeks ago, the leftist incumbent Luiz Inácio Lula da Silva reportedly tol"
+   "n": 2,
+   "lat": 47.19,
+   "lon": 1.8,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 37,
+   "t_en": "France: crowds fill Marseille's Old Port in anti-racism protest",
+   "x_en": "Hundreds of people gathered at Marseille's Vieux-Port on Monday evening to protest against racism following a deadly shooting near Paris. Police estimated the crowd at 800, while organisers put attendance at more than 1,000."
   },
   {
    "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
@@ -1195,20 +1129,60 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 40,
+   "id": 38,
    "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "x_en": ""
+  },
+  {
+   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 39,
+   "t_en": "Dream Big with a Home Equity Loan",
+   "x_en": ""
+  },
+  {
+   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 40,
+   "t_en": "Experts: this is the best cash back card of 2022",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1792957210290,
-   "v": 51
-  },
-  {
-   "t": 1792965749800,
-   "v": 50
-  },
   {
    "t": 1792973255050,
    "v": 49
@@ -1228,133 +1202,137 @@
   {
    "t": 1793049410662,
    "v": 48
+  },
+  {
+   "t": 1793061150223,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1792963010662,
-   "v": 45,
-   "n": 20
-  },
-  {
-   "t": 1792966610662,
-   "v": 44,
-   "n": 25
-  },
-  {
-   "t": 1792970210662,
-   "v": 47,
+   "t": 1792974750223,
+   "v": 50,
    "n": 21
   },
   {
-   "t": 1792973810662,
-   "v": 49,
-   "n": 19
+   "t": 1792978350223,
+   "v": 48,
+   "n": 20
   },
   {
-   "t": 1792977410662,
-   "v": 52,
-   "n": 16
-  },
-  {
-   "t": 1792981010662,
-   "v": 45,
-   "n": 26
-  },
-  {
-   "t": 1792984610662,
+   "t": 1792981950223,
    "v": 42,
-   "n": 26
+   "n": 25
   },
   {
-   "t": 1792988210662,
-   "v": 40,
-   "n": 42
+   "t": 1792985550223,
+   "v": 42,
+   "n": 30
   },
   {
-   "t": 1792991810662,
-   "v": 43,
-   "n": 48
+   "t": 1792989150223,
+   "v": 41,
+   "n": 34
   },
   {
-   "t": 1792995410662,
+   "t": 1792992750223,
    "v": 45,
-   "n": 65
+   "n": 39
   },
   {
-   "t": 1792999010662,
+   "t": 1792996350223,
    "v": 46,
-   "n": 66
+   "n": 44
   },
   {
-   "t": 1793002610662,
-   "v": 46,
-   "n": 59
+   "t": 1792999950223,
+   "v": 47,
+   "n": 53
   },
   {
-   "t": 1793006210662,
-   "v": 51,
+   "t": 1793003550223,
+   "v": 48,
+   "n": 56
+  },
+  {
+   "t": 1793007150223,
+   "v": 52,
+   "n": 57
+  },
+  {
+   "t": 1793010750223,
+   "v": 57,
+   "n": 63
+  },
+  {
+   "t": 1793014350223,
+   "v": 55,
+   "n": 55
+  },
+  {
+   "t": 1793017950223,
+   "v": 54,
    "n": 58
   },
   {
-   "t": 1793009810662,
-   "v": 53,
-   "n": 54
+   "t": 1793021550223,
+   "v": 52,
+   "n": 63
   },
   {
-   "t": 1793013410662,
-   "v": 54,
-   "n": 50
+   "t": 1793025150223,
+   "v": 51,
+   "n": 76
   },
   {
-   "t": 1793017010662,
+   "t": 1793028750223,
    "v": 50,
-   "n": 48
+   "n": 87
   },
   {
-   "t": 1793020610662,
-   "v": 50,
-   "n": 80
-  },
-  {
-   "t": 1793024210662,
+   "t": 1793032350223,
    "v": 49,
    "n": 102
   },
   {
-   "t": 1793027810662,
+   "t": 1793035950223,
    "v": 50,
-   "n": 133
+   "n": 112
   },
   {
-   "t": 1793031410662,
-   "v": 49,
-   "n": 142
-  },
-  {
-   "t": 1793035010662,
-   "v": 49,
-   "n": 165
-  },
-  {
-   "t": 1793038610662,
+   "t": 1793039550223,
    "v": 48,
-   "n": 153
+   "n": 114
   },
   {
-   "t": 1793042210662,
+   "t": 1793043150223,
    "v": 47,
-   "n": 133
+   "n": 115
   },
   {
-   "t": 1793045810662,
-   "v": 44,
-   "n": 142
+   "t": 1793046750223,
+   "v": 46,
+   "n": 114
   },
   {
-   "t": 1793049410662,
+   "t": 1793050350223,
+   "v": 47,
+   "n": 116
+  },
+  {
+   "t": 1793053950223,
+   "v": 46,
+   "n": 102
+  },
+  {
+   "t": 1793057550223,
    "v": 44,
-   "n": 103
+   "n": 126
+  },
+  {
+   "t": 1793061150223,
+   "v": 42,
+   "n": 91
   }
  ],
  "feeds": [
@@ -1368,7 +1346,7 @@
   },
   {
    "n": "DW",
-   "items": 8
+   "items": 6
   },
   {
    "n": "France 24",
@@ -1384,15 +1362,15 @@
   },
   {
    "n": "NPR",
-   "items": 10
+   "items": 9
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 5
   },
   {
    "n": "CNBC",
-   "items": 29
+   "items": 30
   },
   {
    "n": "Euronews",
@@ -1400,7 +1378,7 @@
   },
   {
    "n": "NYT",
-   "items": 36
+   "items": 40
   },
   {
    "n": "Washington Post",
@@ -1412,7 +1390,7 @@
   },
   {
    "n": "ABC News",
-   "items": 25
+   "items": 19
   },
   {
    "n": "CNN",
@@ -1420,15 +1398,15 @@
   },
   {
    "n": "Fox News",
-   "items": 11
+   "items": 9
   },
   {
    "n": "ABC Australia",
-   "items": 19
+   "items": 21
   },
   {
    "n": "CNA",
-   "items": 7
+   "items": 9
   },
   {
    "n": "Times of Israel",
@@ -1436,7 +1414,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 20
+   "items": 0
   },
   {
    "n": "Arab News",
@@ -1444,7 +1422,7 @@
   },
   {
    "n": "Africanews",
-   "items": 37
+   "items": 36
   },
   {
    "n": "Kyiv Independent",
@@ -1460,7 +1438,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 6
+   "items": 14
   },
   {
    "n": "Dawn",
@@ -1492,9 +1470,9 @@
   }
  ],
  "failed": [
-  "UN News",
   "Washington Post",
   "Times of Israel",
+  "Middle East Eye",
   "Arab News"
  ]
 }

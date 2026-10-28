@@ -1,8 +1,8 @@
 {
- "updated": 1793207426990,
+ "updated": 1793223534953,
  "demo": false,
  "total_articles": 689,
- "second_delta": 0,
+ "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
@@ -12,23 +12,23 @@
   },
   {
    "n": "Al Jazeera",
-   "v": 48
+   "v": 51
   },
   {
    "n": "DW",
-   "v": 55
+   "v": 52
   },
   {
    "n": "France 24",
-   "v": 50
+   "v": 47
   },
   {
    "n": "The Guardian",
-   "v": 46
+   "v": 47
   },
   {
    "n": "Sky News",
-   "v": 61
+   "v": 64
   },
   {
    "n": "NPR",
@@ -36,15 +36,15 @@
   },
   {
    "n": "UN News",
-   "v": 53
+   "v": 56
   },
   {
    "n": "CNBC",
-   "v": 42
+   "v": 41
   },
   {
    "n": "Euronews",
-   "v": 52
+   "v": 51
   },
   {
    "n": "NYT",
@@ -52,11 +52,11 @@
   },
   {
    "n": "CBS News",
-   "v": 61
+   "v": 63
   },
   {
    "n": "ABC News",
-   "v": 58
+   "v": 55
   },
   {
    "n": "CNN",
@@ -64,7 +64,7 @@
   },
   {
    "n": "Fox News",
-   "v": 56
+   "v": 57
   },
   {
    "n": "ABC Australia",
@@ -76,15 +76,15 @@
   },
   {
    "n": "Africanews",
-   "v": 49
+   "v": 46
   },
   {
    "n": "Kyiv Independent",
-   "v": 59
+   "v": 46
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 41
   },
   {
    "n": "Nikkei Asia",
@@ -96,7 +96,7 @@
   },
   {
    "n": "Dawn",
-   "v": 48
+   "v": 49
   },
   {
    "n": "Times of India",
@@ -104,11 +104,11 @@
   },
   {
    "n": "The Hindu",
-   "v": 54
+   "v": 52
   },
   {
    "n": "Politico EU",
-   "v": 41
+   "v": 40
   },
   {
    "n": "Japan Times",
@@ -116,17 +116,17 @@
   },
   {
    "n": "Reuters",
-   "v": 45
+   "v": 42
   },
   {
    "n": "AP",
-   "v": 47
+   "v": 48
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 53
+   "v": 51
   },
   {
    "n": "Ближний Восток",
@@ -134,11 +134,11 @@
   },
   {
    "n": "Азия",
-   "v": 43
+   "v": 44
   },
   {
    "n": "Африка",
-   "v": 54
+   "v": 53
   },
   {
    "n": "Америка",
@@ -147,140 +147,45 @@
  ],
  "events": [
   {
-   "t": "Фото: В результате крушения скоростного поезда в Испании погибли 30 человек.",
-   "x": "Министр здравоохранения Моника Гарсия заявила, что сотрудники служб экстренной помощи сосредоточены на спасении выживших.",
+   "t": "В результате крушения скоростного поезда в Испании погибли 68 человек, более 100 получили ранения",
+   "x": "В результате столкновения высокоскоростного поезда к югу от Мадрида в среду погибли 68 человек и еще десятки получили ранения. По словам властей, число жертв, вероятно, возрастет, что стало одной из самых смертоносных катастроф такого рода в Европе в этом столетии. Вторая подобная авария, случившаяся в Испании в этом году, произойдет",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 96,
-   "ten": 77,
-   "ago": 6,
+   "imp": 93,
+   "ten": 70,
+   "ago": 19,
    "s": [
-    "Al Jazeera",
     "France 24",
     "The Guardian",
+    "NPR",
     "CNBC",
     "NYT",
     "CBS News",
     "Fox News",
-    "Dawn",
-    "Japan Times",
     "Reuters",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/gallery/2026/10/28/photos-spain-high-speed-train-collision-kills-30?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/ae847f2a-d2df-11f1-a8ff-a7bbbeea0b20/w:1024/p:16x9/minispain.jpg",
+   "u": "https://www.france24.com/en/spain-high-speed-train-crash-kills-68-injures-over-100",
+   "img": "https://s.france24.com/media/display/9520b7d6-d304-11f1-bd08-811458fcf026/w:1024/p:16x9/EN-20261028-200141-200812-CS.jpg",
    "img_src": "France 24",
    "fresh": true,
-   "n": 12,
-   "lat": 39.65,
-   "lon": -5.1,
+   "n": 11,
+   "lat": 39.72,
+   "lon": -5.24,
    "place": "Испания",
    "place_en": "Spain",
    "id": 1,
-   "t_en": "Photos: Spain high-speed train crash kills 30",
-   "x_en": "Health Minister Monica Garcia says emergency workers are focusing on rescuing survivors."
-  },
-  {
-   "t": "На выборах в Израиле «нет явного победителя», говорит эксперт",
-   "x": "В этом выпуске «Перспективы» мы фокусируемся на результатах выборов в Израиле. Для анализа мы обратились к Йосси Мекельбергу, старшему консультанту программы Chatham House по Ближнему Востоку и Северной Африке. Он говорит нам, что у компании «нет явного победителя».",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 87,
-   "ten": 39,
-   "ago": 28,
-   "s": [
-    "France 24",
-    "NPR",
-    "CBS News",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/tv-shows/perspective/20261028-no-clear-winner-from-israeli-election-expert-says",
-   "img": "https://s.france24.com/media/display/ed79bac8-d2cc-11f1-aa8e-efcc5769f1db/w:1024/p:16x9/capture-23bfea15.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 7,
-   "lat": 31.15,
-   "lon": 35.59,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 2,
-   "t_en": "'No clear winner' from Israeli election, expert says",
-   "x_en": "In this edition of Perspective, we focus on the results of the election in Israel. For analysis, we speak to Yossi Mekelberg, senior consulting fellow at Chatham House's Middle East and North Africa Programme. He tells us there is \"no clear winner\" from the co"
-  },
-  {
-   "t": "Серб застрелен после нападения на офицера возле посольства Израиля, заявил министр",
-   "x": "Власти утверждают, что нападавшим в Белграде был несовершеннолетний мужчина, за которым следили службы безопасности.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 86,
-   "ten": 93,
-   "ago": 104,
-   "s": [
-    "BBC",
-    "DW",
-    "Sky News",
-    "NYT",
-    "ABC News",
-    "Fox News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f8aa/live/94f66d00-d2b4-11f1-8cf0-c5d120932f9f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 8,
-   "lat": 44.79,
-   "lon": 20.84,
-   "place": "Сербия",
-   "place_en": "Serbia",
-   "id": 3,
-   "t_en": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-   "x_en": "Authorities say the attacker in Belgrade was an underage male who was being monitored by security services."
-  },
-  {
-   "t": "Флавио Болсонару приземляется в Майами после поражения на президентских выборах в Бразилии",
-   "x": "Болсонару и его семья бежали в США после постановления Верховного суда Бразилии о сдаче его паспортов.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 85,
-   "ten": 40,
-   "ago": 42,
-   "s": [
-    "Al Jazeera",
-    "DW",
-    "France 24",
-    "The Guardian",
-    "Sky News",
-    "CNBC",
-    "NYT",
-    "Dawn",
-    "Times of India",
-    "The Hindu",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/28/flavio-bolsonaro-lands-in-miami-after-losing-brazils-presidential-election?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/8afb5d34-d2e5-11f1-98a1-75c7729144f1/w:1024/p:16x9/AP26301497988107-1.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 12,
-   "lat": -10.24,
-   "lon": -52.7,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 4,
-   "t_en": "Flavio Bolsonaro lands in Miami after losing Brazil’s presidential election",
-   "x_en": "Bolsonaro and his family fled to the US amid a Brazilian Supreme Court order to surrender his passports."
+   "t_en": "Spain high-speed train crash kills 68, injures over 100",
+   "x_en": "A high-speed train collision south of Madrid killed 68 people and injured scores more on Wednesday, with the toll likely to rise, authorities said, in one of Europe's deadliest such disasters this century. The second such accident to strike Spain this year wil"
   },
   {
    "t": "Сотрудник голландского зоопарка умер после того, как его растерзал леопард",
    "x": "Женщина начала свою карьеру в парке, когда ей было 17 лет, и время от времени проработала там четыре десятилетия.",
    "r": "Мир",
    "c": "Конфликты",
-   "imp": 81,
+   "imp": 91,
    "ten": 61,
-   "ago": 102,
+   "ago": 21,
    "s": [
     "BBC",
     "Sky News",
@@ -290,175 +195,343 @@
    "u": "https://www.bbc.co.uk/news/articles/crwyq90gwg8jo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4d5f/live/cfa3dd20-d22d-11f1-b8e4-17c9744a7f8e.jpg",
    "img_src": "BBC",
-   "fresh": false,
+   "fresh": true,
    "n": 4,
    "lat": 52.48,
    "lon": 5.43,
    "place": "Нидерланды",
    "place_en": "Netherlands",
-   "id": 5,
+   "id": 2,
    "t_en": "Dutch zookeeper dies after being mauled by leopard",
    "x_en": "The woman began her career at the park when she was 17 and had worked there on-and-off for four decades."
   },
   {
-   "t": "Смотреть: На месте смертельной железнодорожной катастрофы в Испании",
-   "x": "Люди погибли после того, как испанский высокоскоростной поезд столкнулся с другим поездом к югу от столицы Мадрида, что сделало это крупнейшей катастрофой в стране с 2013 года.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 77,
-   "ten": 49,
-   "ago": 25,
-   "s": [
-    "BBC",
-    "Euronews",
-    "NYT"
-   ],
-   "u": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97cd/live/4f78dd50-d2e9-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 5,
-   "lat": 39.79,
-   "lon": -2.49,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 6,
-   "t_en": "Watch: At the scene of Spain's deadly train crash",
-   "x_en": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013."
-  },
-  {
-   "t": "Долорес Уэрта, профсоюзный лидер Калифорнии и борец за гражданские права, умерла в возрасте 96 лет",
-   "x": "Уэрта вместе с Сезаром Чавесом стал соучредителем Объединенного профсоюза сельскохозяйственных рабочих, улучшив заработную плату и условия для сельскохозяйственных рабочих. Подпишитесь на информационный бюллетень Breaking News по электронной почте в США. Долорес Уэрта, знаменитый профсоюзный лидер 1960-х годов и борец за гражданские права, умерла в среду в",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 75,
-   "ten": 37,
-   "ago": 30,
+   "t": "Рассел Брэнд заявил суду, что было неправильно использовать известность для «облегчения» секса с женщинами",
+   "x": "Бывший комик, выступающий в суде по обвинению в изнасиловании и сексуальном насилии, говорит, что злоупотребил своим положением, но «согласие важнее, чем сам секс». Рассел Брэнд заявил суду, что он был неправ, использовав свою известность и успех для «облегчения» сексуальной активности с женщинами.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 89,
+   "ten": 40,
+   "ago": 11,
    "s": [
     "The Guardian",
-    "Reuters",
+    "CBS News",
+    "ABC News",
     "AP"
    ],
-   "u": "https://www.theguardian.com/us-news/2026/oct/28/dolores-huerta-dead-california",
-   "img": "https://i.guim.co.uk/img/media/8f7d256aa287ac0a3ed5a442d10503cc4eeab671/492_0_4373_3500/master/4373.jpg?width=700&quality=85&auto=format&fit=max&s=306a06620326162590c413cc05c904e0",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 33.75,
-   "lon": -118.16,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 7,
-   "t_en": "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
-   "x_en": "Huerta co-founded United Farm Workers union with Cesar Chavez, improving pay and conditions for farm workers Sign up for the Breaking News US newsletter email Dolores Huerta, a celebrated 1960s labor union leader and civil rights activist, died on Wednesday in"
-  },
-  {
-   "t": "Результаты выборов в Израиле в прямом эфире: блоку Нетаньяху и основной оппозиции не хватает большинства, поскольку подсчитано 92% бюллетеней",
-   "x": "Оппозиционный блок и коалиция Нетаньяху прогнозируют, что им не хватит 61 места, необходимого для формирования правительства, в то время как палестинские партии надеются на большие успехи Полный отчет: Коалиционные переговоры маячат в Израиле Анализ: Возвышение палестинских партий приведет к перекройке политических земель",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 74,
-   "ten": 34,
-   "ago": 32,
-   "s": [
-    "The Guardian",
-    "Euronews",
-    "NYT"
-   ],
-   "u": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
-   "img": "https://i.guim.co.uk/img/media/b327b608d8b9c67d152fa006b1df8f13666c0a21/0_0_5160_4128/master/5160.jpg?width=700&quality=85&auto=format&fit=max&s=af098e57fb3bd73dd8c3b406e4d96f2a",
+   "u": "https://www.theguardian.com/uk-news/2026/oct/28/russell-brand-trial-testimony",
+   "img": "https://i.guim.co.uk/img/media/0bf364182c51049beb65649321c72a40aa31143d/65_0_1284_1027/master/1284.jpg?width=700&quality=85&auto=format&fit=max&s=e8d780d80103dbe9fcdfb3c7421dd961",
    "img_src": "The Guardian",
    "fresh": true,
    "n": 4,
-   "lat": 30.4,
-   "lon": 35.84,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 3,
+   "t_en": "Russell Brand tells trial it was wrong to use fame to ‘facilitate’ sex with women",
+   "x_en": "Former comedian, in court on rape and sexual assault charges, says he misused position but ‘consent is more important than sex itself’ Russell Brand has told a court that he was wrong to have used his fame and success to “facilitate” sexual activity with women"
+  },
+  {
+   "t": "Путин: Россия — лучший партнёр Африканского континента, а не «колониальный» Запад",
+   "x": "Президент России Владимир Путин заявил лидерам десятков африканских стран, что Москва является их лучшим партнером.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 89,
+   "ten": 37,
+   "ago": 11,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/28/putin-russia-is-african-continents-best-partner-not-colonial-west?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/3402d47c-d316-11f1-961e-a7bbbeea0b20/w:1024/p:16x9/capture-866022cb.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 6,
+   "lat": 61.86,
+   "lon": 95.12,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 4,
+   "t_en": "Putin: Russia is African continent’s best partner, not ‘colonial’ West",
+   "x_en": "Russian President Vladimir Putin told the leaders of dozens of African nations that Moscow was their best partner."
+  },
+  {
+   "t": "Флавио Болсонару приземлился в Майами после поражения на президентских выборах в Бразилии",
+   "x": "Прибытие Болсонару в США положило конец спекуляциям о его местонахождении после того, как он не выполнил приказ о сдаче паспортов.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 40,
+   "ago": 18,
+   "s": [
+    "BBC",
+    "France 24",
+    "The Guardian",
+    "Sky News",
+    "NYT",
+    "CBS News",
+    "Dawn",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c2c/live/4c19c1e0-d2eb-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 11,
+   "lat": -9.43,
+   "lon": -52.52,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 5,
+   "t_en": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+   "x_en": "Bolsonaro's arrival in the US ends speculation about his whereabouts after he failed to comply with an order to surrender his passports."
+  },
+  {
+   "t": "Что будет дальше с бразильцем Флавио Болсонару после поражения на выборах?",
+   "x": "Крайне правый союзник президента США Дональда Трампа сбежал в Майами вместе с женой и детьми.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 87,
+   "ten": 40,
+   "ago": 24,
+   "s": [
+    "Al Jazeera",
+    "DW",
+    "France 24",
+    "Euronews",
+    "Times of India",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/5551a2de-d307-11f1-ab35-75c7729144f1/w:1024/p:16x9/EN-20261028-201254-202039-CS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 7,
+   "lat": -11.04,
+   "lon": -51.68,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 6,
+   "t_en": "What’s next for Brazil’s Flavio Bolsonaro after election defeat?",
+   "x_en": "The far-right ally of US President Donald Trump has fled to Miami with his wife and children."
+  },
+  {
+   "t": "«Si, se puede»: икона гражданских прав в США Долорес Уэрта умерла в возрасте 96 лет",
+   "x": "Влиятельная соосновательница профсоюза США, феминистка и икона борьбы за гражданские права Долорес Уэрта скончалась в среду в Бейкерсфилде, штат Калифорния, сообщила ее семья. Ему приписывают создание прочного «Si, se puede!» сплоченный клич, позже адаптированный бывшим президентом США Бараком Обом",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 40,
+   "ago": 71,
+   "s": [
+    "France 24",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/americas/20261028-si-se-puede-us-civil-rights-icon-dolores-huerta-dies-96",
+   "img": "https://s.france24.com/media/display/aafa5844-d2f7-11f1-a891-75c7729144f1/w:1024/p:16x9/AP26077703606889.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.5,
+   "lon": -99.24,
+   "place": "США",
+   "place_en": "United States",
+   "id": 7,
+   "t_en": "'Si, se puede': US civil rights icon Dolores Huerta dies at 96",
+   "x_en": "Influential US labour union co-founder, feminist, and civil rights icon Dolores Huerta died on Wednesday in Bakersfield, California, her family said. Credited with coining the enduring \"Si, se puede!\" rallying cry later adapted by former US president Barack Ob"
+  },
+  {
+   "t": "Блок Нетаньяху лидирует на выборах в Израиле, но ему не хватает большинства, показывают частичные результаты",
+   "x": "После подсчета 85% бюллетеней партия Нетаньяху «Ликуд» и ее союзники могут получить 53 места в 120-местном Кнессете.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 38,
+   "ago": 74,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Euronews",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3381/live/719a4410-d2f2-11f1-8d86-83eebc838351.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 32.19,
+   "lon": 34.4,
    "place": "Израиль",
    "place_en": "Israel",
    "id": 8,
-   "t_en": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 92% of ballots counted",
-   "x_en": "Opposition bloc and Netanyahu’s coalition predicted to fall short of 61 seats needed to form a government, while Palestinian parties set for big gains Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political lands"
+   "t_en": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+   "x_en": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset."
   },
   {
-   "t": "Трамп говорит, что война с Ираном закончится «когда я этого захочу», поскольку расходы, как сообщается, вырастут до 47 миллиардов долларов",
-   "x": "Заявление Трампа прозвучало после того, как в репортаже The Hill выяснилось, что издержки иранского конфликта выросли до 47 миллиардов долларов.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 74,
-   "ago": 6,
+   "t": "(2-й LD) ФРС сохраняет ключевую процентную ставку стабильной; Уорш: инфляция «слишком высока»",
+   "x": "ВАШИНГТОН, 28 октября (Йонхап) -- Федеральная резервная система США в среду провела б...",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 76,
+   "ten": 44,
+   "ago": 70,
    "s": [
-    "CNBC",
-    "CBS News"
+    "Yonhap",
+    "The Hindu",
+    "Reuters"
    ],
-   "u": "https://www.cnbc.com/2026/10/28/us-iran-war-trump-hormuz-costs-centcom.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108469575-1793187566656-108469575-1793116126073-gettyimages-2301782444-AFP_D4L24FR.jpg?v=1793187587&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.02,
-   "lon": 52.24,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 9,
-   "t_en": "Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion",
-   "x_en": "Trump's statement comes as a report from The Hill revealed that the costs of the Iran conflict have ballooned to $47 billion."
-  },
-  {
-   "t": "Десятки человек погибли в результате крушения скоростного поезда в Испании",
-   "x": "Число жертв возросло после того, как высокоскоростной поезд врезался в заднюю часть другого поезда, остановившегося к югу от Мадрида, в результате чего два вагона сошли с рельсов. Это была вторая крупная железнодорожная авария в Испании в этом году.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 73,
-   "ten": 71,
-   "ago": 90,
-   "s": [
-    "NPR",
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1241+0+0/resize/2000x1241!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F8a%2F417aad664031913c1335e9797e08%2Fap26301360905635.jpg",
-   "img_src": "NPR",
+   "u": "https://en.yna.co.kr/view/AEN20261029000352315",
+   "img": "https://img.yna.co.kr/photo/ap/2026/10/29/PAP20261029052201009_P2.jpg",
+   "img_src": "Yonhap",
    "fresh": false,
-   "n": 3,
-   "lat": 40.74,
-   "lon": -3.84,
+   "n": 6,
+   "lat": 38.79,
+   "lon": -76.97,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 9,
+   "t_en": "(2nd LD) Fed holds key interest rate steady; Warsh says inflation 'too high'",
+   "x_en": "WASHINGTON, Oct. 28 (Yonhap) -- The U.S. Federal Reserve on Wednesday held its b..."
+  },
+  {
+   "t": "Число погибших возросло до 68, десятки получили ранения в результате столкновения высокоскоростного поезда в Испании – как это произошло",
+   "x": "Педро Санчес говорит, что правительство будет действовать в срочном порядке, чтобы «прояснить, что произошло и почему произошла эта трагедия» Полный отчет из Испании Предполагается, что по меньшей мере 30 человек погибли в результате столкновения двух высокоскоростных поездов в провинции Толедо в Испании.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 75,
+   "ten": 51,
+   "ago": 45,
+   "s": [
+    "The Guardian",
+    "Euronews",
+    "Africanews"
+   ],
+   "u": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+   "img": "https://i.guim.co.uk/img/media/1a1d19adddc76b9da28e47e1fd9f01e30de354f2/309_0_2284_1827/master/2284.jpg?width=700&quality=85&auto=format&fit=max&s=94427ce7ddca649ce59c8dc999acb64f",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 4,
+   "lat": 39.85,
+   "lon": -4.21,
    "place": "Испания",
    "place_en": "Spain",
    "id": 10,
-   "t_en": "Dozens are dead in a high-speed train crash in Spain",
-   "x_en": "The toll is rising after a high-speed train between slammed into the rear of another train that had stopped south of Madrid, derailing two cars. It was Spain's second major train accident this year."
+   "t_en": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – as it happened",
+   "x_en": "Pedro Sánchez says the government will act with urgency to ‘clarify what has happened, why this tragedy occurred’ Full report from Spain At least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with "
   },
   {
-   "t": "Бразилия: Флавио Болсонару покидает Аргентину в поисках убежища в США после поражения",
-   "x": "Флавио Болсонару, который проиграл во втором туре выборов в Бразилии действующему президенту Луису Инасио Луле да Силве в воскресенье, сел на рейс в Эквадор после прибытия в Аргентину во вторник вечером, 27 октября. Ожидается, что он приземлится в Майами, как заявил Госдепартамент США.",
+   "t": "Война с Ираном обошлась в 47 миллиардов долларов, заявили военные США",
+   "x": "Согласно новой оценке Центрального командования США, полученной CBS News, по состоянию на середину октября война с Ираном обошлась вооруженным силам США как минимум в 47,1 миллиарда долларов.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 93,
+   "ago": 19,
+   "s": [
+    "CBS News",
+    "Kyiv Independent"
+   ],
+   "u": "https://www.cbsnews.com/news/iran-war-cost-centcom-47-billion/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/05/GettyImages-2028783920_20260502-115024.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.25,
+   "lon": -98.29,
+   "place": "США",
+   "place_en": "United States",
+   "id": 11,
+   "t_en": "Iran war has cost $47 billion, U.S. military says",
+   "x_en": "The war with Iran has cost the U.S. military at least $47.1 billion as of mid-October, according to a new estimate from U.S. Central Command obtained by CBS News."
+  },
+  {
+   "t": "Десятки человек погибли в результате столкновения двух поездов в Испании",
+   "x": "В Испании высокоскоростной поезд врезался в остановившийся поезд, в результате чего погибли по меньшей мере 30 человек. Об этом сообщает Ли Кинири.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 72,
+   "ten": 78,
+   "ago": 257,
+   "s": [
+    "CBS News",
+    "Dawn",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.cbsnews.com/video/dozens-dead-as-two-trains-collide-in-spain/",
+   "img": "https://i.dawn.com/large/2026/10/2816155740c637e.webp",
+   "img_src": "Dawn",
+   "fresh": false,
+   "n": 4,
+   "lat": 40.56,
+   "lon": -3.88,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 12,
+   "t_en": "Dozens dead as two trains collide in Spain",
+   "x_en": "A high-speed train crashed into a stopped train in Spain, causing at least 30 deaths. Leigh Kiniry reports."
+  },
+  {
+   "t": "Главный федеральный судья США, который рассматривал дела 11 сентября, Трампа и Мадуро, умер в возрасте 92 лет",
+   "x": "Элвин Хеллерстайн, главный судья США, который вел судебный процесс против свергнутого венесуэльского лидера Николаса Мадуро и ранее курировал судебные процессы, связанные с нападениями на Всемирный торговый центр 11 сентября и многочисленными делами с участием президента Дональда Трампа,",
    "r": "Америка",
-   "c": "Политика",
+   "c": "Экономика",
    "imp": 71,
-   "ten": 40,
-   "ago": 174,
+   "ten": 46,
+   "ago": 70,
    "s": [
     "France 24",
-    "The Guardian",
-    "NPR",
-    "Euronews",
-    "NYT",
-    "CBS News",
-    "Fox News",
-    "Reuters"
+    "Reuters",
+    "AP"
    ],
-   "u": "https://www.france24.com/en/video/20261028-brazil-flavio-bolsonaro-leaves-argentina-for-alleged-us-asylum-after-defeat",
-   "img": "https://s.france24.com/media/display/dbc8ed9c-d2bf-11f1-9e7c-a7bbbeea0b20/w:1024/p:16x9/capture-c1a689f8.jpg",
+   "u": "https://www.france24.com/en/americas/20261028-top-us-federal-judge-who-handled-9-11-trump-maduro-cases-dies-aged-92",
+   "img": "https://s.france24.com/media/display/03fc7ce6-d2fe-11f1-a7b8-efcc5769f1db/w:1024/p:16x9/2026-10-08T171620Z-1636244633-RC25ZNAVWNT2-RTRMADP-3-USA-VENEZUELA-MADURO-FLORES.jpg",
    "img_src": "France 24",
    "fresh": false,
-   "n": 9,
-   "lat": -10.38,
-   "lon": -51.31,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 11,
-   "t_en": "Brazil: Flavio Bolsonaro leaves Argentina for alleged US asylum after defeat",
-   "x_en": "Flavio Bolsonaro, who lost Brazil's runoff election to incumbent Luiz Inacio Lula da Silva on Sunday, boarded a flight to Ecuador after arriving in Argentina on Tuesday night, October 27. He is expected to land in Miami, as the US State Department said it woul"
+   "n": 3,
+   "lat": 39.66,
+   "lon": -98.87,
+   "place": "США",
+   "place_en": "United States",
+   "id": 13,
+   "t_en": "Top US federal judge who handled 9/11, Trump, Maduro cases dies aged 92",
+   "x_en": "Alvin Hellerstein, a top US judge who was handling the trial against deposed Venezuelan leader Nicholas Maduro and previously oversaw lawsuits stemming from the September 11 attacks on the World Trade Centre and multiple cases involving President Donald Trump,"
+  },
+  {
+   "t": "Пассажиры роскошных круизных судов застряли в Камбодже из-за резкого роста цен на топливо",
+   "x": "Вилла Vie Odyssey приостановила рейс и работает с пассажирами над «временным проживанием».",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 71,
+   "ten": 40,
+   "ago": 185,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "Sky News",
+    "NPR",
+    "CBS News",
+    "Reuters"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 6,
+   "lat": 12.28,
+   "lon": 105.34,
+   "place": "Камбоджа",
+   "place_en": "Cambodia",
+   "id": 14,
+   "t_en": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+   "x_en": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\"."
   },
   {
    "t": "Сингапур и Индонезия создали рабочую группу по борьбе с дымкой от незаконного сжигания",
@@ -481,59 +554,88 @@
    "lon": 104.28,
    "place": "Сингапур",
    "place_en": "Singapore",
-   "id": 12,
+   "id": 15,
    "t_en": "Singapore and Indonesia set up a task force to combat haze from illegal burning",
    "x_en": "Indonesia and Singapore have agreed to work together to tackle illegal land burning, which has caused a toxic haze across Southeast Asia"
   },
   {
-   "t": "Испания: десятки человек погибли в результате столкновения одного скоростного поезда с другим",
-   "x": "В Испании произошла вторая в этом году смертельная авария на высокоскоростном поезде: в среду, 28 октября, один поезд врезался в другой, остановившийся на путях, в результате чего вагоны были разрушены и погибли по меньшей мере 64 человека. Авария приходит с воспоминаниями",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 70,
-   "ten": 61,
-   "ago": 8,
-   "s": [
-    "France 24",
-    "The Guardian"
-   ],
-   "u": "https://www.france24.com/en/video/20261028-spain-dozens-killed-after-one-high-speed-train-slams-into-another",
-   "img": "https://s.france24.com/media/display/ab664304-d2db-11f1-8d4a-47de50b3c1e4/w:1024/p:16x9/EN-20261028-150308-150809-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 4,
-   "lat": 40.88,
-   "lon": -2.7,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 13,
-   "t_en": "Spain: Dozens killed after one high-speed train slams into another",
-   "x_en": "Spain suffered its second deadly high-speed train accident this year when one train on Wednesday, October 28, slammed into another that had stopped on the tracks, with the impact shredding cars and killing at least 64 people. The accident comes with memories s"
-  },
-  {
-   "t": "Нетаньяху борется за свою политическую жизнь на выборах в Израиле",
-   "x": "Во вторник израильтяне проголосовали на одних из самых важных выборов, которые потенциально могут свергнуть премьер-министра Биньямина Нетаньяху и помочь определить будущее войны с Ираном, сектором Газа и отношениями Америки с Ближним Востоком. Мэтт Гутман сообщает f",
-   "r": "Ближний Восток",
+   "t": "Индонезийские студенты требуют принять меры по борьбе с лесными пожарами и растущими расходами",
+   "x": "Сотни индонезийских студентов протестовали против действий правительства по борьбе с лесными пожарами и роста затрат.",
+   "r": "Мир",
    "c": "Политика",
    "imp": 69,
-   "ten": 53,
-   "ago": 13,
+   "ten": 57,
+   "ago": 16,
    "s": [
-    "CBS News",
-    "Dawn"
+    "Al Jazeera",
+    "CNA"
    ],
-   "u": "https://www.cbsnews.com/video/netanyahu-fighting-political-life-israeli-election/",
-   "img": "https://i.dawn.com/large/2026/10/2814044584416b2.webp",
-   "img_src": "Dawn",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/28/aje-onl-nf_indonesian-students-demand-action-on-wildfires-281026?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--PfwIz0BS--/c_crop,h_759,w_1350,x_0,y_164/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/28/res_2168.jpg?itok=Cr-DvnFz",
+   "img_src": "CNA",
    "fresh": true,
    "n": 2,
-   "lat": 30.24,
-   "lon": 35.29,
+   "lat": -1.52,
+   "lon": 118.19,
+   "place": "Индонезия",
+   "place_en": "Indonesia",
+   "id": 16,
+   "t_en": "Indonesian students demand action on wildfires and rising costs",
+   "x_en": "Hundreds of Indonesian students protested against the government's handling of forest fires and rising costs."
+  },
+  {
+   "t": "Бразилия: Лула празднует 81-й день рождения после победы на переизбрании",
+   "x": "Переизбранный президент Бразилии Луис Инасио Лула да Силва отпраздновал свой 81-й день рождения во вторник, 27 октября, с десятками сторонников возле президентского дворца Алворада в Бразилиа, всего через два дня после победы на жестко оспариваемых выборах.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 69,
+   "ten": 29,
+   "ago": 63,
+   "s": [
+    "Euronews",
+    "NYT",
+    "Africanews"
+   ],
+   "u": "https://www.euronews.com/video/2026/10/28/brazil-lula-celebrates-81st-birthday-after-re-election-victory",
+   "img": "https://images.euronews.com/articles/stories/09/97/00/44/696x392_cmsv2_53e1a48c-7624-5986-b6df-ce8e4297ce3a-9970044.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": -10.65,
+   "lon": -52.94,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 17,
+   "t_en": "Brazil: Lula celebrates 81st birthday after re-election victory",
+   "x_en": "Brazil's re-elected President Luiz Inácio Lula da Silva celebrated his 81st birthday on Tuesday, 27 October, with dozens of supporters outside the Alvorada presidential palace in Brasília, just two days after winning a closely contested election."
+  },
+  {
+   "t": "Нападавший с ножом застрелен полицией возле посольства Израиля",
+   "x": "Мужчина с ножами был убит полицией после нападения на офицера возле посольства Израиля в Белграде.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 95,
+   "ago": 373,
+   "s": [
+    "Sky News",
+    "NYT",
+    "ABC News",
+    "Fox News",
+    "The Hindu"
+   ],
+   "u": "https://news.sky.com/story/serbia-knife-attacker-shot-dead-by-police-outside-israeli-embassy-in-belgrade-13604683",
+   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-belgrade-serbia-israeli-embassy_7389358.jpg?20261028075058",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 5,
+   "lat": 30.94,
+   "lon": 34.63,
    "place": "Израиль",
    "place_en": "Israel",
-   "id": 14,
-   "t_en": "Netanyahu fighting for his political life in Israeli election",
-   "x_en": "Israelis voted in one of the most important elections on Tuesday, with the potential to oust Prime Minister Benjamin Netanyahu and help shape the future of the war with Iran, the Gaza Strip and America's relationship with the Middle East. Matt Gutman reports f"
+   "id": 18,
+   "t_en": "Knife attacker shot dead by police outside Israeli embassy",
+   "x_en": "A man carrying knives has been killed by police after attacking an officer outside the Israeli embassy in Belgrade."
   },
   {
    "t": "Nikkei Asia получила золото на WAN-IFRA Asian Media Awards",
@@ -556,18 +658,120 @@
    "lon": 138.46,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 15,
+   "id": 19,
    "t_en": "Nikkei Asia wins gold at WAN-IFRA Asian Media Awards",
    "x_en": "The Japan Times, Ltd. (Chairperson, Publisher and President: Minako Suematsu) has received two awards from the World Association of News and News Publishers (WAN-IFRA) at the WAN-IFRA Asian Media Awards 2026."
+  },
+  {
+   "t": "Акции Microsoft подскочили на 4%, поскольку рост облачных технологий стимулирует рост прибыли и выручки",
+   "x": "Microsoft сообщила о результатах, превзошедших ожидания, благодаря росту доходов Azure на 48%.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 67,
+   "ten": 32,
+   "ago": 2,
+   "s": [
+    "CNBC",
+    "Reuters"
+   ],
+   "u": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108471082-1793218589052-108471082-1793137958265-gettyimages-2300588268-AFP_D3UD8G4.jpeg?v=1793218676&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 20,
+   "t_en": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+   "x_en": "Microsoft reported better-than-expected results driven by 48% growth in Azure revenue."
+  },
+  {
+   "t": "Смотреть: На месте смертельной железнодорожной катастрофы в Испании",
+   "x": "Люди погибли после того, как испанский высокоскоростной поезд столкнулся с другим поездом к югу от столицы Мадрида, что сделало это крупнейшей катастрофой в стране с 2013 года.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 66,
+   "ago": 147,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "NYT"
+   ],
+   "u": "https://www.bbc.co.uk/news/videos/cw5ynjgy3vvgo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97cd/live/4f78dd50-d2e9-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.79,
+   "lon": -2.49,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 21,
+   "t_en": "Watch: At the scene of Spain's deadly train crash",
+   "x_en": "People have been killed after a Spanish high-speed train collided with another train south of the capital Madrid, making this the country's worst disaster since 2013."
+  },
+  {
+   "t": "ЕС отказывается от предложения Канаде начать переговоры об «ассоциированном члене»",
+   "x": "В смягченной версии заявления, которое будет опубликовано по итогам саммита в Монреале, вместо этого предлагается «еще более тесная ассоциация». ЕС отказался от своего предложения Канаде начать переговоры о том, чтобы стать «ассоциированным членом» после того, как разногласия между государствами-членами",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 28,
+   "ago": 11,
+   "s": [
+    "The Guardian",
+    "Politico EU"
+   ],
+   "u": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+   "img": "https://i.guim.co.uk/img/media/24a585605577afb5808339f59d266142de719b65/295_0_2953_2362/master/2953.jpg?width=700&quality=85&auto=format&fit=max&s=9476a4fb1168d4d3ec098ece684c466f",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": 50.59,
+   "lon": 4.74,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 22,
+   "t_en": "EU backs away from offer to Canada to start ‘associate member’ talks",
+   "x_en": "Watered-down version of statement to be issued at end of Montreal summit instead offers ‘ever closer association’ The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just a"
+  },
+  {
+   "t": "В какую сторону пойдет Израиль? Нетаньяху все еще в деле после сюрпризов в ночь выборов",
+   "x": "В Израиле сюрпризы начинаются только в ночь выборов: они все еще подсчитывают бюллетени в голосовании, которое показало самую высокую явку за последние десятилетия, историческое вторжение арабских партий, худший результат Биньямина Нетаньяху с 1999 года и, тем не менее, самого долгого премьер-министра Израиля.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 64,
+   "ten": 37,
+   "ago": 124,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "NYT"
+   ],
+   "u": "https://www.france24.com/en/tv-shows/the-debate/20261028-which-way-will-israel-break-netanyahu-still-in-it-after-election-night-surprises",
+   "img": "https://s.france24.com/media/display/391f5776-d2ff-11f1-8a4b-a7bbbeea0b20/w:1024/p:16x9/2026-10-28T123350Z-597274871-RC2BCOAXNME7-RTRMADP-3-ISRAEL-ELECTION.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 31.79,
+   "lon": 36.09,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 23,
+   "t_en": "Which way will Israel break? Netanyahu still in it after election night surprises",
+   "x_en": "In Israel, the surprises only start with election night: they're still counting ballots in a vote that featured the highest turnout in decades, historic inroads by Arab parties, Benjamin Netanyahu’s worst result since 1999 and yet Israel’s longest-serving prim"
   },
   {
    "t": "Хуситы заявляют, что в результате авиаударов под руководством Саудовской Аравии погибло 14 человек на рынке в северном Йемене, и другие новости Ближнего Востока",
    "x": "Поддерживаемые Ираном повстанцы-хуситы заявляют, что в результате авиаударов под руководством Саудовской Аравии на оживленном рынке на севере Йемена погибли 14 человек",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 68,
+   "imp": 62,
    "ten": 93,
-   "ago": 60,
+   "ago": 115,
    "s": [
     "ABC News",
     "AP"
@@ -581,570 +785,256 @@
    "lon": 44.39,
    "place": "Сана",
    "place_en": "Sanaa",
-   "id": 16,
+   "id": 24,
    "t_en": "Houthis say Saudi-led airstrikes killed 14 at a market in northern Yemen, and other Mideast news",
    "x_en": "Iran-backed Houthi rebels say Saudi-led airstrikes have killed 14 people in a busy market in northern Yemen"
   },
   {
-   "t": "«Реал Мадрид» извинился перед китайцами за высказывание Мбаппе о «диктаторе Мао»",
-   "x": "Высмеивание Мао Цзэдуна является табу в Китае, который является прибыльным рынком для игроков и команд, таких как «Реал» Килиана Мбаппе.",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 68,
-   "ten": 40,
-   "ago": 94,
-   "s": [
-    "Al Jazeera",
-    "CNA",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/sports/2026/10/28/real-madrid-apologise-to-chinese-people-for-mbappes-mao-dictator-remark?traffic_source=rss",
-   "img": "https://dam.mediacorp.sg/image/upload/s--4slip3N3--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/28/000_d4mk7ke_0.jpg?itok=X-QR1zyt",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 4,
-   "lat": 40.6,
-   "lon": -3.8,
-   "place": "Мадрид",
-   "place_en": "Madrid",
-   "id": 17,
-   "t_en": "Real Madrid apologise to Chinese people for Mbappe’s Mao ‘dictator’ remark",
-   "x_en": "Mocking Mao Zedong is taboo in China, which is a lucrative market for players and teams such as Kylian Mbappe's Real."
-  },
-  {
-   "t": "Циклон Арнаб в Индии привлекает внимание к большим потерям из-за экстремальных погодных условий",
-   "x": "Циклон, который пронесся над необычно теплыми океанскими водами, нацелился на часть побережья Индии, заполненную центрами обработки данных стоимостью в миллиарды долларов, подчеркивая угрозы инфраструктуре в мире, где экстремальные погодные условия становятся все более распространенными.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 61,
-   "ago": 125,
-   "s": [
-    "ABC News",
-    "Dawn",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/indias-cyclone-arnab-brings-high-toll-extreme-weather-137638919",
-   "img": "https://s.abcnews.com/images/International/wirestory_04ffc941aa559a55d1774795cd63017d_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": 22.65,
-   "lon": 79.36,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 18,
-   "t_en": "India’s Cyclone Arnab brings high toll of extreme weather into focus",
-   "x_en": "A cyclone that powered up over unusually warm ocean waters is taking aim at a section of India’s coastline that’s dense with billions of dollars in data centers, underscoring the threats to infrastructure in a world where extreme weather is becoming mo..."
-  },
-  {
-   "t": "(2-й LD) Служба по надзору за коммуникациями оштрафовала Google и Apple за политику платежей в приложениях",
-   "x": "СЕУЛ, 28 октября (Рёнхап) -- Регулятор телерадиовещания и телекоммуникаций Южной Кореи...",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 67,
-   "ten": 40,
-   "ago": 156,
-   "s": [
-    "Yonhap",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://en.yna.co.kr/view/AEN20261028010052320",
-   "img": "https://img.yna.co.kr/etc/inner/EN/2026/10/28/AEN20261028010052320_06_i_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": false,
-   "n": 6,
-   "lat": 37.74,
-   "lon": 127.34,
-   "place": "Сеул",
-   "place_en": "Seoul",
-   "id": 19,
-   "t_en": "(2nd LD) Communications watchdog fines Google, Apple over in-app payment policies",
-   "x_en": "SEOUL, Oct. 28 (Yonhap) -- South Korea's broadcasting and telecommunications reg..."
-  },
-  {
-   "t": "Иранский режиссер Джафар Панахи приговорен к новому тюремному заключению, а его активы конфискованы",
-   "x": "Обвинения против него неясны после возвращения в Иран, несмотря на то, что в прошлом году он был приговорен за «пропагандистскую деятельность». Иранский суд приговорил отмеченного наградами кинорежиссера Джафара Панахи новый тюремный срок к пяти годам и одному месяцу и приказал арестовать",
+   "t": "Частичные результаты спорных выборов в Израиле не показывают явного победителя",
+   "x": "Правый блок премьер-министра Биньямина Нетаньяху был ведущим соперником оппозиции Гади Айзенкотом. Арабские партии показали сильные результаты, и ключевой вопрос сейчас заключается в том, рассмотрит ли блок Айзенкота возможность создания с ними коалиции.",
    "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 66,
+   "imp": 61,
    "ten": 40,
-   "ago": 14,
+   "ago": 54,
    "s": [
-    "The Guardian",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/film/2026/oct/28/iran-film-maker-jafar-panahi-new-prison-sentence-assets-seized",
-   "img": "https://i.guim.co.uk/img/media/eeda814a0e57b32cb66caf23aad99c1bc3a01f27/480_226_3047_2438/master/3047.jpg?width=700&quality=85&auto=format&fit=max&s=fff62b2e6895f30ee6bc0f120efd2afe",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.55,
-   "lon": 54.23,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 20,
-   "t_en": "Iranian film-maker Jafar Panahi given new prison sentence and has assets seized",
-   "x_en": "Charges against him are unclear after return to Iran despite being sentenced last year for ‘propaganda activities’ An Iranian court has handed the award-winning film director Jafar Panahi a new prison sentence of five years and one month and ordered the seizur"
-  },
-  {
-   "t": "Федеральная резервная система, вероятно, откажется от повышения ставок, несмотря на рост инфляции",
-   "x": "ФРС во главе с председателем Кевином Уоршем хочет вернуть инфляцию к целевому уровню в 2%, что она обычно и делает, повышая краткосрочную процентную ставку. Более высокие затраты по займам со временем могут снизить расходы и замедлить инфляцию.",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 66,
-   "ten": 57,
-   "ago": 36,
-   "s": [
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.thehindu.com/news/international/federal-reserve-likely-to-skip-rate-hike-despite-elevated-inflation/article71634402.ece",
-   "img": "https://th-i.thgim.com/public/news/national/9kflu3/article71634442.ece/alternates/LANDSCAPE_1200/iStock-1308151210.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 21,
-   "t_en": "Federal Reserve likely to skip rate hike despite elevated inflation",
-   "x_en": "The Fed, led by Chairman Kevin Warsh, wants to return inflation to its 2% target, which it typically does by raising its short-term interest rate. Higher borrowing costs, over time, can cool spending and slow inflation"
-  },
-  {
-   "t": "Испания: первые кадры показывают обломки смертельного крушения высокоскоростного поезда",
-   "x": "По меньшей мере 10 человек погибли в результате столкновения высокоскоростного поезда с другим недалеко от Толедо, Испания. Два вагона сошли с рельсов, и спасателям пришлось разбирать обломки, поскольку власти предупредили, что число погибших может возрасти.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 51,
-   "ago": 125,
-   "s": [
-    "Euronews",
-    "ABC News",
+    "NPR",
     "Africanews"
    ],
-   "u": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
-   "img": "https://images.euronews.com/articles/stories/09/97/01/65/696x392_cmsv2_460f38d5-46e5-5063-b7df-c35e0d4f645f-9970165.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.22,
-   "lon": -3.38,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 22,
-   "t_en": "Spain: First footage reveals wreckage of deadly high-speed train crash",
-   "x_en": "At least 10 people died when a high-speed train struck another near Toledo, Spain. Two carriages derailed, leaving rescuers searching through the wreckage as authorities warned the death toll could rise."
-  },
-  {
-   "t": "Пассажиры роскошных круизных судов застряли в Камбодже из-за резкого роста цен на топливо",
-   "x": "Вилла Vie Odyssey приостановила рейс и работает с пассажирами над «временным проживанием».",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 40,
-   "ago": 248,
-   "s": [
-    "BBC",
-    "Sky News",
-    "NPR",
-    "CBS News",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7eaf/live/69ded4d0-d26f-11f1-a4f1-4fff2e6cf5f3.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 12.28,
-   "lon": 105.34,
-   "place": "Камбоджа",
-   "place_en": "Cambodia",
-   "id": 23,
-   "t_en": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-   "x_en": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\"."
-  },
-  {
-   "t": "Банк Канады повышает процентные ставки впервые за три года",
-   "x": "Центральный банк повысил ключевую ставку на четверть пункта, поскольку растущие цены на энергоносители привели к росту инфляции.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 65,
-   "ten": 44,
-   "ago": 26,
-   "s": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/economy/2026/10/28/bank-of-canada-raises-interest-rates-for-the-first-time-in-three-years?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-06-05T161942Z_1200594537_RC2QNLA9IBV1_RTRMADP_3_CANADA-ECONOMY-1793202755.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
+   "u": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdc%2F82%2F43cadfa0470ab365cccd863897cf%2Fap26300732278823.jpg",
+   "img_src": "NPR",
    "fresh": true,
    "n": 2,
-   "lat": 58.32,
-   "lon": -95.82,
-   "place": "Канада",
-   "place_en": "Canada",
-   "id": 24,
-   "t_en": "Bank of Canada raises interest rates for the first time in three years",
-   "x_en": "The central bank increased the key rate by a quarter point as soaring energy prices pushed up inflation."
-  },
-  {
-   "t": "Путин назвал Маска «гением», пока Украина восстанавливается после удушения Starshield",
-   "x": "«Я хочу отметить, что Илон Маск — гений, настоящий гений», — сказал Путин, похвалив обширную спутниковую сеть миллиардера, в то время как Россия пытается разработать собственный ответ на Starlink.",
-   "r": "Европа",
-   "c": "Наука",
-   "imp": 64,
-   "ten": 36,
-   "ago": 28,
-   "s": [
-    "Kyiv Independent",
-    "Reuters"
-   ],
-   "u": "https://kyivindependent.com/putin-calls-musk-genius-as-ukraine-recovers-from-starshield-throttling/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/08/GettyImages-2276194137_20260831-125035.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 2,
-   "lat": 61.47,
-   "lon": 96.23,
-   "place": "Россия",
-   "place_en": "Russia",
+   "lat": 31.28,
+   "lon": 34.25,
+   "place": "Израиль",
+   "place_en": "Israel",
    "id": 25,
-   "t_en": "Putin calls Musk 'genius' as Ukraine recovers from Starshield throttling",
-   "x_en": "\"I want to point out that Elon Musk is a genius, a real genius,\" Putin said, praising the billionaire's vast satellite network as Russia scrambles to develop its own answer to Starlink."
+   "t_en": "Partial results from Israel's contentious election show no clear winner",
+   "x_en": "Prime Minister Benjamin Netanyahu's right-wing bloc was leading opposition rival Gadi Eisenkot. Arab parties had a strong showing, and a key question now is whether Eisenkot's bloc will consider forming a coalition with them."
   },
   {
-   "t": "Выборы в Израиле: что мы знаем на данный момент",
-   "x": "После подсчета почти всех голосов коалиционное правительство Нетаньяху потеряло большинство, но его основные оппоненты также не смогли получить абсолютного большинства; заметные успехи палестинских партий Выборы в Израиле – текущие обновления Полный отчет: Коалиционные переговоры маячат в Израиле Аналитика",
+   "t": "«Выборы ИИ» в Израиле",
+   "x": "👉Слушайте This IsWhy в своем приложении для подкастов👈",
    "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 64,
-   "ten": 43,
-   "ago": 36,
+   "imp": 61,
+   "ten": 40,
+   "ago": 55,
    "s": [
-    "The Guardian",
+    "Sky News",
     "NYT"
    ],
-   "u": "https://www.theguardian.com/world/2026/oct/28/israel-election-results-what-we-know-so-far-ntwnfb",
-   "img": "https://i.guim.co.uk/img/media/0ee7b9f9277f1c674c56bb041bba3dcc528e70c4/885_268_4648_3718/master/4648.jpg?width=700&quality=85&auto=format&fit=max&s=a844f52fb7dcd27dd8c31cdad2e6c352",
-   "img_src": "The Guardian",
+   "u": "https://news.sky.com/story/israels-ai-election-13604883",
+   "img": "https://e3.365dm.com/26/10/1920x1080/2372610280574340607_7389883.png?20261028143712",
+   "img_src": "Sky News",
    "fresh": true,
-   "n": 3,
-   "lat": 31.77,
-   "lon": 34.88,
+   "n": 2,
+   "lat": 31.36,
+   "lon": 35.71,
    "place": "Израиль",
    "place_en": "Israel",
    "id": 26,
-   "t_en": "Israel election: what we know so far",
-   "x_en": "With nearly all votes counted, Netanyahu’s coalition government has lost its majority, but main opponents also fail to gain outright majority; marked gains by Palestinian parties Israel election – live updates Full report: Coalition talks loom in Israel Analys"
+   "t_en": "Israel's 'AI election'",
+   "x_en": "👉Listen to This Is Why on your podcast app👈"
   },
   {
-   "t": "Десятки тысяч человек бегут из Эфиопии, воюя в соседней Кении",
-   "x": "Десятки тысяч людей пересекли границу Кении, спасаясь от боевых действий между региональными силами в эфиопском городе Мояле.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 48,
-   "ago": 41,
-   "s": [
-    "Al Jazeera",
-    "France 24"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/28/tens-of-thousands-flee-ethiopia-fighting-into-neighbouring-kenya?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/6d010580-c3eb-11f1-bc45-53993c5f1f18/w:1024/p:16x9/000-D2QU7ZZ.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 2,
-   "lat": 9.79,
-   "lon": 40.53,
-   "place": "Эфиопия",
-   "place_en": "Ethiopia",
-   "id": 27,
-   "t_en": "Tens of thousands flee Ethiopia fighting into neighbouring Kenya",
-   "x_en": "Tens of thousands of people have crossed into Kenya, fleeing fighting between regional forces in Ethiopia’s Moyale town."
-  },
-  {
-   "t": "Рассел Брэнд выступает в суде по делу об изнасиловании и сексуальном насилии",
-   "x": "Рассел Брэнд отверг все выдвинутые против него обвинения, выступая в суде по обвинению в изнасиловании и сексуальном насилии в среду.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 40,
-   "ago": 125,
-   "s": [
-    "CBS News",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.cbsnews.com/news/russell-brand-takes-stand-rape-sexual-assault-trial-london/",
-   "img": "https://s.abcnews.com/images/International/wirestory_bf206b34d730e6f1d63cc96f1e25ad72_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 28,
-   "t_en": "Russell Brand takes the stand at his rape and sexual assault trial",
-   "x_en": "Russell Brand denied all the allegations against him as he took the stand in his trial on rape and sexual assault charges on Wednesday."
-  },
-  {
-   "t": "ЕС намерен отказаться от предложения о статусе ассоциированного члена для Канады",
-   "x": "Группа стран, включая Германию, Грецию и Францию, возражала против упоминания ассоциированного членства в совместном заявлении ЕС и Канады.",
+   "t": "Великобритания планирует отправить на орбиту гигантские роботизированные клешни, чтобы захватить два мертвых спутника; Миссия 2029 года",
+   "x": "В рамках новаторской инициативы Великобритания планирует в 2029 году представить новаторский космический корабль, разработанный специально для очистки космического мусора. Используя современное роботизированное оружие, миссия направлена ​​на то, чтобы захватывать и сжигать неактивные спутники, решая проблему эскалации.",
    "r": "Европа",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 36,
-   "ago": 32,
-   "s": [
-    "Politico EU",
-    "Reuters"
-   ],
-   "u": "https://www.politico.eu/article/eu-set-to-scrap-associate-member-status-offer-for-canada/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "img": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/10/28/GettyImages-2295116658-scaled.jpg",
-   "img_src": "Politico EU (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 50.99,
-   "lon": 4.48,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 29,
-   "t_en": "EU set to scrap ‘associate member’ offer for Canada",
-   "x_en": "A group of countries including Germany, Greece and France all objected to mentioning associate membership in a joint EU-Canada statement."
-  },
-  {
-   "t": "Эфиопия получила 12 российских самолетов Су-35 и планирует приобретение С-400",
-   "x": "Премьер-министр Абий Ахмед делает заявление во время саммита в Москве, когда Эфиопия борется с вооруженными группировками в Тыграе и Амхаре.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 36,
-   "ago": 35,
-   "s": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/28/ethiopia-receives-12-russian-su-35-jets-plans-s-400-acquisition?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/HVthEldXsAAOazC-1793191312.jpeg?resize=1200%2C675",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 9.14,
-   "lon": 40.16,
-   "place": "Эфиопия",
-   "place_en": "Ethiopia",
-   "id": 30,
-   "t_en": "Ethiopia receives 12 Russian Su-35 jets, plans S-400 acquisition",
-   "x_en": "PM Abiy Ahmed makes announcement during a Moscow summit as Ethiopia battles armed groups in Tigray and Amhara."
-  },
-  {
-   "t": "Дроны сбили контейнеровоз у берегов Болгарии, экипаж цел и находится на берегу",
-   "x": "Рейтер",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 62,
-   "ago": 72,
-   "s": [
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQnNlcDgxZFhsNU14OGJCVWRKZG1XOWh1MnBjNDNrdjFXSUZaTjRjeWFHVW45QWRPcjYxLXJSVHpyWXdNYkp4YXB1MXo1NE9URS1qN0xFVXZjbW50TU9RVF9nUkgweUZXRnl6NHBRS2hCSDBkaWhNR3duUlFkVUFuTFZIWnAxY0pRNHNpVGt5TXp0YTBxUVY2ZDJwbkpCX2RSRFUtT0VZM0xuQWVuUzMw?oc=5",
-   "img": "",
-   "img_src": "",
-   "fresh": false,
-   "n": 2,
-   "lat": 43.11,
-   "lon": 25.07,
-   "place": "Болгария",
-   "place_en": "Bulgaria",
-   "id": 31,
-   "t_en": "Drones hit container ship off Bulgaria, crew safe and ashore",
-   "x_en": "Reuters"
-  },
-  {
-   "t": "Путин обхаживает лидеров африканских стран на саммите в Москве, чтобы расширить влияние",
-   "x": "Континент приобрел еще большее стратегическое значение для России после полномасштабного вторжения в Украину в 2022 году.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 40,
-   "ago": 155,
-   "s": [
-    "Japan Times",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.japantimes.co.jp/news/2026/10/28/world/politics/putin-africa-moscow-summit/",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/28/thumbs/400x400/570934.jpg",
-   "img_src": "Japan Times",
-   "fresh": false,
-   "n": 3,
-   "lat": 55.63,
-   "lon": 37.5,
-   "place": "Москва",
-   "place_en": "Moscow",
-   "id": 32,
-   "t_en": "Putin courts Africa leaders at Moscow summit to expand influence",
-   "x_en": "The continent has taken on greater strategic importance for Russia since its 2022 full-scale invasion of Ukraine."
-  },
-  {
-   "t": "Египет оштрафовал известного редактора Лину Атталу и закрыл независимое новостное издание Mada Masr",
-   "x": "Предупреждения об ужесточении ограничений на свободу прессы прозвучали после того, как каирский суд признал Атталу виновным в управлении нелицензированным веб-сайтом. Лина Аттала, известная египетская журналистка и главный редактор новостного издания «Мада Маср», была освобождена из-под стражи",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 49,
-   "ago": 174,
-   "s": [
-    "The Guardian",
-    "ABC News",
-    "Africanews"
-   ],
-   "u": "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
-   "img": "https://i.guim.co.uk/img/media/75e7c001f076ab3b02f724b5cffa0f0d6b244e26/320_316_1688_1351/master/1688.jpg?width=700&quality=85&auto=format&fit=max&s=7bbae0e087bf75c2fb77f30ba633ce62",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 25.74,
-   "lon": 30.4,
-   "place": "Египет",
-   "place_en": "Egypt",
-   "id": 33,
-   "t_en": "Egypt fines prominent editor Lina Attalah and shuts independent news outlet Mada Masr",
-   "x_en": "Warnings of escalating clampdown on press freedom come after Cairo court convicts Attalah of managing an unlicensed website Lina Attalah, a prominent Egyptian journalist and the editor-in-chief of the news outlet Mada Masr, has been released from detention by "
-  },
-  {
-   "t": "Испания: Спасатели ищут обломки поезда недалеко от Толедо",
-   "x": "По меньшей мере 68 человек погибли и десятки получили ранения в результате столкновения двух высокоскоростных поездов возле Урды в центральной испанской провинции Толедо в среду, 28 октября. Власти предупредили, что число жертв может возрасти еще больше, поскольку спасатели обыскивают обломки.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 57,
-   "ago": 76,
-   "s": [
-    "Euronews",
-    "Africanews"
-   ],
-   "u": "https://www.euronews.com/video/2026/10/28/spain-rescuers-search-mangled-train-wreckage-near-toledo",
-   "img": "https://images.euronews.com/articles/stories/09/97/08/29/696x392_cmsv2_3ed1edd1-f4fa-5e76-8e39-a332c479f939-9970829.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 2,
-   "lat": 39.93,
-   "lon": -3.49,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 34,
-   "t_en": "Spain: Rescuers search mangled train wreckage near Toledo",
-   "x_en": "At least 68 people have been killed and dozens more injured after two high-speed trains collided near Urda, in central Spain’s Toledo province, on Wednesday, 28 October. Authorities warned the toll could rise further as rescuers searched the wreckage."
-  },
-  {
-   "t": "Почему арабские партии не могут стать «творцами королей» на этих выборах в Израиле",
-   "x": "Прогнозы экзитполов показывают, что если бы блок Айзенкота объединился с арабскими партиями, они потенциально могли бы свергнуть Биби.",
-   "r": "Ближний Восток",
-   "c": "Политика",
+   "c": "Наука",
    "imp": 60,
+   "ten": 66,
+   "ago": 10,
+   "s": [
+    "Times of India"
+   ],
+   "u": "https://timesofindia.indiatimes.com/science/space/the-uk-is-planning-to-send-giant-robotic-claws-into-orbit-to-grab-two-dead-satellites-and-drag-them-into-earths-atmosphere-to-burn-up-a-first-of-its-kind-clean-up-mission-due-to-launch-in-2029-and-the-public-can-help-name-it/articleshow/135269315.cms",
+   "img": "https://static.toiimg.com/photo/msid-135269315,imgsize-112656.cms",
+   "img_src": "Times of India",
+   "fresh": true,
+   "n": 1,
+   "lat": 53.84,
+   "lon": -3.16,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 27,
+   "t_en": "The UK plans to send giant robotic claws into orbit to grab two dead satellites; 2029 mission",
+   "x_en": "In a groundbreaking initiative, the UK plans to unveil a pioneering spacecraft in 2029, designed specifically for the cleanup of space debris. Utilizing advanced robotic arms, the mission aims to snatch up and incinerate inactive satellites, tackling the escal"
+  },
+  {
+   "t": "Исторические успехи партий с арабским большинством на выборах в Израиле",
+   "x": "Две партии с арабским большинством в общей сложности получат исторические 19 мест на фоне рекордной явки на избирательных участках в Израиле во вторник. Избиратели из общины, потомки палестинцев, оставшихся после создания Израиля и составляющие около 20 процентов избирателей.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 59,
    "ten": 40,
    "ago": 66,
    "s": [
-    "Al Jazeera",
-    "France 24"
+    "France 24",
+    "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/28/can-israeli-leader-eisenkot-ally-with-arab-parties-to-unseat-netanyahu?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/a77ae588-d2c7-11f1-b8dd-811458fcf026/w:1024/p:16x9/000-D4LW347.jpg",
+   "u": "https://www.france24.com/en/historic-gains-for-arab-majority-parties-in-israeli-election",
+   "img": "https://s.france24.com/media/display/0517f4d4-d2c2-11f1-9e41-bf69a9ce9852/w:1024/p:16x9/000-D4LX4B4.jpg",
    "img_src": "France 24",
    "fresh": false,
-   "n": 2,
-   "lat": 32.29,
-   "lon": 35.11,
+   "n": 3,
+   "lat": 31.81,
+   "lon": 33.85,
    "place": "Израиль",
    "place_en": "Israel",
-   "id": 35,
-   "t_en": "Why Arab parties may not be the ‘kingmakers’ in this Israeli election",
-   "x_en": "Exit poll projections show that if Eisenkot’s bloc teamed up with Arab parties, they could potentially unseat Bibi."
+   "id": 28,
+   "t_en": "Historic gains for Arab-majority parties in Israeli election",
+   "x_en": "Two Arab-majority parties are set to win a historic 19 seats in total, amid a record turnout at the polls in Israel on Tuesday. Voters from the community, descendants of Palestinians who stayed after Israel's creation and who make up around 20 percent of the p"
   },
   {
-   "t": "Чилийцы стремятся защитить океаны, пострадавшие от интенсивного выращивания лосося",
-   "x": "Отдаленный архипелаг Гуайтекас состоит из более чем 40 небольших островов и является воротами в чилийский регион Патагонии.",
+   "t": "Южная Корея, США и партнеры подтверждают цель денуклеаризации Северной Кореи и поддерживают соблюдение санкций",
+   "x": "ВАШИНГТОН, 28 октября (Рёнхап) -- Южная Корея, США и другие подобные страны...",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 57,
+   "ago": 11,
+   "s": [
+    "Yonhap"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261029000600315",
+   "img": "https://img.yna.co.kr/etc/inner/EN/2026/10/29/AEN20261029000600315_01_i_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 1,
+   "lat": 38.26,
+   "lon": -98.95,
+   "place": "США",
+   "place_en": "United States",
+   "id": 29,
+   "t_en": "S. Korea, U.S., partners reaffirm N. Korea denuclearization goal, back sanctions enforcement",
+   "x_en": "WASHINGTON, Oct. 28 (Yonhap) -- South Korea, the United States and other like-mi..."
+  },
+  {
+   "t": "Сделка NVIDIA Hugging Face на 12,9 миллиардов долларов привлекла внимание Министерства юстиции",
+   "x": "Nvidia столкнулась с расследованием Министерства юстиции США по поводу покупки Hugging Face за 12,9 миллиарда долларов.",
    "r": "Америка",
    "c": "Общее",
    "imp": 58,
-   "ten": 40,
+   "ten": 36,
    "ago": 76,
    "s": [
-    "ABC News",
-    "AP"
+    "CNBC",
+    "Reuters"
    ],
-   "u": "https://abcnews.com/International/wireStory/southern-chile-locals-push-protect-oceans-hurt-intensive-137639233",
-   "img": "https://s.abcnews.com/images/International/wirestory_f928bfe158002de842a8c0f955b5fc63_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108416313-1792099132044-gettyimages-2299644955-AFP_D3B329K.jpeg?v=1793222589&w=1920&h=1080",
+   "img_src": "CNBC (og)",
    "fresh": false,
    "n": 2,
-   "lat": -33.11,
-   "lon": -71.67,
-   "place": "Чили",
-   "place_en": "Chile",
-   "id": 36,
-   "t_en": "Chileans push to protect oceans that have been hurt by intensive salmon farming",
-   "x_en": "The remote Guaitecas Archipelago has more than 40 small islands and is a gateway to Chile’s Patagonia region"
+   "lat": 40.76,
+   "lon": -98.88,
+   "place": "США",
+   "place_en": "United States",
+   "id": 30,
+   "t_en": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
+   "x_en": "Nvidia faces DOJ inquiry over its $12.9 billion purchase of Hugging Face."
   },
   {
-   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
+   "t": "ASICS идет по пятам за Nike в возвращении на рынок США",
    "x": "",
-   "r": "Мир",
-   "c": "Общее",
+   "r": "Америка",
+   "c": "Экономика",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "CNN"
+    "Nikkei Asia"
    ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
-   "img_src": "CNN",
+   "u": "https://asia.nikkei.com/business/consumer/asics-on-nike-s-heels-in-us-market-comeback",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F9%2F3%2F7%2F13357393-2-eng-GB%2F9442b6d4455f-photo_SXM2026102200015473.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 37,
-   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "n": 1,
+   "lat": 38.42,
+   "lon": -99.4,
+   "place": "США",
+   "place_en": "United States",
+   "id": 31,
+   "t_en": "ASICS on Nike's heels in US market comeback",
    "x_en": ""
   },
   {
-   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
+   "t": "Сезон доходов в сфере высоких технологий накаляется в преддверии промежуточных выборов в США",
    "x": "",
-   "r": "Мир",
+   "r": "Америка",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "CNN"
+    "Nikkei Asia"
    ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "",
-   "img_src": "",
+   "u": "https://asia.nikkei.com/spotlight/podcasts/podcast-tech-latest/tech-earnings-season-heats-up-ahead-of-us-midterms",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F0%2F7%2F5%2F13365704-1-eng-GB%2Fd9024f7ef302-TL20261027_denshiban.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.73,
+   "lon": -99.7,
+   "place": "США",
+   "place_en": "United States",
+   "id": 32,
+   "t_en": "Tech earnings season heats up ahead of US midterms",
+   "x_en": ""
+  },
+  {
+   "t": "Бум искусственного интеллекта вызывает кризис печатных плат в глобальной цепочке поставок технологий",
+   "x": "",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/supply-chain/ai-boom-sparks-circuit-board-crunch-across-global-tech-supply-chain",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F0%2F6%2F6%2F13356603-1-eng-GB%2F36c0a4dc6436-IMG_0474-2.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 38,
-   "t_en": "Dream Big with a Home Equity Loan",
+   "id": 33,
+   "t_en": "AI boom sparks circuit board crunch across global tech supply chain",
    "x_en": ""
   },
   {
-   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
+   "t": "Япония изо всех сил пытается привлечь иностранных медсестер на фоне кадрового кризиса",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/health-care/japan-struggles-to-attract-foreign-nurses-amid-staffing-crunch",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F1%2F7%2F4%2F13314714-1-eng-GB%2Fa51f2c3be7a6-photo_SXM2026072300009032.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.18,
+   "lon": 139.6,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 34,
+   "t_en": "Japan struggles to attract foreign nurses amid staffing crunch",
+   "x_en": ""
+  },
+  {
+   "t": "Австралийская компания Woodside выходит из давно застопорившегося газового проекта на Тиморе",
    "x": "",
    "r": "Мир",
    "c": "Общее",
@@ -1152,11 +1042,107 @@
    "ten": 40,
    "ago": 1,
    "s": [
-    "CNN"
+    "Nikkei Asia"
    ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
+   "u": "https://asia.nikkei.com/business/markets/commodities/australia-s-woodside-to-exit-long-stalled-timor-gas-project",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F8%2F3%2F7%2F13367387-1-eng-GB%2F3ee84fe212d9-b.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": -24.37,
+   "lon": 133.28,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 35,
+   "t_en": "Australia's Woodside to exit long-stalled Timor gas project",
+   "x_en": ""
+  },
+  {
+   "t": "Крупнейшие грузоотправители и производители электроэнергии Японии объединяются в создании судов, работающих на аммиаке",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/transportation/japan-s-top-shippers-and-power-producer-unite-on-ammonia-fueled-vessels",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F4%2F0%2F7%2F13367041-1-eng-GB%2Feefa5ec73c49-photo_SXM2025021200010857a.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 37.07,
+   "lon": 138.28,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 36,
+   "t_en": "Japan's top shippers and power producer unite on ammonia-fueled vessels",
+   "x_en": ""
+  },
+  {
+   "t": "Импичмент Саре Дутерте не положит конец политическим амбициям ее семьи",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/opinion/impeaching-sara-duterte-won-t-end-her-family-s-political-ambitions",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F6%2F4%2F7%2F13347464-1-eng-GB%2F637d04e6435a-2026-10-09T025355Z_1150744525_RC2BZNAH41KT_RTRMADP_3_PHILIPPINES-POLITICS.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 37,
+   "t_en": "Impeaching Sara Duterte won't end her family's political ambitions",
+   "x_en": ""
+  },
+  {
+   "t": "5 вещей, которые нужно знать о промежуточных выборах в США и о том, что они значат для Азии",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/u.s.-midterm-elections/5-things-to-know-about-the-us-midterms-and-what-they-mean-for-asia",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F9%2F7%2F6%2F13366797-1-eng-GB%2F864c4e026ef1-photo_SXM2026051400012435.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.86,
+   "lon": -97.48,
+   "place": "США",
+   "place_en": "United States",
+   "id": 38,
+   "t_en": "5 things to know about the US midterms and what they mean for Asia",
+   "x_en": ""
+  },
+  {
+   "t": "Выручка Pop Mart в третьем квартале сократилась вдвое, поскольку увлечение лабубу остывает",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/consumer/pop-mart-s-revenue-halves-in-q3-as-labubu-craze-cools",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F2%2F4%2F8%2F13368426-1-eng-GB%2F90384dcf2054-2025-11-11T164932Z_1745697872_RC2FUHABERQ7_RTRMADP_3_ALIBABA-LIVESHOPPING-LABUBU.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": null,
@@ -1164,39 +1150,35 @@
    "place": "",
    "place_en": "",
    "id": 39,
-   "t_en": "Experts: this is the best cash back card of 2022",
+   "t_en": "Pop Mart's revenue halves in Q3 as Labubu craze cools",
    "x_en": ""
   },
   {
-   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
+   "t": "Субсидии на электромобили в Японии сталкиваются с неопределенным будущим, поскольку «DOGE» страны нацеливается",
    "x": "",
-   "r": "Мир",
-   "c": "Экономика",
+   "r": "Азия",
+   "c": "Общее",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "CNN"
+    "Nikkei Asia"
    ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
+   "u": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-s-ev-subsidies-face-uncertain-future-as-country-s-doge-takes-aim",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F3%2F7%2F9%2F13369734-1-eng-GB%2F8ef2b22e445c-20261027N-EV-charging-2.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "lat": 36.22,
+   "lon": 138.26,
+   "place": "Япония",
+   "place_en": "Japan",
    "id": 40,
-   "t_en": "It's official: now avoid credit card interest into 2024",
+   "t_en": "Japan's EV subsidies face uncertain future as country's 'DOGE' takes aim",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793117081970,
-   "v": 48
-  },
   {
    "t": 1793133499036,
    "v": 48
@@ -1216,139 +1198,143 @@
   {
    "t": 1793207426990,
    "v": 48
+  },
+  {
+   "t": 1793223534953,
+   "v": 47
   }
  ],
  "timeline": [
   {
-   "t": 1793121026990,
-   "v": 57,
-   "n": 23
+   "t": 1793137134953,
+   "v": 42,
+   "n": 20
   },
   {
-   "t": 1793124626990,
-   "v": 57,
-   "n": 24
-  },
-  {
-   "t": 1793128226990,
-   "v": 51,
-   "n": 30
-  },
-  {
-   "t": 1793131826990,
-   "v": 47,
-   "n": 30
-  },
-  {
-   "t": 1793135426990,
-   "v": 43,
-   "n": 25
-  },
-  {
-   "t": 1793139026990,
-   "v": 43,
-   "n": 21
-  },
-  {
-   "t": 1793142626990,
+   "t": 1793140734953,
    "v": 46,
-   "n": 15
+   "n": 14
   },
   {
-   "t": 1793146226990,
-   "v": 49,
+   "t": 1793144334953,
+   "v": 48,
+   "n": 12
+  },
+  {
+   "t": 1793147934953,
+   "v": 48,
    "n": 13
   },
   {
-   "t": 1793149826990,
-   "v": 42,
-   "n": 16
-  },
-  {
-   "t": 1793153426990,
-   "v": 47,
-   "n": 22
-  },
-  {
-   "t": 1793157026990,
-   "v": 48,
-   "n": 30
-  },
-  {
-   "t": 1793160626990,
-   "v": 48,
-   "n": 35
-  },
-  {
-   "t": 1793164226990,
+   "t": 1793151534953,
    "v": 46,
+   "n": 14
+  },
+  {
+   "t": 1793155134953,
+   "v": 53,
+   "n": 18
+  },
+  {
+   "t": 1793158734953,
+   "v": 49,
+   "n": 25
+  },
+  {
+   "t": 1793162334953,
+   "v": 49,
+   "n": 31
+  },
+  {
+   "t": 1793165934953,
+   "v": 46,
+   "n": 48
+  },
+  {
+   "t": 1793169534953,
+   "v": 49,
+   "n": 63
+  },
+  {
+   "t": 1793173134953,
+   "v": 48,
+   "n": 76
+  },
+  {
+   "t": 1793176734953,
+   "v": 49,
+   "n": 69
+  },
+  {
+   "t": 1793180334953,
+   "v": 50,
    "n": 56
   },
   {
-   "t": 1793167826990,
-   "v": 45,
-   "n": 70
+   "t": 1793183934953,
+   "v": 51,
+   "n": 61
   },
   {
-   "t": 1793171426990,
-   "v": 47,
-   "n": 83
+   "t": 1793187534953,
+   "v": 51,
+   "n": 57
   },
   {
-   "t": 1793175026990,
+   "t": 1793191134953,
+   "v": 52,
+   "n": 57
+  },
+  {
+   "t": 1793194734953,
+   "v": 51,
+   "n": 57
+  },
+  {
+   "t": 1793198334953,
    "v": 48,
-   "n": 75
+   "n": 88
   },
   {
-   "t": 1793178626990,
-   "v": 50,
-   "n": 75
-  },
-  {
-   "t": 1793182226990,
-   "v": 49,
-   "n": 71
-  },
-  {
-   "t": 1793185826990,
-   "v": 49,
-   "n": 97
-  },
-  {
-   "t": 1793189426990,
-   "v": 48,
+   "t": 1793201934953,
+   "v": 46,
    "n": 113
   },
   {
-   "t": 1793193026990,
-   "v": 49,
-   "n": 130
+   "t": 1793205534953,
+   "v": 47,
+   "n": 126
   },
   {
-   "t": 1793196626990,
+   "t": 1793209134953,
    "v": 47,
+   "n": 129
+  },
+  {
+   "t": 1793212734953,
+   "v": 46,
+   "n": 142
+  },
+  {
+   "t": 1793216334953,
+   "v": 44,
    "n": 156
   },
   {
-   "t": 1793200226990,
-   "v": 46,
-   "n": 186
+   "t": 1793219934953,
+   "v": 43,
+   "n": 179
   },
   {
-   "t": 1793203826990,
-   "v": 45,
-   "n": 217
-  },
-  {
-   "t": 1793207426990,
-   "v": 44,
-   "n": 145
+   "t": 1793223534953,
+   "v": 42,
+   "n": 126
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 19
+   "items": 25
   },
   {
    "n": "Al Jazeera",
@@ -1356,7 +1342,7 @@
   },
   {
    "n": "DW",
-   "items": 9
+   "items": 11
   },
   {
    "n": "France 24",
@@ -1364,11 +1350,11 @@
   },
   {
    "n": "The Guardian",
-   "items": 33
+   "items": 32
   },
   {
    "n": "Sky News",
-   "items": 7
+   "items": 6
   },
   {
    "n": "NPR",
@@ -1376,7 +1362,7 @@
   },
   {
    "n": "UN News",
-   "items": 10
+   "items": 15
   },
   {
    "n": "CNBC",
@@ -1384,7 +1370,7 @@
   },
   {
    "n": "Euronews",
-   "items": 33
+   "items": 28
   },
   {
    "n": "NYT",
@@ -1396,11 +1382,11 @@
   },
   {
    "n": "CBS News",
-   "items": 23
+   "items": 22
   },
   {
    "n": "ABC News",
-   "items": 25
+   "items": 24
   },
   {
    "n": "CNN",
@@ -1408,11 +1394,11 @@
   },
   {
    "n": "Fox News",
-   "items": 12
+   "items": 11
   },
   {
    "n": "ABC Australia",
-   "items": 18
+   "items": 15
   },
   {
    "n": "CNA",
@@ -1448,7 +1434,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 13
+   "items": 11
   },
   {
    "n": "Dawn",

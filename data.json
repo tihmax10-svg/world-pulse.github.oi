@@ -1,8 +1,8 @@
 {
- "updated": 1793351328729,
+ "updated": 1793375572007,
  "demo": false,
- "total_articles": 678,
- "second_delta": 1,
+ "total_articles": 702,
+ "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
@@ -12,7 +12,7 @@
   },
   {
    "n": "Al Jazeera",
-   "v": 48
+   "v": 52
   },
   {
    "n": "DW",
@@ -20,15 +20,15 @@
   },
   {
    "n": "France 24",
-   "v": 50
+   "v": 57
   },
   {
    "n": "The Guardian",
-   "v": 45
+   "v": 51
   },
   {
    "n": "Sky News",
-   "v": 55
+   "v": 56
   },
   {
    "n": "NPR",
@@ -36,27 +36,27 @@
   },
   {
    "n": "UN News",
-   "v": 67
+   "v": 68
   },
   {
    "n": "CNBC",
-   "v": 42
+   "v": 45
   },
   {
    "n": "Euronews",
-   "v": 46
+   "v": 48
   },
   {
    "n": "NYT",
-   "v": 49
+   "v": 48
   },
   {
    "n": "CBS News",
-   "v": 55
+   "v": 54
   },
   {
    "n": "ABC News",
-   "v": 59
+   "v": 49
   },
   {
    "n": "CNN",
@@ -72,15 +72,15 @@
   },
   {
    "n": "CNA",
-   "v": 47
+   "v": 49
   },
   {
    "n": "Africanews",
-   "v": 44
+   "v": 46
   },
   {
    "n": "Kyiv Independent",
-   "v": 68
+   "v": 60
   },
   {
    "n": "Yonhap",
@@ -92,7 +92,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 43
+   "v": 41
   },
   {
    "n": "Dawn",
@@ -100,7 +100,7 @@
   },
   {
    "n": "Times of India",
-   "v": 37
+   "v": 44
   },
   {
    "n": "The Hindu",
@@ -108,15 +108,15 @@
   },
   {
    "n": "Politico EU",
-   "v": 43
+   "v": 48
   },
   {
    "n": "Japan Times",
-   "v": 44
+   "v": 45
   },
   {
    "n": "Reuters",
-   "v": 45
+   "v": 46
   },
   {
    "n": "AP",
@@ -126,57 +126,275 @@
  "regions": [
   {
    "n": "Европа",
-   "v": 53
+   "v": 54
   },
   {
    "n": "Ближний Восток",
-   "v": 47
+   "v": 48
   },
   {
    "n": "Азия",
-   "v": 47
+   "v": 45
   },
   {
    "n": "Африка",
-   "v": 42
+   "v": 48
   },
   {
    "n": "Америка",
-   "v": 43
+   "v": 46
   }
  ],
  "events": [
   {
-   "t": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
-   "x": "The result means Israel is now set to face a lengthy and likely tricky period of negotiations as party leaders work to form a government.",
+   "t": "Binance заявляет, что в результате крупнейшего крипто-ограбления в истории было украдено 6,3 миллиарда долларов: что мы знаем",
+   "x": "Крупнейшая в мире криптовалютная биржа прекращает вывод средств, поскольку кража связана с северокорейскими хакерами.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 96,
+   "ten": 43,
+   "ago": 6,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "CNBC",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/30/binance-says-6-3bn-stolen-in-biggest-crypto-heist-in-history-what-we-know?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/45b28188-d472-11f1-9c12-bf1914cabd52/w:1024/p:16x9/capture-d6a713ea.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 5,
+   "lat": 40.26,
+   "lon": 126.58,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 1,
+   "t_en": "Binance says $6.3bn stolen in biggest crypto heist in history: What we know",
+   "x_en": "The world’s largest crypto exchange halts withdrawals as the theft is linked to North Korean hackers."
+  },
+  {
+   "t": "Министр транспорта Испании заявил, что не уйдет в отставку из-за катастрофы на высокоскоростной железной дороге",
+   "x": "Оскара Пуэнте начали призывать уйти в отставку после того, как в начале недели столкнулись два высокоскоростных поезда, в результате чего погибли по меньшей мере 69 человек.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 66,
+   "ago": 49,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d136/live/66f1d300-d45c-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": 39.76,
+   "lon": -3.6,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 2,
+   "t_en": "Spain transport minister says he won't resign over high-speed rail disaster",
+   "x_en": "Óscar Puente has been facing calls to resign after two high-speed trains collided earlier in the week, killing at least 69 people."
+  },
+  {
+   "t": "Выборы в Израиле зашли в тупик, поскольку окончательные результаты не показывают явного победителя",
+   "x": "Во вторник выборы в Израиле во время войны оказались зашли в тупик, как показали экзит-поллы: оппозиционный блок Гади Айзенкота идет нога в ногу с лагерем премьер-министра Биньямина Нетаньяху, не оставляя ни одной из сторон четкого пути к власти. Прогнозы указывали на",
    "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 81,
-   "ten": 37,
-   "ago": 72,
+   "imp": 87,
+   "ten": 40,
+   "ago": 28,
    "s": [
-    "Euronews",
+    "France 24",
+    "NYT",
     "Africanews",
-    "Times of India",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/video/20261030-israel-s-election-ends-in-deadlock-as-final-results-show-no-clear-winner",
+   "img": "https://s.france24.com/media/display/9575a300-d470-11f1-ad90-1beafce15fea/w:1024/p:16x9/capture-253001ce.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 6,
+   "lat": 30.69,
+   "lon": 35.98,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 3,
+   "t_en": "Israel's election ends in deadlock as final results show no clear winner",
+   "x_en": "Israel's wartime election appeared deadlocked on Tuesday, exit polls showed, ​with Gadi Eisenkot's opposition bloc running neck and neck with Prime Minister Benjamin Netanyahu's camp, leaving neither side with a clear path to power. The projections pointed to "
+  },
+  {
+   "t": "Иран утверждает, что четыре танкера подорвались на минах в Ормузе, поскольку опасения забастовок растут после промежуточных выборов в США",
+   "x": "Иран заявил, что четыре танкера подорвались на минах в Ормузском проливе, в то время как Тегеран оспорил утверждение США о том, что ключевые судоходные пути были расчищены.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 87,
+   "ten": 50,
+   "ago": 41,
+   "s": [
+    "CNBC",
+    "Euronews",
+    "CBS News",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
+   "img": "https://images.euronews.com/articles/stories/09/97/38/12/696x392_cmsv2_5568411f-41a1-53d1-b852-b4702fff3921-9973812.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 6,
+   "lat": 26.5,
+   "lon": 56.24,
+   "place": "Ормузский пролив",
+   "place_en": "Strait of Hormuz",
+   "id": 4,
+   "t_en": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
+   "x_en": "Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared."
+  },
+  {
+   "t": "Известную российскую газету закрыли под давлением властей",
+   "x": "«Новая газета» была одним из самых громких независимых новостных изданий в России за последние три десятилетия.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 86,
+   "ten": 52,
+   "ago": 45,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "Euronews",
+    "NYT",
+    "Kyiv Independent"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/13b1/live/6aa032d0-d44d-11f1-bfc7-afe23fc6cf5b.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 60.96,
+   "lon": 95.84,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 5,
+   "t_en": "Prominent Russian newspaper shuts down under pressure from authorities",
+   "x_en": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades."
+  },
+  {
+   "t": "Папа Лев XIV стал первым понтификом, проголосовавшим на выборах в США",
+   "x": "Понтифик, уроженец Чикаго, у которого напряженные отношения с Трампом, отправил по почте бюллетень для промежуточных выборов, которые определят контроль над Конгрессом США.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 82,
+   "ten": 40,
+   "ago": 65,
+   "s": [
+    "BBC",
+    "CBS News",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c8a0/live/e3a84f00-d470-11f1-9dda-1ba6fcc7d159.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.73,
+   "lon": -98.19,
+   "place": "США",
+   "place_en": "United States",
+   "id": 6,
+   "t_en": "Pope Leo XIV becomes first pontiff to vote in a US election",
+   "x_en": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress."
+  },
+  {
+   "t": "Информационные компании, занимающиеся блокчейном, связывают Северную Корею со взломом Binance на сумму 6,3 миллиарда долларов",
+   "x": "Крупнейшая в мире криптовалютная биржа сообщила в четверг, что в результате очевидного взлома пострадало около 6,3 миллиарда долларов.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 82,
+   "ten": 44,
+   "ago": 73,
+   "s": [
+    "NPR",
+    "CBS News",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F4e%2F43296d994303a3c15ef19703ff2e%2Fap26302822880513.jpg",
+   "img_src": "NPR",
+   "fresh": false,
+   "n": 4,
+   "lat": 40.34,
+   "lon": 127.35,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 7,
+   "t_en": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+   "x_en": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack."
+  },
+  {
+   "t": "Заключенная в США Криста Пайк рассказала, что проснулась «в замешательстве и боли» после неудачной казни",
+   "x": "Это первое публичное заявление Пайк с тех пор, как она пережила попытку казни с помощью смертельной инъекции в сентябре.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 82,
+   "ten": 53,
+   "ago": 80,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Euronews",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
-   "img": "https://images.euronews.com/articles/stories/09/97/28/31/696x392_cmsv2_3e88cb49-4a37-5347-b297-60a11bf275b7-9972831.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e22e/live/c1455920-d46c-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
    "fresh": false,
    "n": 5,
-   "lat": 31.6,
-   "lon": 35.3,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 1,
-   "t_en": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
-   "x_en": "The result means Israel is now set to face a lengthy and likely tricky period of negotiations as party leaders work to form a government."
+   "lat": 38.51,
+   "lon": -97.83,
+   "place": "США",
+   "place_en": "United States",
+   "id": 8,
+   "t_en": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "x_en": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September."
   },
   {
-   "t": "Hong Kong housing secretary resigns over deadly Tai Po fire",
-   "x": "The blaze that ripped through seven 31-storey tower blocks at the Wang Fuk Court residential complex, which was undergoing renovation work in the northern Tai Po district, was the deadliest in the city since 1948.",
+   "t": "Что мы знаем о взломе Binance на сумму 6,3 миллиарда долларов",
+   "x": "Киберкорреспондент Джо Тайди рассказывает подробнее о том, что, как предполагается, является крупнейшим взломом в истории.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 81,
+   "ten": 48,
+   "ago": 1,
+   "s": [
+    "BBC",
+    "Nikkei Asia",
+    "Dawn"
+   ],
+   "u": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5ae1/live/ab354520-d460-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 9,
+   "t_en": "What we know about Binance's $6.3bn hack",
+   "x_en": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history."
+  },
+  {
+   "t": "Министр жилищного строительства Гонконга подал в отставку из-за смертельного пожара в Тай По",
+   "x": "Пожар, охвативший семь 31-этажных многоквартирных домов жилого комплекса Wang Fuk Court, который находился на реконструкции в северном районе Тай По, стал самым смертоносным в городе с 1948 года.",
    "r": "Азия",
    "c": "Политика",
    "imp": 80,
@@ -196,478 +414,675 @@
    "lon": 115.54,
    "place": "Гонконг",
    "place_en": "Hong Kong",
-   "id": 2,
+   "id": 10,
    "t_en": "Hong Kong housing secretary resigns over deadly Tai Po fire",
    "x_en": "The blaze that ripped through seven 31-storey tower blocks at the Wang Fuk Court residential complex, which was undergoing renovation work in the northern Tai Po district, was the deadliest in the city since 1948."
   },
   {
-   "t": "Mushroom murderer fails to overturn convictions in Australian court challenge",
-   "x": "Erin Patterson argued her trial was unfair due to seven grounds but three appeal judges dismissed them all.",
-   "r": "Мир",
+   "t": "Трамп отменил решение отменить митинги в Канзасе и Айове до промежуточных выборов",
+   "x": "Президент отменил мероприятия в пользу телемитингов, поскольку республиканцам предстоит борьба за сохранение контроля над Конгрессом. Дональд Трамп отменил, а затем сразу же отменил два личных митинга в Канзасе и Айове в эти выходные, как показывают опросы, промежуточные выборы в США.",
+   "r": "Америка",
    "c": "Политика",
    "imp": 80,
-   "ten": 43,
-   "ago": 90,
+   "ten": 40,
+   "ago": 1,
    "s": [
-    "BBC",
-    "Al Jazeera",
     "The Guardian",
-    "NYT",
-    "ABC News",
-    "Reuters",
+    "CNBC",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/ck8dz8j5n993o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2fd0/live/73fed000-d3fa-11f1-ad77-7dc2f7c343f8.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 7,
-   "lat": -25.51,
-   "lon": 133.39,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 3,
-   "t_en": "Mushroom murderer fails to overturn convictions in Australian court challenge",
-   "x_en": "Erin Patterson argued her trial was unfair due to seven grounds but three appeal judges dismissed them all."
+   "u": "https://www.theguardian.com/us-news/2026/oct/30/trump-midterm-rallies-kansas-iowa",
+   "img": "https://i.guim.co.uk/img/media/34a9c871adee54d34bff0bc0a761990ba95332f1/1082_0_5419_4334/master/5419.jpg?width=700&quality=85&auto=format&fit=max&s=f553420059a91b92ebfe3c9eb8c8e1bc",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.35,
+   "lon": -97.98,
+   "place": "США",
+   "place_en": "United States",
+   "id": 11,
+   "t_en": "Trump reverses decision to cancel Kansas and Iowa rallies before midterms",
+   "x_en": "The president cancelled the events in favor of tele-rallies, as Republicans face a fight to retain control of Congress Donald Trump cancelled, and then promptly uncancelled, two in-person rallies in Kansas and Iowa this weekend as polls suggest US midterm elec"
   },
   {
-   "t": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
-   "x": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
-   "r": "Азия",
-   "c": "Общее",
+   "t": "Блок Нетаньяху первым, но без большинства, поскольку арабские партии удерживают баланс сил на выборах в Израиле",
+   "x": "Результат означает, что Израилю теперь предстоит длительный и, вероятно, сложный период переговоров, поскольку партийные лидеры работают над формированием правительства.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 80,
+   "ten": 35,
+   "ago": 74,
+   "s": [
+    "Euronews",
+    "CBS News",
+    "Dawn",
+    "The Hindu",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
+   "img": "https://images.euronews.com/articles/stories/09/97/28/31/696x392_cmsv2_3e88cb49-4a37-5347-b297-60a11bf275b7-9972831.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 6,
+   "lat": 31.6,
+   "lon": 35.3,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 12,
+   "t_en": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
+   "x_en": "The result means Israel is now set to face a lengthy and likely tricky period of negotiations as party leaders work to form a government."
+  },
+  {
+   "t": "Смертельная катастрофа поезда в Испании изменила линию предвыборной борьбы",
+   "x": "Трагедия перевернула избирательную кампанию 29 ноября, сместив внимание с жилья на безопасность.",
+   "r": "Европа",
+   "c": "Политика",
    "imp": 79,
    "ten": 40,
-   "ago": 6,
+   "ago": 92,
+   "s": [
+    "Al Jazeera",
+    "NYT",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/30/spains-train-crash-redraws-the-electoral-battle-ahead-of-the-elections?traffic_source=rss",
+   "img": "https://static01.nyt.com/images/2026/10/29/multimedia/29int-spain-crash-01-cjqk/29int-spain-crash-01-cjqk-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 4,
+   "lat": 41.04,
+   "lon": -3.94,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 13,
+   "t_en": "Spain’s deadly train crash redraws electoral battle lines",
+   "x_en": "The tragedy has upended the November 29 election campaign, shifting attention from housing to security."
+  },
+  {
+   "t": "Шесть человек погибли в результате крушения вертолета в северном индийском штате",
+   "x": "Сообщается, что самолет вылетел из места индуистского паломничества Бадринатх в пятницу днем, после чего потерял связь.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 77,
+   "ten": 66,
+   "ago": 47,
    "s": [
     "BBC",
-    "The Guardian",
-    "CNBC"
+    "CNA",
+    "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/31a8/live/31633420-d43b-11f1-93e1-3b657b665bcf.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6da/live/dd357d00-d448-11f1-97f9-27ebf08d99fe.jpg",
    "img_src": "BBC",
    "fresh": true,
    "n": 3,
-   "lat": 40.75,
-   "lon": 126.95,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 4,
-   "t_en": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
-   "x_en": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor."
+   "lat": 22.16,
+   "lon": 80.48,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 14,
+   "t_en": "Six dead after helicopter crashes in northern Indian state",
+   "x_en": "The aircraft reportedly took off from the Hindu pilgrimage site of Badrinath on Friday afternoon before losing contact."
   },
   {
-   "t": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86",
-   "x": "The British actor Patrick Stewart has died at 86, a statement released on Thursday said. Stewart was an acclaimed actor in Britain with the Royal Shakespeare Company before he starred in the beloved sci-fi TV show \"Star Trek\" in the 80s and later in the \"X-Men",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 72,
-   "ten": 38,
-   "ago": 162,
-   "s": [
-    "France 24",
-    "CBS News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/culture/20261029-patrick-stewart-star-of-star-trek-and-x-men-dies-age-86",
-   "img": "https://s.france24.com/media/display/3f9776de-d3d5-11f1-8290-695cb59fade5/w:1024/p:16x9/AP26302717036908.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": 54.34,
-   "lon": -2.65,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 5,
-   "t_en": "Patrick Stewart, star of 'Star Trek' and 'X men', dies at 86",
-   "x_en": "The British actor Patrick Stewart has died at 86, a statement released on Thursday said. Stewart was an acclaimed actor in Britain with the Royal Shakespeare Company before he starred in the beloved sci-fi TV show \"Star Trek\" in the 80s and later in the \"X-Men"
-  },
-  {
-   "t": "«Абсурд» обвинять человеческую ошибку: смертельная железнодорожная катастрофа в Испании «никогда не должна была» произойти",
-   "x": "После смертельной катастрофы высокоскоростного поезда в Испании к Делано Д'Суза присоединяется Франсиско Бадеа, директор FEM Expert Engineering, эксперт по железнодорожным конструкциям и сертификации PRM. Батеа оспаривает объяснения, которые сводят железнодорожные катастрофы к изолированной человеческой ошибке",
+   "t": "Россия вернулась на чемпионат мира по хоккею после решения спортсуда",
+   "x": "Спортивный арбитражный суд отменил решения ИИХФ, отстранившие Россию от участия в соревнованиях сезона 2026/27.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 72,
-   "ten": 49,
-   "ago": 190,
+   "imp": 76,
+   "ten": 40,
+   "ago": 26,
    "s": [
-    "France 24",
-    "NPR",
-    "ABC News",
+    "Al Jazeera",
+    "Kyiv Independent",
     "AP"
    ],
-   "u": "https://www.france24.com/en/an-absurdity-to-blame-human-error-spain-s-deadly-train-crash-should-never-have-happened",
-   "img": "https://s.france24.com/media/display/7c4f7ce0-d3b5-11f1-a302-695cb59fade5/w:1024/p:16x9/EN-20261029-130810-131417-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 6,
-   "lat": 39.49,
-   "lon": -2.84,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 6,
-   "t_en": "'An absurdity' to blame human error: Spain's deadly train crash 'should never' have happened",
-   "x_en": "Following Spain's deadly high-speed train crash, Delano D'Souza is joined by Francisco Badea, Director of FEM Expert Engineering, Railway Structural & PRM Certification Expert. Batea challenges explanations that reduce railway disasters to isolated human mista"
+   "u": "https://www.aljazeera.com/sports/2026/10/30/russia-back-in-ice-hockey-world-championships-after-sport-court-ruling?traffic_source=rss",
+   "img": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-634501886_20261030-131257.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 3,
+   "lat": 61.47,
+   "lon": 96.36,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 15,
+   "t_en": "Russia back in ice hockey world championships after sport court ruling",
+   "x_en": "Court of Arbitration for Sport overturned IIHF decisions that excluded Russia from events in the 2026-27 season."
   },
   {
-   "t": "Binance hit by $6.3 billion security breach in potential record crypto heist",
-   "x": "Binance said on Thursday that a security breach had affected an estimated $6.3 billion in assets, potentially making it the biggest cryptocurrency heist on record. The world's largest crypto exchange said it had recovered or frozen about $3 billion, while the ",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 69,
-   "ten": 38,
-   "ago": 77,
+   "t": "Кандидат в Сенат Аляски отрицает, что знал о предполагаемом заговоре с целью включить в избирательные бюллетени двух Дэнов Салливанов",
+   "x": "Дэн С. Салливан, действующий сенатор-республиканец, баллотирующийся на переизбрание, и его союзники обвинили демократов в попытке запутать избирателей, вербовав Дэна Дж. Салливана для участия в предвыборной гонке.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 74,
+   "ten": 49,
+   "ago": 52,
    "s": [
-    "France 24",
-    "Dawn",
-    "Reuters"
+    "BBC",
+    "The Guardian",
+    "AP"
    ],
-   "u": "https://www.france24.com/en/technology/20261030-binance-security-breach-has-6-3-billion-impact-in-potential-record-crypto-heist",
-   "img": "https://s.france24.com/media/display/ac356662-d401-11f1-8552-d18c5759e759/w:1024/p:16x9/Part-GTY-1496426886-1-1-2.jpg",
-   "img_src": "France 24",
+   "u": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4570/live/1ef80da0-d46e-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.98,
+   "lon": -100.04,
+   "place": "США",
+   "place_en": "United States",
+   "id": 16,
+   "t_en": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+   "x_en": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also stand in the race."
+  },
+  {
+   "t": "Горячие источники Бутана пострадали от наводнения из-за прорыва ледникового озера",
+   "x": "О пострадавших после прорыва ледникового озера, вызвавшего внезапное наводнение и разрушившего горячие источники Гаса Тшачу в Бутане, не сообщалось.",
+   "r": "Мир",
+   "c": "Природа",
+   "imp": 72,
+   "ten": 57,
+   "ago": 80,
+   "s": [
+    "Al Jazeera",
+    "CNA",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/30/bhutan-hot-springs-hit-by-flood-from-glacial-lake-burst?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--4KCI2h9R--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/30/screenshot_2026-10-30_123506.png?itok=qh5hLDlW",
+   "img_src": "CNA",
    "fresh": false,
-   "n": 5,
+   "n": 3,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 7,
-   "t_en": "Binance hit by $6.3 billion security breach in potential record crypto heist",
-   "x_en": "Binance said on Thursday that a security breach had affected an estimated $6.3 billion in assets, potentially making it the biggest cryptocurrency heist on record. The world's largest crypto exchange said it had recovered or frozen about $3 billion, while the "
-  },
-  {
-   "t": "Северная Корея испытывает ударные дроны, а Ким призывает к «абсолютному превосходству»",
-   "x": "Государственные СМИ сообщили в пятницу, что Северная Корея испытала ударные дроны, крылатые ракеты и ракетные установки во время демонстрации оружия, поскольку Ким Чен Ын призвал к более быстрому развитию военных беспилотников и технологий искусственного интеллекта. Тесты следуют серии",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 95,
-   "ago": 173,
-   "s": [
-    "France 24",
-    "CNA",
-    "Japan Times"
-   ],
-   "u": "https://www.france24.com/en/asia-pacific/20261030-north-korea-tests-attack-drones-as-kim-calls-for-absolute-superiority",
-   "img": "https://s.france24.com/media/display/8f840fcc-d3f3-11f1-bc65-1beafce15fea/w:1024/p:16x9/2026-10-29T230502Z-1125020976-RC29DOAMMSDH-RTRMADP-3-NORTHKOREA-ARMS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 40.22,
-   "lon": 126.2,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 8,
-   "t_en": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
-   "x_en": "North Korea has tested attack drones, cruise missiles and rocket launchers at a weapons demonstration, state media reported Friday, as Kim Jong Un called for faster development of military drone and artificial intelligence technology. The tests follow a series"
-  },
-  {
-   "t": "Японская ANA Holdings купит региональные авиакомпании для увеличения количества внутренних рейсов",
-   "x": "ANA Holdings изучает возможность эксплуатации двух авиакомпаний под брендом ANA в среднесрочной перспективе.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "Japan Times"
-   ],
-   "u": "https://asia.nikkei.com/business/transportation/japan-s-ana-holdings-to-buy-regional-airlines-to-enhance-domestic-flights",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/29/thumbs/400x400/571318.jpg",
-   "img_src": "Japan Times",
-   "fresh": true,
-   "n": 2,
-   "lat": 36.27,
-   "lon": 137.64,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 9,
-   "t_en": "Japan's ANA Holdings to buy regional airlines to enhance domestic flights",
-   "x_en": "ANA Holdings is exploring the possibility of operating the two airlines under the ANA brand in the medium term."
-  },
-  {
-   "t": "DR Congo: A centre celebrates the discharge of last Ebola patients",
-   "x": "Medical staff and residents at a treatment centre in Ituri danced and sang to celebrate a first since May: the centre is no longer treating any confirmed Ebola cases.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 29,
-   "ago": 75,
-   "s": [
-    "France 24",
-    "Euronews",
-    "Africanews"
-   ],
-   "u": "https://www.france24.com/en/video/20261029-dr-congo-a-centre-celebrates-the-discharge-of-last-ebola-patients",
-   "img": "https://s.france24.com/media/display/aed2a692-d3ba-11f1-b307-695cb59fade5/w:1024/p:16x9/EN-RDC-Ebola-10.png",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": -4.11,
-   "lon": 23.41,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 10,
-   "t_en": "DR Congo: A centre celebrates the discharge of last Ebola patients",
-   "x_en": "Medical staff and residents at a treatment centre in Ituri danced and sang to celebrate a first since May: the centre is no longer treating any confirmed Ebola cases."
-  },
-  {
-   "t": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
-   "x": "Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 68,
-   "ten": 51,
-   "ago": 110,
-   "s": [
-    "CNBC",
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
-   "img": "https://th-i.thgim.com/public/news/national/5x0xtk/article71642057.ece/alternates/LANDSCAPE_1200/iStock-2264193758.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 26.5,
-   "lon": 56.24,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 11,
-   "t_en": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
-   "x_en": "Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared."
+   "id": 17,
+   "t_en": "Bhutan hot springs hit by flood from glacial lake burst",
+   "x_en": "No injuries reported after glacial lake burst, causing a flash flood and disrupting Bhutan's Gasa Tshachu hot springs."
   },
   {
    "t": "В результате атаки российского беспилотника на украинский вокзал погибли по меньшей мере 14 человек, заявляют официальные лица",
    "x": "По меньшей мере 14 человек получили ранения в результате нападения в центре Днепра, в том числе 11-летний мальчик.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 68,
-   "ten": 95,
-   "ago": 394,
+   "imp": 72,
+   "ten": 68,
+   "ago": 93,
    "s": [
     "BBC",
-    "UN News",
-    "NYT",
-    "Kyiv Independent"
+    "Al Jazeera",
+    "UN News"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c9p8gdlz1p2ko?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9946/live/591e3810-d3b5-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 4,
+   "n": 3,
    "lat": 61.73,
    "lon": 95.99,
    "place": "Россия",
    "place_en": "Russia",
-   "id": 12,
+   "id": 18,
    "t_en": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
    "x_en": "At least 14 others were wounded in the attack in the central city of Dnipro, including an 11-year-old boy."
   },
   {
-   "t": "New ‘Call of Duty’ Game Draws Criticism for Using Footage of Deadly Seoul Crowd Crush",
-   "x": "Call of Duty: Modern Warfare 4 uses actual visuals from a Halloween crowd crush in South Korea, in which over 150 people died in a narrow alleyway.",
-   "r": "Азия",
+   "t": "Трамп предсказывает, что война с Ираном скоро закончится, поскольку Катар будет настаивать на соглашении",
+   "x": "Трамп прогнозирует, что война с Ираном «скоро закончится», не раскрывая никаких подробностей, поскольку катарские посредники возвращаются в Тегеран, чтобы добиться заключения соглашения.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 70,
+   "ago": 15,
+   "s": [
+    "CBS News",
+    "Reuters"
+   ],
+   "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+   "img": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/30/6861dff3-34d6-496b-a11f-ad14b9228936/thumbnail/1200x630/865a67ecaaffb5727a37fc942110b0ff/hvy6j5dwyaajcje.jpg",
+   "img_src": "CBS News (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.85,
+   "lon": -99.74,
+   "place": "США",
+   "place_en": "United States",
+   "id": 19,
+   "t_en": "Trump predicts Iran war will end soon as Qatar pushes for a deal",
+   "x_en": "Trump predicts the war with Iran is \"going to end soon,\" without offering any details, as Qatari mediators return to Tehran to push for a deal."
+  },
+  {
+   "t": "Королю грозят призывы к извинениям и репарациям за рабство в Карибском бассейне",
+   "x": "Король Карл III сталкивается с новыми призывами к извинениям за рабство и возмещению ущерба во время визита в Карибское море, поскольку протестующие требуют: «Заплатите нам то, что вы нам должны».",
+   "r": "Америка",
    "c": "Общее",
-   "imp": 67,
-   "ten": 40,
-   "ago": 7,
+   "imp": 69,
+   "ten": 43,
+   "ago": 89,
    "s": [
-    "NYT",
-    "Yonhap"
+    "CBS News",
+    "Africanews",
+    "Reuters"
    ],
-   "u": "https://www.nytimes.com/2026/10/30/world/asia/call-of-duty-seoul-itaweon-crowd-crush.html",
-   "img": "https://static01.nyt.com/images/2026/10/30/multimedia/30int-skorea-game-clkj/30int-skorea-game-clkj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 37.64,
-   "lon": 126.74,
-   "place": "Сеул",
-   "place_en": "Seoul",
-   "id": 13,
-   "t_en": "New ‘Call of Duty’ Game Draws Criticism for Using Footage of Deadly Seoul Crowd Crush",
-   "x_en": "Call of Duty: Modern Warfare 4 uses actual visuals from a Halloween crowd crush in South Korea, in which over 150 people died in a narrow alleyway."
-  },
-  {
-   "t": "Smoke from wildfires killed 3,500 people in Indonesia in September: Report",
-   "x": "Persistent wildfires sparked by drought have enveloped the region in smog.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 74,
-   "ago": 48,
-   "s": [
-    "Al Jazeera",
-    "Japan Times"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/30/smoke-from-wildfires-killed-3500-people-in-indonesia-in-september-report?traffic_source=rss",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/30/thumbs/400x400/571471.jpg",
-   "img_src": "Japan Times",
-   "fresh": true,
-   "n": 2,
-   "lat": -2.84,
-   "lon": 118.07,
-   "place": "Индонезия",
-   "place_en": "Indonesia",
-   "id": 14,
-   "t_en": "Smoke from wildfires killed 3,500 people in Indonesia in September: Report",
-   "x_en": "Persistent wildfires sparked by drought have enveloped the region in smog."
-  },
-  {
-   "t": "Kim attends a North Korean drone exhibition and calls for boosting the technology",
-   "x": "North Korea says leader Kim Jong Un attended a drone-only exhibition and called for rapidly expanding the country’s drone technology",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 68,
-   "ago": 138,
-   "s": [
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/north-koreas-kim-calls-rapid-expansion-drone-technology-137691773",
-   "img": "https://s.abcnews.com/images/International/wirestory_5463d80298f436724c345b64eb7b5c56_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.cbsnews.com/news/king-charles-slavery-apology-reparations-caribbean-tour-2026/",
+   "img": "https://images.euronews.com/articles/stories/09/97/31/11/640x360_cmsv2_ddb23ff2-f747-5327-b345-18b6327304be-9973111.jpg?1793351105",
+   "img_src": "Africanews",
    "fresh": false,
    "n": 3,
-   "lat": 39.74,
-   "lon": 128.18,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 15,
-   "t_en": "Kim attends a North Korean drone exhibition and calls for boosting the technology",
-   "x_en": "North Korea says leader Kim Jong Un attended a drone-only exhibition and called for rapidly expanding the country’s drone technology"
+   "lat": 55.07,
+   "lon": -1.59,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 20,
+   "t_en": "King faces calls for apology, slavery reparations in Caribbean",
+   "x_en": "King Charles III faces renewed calls for a slavery apology and reparations on a visit to the Caribbean, as protesters demand: \"Pay us what you owe us.\""
   },
   {
-   "t": "Глава Европейского центрального банка (ЕЦБ) Кристин Лагард уйдет в отставку в феврале, до истечения ее срока полномочий.",
-   "x": "Президент Европейского центрального банка (ЕЦБ) Кристин Лагард уйдет в отставку за девять месяцев до окончания своего восьмилетнего срока. Председатель Европейского совета Антонио Коста заявил, что процесс поиска преемника уже идет.",
+   "t": "Украина: В Чернигове в результате удара России погибли две девочки-подростка",
+   "x": "По словам местных чиновников, в результате российского удара по Чернигову погибли две 15-летние девочки и было ранено 25 человек. Между тем, прекращение огня при посредничестве США на юге Украины позволяет проводить работы по разминированию, направленные на открытие гуманитарных маршрутов.",
    "r": "Европа",
-   "c": "Экономика",
-   "imp": 67,
-   "ten": 40,
-   "ago": 244,
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 95,
+   "ago": 164,
    "s": [
-    "DW",
-    "Sky News",
+    "Euronews",
+    "Africanews",
+    "Kyiv Independent"
+   ],
+   "u": "https://www.euronews.com/video/2026/10/30/ukraine-russian-strike-kills-two-teenage-girls-in-chernihiv",
+   "img": "https://images.euronews.com/articles/stories/09/97/26/67/696x392_cmsv2_72194766-53cf-5c75-a033-89c12ebde793-9972667.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": 49.45,
+   "lon": 31.21,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 21,
+   "t_en": "Ukraine: Russian strike kills two teenage girls in Chernihiv",
+   "x_en": "A Russian strike on Chernihiv killed two 15-year-old girls and injured 25 people, local officials say. Meanwhile, a US-brokered ceasefire in southern Ukraine is allowing demining work aimed at opening humanitarian routes."
+  },
+  {
+   "t": "Смотреть: Утечка аудио рассказывает о крушении поезда в Испании",
+   "x": "Записи между центром управления и машинистами поездов показывают, что одному поезду было дано разрешение на движение, хотя другой поезд застрял на пути.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 58,
+   "ago": 19,
+   "s": [
+    "BBC",
+    "France 24"
+   ],
+   "u": "https://www.bbc.co.uk/news/videos/c6vgjeg0myzgo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d46f/live/7d9cd370-d3e4-11f1-9caf-3b69fd8bbd8b.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": 41.2,
+   "lon": -4.38,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 22,
+   "t_en": "Watch: What leaked audio reveals about Spain train crash",
+   "x_en": "Recordings between a control centre and the train drivers appear to show one train was given clearance to move even though another train had stalled on the track."
+  },
+  {
+   "t": "США: цветы возложены к голливудской звезде Патрика Стюарта после его смерти",
+   "x": "Цветы были возложены на Голливудской Аллее славы Патрика Стюарта после сообщений о смерти британского актера в возрасте 86 лет. Посетители собираются в Лос-Анджелесе, чтобы вспомнить его знаменитые роли на экране.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 67,
+   "ten": 53,
+   "ago": 271,
+   "s": [
+    "Euronews",
+    "CBS News",
+    "Africanews",
+    "The Hindu"
+   ],
+   "u": "https://www.euronews.com/video/2026/10/30/us-flowers-laid-at-patrick-stewarts-hollywood-star-after-his-death",
+   "img": "https://images.euronews.com/articles/stories/09/97/32/88/696x392_cmsv2_5123f37a-07da-5dfa-9072-f16401690b93-9973288.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.49,
+   "lon": -99.1,
+   "place": "США",
+   "place_en": "United States",
+   "id": 23,
+   "t_en": "US: flowers laid at Patrick Stewart's Hollywood star after his death",
+   "x_en": "Flowers have been placed at Patrick Stewart's Hollywood Walk of Fame star following reports of the British actor's death at 86. Visitors gather in Los Angeles to remember his celebrated screen roles."
+  },
+  {
+   "t": "Израильская оппозиция обвиняет Нетаньяху в попытке «делигитимизировать» выборы",
+   "x": "Партия премьер-министра «Ликуд» заявила об иностранном вмешательстве и заявила, что возглавляемые арабами партии «украли» выборы после того, как его коалиция потеряла большинство.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 66,
+   "ten": 40,
+   "ago": 19,
+   "s": [
+    "BBC",
+    "France 24"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/213a/live/ecf64a00-d3d3-11f1-9c32-1532a6164171.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 2,
+   "lat": 30.82,
+   "lon": 34.86,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 24,
+   "t_en": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+   "x_en": "The PM's Likud party has alleged foreign interference and said Arab-led parties \"stole\" the election after his coalition lost its majority."
+  },
+  {
+   "t": "«Глубоко ранен»: осужденная убийца Криста Пайк высказывается после неудачной казни",
+   "x": "Заключенная камеры смертников в Теннесси Криста Пайк заявила, что продолжает испытывать постоянную боль после того, как пережила неудачную смертельную инъекцию в сентябре, в своем первом публичном заявлении после неудавшейся казни. Она выразила благодарность тем, кто спас ей жизнь, и призвала к состраданию.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 66,
+   "ten": 48,
+   "ago": 24,
+   "s": [
+    "France 24",
+    "Times of India"
+   ],
+   "u": "https://www.france24.com/en/americas/20261030-deeply-hurt-convicted-murderer-christa-pike-speaks-out-after-botched-execution",
+   "img": "https://s.france24.com/media/display/04ffd4cc-bcfa-11f1-b6d4-7be0f5469a6a/w:1024/p:16x9/2026-09-30T050004Z-1357594743-RC2GTNA3DKIY-RTRMADP-3-TENNESSEE-EXECUTION.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.52,
+   "lon": -97.2,
+   "place": "США",
+   "place_en": "United States",
+   "id": 25,
+   "t_en": "'Deeply hurt': Convicted murderer Christa Pike speaks out after botched execution",
+   "x_en": "Tennessee death row inmate Christa Pike said she remains in constant pain after surviving a botched lethal injection in September, in her first public statement since the failed execution. She expressed gratitude for those who saved her life while urging compa"
+  },
+  {
+   "t": "Украинская делегация и эвакуированные жители Олешек направились в Анапу Краснодарского края, сообщает Киев",
+   "x": "Глава парламентской фракции президента Владимира Зеленского Давид Арахамия заявил, что украинская делегация и жители, эвакуированные из Олешек, направляются в Анапу в Краснодарском крае России. Оттуда они, как ожидается, вылетят в Беларусь, прежде чем продолжить путь.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 78,
+   "ago": 63,
+   "s": [
+    "Kyiv Independent",
+    "AP"
+   ],
+   "u": "https://kyivindependent.com/oleshky-evacuation-begins-but-volunteer-claims-russia-already-moved-people-outside-of-agreed-terms/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/10/Screenshot--26-_20261030-090937_20261030-091102.png",
+   "img_src": "Kyiv Independent",
+   "fresh": false,
+   "n": 2,
+   "lat": 50.35,
+   "lon": 30.34,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 26,
+   "t_en": "Ukrainian delegation, evacuated Oleshky residents head to Anapa in Russia's Krasnodar Krai, Kyiv says",
+   "x_en": "David Arakhamia, head of President Volodymyr Zelensky's parliamentary faction, said the Ukrainian delegation and residents evacuated from Oleshky were heading to Anapa in Russia's Krasnodar Krai. From there, they are expected to fly to Belarus before continuin"
+  },
+  {
+   "t": "Министр иностранных дел Швейцарии рассказал о политических связях во время редкого визита в Северную Корею",
+   "x": "Швейцария официально вновь открывает дипломатический офис в Северной Корее после его закрытия в 2020 году.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 32,
+   "ago": 16,
+   "s": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/30/swiss-foreign-minister-talks-political-ties-on-rare-visit-to-north-korea?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae4a687b829-1793369735.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 45.98,
+   "lon": 9.0,
+   "place": "Швейцария",
+   "place_en": "Switzerland",
+   "id": 27,
+   "t_en": "Swiss foreign minister talks political ties on rare visit to North Korea",
+   "x_en": "Switzerland formally reopens diplomatic office in North Korea after its closure in 2020."
+  },
+  {
+   "t": "Полиция расследует время бывшего принца Эндрю и Эпштейна в Балморале, королевском поместье в Шотландии",
+   "x": "Эндрю Маунтбаттен-Виндзор провел время с Джеффри Эпштейном, осужденным за сексуальные преступления, и его подругой Гислен Максвелл в Балморале, шотландском убежище королевской семьи.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 40,
+   "ago": 22,
+   "s": [
+    "NYT",
+    "ABC News"
+   ],
+   "u": "https://www.nytimes.com/2026/10/30/world/europe/andrew-epstein-scotland-police-investigation-uk-balmoral.html",
+   "img": "https://static01.nyt.com/images/2025/12/20/multimedia/30int-uk-andrew-epstein-rgdh/30int-uk-andrew-epstein-rgdh-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": 53.02,
+   "lon": -2.79,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 28,
+   "t_en": "Police Investigate Former Prince Andrew and Epstein’s Time at Balmoral, Royal Estate in Scotland",
+   "x_en": "Andrew Mountbatten-Windsor spent time with Jeffrey Epstein, the convicted sex offender, and his associate Ghislaine Maxwell, at Balmoral, the royal family’s Scottish retreat."
+  },
+  {
+   "t": "Словакия возобновила уголовное дело по факту передачи Украине истребителей и систем ПВО",
+   "x": "Генеральный прокурор Словакии Марош Жилинка заявил 30 октября, что возобновил уголовное дело против бывшего премьер-министра Эдуарда Хегера и бывшего министра обороны Ярослава Нада в связи с их решением передать Словакии парк истребителей МиГ-29 и советских самолетов.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 63,
+   "ten": 28,
+   "ago": 26,
+   "s": [
+    "Kyiv Independent",
+    "Reuters"
+   ],
+   "u": "https://kyivindependent.com/slovakia-reopens-criminal-case-over-fighter-jet-air-defense-systems-donation-to-ukraine/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-1677402082_20261030-143619.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 2,
+   "lat": 49.29,
+   "lon": 18.11,
+   "place": "Словакия",
+   "place_en": "Slovakia",
+   "id": 29,
+   "t_en": "Slovakia reopens criminal case over donation of fighter jets, air defense systems to Ukraine",
+   "x_en": "Slovakia's Prosecutor General Maros Zilinka said on Oct. 30 that he had reopened a criminal case against former Prime Minister Eduard Heger and former Defense Minister Jaroslav Nad over their decision to donate Slovakia's fleet of MiG-29 fighter jets and Sovie"
+  },
+  {
+   "t": "Пакистан: Зоопарк Исламабада представляет аттракцион «Кофе с альпакой»",
+   "x": "Кофе с альпаками? В зоопарке недалеко от Исламабада посетители могут насладиться напитками и закусками, наблюдая, кормя и гладя животных. По данным зоопарка, на аттракционе представлены десять импортированных альпак, впервые в Пакистане.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 63,
+   "ten": 40,
+   "ago": 36,
+   "s": [
+    "Euronews",
+    "Africanews"
+   ],
+   "u": "https://www.euronews.com/video/2026/10/30/pakistan-islamabad-zoo-introduces-coffee-with-alpaca-attraction",
+   "img": "https://images.euronews.com/articles/stories/09/97/39/05/696x392_cmsv2_4f7a2f78-731d-599e-8cc6-8fa516f7bf71-9973905.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 2,
+   "lat": 33.54,
+   "lon": 73.16,
+   "place": "Исламабад",
+   "place_en": "Islamabad",
+   "id": 30,
+   "t_en": "Pakistan: Islamabad zoo introduces 'Coffee with Alpaca' attraction",
+   "x_en": "Coffee with a side of alpacas? At a zoo near Islamabad, visitors can enjoy drinks and snacks while watching, feeding and petting the animals. The attraction features ten imported alpacas, a first for Pakistan according to the zoo."
+  },
+  {
+   "t": "Лучшие прогнозы ExxonMobil и Chevron на третий квартал, поскольку американцы чувствуют боль от цен на газ",
+   "x": "Бизнес двух крупнейших нефтяных компаний США находится на подъеме: обе извлекают выгоду из более высоких цен и рекордной добычи. ExxonMobil и Chevron в пятницу сообщили о лучших, чем ожидалось, квартальных результатах, поскольку крупные нефтяные компании извлекли выгоду из более высоких цен и рекордных объемов добычи.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 63,
+   "ten": 40,
+   "ago": 40,
+   "s": [
+    "The Guardian",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/business/2026/oct/30/exxonmobil-chevron-q3-results",
+   "img": "https://i.guim.co.uk/img/media/da8f347ac95273a8876cbf1e70a916ceef596db8/1424_0_9079_7261/master/9079.jpg?width=700&quality=85&auto=format&fit=max&s=5996fbdd24f02d1117ecc04a48d3142d",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": 38.81,
+   "lon": -98.2,
+   "place": "США",
+   "place_en": "United States",
+   "id": 31,
+   "t_en": "ExxonMobil and Chevron top estimates for Q3 as Americans feel gas price pain",
+   "x_en": "Business is booming for two biggest US oil companies, with both benefiting from higher prices and record production ExxonMobil and Chevron both reported better than expected quarterly results on Friday as the oil majors benefited from higher prices and record "
+  },
+  {
+   "t": "Министр транспорта Испании сталкивается с призывами уйти в отставку после смертельной крушения поезда",
+   "x": "Министр транспорта Испании Оскар Пуэнте столкнулся с призывами уйти в отставку, но исключил возможность уйти в отставку в пятницу. Это произошло после крушения поезда в среду в провинции Толедо, в результате которого погибли 69 человек. Это вторая катастрофа на высокоскоростных железных дорогах в стране в этом году. ФРАНЦИЯ 24 корр.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 63,
+   "ten": 53,
+   "ago": 51,
+   "s": [
+    "France 24",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/video/20261030-spanish-transport-minister-faces-calls-to-quit-after-deadly-train-crash",
+   "img": "https://s.france24.com/media/display/7d06759c-d466-11f1-b9be-1beafce15fea/w:1024/p:16x9/capture-c7b7c37f.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.68,
+   "lon": -3.67,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 32,
+   "t_en": "Spanish transport minister faces calls to quit after deadly train crash",
+   "x_en": "Spanish Transport Minister Oscar Puente faced calls to resign but ruled out stepping down on Friday. This follows Wednesday’s train crash in Toledo province, which killed 69 people. It is the country’s second high-speed rail disaster this year. FRANCE 24 corre"
+  },
+  {
+   "t": "Люди 27 национальностей могут быть среди погибших или раненых в результате крушения поезда в Испании, говорит Санчес – Europe live",
+   "x": "Подтверждено, что около 69 человек погибли, но число жертв может увеличиться: по меньшей мере 70 человек пропали без вести. Пьюнте начинает с того, что отдает дань уважения всем, кто пострадал в результате инцидента. Он говорит, что «в настоящее время факты указывают на провал в командовании Адифа и его соратниках».",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 91,
+   "ago": 21,
+   "s": [
+    "The Guardian"
+   ],
+   "u": "https://www.theguardian.com/world/live/2026/oct/30/spain-investigates-toledo-crash-pedro-sanchez-france-italy-protests-latest-news-updates",
+   "img": "https://i.guim.co.uk/img/media/761dff5040731572cd809d76f86cf7a461b0100f/517_447_2958_2366/master/2958.jpg?width=700&quality=85&auto=format&fit=max&s=afd77dfc8255499f9508c4a6a3c43dbb",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 1,
+   "lat": 41.36,
+   "lon": -4.32,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 33,
+   "t_en": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – Europe live",
+   "x_en": "Some 69 people have been confirmed dead but the toll may rise further, with at least 70 people reported missing Peunte begins by paying tribute to all affected by the incident. He says that “at present, evidence points to a failure within Adif’s command and co"
+  },
+  {
+   "t": "«Нужен план Б»: йеменцы в Адене готовятся к новой войне, когда падают ракеты",
+   "x": "Когда ракеты хуситов обрушиваются на Аден, жители запасаются едой и готовят планы побега, опасаясь возврата к тотальной войне.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 95,
+   "ago": 27,
+   "s": [
+    "Al Jazeera"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ae4a968-1793370472.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 15.46,
+   "lon": 44.12,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 34,
+   "t_en": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
+   "x_en": "As Houthi missiles strike Aden, residents stockpile food and prepare escape plans, fearing a return to all-out war."
+  },
+  {
+   "t": "В результате ударов дронов в эфиопской Амхаре погибли 14 человек, включая детей: свидетели",
+   "x": "Забастовки в лагере произошли как раз в тот момент, когда ученики возвращались домой из школы, рассказал Ахмед, один из двух других свидетелей.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 88,
+   "ago": 108,
+   "s": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.thehindu.com/news/international/drone-strikes-kill-14-including-children-in-ethiopias-amhara-witnesses/article71644622.ece",
+   "img": "https://www.thehindu.com/theme/images/og-image.png",
+   "img_src": "The Hindu (og)",
+   "fresh": false,
+   "n": 2,
+   "lat": 8.67,
+   "lon": 39.23,
+   "place": "Эфиопия",
+   "place_en": "Ethiopia",
+   "id": 35,
+   "t_en": "Drone strikes kill 14, including children, in Ethiopia's Amhara: witnesses",
+   "x_en": "The strikes at the camp occurred just as the students were coming home from school, recounted Ahmed, one of the two other witnesses"
+  },
+  {
+   "t": "Эрин Паттерсон умрет в тюрьме после проигрыша апелляции по обвинению в убийстве грибами",
+   "x": "Апелляционный суд штата Виктория постановил, что Паттерсон должен быть заключен в тюрьму на всю жизнь без права досрочного освобождения за смертельный обед из говядины в Веллингтоне, в результате которого погибли три человека. Апелляция Эрин Паттерсон по делу об убийстве грибами – постоянные обновления Получайте наши последние новости по электронной почте, в бесплатном приложении или подкасте ежедневных новостей Эри",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 44,
+   "ago": 338,
+   "s": [
+    "The Guardian",
+    "NYT",
     "ABC News",
     "AP"
    ],
-   "u": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-world-4025-rdf",
-   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-christine-lagarde_7390814.jpg?20261029114914",
-   "img_src": "Sky News",
+   "u": "https://www.theguardian.com/australia-news/2026/oct/29/erin-patterson-mushroom-murders-appeal-ruling-ntwnfb",
+   "img": "https://i.guim.co.uk/img/media/5254cf587c7c076dfd7c74396b859c0751b7d6b1/17_0_3058_2447/master/3058.jpg?width=700&quality=85&auto=format&fit=max&s=c992ba0dcf8a28a1271af34eaa03d663",
+   "img_src": "The Guardian",
    "fresh": false,
    "n": 4,
-   "lat": 50.59,
-   "lon": 4.68,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 16,
-   "t_en": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
-   "x_en": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway."
-  },
-  {
-   "t": "Colombia’s ‘Narcoterrorist’ Crackdown Raises Questions Over Killings",
-   "x": "Military-involved deaths have roiled a country with an iron-fisted new president — and a history of extrajudicial killings.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 95,
-   "ago": 8,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/10/30/world/americas/colombia-crackdown-army-killings-de-la-espriella.html",
-   "img": "https://static01.nyt.com/images/2026/10/22/multimedia/00int-colombia-killings-promo/00int-colombia-killings-tlfj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": 4.78,
-   "lon": -72.87,
-   "place": "Колумбия",
-   "place_en": "Colombia",
-   "id": 17,
-   "t_en": "Colombia’s ‘Narcoterrorist’ Crackdown Raises Questions Over Killings",
-   "x_en": "Military-involved deaths have roiled a country with an iron-fisted new president — and a history of extrajudicial killings."
-  },
-  {
-   "t": "How Ukrainian Soldiers Are Moving Underground",
-   "x": "Ukrainian soldiers are traveling underground through abandoned gas pipes to reach positions near the front. Our correspondent Maria Varenikova joins them on the journey through the kill zone and into positions where troops can spend weeks at a time.",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 82,
-   "ago": 7,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/video/world/europe/100000011210889/how-ukrainian-soldiers-are-moving-underground.html",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 48.92,
-   "lon": 30.93,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 18,
-   "t_en": "How Ukrainian Soldiers Are Moving Underground",
-   "x_en": "Ukrainian soldiers are traveling underground through abandoned gas pipes to reach positions near the front. Our correspondent Maria Varenikova joins them on the journey through the kill zone and into positions where troops can spend weeks at a time."
-  },
-  {
-   "t": "Нетаньяху нападает на арабские партии Израиля, поскольку ему не хватает большинства",
-   "x": "Премьер-министр Израиля обвинил палестино-израильские партии в фальсификации выборов.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 40,
-   "ago": 342,
-   "s": [
-    "Al Jazeera",
-    "Fox News",
-    "Dawn",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/30/netanyahu-attacks-israels-arab-parties-as-he-falls-short-of-majority?traffic_source=rss",
-   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Israeli-Election-Banners-Netanyahu-Eisenkot.jpg?ve=1&tl=1",
-   "img_src": "Fox News",
-   "fresh": false,
-   "n": 5,
-   "lat": 31.62,
-   "lon": 34.42,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 19,
-   "t_en": "Netanyahu attacks Israel’s Arab parties as he falls short of majority",
-   "x_en": "Israel’s Prime Minister accused Palestinian-Israeli parties of election fraud."
-  },
-  {
-   "t": "Турция строит железнодорожный коридор Азия-Европа, поскольку войны осложняют старые торговые пути",
-   "x": "",
-   "r": "Европа",
-   "c": "Экономика",
-   "imp": 61,
-   "ten": 66,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/transportation/turkey-builds-asia-europe-rail-corridor-as-wars-snarl-up-old-trade-routes",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F4%2F9%2F8%2F13368947-1-eng-GB%2F1c00e947608a-sinan-minister-uraloglu-photo-1.jpeg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 38.44,
-   "lon": 35.49,
-   "place": "Турция",
-   "place_en": "Turkey",
-   "id": 20,
-   "t_en": "Turkey builds Asia-Europe rail corridor as wars snarl up old trade routes",
-   "x_en": ""
+   "lat": -24.84,
+   "lon": 134.3,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 36,
+   "t_en": "Erin Patterson to die in prison after losing appeal against mushroom murder convictions",
+   "x_en": "Victorian court of appeal rules Patterson should be jailed for life with no parole over deadly beef wellington lunch that killed three people Erin Patterson mushroom murders appeal – live updates Get our breaking news email , free app or daily news podcast Eri"
   },
   {
    "t": "Пожары и дымка в Индонезии стали причиной гибели более 5200 человек, говорится в исследовании",
@@ -689,7 +1104,7 @@
    "lon": 117.57,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 21,
+   "id": 37,
    "t_en": "Indonesia fires and haze cause more than 5,200 deaths, study says",
    "x_en": ""
   },
@@ -713,12 +1128,12 @@
    "lon": 137.41,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 22,
+   "id": 38,
    "t_en": "Japan aims to deploy underwater drones for sub surveillance",
    "x_en": ""
   },
   {
-   "t": "Japan's IHI vies with Korean rival to capture overseas nuclear demand",
+   "t": "Японская IHI соперничает с корейским конкурентом в захвате зарубежного ядерного спроса",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -737,12 +1152,12 @@
    "lon": 137.32,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 23,
+   "id": 39,
    "t_en": "Japan's IHI vies with Korean rival to capture overseas nuclear demand",
    "x_en": ""
   },
   {
-   "t": "Japan prepares for commercial drone flocks after operating limit lifted",
+   "t": "Япония готовится к запуску коммерческих групп дронов после снятия ограничений на эксплуатацию",
    "x": "",
    "r": "Азия",
    "c": "Конфликты",
@@ -761,397 +1176,8 @@
    "lon": 138.47,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 24,
-   "t_en": "Japan prepares for commercial drone flocks after operating limit lifted",
-   "x_en": ""
-  },
-  {
-   "t": "Vietnam drone intrusions prompt airport safety response nationwide",
-   "x": "",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 57,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/technology/vietnam-drone-intrusions-prompt-airport-safety-response-nationwide",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F2%2F5%2F1%2F13371528-1-eng-GB%2Fda7b797c90c3-WhatsApp-Image-2026-10-26-at-16.58.36.jpeg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 16.9,
-   "lon": 106.85,
-   "place": "Вьетнам",
-   "place_en": "Vietnam",
-   "id": 25,
-   "t_en": "Vietnam drone intrusions prompt airport safety response nationwide",
-   "x_en": ""
-  },
-  {
-   "t": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
-   "x": "Brent crude prices are up more than 60 percent compared with pre-war levels, despite rebound in supply.",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 60,
-   "ten": 91,
-   "ago": 33,
-   "s": [
-    "Al Jazeera"
-   ],
-   "u": "https://www.aljazeera.com/economy/2026/10/30/oil-flows-are-up-as-iran-war-turmoil-eases-why-do-prices-keep-rising?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26253657242641-1-1793234091_8cc3e0-1793343640.jpg?resize=1200%2C630&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 33.02,
-   "lon": 54.14,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 26,
-   "t_en": "Oil flows are up as Iran war turmoil eases. Why do prices keep rising?",
-   "x_en": "Brent crude prices are up more than 60 percent compared with pre-war levels, despite rebound in supply."
-  },
-  {
-   "t": "EU announces two new drone technology hubs, backed by Ukrainian know-how",
-   "x": "\"In developing drones and counter-drone systems, Europe has one significant advantage: our partnership with Ukraine,\" said European Commissioner Valdis Dombrovskis.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 91,
-   "ago": 36,
-   "s": [
-    "Kyiv Independent"
-   ],
-   "u": "https://kyivindependent.com/eu-announces-two-new-drone-technology-hubs-backed-by-ukrainian-know-how/",
-   "img": "https://assets.kyivindependent.com/content/images/2025/11/GettyImages-2245832610-1.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 1,
-   "lat": 50.81,
-   "lon": 4.53,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 27,
-   "t_en": "EU announces two new drone technology hubs, backed by Ukrainian know-how",
-   "x_en": "\"In developing drones and counter-drone systems, Europe has one significant advantage: our partnership with Ukraine,\" said European Commissioner Valdis Dombrovskis."
-  },
-  {
-   "t": "Netanyahu bloc leads but lacks majority, Israel's official results show",
-   "x": "Коалиция премьер-министра Израиля Биньямина Нетаньяху получила большинство мест на всеобщих выборах, но ей не хватило восьми мест до парламентского большинства, как показали окончательные результаты в пятницу. Арабские партийные группировки стали потенциальными создателями королей, а обвинения в иностранных",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 40,
-   "ago": 181,
-   "s": [
-    "France 24",
-    "CNBC",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/middle-east/20261030-netanyahu-bloc-in-lead-without-majority-in-israel-election-say-official-results",
-   "img": "https://s.france24.com/media/display/0b800e90-d404-11f1-acfb-bf1914cabd52/w:1024/p:16x9/AP26300421850547-1.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 32.18,
-   "lon": 35.11,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 28,
-   "t_en": "Netanyahu bloc leads but lacks majority, Israel's official results show",
-   "x_en": "Israeli Prime Minister Benjamin Netanyahu's coalition won the most seats in the general election but fell eight short of a parliamentary majority, final results showed Friday. Arab party groupings emerged as potential kingmakers, while allegations of foreign i"
-  },
-  {
-   "t": "Another Toll of the Violent Unrest in France: The Political Center",
-   "x": "Support for Édouard Philippe, the leading candidate from the centrist bloc, has eroded, while his far-right and far-left rivals benefit.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 57,
-   "ago": 4,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/10/30/world/europe/france-unrest-political-center.html",
-   "img": "https://static01.nyt.com/images/2026/10/30/multimedia/30int-france-center-01-gtlk/30int-france-center-01-gtlk-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": 47.17,
-   "lon": 3.78,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 29,
-   "t_en": "Another Toll of the Violent Unrest in France: The Political Center",
-   "x_en": "Support for Édouard Philippe, the leading candidate from the centrist bloc, has eroded, while his far-right and far-left rivals benefit."
-  },
-  {
-   "t": "What we know about Binance's $6.3bn hack",
-   "x": "BBC business reporter Archana Shukla explains more about what is suspected to be the largest hack in history.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 36,
-   "ago": 64,
-   "s": [
-    "BBC",
-    "CNBC"
-   ],
-   "u": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4bf2/live/c8fa3060-d439-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 30,
-   "t_en": "What we know about Binance's $6.3bn hack",
-   "x_en": "BBC business reporter Archana Shukla explains more about what is suspected to be the largest hack in history."
-  },
-  {
-   "t": "Bhutan glacial lake outburst triggers flood, no injuries reported",
-   "x": "The historic Punakha Dzong has been closed until further notice \"in the interest of public safety\".",
-   "r": "Мир",
-   "c": "Природа",
-   "imp": 58,
-   "ten": 51,
-   "ago": 230,
-   "s": [
-    "CNA",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/bhutan-glacial-lake-outburst-triggers-flood-6505776",
-   "img": "https://dam.mediacorp.sg/image/upload/s--4KCI2h9R--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/30/screenshot_2026-10-30_123506.png?itok=qh5hLDlW",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 31,
-   "t_en": "Bhutan glacial lake outburst triggers flood, no injuries reported",
-   "x_en": "The historic Punakha Dzong has been closed until further notice \"in the interest of public safety\"."
-  },
-  {
-   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 32,
-   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
-   "x_en": ""
-  },
-  {
-   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 33,
-   "t_en": "Dream Big with a Home Equity Loan",
-   "x_en": ""
-  },
-  {
-   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 34,
-   "t_en": "Experts: this is the best cash back card of 2022",
-   "x_en": ""
-  },
-  {
-   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
-   "x": "",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 35,
-   "t_en": "It's official: now avoid credit card interest into 2024",
-   "x_en": ""
-  },
-  {
-   "t": "Начальная годовая процентная ставка 0% до 2024 года — это 100% безумие.",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 36,
-   "t_en": "0% intro APR until 2024 is 100% insane",
-   "x_en": ""
-  },
-  {
-   "t": "Google-backed fusion start-up taps Japan to revive German industrial base",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/technology/google-backed-fusion-start-up-taps-japan-to-revive-german-industrial-base",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F7%2F0%2F3%2F13373075-1-eng-GB%2Fa2e284266122-Manufacturing-MunichLab4.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.33,
-   "lon": 138.53,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 37,
-   "t_en": "Google-backed fusion start-up taps Japan to revive German industrial base",
-   "x_en": ""
-  },
-  {
-   "t": "Japan's Advantage Partners eyes homegrown infrastructure fund",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/wealth-management/japan-s-advantage-partners-eyes-homegrown-infrastructure-fund",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F5%2F8%2F2%2F13362850-2-eng-GB%2Fc5c624c11e88-1cc.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 37.39,
-   "lon": 138.83,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 38,
-   "t_en": "Japan's Advantage Partners eyes homegrown infrastructure fund",
-   "x_en": ""
-  },
-  {
-   "t": "Confusion over Pakistan policy on Taiwan airlines fuels China squeeze fears",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/confusion-over-pakistan-policy-on-taiwan-airlines-fuels-china-squeeze-fears",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F2%2F5%2F13375219-1-eng-GB%2F5efc640d8b88-2020-06-08T000000Z_510314344_RC2V4H968Q1W_RTRMADP_3_TAIWAN-ECONOMY-EXPORTS.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 28.92,
-   "lon": 69.35,
-   "place": "Пакистан",
-   "place_en": "Pakistan",
-   "id": 39,
-   "t_en": "Confusion over Pakistan policy on Taiwan airlines fuels China squeeze fears",
-   "x_en": ""
-  },
-  {
-   "t": "Ford says it will take on Chinese rivals by 'going into their price point'",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/ford-says-it-will-take-on-chinese-rivals-by-going-into-their-price-point",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 34.62,
-   "lon": 101.57,
-   "place": "Китай",
-   "place_en": "China",
    "id": 40,
-   "t_en": "Ford says it will take on Chinese rivals by 'going into their price point'",
+   "t_en": "Japan prepares for commercial drone flocks after operating limit lifted",
    "x_en": ""
   }
  ],
@@ -1175,139 +1201,143 @@
   {
    "t": 1793351328729,
    "v": 47
+  },
+  {
+   "t": 1793375572007,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1793264928729,
-   "v": 51,
-   "n": 33
+   "t": 1793289172007,
+   "v": 42,
+   "n": 44
   },
   {
-   "t": 1793268528729,
-   "v": 51,
-   "n": 40
+   "t": 1793292772007,
+   "v": 43,
+   "n": 37
   },
   {
-   "t": 1793272128729,
-   "v": 53,
-   "n": 49
+   "t": 1793296372007,
+   "v": 46,
+   "n": 31
   },
   {
-   "t": 1793275728729,
-   "v": 51,
-   "n": 47
+   "t": 1793299972007,
+   "v": 47,
+   "n": 23
   },
   {
-   "t": 1793279328729,
-   "v": 55,
-   "n": 56
+   "t": 1793303572007,
+   "v": 45,
+   "n": 19
   },
   {
-   "t": 1793282928729,
-   "v": 51,
-   "n": 55
+   "t": 1793307172007,
+   "v": 43,
+   "n": 16
   },
   {
-   "t": 1793286528729,
+   "t": 1793310772007,
    "v": 49,
-   "n": 68
+   "n": 20
   },
   {
-   "t": 1793290128729,
-   "v": 44,
-   "n": 61
+   "t": 1793314372007,
+   "v": 47,
+   "n": 21
   },
   {
-   "t": 1793293728729,
+   "t": 1793317972007,
+   "v": 49,
+   "n": 23
+  },
+  {
+   "t": 1793321572007,
+   "v": 43,
+   "n": 22
+  },
+  {
+   "t": 1793325172007,
    "v": 45,
-   "n": 58
+   "n": 29
   },
   {
-   "t": 1793297328729,
-   "v": 45,
-   "n": 46
-  },
-  {
-   "t": 1793300928729,
+   "t": 1793328772007,
    "v": 44,
    "n": 45
   },
   {
-   "t": 1793304528729,
-   "v": 43,
-   "n": 39
-  },
-  {
-   "t": 1793308128729,
-   "v": 45,
-   "n": 39
-  },
-  {
-   "t": 1793311728729,
-   "v": 48,
-   "n": 46
-  },
-  {
-   "t": 1793315328729,
-   "v": 49,
-   "n": 53
-  },
-  {
-   "t": 1793318928729,
-   "v": 49,
-   "n": 56
-  },
-  {
-   "t": 1793322528729,
-   "v": 45,
-   "n": 64
-  },
-  {
-   "t": 1793326128729,
+   "t": 1793332372007,
    "v": 44,
+   "n": 49
+  },
+  {
+   "t": 1793335972007,
+   "v": 45,
+   "n": 62
+  },
+  {
+   "t": 1793339572007,
+   "v": 46,
+   "n": 68
+  },
+  {
+   "t": 1793343172007,
+   "v": 45,
    "n": 86
   },
   {
-   "t": 1793329728729,
-   "v": 44,
-   "n": 111
-  },
-  {
-   "t": 1793333328729,
-   "v": 44,
-   "n": 112
-  },
-  {
-   "t": 1793336928729,
-   "v": 44,
-   "n": 118
-  },
-  {
-   "t": 1793340528729,
+   "t": 1793346772007,
    "v": 45,
-   "n": 121
+   "n": 90
   },
   {
-   "t": 1793344128729,
-   "v": 45,
-   "n": 141
+   "t": 1793350372007,
+   "v": 46,
+   "n": 86
   },
   {
-   "t": 1793347728729,
-   "v": 45,
+   "t": 1793353972007,
+   "v": 48,
+   "n": 97
+  },
+  {
+   "t": 1793357572007,
+   "v": 48,
+   "n": 102
+  },
+  {
+   "t": 1793361172007,
+   "v": 49,
+   "n": 128
+  },
+  {
+   "t": 1793364772007,
+   "v": 50,
    "n": 157
   },
   {
-   "t": 1793351328729,
-   "v": 44,
-   "n": 113
+   "t": 1793368372007,
+   "v": 51,
+   "n": 178
+  },
+  {
+   "t": 1793371972007,
+   "v": 48,
+   "n": 202
+  },
+  {
+   "t": 1793375572007,
+   "v": 47,
+   "n": 131
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 33
+   "items": 36
   },
   {
    "n": "Al Jazeera",
@@ -1315,7 +1345,7 @@
   },
   {
    "n": "DW",
-   "items": 7
+   "items": 9
   },
   {
    "n": "France 24",
@@ -1327,15 +1357,15 @@
   },
   {
    "n": "Sky News",
-   "items": 8
-  },
-  {
-   "n": "NPR",
    "items": 9
   },
   {
+   "n": "NPR",
+   "items": 10
+  },
+  {
    "n": "UN News",
-   "items": 7
+   "items": 9
   },
   {
    "n": "CNBC",
@@ -1343,7 +1373,7 @@
   },
   {
    "n": "Euronews",
-   "items": 28
+   "items": 40
   },
   {
    "n": "NYT",
@@ -1355,7 +1385,7 @@
   },
   {
    "n": "CBS News",
-   "items": 14
+   "items": 18
   },
   {
    "n": "ABC News",
@@ -1367,11 +1397,11 @@
   },
   {
    "n": "Fox News",
-   "items": 5
+   "items": 6
   },
   {
    "n": "ABC Australia",
-   "items": 16
+   "items": 12
   },
   {
    "n": "CNA",
@@ -1391,7 +1421,7 @@
   },
   {
    "n": "Africanews",
-   "items": 35
+   "items": 40
   },
   {
    "n": "Kyiv Independent",
@@ -1407,7 +1437,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 17
+   "items": 18
   },
   {
    "n": "Dawn",
@@ -1423,7 +1453,7 @@
   },
   {
    "n": "Politico EU",
-   "items": 10
+   "items": 9
   },
   {
    "n": "Japan Times",

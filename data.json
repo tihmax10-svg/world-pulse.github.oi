@@ -1,18 +1,18 @@
 {
- "updated": 1793458814378,
+ "updated": 1793473954557,
  "demo": false,
- "total_articles": 649,
- "second_delta": 0,
+ "total_articles": 657,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 45
+   "v": 46
   },
   {
    "n": "Al Jazeera",
-   "v": 53
+   "v": 51
   },
   {
    "n": "DW",
@@ -20,11 +20,11 @@
   },
   {
    "n": "France 24",
-   "v": 53
+   "v": 55
   },
   {
    "n": "The Guardian",
-   "v": 50
+   "v": 48
   },
   {
    "n": "Sky News",
@@ -32,7 +32,7 @@
   },
   {
    "n": "NPR",
-   "v": 53
+   "v": 50
   },
   {
    "n": "UN News",
@@ -48,15 +48,15 @@
   },
   {
    "n": "NYT",
-   "v": 52
+   "v": 53
   },
   {
    "n": "CBS News",
-   "v": 52
+   "v": 53
   },
   {
    "n": "ABC News",
-   "v": 48
+   "v": 49
   },
   {
    "n": "CNN",
@@ -64,23 +64,27 @@
   },
   {
    "n": "Fox News",
-   "v": 63
+   "v": 70
   },
   {
    "n": "ABC Australia",
-   "v": 41
+   "v": 43
   },
   {
    "n": "CNA",
-   "v": 56
+   "v": 61
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 60
   },
   {
    "n": "Africanews",
-   "v": 48
+   "v": 50
   },
   {
    "n": "Kyiv Independent",
-   "v": 61
+   "v": 63
   },
   {
    "n": "Yonhap",
@@ -92,355 +96,352 @@
   },
   {
    "n": "The Diplomat",
-   "v": 43
+   "v": 42
   },
   {
    "n": "Dawn",
-   "v": 52
+   "v": 55
   },
   {
    "n": "Times of India",
-   "v": 45
+   "v": 49
   },
   {
    "n": "The Hindu",
-   "v": 54
+   "v": 53
   },
   {
    "n": "Politico EU",
-   "v": 52
+   "v": 50
   },
   {
    "n": "Japan Times",
-   "v": 45
-  },
-  {
-   "n": "Reuters",
    "v": 43
   },
   {
-   "n": "AP",
+   "n": "Reuters",
    "v": 45
+  },
+  {
+   "n": "AP",
+   "v": 44
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 52
+   "v": 54
   },
   {
    "n": "Ближний Восток",
-   "v": 51
+   "v": 55
   },
   {
    "n": "Азия",
-   "v": 45
+   "v": 44
   },
   {
    "n": "Африка",
-   "v": 50
+   "v": 47
   },
   {
    "n": "Америка",
-   "v": 48
+   "v": 49
   }
  ],
  "events": [
   {
-   "t": "Полиция задействована во время противостояния из-за контроля над высшим судом Польши",
-   "x": "Эскалация произошла после того, как правительство отстранило от должности двух старших судей и приняло решение возбудить против них уголовные обвинения.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 68,
-   "ago": 52,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "NYT",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/308f/live/f44b1080-d50c-11f1-9db5-95ff6e967be3.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 4,
-   "lat": 52.45,
-   "lon": 19.07,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 1,
-   "t_en": "Police deployed during stand-off over control of top Poland court",
-   "x_en": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them."
-  },
-  {
-   "t": "Бёрнем открывает двери для официальных извинений за работорговлю в Великобритании",
-   "x": "Премьер-министр Великобритании исключает возможность финансовых репараций, несмотря на давние требования стран Карибского бассейна.",
-   "r": "Европа",
-   "c": "Экономика",
-   "imp": 85,
-   "ten": 40,
-   "ago": 39,
-   "s": [
-    "Al Jazeera",
-    "Dawn",
-    "Times of India",
-    "The Hindu",
-    "Politico EU",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/31/burnham-opens-door-to-formal-apology-for-britains-slave-trade?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/10/3116280037adf3d.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 7,
-   "lat": 54.2,
-   "lon": -2.07,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 2,
-   "t_en": "Burnham opens door to formal apology for Britain’s slave trade",
-   "x_en": "UK Prime Minister rules out financial reparations, despite longstanding Caribbean demands."
-  },
-  {
-   "t": "Верховный лидер Ирана предостерег США и Израиль от новых атак",
-   "x": "Президент Трамп предсказал, что война с Ираном «скоро закончится», не раскрывая никаких подробностей, поскольку катарские посредники настаивают на соглашении.",
+   "t": "Президент Ирана Хаменеи предостерегает США и Израиль от новых атак",
+   "x": "Верховный лидер Ирана Моджтаба Хаменеи в субботу предостерег США и Израиль от дальнейших ударов, поскольку нарастают опасения по поводу возобновления боевых действий на Ближнем Востоке. Президент США Дональд Трамп и его израильский союзник Биньямин Нетаньяху недавно провели три",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 81,
-   "ten": 86,
-   "ago": 41,
+   "imp": 96,
+   "ten": 84,
+   "ago": 12,
    "s": [
+    "France 24",
     "CBS News",
     "Dawn",
     "The Hindu"
    ],
-   "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
-   "img": "https://i.dawn.com/large/2026/10/3117060886d6b4d.webp",
-   "img_src": "Dawn",
+   "u": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+   "img": "https://s.france24.com/media/display/77114946-d54c-11f1-8f61-a575454bc579/w:1024/p:16x9/AP26285515397254.jpg",
+   "img_src": "France 24",
    "fresh": true,
-   "n": 3,
-   "lat": 32.09,
-   "lon": 54.32,
+   "n": 4,
+   "lat": 31.19,
+   "lon": 53.29,
    "place": "Иран",
    "place_en": "Iran",
-   "id": 3,
-   "t_en": "Iran's supreme leader warns U.S., Israel against new attacks",
-   "x_en": "President Trump predicted the war with Iran is \"going to end soon,\" without offering any details, as Qatari mediators push for a deal."
+   "id": 1,
+   "t_en": "Iran's Khamenei warns US and Israel against new attacks",
+   "x_en": "Iran's Supreme Leader Mojtaba Khamenei warned the United States and Israel on Saturday against further strikes as fears mount over a resumption of fighting in the Middle East. US President Donald Trump and his Israeli ally Benjamin Netanyahu have recently thre"
   },
   {
-   "t": "Криптовалютный гигант Binance пытается вернуть 6,3 миллиарда долларов, украденных в результате взлома, связанного с Северной Кореей",
-   "x": "Кибератака, которую компания описывает как сложную, считается крупнейшей за всю историю.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 80,
-   "ten": 43,
-   "ago": 1,
+   "t": "Почти 140 человек арестованы на акции протеста против запрета действий в Палестине у посольства США в Лондоне",
+   "x": "Met утверждает, что демонстранты «собирались целенаправленно совершить преступление» на крупнейшем подобном собрании при Бёрнеме. Почти 140 человек были арестованы на крупнейших массовых демонстрациях во время премьерства Энди Бёрнема, выступавших против запрета «Действий в Палестине». ЧАС",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 84,
+   "ten": 74,
+   "ago": 6,
    "s": [
-    "BBC",
-    "Sky News",
-    "Nikkei Asia"
+    "The Guardian",
+    "CBS News",
+    "ABC News"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
+   "u": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+   "img": "https://i.guim.co.uk/img/media/6807820322847a216baf62975e1cb66f78e36b30/808_0_4041_3233/master/4041.jpg?width=700&quality=85&auto=format&fit=max&s=788e3f7e695c558a4ea57d8bace61c08",
+   "img_src": "The Guardian",
    "fresh": true,
    "n": 3,
-   "lat": 38.96,
-   "lon": 126.86,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 4,
-   "t_en": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "x_en": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind."
+   "lat": 51.45,
+   "lon": 0.11,
+   "place": "Лондон",
+   "place_en": "London",
+   "id": 2,
+   "t_en": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+   "x_en": "Met alleges demonstrators ‘meeting to purposefully commit a crime’ in largest such gathering under Burnham Almost 140 people have been arrested at the largest mass demonstrations under Andy Burnham’s premiership opposing the proscription of Palestine Action. H"
   },
   {
-   "t": "Эвакуированные из оккупированного Россией Олешки прибыли в Украину через Беларусь",
-   "x": "Четыре самолета, перевозившие эвакуированных из разрушенного войной города, прибыли в белорусский Гомель ранее в субботу.",
+   "t": "Польша задействует ОМОН в противостоянии вокруг Верховного суда страны",
+   "x": "После многих лет судебных споров судьи, поддержанные нынешним правительством, отстранили от должности главного судью, поскольку обострилась вражда с правой партией, которая в последний раз находилась у власти.",
    "r": "Европа",
-   "c": "Конфликты",
-   "imp": 79,
-   "ten": 43,
-   "ago": 7,
+   "c": "Политика",
+   "imp": 84,
+   "ten": 54,
+   "ago": 66,
    "s": [
-    "Al Jazeera",
+    "NYT",
+    "ABC News",
+    "The Hindu",
     "Reuters",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/31/hundreds-from-russian-occupied-oleshky-land-in-belarus-en-route-to-ukraine?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae60140c778-1793458496.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
+   "u": "https://www.nytimes.com/2026/10/31/world/europe/poland-court-police-president.html",
+   "img": "https://static01.nyt.com/images/2026/10/31/multimedia/31int-poland-court-hgvz/31int-poland-court-hgvz-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 7,
+   "lat": 51.13,
+   "lon": 19.78,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 3,
+   "t_en": "Poland Deploys Riot Police in Standoff Over Country’s Top Court",
+   "x_en": "After years of legal wrangling, judges backed by the current government suspended the chief justice, as a feud escalated with the right-wing party that last held power."
+  },
+  {
+   "t": "Украинские эвакуированные воссоединяются с семьей после многих лет пребывания в оккупированном Россией городе",
+   "x": "Жители Олешек остались без еды, воды и электричества, и многие, чтобы выжить, прибегали к приготовлению огородных сорняков.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 81,
+   "ten": 40,
+   "ago": 79,
+   "s": [
+    "BBC",
+    "NYT",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 48.97,
+   "lon": 32.62,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 4,
+   "t_en": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+   "x_en": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive."
+  },
+  {
+   "t": "Министры иностранных дел G20 завершили встречу в Атланте без консенсуса по ключевым вопросам",
+   "x": "Группа не опубликовала совместного коммюнике, а скорее будет полагаться на заявление председателя, которое, по словам госсекретаря США Рубио, он опубликует в субботу.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 79,
+   "ten": 46,
+   "ago": 8,
+   "s": [
+    "CNBC",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.cnbc.com/2026/10/31/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-issues.html",
+   "img": "https://th-i.thgim.com/public/incoming/um0znu/article71648470.ece/alternates/LANDSCAPE_1200/PTI10_31_2026_000019B.jpg",
+   "img_src": "The Hindu",
    "fresh": true,
    "n": 3,
-   "lat": 61.74,
-   "lon": 94.32,
+   "lat": 61.26,
+   "lon": 96.74,
    "place": "Россия",
    "place_en": "Russia",
    "id": 5,
-   "t_en": "Evacuees from Russian-occupied Oleshky arrive in Ukraine via Belarus",
-   "x_en": "Four planes transporting evacuees from the war-ravaged city arrived in Belarus's Gomel earlier on Saturday."
+   "t_en": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
+   "x_en": "The group did not release a joint communique but will rather rely on a chairman's statement, which U.S Secretary of State Rubio said he would release Saturday."
+  },
+  {
+   "t": "Московский музей «Царицыно» на радаре террористов? США предупредили Россию о возможном нападении",
+   "x": "‌США Посольство предупредило, что экстремисты готовят неизбежные планы теракта в Москве",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 78,
+   "ten": 83,
+   "ago": 61,
+   "s": [
+    "Times of India",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://timesofindia.indiatimes.com/world/europe/moscows-tsaritysyno-museum-on-terror-radar-us-warns-russia-of-possible-attack/articleshow/135404738.cms",
+   "img": "https://static.toiimg.com/photo/msid-135405059,imgsize-165580.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 3,
+   "lat": 55.68,
+   "lon": 37.2,
+   "place": "Москва",
+   "place_en": "Moscow",
+   "id": 6,
+   "t_en": "Moscow’s Tsaritysyno Museum on terror radar? US warns Russia of possible attack",
+   "x_en": "The ‌U.S. Embassy had warned that extremists ​had imminent plans for an attack in Moscow"
   },
   {
    "t": "США одобрили продажу Украине 500 ракет «Пэтриот»",
    "x": "Перехватчики американского производства являются единственным эффективным средством поражения российских баллистических ракет.",
-   "r": "Европа",
+   "r": "Америка",
    "c": "Политика",
-   "imp": 79,
-   "ten": 80,
-   "ago": 159,
+   "imp": 76,
+   "ten": 82,
+   "ago": 204,
    "s": [
     "BBC",
     "France 24",
     "CBS News",
     "Kyiv Independent",
     "Dawn",
+    "The Hindu",
     "Japan Times"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 6,
+   "n": 7,
    "lat": 39.02,
    "lon": -98.68,
    "place": "США",
    "place_en": "United States",
-   "id": 6,
+   "id": 7,
    "t_en": "US approves sale of 500 Patriot missiles to Ukraine",
    "x_en": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles."
   },
   {
-   "t": "Франция готовится к протестам в честь Хэллоуина: магазины забивают витрины",
-   "x": "Франция в субботу приготовилась к третьим выходным протестов, совпадающих с Хэллоуином, поскольку магазины были заколочены, а власти изо всех сил пытались предотвратить повторение уличного насилия, охватившего страну две недели назад.",
+   "t": "Как продвигается процесс прекращения огня в оккупированном Россией Олешках?",
+   "x": "Украинский корреспондент Дэн Джонсон объясняет временное прекращение огня в разрушенном городе Олешки.",
    "r": "Европа",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 60,
-   "ago": 33,
+   "c": "Конфликты",
+   "imp": 75,
+   "ten": 44,
+   "ago": 40,
    "s": [
-    "France 24",
-    "Fox News",
-    "The Hindu"
+    "BBC",
+    "Al Jazeera",
+    "France 24"
    ],
-   "u": "https://www.france24.com/en/france-braces-for-halloween-protests-shops-board-up-storefronts",
-   "img": "https://s.france24.com/media/display/03c453f4-d4f5-11f1-814e-d18c5759e759/w:1024/p:16x9/EN-20261031-070208-070408-CS.jpg",
-   "img_src": "France 24",
+   "u": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc6f/live/ee8a8a40-d4b2-11f1-88a4-835788f4f80e.jpg",
+   "img_src": "BBC",
    "fresh": true,
-   "n": 3,
-   "lat": 46.3,
-   "lon": 2.08,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 7,
-   "t_en": "France braces for Halloween protests, shops board up storefronts",
-   "x_en": "France on Saturday braced for a third weekend of protests coinciding with Halloween, as shops boarded up and authorities scrambled to prevent a repeat of the street violence that swept the country two weeks ago."
+   "n": 4,
+   "lat": 62.36,
+   "lon": 96.61,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 8,
+   "t_en": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+   "x_en": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky."
   },
   {
-   "t": "Третьи выходные протестов во Франции",
-   "x": "Франция готовится к третьим выходным протестов: 70 000 сотрудников службы безопасности задействованы, чтобы предотвратить повторение насилия, произошедшего 17 октября. Магазины закололи свои помещения, поскольку власти предупреждают о дальнейших столкновениях, а Хэллоуин усиливает беспокойство.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 77,
-   "ten": 61,
-   "ago": 141,
+   "t": "Папа встретился с баскетбольными командами Виллановы и Нотр-Дама в Ватикане",
+   "x": "Команды находятся в Риме на открытии сезона студенческого баскетбола в США — мероприятии, получившем название «Наводка Вечного города» и созданном в честь Папы Римского, родившегося в США.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 74,
+   "ten": 40,
+   "ago": 147,
    "s": [
-    "France 24",
+    "CBS News",
     "ABC News",
-    "The Hindu",
+    "Reuters",
     "AP"
    ],
-   "u": "https://www.france24.com/en/third-weekend-of-protests-in-france",
-   "img": "https://s.france24.com/media/display/8d26b616-d51b-11f1-b158-d18c5759e759/w:1024/p:16x9/EN-20261031-110610-110903-CS.jpg",
-   "img_src": "France 24",
+   "u": "https://www.cbsnews.com/news/pope-leo-villanova-notre-dame-basketball-teams-vatican/",
+   "img": "https://s.abcnews.com/images/Sports/wirestory_3bb26f5b2b1bc2bd808b2dde13f585cb_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": false,
    "n": 4,
-   "lat": 45.76,
-   "lon": 2.46,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 8,
-   "t_en": "Third weekend of protests in France",
-   "x_en": "France is preparing for a third weekend of protests, with 70,000 security personnel deployed to prevent a repeat of the violence seen on October 17. Shops have boarded up their premises as authorities warn of further clashes, with Halloween adding to concerns "
-  },
-  {
-   "t": "Binance пострадала от кражи криптовалюты на сумму 6,3 миллиарда долларов",
-   "x": "Руководители Binance изо всех сил пытаются вернуть миллиарды долларов после того, как криптоплатформа подверглась крупнейшему ограблению в истории криптовалют. Сообщается, что хакеры украли у пользователей 6,3 миллиарда долларов, при этом аналитики указывают на это пальцем.",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 75,
-   "ten": 42,
-   "ago": 133,
-   "s": [
-    "France 24",
-    "CNBC",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/binance-hit-by-6-3-billion-dollar-crypto-theft",
-   "img": "https://s.france24.com/media/display/00c0623e-d51c-11f1-b31c-a575454bc579/w:1024/p:16x9/EN-20261030-210458-211233-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "lat": 41.81,
+   "lon": 12.55,
+   "place": "Рим",
+   "place_en": "Rome",
    "id": 9,
-   "t_en": "Binance hit by 6.3 billion dollar crypto theft",
-   "x_en": "Binance executives are scrambling to recover billions of dollars after the crypto platform was hit by what is being described as the biggest heist in cryptocurrency history. Hackers reportedly stole $6.3 billion from users, with analysts pointing the finger at"
+   "t_en": "Pope meets Villanova and Notre Dame basketball teams at the Vatican",
+   "x_en": "The teams are in Rome for the U.S. college basketball season opener — an event dubbed the Eternal City Tip-Off and created to honor the U.S.-born pope."
   },
   {
-   "t": "В результате стрельбы в калифорнийском магазине, посвященном Хэллоуину, погиб один человек, шестеро получили ранения",
-   "x": "В пятницу в результате стрельбы в магазине, посвященном Хэллоуину, в северной Калифорнии погиб один человек и было ранено шесть человек, сообщила полиция, добавив, что следователи еще не установили, кто несет ответственность. Инцидент произошел незадолго до 20:30 (03:30 по Гринвичу, суббота) в Spirit Hallow.",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 74,
-   "ten": 86,
-   "ago": 97,
-   "s": [
-    "Dawn",
-    "Times of India",
-    "AP"
-   ],
-   "u": "https://www.dawn.com/news/2041173/shooting-at-california-halloween-store-kills-one-wounds-six",
-   "img": "https://i.dawn.com/large/2025/07/2909072663d86c4.jpg",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 3,
-   "lat": 34.12,
-   "lon": -118.36,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 10,
-   "t_en": "Shooting at California Halloween store kills one, wounds six",
-   "x_en": "A shooting at a Halloween store in northern California killed one person and wounded six on Friday, police said, adding investigators had not yet identified who was responsible. The incident occurred shortly before 8:30pm (0330 GMT Saturday) at a Spirit Hallow"
-  },
-  {
-   "t": "Тысячи протестов по всей Италии против стоимости жизни и военных расходов",
-   "x": "Тысячи людей по всей Италии протестовали против роста стоимости жизни и увеличения военных расходов.",
+   "t": "Напряженность и столкновения: сотни тысяч людей снова протестуют во Франции",
+   "x": "Власти сообщают, что третьи выходные подряд 320 000 человек маршируют на демонстрации по поводу стоимости жизни и состояния школ.",
    "r": "Европа",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 80,
-   "ago": 233,
+   "c": "Политика",
+   "imp": 72,
+   "ten": 78,
+   "ago": 16,
    "s": [
     "Al Jazeera",
-    "Euronews",
-    "Africanews",
-    "The Hindu"
+    "NYT"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/97/35/17/696x392_cmsv2_10291bb9-ec89-5851-8125-ce5461b7eb0a-9973517.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 4,
-   "lat": 43.09,
-   "lon": 11.1,
-   "place": "Италия",
-   "place_en": "Italy",
+   "u": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+   "img": "https://static01.nyt.com/images/2026/10/31/multimedia/31france-protests-promo-105-ptgc/31france-protests-promo-105-ptgc-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": 47.49,
+   "lon": 2.95,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 10,
+   "t_en": "Tension and clashes as hundreds of thousands protest again in France",
+   "x_en": "Authorities say 320,000 march on third consecutive weekend of demonstrations over cost of living and state of schools."
+  },
+  {
+   "t": "Криптовалютная фирма Binance покрывает 90% убытков после взлома на 6,3 миллиарда долларов",
+   "x": "Две аналитические компании заявляют, что у них есть надежная разведывательная информация, указывающая на то, что вероятным виновником является группа, поддерживаемая северокорейским государством.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 43,
+   "ago": 1,
+   "s": [
+    "BBC",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": 40.64,
+   "lon": 126.81,
+   "place": "КНДР",
+   "place_en": "North Korea",
    "id": 11,
-   "t_en": "Thousands protest across Italy over living costs and military spending",
-   "x_en": "Thousands have protested across Italy against rising living costs and increased military spending."
+   "t_en": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+   "x_en": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit."
   },
   {
    "t": "Импорт золота в Индию снизился на 81%; мировые цены могут пострадать",
@@ -493,153 +494,281 @@
    "x_en": "Former Muslim rebel leader Abdulraof Macacua has been elected chief minister of the Philippines' Bangsamoro region."
   },
   {
-   "t": "В Украину прибыли эвакуированные из оккупированного Россией города, жители которого ели травку",
-   "x": "Жители покинули опустошенный город в пятницу после прекращения огня, достигнутого при посредничестве первой леди США Мелании Трамп.",
+   "t": "Полиция Лондона арестовала 48 человек в знак протеста против запрета действий в Палестине",
+   "x": "Демонстрации в Лондоне и Эдинбурге прошли за несколько дней до апелляции Верховного суда Великобритании, оспаривающей запрет группы.",
    "r": "Европа",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 36,
-   "ago": 7,
+   "c": "Политика",
+   "imp": 68,
+   "ten": 62,
+   "ago": 24,
    "s": [
-    "BBC",
-    "CBS News"
+    "Al Jazeera",
+    "Middle East Eye"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
+   "u": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+   "img": "https://www.middleeasteye.net/sites/default/files/palestine-action-london-metropolitan-police.jpg",
+   "img_src": "Middle East Eye",
    "fresh": true,
    "n": 2,
-   "lat": 60.93,
-   "lon": 94.81,
-   "place": "Россия",
-   "place_en": "Russia",
+   "lat": 51.26,
+   "lon": -0.11,
+   "place": "Лондон",
+   "place_en": "London",
    "id": 14,
-   "t_en": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
-   "x_en": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump."
+   "t_en": "London police arrest 48 as hundreds protest Palestine Action ban",
+   "x_en": "Demonstrations in London and Edinburgh come days before a UK Supreme Court appeal challenging the group's proscription."
   },
   {
-   "t": "Криптовалютные биржи призывают к быстрым действиям по укреплению защиты после ограбления Binance",
-   "x": "Криптовалютные биржи принимают быстрые меры для укрепления своей защиты и призывают к более широкому обмену информацией в масштабах всей отрасли после того, как рекордный взлом Binance стоимостью 6,3 миллиарда долларов выявил их уязвимость, как раз в тот момент, когда они все больше внедряются в основные финансовые потоки. Coinbase са",
+   "t": "По меньшей мере четыре палестинца убиты в Газе из-за продолжающихся атак Израиля",
+   "x": "Израиль совершил несколько атак в секторе Газа, в том числе обстрел лагеря беженцев Нусейрат.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 95,
+   "ago": 65,
+   "s": [
+    "Al Jazeera",
+    "Middle East Eye"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/31/at-least-four-palestinians-killed-in-gaza-as-israeli-attacks-continue?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae613d18df9-1793463249.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 2,
+   "lat": 32.27,
+   "lon": 35.1,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 15,
+   "t_en": "At least four Palestinians killed in Gaza as Israeli attacks continue",
+   "x_en": "Israel carried out several attacks in Gaza, including shelling the Nuseirat refugee camp."
+  },
+  {
+   "t": "В результате стрельбы в калифорнийском магазине, посвященном Хэллоуину, погиб один человек, шестеро получили ранения",
+   "x": "В пятницу в результате стрельбы в магазине, посвященном Хэллоуину, в северной Калифорнии погиб один человек и было ранено шесть человек, сообщила полиция, добавив, что следователи еще не установили, кто несет ответственность. Инцидент произошел незадолго до 20:30 (03:30 по Гринвичу, суббота) в Spirit Hallow.",
    "r": "Мир",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 40,
-   "ago": 128,
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 86,
+   "ago": 158,
    "s": [
     "Dawn",
-    "Japan Times",
-    "Reuters"
+    "Times of India",
+    "AP"
    ],
-   "u": "https://www.dawn.com/news/2041192/crypto-exchanges-call-for-quick-moves-to-bolster-defences-after-binance-heist",
-   "img": "https://i.dawn.com/large/2026/10/311749211e36994.webp",
+   "u": "https://www.dawn.com/news/2041173/shooting-at-california-halloween-store-kills-one-wounds-six",
+   "img": "https://i.dawn.com/large/2025/07/2909072663d86c4.jpg",
    "img_src": "Dawn",
    "fresh": false,
    "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 15,
-   "t_en": "Crypto exchanges call for quick moves to bolster defences after Binance heist",
-   "x_en": "Crypto exchanges are taking quick action to bolster their defences and urging greater industry-wide information-sharing after a record $6.3 billion hack of Binance exposed their vulnerability just as they become more embedded in mainstream finance. Coinbase sa"
+   "lat": 34.12,
+   "lon": -118.36,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
+   "id": 16,
+   "t_en": "Shooting at California Halloween store kills one, wounds six",
+   "x_en": "A shooting at a Halloween store in northern California killed one person and wounded six on Friday, police said, adding investigators had not yet identified who was responsible. The incident occurred shortly before 8:30pm (0330 GMT Saturday) at a Spirit Hallow"
   },
   {
-   "t": "В Испании поезд-катастрофа тучи у Санчеса шансы на переизбрание",
-   "x": "Премьер-министр Испании переживает череду кризисов всего за несколько недель до досрочных всеобщих выборов.",
+   "t": "Флавио Болсонару публикует видео, в котором говорит, что бежал из Бразилии из-за «преследований»",
+   "x": "Побежденный кандидат в президенты Бразилии от правого толка Флавио Болсонару поздно вечером в пятницу разместил в социальных сетях видеообращение, в котором заявил, что бежал в США, потому что стал жертвой «преследований». Болсонару, проигравший во втором туре выборов в воскресенье президенту Луису Ину",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 67,
+   "ten": 40,
+   "ago": 7,
+   "s": [
+    "France 24",
+    "The Hindu"
+   ],
+   "u": "https://www.france24.com/en/americas/20261031-flavio-bolsonaro-posts-video-says-he-fled-brazil-due-to-persecution",
+   "img": "https://s.france24.com/media/display/a8327e6e-d542-11f1-946d-d18c5759e759/w:1024/p:16x9/000-D4ZG6ZT.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 3,
+   "lat": -10.36,
+   "lon": -52.46,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 17,
+   "t_en": "Flavio Bolsonaro posts video, says he fled Brazil due to ‘persecution’",
+   "x_en": "Brazil's defeated right-wing presidential candidate Flavio Bolsonaro posted a video message on social media late Friday to declare he had fled to the US because he was a victim of 'persecution'. Bolsonaro, who lost Sunday's election runoff to President Luiz In"
+  },
+  {
+   "t": "Бёрнем открывает двери для официальных извинений за работорговлю в Великобритании",
+   "x": "Премьер-министр Великобритании исключает возможность финансовых репараций, несмотря на давние требования стран Карибского бассейна.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 62,
+   "imp": 64,
    "ten": 40,
-   "ago": 46,
-   "s": [
-    "BBC",
-    "NYT"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a970/live/20e78ee0-d4ed-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.14,
-   "lon": -3.25,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 16,
-   "t_en": "Spain train disaster clouds Sánchez chances of re-election",
-   "x_en": "The Spanish PM is hit by a succession of crises just weeks before a snap general election."
-  },
-  {
-   "t": "Семья генерального директора агентства недвижимости ранена во время вторжения в дом в Торонто, заявляют официальные лица",
-   "x": "В настоящее время ведутся поиски троих вооруженных мужчин, которые рано утром в четверг ворвались в особняк в Торонто, принадлежащий генеральному директору агентства недвижимости, напали и ранили находившуюся там семью, сообщили власти.",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 82,
-   "ago": 18,
-   "s": [
-    "CBS News"
-   ],
-   "u": "https://www.cbsnews.com/news/real-estate-ceo-family-wounded-toronto-home-invasion/",
-   "img": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/31/72492ff8-c82f-4b21-9c6c-ff348f07fbb8/thumbnail/1200x630/9dfd2c2edaa5f336c1ec55c825409480/1793407703752.png",
-   "img_src": "CBS News (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 17,
-   "t_en": "Family of real estate CEO wounded in Toronto home invasion, officials say",
-   "x_en": "A search is underway for three armed men who broke into a mansion in Toronto belonging to a real estate CEO in the early morning hours Thursday and attacked and injured the family inside, authorities said."
-  },
-  {
-   "t": "Сирия рассматривает возможность заключения оборонного пакта в Мекке, заявил министр иностранных дел",
-   "x": "Дамаск «оценивает», стоит ли присоединяться к альянсу, связывающему Турцию, Саудовскую Аравию и Пакистан.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 28,
-   "ago": 40,
+   "ago": 291,
    "s": [
     "Al Jazeera",
-    "Dawn"
+    "France 24",
+    "NYT",
+    "Dawn",
+    "The Hindu",
+    "Politico EU",
+    "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/08/191823595f98d71.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": 35.07,
-   "lon": 38.04,
-   "place": "Сирия",
-   "place_en": "Syria",
+   "u": "https://www.aljazeera.com/news/2026/10/31/burnham-opens-door-to-formal-apology-for-britains-slave-trade?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/0a003486-d527-11f1-b75d-bf1914cabd52/w:1024/p:16x9/74706f6624812bdb75973570d6ce3acdf7330c24.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 7,
+   "lat": 54.2,
+   "lon": -2.07,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
    "id": 18,
-   "t_en": "Syria considering entry into Mecca defence pact, says foreign minister",
-   "x_en": "Damascus 'evaluating' whether to join the alliance that binds Turkiye, Saudi Arabia and Pakistan."
+   "t_en": "Burnham opens door to formal apology for Britain’s slave trade",
+   "x_en": "UK Prime Minister rules out financial reparations, despite longstanding Caribbean demands."
   },
   {
-   "t": "Япония намерена использовать подводные дроны для подводного наблюдения",
-   "x": "",
-   "r": "Азия",
+   "t": "Немецкая полиция открыла огонь из водометов во время напряженных протестов «поколения Z»",
+   "x": "В субботу немецкая полиция применила водомет, чтобы разогнать протестующих, бросавших фейерверки, а также была забросана другими снарядами, поскольку напряженность возросла после окончания массовых протестов под руководством молодежи. В Берлине, Франкфурте, Кёльне и десятках других городов демонстрация",
+   "r": "Европа",
    "c": "Общее",
-   "imp": 60,
-   "ten": 57,
-   "ago": 1,
+   "imp": 63,
+   "ten": 82,
+   "ago": 4,
    "s": [
-    "Nikkei Asia"
+    "Dawn"
    ],
-   "u": "https://asia.nikkei.com/politics/defense/japan-aims-to-deploy-underwater-drones-for-sub-surveillance",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F5%2F2%2F9%2F13379258-1-eng-GB%2F2248e0730d99-photo_SXM2026102800008701.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.dawn.com/news/2041157/german-police-fire-water-cannon-during-tense-gen-z-protests",
+   "img": "https://i.dawn.com/large/2026/10/312355395de9dc7.webp",
+   "img_src": "Dawn",
    "fresh": true,
    "n": 1,
-   "lat": 36.17,
-   "lon": 137.41,
-   "place": "Япония",
-   "place_en": "Japan",
+   "lat": 50.62,
+   "lon": 11.76,
+   "place": "Германия",
+   "place_en": "Germany",
    "id": 19,
-   "t_en": "Japan aims to deploy underwater drones for sub surveillance",
-   "x_en": ""
+   "t_en": "German police fire water cannon during tense 'Gen Z' protests",
+   "x_en": "German police fired a water cannon to disperse firework-hurling protesters on Saturday and were also pelted with other projectiles, as tensions rose at the end of massive youth-led protests. In Berlin, Frankfurt, Cologne and dozens of other cities, demonstrato"
+  },
+  {
+   "t": "Мексика оживает во время ежегодного празднования Дня мертвых",
+   "x": "Ярко-оранжевые бархатцы, светящиеся свечи и раскрашенные лица заполняют улицы Мексики во время празднования Дня мертвых.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 62,
+   "ten": 74,
+   "ago": 1,
+   "s": [
+    "ABC News"
+   ],
+   "u": "https://abcnews.com/International/wireStory/mexico-alive-annual-day-dead-celebrations-137733002",
+   "img": "https://s.abcnews.com/images/Travel/wirestory_3a7842be9ad9d7e63d63b33334cad7de_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 1,
+   "lat": 22.92,
+   "lon": -102.09,
+   "place": "Мексика",
+   "place_en": "Mexico",
+   "id": 20,
+   "t_en": "Mexico comes alive during annual Day of the Dead celebrations",
+   "x_en": "Bright orange marigolds, glowing candles, and painted faces fill Mexico's streets during the Day of the Dead celebrations"
+  },
+  {
+   "t": "Иранский лидер угрожает немедленным ответом на потенциальное нападение и другие новости Ближнего Востока",
+   "x": "Верховный лидер Ирана пригрозил немедленным ответом на любое потенциальное нападение со стороны США или Израиля",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 84,
+   "ago": 101,
+   "s": [
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/iranian-leader-threatens-immediate-response-potential-attack-mideast-137731097",
+   "img": "https://s.abcnews.com/images/International/wirestory_15c0556b92c8c23beb9b8854b4c124f4_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 2,
+   "lat": 32.5,
+   "lon": 54.32,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 21,
+   "t_en": "Iranian leader threatens immediate response to potential attack, and other Mideast news",
+   "x_en": "Iran's supreme leader has threatened an immediate response to any potential attack from the U.S. or Israel"
+  },
+  {
+   "t": "Пакистан раскритиковал афганских талибов за «перекладывание вины» и «настойчивый отказ» решать проблемы терроризма",
+   "x": "Министерство информации в субботу осудило позицию афганских талибов в отношении продолжающегося конфликта между двумя странами, раскритиковав их «настойчивый отказ бороться с терроризмом», исходящим с территории Афганистана. Заявление появилось в ответ на высказывания сумасшедшего",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 61,
+   "ten": 91,
+   "ago": 24,
+   "s": [
+    "Dawn"
+   ],
+   "u": "https://www.dawn.com/news/2041221/pakistan-slams-afghan-taliban-for-shifting-blame-persistent-refusal-to-address-terrorism-issues",
+   "img": "https://i.dawn.com/large/2026/10/31231441d9963f2.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 1,
+   "lat": 34.11,
+   "lon": 68.29,
+   "place": "Афганистан",
+   "place_en": "Afghanistan",
+   "id": 22,
+   "t_en": "Pakistan slams Afghan Taliban for 'shifting blame', 'persistent refusal' to address terrorism issues",
+   "x_en": "The information ministry on Saturday rebuked the Afghan Taliban’s stance on the ongoing conflict between the two countries, assailing its “persistent refusal to address terrorism” emanating from Afghanistan’s soil. The statement came in response to remarks mad"
+  },
+  {
+   "t": "Иран может вернуться к вопросу о запрете ядерного оружия, если война возобновится, заявил глава службы безопасности",
+   "x": "Иран обсуждает вопрос о том, сохранять ли свой давний запрет на ядерное оружие в случае возобновления боевых действий, хотя никакого решения о каких-либо изменениях принято не было, сообщил государственным СМИ в субботу глава Совета безопасности Ирана Мохсен Резаи. Резаи также отметил тон Вашингтона.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 95,
+   "ago": 32,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-could-revisit-nuclear-weapons-ban-if-war-resumes-security-chief",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/000_D4F36DD.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 32.68,
+   "lon": 54.58,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 23,
+   "t_en": "Iran could revisit nuclear weapons ban if war resumes, security chief says",
+   "x_en": "Iran is debating whether to maintain its longstanding ban on nuclear weapons if hostilities resume, though no decision has been taken on any change, Iranian Security Council chief Mohsen Rezaei told state media on Saturday. Rezaei also said Washington's tone h"
+  },
+  {
+   "t": "Третьи выходные протестов во Франции",
+   "x": "Франция готовится к третьим выходным протестов: 70 000 сотрудников службы безопасности задействованы, чтобы предотвратить повторение насилия, произошедшего 17 октября. Магазины закололи свои помещения, поскольку власти предупреждают о дальнейших столкновениях, а Хэллоуин усиливает беспокойство.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 61,
+   "ten": 65,
+   "ago": 85,
+   "s": [
+    "France 24",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/third-weekend-of-protests-in-france",
+   "img": "https://s.france24.com/media/display/8d26b616-d51b-11f1-b158-d18c5759e759/w:1024/p:16x9/EN-20261031-110610-110903-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 2,
+   "lat": 45.76,
+   "lon": 2.46,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 24,
+   "t_en": "Third weekend of protests in France",
+   "x_en": "France is preparing for a third weekend of protests, with 70,000 security personnel deployed to prevent a repeat of the violence seen on October 17. Shops have boarded up their premises as authorities warn of further clashes, with Halloween adding to concerns "
   },
   {
    "t": "Японская IHI соперничает с корейским конкурентом в захвате зарубежного ядерного спроса",
@@ -661,7 +790,7 @@
    "lon": 137.32,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 20,
+   "id": 25,
    "t_en": "Japan's IHI vies with Korean rival to capture overseas nuclear demand",
    "x_en": ""
   },
@@ -685,7 +814,7 @@
    "lon": 138.47,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 21,
+   "id": 26,
    "t_en": "Japan prepares for commercial drone flocks after operating limit lifted",
    "x_en": ""
   },
@@ -709,7 +838,7 @@
    "lon": 106.85,
    "place": "Вьетнам",
    "place_en": "Vietnam",
-   "id": 22,
+   "id": 27,
    "t_en": "Vietnam drone intrusions prompt airport safety response nationwide",
    "x_en": ""
   },
@@ -733,59 +862,83 @@
    "lon": 137.71,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 23,
+   "id": 28,
    "t_en": "Japan has 'no time to lose' to avert a healthcare crisis, minister says",
    "x_en": ""
   },
   {
-   "t": "В Германии и Франции проходят протесты, поскольку министр предостерегает от использования масок на Хэллоуин – Европа в прямом эфире",
-   "x": "Министр внутренних дел Франции Лоран Нуньес предупредил протестующих, что закрытие лиц костюмами для Хэллоуина может привести к штрафам. Протестующие в Париже начали марш от Порт-де-Баньоле, демонстрации также прошли в Лилле и Лионе. С",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 70,
-   "ago": 16,
+   "t": "Binance заявляет, что 90% из $6,3 миллиардов убытков от взлома теперь покрыты, и планирует возобновить вывод средств в воскресенье",
+   "x": "Binance заявляет, что восстановила поддержку 90% активов, пострадавших от взлома на сумму 6,3 миллиарда долларов, и планирует возобновить вывод средств при условии проверки безопасности.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 60,
+   "ten": 36,
+   "ago": 60,
    "s": [
-    "The Guardian"
+    "CNBC",
+    "Reuters"
    ],
-   "u": "https://www.theguardian.com/world/live/2026/oct/31/france-germany-protests-paris-europe-latest-news-updates",
-   "img": "https://i.guim.co.uk/img/media/63ef453138778f4b8cf787d2f23af246bce58f25/572_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=fc579f04e34b1120d30114772dc18b7b",
-   "img_src": "The Guardian",
-   "fresh": true,
+   "u": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/106907103-1625597281111-gettyimages-1233700528-porzycki-binancep210628_npNRz.jpeg?v=1680785353&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": false,
    "n": 2,
-   "lat": 50.03,
-   "lon": 10.37,
-   "place": "Германия",
-   "place_en": "Germany",
-   "id": 24,
-   "t_en": "Protests under way in Germany and France as minister warns against use of Halloween masks – Europe live",
-   "x_en": "France’s interior minister, Laurent Nuñez, has warned protesters that covering their faces with Halloween costumes could result in fines Protesters in Paris have begun marching from Porte de Bagnolet, with demonstrations also taking place in Lille and Lyon . C"
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 29,
+   "t_en": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
+   "x_en": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and is planning to resume withdrawals, subject to security checks."
   },
   {
-   "t": "Протесты возле Конституционного суда Польши: в чем суть кризиса?",
-   "x": "Центристское правительство Польши заявляет, что восстанавливает независимость судебной системы после многих лет политического вмешательства крайне правых.",
-   "r": "Европа",
+   "t": "Польский кризис может помочь премьер-министру Туску или обернуться против него и президента Навроцкого в опросах 2027 года, говорит эксперт",
+   "x": "Польский эксперт Кшиштоф Марцин Залевский о траектории нынешнего политического кризиса и дальнейших планах правительства Дональда Туска",
+   "r": "Мир",
    "c": "Политика",
    "imp": 59,
-   "ten": 54,
-   "ago": 213,
+   "ten": 74,
+   "ago": 26,
    "s": [
-    "Al Jazeera",
-    "The Hindu",
-    "AP"
+    "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/785p43/article71646889.ece/alternates/LANDSCAPE_1200/AFP_D4YH6NQ.jpg",
+   "u": "https://www.thehindu.com/news/international/current-crisis-could-help-pm-tusk-in-2027-polls-but-it-may-also-backfire-both-against-him-and-president-nawrocki-polish-expert-krzysztof-marcin-zalewski/article71649669.ece",
+   "img": "https://th-i.thgim.com/public/news/national/yw6clx/article71650785.ece/alternates/LANDSCAPE_1200/IMG-20261031-WA0067.jpg",
    "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 51.0,
-   "lon": 18.1,
+   "fresh": true,
+   "n": 1,
+   "lat": 52.42,
+   "lon": 18.15,
    "place": "Польша",
    "place_en": "Poland",
-   "id": 25,
-   "t_en": "Protests outside Poland’s constitutional court: What’s the crisis about?",
-   "x_en": "Poland’s centrist government says it is restoring judicial independence after years of far-right political interference."
+   "id": 30,
+   "t_en": "Polish crisis could help PM Tusk or backfire against him and President Nawrocki in 2027 polls, says expert",
+   "x_en": "Polish Expert Krzysztof Marcin Zalewski on the trajectory of the current political crisis and the way ahead for the Donald Tusk government"
+  },
+  {
+   "t": "После ограбления Лувра и серии краж небольшие музеи Европы находятся настороже",
+   "x": "Растут опасения, что преступники все чаще нападают на более мелкие учреждения с меньшим количеством ресурсов для защиты ценных коллекций.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 40,
+   "ago": 68,
+   "s": [
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.japantimes.co.jp/news/2026/10/31/world/crime-legal/europe-small-museums-theft-guard/",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/31/thumbs/400x400/571593.jpg",
+   "img_src": "Japan Times",
+   "fresh": false,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 31,
+   "t_en": "After Louvre heist and string of thefts, Europe’s smaller museums are on guard",
+   "x_en": "Concerns are growing that criminals are increasingly targeting smaller institutions with fewer resources to protect valuable collections."
   },
   {
    "t": "Трамп откладывает тарифы на избыточные мощности в преддверии промежуточных выборов в США",
@@ -807,7 +960,7 @@
    "lon": -99.27,
    "place": "США",
    "place_en": "United States",
-   "id": 26,
+   "id": 32,
    "t_en": "Trump holds off overcapacity tariffs as US midterms near",
    "x_en": ""
   },
@@ -831,80 +984,8 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 27,
+   "id": 33,
    "t_en": "BOJ chief Ueda says 2% inflation goal not yet sustainably achieved",
-   "x_en": ""
-  },
-  {
-   "t": "Более 100 человек протестовали против запрета действий в Палестине у посольства США в Лондоне",
-   "x": "Полиция начала арестовывать демонстрантов под руководством командира Метрополитена, утверждая, что они «по сути собираются, чтобы намеренно совершить преступление» Полиция начала производить аресты на первой массовой демонстрации во время премьерства Энди Бёрнэма против запрета Пейла",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 58,
-   "ten": 66,
-   "ago": 24,
-   "s": [
-    "The Guardian"
-   ],
-   "u": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
-   "img": "https://i.guim.co.uk/img/media/6807820322847a216baf62975e1cb66f78e36b30/808_0_4041_3233/master/4041.jpg?width=700&quality=85&auto=format&fit=max&s=788e3f7e695c558a4ea57d8bace61c08",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 1,
-   "lat": 51.42,
-   "lon": -0.06,
-   "place": "Лондон",
-   "place_en": "London",
-   "id": 28,
-   "t_en": "More than 100 protest against Palestine Action ban outside US embassy in London",
-   "x_en": "Police start arresting demonstrators with Met commander alleging they are ‘essentially meeting to purposefully commit a crime’ Police have started making arrests at the first mass demonstration under Andy Burnham’s premiership opposing the proscription of Pale"
-  },
-  {
-   "t": "Как местные жители и владельцы магазинов пытались спасти одну парижскую улицу от беспорядков",
-   "x": "Поскольку поджоги, грабежи и разрушения захлестнули улицу Борепер, некоторые жители умоляли бунтовщиков остановиться. Другие спрятались от страха. Многие боятся повторения.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 74,
-   "ago": 28,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/10/31/world/europe/france-riots-protests-paris-rue-beaurepaire.html",
-   "img": "https://static01.nyt.com/images/2026/10/31/business/31int-france-street-top-fdcd/31int-france-street-top-fdcd-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": 48.54,
-   "lon": 2.17,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 29,
-   "t_en": "How Locals and Shopkeepers Tried to Save One Paris Street From Rioters",
-   "x_en": "As arson, looting and destruction overwhelmed Rue Beaurepaire, some residents pleaded with rioters to stop. Others hid out of fear. Many dread a repeat."
-  },
-  {
-   "t": "Не использовался со времен Корейской войны; Армия США практикует раскапывание массовых могил на полях сражений: «Если бы мы завтра пошли на войну…»",
-   "x": "",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 91,
-   "ago": 52,
-   "s": [
-    "Times of India"
-   ],
-   "u": "https://timesofindia.indiatimes.com/world/us/not-used-since-the-korean-war-us-army-practices-digging-mass-battlefield-graves-if-we-went-to-war-tomorrow-/articleshow/135403286.cms",
-   "img": "https://static.toiimg.com/photo/msid-135403344,imgsize-244822.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.84,
-   "lon": -98.06,
-   "place": "США",
-   "place_en": "United States",
-   "id": 30,
-   "t_en": "Not used since the Korean War; US Army practices digging mass battlefield graves, 'If we went to war tomorrow...'",
    "x_en": ""
   },
   {
@@ -927,7 +1008,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 31,
+   "id": 34,
    "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
    "x_en": ""
   },
@@ -951,7 +1032,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 32,
+   "id": 35,
    "t_en": "Dream Big with a Home Equity Loan",
    "x_en": ""
   },
@@ -975,7 +1056,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 33,
+   "id": 36,
    "t_en": "Experts: this is the best cash back card of 2022",
    "x_en": ""
   },
@@ -999,7 +1080,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 34,
+   "id": 37,
    "t_en": "It's official: now avoid credit card interest into 2024",
    "x_en": ""
   },
@@ -1023,7 +1104,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 35,
+   "id": 38,
    "t_en": "0% intro APR until 2024 is 100% insane",
    "x_en": ""
   },
@@ -1047,7 +1128,7 @@
    "lon": 106.66,
    "place": "Вьетнам",
    "place_en": "Vietnam",
-   "id": 36,
+   "id": 39,
    "t_en": "Vietnam to overtake Indonesia in per capita GDP in 2026: IMF",
    "x_en": ""
   },
@@ -1071,88 +1152,12 @@
    "lon": 139.44,
    "place": "Токио",
    "place_en": "Tokyo",
-   "id": 37,
-   "t_en": "Japan bullet train operator eyes more Tokyo-Osaka express service",
-   "x_en": ""
-  },
-  {
-   "t": "Toyota, Honda и Nissan сокращают производство в Китае из-за сокращения рынка бензиновых автомобилей",
-   "x": "",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/toyota-honda-nissan-slash-china-output-as-gasoline-car-market-shrinks",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.84,
-   "lon": 103.65,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 38,
-   "t_en": "Toyota, Honda, Nissan slash China output as gasoline car market shrinks",
-   "x_en": ""
-  },
-  {
-   "t": "Takeda делает ставку на трио лекарств-блокбастеров, которые принесут пиковые продажи в 11 миллиардов долларов",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/pharmaceuticals/takeda-bets-on-blockbuster-drug-trio-to-generate-11bn-in-peak-sales",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 39,
-   "t_en": "Takeda bets on blockbuster drug trio to generate $11bn in peak sales",
-   "x_en": ""
-  },
-  {
-   "t": "Японский Upbond предложит возврат налогов за покупки в стейблкоине JPYC",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/cryptocurrencies/japan-s-upbond-to-offer-tax-free-shopping-refunds-in-jpyc-stablecoin",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.9,
-   "lon": 138.01,
-   "place": "Япония",
-   "place_en": "Japan",
    "id": 40,
-   "t_en": "Japan's Upbond to offer tax-free shopping refunds in JPYC stablecoin",
+   "t_en": "Japan bullet train operator eyes more Tokyo-Osaka express service",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793375572007,
-   "v": 48
-  },
   {
    "t": 1793391209584,
    "v": 48
@@ -1172,139 +1177,143 @@
   {
    "t": 1793458814378,
    "v": 48
+  },
+  {
+   "t": 1793473954557,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1793372414378,
+   "t": 1793387554557,
+   "v": 45,
+   "n": 31
+  },
+  {
+   "t": 1793391154557,
+   "v": 45,
+   "n": 35
+  },
+  {
+   "t": 1793394754557,
+   "v": 48,
+   "n": 35
+  },
+  {
+   "t": 1793398354557,
+   "v": 47,
+   "n": 32
+  },
+  {
+   "t": 1793401954557,
+   "v": 49,
+   "n": 29
+  },
+  {
+   "t": 1793405554557,
+   "v": 47,
+   "n": 32
+  },
+  {
+   "t": 1793409154557,
+   "v": 47,
+   "n": 39
+  },
+  {
+   "t": 1793412754557,
+   "v": 46,
+   "n": 37
+  },
+  {
+   "t": 1793416354557,
    "v": 44,
-   "n": 47
+   "n": 36
   },
   {
-   "t": 1793376014378,
-   "v": 45,
-   "n": 48
-  },
-  {
-   "t": 1793379614378,
-   "v": 43,
-   "n": 41
-  },
-  {
-   "t": 1793383214378,
-   "v": 45,
-   "n": 48
-  },
-  {
-   "t": 1793386814378,
-   "v": 45,
+   "t": 1793419954557,
+   "v": 46,
    "n": 34
   },
   {
-   "t": 1793390414378,
-   "v": 48,
+   "t": 1793423554557,
+   "v": 51,
    "n": 42
   },
   {
-   "t": 1793394014378,
-   "v": 47,
-   "n": 47
+   "t": 1793427154557,
+   "v": 52,
+   "n": 57
   },
   {
-   "t": 1793397614378,
-   "v": 48,
-   "n": 55
+   "t": 1793430754557,
+   "v": 54,
+   "n": 58
   },
   {
-   "t": 1793401214378,
-   "v": 46,
-   "n": 54
+   "t": 1793434354557,
+   "v": 53,
+   "n": 57
   },
   {
-   "t": 1793404814378,
-   "v": 45,
-   "n": 42
-  },
-  {
-   "t": 1793408414378,
-   "v": 46,
+   "t": 1793437954557,
+   "v": 52,
    "n": 46
   },
   {
-   "t": 1793412014378,
-   "v": 46,
-   "n": 42
-  },
-  {
-   "t": 1793415614378,
-   "v": 47,
-   "n": 52
-  },
-  {
-   "t": 1793419214378,
-   "v": 48,
-   "n": 44
-  },
-  {
-   "t": 1793422814378,
-   "v": 49,
-   "n": 47
-  },
-  {
-   "t": 1793426414378,
-   "v": 49,
+   "t": 1793441554557,
+   "v": 51,
    "n": 43
   },
   {
-   "t": 1793430014378,
-   "v": 51,
-   "n": 50
-  },
-  {
-   "t": 1793433614378,
-   "v": 52,
-   "n": 51
-  },
-  {
-   "t": 1793437214378,
-   "v": 52,
-   "n": 53
-  },
-  {
-   "t": 1793440814378,
-   "v": 50,
-   "n": 61
-  },
-  {
-   "t": 1793444414378,
-   "v": 50,
-   "n": 75
-  },
-  {
-   "t": 1793448014378,
+   "t": 1793445154557,
    "v": 49,
-   "n": 98
+   "n": 54
   },
   {
-   "t": 1793451614378,
-   "v": 49,
-   "n": 102
+   "t": 1793448754557,
+   "v": 48,
+   "n": 77
   },
   {
-   "t": 1793455214378,
-   "v": 46,
-   "n": 127
+   "t": 1793452354557,
+   "v": 47,
+   "n": 92
   },
   {
-   "t": 1793458814378,
-   "v": 46,
+   "t": 1793455954557,
+   "v": 47,
    "n": 88
+  },
+  {
+   "t": 1793459554557,
+   "v": 48,
+   "n": 86
+  },
+  {
+   "t": 1793463154557,
+   "v": 49,
+   "n": 88
+  },
+  {
+   "t": 1793466754557,
+   "v": 53,
+   "n": 94
+  },
+  {
+   "t": 1793470354557,
+   "v": 50,
+   "n": 116
+  },
+  {
+   "t": 1793473954557,
+   "v": 50,
+   "n": 87
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 26
+   "items": 28
   },
   {
    "n": "Al Jazeera",
@@ -1320,7 +1329,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 30
+   "items": 27
   },
   {
    "n": "Sky News",
@@ -1328,7 +1337,7 @@
   },
   {
    "n": "NPR",
-   "items": 4
+   "items": 5
   },
   {
    "n": "UN News",
@@ -1340,7 +1349,7 @@
   },
   {
    "n": "Euronews",
-   "items": 33
+   "items": 31
   },
   {
    "n": "NYT",
@@ -1352,11 +1361,11 @@
   },
   {
    "n": "CBS News",
-   "items": 19
+   "items": 22
   },
   {
    "n": "ABC News",
-   "items": 19
+   "items": 22
   },
   {
    "n": "CNN",
@@ -1364,7 +1373,7 @@
   },
   {
    "n": "Fox News",
-   "items": 4
+   "items": 5
   },
   {
    "n": "ABC Australia",
@@ -1372,7 +1381,7 @@
   },
   {
    "n": "CNA",
-   "items": 12
+   "items": 8
   },
   {
    "n": "Times of Israel",
@@ -1380,7 +1389,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1388,7 +1397,7 @@
   },
   {
    "n": "Africanews",
-   "items": 38
+   "items": 40
   },
   {
    "n": "Kyiv Independent",
@@ -1404,11 +1413,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 17
+   "items": 13
   },
   {
    "n": "Dawn",
-   "items": 26
+   "items": 27
   },
   {
    "n": "Times of India",
@@ -1424,7 +1433,7 @@
   },
   {
    "n": "Japan Times",
-   "items": 30
+   "items": 21
   },
   {
    "n": "Reuters",
@@ -1438,7 +1447,6 @@
  "failed": [
   "Washington Post",
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

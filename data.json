@@ -1,37 +1,41 @@
 {
- "updated": 1793404103157,
+ "updated": 1793414813472,
  "demo": false,
- "total_articles": 714,
- "second_delta": 1,
+ "total_articles": 702,
+ "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 44
+   "v": 46
   },
   {
    "n": "Al Jazeera",
-   "v": 53
-  },
-  {
-   "n": "DW",
-   "v": 42
-  },
-  {
-   "n": "France 24",
    "v": 58
   },
   {
+   "n": "DW",
+   "v": 40
+  },
+  {
+   "n": "France 24",
+   "v": 59
+  },
+  {
    "n": "The Guardian",
-   "v": 49
+   "v": 50
   },
   {
    "n": "Sky News",
-   "v": 52
+   "v": 51
   },
   {
    "n": "NPR",
+   "v": 49
+  },
+  {
+   "n": "UN News",
    "v": 49
   },
   {
@@ -40,7 +44,7 @@
   },
   {
    "n": "Euronews",
-   "v": 47
+   "v": 48
   },
   {
    "n": "NYT",
@@ -60,7 +64,7 @@
   },
   {
    "n": "Fox News",
-   "v": 50
+   "v": 52
   },
   {
    "n": "ABC Australia",
@@ -68,11 +72,11 @@
   },
   {
    "n": "CNA",
-   "v": 52
+   "v": 49
   },
   {
    "n": "Middle East Eye",
-   "v": 61
+   "v": 63
   },
   {
    "n": "Africanews",
@@ -84,7 +88,7 @@
   },
   {
    "n": "Yonhap",
-   "v": 39
+   "v": 40
   },
   {
    "n": "Nikkei Asia",
@@ -92,7 +96,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 42
+   "v": 40
   },
   {
    "n": "Dawn",
@@ -100,11 +104,11 @@
   },
   {
    "n": "Times of India",
-   "v": 40
+   "v": 42
   },
   {
    "n": "The Hindu",
-   "v": 49
+   "v": 51
   },
   {
    "n": "Politico EU",
@@ -112,11 +116,11 @@
   },
   {
    "n": "Japan Times",
-   "v": 45
+   "v": 46
   },
   {
    "n": "Reuters",
-   "v": 47
+   "v": 43
   },
   {
    "n": "AP",
@@ -130,7 +134,7 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 48
+   "v": 50
   },
   {
    "n": "Азия",
@@ -138,102 +142,50 @@
   },
   {
    "n": "Африка",
-   "v": 51
+   "v": 47
   },
   {
    "n": "Америка",
-   "v": 44
+   "v": 46
   }
  ],
  "events": [
   {
-   "t": "США одобрили продажу Украине 500 ракет «Пэтриот»",
-   "x": "Перехватчики американского производства являются единственным эффективным средством поражения российских баллистических ракет.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 83,
-   "ten": 66,
-   "ago": 88,
+   "t": "Папа Лев XIV стал первым понтификом, проголосовавшим на выборах в США",
+   "x": "Понтифик, уроженец Чикаго, у которого напряженные отношения с Трампом, отправил по почте бюллетень для промежуточных выборов, которые определят контроль над Конгрессом США.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 40,
+   "ago": 75,
    "s": [
     "BBC",
-    "Kyiv Independent",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 39.02,
-   "lon": -98.68,
-   "place": "США",
-   "place_en": "United States",
-   "id": 1,
-   "t_en": "US approves sale of 500 Patriot missiles to Ukraine",
-   "x_en": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles."
-  },
-  {
-   "t": "Ошибки в управлении движением стали причиной смертельной крушения поезда в Испании, заявил чиновник",
-   "x": "Министр транспорта заявил, что судья расследует действия контролеров, в том числе разрешение поезду двигаться на высокой скорости, хотя перед ним застрял другой поезд.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 77,
-   "ten": 40,
-   "ago": 21,
-   "s": [
-    "NYT",
+    "Al Jazeera",
+    "CBS News",
     "ABC News",
     "AP"
    ],
-   "u": "https://www.nytimes.com/2026/10/30/world/europe/spain-crash-contoller-errors.html",
-   "img": "https://static01.nyt.com/images/2026/10/30/multimedia/30Int-spain-crash-tfqv/30Int-spain-crash-tfqv-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 4,
-   "lat": 40.71,
-   "lon": -3.17,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 2,
-   "t_en": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says",
-   "x_en": "The transport minister said a judge would investigate controllers’ actions, including authorizing a train to proceed at high speed though another was stalled in front of it."
-  },
-  {
-   "t": "Заключенная в США Криста Пайк рассказала, что проснулась «в замешательстве и боли» после неудачной казни",
-   "x": "Это первое публичное заявление Пайк с тех пор, как она пережила попытку казни с помощью смертельной инъекции в сентябре.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 77,
-   "ten": 55,
-   "ago": 140,
-   "s": [
-    "BBC",
-    "Euronews",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e22e/live/c1455920-d46c-11f1-93e1-3b657b665bcf.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c8a0/live/e3a84f00-d470-11f1-9dda-1ba6fcc7d159.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 4,
-   "lat": 38.51,
-   "lon": -97.83,
+   "n": 5,
+   "lat": 39.73,
+   "lon": -98.19,
    "place": "США",
    "place_en": "United States",
-   "id": 3,
-   "t_en": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-   "x_en": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September."
+   "id": 1,
+   "t_en": "Pope Leo XIV becomes first pontiff to vote in a US election",
+   "x_en": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress."
   },
   {
    "t": "Взлом Binance на сумму 6,3 миллиарда долларов стал крупнейшей кражей криптовалюты за всю историю",
    "x": "Binance сообщает, что нарушение безопасности затронуло активы на сумму около 6,3 миллиарда долларов. Биржа сообщает, что около 3 миллиардов долларов заморожено и убытки будут покрыты.",
    "r": "Азия",
    "c": "Экономика",
-   "imp": 76,
+   "imp": 78,
    "ten": 42,
-   "ago": 121,
+   "ago": 103,
    "s": [
     "CNBC",
     "CBS News",
@@ -249,119 +201,60 @@
    "lon": 127.91,
    "place": "КНДР",
    "place_en": "North Korea",
-   "id": 4,
+   "id": 2,
    "t_en": "$6.3 billion Binance hack is largest crypto theft on record",
    "x_en": "Binance says a security breach impacted about $6.3 billion in assets. The exchange says roughly $3 billion has been frozen and losses will be covered."
   },
   {
-   "t": "Иран утверждает, что четыре танкера подорвались на минах в Ормузе, поскольку опасения забастовок растут после промежуточных выборов в США",
-   "x": "Иран заявил, что четыре танкера подорвались на минах в Ормузском проливе, в то время как Тегеран оспорил утверждение США о том, что ключевые судоходные пути были расчищены.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 74,
-   "ten": 48,
-   "ago": 158,
-   "s": [
-    "CNBC",
-    "CBS News",
-    "Middle East Eye",
-    "The Hindu",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.cnbc.com/2026/10/30/iran-trump-hormuz-oil-middle-east-.html",
-   "img": "https://th-i.thgim.com/public/news/national/5x0xtk/article71642057.ece/alternates/LANDSCAPE_1200/iStock-2264193758.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 6,
-   "lat": 26.5,
-   "lon": 56.24,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 5,
-   "t_en": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms",
-   "x_en": "Iran said four tankers struck mines in the Strait of Hormuz, while Tehran disputed a U.S. claim that key shipping lanes had been cleared."
-  },
-  {
-   "t": "Нас задушили, говорит основатель закрытой под давлением властей российской газеты",
-   "x": "«Новая газета» была одним из самых громких независимых новостных изданий в России за последние три десятилетия.",
+   "t": "G20 отказалась от группового фото, поскольку европейцы отказываются поддерживать Лаврова",
+   "x": "Попавший под санкции министр иностранных дел России присутствует на переговорах в Атланте, поскольку война в Иране, разрушение Ормуза и Украина разделяют членов G20.",
    "r": "Европа",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 55,
-   "ago": 187,
+   "c": "Политика",
+   "imp": 72,
+   "ten": 49,
+   "ago": 68,
    "s": [
-    "BBC",
+    "Al Jazeera",
     "Euronews",
-    "ABC News",
     "The Hindu"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b85a/live/484c0a90-d4b8-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 61.38,
-   "lon": 96.27,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 6,
-   "t_en": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
-   "x_en": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades."
-  },
-  {
-   "t": "Предвыборная гонка в Сенате Аляски сталкивается с претензиями на кандидата-спойлера. И Хегсет свергает генерала армии",
-   "x": "Губернатор Аляски приказал провести расследование утверждений о том, что демократы наняли кандидата-спойлера, чтобы запутать избирателей. Кроме того, Хегсет сверг армейского генерала, поскольку США готовятся к потенциальному нападению на Иран.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 72,
-   "ten": 46,
-   "ago": 62,
-   "s": [
-    "NPR",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8192x4608+0+428/resize/1400/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5b%2Fb3%2Ff61edb374245b81e9c39ed97c098%2Fgettyimages-2302087268.jpg",
-   "img_src": "NPR (og)",
+   "u": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/97/40/03/696x392_cmsv2_14ad4dfc-14e1-5d80-9067-ee5fb9067996-9974003.jpg",
+   "img_src": "Euronews",
    "fresh": false,
    "n": 3,
-   "lat": 38.66,
-   "lon": -98.11,
+   "lat": 39.1,
+   "lon": -98.51,
    "place": "США",
    "place_en": "United States",
-   "id": 7,
-   "t_en": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
-   "x_en": "Alaska's governor ordered an investigation into claims that Dems recruited a spoiler candidate to confuse voters. And, Hegseth ousted an Army general as the U.S. prepares for potential attacks on Iran."
+   "id": 3,
+   "t_en": "G20 drops group photo as Europeans refuse to stand with Lavrov",
+   "x_en": "Sanctioned Russian FM attends Atlanta talks as Iran war, Hormuz disruption and Ukraine divide G20 members."
   },
   {
-   "t": "Папа Лев XIV стал первым понтификом, проголосовавшим на выборах в США",
-   "x": "Понтифик, уроженец Чикаго, у которого напряженные отношения с Трампом, отправил по почте бюллетень для промежуточных выборов, которые определят контроль над Конгрессом США.",
+   "t": "Зеленский похвалил США за сделку по ракетам «Патриот» на 2,1 миллиарда долларов, но предупреждает, что это может занять годы",
+   "x": "Украинский президент назвал решение США сильным, но добавил, что поставка 500 ракет Patriot PAC-3 может занять годы. США одобрили продажу 500 ракет Patriot PAC-3 Украине примерно за 2,1 миллиарда долларов, но Владимир Зеленский предупредил, что",
    "r": "Америка",
-   "c": "Политика",
+   "c": "Конфликты",
    "imp": 70,
-   "ten": 40,
-   "ago": 188,
+   "ten": 80,
+   "ago": 29,
    "s": [
-    "BBC",
-    "CBS News",
-    "ABC News",
-    "Reuters",
-    "AP"
+    "The Guardian",
+    "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c8a0/live/e3a84f00-d470-11f1-9dda-1ba6fcc7d159.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 39.73,
-   "lon": -98.19,
-   "place": "США",
-   "place_en": "United States",
-   "id": 8,
-   "t_en": "Pope Leo XIV becomes first pontiff to vote in a US election",
-   "x_en": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress."
+   "u": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+   "img": "https://i.guim.co.uk/img/media/59605b4171430a7ce348936f13d40624c8ae6a16/410_0_4880_3904/master/4880.jpg?width=700&quality=85&auto=format&fit=max&s=1772b78e79ae14ab4949a41a62058e4a",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": 50.1,
+   "lon": 30.41,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 4,
+   "t_en": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+   "x_en": "The Ukrainian president called the US decision strong, but added that delivery of 500 Patriot PAC-3 missiles ⁠could take years The US has approved the sale ⁠of 500 Patriot PAC-3 missiles ⁠to Ukraine for an estimated $2.1bn, but Volodymyr Zelenskyy has warned d"
   },
   {
    "t": "Прибыль BP в третьем квартале выросла почти в четыре раза до $8,5 млрд на фоне роста рентабельности нефтепереработки",
@@ -384,7 +277,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 9,
+   "id": 5,
    "t_en": "BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge",
    "x_en": "The oil major was the latest to smash profit expectations as global conflicts continue to drive energy market volatility."
   },
@@ -409,18 +302,151 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 10,
+   "id": 6,
    "t_en": "What we know about Binance's $6.3bn hack",
    "x_en": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history."
+  },
+  {
+   "t": "США одобрили продажу Украине 500 ракет «Пэтриот»",
+   "x": "Перехватчики американского производства являются единственным эффективным средством поражения российских баллистических ракет.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 66,
+   "ago": 126,
+   "s": [
+    "BBC",
+    "Kyiv Independent",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ea75/live/f93e2820-d4b7-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.02,
+   "lon": -98.68,
+   "place": "США",
+   "place_en": "United States",
+   "id": 7,
+   "t_en": "US approves sale of 500 Patriot missiles to Ukraine",
+   "x_en": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles."
+  },
+  {
+   "t": "Война в Иране в прямом эфире: в Ормузе пострадали 4 танкера; Трамп заявил, что конфликт скоро закончится",
+   "x": "КСИР заявляет, что в Ормузском проливе пострадали четыре танкера, а Трамп говорит, что война с Ираном «скоро завершится».",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 65,
+   "ten": 68,
+   "ago": 167,
+   "s": [
+    "Al Jazeera",
+    "CNBC",
+    "CBS News"
+   ],
+   "u": "https://www.aljazeera.com/news/liveblog/2026/10/31/iran-war-live-oil-tankers-hit-in-hormuz-trump-says-conflict-will-end-soon?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-30T230320Z_1495036221_RC2YDOASHI7R_RTRMADP_3_IRAN-CRISIS-SHIPPING-HORMUZ-1793404633.jpg?resize=1920%2C1139",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 4,
+   "lat": 26.68,
+   "lon": 56.64,
+   "place": "Ормузский пролив",
+   "place_en": "Strait of Hormuz",
+   "id": 8,
+   "t_en": "Iran war live: 4 tankers hit in Hormuz; Trump says conflict will end soon",
+   "x_en": "IRGC says four tankers hit in Strait of Hormuz, as Trump says war on Iran will 'get wrapped up soon'."
+  },
+  {
+   "t": "Заключенная в США Криста Пайк рассказала, что проснулась «в замешательстве и боли» после неудачной казни",
+   "x": "Это первое публичное заявление Пайк с тех пор, как она пережила попытку казни с помощью смертельной инъекции в сентябре.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 55,
+   "ago": 319,
+   "s": [
+    "BBC",
+    "Euronews",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e22e/live/c1455920-d46c-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 38.51,
+   "lon": -97.83,
+   "place": "США",
+   "place_en": "United States",
+   "id": 9,
+   "t_en": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "x_en": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September."
+  },
+  {
+   "t": "Иран заявляет, что четыре танкера взорвались на «несанкционированных» маршрутах через Ормуз",
+   "x": "Иранский Корпус стражей исламской революции (КСИР) заявил в пятницу, что четыре нефтяных танкера загорелись и взорвались при попытке использовать, по его словам, несанкционированные маршруты через Ормузский пролив, сообщают иранские государственные СМИ. Заявление ВМС КСИР",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 46,
+   "ago": 337,
+   "s": [
+    "Middle East Eye",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-three-tankers-exploded-using-unauthorised-hormuz-routes",
+   "img": "https://th-i.thgim.com/public/news/national/5x0xtk/article71642057.ece/alternates/LANDSCAPE_1200/iStock-2264193758.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 4,
+   "lat": 26.73,
+   "lon": 56.24,
+   "place": "Ормузский пролив",
+   "place_en": "Strait of Hormuz",
+   "id": 10,
+   "t_en": "Iran says four tankers exploded using ‘unauthorised’ Hormuz routes",
+   "x_en": "Iran's Islamic Revolutionary Guard Corps (IRGC) said on Friday that four oil tankers had caught fire and exploded while attempting to use what it described as unauthorised routes through the Strait of Hormuz, Iranian state media reported. An IRGC Navy statemen"
+  },
+  {
+   "t": "Нас задушили, говорит основатель закрытой под давлением властей российской газеты",
+   "x": "«Новая газета» была одним из самых громких независимых новостных изданий в России за последние три десятилетия.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 55,
+   "ago": 365,
+   "s": [
+    "BBC",
+    "Euronews",
+    "ABC News",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b85a/live/484c0a90-d4b8-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 61.38,
+   "lon": 96.27,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 11,
+   "t_en": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+   "x_en": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades."
   },
   {
    "t": "Ким Чен Ын призывает к превосходству Северной Кореи в технологиях беспилотников",
    "x": "Лидер Северной Кореи Ким Чен Ын призывает к «абсолютному превосходству» в возможностях беспилотников.",
    "r": "Азия",
    "c": "Конфликты",
-   "imp": 68,
+   "imp": 63,
    "ten": 84,
-   "ago": 345,
+   "ago": 523,
    "s": [
     "Al Jazeera",
     "ABC News",
@@ -437,314 +463,35 @@
    "lon": 126.41,
    "place": "КНДР",
    "place_en": "North Korea",
-   "id": 11,
+   "id": 12,
    "t_en": "Kim Jong Un calls for North Korea’s drone technology superiority",
    "x_en": "North Korean leader Kim Jong Un calls for “absolute superiority” in drone capabilities."
   },
   {
-   "t": "Полиция задействована во время противостояния из-за контроля над высшим судом Польши",
-   "x": "Эскалация произошла после того, как правительство отстранило от должности двух старших судей и приняло решение возбудить против них уголовные обвинения.",
-   "r": "Европа",
+   "t": "Бразилия вызвала аргентинского дипломата из-за рейса Болсонару в США",
+   "x": "Этот шаг грозит дальнейшим обострением отношений между президентом Бразилии Лулой и его аргентинским коллегой Милеем.",
+   "r": "Америка",
    "c": "Политика",
-   "imp": 67,
-   "ten": 57,
-   "ago": 29,
+   "imp": 62,
+   "ten": 46,
+   "ago": 165,
    "s": [
-    "BBC",
-    "Al Jazeera"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b6c2/live/46cc2780-d49b-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": 52.45,
-   "lon": 19.07,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 12,
-   "t_en": "Police deployed during stand-off over control of top Poland court",
-   "x_en": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them."
-  },
-  {
-   "t": "Как продвигается процесс прекращения огня в оккупированном Россией Олешках?",
-   "x": "Украинский корреспондент Дэн Джонсон объясняет временное прекращение огня в разрушенном городе Олешки.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 55,
-   "ago": 29,
-   "s": [
-    "BBC",
-    "France 24"
-   ],
-   "u": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc6f/live/ee8a8a40-d4b2-11f1-88a4-835788f4f80e.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 4,
-   "lat": 62.36,
-   "lon": 96.61,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 13,
-   "t_en": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-   "x_en": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky."
-  },
-  {
-   "t": "Учитель-пенсионер из Мичигана, освобожденный из российской тюрьмы, считал, что его никогда не освободят",
-   "x": "Стивен Хаббард сказал, что только когда его везли из Москвы в Санкт-Петербург, он поверил, что «куда-то направляется». В своих первых комментариях после недавнего освобождения из российской тюрьмы учитель из Мичигана на пенсии сказал, что он только верил, что он будет",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 66,
-   "ten": 48,
-   "ago": 29,
-   "s": [
-    "The Guardian",
-    "NYT"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/oct/30/retired-michigan-teacher-released-russian-prison",
-   "img": "https://i.guim.co.uk/img/media/2dc5f47c83062e4f7fe04501325cd2bf0e0bfb36/430_0_4283_3428/master/4283.jpg?width=700&quality=85&auto=format&fit=max&s=86bd7e2a8541d342da58e01b1ad9edf3",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": 61.42,
-   "lon": 96.5,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 14,
-   "t_en": "Retired Michigan teacher released from Russian prison believed he would never be freed",
-   "x_en": "Stephen Hubbard said that only when he was being taken from Moscow to St Petersburg did he believe he was ‘going somewhere’ In his first comments since recently being released from a Russian prison, a retired Michigan teacher said he only believed he would be "
-  },
-  {
-   "t": "Он поставил под сомнение монархию Таиланда, одетый как Гарри Поттер. Сейчас он находится в тюрьме 34 года.",
-   "x": "С 2020 года в Таиланде по закону об оскорблении величества были привлечены к ответственности 294 человека, приговоры к которым могут быть приговорены к лишению свободы до 50 лет.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 65,
-   "ten": 40,
-   "ago": 22,
-   "s": [
-    "BBC",
-    "CNA"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmjwepvd0qq9o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4a5d/live/c408ef80-d478-11f1-8edb-d9fce66588c6.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": 15.77,
-   "lon": 101.99,
-   "place": "Таиланд",
-   "place_en": "Thailand",
-   "id": 15,
-   "t_en": "He questioned Thailand's monarchy dressed as Harry Potter. Now he's in jail for 34 years",
-   "x_en": "Thailand has prosecuted 294 people since 2020 under its lèse majesté law, with sentences going up to 50 years."
-  },
-  {
-   "t": "Россия и США наложили вето на резолюцию ООН по Западной Сахаре, оставив миротворческую миссию в подвешенном состоянии",
-   "x": "Рейтер",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 36,
-   "ago": 27,
-   "s": [
+    "Al Jazeera",
     "Reuters",
     "AP"
    ],
-   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUm5zVXBMZTEtQnVkYW9MY1FJYXo0S0x2V1llamdsaEgxZmFLMlBpVEE5b3BZUGM1akRURXg2dWJJdUpOeHJlc3FvYW5QUEc0czJZdTI1SUNKYm5GS2FGNGxqcHFwQzdmQ3drOFBwa19JaHFvZEFRMGwzdTQ3T3gyNzJYdmctUDQ1Y2xCZmh4NC1oQUhqVXc?oc=5",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 2,
-   "lat": 61.46,
-   "lon": 96.32,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 16,
-   "t_en": "Russia, US veto rival UN Western Sahara resolutions, leaving peacekeeping mission in limbo",
-   "x_en": "Reuters"
-  },
-  {
-   "t": "Вспышка Эболы унесла жизни более 5000 человек в Демократической Республике Конго",
-   "x": "По данным правительства, в настоящее время от вспышки Эболы в Демократической Республике Конго (ДРК) умерло более 5000 человек.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 66,
-   "ago": 61,
-   "s": [
-    "Sky News",
-    "Reuters"
-   ],
-   "u": "https://news.sky.com/story/ebola-outbreak-kills-more-than-5000-people-in-democratic-republic-of-congo-13605990",
-   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-ebola-drc-congo_7392390.jpg?20261030230247",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 2,
-   "lat": -2.94,
-   "lon": 24.63,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 17,
-   "t_en": "Ebola outbreak kills more than 5,000 people in Democratic Republic of Congo",
-   "x_en": "More than 5,000 people have now died from an Ebola outbreak in Democratic Republic of Congo (DRC), according to government data."
-  },
-  {
-   "t": "Пакистанская армия «осторожно оптимистична» в отношении посреднических усилий США и Ирана",
-   "x": "Военный представитель Пакистана предупреждает о «мощных спойлерах и недоброжелателях», которые все еще верят, что конфликт служит им.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 40,
-   "ago": 293,
-   "s": [
-    "Al Jazeera",
-    "Middle East Eye",
-    "Dawn",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/30/pakistan-army-cautiously-optimistic-about-us-iran-mediation-efforts?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/10/30232649e375d3e.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 4,
-   "lat": 29.16,
-   "lon": 69.42,
-   "place": "Пакистан",
-   "place_en": "Pakistan",
-   "id": 18,
-   "t_en": "Pakistan army ‘cautiously optimistic’ about US-Iran mediation efforts",
-   "x_en": "Pakistan's military spokesman warns of 'powerful spoilers and detractors' who still believe the conflict serves them."
-  },
-  {
-   "t": "Полиция Шотландии начала расследование в королевском замке Эндрю и Эпштейна",
-   "x": "В сообщениях СМИ говорится, что расследования связаны с утверждениями о том, что женщин продавали в королевское поместье Балморал.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 40,
-   "ago": 297,
-   "s": [
-    "Al Jazeera",
-    "NYT",
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/30/police-in-scotland-launch-andrew-and-epstein-royal-castle-investigation?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2025/12/20/multimedia/30int-uk-andrew-epstein-rgdh/30int-uk-andrew-epstein-rgdh-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 5,
-   "lat": 54.14,
-   "lon": -0.79,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 19,
-   "t_en": "Police in Scotland launch Andrew and Epstein royal castle investigation",
-   "x_en": "Media reports say the inquiries are related to claims that women were trafficked to the king’s Balmoral estate."
-  },
-  {
-   "t": "Кандидат в Сенат Аляски отрицает, что знал о предполагаемом заговоре с целью включить в избирательные бюллетени двух Дэнов Салливанов",
-   "x": "Дэн С. Салливан, действующий сенатор-республиканец, баллотирующийся на переизбрание, и его союзники обвинили демократов в попытке запутать избирателей, вербовав Дэна Дж. Салливана для участия в предвыборной гонке.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 35,
-   "s": [
-    "BBC",
-    "The Guardian"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4570/live/1ef80da0-d46e-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.98,
-   "lon": -100.04,
-   "place": "США",
-   "place_en": "United States",
-   "id": 20,
-   "t_en": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-   "x_en": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also stand in the race."
-  },
-  {
-   "t": "Криптовалютный гигант Binance пытается вернуть 6,3 миллиарда долларов, украденных в результате взлома, связанного с Северной Кореей",
-   "x": "Кибератака, которую компания описывает как сложную, считается крупнейшей за всю историю.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 34,
-   "ago": 131,
-   "s": [
-    "BBC",
-    "CNBC",
-    "CBS News"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
+   "u": "https://www.aljazeera.com/news/2026/10/31/brazil-summons-argentinian-diplomat-over-bolsonaros-flight-to-us?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae514d121f8-1793397969.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
    "fresh": false,
    "n": 3,
-   "lat": 38.96,
-   "lon": 126.86,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 21,
-   "t_en": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "x_en": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind."
-  },
-  {
-   "t": "Президент Польши развернул самолет после «переворота» в высшем суде страны",
-   "x": "Напряженность в отношениях между президентом и премьер-министром Польши усилилась после того, как демонстранты собрались у здания высшего суда страны.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 61,
-   "ago": 76,
-   "s": [
-    "Fox News",
-    "Reuters"
-   ],
-   "u": "https://www.foxnews.com/world/polish-president-turns-plane-around-after-coup-at-nations-top-court",
-   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/poland-court-protest.jpg?ve=1&tl=1",
-   "img_src": "Fox News",
-   "fresh": false,
-   "n": 2,
-   "lat": 52.03,
-   "lon": 20.88,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 22,
-   "t_en": "Polish president turns plane around after 'coup' at nation’s top court",
-   "x_en": "Tensions between Poland’s president and prime minister intensified as demonstrators rally outside the country’s top court."
-  },
-  {
-   "t": "(LEAD) Министры иностранных дел Южной Кореи, США и Японии подтверждают «решительную приверженность» полной денуклеаризации Северной Кореи",
-   "x": "ВАШИНГТОН, 30 октября (Рёнхап) -- Высшие дипломаты Южной Кореи, США...",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 61,
-   "ten": 40,
-   "ago": 9,
-   "s": [
-    "Yonhap"
-   ],
-   "u": "https://en.yna.co.kr/view/AEN20261031000552315",
-   "img": "https://img.yna.co.kr/etc/inner/EN/2026/10/31/AEN20261031000552315_02_i_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": true,
-   "n": 3,
-   "lat": 38.59,
-   "lon": -98.38,
-   "place": "США",
-   "place_en": "United States",
-   "id": 23,
-   "t_en": "(LEAD) S. Korean, U.S., Japanese FMs reaffirm 'resolute commitment' to complete denuclearization of N. Korea",
-   "x_en": "WASHINGTON, Oct. 30 (Yonhap) -- The top diplomats of South Korea, the United Sta..."
+   "lat": -10.28,
+   "lon": -51.56,
+   "place": "Бразилия",
+   "place_en": "Brazil",
+   "id": 13,
+   "t_en": "Brazil summons Argentinian diplomat over Bolsonaro’s flight to US",
+   "x_en": "The move threatens to further strain relations between Brazilian President Lula and his Argentinian counterpart, Milei."
   },
   {
    "t": "Япония намерена использовать подводные дроны для подводного наблюдения",
@@ -766,7 +513,7 @@
    "lon": 137.41,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 24,
+   "id": 14,
    "t_en": "Japan aims to deploy underwater drones for sub surveillance",
    "x_en": ""
   },
@@ -790,7 +537,7 @@
    "lon": 137.32,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 25,
+   "id": 15,
    "t_en": "Japan's IHI vies with Korean rival to capture overseas nuclear demand",
    "x_en": ""
   },
@@ -814,7 +561,7 @@
    "lon": 138.47,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 26,
+   "id": 16,
    "t_en": "Japan prepares for commercial drone flocks after operating limit lifted",
    "x_en": ""
   },
@@ -838,7 +585,7 @@
    "lon": 106.85,
    "place": "Вьетнам",
    "place_en": "Vietnam",
-   "id": 27,
+   "id": 17,
    "t_en": "Vietnam drone intrusions prompt airport safety response nationwide",
    "x_en": ""
   },
@@ -862,164 +609,180 @@
    "lon": 137.71,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 28,
+   "id": 18,
    "t_en": "Japan has 'no time to lose' to avert a healthcare crisis, minister says",
    "x_en": ""
   },
   {
-   "t": "«Друзья Трампа по большой нефти» заработали 130 миллиардов долларов на войне с Ираном, заявил американский сенатор",
-   "x": "Сенатор США Крис Ван Холлен заявил, что «приятели» президента США Дональда Трампа в нефтяном бизнесе заработали 130 миллиардов долларов прибыли, в то время как американские домохозяйства заплатили «более 1100 долларов за дополнительные расходы на топливо». В сообщении на X Холлен сказала: «С тех пор, как Трамп начал это незаконное",
+   "t": "Администрация Трампа ускоряет уголовное расследование предвыборной кампании в Сенате Аляски",
+   "x": "Рейтер",
    "r": "Америка",
-   "c": "Экономика",
+   "c": "Общее",
    "imp": 60,
-   "ten": 66,
-   "ago": 9,
+   "ten": 40,
+   "ago": 62,
    "s": [
-    "Middle East Eye"
+    "Reuters",
+    "AP"
    ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trumps-buddies-big-oil-profited-130bn-iran-war-us-senator-says",
-   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/A%20woman%20walks%20past%20a%20mural%20bearing%20Iran%E2%80%99s%20national%20flag%20in%20Tehran%2C%2026%20October%202026%20%28Atta%20Kenare%20AFP%29.jpg",
-   "img_src": "Middle East Eye (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 38.61,
-   "lon": -98.26,
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNFVncVU1VXFVcXp3WmlCZ19iQnpKSUJ0SHByNF9hVkUtZHlOOHBQdGU0ajlrbk5NXzA1QlZLTENGMzJxYkRPZGl6RmhQUmdIc0dlMVhBSHM3SWFvY1k3cTlVZ2hfc2xzRk5CdlpoV3luSHZITW93RzYzYzllUnNpaXJnUFZvTk5nQ0NzRDVEVkFFRHRuTEdEQVVwNTlsN01qd1FsLWZHLVZ1c0RVUmNpVmJIYjJDX0E2dHRZ?oc=5",
+   "img": "",
+   "img_src": "",
+   "fresh": false,
+   "n": 2,
+   "lat": 39.92,
+   "lon": -99.08,
    "place": "США",
    "place_en": "United States",
-   "id": 29,
-   "t_en": "'Trump's buddies in big oil' profited $130bn from Iran war, US senator says",
-   "x_en": "US Senator Chris Van Hollen has said that US President Donald Trump's \"buddies\" in oil business have made $130 billion in profit while American households have paid \"over 1,100 in extra fuel costs\". In a post on X, Hollen said “Since Trump started this illegal"
+   "id": 19,
+   "t_en": "Trump administration accelerates criminal probe into Alaska Senate race",
+   "x_en": "Reuters"
   },
   {
-   "t": "Почему ИИ может угрожать большей части мировой цифровой инфраструктуры",
-   "x": "PHP, управляемый волонтерами, на котором работает большинство веб-сайтов, все чаще подвергается угрозе кибератак с использованием возможностей искусственного интеллекта.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 60,
-   "ten": 91,
-   "ago": 35,
-   "s": [
-    "Al Jazeera"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/30/why-ai-could-threaten-much-of-the-worlds-digital-infrastructure?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ae25f86-1793220486.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 30,
-   "t_en": "Why AI could threaten much of the world’s digital infrastructure",
-   "x_en": "Volunteer-led PHP, which powers most websites, is increasingly under threat from cyberattacks using AI capabilities."
-  },
-  {
-   "t": "Карни обязывает Канаду стать первым «ассоциированным членом» Европейского Союза",
-   "x": "Этот шаг является частью усилий канадского премьер-министра по уменьшению американского влияния на Канаду и расширению торговли с другими частями мира.",
+   "t": "Что нужно знать о промежуточных выборах в Калифорнии",
+   "x": "Перераспределение избирательных округов в Калифорнии, самом густонаселенном штате США, может переключить контроль над Палатой представителей США от республиканцев к демократам.",
    "r": "Америка",
    "c": "Политика",
    "imp": 60,
-   "ten": 32,
-   "ago": 160,
+   "ten": 40,
+   "ago": 65,
    "s": [
-    "NYT",
-    "ABC News",
-    "AP"
+    "Al Jazeera",
+    "The Hindu"
    ],
-   "u": "https://www.nytimes.com/2026/10/30/world/canada/carney-canada-european-union.html",
-   "img": "https://static01.nyt.com/images/2026/10/30/multimedia/30int-canada-assess-fmtk/30int-canada-assess-fmtk-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
+   "u": "https://www.aljazeera.com/news/2026/10/30/what-to-know-about-the-midterm-elections-in-california?traffic_source=rss",
+   "img": "https://th-i.thgim.com/public/incoming/m63a7j/article71623156.ece/alternates/LANDSCAPE_1200/2026-10-25T100020Z_1074407280_RC299OAF6V9Y_RTRMADP_3_USA-TRUMP-MICHIGAN.JPG",
+   "img_src": "The Hindu",
    "fresh": false,
-   "n": 3,
-   "lat": 50.63,
-   "lon": 4.33,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 31,
-   "t_en": "Carney Commits Canada to Becoming European Union’s First ‘Associate Member’",
-   "x_en": "The move is part of the Canadian prime minister’s effort to reduce American influence over Canada and expand trade to other parts of the world."
+   "n": 2,
+   "lat": 33.82,
+   "lon": -118.44,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
+   "id": 20,
+   "t_en": "What to know about California’s midterm elections",
+   "x_en": "Redistricting in California, the most populous US state, could flip control of US House from Republican to Democrat."
   },
   {
-   "t": "«Семейное фото» G20 отменено из-за протестов из-за присутствия российского министра",
-   "x": "Министр иностранных дел Великобритании Эд Милибэнд выступил на встрече со своим российским коллегой и обвинил его правительство в убийстве невинных гражданских лиц на Украине.",
+   "t": "Пошлины Трампа могут закрыть этот канадский город – его жители борются за его спасение",
+   "x": "Бумажная фабрика с вековой историей в Темискаминге, Квебек, закрыта на неопределенный срок после того, как США ввели 50%-ные пошлины на ее продукцию, в результате чего сотни людей остались без работы.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 57,
+   "ago": 7,
+   "s": [
+    "BBC"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b7be/live/dab6afd0-d223-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 1,
+   "lat": 40.27,
+   "lon": -99.34,
+   "place": "США",
+   "place_en": "United States",
+   "id": 21,
+   "t_en": "Trump's tariffs could shutter this Canadian town - its residents are fighting to save it",
+   "x_en": "A century-old paper mill in Témiscaming, Quebec is indefinitely closed after the US imposed 50% tariffs on its products, putting hundreds out of work."
+  },
+  {
+   "t": "США заключили в тюрьму двух граждан Китая за шпионаж",
+   "x": "Министерство юстиции США заявило, что эти люди проводили тайную разведывательную деятельность в Соединенных Штатах, которая включала содействие «тайным» выплатам наличными в обмен на информацию, связанную с национальной безопасностью Соединенных Штатов.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 66,
+   "ago": 17,
+   "s": [
+    "The Hindu"
+   ],
+   "u": "https://www.thehindu.com/news/international/us-imprisons-two-chinese-nationals-for-spying/article71648068.ece",
+   "img": "https://th-i.thgim.com/public/incoming/ka92k0/article71648075.ece/alternates/LANDSCAPE_1200/2026-10-09T160013Z_293896812_RC26JEA8R5VF_RTRMADP_3_USA-CYBER-SHINYHUNTERS.JPG",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.13,
+   "lon": -98.06,
+   "place": "США",
+   "place_en": "United States",
+   "id": 22,
+   "t_en": "U.S. imprisons two Chinese nationals for spying",
+   "x_en": "The U.S. Department of Justice said the men had carried out clandestine intelligence activities in the United States that included facilitating \"dead drop\" cash payments in exchange for information related to the national security of the United States"
+  },
+  {
+   "t": "Президент Польши присоединился к протесту на фоне конституционного кризиса в Верховном суде",
+   "x": "Президент Польши прервал поездку в Сенегал, присоединившись к протестующим, столкнувшимся с полицией.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 74,
+   "ago": 23,
+   "s": [
+    "Al Jazeera"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/31/polands-president-joins-protest-amid-constitutional-crisis-at-top-court?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1793413430.jpg?resize=1920%2C1080&quality=80",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 51.67,
+   "lon": 18.98,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 23,
+   "t_en": "Poland’s president joins protest amid constitutional crisis at top court",
+   "x_en": "Poland’s president has cut short a trip to Senegal, joining protesters facing off with police."
+  },
+  {
+   "t": "Мерц заявил, что Германия работает над прекращением войны с Ираном, которая обошлась Европе в 112 миллиардов долларов",
+   "x": "Канцлер Германии Фридрих Мерц заявил, что Германия работает над тем, чтобы как можно скорее положить конец войне с Ираном, поскольку за последние восемь месяцев конфликт увеличил расходы Европы на энергоносители более чем на 100 миллиардов евро (112 миллиардов долларов). Разговор с журналистами в Сеу",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 91,
+   "ago": 41,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/merz-says-germany-working-end-iran-war-has-cost-europe-112bn",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/000_D4F36DD.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 50.52,
+   "lon": 10.92,
+   "place": "Германия",
+   "place_en": "Germany",
+   "id": 24,
+   "t_en": "Merz says Germany working to end Iran war that has cost Europe $112bn",
+   "x_en": "German Chancellor Friedrich Merz has said that Germany was working to bring Iran war to an end as soon as possible as the conflict has added more than 100 billion euros ($112bn) to Europe’s energy costs over the past eight months. Speaking to reporters in Seou"
+  },
+  {
+   "t": "Полиция задействована во время противостояния из-за контроля над высшим судом Польши",
+   "x": "Эскалация произошла после того, как правительство отстранило от должности двух старших судей и приняло решение возбудить против них уголовные обвинения.",
    "r": "Европа",
    "c": "Политика",
    "imp": 59,
    "ten": 57,
-   "ago": 97,
+   "ago": 95,
    "s": [
     "BBC",
-    "Kyiv Independent"
+    "Al Jazeera"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fa3e/live/bc4ea460-d487-11f1-80bc-6d398902272f.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b6c2/live/46cc2780-d49b-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
    "fresh": false,
    "n": 2,
-   "lat": 60.89,
-   "lon": 93.87,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 32,
-   "t_en": "G20 'family photo' cancelled after protests over presence of Russian minister",
-   "x_en": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine."
-  },
-  {
-   "t": "Китай отверг обвинения в шпионской операции против генерального директора Nvidia",
-   "x": "Представители американской разведки полагают, что китайская бизнесвумен собирала для Пекина информацию об американском гиганте по производству чипов, сообщает The New York Times.",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 59,
-   "ten": 40,
-   "ago": 408,
-   "s": [
-    "BBC",
-    "Euronews",
-    "CNA",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/05cc/live/95d8dca0-d447-11f1-97f9-27ebf08d99fe.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 34.91,
-   "lon": 101.99,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 33,
-   "t_en": "China denies allegations of spy operation targeting Nvidia CEO",
-   "x_en": "US intelligence officials believe a Chinese businesswoman was gathering information for Beijing on the US chip-making giant, The New York Times reports."
-  },
-  {
-   "t": "Израилю грозят недели переговоров по коалиции, поскольку партия Нетаньяху заявляет, что выборы «украдены»",
-   "x": "Из-за выборов в Израиле стране предстоят недели переговоров по коалиции и тяжелая борьба за то, чтобы оппозиционная партия сформировала правительство большинства.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 35,
-   "ago": 409,
-   "s": [
-    "CNBC",
-    "Africanews",
-    "Dawn",
-    "The Hindu",
-    "Japan Times",
-    "AP"
-   ],
-   "u": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html",
-   "img": "https://images.euronews.com/articles/stories/09/97/11/22/640x360_cmsv2_3713319a-94f3-5b74-a228-dee0de2d872d-9971122.jpg?1793339900",
-   "img_src": "Africanews",
-   "fresh": false,
-   "n": 7,
-   "lat": 31.53,
-   "lon": 34.51,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 34,
-   "t_en": "Israel faces weeks of coalition haggling as Netanyahu’s party claims election 'stolen'",
-   "x_en": "Israel's election leaves the country facing weeks of coalition bargaining and an uphill battle for the opposition party to form a majority government."
+   "lat": 52.45,
+   "lon": 19.07,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 25,
+   "t_en": "Police deployed during stand-off over control of top Poland court",
+   "x_en": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them."
   },
   {
    "t": "Трамп откладывает тарифы на избыточные мощности в преддверии промежуточных выборов в США",
@@ -1041,7 +804,7 @@
    "lon": -99.27,
    "place": "США",
    "place_en": "United States",
-   "id": 35,
+   "id": 26,
    "t_en": "Trump holds off overcapacity tariffs as US midterms near",
    "x_en": ""
   },
@@ -1065,86 +828,62 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 36,
+   "id": 27,
    "t_en": "BOJ chief Ueda says 2% inflation goal not yet sustainably achieved",
    "x_en": ""
   },
   {
-   "t": "В результате удара израильского беспилотника по Хан-Юнису в Газе пострадали по меньшей мере 14 человек",
-   "x": "По меньшей мере 14 палестинцев, включая детей, получили ранения в пятницу, когда израильский беспилотник врезался в точку зарядки телефонов на юге сектора Газа. Палестинское информационное агентство Wafa и Quds News Network сообщили о забастовке, сославшись на возраст гражданской обороны Газы.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
+   "t": "Ошибки в управлении движением стали причиной смертельной крушения поезда в Испании, заявил чиновник",
+   "x": "Министр транспорта заявил, что судья расследует действия контролеров, в том числе разрешение поезду двигаться на высокой скорости, хотя перед ним застрял другой поезд.",
+   "r": "Европа",
+   "c": "Политика",
    "imp": 58,
-   "ten": 95,
-   "ago": 53,
+   "ten": 40,
+   "ago": 199,
    "s": [
-    "Middle East Eye"
+    "NYT",
+    "ABC News",
+    "AP"
    ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-drone-strike-gazas-khan-younis-injures-least-14",
-   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/A%20woman%20walks%20past%20a%20mural%20bearing%20Iran%E2%80%99s%20national%20flag%20in%20Tehran%2C%2026%20October%202026%20%28Atta%20Kenare%20AFP%29.jpg",
-   "img_src": "Middle East Eye (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 31.47,
-   "lon": 34.52,
-   "place": "Газа",
-   "place_en": "Gaza",
-   "id": 37,
-   "t_en": "Israeli drone strike in Gaza's Khan Younis injures at least 14",
-   "x_en": "At least 14 Palestinians, including children, were injured on Friday when an Israeli drone struck a phone-charging point in the southern Gaza Strip. The Palestinian news agency Wafa and the Quds News Network reported the strike, citing Gaza's civil defence age"
-  },
-  {
-   "t": "Королю грозят призывы к извинениям и репарациям за рабство в Карибском бассейне",
-   "x": "Король Карл III сталкивается с новыми призывами к извинениям за рабство и возмещению ущерба во время визита в Карибское море, поскольку протестующие требуют: «Заплатите нам то, что вы нам должны».",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 43,
-   "ago": 204,
-   "s": [
-    "CBS News",
-    "Africanews",
-    "Reuters"
-   ],
-   "u": "https://www.cbsnews.com/news/king-charles-slavery-apology-reparations-caribbean-tour-2026/",
-   "img": "https://images.euronews.com/articles/stories/09/97/31/11/640x360_cmsv2_ddb23ff2-f747-5327-b345-18b6327304be-9973111.jpg?1793351105",
-   "img_src": "Africanews",
+   "u": "https://www.nytimes.com/2026/10/30/world/europe/spain-crash-contoller-errors.html",
+   "img": "https://static01.nyt.com/images/2026/10/30/multimedia/30Int-spain-crash-tfqv/30Int-spain-crash-tfqv-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
    "fresh": false,
-   "n": 3,
-   "lat": 55.07,
-   "lon": -1.59,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 38,
-   "t_en": "King faces calls for apology, slavery reparations in Caribbean",
-   "x_en": "King Charles III faces renewed calls for a slavery apology and reparations on a visit to the Caribbean, as protesters demand: \"Pay us what you owe us.\""
+   "n": 4,
+   "lat": 40.71,
+   "lon": -3.17,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 28,
+   "t_en": "Traffic Control Errors Caused Spain’s Deadly Train Crash, Official Says",
+   "x_en": "The transport minister said a judge would investigate controllers’ actions, including authorizing a train to proceed at high speed though another was stalled in front of it."
   },
   {
-   "t": "Komatsu повысила прогноз прибыли от строительного и горнодобывающего спроса в Америке",
+   "t": "Бум искусственного интеллекта и растущие цены на память увеличили экспорт чипов Японии на 41%",
    "x": "",
-   "r": "Мир",
-   "c": "Общее",
+   "r": "Азия",
+   "c": "Наука",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/companies/komatsu-lifts-profit-outlook-on-construction-mining-demand-in-americas",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F3%2F3%2F9%2F13379338-1-eng-GB%2F5c122142f36c-photo_SXM2026102900006317.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/business/tech/semiconductors/ai-boom-soaring-memory-prices-lift-japan-s-chip-exports-41",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F1%2F1%2F9%2F13379115-1-eng-GB%2F5790ac05a01b-photo_SXM2026102800016205.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 39,
-   "t_en": "Komatsu lifts profit outlook on construction, mining demand in Americas",
+   "lat": 36.82,
+   "lon": 137.54,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 29,
+   "t_en": "AI boom, soaring memory prices lift Japan's chip exports 41%",
    "x_en": ""
   },
   {
-   "t": "Доходы GoTo от услуг такси упали из-за ограничения комиссии водителю в Индонезии",
+   "t": "Таиландские PTT и Siam Cement объединят предприятия по производству полиолефиновых пластмасс",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1154,25 +893,261 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/transportation/goto-s-ride-hailing-earnings-drop-on-indonesia-driver-commission-cap",
+   "u": "https://asia.nikkei.com/business/materials/thailand-s-ptt-and-siam-cement-to-combine-polyolefin-plastics-units",
    "img": "",
    "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": -3.02,
-   "lon": 118.35,
-   "place": "Индонезия",
-   "place_en": "Indonesia",
+   "lat": 14.94,
+   "lon": 102.21,
+   "place": "Таиланд",
+   "place_en": "Thailand",
+   "id": 30,
+   "t_en": "Thailand's PTT and Siam Cement to combine polyolefin plastics units",
+   "x_en": ""
+  },
+  {
+   "t": "Вьетнам обгонит Индонезию по ВВП на душу населения в 2026 году – МВФ",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/vietnam-to-overtake-indonesia-in-per-capita-gdp-in-2026-imf",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 15.59,
+   "lon": 106.66,
+   "place": "Вьетнам",
+   "place_en": "Vietnam",
+   "id": 31,
+   "t_en": "Vietnam to overtake Indonesia in per capita GDP in 2026: IMF",
+   "x_en": ""
+  },
+  {
+   "t": "Японский оператор сверхскоростных поездов планирует расширить экспресс-сервис Токио-Осака",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/transportation/japan-bullet-train-operator-eyes-more-tokyo-osaka-express-service",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.64,
+   "lon": 139.44,
+   "place": "Токио",
+   "place_en": "Tokyo",
+   "id": 32,
+   "t_en": "Japan bullet train operator eyes more Tokyo-Osaka express service",
+   "x_en": ""
+  },
+  {
+   "t": "Toyota, Honda и Nissan сокращают производство в Китае из-за сокращения рынка бензиновых автомобилей",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/toyota-honda-nissan-slash-china-output-as-gasoline-car-market-shrinks",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.84,
+   "lon": 103.65,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 33,
+   "t_en": "Toyota, Honda, Nissan slash China output as gasoline car market shrinks",
+   "x_en": ""
+  },
+  {
+   "t": "Takeda делает ставку на трио лекарств-блокбастеров, которые принесут пиковые продажи в 11 миллиардов долларов",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/pharmaceuticals/takeda-bets-on-blockbuster-drug-trio-to-generate-11bn-in-peak-sales",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 34,
+   "t_en": "Takeda bets on blockbuster drug trio to generate $11bn in peak sales",
+   "x_en": ""
+  },
+  {
+   "t": "Японский Upbond предложит возврат налогов за покупки в стейблкоине JPYC",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/cryptocurrencies/japan-s-upbond-to-offer-tax-free-shopping-refunds-in-jpyc-stablecoin",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.9,
+   "lon": 138.01,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 35,
+   "t_en": "Japan's Upbond to offer tax-free shopping refunds in JPYC stablecoin",
+   "x_en": ""
+  },
+  {
+   "t": "Японская KDDI построит еще один дата-центр в Лондоне",
+   "x": "",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-kddi-to-build-another-data-center-in-london",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 51.26,
+   "lon": -0.49,
+   "place": "Лондон",
+   "place_en": "London",
+   "id": 36,
+   "t_en": "Japan's KDDI to build another data center in London",
+   "x_en": ""
+  },
+  {
+   "t": "Шок от СПГ в Азии не должен спровоцировать возрождение угля",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/opinion/asia-s-lng-shock-must-not-spark-coal-s-revival",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 37,
+   "t_en": "Asia's LNG shock must not spark coal's revival",
+   "x_en": ""
+  },
+  {
+   "t": "«Единая нация» Австралии наслаждается вниманием «оставленных» избирателей",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/policy-asia/australia-s-one-nation-basks-in-attention-of-left-behind-voters",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": -25.36,
+   "lon": 133.26,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 38,
+   "t_en": "Australia's One Nation basks in attention of 'left behind' voters",
+   "x_en": ""
+  },
+  {
+   "t": "Оператор южнокорейского приложения Toss покупает онлайн японскую брокерскую компанию Cheer",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/business-deals/operator-of-south-korea-s-toss-app-to-buy-online-japanese-brokerage-cheer",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.12,
+   "lon": 127.8,
+   "place": "Южная Корея",
+   "place_en": "South Korea",
+   "id": 39,
+   "t_en": "Operator of South Korea's Toss app to buy online Japanese brokerage Cheer",
+   "x_en": ""
+  },
+  {
+   "t": "Семья: Стивен Шварцман (29)",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/my-personal-history/family-stephen-schwarzman-29",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 40,
-   "t_en": "GoTo's ride-hailing earnings drop on Indonesia driver commission cap",
+   "t_en": "Family: Stephen Schwarzman (29)",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793316876408,
-   "v": 48
-  },
   {
    "t": 1793328777552,
    "v": 48
@@ -1192,139 +1167,143 @@
   {
    "t": 1793404103157,
    "v": 47
+  },
+  {
+   "t": 1793414813472,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1793317703157,
-   "v": 47,
-   "n": 17
-  },
-  {
-   "t": 1793321303157,
-   "v": 44,
-   "n": 19
-  },
-  {
-   "t": 1793324903157,
+   "t": 1793328413472,
    "v": 45,
-   "n": 26
+   "n": 28
   },
   {
-   "t": 1793328503157,
+   "t": 1793332013472,
    "v": 44,
+   "n": 30
+  },
+  {
+   "t": 1793335613472,
+   "v": 45,
    "n": 40
   },
   {
-   "t": 1793332103157,
-   "v": 44,
-   "n": 42
+   "t": 1793339213472,
+   "v": 47,
+   "n": 41
   },
   {
-   "t": 1793335703157,
-   "v": 44,
-   "n": 45
-  },
-  {
-   "t": 1793339303157,
-   "v": 46,
-   "n": 52
-  },
-  {
-   "t": 1793342903157,
+   "t": 1793342813472,
    "v": 45,
-   "n": 70
-  },
-  {
-   "t": 1793346503157,
-   "v": 46,
-   "n": 83
-  },
-  {
-   "t": 1793350103157,
-   "v": 45,
-   "n": 72
-  },
-  {
-   "t": 1793353703157,
-   "v": 48,
    "n": 62
   },
   {
-   "t": 1793357303157,
-   "v": 49,
-   "n": 49
+   "t": 1793346413472,
+   "v": 46,
+   "n": 73
   },
   {
-   "t": 1793360903157,
+   "t": 1793350013472,
+   "v": 45,
+   "n": 71
+  },
+  {
+   "t": 1793353613472,
+   "v": 49,
+   "n": 59
+  },
+  {
+   "t": 1793357213472,
+   "v": 49,
+   "n": 52
+  },
+  {
+   "t": 1793360813472,
    "v": 51,
-   "n": 60
+   "n": 64
   },
   {
-   "t": 1793364503157,
+   "t": 1793364413472,
    "v": 49,
-   "n": 66
+   "n": 71
   },
   {
-   "t": 1793368103157,
+   "t": 1793368013472,
    "v": 49,
+   "n": 77
+  },
+  {
+   "t": 1793371613472,
+   "v": 49,
+   "n": 77
+  },
+  {
+   "t": 1793375213472,
+   "v": 48,
+   "n": 83
+  },
+  {
+   "t": 1793378813472,
+   "v": 48,
    "n": 81
   },
   {
-   "t": 1793371703157,
+   "t": 1793382413472,
+   "v": 47,
+   "n": 91
+  },
+  {
+   "t": 1793386013472,
+   "v": 47,
+   "n": 91
+  },
+  {
+   "t": 1793389613472,
    "v": 48,
-   "n": 89
-  },
-  {
-   "t": 1793375303157,
-   "v": 49,
-   "n": 111
-  },
-  {
-   "t": 1793378903157,
-   "v": 49,
    "n": 110
   },
   {
-   "t": 1793382503157,
+   "t": 1793393213472,
    "v": 48,
-   "n": 123
+   "n": 103
   },
   {
-   "t": 1793386103157,
+   "t": 1793396813472,
+   "v": 49,
+   "n": 92
+  },
+  {
+   "t": 1793400413472,
+   "v": 48,
+   "n": 76
+  },
+  {
+   "t": 1793404013472,
+   "v": 49,
+   "n": 71
+  },
+  {
+   "t": 1793407613472,
+   "v": 49,
+   "n": 75
+  },
+  {
+   "t": 1793411213472,
    "v": 47,
-   "n": 102
+   "n": 107
   },
   {
-   "t": 1793389703157,
-   "v": 48,
-   "n": 117
-  },
-  {
-   "t": 1793393303157,
-   "v": 48,
-   "n": 99
-  },
-  {
-   "t": 1793396903157,
-   "v": 50,
-   "n": 93
-  },
-  {
-   "t": 1793400503157,
+   "t": 1793414813472,
    "v": 45,
-   "n": 108
-  },
-  {
-   "t": 1793404103157,
-   "v": 44,
-   "n": 80
+   "n": 84
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 38
+   "items": 33
   },
   {
    "n": "Al Jazeera",
@@ -1332,7 +1311,7 @@
   },
   {
    "n": "DW",
-   "items": 10
+   "items": 8
   },
   {
    "n": "France 24",
@@ -1344,7 +1323,7 @@
   },
   {
    "n": "Sky News",
-   "items": 7
+   "items": 8
   },
   {
    "n": "NPR",
@@ -1352,7 +1331,7 @@
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 5
   },
   {
    "n": "CNBC",
@@ -1360,11 +1339,11 @@
   },
   {
    "n": "Euronews",
-   "items": 37
+   "items": 33
   },
   {
    "n": "NYT",
-   "items": 40
+   "items": 39
   },
   {
    "n": "Washington Post",
@@ -1372,11 +1351,11 @@
   },
   {
    "n": "CBS News",
-   "items": 20
+   "items": 21
   },
   {
    "n": "ABC News",
-   "items": 24
+   "items": 22
   },
   {
    "n": "CNN",
@@ -1384,15 +1363,15 @@
   },
   {
    "n": "Fox News",
-   "items": 6
+   "items": 5
   },
   {
    "n": "ABC Australia",
-   "items": 15
+   "items": 16
   },
   {
    "n": "CNA",
-   "items": 15
+   "items": 14
   },
   {
    "n": "Times of Israel",
@@ -1424,11 +1403,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 27
+   "items": 21
   },
   {
    "n": "Dawn",
-   "items": 27
+   "items": 28
   },
   {
    "n": "Times of India",
@@ -1456,7 +1435,6 @@
   }
  ],
  "failed": [
-  "UN News",
   "Washington Post",
   "Times of Israel",
   "Arab News"

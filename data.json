@@ -1,42 +1,38 @@
 {
- "updated": 1793543529865,
+ "updated": 1793560080794,
  "demo": false,
- "total_articles": 555,
+ "total_articles": 566,
  "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 46
+   "v": 49
   },
   {
    "n": "Al Jazeera",
-   "v": 50
+   "v": 54
   },
   {
    "n": "DW",
-   "v": 48
+   "v": 44
   },
   {
    "n": "France 24",
-   "v": 52
+   "v": 49
   },
   {
    "n": "The Guardian",
-   "v": 48
+   "v": 49
   },
   {
    "n": "Sky News",
-   "v": 53
+   "v": 51
   },
   {
    "n": "NPR",
    "v": 44
-  },
-  {
-   "n": "UN News",
-   "v": 53
   },
   {
    "n": "CNBC",
@@ -44,19 +40,19 @@
   },
   {
    "n": "Euronews",
-   "v": 49
+   "v": 52
   },
   {
    "n": "NYT",
-   "v": 50
+   "v": 49
   },
   {
    "n": "CBS News",
-   "v": 56
+   "v": 53
   },
   {
    "n": "ABC News",
-   "v": 54
+   "v": 52
   },
   {
    "n": "CNN",
@@ -64,23 +60,23 @@
   },
   {
    "n": "Fox News",
-   "v": 66
+   "v": 68
   },
   {
    "n": "ABC Australia",
-   "v": 46
+   "v": 45
   },
   {
    "n": "CNA",
-   "v": 54
+   "v": 52
   },
   {
    "n": "Africanews",
-   "v": 50
+   "v": 45
   },
   {
    "n": "Kyiv Independent",
-   "v": 70
+   "v": 67
   },
   {
    "n": "Yonhap",
@@ -96,19 +92,19 @@
   },
   {
    "n": "Dawn",
-   "v": 52
+   "v": 56
   },
   {
    "n": "Times of India",
-   "v": 43
+   "v": 45
   },
   {
    "n": "The Hindu",
-   "v": 55
+   "v": 56
   },
   {
    "n": "Politico EU",
-   "v": 50
+   "v": 49
   },
   {
    "n": "Japan Times",
@@ -116,11 +112,11 @@
   },
   {
    "n": "Reuters",
-   "v": 42
+   "v": 45
   },
   {
    "n": "AP",
-   "v": 42
+   "v": 43
   }
  ],
  "regions": [
@@ -130,22 +126,49 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 58
+   "v": 61
   },
   {
    "n": "Азия",
-   "v": 47
+   "v": 48
   },
   {
    "n": "Африка",
-   "v": 53
+   "v": 52
   },
   {
    "n": "Америка",
-   "v": 47
+   "v": 45
   }
  ],
  "events": [
+  {
+   "t": "Демократ поддерживает кандидата от республиканцев в ключевой гонке в Сенате штата Мичиган, поскольку партийные разногласия обостряются",
+   "x": "Хейли Стивенс, бывшая женщина-конгрессмен, проигравшая в номинации от Демократической партии Абдулу Эль-Сайеду, поддерживает своего оппонента за несколько дней до голосования.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 92,
+   "ten": 49,
+   "ago": 1,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "The Guardian",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6ea1/live/d9896430-d625-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 40.04,
+   "lon": -99.78,
+   "place": "США",
+   "place_en": "United States",
+   "id": 1,
+   "t_en": "Democrat endorses Republican candidate in key Michigan Senate race as party spat escalates",
+   "x_en": "Haley Stevens, a former congresswomen who lost out on the Democratic nomination to Abdul El-Sayed, endorses his opponent days before the vote."
+  },
   {
    "t": "Криптовалютная фирма Binance покрывает 90% убытков после взлома на 6,3 миллиарда долларов",
    "x": "Федеральное бюро расследований (ФБР) заявляет, что ответственность за взлом несет Северная Корея.",
@@ -156,7 +179,6 @@
    "ago": 1,
    "s": [
     "BBC",
-    "Al Jazeera",
     "France 24",
     "The Guardian",
     "Nikkei Asia"
@@ -165,367 +187,369 @@
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2e52/live/ccbb9490-d53e-11f1-93de-81de9e959fac.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 5,
+   "n": 4,
    "lat": 40.64,
    "lon": 126.81,
    "place": "КНДР",
    "place_en": "North Korea",
-   "id": 1,
+   "id": 2,
    "t_en": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
    "x_en": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack."
   },
   {
-   "t": "Президент Ирана Хаменеи предостерегает США и Израиль от новых атак",
-   "x": "В субботу верховный лидер Ирана предостерег США и Израиль от дальнейших ударов, поскольку напряженность вокруг возможного возобновления боевых действий растет. Президент США Дональд Трамп и премьер-министр Израиля Биньямин Нетаньяху пригрозили новыми военными действиями по Т.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 80,
-   "ten": 79,
-   "ago": 142,
-   "s": [
-    "France 24",
-    "Euronews",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
-   "img": "https://s.france24.com/media/display/77114946-d54c-11f1-8f61-a575454bc579/w:1024/p:16x9/AP26285515397254.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": 31.19,
-   "lon": 53.29,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 2,
-   "t_en": "Iran's Khamenei warns US and Israel against new attacks",
-   "x_en": "Iran's supreme leader warned the United States and Israel on Saturday against further strikes as tensions mount over a possible return to fighting. US President Donald Trump and Israeli Prime Minister Benjamin Netanyahu have threatened new military action on T"
-  },
-  {
-   "t": "Иранские переговорщики в Катаре продолжат переговоры по прекращению американо-иранской войны: Reuters",
-   "x": "Переговоры проходят на фоне опасений, что конфликт может снова обостриться после промежуточных выборов в США 3 ноября.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 63,
-   "ago": 34,
-   "s": [
-    "CNBC",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/11/01/iranian-negotiators-in-qatar-to-continue-talks-to-end-war-reuters.html",
-   "img": "https://th-i.thgim.com/public/news/national/f6voag/article71652918.ece/alternates/LANDSCAPE_1200/iStock-1483917182.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 3,
-   "lat": 32.03,
-   "lon": 54.12,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 3,
-   "t_en": "Iranian negotiators in Qatar to continue talks to end the U.S.-Iran war: Reuters",
-   "x_en": "The talks come amid concerns that the conflict could escalate again after the Nov. 3 U.S. midterm elections."
-  },
-  {
-   "t": "Тайвань обвинил Китай в преследовании после противостояния между кораблями береговой охраны",
-   "x": "Береговая охрана Тайваня обвинила Китай в преследовании после того, как китайское судно вошло в запретные воды возле спорного острова",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 75,
-   "ten": 43,
-   "ago": 37,
-   "s": [
-    "ABC News",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://abcnews.com/International/wireStory/taiwan-accuses-china-harassment-after-standoff-coast-guard-137746422",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 3,
-   "lat": 23.84,
-   "lon": 120.42,
-   "place": "Тайвань",
-   "place_en": "Taiwan",
-   "id": 4,
-   "t_en": "Taiwan accuses China of harassment after standoff between coast guard ships",
-   "x_en": "Taiwan’s coast guard has accused China of harassment after a Chinese vessel entered restricted waters near a disputed island"
-  },
-  {
-   "t": "Британия не должна приносить извинения за работорговлю, говорит Кеми Баденоч",
-   "x": "Лидер тори говорит, что извинения будут «отвлечением пупка» и будут использоваться в качестве рычага для финансовой компенсации.",
+   "t": "Полиция задержала 325 человек на акции протеста в поддержку Палестины у посольства США в Лондоне",
+   "x": "Аресты происходят в преддверии оспорения в Верховном суде в среду запрета группы прямого действия. Полиция заявила, что арестовала 325 человек в субботу на демонстрации возле посольства США в Лондоне против запрета «Действий в Палестине». В обновленном",
    "r": "Европа",
-   "c": "Экономика",
-   "imp": 74,
-   "ten": 40,
-   "ago": 43,
+   "c": "Политика",
+   "imp": 84,
+   "ten": 76,
+   "ago": 99,
    "s": [
     "The Guardian",
-    "Times of India",
-    "Politico EU"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/01/britain-should-not-apologise-slave-trade-kemi-badenoch",
-   "img": "https://i.guim.co.uk/img/media/4aa2faeed7986b708ff31a315ed62a20a9cfaf39/812_0_4120_3296/master/4120.jpg?width=700&quality=85&auto=format&fit=max&s=9cd9dd07170eb504b73f66ee551e96a5",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 53.91,
-   "lon": -1.12,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 5,
-   "t_en": "Britain should not issue apology over slave trade, says Kemi Badenoch",
-   "x_en": "Tory leader says apology would be ‘navel-gazing distraction’ and would be used as lever for financial compensation Kemi Badenoch has said an apology for Britain’s role in the transatlantic slave trade would be a “navel-gazing distraction”, describing slavery a"
-  },
-  {
-   "t": "Болгары голосуют во втором туре президентских выборов на фоне напряженности в Черном море",
-   "x": "Избиратели в Болгарии взвешивают экономические проблемы и нападения на корабли в гонке, отмеченной рекордно низкой явкой.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 74,
-   "ten": 75,
-   "ago": 214,
-   "s": [
-    "Al Jazeera",
-    "France 24",
+    "CBS News",
     "ABC News",
-    "AP"
+    "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/c578d8ac-d5f0-11f1-b513-bf1914cabd52/w:1024/p:16x9/6cff9beb498c4983927001abf88992e345aa7168.jpg",
-   "img_src": "France 24",
+   "u": "https://www.theguardian.com/uk-news/2026/nov/01/police-detain-325-people-at-pro-palestine-action-protest-at-us-embassy-in-london",
+   "img": "https://i.guim.co.uk/img/media/b554e6b6f1cab919f6b32ed7a3c17f6c8a73e122/478_0_4390_3513/master/4390.jpg?width=700&quality=85&auto=format&fit=max&s=48b8918af7fd95436fc93fb01ee5b3ce",
+   "img_src": "The Guardian",
    "fresh": false,
    "n": 4,
-   "lat": 43.35,
-   "lon": 34.48,
-   "place": "Чёрное море",
-   "place_en": "Black Sea",
-   "id": 6,
-   "t_en": "Bulgarians vote in presidential run-off amid Black Sea tensions",
-   "x_en": "Voters in Bulgaria weigh economic challenges and attacks on ships in a race marked by record low turnout."
+   "lat": 51.38,
+   "lon": -0.0,
+   "place": "Лондон",
+   "place_en": "London",
+   "id": 3,
+   "t_en": "Police detain 325 people at pro-Palestine Action protest at US embassy in London",
+   "x_en": "Arrests come ahead of Wednesday’s supreme court challenge to the ban on the direct action group Police have said they arrested 325 people on Saturday at a demonstration outside the US embassy in London against the proscription of Palestine Action. In updated a"
   },
   {
    "t": "Оппозиция Индии провела мегамитинг с требованием отставки главы избирательной комиссии",
    "x": "Тысячи людей собрались в центре Дели, требуя отставки главного избирательного комиссара.",
    "r": "Азия",
    "c": "Политика",
-   "imp": 73,
+   "imp": 82,
    "ten": 51,
-   "ago": 174,
+   "ago": 83,
    "s": [
     "BBC",
+    "Al Jazeera",
     "France 24",
     "CNBC",
     "ABC News",
     "CNA",
-    "Reuters"
+    "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ab52/live/e490a850-d5d2-11f1-8629-7b9503d639be.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 7,
+   "n": 9,
    "lat": 23.14,
    "lon": 78.49,
    "place": "Индия",
    "place_en": "India",
-   "id": 7,
+   "id": 4,
    "t_en": "India's opposition holds mega rally seeking election chief's resignation",
    "x_en": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down."
+  },
+  {
+   "t": "Северная Корея испытывает кассетную бомбу, устанавливаемую на тактические баллистические ракеты",
+   "x": "СЕУЛ, 1 ноября (Рёнхап) -- Северная Корея испытала кассетную бомбу, которую можно установить...",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 79,
+   "ten": 88,
+   "ago": 175,
+   "s": [
+    "Yonhap",
+    "Dawn",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261101000400315",
+   "img": "https://img.yna.co.kr/etc/inner/EN/2026/11/01/AEN20261101000400315_01_i_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.15,
+   "lon": 125.98,
+   "place": "Пхеньян",
+   "place_en": "Pyongyang",
+   "id": 5,
+   "t_en": "N. Korea tests cluster bomb mountable on tactical ballistic missiles",
+   "x_en": "SEOUL, Nov. 1 (Yonhap) -- North Korea has tested a cluster bomb that can be moun..."
+  },
+  {
+   "t": "Франция открыла расследование по факту нападения на полицию покушения на убийство",
+   "x": "Никаких арестов произведено не было после того, как несколько сотрудников службы безопасности, как сообщается, получили ранения во время субботних протестов.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 75,
+   "ten": 93,
+   "ago": 10,
+   "s": [
+    "Al Jazeera",
+    "The Guardian"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/252178b82c007bfb1a6a332465a0ed7173f92050/0_0_2425_1941/master/2425.jpg?width=700&quality=85&auto=format&fit=max&s=9e90e955982d90c0bb732abb96bfb74d",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": 47.39,
+   "lon": 1.25,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 6,
+   "t_en": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+   "x_en": "No arrests made after several security officers were reportedly injured during incidents at Saturday's protests."
+  },
+  {
+   "t": "Салливан обещает почтить итоги гонок на Аляске, судья США отклонил иск Министерства юстиции",
+   "x": "Заявление сенатора Салливана контрастирует с попыткой администрации Трампа оспорить результаты выборов на Аляске.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 75,
+   "ten": 40,
+   "ago": 30,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/1/sullivan-vows-to-honour-alaska-race-outcome-us-judge-dismisses-doj-lawsuit?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/905c40bae467f184fb98410952a04dd275140865/379_0_4588_3668/master/4588.jpg?width=700&quality=85&auto=format&fit=max&s=e6a876a7f109e18698ab0e5a6c32b626",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.88,
+   "lon": -97.75,
+   "place": "США",
+   "place_en": "United States",
+   "id": 7,
+   "t_en": "Sullivan vows to honour Alaska race outcome, US judge dismisses DOJ lawsuit",
+   "x_en": "Senator Sullivan's pledge contrasts with the Trump administration's effort to challenge Alaska's election certification."
+  },
+  {
+   "t": "В результате ударов Израиля по сектору Газа погибли восемь человек, включая детей, сообщают в больницах",
+   "x": "По словам официальных лиц, пять офицеров полиции, управляемой Хамасом, были убиты в Хан-Юнисе, а три человека, включая ребенка, убиты в городе Газа.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 73,
+   "ten": 92,
+   "ago": 121,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c922/live/4fe4c8d0-d5fa-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 31.81,
+   "lon": 34.47,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 8,
+   "t_en": "Israeli strikes in Gaza kill eight including child, hospitals say",
+   "x_en": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say."
+  },
+  {
+   "t": "Протесты вспыхнули вокруг Верховного суда Польши после отстранения от должности президента",
+   "x": "Антиправительственные протестующие осуждают отстранение от должности президента трибунала.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 71,
+   "ten": 54,
+   "ago": 87,
+   "s": [
+    "ABC News",
+    "Times of India",
+    "The Hindu"
+   ],
+   "u": "https://abcnews.com/International/wireStory/police-detain-3-protesters-overnight-rally-polish-president-137731099",
+   "img": "https://s.abcnews.com/images/International/wirestory_0a346b1633cef7360277500a1273773f_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": 51.03,
+   "lon": 20.39,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 9,
+   "t_en": "Protests erupt around a top court in Poland after its president is suspended",
+   "x_en": "Anti-government protesters denounce the tribunal president's suspension."
+  },
+  {
+   "t": "Трамп провел митинг в Айове и Канзасе, чтобы сохранить контроль республиканцев над Сенатом США",
+   "x": "Президент США Трамп возвращается к предвыборной кампании после перерыва в своем клубе «Мар-а-Лаго» во Флориде в субботу.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 69,
+   "ten": 40,
+   "ago": 82,
+   "s": [
+    "Al Jazeera",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/1/trump-rallies-in-iowa-kansas-to-maintain-republican-control-of-us-senate?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae75311566d-1793544977.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 3,
+   "lat": 40.3,
+   "lon": -98.2,
+   "place": "США",
+   "place_en": "United States",
+   "id": 10,
+   "t_en": "Trump rallies in Iowa, Kansas to maintain Republican control of US Senate",
+   "x_en": "US President Trump returns to the campaign trail after taking a break at his ⁠⁠Mar-a-Lago club in Florida on Saturday."
   },
   {
    "t": "Российские удары отключили электроэнергию тысячам людей на Украине, поскольку дроны повредили российский объект",
    "x": "Несмотря на то, что в последний день шестидневного местного прекращения огня действовало вокруг контролируемого Россией украинского города Олешки, боевые действия в других местах не прекращались.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 70,
-   "ten": 66,
-   "ago": 18,
+   "imp": 69,
+   "ten": 57,
+   "ago": 243,
    "s": [
     "CNBC",
+    "Times of India",
+    "Politico EU",
     "Reuters"
    ],
    "u": "https://www.cnbc.com/2026/11/01/russian-strikes-cut-power-to-thousands-in-ukraine.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108497471-1793542184871-gettyimages-2302980799-img_0665.jpeg?v=1793542211&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
+   "img": "https://static.toiimg.com/photo/msid-135429799,imgsize-585724.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 4,
    "lat": 62.47,
    "lon": 94.74,
    "place": "Россия",
    "place_en": "Russia",
-   "id": 8,
+   "id": 11,
    "t_en": "Russian strikes cut power to thousands in Ukraine as drones damage Russian facility",
    "x_en": "Even as a six-day local ceasefire held on its final day around the Russian-controlled Ukrainian town of Oleshky, there was no letup in fighting elsewhere."
   },
   {
-   "t": "Фото: Молодежные митинги охватили Германию",
-   "x": "Десятки тысяч людей выходят на улицы крупнейших городов Германии, требуя лучшего образования и снижения стоимости жизни.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 70,
-   "ten": 50,
-   "ago": 217,
+   "t": "Иран предупреждает, что новая война может продлиться дольше после того, как Трамп пригрозил ударами",
+   "x": "В воскресенье Иран предупредил, что любое возобновление войны с Соединенными Штатами может продлиться дольше, чем предыдущий раунд боевых действий, после того как президент Дональд Трамп заявил, что ему все еще придется «позаботиться» о большем количестве целей. Дипломатические усилия по прекращению войны на Ближнем Востоке были предприняты.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 67,
+   "ten": 91,
+   "ago": 184,
+   "s": [
+    "Dawn",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.dawn.com/news/2041393/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes",
+   "img": "https://i.dawn.com/large/2025/06/1319504737925af.jpg",
+   "img_src": "Dawn",
+   "fresh": false,
+   "n": 3,
+   "lat": 32.43,
+   "lon": 54.14,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 12,
+   "t_en": "Iran warns new war could last longer after Trump threatens strikes",
+   "x_en": "Iran warned on Sunday that any renewed war with the United States could last longer than the previous round of fighting, after President Donald Trump said he still had to “ take care ” of more targets. Diplomatic efforts to end the Middle East war have been pu"
+  },
+  {
+   "t": "Рабочие Бангладеш столкнулись с полицией в знак протеста из-за низкой зарплаты",
+   "x": "Десятки рабочих швейной промышленности Бангладеш столкнулись с полицией в столице Дакке.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 59,
+   "ago": 135,
    "s": [
     "Al Jazeera",
-    "France 24",
-    "NPR",
-    "CNBC",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/gallery/2026/11/1/photos-youth-led-rallies-sweep-germany?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/7b7566f6-d5d4-11f1-94ac-bf1914cabd52/w:1024/p:16x9/EN-20261101-090621-090756-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": 51.18,
-   "lon": 9.46,
-   "place": "Германия",
-   "place_en": "Germany",
-   "id": 9,
-   "t_en": "Photos: Youth-led rallies sweep Germany",
-   "x_en": "Tens of thousands take to the streets across Germany's biggest cities to demand better education and lower living costs."
-  },
-  {
-   "t": "Сомалийские пираты захватили иранское рыболовное судно, вызвав опасения о нападениях на грузовые суда",
-   "x": "Пираты могли использовать лодку в качестве «базы» для нападений на коммерческие суда.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 66,
-   "ago": 31,
-   "s": [
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/somali-pirates-seize-iranian-fishing-vessel-raising-fears-137745870",
-   "img": "https://s.abcnews.com/images/International/wirestory_dd4d404235781a3b871668c353540e4c_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": 6.24,
-   "lon": 45.92,
-   "place": "Сомали",
-   "place_en": "Somalia",
-   "id": 10,
-   "t_en": "Somali pirates seize Iranian fishing vessel, raising fears of attacks on cargo ships",
-   "x_en": "Pirates could use the boat as a “mother ship” for attacks on commercial vessels."
-  },
-  {
-   "t": "Трамп говорит, что США все еще придется «позаботиться» о новых целях в Иране",
-   "x": "После того как верховный лидер Ирана предостерег от возобновления войны, президент Трамп предположил, что еще есть цели, о которых нужно «позаботиться».",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 68,
-   "ten": 74,
-   "ago": 42,
-   "s": [
-    "CBS News",
+    "CNA",
     "The Hindu"
    ],
-   "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
-   "img": "https://th-i.thgim.com/public/incoming/umo281/article71652263.ece/alternates/LANDSCAPE_1200/Trump_29168.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.4,
-   "lon": -99.2,
-   "place": "США",
-   "place_en": "United States",
-   "id": 11,
-   "t_en": "Trump says U.S. still has to \"take care\" of more targets in Iran",
-   "x_en": "After Iran's Supreme Leader warned against restarting the war, President Trump suggested there are still targets to \"take care of.\""
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/1/bangladesh-workers-clash-with-police-in-protests-over-low-pay?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--HmLpwZA7--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-09-22T022341Z_1_LYNXMPEM8L036_RTROPTP_3_IRAN-CRISIS-ENERGY-BANGLADESH.JPG?itok=FFJCKUYA",
+   "img_src": "CNA",
+   "fresh": false,
+   "n": 3,
+   "lat": 23.04,
+   "lon": 90.21,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 13,
+   "t_en": "Bangladesh workers clash with police in protests over low pay",
+   "x_en": "Dozens of garment workers in Bangladesh clashed with police in the capital Dhaka."
   },
   {
-   "t": "Джон Хили говорит, что извинения Великобритании за историческую роль в работорговле не приведут к финансовым репарациям – политика Великобритании в прямом эфире",
+   "t": "Кениец Чепкируи возвращает себе титул Нью-Йоркского марафона, Алмгрен побеждает в дебюте",
+   "x": "Рейтер",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 64,
+   "ten": 32,
+   "ago": 21,
+   "s": [
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNGE3NDdNOFBkSlhPa3I1SE9NdWY1U25lQ3BRRElKekZNUmpBeVJtVEl3UF9QTndmNWpTMHdaRlhrVTZGaEp1ZEVaM3NJUnJSTTN1SU1mSDBOQ0pkcFJIQ1dWQVVaYmRYY1REM05hVHUzT3BDN05HSkVwQjREVE5lQlNZdVo4Skc3Tzl6VHJIdWh2QjQ?oc=5",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 2,
+   "lat": -0.12,
+   "lon": 38.66,
+   "place": "Кения",
+   "place_en": "Kenya",
+   "id": 14,
+   "t_en": "Kenyan Chepkirui takes back NYC Marathon title, Almgren wins in debut",
+   "x_en": "Reuters"
+  },
+  {
+   "t": "Джон Хили говорит, что извинения Великобритании за историческую роль в работорговле не приведут к финансовым репарациям, как это произошло",
    "x": "В преддверии встречи с лидерами Содружества Энди Бёрнем написал, что Британии необходимо «признать свою сложную историю».",
    "r": "Европа",
    "c": "Экономика",
-   "imp": 67,
+   "imp": 64,
    "ten": 40,
-   "ago": 11,
+   "ago": 131,
    "s": [
     "The Guardian",
-    "ABC News"
+    "ABC News",
+    "AP"
    ],
    "u": "https://www.theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates",
    "img": "https://i.guim.co.uk/img/media/dc36157c22b3e1a933a63f18c6d6d67f9f867a54/382_0_2618_2095/master/2618.jpg?width=700&quality=85&auto=format&fit=max&s=73529d0054c03d678d82bda92dcf706a",
    "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": 54.14,
-   "lon": -3.09,
+   "fresh": false,
+   "n": 3,
+   "lat": 54.02,
+   "lon": -3.71,
    "place": "Великобритания",
    "place_en": "United Kingdom",
-   "id": 12,
-   "t_en": "John Healey says UK apology over historic role in slave trade won’t lead to financial reparations – UK politics live",
+   "id": 15,
+   "t_en": "John Healey says UK apology over historic role in slave trade won’t lead to financial reparations – as it happened",
    "x_en": "Ahead of a meeting with Commonwealth leaders, Andy Burnham wrote that Britain needed to ‘acknowledge its complicated history’ At the end of his interview with Kuennsberg, Healey was also asked to comment on a potential apology for Britain’s near-250 years of p"
-  },
-  {
-   "t": "Филиппинские семьи держат своих близких рядом в День всех святых",
-   "x": "Лорита Сантос бережно хранит воспоминания о своем отце, присоединяясь к тысячам людей в Маниле, чтобы почтить память близких в День всех святых.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 40,
-   "ago": 134,
-   "s": [
-    "ABC News",
-    "CNA",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/filipino-families-loved-close-saints-day-137745285",
-   "img": "https://s.abcnews.com/images/International/wirestory_7443e83e190bc76d879b263fca0d51a8_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 13.16,
-   "lon": 123.07,
-   "place": "Филиппины",
-   "place_en": "Philippines",
-   "id": 13,
-   "t_en": "Filipino families keep their loved ones close on All Saints' Day",
-   "x_en": "Lorita Santos cherishes memories of her father as she joins thousands in Manila to honor loved ones on All Saints’ Day"
-  },
-  {
-   "t": "Туск защищает реформу Конституционного суда Польши, несмотря на протесты",
-   "x": "Премьер-министр Польши говорит, что встряска жизненно важна для восстановления трибунала, искалеченного годами политических споров. Премьер-министр Польши Дональд Туск пообещал довести до конца оспариваемую реформу Конституционного суда страны, заявив, что «в некоторых вопросах",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 48,
-   "ago": 148,
-   "s": [
-    "The Guardian",
-    "Kyiv Independent",
-    "Politico EU"
-   ],
-   "u": "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests",
-   "img": "https://i.guim.co.uk/img/media/3b129224829f45ad8165dd6ba27eac4f0f3868d3/1836_207_4200_3362/master/4200.jpg?width=700&quality=85&auto=format&fit=max&s=d5a8eff36e4f3bb0529283c34a4deea9",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 52.3,
-   "lon": 18.72,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 14,
-   "t_en": "Tusk defends overhaul of Poland’s constitutional court despite protests",
-   "x_en": "Prime minister says shake-up is vital to restore tribunal crippled by years of political disputes Poland’s prime minister, Donald Tusk, has vowed to see through a contested overhaul of the country’s constitutional court, declaring that “in certain matters, the"
   },
   {
    "t": "Магазины разграблены, поскольку протесты против роста стоимости жизни в Германии переросли в насилие",
    "x": "Протесты в городах по всей Германии, включая Берлин, Гамбург и Франкфурт, прошли в тот же день, когда сотни тысяч человек также протестовали во Франции.",
    "r": "Европа",
-   "c": "Общее",
+   "c": "Политика",
    "imp": 64,
-   "ten": 54,
-   "ago": 154,
+   "ten": 57,
+   "ago": 155,
    "s": [
     "BBC",
-    "CNA",
+    "CBS News",
     "Reuters"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
@@ -537,184 +561,9 @@
    "lon": 8.9,
    "place": "Германия",
    "place_en": "Germany",
-   "id": 15,
+   "id": 16,
    "t_en": "Shops looted as German cost-of-living protests turn violent",
    "x_en": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France."
-  },
-  {
-   "t": "ООН требует расследования смерти сотрудника, находившегося под стражей хуситов",
-   "x": "Сотрудник Управления ООН по правам человека из Йемена скончался в заключении у хуситов после произвольного содержания под стражей более двух лет, сообщил глава ООН по правам человека.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 65,
-   "ago": 249,
-   "s": [
-    "Sky News",
-    "UN News",
-    "Euronews"
-   ],
-   "u": "https://news.sky.com/story/un-demands-investigation-into-death-of-staff-member-in-houthi-custody-13606554",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-volker-turk-un_7393586.jpg?20261101012235",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 3,
-   "lat": 15.64,
-   "lon": 44.2,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 16,
-   "t_en": "UN demands investigation into death of staff member in Houthi custody",
-   "x_en": "A Yemeni staff member of the UN Human Rights Office has died in Houthi custody after being arbitrarily held for more ​than two years, the UN human rights chief has said."
-  },
-  {
-   "t": "ОПЕК+ сохраняет декабрьские цели по добыче нефти стабильными в преддверии более жестких требований на 2027 год",
-   "x": "В то время как страны Персидского залива наращивали экспорт, который в течение нескольких месяцев был нарушен конфликтом, большинство из них все еще добывают нефть значительно ниже своих целевых показателей.",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 63,
-   "ten": 36,
-   "ago": 37,
-   "s": [
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/10/31/opec-oil-output-targets-december.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108271643-1772399859612-gettyimages-2263738665-raa-opeciran260301_npbBX.jpeg?v=1777379102&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 17,
-   "t_en": "OPEC+ keeps December oil output targets steady ahead of tougher call for 2027",
-   "x_en": "While Gulf members have been boosting exports disrupted for months by the conflict, most are still pumping well below their targets."
-  },
-  {
-   "t": "По меньшей мере восемь палестинцев погибли в результате атак Израиля в Газе",
-   "x": "Четырехлетний ребенок среди восьми палестинцев, погибших в результате атак израильских беспилотников на сектор Газа.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 95,
-   "ago": 21,
-   "s": [
-    "Al Jazeera"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/1/at-least-eight-palestinians-killed-in-israeli-attacks-across-gaza?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6ae7440ea874-1793541134.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 31.51,
-   "lon": 34.71,
-   "place": "Газа",
-   "place_en": "Gaza",
-   "id": 18,
-   "t_en": "At least eight Palestinians killed in Israeli attacks across Gaza",
-   "x_en": "Four-year-old among eight Palestinians killed in Israeli drone attacks across the Gaza Strip."
-  },
-  {
-   "t": "Зеленский подтвердил нападение на российский завод ракетного топлива и пусковую систему",
-   "x": "\"Также были поражены система \"Панцирь-С2\" и машина управления комплексом С-400 \"Триумф\", - сказал Зеленский, в результате чего ущерб оценивается в 70 миллионов долларов.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 95,
-   "ago": 25,
-   "s": [
-    "Kyiv Independent"
-   ],
-   "u": "https://kyivindependent.com/zelensky-confirms-attack-on-russian-rocket-fuel-factory-missile-launcher-system/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2300429539_20261101-131311.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 1,
-   "lat": 48.25,
-   "lon": 30.42,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 19,
-   "t_en": "Zelensky confirms attack on Russian rocket fuel factory, missile launcher system",
-   "x_en": "\"A ‘Pantsir-S2’ system and a command and control vehicle belonging to the S-400 ‘Triumph’ system were also struck,\" Zelensky said, causing an estimated $70 million in damage."
-  },
-  {
-   "t": "Чемпионка Европы по легкой атлетике из Ирландии Сиара Магин умерла в возрасте 34 лет",
-   "x": "Магин, принимавшая участие в двух Олимпийских играх, проиграла битву с раком через год после того, как узнала о своем диагнозе.",
-   "r": "Европа",
-   "c": "Наука",
-   "imp": 62,
-   "ten": 40,
-   "ago": 48,
-   "s": [
-    "Al Jazeera",
-    "Sky News"
-   ],
-   "u": "https://www.aljazeera.com/sports/2026/11/1/irelands-european-athletics-champion-ciara-mageean-dies-aged-34?traffic_source=rss",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-ciara-mageean-european_7393707.jpg?20261101104505",
-   "img_src": "Sky News",
-   "fresh": true,
-   "n": 2,
-   "lat": 53.16,
-   "lon": -7.22,
-   "place": "Ирландия",
-   "place_en": "Ireland",
-   "id": 20,
-   "t_en": "Ireland’s European athletics champion Ciara Mageean dies aged 34",
-   "x_en": "Mageean, who competed at two Olympic Games, lost her battle with cancer a year after revealing her diagnosis."
-  },
-  {
-   "t": "США слышат обеспокоенность Пакистана по поводу терроризма из Афганистана и будут играть «продуктивную роль», если таковая имеется: Рубио",
-   "x": "Госсекретарь США Марко Рубио в субботу заявил, что Вашингтон «услышал» обеспокоенность Пакистана по поводу терроризма, исходящего из Афганистана, и если «нам предстоит сыграть продуктивную роль, мы сыграем ее». Заявление Рубио стало ответом на вопрос",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 61,
-   "ten": 91,
-   "ago": 29,
-   "s": [
-    "Dawn"
-   ],
-   "u": "https://www.dawn.com/news/2041358/us-hears-pakistans-concerns-over-terrorism-from-afghanistan-would-play-productive-role-if-there-is-one-rubio",
-   "img": "https://i.dawn.com/large/2026/11/01092349468579c.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.83,
-   "lon": -98.31,
-   "place": "США",
-   "place_en": "United States",
-   "id": 21,
-   "t_en": "US hears Pakistan’s concerns over terrorism from Afghanistan, would play ‘productive role’ if there is one: Rubio",
-   "x_en": "US Secretary of State Marco Rubio on Saturday said that Washington has “heard” Pakistan’s concerns about terrorism emanating from Afghanistan and if “there’s a productive role for us to play, we would play it”. Rubio’s statement came in response to a question "
-  },
-  {
-   "t": "ФБР обвиняет Северную Корею в краже криптовалюты Binance на 6 миллиардов долларов",
-   "x": "ФБР заявило, что кража была связана со «злонамеренной кибердеятельностью» организации, известной как TraderTraitor, тех же самых участников, которые в прошлом году совершили взлом Bybit на сумму 1,5 миллиарда долларов.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 48,
-   "ago": 397,
-   "s": [
-    "DW",
-    "CBS News",
-    "CNA",
-    "Yonhap"
-   ],
-   "u": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf",
-   "img": "https://dam.mediacorp.sg/image/upload/s--cVcN_f03--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-31T221304Z_4_LYNXNPEM9U0C9_RTROPTP_3_FINTECH-CRYPTO-BINANCE-HACK.JPG?itok=uP9DNZj5",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 4,
-   "lat": 39.91,
-   "lon": 126.86,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 22,
-   "t_en": "FBI says North Korea behind $6 billion Binance crypto theft",
-   "x_en": "The FBI said the theft was tied to \"malicious cyber activity\" by an entity known as TraderTraitor, the same actors behind a $1.5 billion Bybit hack last year."
   },
   {
    "t": "Япония готовится к запуску коммерческих групп дронов после снятия ограничений на эксплуатацию",
@@ -736,7 +585,7 @@
    "lon": 138.47,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 23,
+   "id": 17,
    "t_en": "Japan prepares for commercial drone flocks after operating limit lifted",
    "x_en": ""
   },
@@ -760,7 +609,7 @@
    "lon": 106.85,
    "place": "Вьетнам",
    "place_en": "Vietnam",
-   "id": 24,
+   "id": 18,
    "t_en": "Vietnam drone intrusions prompt airport safety response nationwide",
    "x_en": ""
   },
@@ -784,7 +633,7 @@
    "lon": 137.71,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 25,
+   "id": 19,
    "t_en": "Japan has 'no time to lose' to avert a healthcare crisis, minister says",
    "x_en": ""
   },
@@ -808,81 +657,61 @@
    "lon": 115.13,
    "place": "Гонконг",
    "place_en": "Hong Kong",
-   "id": 26,
+   "id": 20,
    "t_en": "Fatal dog attacks test Hong Kong's ambitions for a pet-friendly economy",
    "x_en": ""
   },
   {
-   "t": "Во Франции снова вспыхивают столкновения после праздничного начала Дня протеста",
-   "x": "Более 300 000 человек вышли на улицы, некоторые были в костюмах Хэллоуина, прежде чем демонстрации закончились насилием.",
+   "t": "Туск защищает реформу Конституционного суда Польши, несмотря на протесты",
+   "x": "Премьер-министр Польши говорит, что встряска жизненно важна для восстановления трибунала, искалеченного годами политических споров. Премьер-министр Польши Дональд Туск пообещал довести до конца оспариваемую реформу Конституционного суда страны, заявив, что «в некоторых вопросах",
    "r": "Европа",
    "c": "Политика",
-   "imp": 60,
-   "ten": 66,
-   "ago": 7,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/10/31/world/europe/france-protests-clashes.html",
-   "img": "https://static01.nyt.com/images/2026/10/31/multimedia/31int-france-protests-leadall-vpqj/31int-france-protests-leadall-vpqj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": 46.63,
-   "lon": 1.31,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 27,
-   "t_en": "Clashes Erupt Again in France, After Festive Start to Day of Protest",
-   "x_en": "More than 300,000 people took to the streets, some wearing Halloween costumes, before the demonstrations ended in violence."
-  },
-  {
-   "t": "В результате удара Израиля в секторе Газа погиб мальчик: катарцы говорят, что судно пострадало в Персидском заливе, и другие новости Ближнего Востока",
-   "x": "В результате ударов Израиля по сектору Газа погибли восемь человек, включая мальчика",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 95,
-   "ago": 35,
-   "s": [
-    "ABC News"
-   ],
-   "u": "https://abcnews.com/International/wireStory/israeli-strike-kills-boy-gaza-qataris-vessel-struck-137745763",
-   "img": "https://s.abcnews.com/images/International/wirestory_b918f44d8f212d7daf7f2f9a98c91a0b_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 1,
-   "lat": 31.6,
-   "lon": 34.73,
-   "place": "Газа",
-   "place_en": "Gaza",
-   "id": 28,
-   "t_en": "Israeli strike kills boy in Gaza as Qataris say vessel struck in Gulf, and other Mideast news",
-   "x_en": "Israeli strikes on Gaza have killed eight people including a young boy"
-  },
-  {
-   "t": "Потомок королевской династии Мин, ставший буддийским монахом, нарисовал 12 листьев птиц и цветов, проданных за 75 крор.",
-   "x": "Бада Шанжэнь, которого первоначально звали Чжу Да, родился в королевской семье Мин в 1626 году. После распада династии Мин в 1644 году он много лет искал утешения в буддийском монастыре. Позже он начал светскую жизнь как известный художник, создавая произведения искусства.",
-   "r": "Мир",
-   "c": "Общее",
    "imp": 59,
-   "ten": 57,
-   "ago": 7,
+   "ten": 48,
+   "ago": 204,
    "s": [
-    "Times of India"
+    "The Guardian",
+    "Kyiv Independent",
+    "Politico EU"
    ],
-   "u": "https://timesofindia.indiatimes.com/world/china/in-1699-a-ming-royal-descendant-who-became-a-buddhist-monk-painted-12-leaves-of-birds-and-flowers-after-passing-through-famous-collectors-and-a-1991-auction-the-album-sold-for-about-rs-75-crore-in-2026/articleshow/135424216.cms",
-   "img": "https://static.toiimg.com/photo/msid-135424392,imgsize-91906.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 29,
-   "t_en": "Ming royal descendant turned Buddhist monk painted 12 leaves of birds and flowers, sold for Rs 75 cr",
-   "x_en": "Bada Shanren, originally named Zhu Da, was born into the Ming royal lineage in 1626. Following the Ming dynasty's collapse in 1644, he sought solace in a Buddhist monastery for many years. Later, he embraced secular life as a renowned painter, crafting works t"
+   "u": "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests",
+   "img": "https://i.guim.co.uk/img/media/3b129224829f45ad8165dd6ba27eac4f0f3868d3/1836_207_4200_3362/master/4200.jpg?width=700&quality=85&auto=format&fit=max&s=d5a8eff36e4f3bb0529283c34a4deea9",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 52.3,
+   "lon": 18.72,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 21,
+   "t_en": "Tusk defends overhaul of Poland’s constitutional court despite protests",
+   "x_en": "Prime minister says shake-up is vital to restore tribunal crippled by years of political disputes Poland’s prime minister, Donald Tusk, has vowed to see through a contested overhaul of the country’s constitutional court, declaring that “in certain matters, the"
+  },
+  {
+   "t": "Посредники Ирана и Катара проводят третий день переговоров по прекращению американо-иранской войны",
+   "x": "Переговоры проходят на фоне опасений, что конфликт может снова обостриться после промежуточных выборов в США 3 ноября.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 66,
+   "ago": 252,
+   "s": [
+    "CNBC",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.cnbc.com/2026/11/01/iranian-negotiators-in-qatar-to-continue-talks-to-end-war-reuters.html",
+   "img": "https://th-i.thgim.com/public/news/national/f6voag/article71652918.ece/alternates/LANDSCAPE_1200/iStock-1483917182.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": 31.41,
+   "lon": 53.01,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 22,
+   "t_en": "Iran, Qatari mediators hold third day of talks to end U.S.-Iran war",
+   "x_en": "The talks come amid concerns that the conflict could escalate again after the Nov. 3 U.S. midterm elections."
   },
   {
    "t": "Трамп откладывает тарифы на избыточные мощности в преддверии промежуточных выборов в США",
@@ -904,7 +733,7 @@
    "lon": -99.27,
    "place": "США",
    "place_en": "United States",
-   "id": 30,
+   "id": 23,
    "t_en": "Trump holds off overcapacity tariffs as US midterms near",
    "x_en": ""
   },
@@ -928,109 +757,61 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 31,
+   "id": 24,
    "t_en": "BOJ chief Ueda says 2% inflation goal not yet sustainably achieved",
    "x_en": ""
   },
   {
-   "t": "Смотреть: Хайди Клум в роли гигантской отрубленной руки на вечеринке в честь Хэллоуина",
-   "x": "Супермодель и телеведущая произвела новый кровавый шок на своем мероприятии в Нью-Йорке.",
-   "r": "Америка",
+   "t": "Олешчане возвращаются в Украину",
+   "x": "Жители, эвакуированные из оккупированного Россией Олешки, достигли территории, контролируемой Украиной, после редкого местного перемирия. Они рассказали о годах изоляции, нехватке продовольствия и регулярных обстрелах, а некоторые говорили, что их заставляли есть траву и собак, чтобы выжить. Се",
+   "r": "Европа",
    "c": "Общее",
    "imp": 58,
-   "ten": 40,
-   "ago": 81,
+   "ten": 57,
+   "ago": 103,
    "s": [
-    "BBC",
-    "Euronews"
+    "France 24",
+    "Kyiv Independent"
    ],
-   "u": "https://www.bbc.co.uk/news/videos/cj040yd1xdrlo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/be5b/live/57cc5ff0-d5b3-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
+   "u": "https://www.france24.com/en/oleshky-residents-return-to-ukraine",
+   "img": "https://s.france24.com/media/display/e35562ea-d5fb-11f1-b3a1-bf1914cabd52/w:1024/p:16x9/EN-20261101-140341-140954-CS.jpg",
+   "img_src": "France 24",
    "fresh": false,
    "n": 2,
-   "lat": 40.63,
-   "lon": -74.16,
-   "place": "Нью-Йорк",
-   "place_en": "New York",
-   "id": 32,
-   "t_en": "Watch: Heidi Klum as giant severed hand for Halloween bash",
-   "x_en": "The supermodel and TV host provided a gory new shock at her New York event."
+   "lat": 48.75,
+   "lon": 32.18,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 25,
+   "t_en": "Oleshky residents return to Ukraine",
+   "x_en": "Residents evacuated from Russian-occupied Oleshky have reached Ukrainian-held territory following a rare local truce. They described years of isolation, food shortages and regular shelling, with some saying they were forced to eat grass and dogs to survive. Se"
   },
   {
-   "t": "Судья отклонил иск Трампа против Wall Street Journal из-за книги о дне рождения Эпштейна",
-   "x": "Трамп подал в суд на это СМИ после того, как оно опубликовало письмо Эпштейну, предположительно написанное и подписанное президентом как часть поздравительной книги.",
-   "r": "Америка",
+   "t": "Молодежные митинги охватили Европу",
+   "x": "Протесты во Франции вдохновили молодежные демонстрации по всей Европе, от Португалии и Италии до Германии. В субботу в Германии прошли особенно крупные митинги, возглавляемые молодежной инициативой, название которой примерно переводится как «Поколение Z получило это». Демонстрировать",
+   "r": "Европа",
    "c": "Политика",
    "imp": 58,
-   "ten": 40,
-   "ago": 457,
+   "ten": 52,
+   "ago": 553,
    "s": [
-    "BBC",
-    "Sky News",
-    "The Hindu",
+    "France 24",
+    "NPR",
+    "CNBC",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5cde/live/f5e426a0-d586-11f1-a6a4-9b195a139571.jpg",
-   "img_src": "BBC",
+   "u": "https://www.france24.com/en/youth-led-rallies-sweep-europe",
+   "img": "https://s.france24.com/media/display/7b7566f6-d5d4-11f1-94ac-bf1914cabd52/w:1024/p:16x9/EN-20261101-090621-090756-CS.jpg",
+   "img_src": "France 24",
    "fresh": false,
    "n": 4,
-   "lat": 40.84,
-   "lon": -74.08,
-   "place": "Нью-Йорк",
-   "place_en": "New York",
-   "id": 33,
-   "t_en": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-   "x_en": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book."
-  },
-  {
-   "t": "Семья: Стивен Шварцман (29)",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/my-personal-history/family-stephen-schwarzman-29",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F2%2F8%2F5%2F13085825-3-eng-GB%2F715e193a3845-photo_SXM2026082000004981.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 34,
-   "t_en": "Family: Stephen Schwarzman (29)",
-   "x_en": ""
-  },
-  {
-   "t": "Акции Intel упали более чем на 20%, поскольку замедление темпов роста ПК продлится до 2027 года",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/tech/semiconductors/intel-shares-sink-more-than-20-as-pc-slowdown-stretches-into-2027",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F8%2F1%2F0%2F13380183-1-eng-GB%2Ffe384a3a33fc-photo_SXM2026012000001080.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 35,
-   "t_en": "Intel shares sink more than 20% as PC slowdown stretches into 2027",
-   "x_en": ""
+   "lat": 47.64,
+   "lon": 2.88,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 26,
+   "t_en": "Youth-led rallies sweep Europe",
+   "x_en": "Protests in France have helped inspire youth demonstrations elsewhere in Europe, from Portugal and Italy to Germany. Germany saw particularly large rallies on Saturday, led by a youth initiative whose name roughly translates as “Gen Z has got this”. Demonstrat"
   },
   {
    "t": "Малайзийская компания IHH Healthcare удвоит количество коек в больницах недалеко от Сингапура",
@@ -1052,7 +833,7 @@
    "lon": 102.11,
    "place": "Малайзия",
    "place_en": "Malaysia",
-   "id": 36,
+   "id": 27,
    "t_en": "Malaysia's IHH Healthcare to double hospital beds near Singapore",
    "x_en": ""
   },
@@ -1076,7 +857,7 @@
    "lon": 138.91,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 37,
+   "id": 28,
    "t_en": "Takaichi's G7 no-show risks undermining Japan's interests",
    "x_en": ""
   },
@@ -1100,7 +881,7 @@
    "lon": 138.95,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 38,
+   "id": 29,
    "t_en": "Japan's Marubeni looks to profit from bottlenecks arising from AI boom",
    "x_en": ""
   },
@@ -1116,15 +897,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/politics/defense/inside-the-world-s-largest-overseas-us-military-base",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F9%2F3%2F3%2F13373395-1-eng-GB%2Fb1e0a86aab73-20261026-main.jpeg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 39.31,
    "lon": -99.29,
    "place": "США",
    "place_en": "United States",
-   "id": 39,
+   "id": 30,
    "t_en": "Inside the world's largest overseas US military base",
    "x_en": ""
   },
@@ -1140,24 +921,236 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/business/markets/china-debt-crunch/pag-to-buy-51-of-china-evergrande-services-arm-for-510m",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F9%2F2%2F1%2F13381293-1-eng-GB%2F6600c5b27049-2026-10-09T034611Z_591345044_RC2F9R9FA9OP_RTRMADP_3_EVERGRANDE-PROPERTY-PAG-STAKE.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 34.18,
    "lon": 102.45,
    "place": "Китай",
    "place_en": "China",
-   "id": 40,
+   "id": 31,
    "t_en": "PAG to buy 51% of China Evergrande services arm for $510m",
+   "x_en": ""
+  },
+  {
+   "t": "В фокусе: Ниндзя попал в цель с иностранными туристами",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/photos/in-focus-ninja-hit-the-mark-with-foreign-tourists",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F3%2F1%2F3%2F13353136-1-eng-GB%2Fa40109d8dd3b-photo_SXM2026093000006875.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 32,
+   "t_en": "In Focus: Ninja hit the mark with foreign tourists",
+   "x_en": ""
+  },
+  {
+   "t": "Импорт золота в Индию снизился на 81%; мировые цены могут пострадать",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/commodities/india-s-gold-imports-down-81-global-prices-could-be-impacted",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 22.19,
+   "lon": 79.64,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 33,
+   "t_en": "India's gold imports down 81%; global prices could be impacted",
+   "x_en": ""
+  },
+  {
+   "t": "Выбор редакции: что означают промежуточные выборы в США для Азии",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-what-the-us-midterms-mean-for-asia",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.76,
+   "lon": -99.2,
+   "place": "США",
+   "place_en": "United States",
+   "id": 34,
+   "t_en": "Editor's Choice: What the US midterms mean for Asia",
+   "x_en": ""
+  },
+  {
+   "t": "Банк Японии ускорит продажи ETF, увеличившись более чем вдвое с января",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/bank-of-japan/boj-to-accelerate-etf-sales-more-than-doubling-pace-from-january",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 35,
+   "t_en": "BOJ to accelerate ETF sales, more than doubling pace from January",
+   "x_en": ""
+  },
+  {
+   "t": "ООН сохраняет статус наименее развитой страны Бангладеш и Непала",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/un-retains-bangladesh-and-nepal-s-least-developed-country-status",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 23.96,
+   "lon": 90.6,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 36,
+   "t_en": "UN retains Bangladesh and Nepal's least developed country status",
+   "x_en": ""
+  },
+  {
+   "t": "Филиппинский мусульманский регион избрал главного министра в ходе исторического голосования",
+   "x": "",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/philippine-muslim-region-elects-chief-minister-in-historic-vote",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 13.21,
+   "lon": 122.96,
+   "place": "Филиппины",
+   "place_en": "Philippines",
+   "id": 37,
+   "t_en": "Philippine Muslim region elects chief minister in historic vote",
+   "x_en": ""
+  },
+  {
+   "t": "Кто упал, а кто поднялся на пятом пленуме Китая",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/who-fell-and-who-rose-at-china-s-fifth-plenum",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 34.37,
+   "lon": 103.82,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 38,
+   "t_en": "Who fell and who rose at China's fifth plenum",
+   "x_en": ""
+  },
+  {
+   "t": "Акции китайского судоходства и угля опережают AI, поскольку прогнозы по прибылям расходятся",
+   "x": "",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/companies/chinese-shipping-coal-stocks-outperform-ai-as-earnings-outlooks-diverge",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.5,
+   "lon": 104.25,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 39,
+   "t_en": "Chinese shipping, coal stocks outperform AI as earnings outlooks diverge",
+   "x_en": ""
+  },
+  {
+   "t": "Чистая прибыль Kioxia выросла в 15 раз до $8,7 млрд в этом квартале",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/tech/semiconductors/kioxia-net-profit-to-surge-15-fold-to-8.7bn-this-quarter",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 40,
+   "t_en": "Kioxia net profit to surge 15-fold to $8.7bn this quarter",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793458814378,
-   "v": 48
-  },
   {
    "t": 1793473954557,
    "v": 49
@@ -1177,139 +1170,143 @@
   {
    "t": 1793543529865,
    "v": 49
+  },
+  {
+   "t": 1793560080794,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1793457129865,
-   "v": 55,
-   "n": 26
-  },
-  {
-   "t": 1793460729865,
-   "v": 55,
-   "n": 41
-  },
-  {
-   "t": 1793464329865,
-   "v": 57,
-   "n": 36
-  },
-  {
-   "t": 1793467929865,
-   "v": 53,
-   "n": 36
-  },
-  {
-   "t": 1793471529865,
-   "v": 55,
-   "n": 26
-  },
-  {
-   "t": 1793475129865,
-   "v": 57,
-   "n": 25
-  },
-  {
-   "t": 1793478729865,
+   "t": 1793473680794,
    "v": 54,
-   "n": 27
-  },
-  {
-   "t": 1793482329865,
-   "v": 55,
-   "n": 20
-  },
-  {
-   "t": 1793485929865,
-   "v": 49,
    "n": 25
   },
   {
-   "t": 1793489529865,
-   "v": 51,
-   "n": 27
+   "t": 1793477280794,
+   "v": 53,
+   "n": 23
   },
   {
-   "t": 1793493129865,
-   "v": 51,
+   "t": 1793480880794,
+   "v": 53,
+   "n": 22
+  },
+  {
+   "t": 1793484480794,
+   "v": 52,
+   "n": 19
+  },
+  {
+   "t": 1793488080794,
+   "v": 48,
+   "n": 22
+  },
+  {
+   "t": 1793491680794,
+   "v": 52,
+   "n": 39
+  },
+  {
+   "t": 1793495280794,
+   "v": 49,
    "n": 43
   },
   {
-   "t": 1793496729865,
+   "t": 1793498880794,
+   "v": 51,
+   "n": 46
+  },
+  {
+   "t": 1793502480794,
+   "v": 50,
+   "n": 28
+  },
+  {
+   "t": 1793506080794,
    "v": 49,
-   "n": 51
+   "n": 34
   },
   {
-   "t": 1793500329865,
-   "v": 49,
-   "n": 59
+   "t": 1793509680794,
+   "v": 50,
+   "n": 36
   },
   {
-   "t": 1793503929865,
-   "v": 46,
-   "n": 53
-  },
-  {
-   "t": 1793507529865,
+   "t": 1793513280794,
    "v": 48,
-   "n": 56
+   "n": 42
   },
   {
-   "t": 1793511129865,
+   "t": 1793516880794,
+   "v": 49,
+   "n": 48
+  },
+  {
+   "t": 1793520480794,
    "v": 46,
+   "n": 50
+  },
+  {
+   "t": 1793524080794,
+   "v": 44,
+   "n": 55
+  },
+  {
+   "t": 1793527680794,
+   "v": 42,
    "n": 49
   },
   {
-   "t": 1793514729865,
+   "t": 1793531280794,
+   "v": 43,
+   "n": 57
+  },
+  {
+   "t": 1793534880794,
    "v": 47,
-   "n": 62
+   "n": 65
   },
   {
-   "t": 1793518329865,
-   "v": 45,
-   "n": 56
+   "t": 1793538480794,
+   "v": 49,
+   "n": 97
   },
   {
-   "t": 1793521929865,
-   "v": 44,
-   "n": 62
+   "t": 1793542080794,
+   "v": 51,
+   "n": 103
   },
   {
-   "t": 1793525529865,
-   "v": 42,
-   "n": 62
+   "t": 1793545680794,
+   "v": 52,
+   "n": 111
   },
   {
-   "t": 1793529129865,
-   "v": 44,
-   "n": 84
+   "t": 1793549280794,
+   "v": 54,
+   "n": 90
   },
   {
-   "t": 1793532729865,
-   "v": 45,
-   "n": 94
+   "t": 1793552880794,
+   "v": 51,
+   "n": 86
   },
   {
-   "t": 1793536329865,
-   "v": 48,
-   "n": 115
+   "t": 1793556480794,
+   "v": 46,
+   "n": 111
   },
   {
-   "t": 1793539929865,
-   "v": 47,
-   "n": 137
-  },
-  {
-   "t": 1793543529865,
-   "v": 47,
-   "n": 108
+   "t": 1793560080794,
+   "v": 43,
+   "n": 85
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 20
+   "items": 24
   },
   {
    "n": "Al Jazeera",
@@ -1317,7 +1314,7 @@
   },
   {
    "n": "DW",
-   "items": 4
+   "items": 6
   },
   {
    "n": "France 24",
@@ -1325,11 +1322,11 @@
   },
   {
    "n": "The Guardian",
-   "items": 23
+   "items": 24
   },
   {
    "n": "Sky News",
-   "items": 8
+   "items": 7
   },
   {
    "n": "NPR",
@@ -1337,19 +1334,19 @@
   },
   {
    "n": "UN News",
-   "items": 4
+   "items": 0
   },
   {
    "n": "CNBC",
-   "items": 20
+   "items": 22
   },
   {
    "n": "Euronews",
-   "items": 16
+   "items": 14
   },
   {
    "n": "NYT",
-   "items": 25
+   "items": 24
   },
   {
    "n": "Washington Post",
@@ -1357,11 +1354,11 @@
   },
   {
    "n": "CBS News",
-   "items": 16
+   "items": 23
   },
   {
    "n": "ABC News",
-   "items": 22
+   "items": 24
   },
   {
    "n": "CNN",
@@ -1369,7 +1366,7 @@
   },
   {
    "n": "Fox News",
-   "items": 4
+   "items": 5
   },
   {
    "n": "ABC Australia",
@@ -1377,7 +1374,7 @@
   },
   {
    "n": "CNA",
-   "items": 14
+   "items": 12
   },
   {
    "n": "Times of Israel",
@@ -1393,7 +1390,7 @@
   },
   {
    "n": "Africanews",
-   "items": 11
+   "items": 13
   },
   {
    "n": "Kyiv Independent",
@@ -1401,7 +1398,7 @@
   },
   {
    "n": "Yonhap",
-   "items": 39
+   "items": 35
   },
   {
    "n": "Nikkei Asia",
@@ -1441,6 +1438,7 @@
   }
  ],
  "failed": [
+  "UN News",
   "Washington Post",
   "Times of Israel",
   "Middle East Eye",

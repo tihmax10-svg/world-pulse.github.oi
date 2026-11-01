@@ -1,7 +1,7 @@
 {
- "updated": 1793485767274,
+ "updated": 1793496209326,
  "demo": false,
- "total_articles": 596,
+ "total_articles": 589,
  "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
@@ -12,7 +12,7 @@
   },
   {
    "n": "Al Jazeera",
-   "v": 48
+   "v": 49
   },
   {
    "n": "DW",
@@ -20,7 +20,7 @@
   },
   {
    "n": "France 24",
-   "v": 57
+   "v": 56
   },
   {
    "n": "The Guardian",
@@ -35,20 +35,16 @@
    "v": 47
   },
   {
-   "n": "UN News",
-   "v": 50
-  },
-  {
    "n": "CNBC",
-   "v": 40
+   "v": 39
   },
   {
    "n": "Euronews",
-   "v": 48
+   "v": 47
   },
   {
    "n": "NYT",
-   "v": 53
+   "v": 52
   },
   {
    "n": "CBS News",
@@ -56,7 +52,7 @@
   },
   {
    "n": "ABC News",
-   "v": 47
+   "v": 48
   },
   {
    "n": "CNN",
@@ -72,19 +68,23 @@
   },
   {
    "n": "CNA",
-   "v": 60
+   "v": 58
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 58
   },
   {
    "n": "Africanews",
-   "v": 51
+   "v": 53
   },
   {
    "n": "Kyiv Independent",
-   "v": 67
+   "v": 65
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 41
   },
   {
    "n": "Nikkei Asia",
@@ -92,7 +92,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 42
+   "v": 40
   },
   {
    "n": "Dawn",
@@ -100,11 +100,11 @@
   },
   {
    "n": "Times of India",
-   "v": 42
+   "v": 41
   },
   {
    "n": "The Hindu",
-   "v": 53
+   "v": 55
   },
   {
    "n": "Politico EU",
@@ -112,33 +112,33 @@
   },
   {
    "n": "Japan Times",
-   "v": 42
+   "v": 46
   },
   {
    "n": "Reuters",
-   "v": 41
+   "v": 43
   },
   {
    "n": "AP",
-   "v": 42
+   "v": 44
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 55
+   "v": 56
   },
   {
    "n": "Ближний Восток",
-   "v": 53
+   "v": 55
   },
   {
    "n": "Азия",
-   "v": 44
+   "v": 43
   },
   {
    "n": "Африка",
-   "v": 50
+   "v": 53
   },
   {
    "n": "Америка",
@@ -147,13 +147,40 @@
  ],
  "events": [
   {
+   "t": "Третьи выходные протестов во Франции",
+   "x": "Франция готовится к третьим выходным протестов: 70 000 сотрудников службы безопасности задействованы, чтобы предотвратить повторение насилия, произошедшего 17 октября. Магазины закололи свои помещения, поскольку власти предупреждают о дальнейших столкновениях, а Хэллоуин усиливает беспокойство.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 80,
+   "ten": 58,
+   "ago": 105,
+   "s": [
+    "France 24",
+    "NPR",
+    "CNBC",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/third-weekend-of-protests-in-france",
+   "img": "https://s.france24.com/media/display/8d26b616-d51b-11f1-b158-d18c5759e759/w:1024/p:16x9/EN-20261031-110610-110903-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 5,
+   "lat": 45.76,
+   "lon": 2.46,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 1,
+   "t_en": "Third weekend of protests in France",
+   "x_en": "France is preparing for a third weekend of protests, with 70,000 security personnel deployed to prevent a repeat of the violence seen on October 17. Shops have boarded up their premises as authorities warn of further clashes, with Halloween adding to concerns "
+  },
+  {
    "t": "Президент Ирана Хаменеи предостерегает США и Израиль от новых атак",
    "x": "Верховный лидер Ирана Моджтаба Хаменеи в субботу предостерег США и Израиль от дальнейших ударов, поскольку нарастают опасения по поводу возобновления боевых действий на Ближнем Востоке. Президент США Дональд Трамп и его израильский союзник Биньямин Нетаньяху недавно провели три",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 95,
+   "imp": 77,
    "ten": 84,
-   "ago": 19,
+   "ago": 193,
    "s": [
     "France 24",
     "CBS News",
@@ -163,150 +190,174 @@
    "u": "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
    "img": "https://s.france24.com/media/display/77114946-d54c-11f1-8f61-a575454bc579/w:1024/p:16x9/AP26285515397254.jpg",
    "img_src": "France 24",
-   "fresh": true,
+   "fresh": false,
    "n": 4,
    "lat": 31.19,
    "lon": 53.29,
    "place": "Иран",
    "place_en": "Iran",
-   "id": 1,
+   "id": 2,
    "t_en": "Iran's Khamenei warns US and Israel against new attacks",
    "x_en": "Iran's Supreme Leader Mojtaba Khamenei warned the United States and Israel on Saturday against further strikes as fears mount over a resumption of fighting in the Middle East. US President Donald Trump and his Israeli ally Benjamin Netanyahu have recently thre"
+  },
+  {
+   "t": "Президент Польши провел кризисные переговоры в судебном противостоянии",
+   "x": "Спор по поводу политизации Конституционного суда Польши углубляется, и ни одна из сторон, похоже, не отступает.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 76,
+   "ten": 63,
+   "ago": 53,
+   "s": [
+    "Al Jazeera",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff?traffic_source=rss",
+   "img": "https://th-i.thgim.com/public/news/national/yw6clx/article71650785.ece/alternates/LANDSCAPE_1200/IMG-20261031-WA0067.jpg",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 3,
+   "lat": 51.71,
+   "lon": 19.6,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 3,
+   "t_en": "Polish president holds crisis talks in court standoff",
+   "x_en": "A dispute over the politicisation of Poland's constitutional court is deepening, with no side appearing to back down."
   },
   {
    "t": "Сторонников «Палестинских действий» арестовали возле посольства США в Лондоне",
    "x": "Сотни протестующих собрались возле посольства США в Лондоне, чтобы выступить против запрета правительства Великобритании на «Действие против Палестины».",
    "r": "Европа",
    "c": "Политика",
-   "imp": 93,
-   "ten": 70,
-   "ago": 19,
+   "imp": 76,
+   "ten": 68,
+   "ago": 58,
    "s": [
     "Al Jazeera",
     "The Guardian",
-    "CBS News",
-    "ABC News"
+    "Middle East Eye"
    ],
    "u": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
    "img": "https://i.guim.co.uk/img/media/6807820322847a216baf62975e1cb66f78e36b30/808_0_4041_3233/master/4041.jpg?width=700&quality=85&auto=format&fit=max&s=788e3f7e695c558a4ea57d8bace61c08",
    "img_src": "The Guardian",
    "fresh": true,
-   "n": 4,
+   "n": 5,
    "lat": 51.58,
    "lon": 0.02,
    "place": "Лондон",
    "place_en": "London",
-   "id": 2,
+   "id": 4,
    "t_en": "Palestine Action supporters arrested outside US embassy in London",
    "x_en": "Hundreds of protesters gathered outside the US Embassy in London to oppose the UK government's ban on Palestine Action."
   },
   {
-   "t": "Премьер-министр Великобритании Бёрнем говорит, что готов извиниться за рабство, но исключает финансовые репарации",
-   "x": "Премьер-министр Великобритании Энди Бернэм заявил в субботу, что он «открыт» для того, чтобы Великобритания впервые извинилась за свою роль в трансатлантической работорговле, но отклонила призывы о финансовых репарациях. Проблемы, связанные с колониальной историей Великобритании, вырисовывались очень остро.",
+   "t": "Протестующие собрались у Верховного суда Польши",
+   "x": "Полиция в Польше усилила охрану вокруг Конституционного трибунала страны после того, как в пятницу десятки протестующих собрались, чтобы выступить против отстранения от должности президента, которое, по их словам, было незаконным. Полиция сообщает, что несколько человек были задержаны",
    "r": "Европа",
    "c": "Политика",
-   "imp": 87,
-   "ten": 40,
-   "ago": 28,
+   "imp": 74,
+   "ten": 52,
+   "ago": 160,
    "s": [
     "France 24",
-    "NYT",
-    "Dawn",
-    "The Hindu",
-    "Politico EU",
-    "Reuters"
-   ],
-   "u": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
-   "img": "https://s.france24.com/media/display/0a003486-d527-11f1-b75d-bf1914cabd52/w:1024/p:16x9/74706f6624812bdb75973570d6ce3acdf7330c24.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 6,
-   "lat": 54.25,
-   "lon": -1.61,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 3,
-   "t_en": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
-   "x_en": "British Prime Minister Andy Burnham said Saturday he was \"open\" to the UK apologising for the first time for its role in the transatlantic slave trade but rejected calls for financial reparations. Issues around Britain's colonial history have loomed large over"
-  },
-  {
-   "t": "Папа встретился с баскетбольными командами Виллановы и Нотр-Дама в Ватикане",
-   "x": "Команды находятся в Риме на открытии сезона студенческого баскетбола в США — мероприятии, получившем название «Наводка Вечного города» и созданном в честь Папы Римского, родившегося в США.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 84,
-   "ten": 40,
-   "ago": 52,
-   "s": [
-    "CBS News",
+    "The Guardian",
     "ABC News",
-    "Reuters",
+    "The Hindu",
     "AP"
    ],
-   "u": "https://www.cbsnews.com/news/pope-leo-villanova-notre-dame-basketball-teams-vatican/",
-   "img": "https://s.abcnews.com/images/Sports/wirestory_3bb26f5b2b1bc2bd808b2dde13f585cb_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 4,
-   "lat": 41.81,
-   "lon": 12.55,
-   "place": "Рим",
-   "place_en": "Rome",
-   "id": 4,
-   "t_en": "Pope meets Villanova and Notre Dame basketball teams at the Vatican",
-   "x_en": "The teams are in Rome for the U.S. college basketball season opener — an event dubbed the Eternal City Tip-Off and created to honor the U.S.-born pope."
-  },
-  {
-   "t": "Третьи выходные протестов во Франции",
-   "x": "Франция готовится к третьим выходным протестов: 70 000 сотрудников службы безопасности задействованы, чтобы предотвратить повторение насилия, произошедшего 17 октября. Магазины закололи свои помещения, поскольку власти предупреждают о дальнейших столкновениях, а Хэллоуин усиливает беспокойство.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 62,
-   "ago": 72,
-   "s": [
-    "France 24",
-    "NPR",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/third-weekend-of-protests-in-france",
-   "img": "https://s.france24.com/media/display/8d26b616-d51b-11f1-b158-d18c5759e759/w:1024/p:16x9/EN-20261031-110610-110903-CS.jpg",
+   "u": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court",
+   "img": "https://s.france24.com/media/display/7fc37982-d50c-11f1-990b-1beafce15fea/w:1024/p:16x9/EN-20261031-100702-100845-CS.jpg",
    "img_src": "France 24",
    "fresh": false,
-   "n": 3,
-   "lat": 45.76,
-   "lon": 2.46,
-   "place": "Франция",
-   "place_en": "France",
+   "n": 5,
+   "lat": 52.64,
+   "lon": 18.76,
+   "place": "Польша",
+   "place_en": "Poland",
    "id": 5,
-   "t_en": "Third weekend of protests in France",
-   "x_en": "France is preparing for a third weekend of protests, with 70,000 security personnel deployed to prevent a repeat of the violence seen on October 17. Shops have boarded up their premises as authorities warn of further clashes, with Halloween adding to concerns "
+   "t_en": "Protesters gather at Poland's Top court",
+   "x_en": "Police in Poland have stepped up security around the country’s Constitutional Tribunal after dozens of protesters gathered on Friday to oppose the government’s suspension of its president, which they say was unlawful. Police say several people were detained af"
   },
   {
-   "t": "Иск Трампа о клевете против Мердока и WSJ из-за письма Эпштейна отклонен с предубеждением",
-   "x": "Отклонив иск с предубеждением, Трамп не сможет подать еще одну исправленную версию в окружной суд. Юристы Трампа заявили, что президент планирует подать апелляцию.",
+   "t": "Binance пострадала от кражи криптовалюты на сумму 6,3 миллиарда долларов",
+   "x": "Руководители Binance изо всех сил пытаются вернуть миллиарды долларов после того, как криптоплатформа подверглась крупнейшему ограблению в истории криптовалют. Сообщается, что хакеры украли у пользователей 6,3 миллиарда долларов, при этом аналитики указывают на это пальцем.",
    "r": "Америка",
+   "c": "Экономика",
+   "imp": 72,
+   "ten": 40,
+   "ago": 171,
+   "s": [
+    "France 24",
+    "CNBC",
+    "Yonhap",
+    "The Hindu"
+   ],
+   "u": "https://www.france24.com/en/binance-hit-by-6-3-billion-dollar-crypto-theft",
+   "img": "https://s.france24.com/media/display/00c0623e-d51c-11f1-b31c-a575454bc579/w:1024/p:16x9/EN-20261030-210458-211233-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 38.6,
+   "lon": -77.07,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 6,
+   "t_en": "Binance hit by 6.3 billion dollar crypto theft",
+   "x_en": "Binance executives are scrambling to recover billions of dollars after the crypto platform was hit by what is being described as the biggest heist in cryptocurrency history. Hackers reportedly stole $6.3 billion from users, with analysts pointing the finger at"
+  },
+  {
+   "t": "Оппозиция Индии собирается провести мегамитинг с требованием отставки главы избирательной комиссии",
+   "x": "Это происходит на фоне растущих протестов по поводу пересмотра списков избирателей, из-за которого опасаются, что 130 миллионов избирателей будут исключены из списков.",
+   "r": "Азия",
    "c": "Политика",
    "imp": 71,
-   "ten": 40,
-   "ago": 65,
+   "ten": 45,
+   "ago": 71,
    "s": [
-    "CNBC",
-    "Reuters",
-    "AP"
+    "BBC",
+    "CNA",
+    "Dawn"
    ],
-   "u": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108174185-1752873502792-Trump_Murdoch2.jpg?v=1752873942&w=1920&h=1080",
-   "img_src": "CNBC (og)",
+   "u": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e057/live/87e1b610-d44e-11f1-8780-edcbf4859104.jpg",
+   "img_src": "BBC",
    "fresh": false,
    "n": 3,
-   "lat": 38.87,
-   "lon": -98.17,
-   "place": "США",
-   "place_en": "United States",
-   "id": 6,
-   "t_en": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
-   "x_en": "By dismissing the suit with prejudice, Trump can't file another amended version in district court. Trump's legal team said the president plans to appeal."
+   "lat": 23.41,
+   "lon": 80.1,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 7,
+   "t_en": "India's opposition set to hold mega rally seeking election chief's resignation",
+   "x_en": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls."
+  },
+  {
+   "t": "Напряженность и столкновения: сотни тысяч людей снова протестуют во Франции",
+   "x": "Власти сообщают, что третьи выходные подряд 320 000 человек маршируют на демонстрации по поводу стоимости жизни и состояния школ.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 70,
+   "ten": 80,
+   "ago": 125,
+   "s": [
+    "Al Jazeera",
+    "NYT",
+    "Japan Times"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
+   "img": "https://static01.nyt.com/images/2026/10/31/multimedia/31int-france-protests-leadall-vpqj/31int-france-protests-leadall-vpqj-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 3,
+   "lat": 47.49,
+   "lon": 2.95,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 8,
+   "t_en": "Tension and clashes as hundreds of thousands protest again in France",
+   "x_en": "Authorities say 320,000 march on third consecutive weekend of demonstrations over cost of living and state of schools."
   },
   {
    "t": "Криптовалютный гигант Binance пытается вернуть 6,3 миллиарда долларов, украденных в результате взлома, связанного с Северной Кореей",
@@ -329,155 +380,108 @@
    "lon": 126.86,
    "place": "КНДР",
    "place_en": "North Korea",
-   "id": 7,
+   "id": 9,
    "t_en": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
    "x_en": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind."
   },
   {
-   "t": "Полиция Лондона арестовала 139 человек в знак протеста против запрета действий в Палестине",
-   "x": "Демонстрации в Лондоне и Эдинбурге прошли за несколько дней до апелляции Верховного суда Великобритании, оспаривающей запрет группы.",
+   "t": "Премьер-министр Великобритании Бёрнем говорит, что готов извиниться за рабство, но исключает финансовые репарации",
+   "x": "Премьер-министр Великобритании Энди Бернэм заявил в субботу, что он «открыт» для того, чтобы Великобритания впервые извинилась за свою роль в трансатлантической работорговле, но отклонила призывы о финансовых репарациях. Проблемы, связанные с колониальной историей Великобритании, вырисовывались очень остро.",
    "r": "Европа",
    "c": "Политика",
    "imp": 69,
-   "ten": 62,
-   "ago": 108,
+   "ten": 40,
+   "ago": 202,
    "s": [
-    "Al Jazeera",
+    "France 24",
+    "NYT",
+    "Dawn",
+    "The Hindu",
+    "Politico EU",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/europe/20261031-burnham-says-uk-open-to-slavery-apology-but-rules-out-financial-reparations",
+   "img": "https://s.france24.com/media/display/0a003486-d527-11f1-b75d-bf1914cabd52/w:1024/p:16x9/74706f6624812bdb75973570d6ce3acdf7330c24.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 6,
+   "lat": 54.25,
+   "lon": -1.61,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 10,
+   "t_en": "UK PM Burnham says 'open' to slavery apology but rules out financial reparations",
+   "x_en": "British Prime Minister Andy Burnham said Saturday he was \"open\" to the UK apologising for the first time for its role in the transatlantic slave trade but rejected calls for financial reparations. Issues around Britain's colonial history have loomed large over"
+  },
+  {
+   "t": "Пропалестинские протестующие арестованы возле посольства США в Лондоне",
+   "x": "В акции протеста приняли участие более 100 человек, многие из которых держали плакаты с надписью: «Я против геноцида, я поддерживаю Палестинское действие».",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 69,
+   "ten": 72,
+   "ago": 282,
+   "s": [
+    "CBS News",
+    "ABC News",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/4cji6f/article71650822.ece/alternates/LANDSCAPE_1200/2026-10-31T182639Z_335685639_RC2EEOA22GMJ_RTRMADP_3_ISRAEL-PALESTINIANS-BRITAIN-PALESTINE-ACTION.JPG",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 51.48,
-   "lon": 0.18,
-   "place": "Лондон",
-   "place_en": "London",
-   "id": 8,
-   "t_en": "London police arrest 139 as hundreds protest Palestine Action ban",
-   "x_en": "Demonstrations in London and Edinburgh come days before a UK Supreme Court appeal challenging the group's proscription."
-  },
-  {
-   "t": "Эвакуированные из оккупированного Россией Олешки воссоединились с семьями",
-   "x": "Украинские жители, эвакуированные из оккупированного Россией города Олешки, прибыли на подконтрольную Украине территорию.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 32,
-   "ago": 192,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Guardian",
-    "ABC News"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/bff7a79c-d53b-11f1-8be7-a575454bc579/w:1024/p:16x9/AP26304492932574.jpg",
-   "img_src": "France 24",
+   "u": "https://www.cbsnews.com/news/dozens-arrested-us-embassy-london-pro-palestinian-group/",
+   "img": "https://s.abcnews.com/images/International/wirestory_181ab108a671bcabf5433863608949bc_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": false,
    "n": 4,
-   "lat": 60.56,
-   "lon": 95.77,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 9,
-   "t_en": "Evacuees of Russian-occupied Oleshky reunited with families",
-   "x_en": "Ukrainian residents evacuated from Russian-occupied city of Oleshky have arrived in Ukrainian-controlled territory."
+   "lat": 32.15,
+   "lon": 35.62,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 11,
+   "t_en": "Pro-Palestinian protesters arrested outside U.S. Embassy in London",
+   "x_en": "More than 100 people took part in the protest, with many holding signs reading: \"I oppose genocide, I support Palestine Action.\""
   },
   {
-   "t": "Binance заявляет, что 90% из $6,3 миллиардов убытков от взлома теперь покрыты, и планирует возобновить вывод средств в воскресенье",
-   "x": "Binance заявляет, что восстановила поддержку 90% активов, пострадавших от взлома на сумму 6,3 миллиарда долларов, и планирует возобновить вывод средств при условии проверки безопасности.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 36,
-   "ago": 2,
-   "s": [
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/106907103-1625597281111-gettyimages-1233700528-porzycki-binancep210628_npNRz.jpeg?v=1680785353&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 10,
-   "t_en": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
-   "x_en": "Binance says it has restored backing for 90% of assets affected by its $6.3 billion hack and is planning to resume withdrawals, subject to security checks."
-  },
-  {
-   "t": "Напряженность и столкновения: сотни тысяч людей снова протестуют во Франции",
-   "x": "Власти сообщают, что третьи выходные подряд 320 000 человек маршируют на демонстрации по поводу стоимости жизни и состояния школ.",
-   "r": "Европа",
+   "t": "Суд отклонил иск Трампа к Wall Street Journal",
+   "x": "Американский судья отклонил иск президента Дональда Трампа против The Wall Street Journal из-за истории о поздравительной открытке, которую он якобы отправил Джеффри Эпштейну.",
+   "r": "Америка",
    "c": "Политика",
    "imp": 68,
-   "ten": 74,
-   "ago": 39,
-   "s": [
-    "Al Jazeera",
-    "NYT"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/10/31/tension-and-clashes-as-hundreds-of-thousands-protest-again-in-france?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/10/31/multimedia/31int-france-protests-leadall-vpqj/31int-france-protests-leadall-vpqj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 47.49,
-   "lon": 2.95,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 11,
-   "t_en": "Tension and clashes as hundreds of thousands protest again in France",
-   "x_en": "Authorities say 320,000 march on third consecutive weekend of demonstrations over cost of living and state of schools."
-  },
-  {
-   "t": "Северокорейские хакеры украли миллиарды, сообщает ФБР. Говорит. Это не первое их ограбление.",
-   "x": "Взлом Binance на этой неделе на сумму 6,3 миллиарда долларов является крупнейшим взломом криптовалюты и будет наибольшим кражей, украденным северокорейцами за годы наглой киберпреступности.",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 66,
    "ten": 40,
-   "ago": 20,
+   "ago": 87,
    "s": [
-    "NYT",
-    "Japan Times"
+    "Sky News",
+    "CNBC",
+    "AP"
    ],
-   "u": "https://www.nytimes.com/2026/10/31/world/asia/north-korea-hacking.html",
-   "img": "https://static01.nyt.com/images/2026/10/31/multimedia/31int-nkorea-hacking-wtk-lpjv/31int-nkorea-hacking-wtk-lpjv-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.79,
-   "lon": 127.57,
-   "place": "КНДР",
-   "place_en": "North Korea",
+   "u": "https://news.sky.com/story/judge-dismisses-trumps-wall-street-journal-lawsuit-13606496",
+   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-donald-trump-darline-graham_7391141.jpg?20261029173106",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 3,
+   "lat": 40.36,
+   "lon": -74.13,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
    "id": 12,
-   "t_en": "North Korean Hackers Stole Billions, the F.B.I. Says. It’s Not Their First Heist.",
-   "x_en": "This week’s $6.3 billion hack of Binance is the largest to hit crypto, and would be the most that North Koreans have stolen in years of brazen cybercrime."
+   "t_en": "Judge dismisses Trump's Wall Street Journal lawsuit",
+   "x_en": "A US judge has dismissed President Donald Trump's lawsuit against The Wall Street Journal over a story about a birthday card he allegedly sent Jeffrey Epstein."
   },
   {
    "t": "Украинские эвакуированные воссоединяются с семьей после многих лет пребывания в оккупированном Россией городе",
    "x": "Жители Олешек остались без еды, воды и электричества, и многие, чтобы выжить, прибегали к приготовлению огородных сорняков.",
    "r": "Европа",
    "c": "Общее",
-   "imp": 66,
-   "ten": 40,
-   "ago": 108,
+   "imp": 67,
+   "ten": 48,
+   "ago": 18,
    "s": [
     "BBC",
-    "ABC News",
-    "AP"
+    "CBS News"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/41b8/live/9f93a310-d532-11f1-b441-2b33b063138f.jpg",
    "img_src": "BBC",
-   "fresh": false,
+   "fresh": true,
    "n": 3,
    "lat": 48.97,
    "lon": 32.62,
@@ -488,83 +492,30 @@
    "x_en": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive."
   },
   {
-   "t": "Администрация Трампа одобрила потенциальную продажу ракет «Патриот» Украине",
-   "x": "Одобрение, которое передается на рассмотрение Конгресса, было получено после нескольких недель жалоб украинских властей на сокращение поставок ракет-перехватчиков.",
-   "r": "Америка",
-   "c": "Политика",
+   "t": "Взлом Binance на $6,3 млрд, скорее всего, дело рук Северной Кореи, считают эксперты",
+   "x": "По данным аналитической компании, занимающейся блокчейном, кибератака на Binance, крупнейшую в мире криптовалютную биржу, скорее всего, была осуществлена ​​Северной Кореей.",
+   "r": "Азия",
+   "c": "Общее",
    "imp": 66,
-   "ten": 80,
-   "ago": 401,
+   "ten": 46,
+   "ago": 120,
    "s": [
-    "France 24",
     "CBS News",
-    "Kyiv Independent",
-    "Dawn",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.france24.com/en/americas/20261030-trump-admin-approves-potential-patriot-missiles-sale-to-ukraine",
-   "img": "https://s.france24.com/media/display/65567eea-d4b8-11f1-a187-d18c5759e759/w:1024/p:16x9/e011506f8f3d7adbc988d5d2f829917246a3a24c.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 6,
-   "lat": 39.03,
-   "lon": -98.55,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "Trump admin approves potential Patriot missiles sale to Ukraine",
-   "x_en": "The approval, which goes to Congress for review, comes after weeks of complaints by Ukrainian authorities that its supplies of the interceptor missiles were dwindling"
-  },
-  {
-   "t": "Около 320 000 демонстрантов принимают участие в преимущественно мирных протестах по всей Франции.",
-   "x": "По оценкам министерства внутренних дел, около 320 000 протестующих приняли участие в третьем массовом протесте против стоимости жизни по всей Франции в субботу, а организаторы насчитали почти полмиллиона. Напряженность вспыхнула после окончания маршей в некоторых городах, но власти заявили, что",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 71,
-   "ago": 55,
-   "s": [
-    "France 24",
-    "The Guardian"
-   ],
-   "u": "https://www.france24.com/en/france/20261031-some-320-000-demonstrators-take-part-in-largely-peaceful-protests-across-france",
-   "img": "https://s.france24.com/media/display/6cab939e-d53d-11f1-afa5-d18c5759e759/w:1024/p:16x9/dd3945a172f536507377aa257ecac6087cc17aa8.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 3,
-   "lat": 47.85,
-   "lon": 2.43,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 15,
-   "t_en": "Some 320,000 demonstrators take part in largely peaceful protests across France",
-   "x_en": "Around 320,000 protesters took part in a third mass protest over living costs across France on Saturday, the interior ministry estimated, while organizers counted nearly half a million. Tensions flared ​at the end of marches in ​some cities but authorities rep"
-  },
-  {
-   "t": "Иранский лидер угрожает немедленным ответом на потенциальное нападение и другие новости Ближнего Востока",
-   "x": "Верховный лидер Ирана пригрозил немедленным ответом на любое потенциальное нападение со стороны США или Израиля",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 76,
-   "ago": 64,
-   "s": [
-    "ABC News",
+    "Reuters",
     "AP"
    ],
-   "u": "https://abcnews.com/International/wireStory/iranian-leader-threatens-immediate-response-potential-attack-mideast-137731097",
-   "img": "https://s.abcnews.com/images/International/wirestory_15c0556b92c8c23beb9b8854b4c124f4_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.cbsnews.com/news/binance-hack-north-korea/",
+   "img": "https://assets3.cbsnewsstatic.com/hub/i/r/2025/10/23/da771d5f-c037-4b4a-b168-c7fafdec9da3/thumbnail/1200x630/2f49750673e563e6283f5c83343305bf/ap23325643193246.jpg",
+   "img_src": "CBS News (og)",
    "fresh": false,
-   "n": 2,
-   "lat": 32.5,
-   "lon": 54.32,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 16,
-   "t_en": "Iranian leader threatens immediate response to potential attack, and other Mideast news",
-   "x_en": "Iran's supreme leader has threatened an immediate response to any potential attack from the U.S. or Israel"
+   "n": 3,
+   "lat": 41.24,
+   "lon": 128.0,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 14,
+   "t_en": "$6.3 billion Binance hack likely work of North Korea, experts say",
+   "x_en": "A cyberattack on Binance, the world's largest crypto exchange, was likely carried out by North Korea, according to a blockchain intelligence firm."
   },
   {
    "t": "Округ Колумбия и Вирджиния подали в суд, чтобы заблокировать планы Трампа по строительству триумфальной арки",
@@ -573,7 +524,7 @@
    "c": "Политика",
    "imp": 65,
    "ten": 40,
-   "ago": 119,
+   "ago": 124,
    "s": [
     "Al Jazeera",
     "The Guardian",
@@ -588,60 +539,87 @@
    "lon": -100.03,
    "place": "США",
    "place_en": "United States",
-   "id": 17,
+   "id": 15,
    "t_en": "District of Columbia and Virginia sue to block Trump’s triumphal arch plans",
    "x_en": "The monument has sparked fierce opposition from local governments fearing disruption to traffic and historic views."
   },
   {
-   "t": "Оппозиционные партии Индии проводят инсценировку импичмента руководителю избирательного участка",
-   "x": "Политическая оппозиция Индии устроила в субботу символический импичмент комиссару по выборам в знак протеста против пересмотра списков избирателей, который, по их словам, может несправедливо принести пользу правящей партии. Общенациональный пересмотр списков избирателей вызвал политическую ситуацию",
-   "r": "Азия",
+   "t": "Трамп еще не решил, возобновлять ли удары по Ирану, говорит Рубио",
+   "x": "Президент США Дональд Трамп еще не решил, возобновлять ли военные действия против Ирана, заявил в субботу госсекретарь Марко Рубио. Рубио заявил на пресс-конференции, что не знает, есть ли конкретные сроки для переговоров под руководством Катара, направленных на восстановление",
+   "r": "Ближний Восток",
    "c": "Политика",
    "imp": 64,
-   "ten": 44,
-   "ago": 38,
+   "ten": 72,
+   "ago": 66,
    "s": [
-    "CNA",
-    "Dawn"
+    "Middle East Eye",
+    "The Hindu"
    ],
-   "u": "https://www.channelnewsasia.com/asia/india-opposition-parties-hold-mock-impeachment-poll-chief-6510301",
-   "img": "https://dam.mediacorp.sg/image/upload/s--8VUpgYGk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/01/2026-10-31t164209z_1543604622_rc2ceoawuwgj_rtrmadp_3_india-politics.jpg?itok=QAX-oTBP",
-   "img_src": "CNA",
-   "fresh": true,
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-has-not-decided-whether-resume-strikes-iran-rubio-says",
+   "img": "https://th-i.thgim.com/public/incoming/338vf1/article71651950.ece/alternates/LANDSCAPE_1200/G2__Foreign_Ministers_6238_.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
    "n": 2,
-   "lat": 23.46,
-   "lon": 79.63,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 18,
-   "t_en": "India opposition parties hold mock impeachment of poll chief",
-   "x_en": "India’s political opposition staged a symbolic impeachment of the election commissioner on Saturday to protest against a revision of voter lists that they say could unfairly benefit the ruling party. The nationwide revision of electoral rolls has sparked polit"
+   "lat": 39.52,
+   "lon": -100.13,
+   "place": "США",
+   "place_en": "United States",
+   "id": 16,
+   "t_en": "Trump has not decided whether to resume strikes on Iran, Rubio says",
+   "x_en": "US President Donald Trump has not yet decided whether to resume military action against Iran , Secretary of State Marco Rubio said on Saturday. Rubio told a news conference he did not know whether there was a specific timeframe for Qatar -led talks aimed at re"
   },
   {
-   "t": "Протестующие собрались у Верховного суда Польши",
-   "x": "Полиция в Польше усилила охрану вокруг Конституционного трибунала страны после того, как в пятницу десятки протестующих собрались, чтобы выступить против отстранения от должности президента, которое, по их словам, было незаконным. Полиция сообщает, что несколько человек были задержаны",
-   "r": "Европа",
-   "c": "Политика",
+   "t": "Мамдани говорит, что Трамп согласился выдать визу матери ганского подростка, убитого в результате стрельбы в Бронксе",
+   "x": "Подросток, Джавитс Фримпонг, направлялся в школу в районе Бронкса незадолго до 9:30 утра 29 октября, когда ему выстрелили в живот, сообщила полиция Нью-Йорка.",
+   "r": "Америка",
+   "c": "Конфликты",
    "imp": 63,
-   "ten": 54,
-   "ago": 160,
+   "ten": 74,
+   "ago": 83,
    "s": [
-    "France 24",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.france24.com/en/protesters-gather-at-poland-s-top-court",
-   "img": "https://s.france24.com/media/display/7fc37982-d50c-11f1-990b-1beafce15fea/w:1024/p:16x9/EN-20261031-100702-100845-CS.jpg",
-   "img_src": "France 24",
+   "u": "https://www.thehindu.com/news/international/mamdani-says-trump-has-agreed-to-grant-visa-to-mother-of-ghanian-teen-killed-in-bronx-shooting/article71651389.ece",
+   "img": "https://th-i.thgim.com/public/incoming/9z1gmi/article71651534.ece/alternates/LANDSCAPE_1200/Mamdani_Immigrant_Death_94467.jpg",
+   "img_src": "The Hindu",
    "fresh": false,
-   "n": 3,
-   "lat": 52.64,
-   "lon": 18.76,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 19,
-   "t_en": "Protesters gather at Poland's Top court",
-   "x_en": "Police in Poland have stepped up security around the country’s Constitutional Tribunal after dozens of protesters gathered on Friday to oppose the government’s suspension of its president, which they say was unlawful. Police say several people were detained af"
+   "n": 2,
+   "lat": 38.51,
+   "lon": -97.44,
+   "place": "США",
+   "place_en": "United States",
+   "id": 17,
+   "t_en": "Mamdani says Trump has agreed to grant visa to mother of Ghanian teen killed in Bronx shooting",
+   "x_en": "The teenager, Javits Frimpong, was on his way to school in a Bronx neighbourhood shortly before 9.30 a.m. October 29 when he was shot in the abdomen, New York City police said"
+  },
+  {
+   "t": "США одобрили продажу Украине 500 ракет «Патриот»",
+   "x": "Президент Украины Владимир Зеленский призвал своих союзников ускорить поставки критически важных боеприпасов.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 83,
+   "ago": 575,
+   "s": [
+    "CBS News",
+    "Kyiv Independent",
+    "Dawn",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.cbsnews.com/news/ukraine-patriot-missiles-us-lockheed-martin-sale-zelenskyy/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-1251802290_20261030-212007_20261030-212201.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": false,
+   "n": 5,
+   "lat": 38.74,
+   "lon": -99.66,
+   "place": "США",
+   "place_en": "United States",
+   "id": 18,
+   "t_en": "U.S. approves sale of 500 Patriot missiles to Ukraine",
+   "x_en": "Ukrainian President Volodymyr Zelenskyy urged his allies to speed up deliveries of the critical munition."
   },
   {
    "t": "Японская IHI соперничает с корейским конкурентом в захвате зарубежного ядерного спроса",
@@ -663,7 +641,7 @@
    "lon": 137.32,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 20,
+   "id": 19,
    "t_en": "Japan's IHI vies with Korean rival to capture overseas nuclear demand",
    "x_en": ""
   },
@@ -687,7 +665,7 @@
    "lon": 138.47,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 21,
+   "id": 20,
    "t_en": "Japan prepares for commercial drone flocks after operating limit lifted",
    "x_en": ""
   },
@@ -711,7 +689,7 @@
    "lon": 106.85,
    "place": "Вьетнам",
    "place_en": "Vietnam",
-   "id": 22,
+   "id": 21,
    "t_en": "Vietnam drone intrusions prompt airport safety response nationwide",
    "x_en": ""
   },
@@ -735,60 +713,109 @@
    "lon": 137.71,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 23,
+   "id": 22,
    "t_en": "Japan has 'no time to lose' to avert a healthcare crisis, minister says",
    "x_en": ""
   },
   {
-   "t": "После ограбления Лувра и серии краж небольшие музеи Европы находятся настороже",
-   "x": "Растут опасения, что преступники все чаще нападают на более мелкие учреждения с меньшим количеством ресурсов для защиты ценных коллекций.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 60,
-   "ten": 40,
-   "ago": 65,
-   "s": [
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.japantimes.co.jp/news/2026/10/31/world/crime-legal/europe-small-museums-theft-guard/",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/10/31/thumbs/400x400/571593.jpg",
-   "img_src": "Japan Times",
-   "fresh": false,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 24,
-   "t_en": "After Louvre heist and string of thefts, Europe’s smaller museums are on guard",
-   "x_en": "Concerns are growing that criminals are increasingly targeting smaller institutions with fewer resources to protect valuable collections."
-  },
-  {
-   "t": "Министры иностранных дел G20 завершили встречу в Атланте без консенсуса по ключевым вопросам",
-   "x": "Группа не опубликовала совместного коммюнике, а скорее будет полагаться на заявление председателя, которое, по словам госсекретаря США Рубио, он опубликует в субботу.",
+   "t": "Столкновения полиции с протестующими в Париже, демонстрации охватили Европу",
+   "x": "В субботу в Париже произошла еще одна волна насилия, когда антиправительственные протестующие столкнулись с полицией. Демонстрации прошли также по всей Европе.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 59,
-   "ten": 46,
-   "ago": 195,
+   "imp": 60,
+   "ten": 78,
+   "ago": 20,
    "s": [
-    "CNBC",
-    "The Hindu",
-    "AP"
+    "CBS News"
    ],
-   "u": "https://www.cnbc.com/2026/10/31/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-issues.html",
-   "img": "https://th-i.thgim.com/public/incoming/um0znu/article71648470.ece/alternates/LANDSCAPE_1200/PTI10_31_2026_000019B.jpg",
-   "img_src": "The Hindu",
+   "u": "https://www.cbsnews.com/video/police-clash-with-paris-protesters-as-demonstrations-grip-europe/",
+   "img": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/11/01/0c5da1a5-c4e1-402d-9f75-53096938f9c0/thumbnail/1200x630/7ee27ac89d330872a387b625dbf0529d/cbsn-fusion-police-clash-with-paris-protesters-as-demonstrations-grip-europe-thumbnail.jpg",
+   "img_src": "CBS News (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 48.79,
+   "lon": 2.59,
+   "place": "Париж",
+   "place_en": "Paris",
+   "id": 23,
+   "t_en": "Police clash with Paris protesters as demonstrations grip Europe",
+   "x_en": "There was another wave of violence in Paris Saturday as anti-government protesters clashed with police. Demonstrations were also held across Europe."
+  },
+  {
+   "t": "Война в Иране в прямом эфире: Аракчи говорит, что ведутся переговоры по двухдневному плану открытия Ормуза",
+   "x": "Главный дипломат заявил, что Иран и Катар достигли плана по открытию Ормуза через два дня, если США выполнят условия Тегерана.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 53,
+   "ago": 83,
+   "s": [
+    "Al Jazeera",
+    "Middle East Eye"
+   ],
+   "u": "https://www.aljazeera.com/news/liveblog/2026/11/1/iran-war-live-araghchi-says-talks-under-way-on-2-day-plan-to-reopen-hormuz?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ae4b114-1793372436.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
    "fresh": false,
-   "n": 3,
-   "lat": 61.26,
-   "lon": 96.74,
+   "n": 2,
+   "lat": 26.71,
+   "lon": 56.54,
+   "place": "Ормузский пролив",
+   "place_en": "Strait of Hormuz",
+   "id": 24,
+   "t_en": "Iran war live: Araghchi says talks under way on 2-day plan to reopen Hormuz",
+   "x_en": "Top diplomat says Iran and Qatar have reached a plan to reopen Hormuz in two days if the US meets Tehran's conditions."
+  },
+  {
+   "t": "Эвакуированные из оккупированного Россией Олешки воссоединились с семьями",
+   "x": "Украинские жители, эвакуированные из оккупированного Россией города Олешки, прибыли на подконтрольную Украине территорию.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 32,
+   "ago": 366,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "ABC News"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_evacuees-from-oleshky-reunite-w-families-in-ukraine-311026?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/bff7a79c-d53b-11f1-8be7-a575454bc579/w:1024/p:16x9/AP26304492932574.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 60.56,
+   "lon": 95.77,
    "place": "Россия",
    "place_en": "Russia",
    "id": 25,
-   "t_en": "G20 foreign ministers end Atlanta meeting without consensus on key issues",
-   "x_en": "The group did not release a joint communique but will rather rely on a chairman's statement, which U.S Secretary of State Rubio said he would release Saturday."
+   "t_en": "Evacuees of Russian-occupied Oleshky reunited with families",
+   "x_en": "Ukrainian residents evacuated from Russian-occupied city of Oleshky have arrived in Ukrainian-controlled territory."
+  },
+  {
+   "t": "Центком сообщает, что 144 судна были перенаправлены из-за «железной» иранской блокады",
+   "x": "Центральное командование США заявило, что по состоянию на 31 октября его силы перенаправили 144 коммерческих судна в рамках «железной» военно-морской блокады против Ирана. В сообщении на X Centcom сообщил, что суда были перенаправлены «для обеспечения соблюдения требований», и",
+   "r": "Ближний Восток",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 74,
+   "ago": 25,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/centcom-says-144-vessels-redirected-under-ironclad-iran-blockade",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/iran-israel-us-nuclear.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 32.57,
+   "lon": 54.51,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 26,
+   "t_en": "Centcom says 144 vessels redirected under 'ironclad' Iran blockade",
+   "x_en": "The United States Central Command has said that as of 31 October, its forces have redirected 144 commercial vessels as part of its \"ironclad\" naval blockade against Iran. In a post on X, Centcom said the vessels had been redirected “to ensure compliance” and t"
   },
   {
    "t": "Трамп откладывает тарифы на избыточные мощности в преддверии промежуточных выборов в США",
@@ -810,7 +837,7 @@
    "lon": -99.27,
    "place": "США",
    "place_en": "United States",
-   "id": 26,
+   "id": 27,
    "t_en": "Trump holds off overcapacity tariffs as US midterms near",
    "x_en": ""
   },
@@ -834,107 +861,33 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 27,
+   "id": 28,
    "t_en": "BOJ chief Ueda says 2% inflation goal not yet sustainably achieved",
    "x_en": ""
   },
   {
-   "t": "Польша задействует ОМОН в противостоянии вокруг Верховного суда страны",
-   "x": "После многих лет судебных споров судьи, поддержанные нынешним правительством, отстранили от должности главного судью, поскольку обострилась вражда с правой партией, которая в последний раз находилась у власти.",
-   "r": "Европа",
-   "c": "Политика",
+   "t": "Канело Альварес подтверждает любовь к боксу после возвращения титула в суперсреднем весе",
+   "x": "Бой продолжился в Эр-Рияде после недели, в течение которой возглавляемая Саудовской Аравией коалиция заявила, что перехватила ориентированные на Иран ракеты и беспилотники хуситов, нацеленные на столицу.",
+   "r": "Ближний Восток",
+   "c": "Общее",
    "imp": 58,
-   "ten": 62,
-   "ago": 263,
+   "ten": 82,
+   "ago": 35,
    "s": [
-    "NYT",
-    "ABC News",
-    "The Hindu"
+    "Japan Times"
    ],
-   "u": "https://www.nytimes.com/2026/10/31/world/europe/poland-court-police-president.html",
-   "img": "https://static01.nyt.com/images/2026/10/31/multimedia/31int-poland-court-hgvz/31int-poland-court-hgvz-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": 51.13,
-   "lon": 19.78,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 28,
-   "t_en": "Poland Deploys Riot Police in Standoff Over Country’s Top Court",
-   "x_en": "After years of legal wrangling, judges backed by the current government suspended the chief justice, as a feud escalated with the right-wing party that last held power."
-  },
-  {
-   "t": "Toyota, Honda и Nissan сокращают производство в Китае из-за сокращения рынка бензиновых автомобилей",
-   "x": "",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/toyota-honda-nissan-slash-china-output-as-gasoline-car-market-shrinks",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F4%2F6%2F9%2F13379640-2-eng-GB%2Fce7e638ec297-photo_SXM2026102800014038.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.japantimes.co.jp/sports/2026/11/01/more-sports/canelo-alvarez-regains-title/",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/01/thumbs/400x400/571610.jpg",
+   "img_src": "Japan Times",
    "fresh": true,
    "n": 1,
-   "lat": 35.84,
-   "lon": 103.65,
-   "place": "Китай",
-   "place_en": "China",
+   "lat": 15.54,
+   "lon": 44.0,
+   "place": "Сана",
+   "place_en": "Sanaa",
    "id": 29,
-   "t_en": "Toyota, Honda, Nissan slash China output as gasoline car market shrinks",
-   "x_en": ""
-  },
-  {
-   "t": "Takeda делает ставку на трио лекарств-блокбастеров, которые принесут пиковые продажи в 11 миллиардов долларов",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/pharmaceuticals/takeda-bets-on-blockbuster-drug-trio-to-generate-11bn-in-peak-sales",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F5%2F8%2F9%2F13379851-2-eng-GB%2F92681ea44517-photo_SXM2026102200005646.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 30,
-   "t_en": "Takeda bets on blockbuster drug trio to generate $11bn in peak sales",
-   "x_en": ""
-  },
-  {
-   "t": "Японский Upbond предложит возврат налогов за покупки в стейблкоине JPYC",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/cryptocurrencies/japan-s-upbond-to-offer-tax-free-shopping-refunds-in-jpyc-stablecoin",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F2%2F0%2F0%2F13380023-2-eng-GB%2F20eadf4fca5e-photo_SXM2026102800008826.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.9,
-   "lon": 138.01,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 31,
-   "t_en": "Japan's Upbond to offer tax-free shopping refunds in JPYC stablecoin",
-   "x_en": ""
+   "t_en": "Canelo Alvarez reaffirms love for boxing after reclaiming super-middleweight title",
+   "x_en": "The bout went ahead in Riyadh after a week in which the Saudi-led coalition said it intercepted Iran-aligned Houthi missiles and drones aimed at the capital."
   },
   {
    "t": "Японская KDDI построит еще один дата-центр в Лондоне",
@@ -956,7 +909,7 @@
    "lon": -0.49,
    "place": "Лондон",
    "place_en": "London",
-   "id": 32,
+   "id": 30,
    "t_en": "Japan's KDDI to build another data center in London",
    "x_en": ""
   },
@@ -980,7 +933,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 33,
+   "id": 31,
    "t_en": "Asia's LNG shock must not spark coal's revival",
    "x_en": ""
   },
@@ -1004,7 +957,7 @@
    "lon": 133.26,
    "place": "Австралия",
    "place_en": "Australia",
-   "id": 34,
+   "id": 32,
    "t_en": "Australia's One Nation basks in attention of 'left behind' voters",
    "x_en": ""
   },
@@ -1020,15 +973,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/business/business-deals/operator-of-south-korea-s-toss-app-to-buy-online-japanese-brokerage-cheer",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F6%2F5%2F0%2F13380566-2-eng-GB%2F0e9efc1476ad-photo_SXM2026020300007661.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 36.12,
    "lon": 127.8,
    "place": "Южная Корея",
    "place_en": "South Korea",
-   "id": 35,
+   "id": 33,
    "t_en": "Operator of South Korea's Toss app to buy online Japanese brokerage Cheer",
    "x_en": ""
   },
@@ -1052,7 +1005,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 36,
+   "id": 34,
    "t_en": "Family: Stephen Schwarzman (29)",
    "x_en": ""
   },
@@ -1076,7 +1029,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 37,
+   "id": 35,
    "t_en": "Intel shares sink more than 20% as PC slowdown stretches into 2027",
    "x_en": ""
   },
@@ -1100,7 +1053,7 @@
    "lon": 102.11,
    "place": "Малайзия",
    "place_en": "Malaysia",
-   "id": 38,
+   "id": 36,
    "t_en": "Malaysia's IHH Healthcare to double hospital beds near Singapore",
    "x_en": ""
   },
@@ -1124,7 +1077,7 @@
    "lon": 138.91,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 39,
+   "id": 37,
    "t_en": "Takaichi's G7 no-show risks undermining Japan's interests",
    "x_en": ""
   },
@@ -1148,8 +1101,56 @@
    "lon": 138.95,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 40,
+   "id": 38,
    "t_en": "Japan's Marubeni looks to profit from bottlenecks arising from AI boom",
+   "x_en": ""
+  },
+  {
+   "t": "Внутри крупнейшей в мире зарубежной военной базы США",
+   "x": "",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/defense/inside-the-world-s-largest-overseas-us-military-base",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.31,
+   "lon": -99.29,
+   "place": "США",
+   "place_en": "United States",
+   "id": 39,
+   "t_en": "Inside the world's largest overseas US military base",
+   "x_en": ""
+  },
+  {
+   "t": "PAG купит 51% китайского сервисного подразделения Evergrande за $510 млн",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/china-debt-crunch/pag-to-buy-51-of-china-evergrande-services-arm-for-510m",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 34.18,
+   "lon": 102.45,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 40,
+   "t_en": "PAG to buy 51% of China Evergrande services arm for $510m",
    "x_en": ""
   }
  ],
@@ -1177,133 +1178,137 @@
   {
    "t": 1793485767274,
    "v": 49
+  },
+  {
+   "t": 1793496209326,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1793399367274,
-   "v": 49,
-   "n": 29
-  },
-  {
-   "t": 1793402967274,
-   "v": 50,
-   "n": 26
-  },
-  {
-   "t": 1793406567274,
+   "t": 1793409809326,
    "v": 47,
-   "n": 30
+   "n": 36
   },
   {
-   "t": 1793410167274,
-   "v": 48,
-   "n": 35
-  },
-  {
-   "t": 1793413767274,
+   "t": 1793413409326,
    "v": 46,
    "n": 32
   },
   {
-   "t": 1793417367274,
+   "t": 1793417009326,
+   "v": 47,
+   "n": 29
+  },
+  {
+   "t": 1793420609326,
    "v": 48,
-   "n": 30
+   "n": 22
   },
   {
-   "t": 1793420967274,
-   "v": 50,
-   "n": 23
-  },
-  {
-   "t": 1793424567274,
-   "v": 49,
+   "t": 1793424209326,
+   "v": 47,
    "n": 28
   },
   {
-   "t": 1793428167274,
+   "t": 1793427809326,
    "v": 48,
    "n": 41
   },
   {
-   "t": 1793431767274,
+   "t": 1793431409326,
    "v": 49,
    "n": 42
   },
   {
-   "t": 1793435367274,
+   "t": 1793435009326,
    "v": 51,
-   "n": 47
+   "n": 45
   },
   {
-   "t": 1793438967274,
+   "t": 1793438609326,
    "v": 52,
    "n": 34
   },
   {
-   "t": 1793442567274,
-   "v": 54,
+   "t": 1793442209326,
+   "v": 53,
    "n": 33
   },
   {
-   "t": 1793446167274,
+   "t": 1793445809326,
    "v": 51,
-   "n": 39
+   "n": 34
   },
   {
-   "t": 1793449767274,
+   "t": 1793449409326,
    "v": 47,
-   "n": 47
+   "n": 41
   },
   {
-   "t": 1793453367274,
+   "t": 1793453009326,
    "v": 46,
-   "n": 56
+   "n": 48
   },
   {
-   "t": 1793456967274,
+   "t": 1793456609326,
    "v": 48,
+   "n": 46
+  },
+  {
+   "t": 1793460209326,
+   "v": 52,
    "n": 49
   },
   {
-   "t": 1793460567274,
-   "v": 49,
-   "n": 69
+   "t": 1793463809326,
+   "v": 52,
+   "n": 51
   },
   {
-   "t": 1793464167274,
-   "v": 49,
+   "t": 1793467409326,
+   "v": 53,
+   "n": 72
+  },
+  {
+   "t": 1793471009326,
+   "v": 53,
    "n": 77
   },
   {
-   "t": 1793467767274,
-   "v": 49,
-   "n": 92
-  },
-  {
-   "t": 1793471367274,
-   "v": 50,
-   "n": 86
-  },
-  {
-   "t": 1793474967274,
-   "v": 50,
+   "t": 1793474609326,
+   "v": 51,
    "n": 88
   },
   {
-   "t": 1793478567274,
+   "t": 1793478209326,
    "v": 48,
-   "n": 86
+   "n": 88
   },
   {
-   "t": 1793482167274,
-   "v": 45,
-   "n": 110
+   "t": 1793481809326,
+   "v": 47,
+   "n": 89
   },
   {
-   "t": 1793485767274,
-   "v": 44,
-   "n": 83
+   "t": 1793485409326,
+   "v": 48,
+   "n": 84
+  },
+  {
+   "t": 1793489009326,
+   "v": 50,
+   "n": 73
+  },
+  {
+   "t": 1793492609326,
+   "v": 47,
+   "n": 102
+  },
+  {
+   "t": 1793496209326,
+   "v": 46,
+   "n": 79
   }
  ],
  "feeds": [
@@ -1317,7 +1322,7 @@
   },
   {
    "n": "DW",
-   "items": 7
+   "items": 6
   },
   {
    "n": "France 24",
@@ -1325,7 +1330,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 25
+   "items": 23
   },
   {
    "n": "Sky News",
@@ -1333,23 +1338,23 @@
   },
   {
    "n": "NPR",
-   "items": 7
+   "items": 5
   },
   {
    "n": "UN News",
-   "items": 9
+   "items": 0
   },
   {
    "n": "CNBC",
-   "items": 28
+   "items": 26
   },
   {
    "n": "Euronews",
-   "items": 24
+   "items": 19
   },
   {
    "n": "NYT",
-   "items": 35
+   "items": 34
   },
   {
    "n": "Washington Post",
@@ -1357,11 +1362,11 @@
   },
   {
    "n": "CBS News",
-   "items": 21
+   "items": 20
   },
   {
    "n": "ABC News",
-   "items": 21
+   "items": 13
   },
   {
    "n": "CNN",
@@ -1373,11 +1378,11 @@
   },
   {
    "n": "ABC Australia",
-   "items": 20
+   "items": 22
   },
   {
    "n": "CNA",
-   "items": 8
+   "items": 6
   },
   {
    "n": "Times of Israel",
@@ -1385,7 +1390,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1393,7 +1398,7 @@
   },
   {
    "n": "Africanews",
-   "items": 25
+   "items": 21
   },
   {
    "n": "Kyiv Independent",
@@ -1401,7 +1406,7 @@
   },
   {
    "n": "Yonhap",
-   "items": 33
+   "items": 36
   },
   {
    "n": "Nikkei Asia",
@@ -1409,7 +1414,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 12
+   "items": 8
   },
   {
    "n": "Dawn",
@@ -1429,7 +1434,7 @@
   },
   {
    "n": "Japan Times",
-   "items": 18
+   "items": 24
   },
   {
    "n": "Reuters",
@@ -1441,9 +1446,9 @@
   }
  ],
  "failed": [
+  "UN News",
   "Washington Post",
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

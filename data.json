@@ -1,8 +1,8 @@
 {
- "updated": 1793741737479,
+ "updated": 1793756291909,
  "demo": false,
- "total_articles": 656,
- "second_delta": 0,
+ "total_articles": 678,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
@@ -20,7 +20,7 @@
   },
   {
    "n": "France 24",
-   "v": 51
+   "v": 50
   },
   {
    "n": "The Guardian",
@@ -28,31 +28,35 @@
   },
   {
    "n": "Sky News",
-   "v": 66
+   "v": 65
   },
   {
    "n": "NPR",
-   "v": 51
+   "v": 58
+  },
+  {
+   "n": "UN News",
+   "v": 78
   },
   {
    "n": "CNBC",
-   "v": 49
+   "v": 45
   },
   {
    "n": "Euronews",
-   "v": 52
+   "v": 55
   },
   {
    "n": "NYT",
-   "v": 48
+   "v": 52
   },
   {
    "n": "CBS News",
-   "v": 48
+   "v": 49
   },
   {
    "n": "ABC News",
-   "v": 60
+   "v": 54
   },
   {
    "n": "CNN",
@@ -64,11 +68,15 @@
   },
   {
    "n": "ABC Australia",
-   "v": 41
+   "v": 42
   },
   {
    "n": "CNA",
    "v": 51
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 56
   },
   {
    "n": "Africanews",
@@ -80,15 +88,15 @@
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 39
   },
   {
    "n": "Nikkei Asia",
-   "v": 41
+   "v": 42
   },
   {
    "n": "The Diplomat",
-   "v": 39
+   "v": 40
   },
   {
    "n": "Dawn",
@@ -96,23 +104,23 @@
   },
   {
    "n": "Times of India",
-   "v": 44
+   "v": 46
   },
   {
    "n": "The Hindu",
-   "v": 55
+   "v": 54
   },
   {
    "n": "Politico EU",
-   "v": 42
+   "v": 43
   },
   {
    "n": "Japan Times",
-   "v": 49
+   "v": 50
   },
   {
    "n": "Reuters",
-   "v": 47
+   "v": 43
   },
   {
    "n": "AP",
@@ -122,64 +130,70 @@
  "regions": [
   {
    "n": "Европа",
-   "v": 60
+   "v": 62
   },
   {
    "n": "Ближний Восток",
-   "v": 54
+   "v": 56
   },
   {
    "n": "Азия",
-   "v": 45
+   "v": 46
   },
   {
    "n": "Африка",
-   "v": 50
+   "v": 46
   },
   {
    "n": "Америка",
-   "v": 45
+   "v": 46
   }
  ],
  "events": [
   {
-   "t": "Как оспаривание Трампом результатов промежуточных выборов может подорвать рынок",
-   "x": "Один сценарий, возможно, не получит достаточного внимания со стороны инвесторов: оспариваемые выборы.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 91,
-   "ten": 40,
-   "ago": 1,
+   "t": "Семь рейсов по Европе подверглись подозрению в угрозах взрыва",
+   "x": "Самолеты в Польше, Испании, Болгарии и Италии были проверены на наличие взрывчатых веществ после отдельных угроз.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 97,
+   "ten": 93,
+   "ago": 14,
    "s": [
-    "CNBC",
-    "Euronews",
-    "The Hindu",
+    "BBC",
+    "Al Jazeera",
+    "NYT",
+    "ABC News",
+    "Japan Times",
     "AP"
    ],
-   "u": "https://www.cnbc.com/2026/11/03/how-trump-contesting-midterm-election-results-could-disrupt-the-market.html",
-   "img": "https://images.euronews.com/articles/stories/09/97/76/41/696x392_cmsv2_38255dfb-04f5-535e-81b5-042c5a707b46-9977641.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/db91/live/79069d70-d79d-11f1-84dd-e55f4bec0ecd.png",
+   "img_src": "BBC",
    "fresh": true,
-   "n": 4,
-   "lat": 39.25,
-   "lon": -98.19,
-   "place": "США",
-   "place_en": "United States",
+   "n": 6,
+   "lat": 41.98,
+   "lon": 24.77,
+   "place": "Болгария",
+   "place_en": "Bulgaria",
    "id": 1,
-   "t_en": "How Trump contesting midterm election results might disrupt the market",
-   "x_en": "One scenario may not be getting enough attention from investors: a contested election."
+   "t_en": "Seven flights across Europe targeted by suspected bomb threats",
+   "x_en": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats."
   },
   {
    "t": "Министр транспорта Испании ушел в отставку через несколько дней после смертельного крушения поезда",
    "x": "По меньшей мере 69 человек погибли и десятки получили ранения в результате столкновения к югу от столицы Мадрида.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 91,
-   "ten": 53,
-   "ago": 12,
+   "imp": 88,
+   "ten": 56,
+   "ago": 35,
    "s": [
     "BBC",
+    "The Guardian",
     "Sky News",
+    "NYT",
+    "ABC News",
+    "The Hindu",
     "Politico EU",
     "Reuters"
    ],
@@ -187,7 +201,7 @@
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d61f/live/6dc1cd30-d7c6-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 4,
+   "n": 8,
    "lat": 39.56,
    "lon": -2.78,
    "place": "Испания",
@@ -197,72 +211,127 @@
    "x_en": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid."
   },
   {
-   "t": "Семь рейсов по Европе подверглись подозрению в угрозах взрыва",
-   "x": "Самолеты в Польше, Испании, Болгарии и Италии были проверены на наличие взрывчатых веществ после отдельных угроз.",
-   "r": "Европа",
+   "t": "Скептицизм в связи с заявлением Трампа о разрыве соглашения о военной помощи Израилю на сумму 3,8 миллиарда долларов",
+   "x": "Президент США Дональд Трамп заявил, что планирует прекратить предоставление ежегодного пакета военной помощи Израилю в размере 3,8 миллиарда долларов к концу года.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 85,
+   "ten": 26,
+   "ago": 24,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "Euronews",
+    "Dawn",
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/60b8ee8c7578d9966d060062362646a8be71b3ad/225_0_2339_1872/master/2339.jpg?width=700&quality=85&auto=format&fit=max&s=f699d602b83c8cd2a47812eb49f8f4d5",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 6,
+   "lat": 39.18,
+   "lon": -98.35,
+   "place": "США",
+   "place_en": "United States",
+   "id": 3,
+   "t_en": "Scepticism as Trump says he’s ending Israel’s $3.8 bn military aid deal",
+   "x_en": "US President Donald Trump says he plans to stop the annual $3.8bn military aid package to Israel by the end of the year."
+  },
+  {
+   "t": "Индийский турист погиб после столкновения двух вертолетов возле базового лагеря Эвереста",
+   "x": "Два самолета разбились всего в нескольких метрах от земли после попытки приземлиться в одном и том же месте.",
+   "r": "Азия",
    "c": "Конфликты",
-   "imp": 91,
-   "ten": 90,
-   "ago": 53,
+   "imp": 79,
+   "ten": 68,
+   "ago": 139,
    "s": [
     "BBC",
-    "The Guardian",
+    "NYT",
     "ABC News",
+    "CNA",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/029f/live/4eb51590-d772-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 7,
+   "lat": 22.65,
+   "lon": 79.79,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 4,
+   "t_en": "Indian tourist killed after two helicopters collide near Everest base camp",
+   "x_en": "The two aircraft crashed just metres from the ground after trying to land at the same spot."
+  },
+  {
+   "t": "Google реагирует на политическую реакцию по поводу удаления поиска из школ, где запрещен ИИ",
+   "x": "После того, как выборные должностные лица выразили возмущение по поводу того, что Google отключил поиск в школах, где запрещен ИИ, компания заявила, что поиск можно снова включить с помощью обзоров ИИ.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 75,
+   "ten": 40,
+   "ago": 31,
+   "s": [
+    "CNBC",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/04/thumbs/400x400/572170.jpg",
+   "img_src": "Japan Times",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.65,
+   "lon": -97.73,
+   "place": "США",
+   "place_en": "United States",
+   "id": 5,
+   "t_en": "Google responds to political backlash over removing search from schools that ban AI",
+   "x_en": "After elected officials voiced outrage over Google turning off search at schools that ban AI, the company said search can be turned back on with AI Overviews."
+  },
+  {
+   "t": "ФБР арестовало мужчину за отправку более 700 писем с угрозами чиновникам США",
+   "x": "Подозреваемый, житель Оклахома-Сити, обвиняется в рассылке фальшивых писем с белым порошком и предупреждениями о государственной измене.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 75,
+   "ten": 57,
+   "ago": 54,
+   "s": [
+    "Al Jazeera",
     "Reuters",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/db91/live/79069d70-d79d-11f1-84dd-e55f4bec0ecd.png",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 5,
-   "lat": 52.01,
-   "lon": 20.82,
-   "place": "Варшава",
-   "place_en": "Warsaw",
-   "id": 3,
-   "t_en": "Seven flights across Europe targeted by suspected bomb threats",
-   "x_en": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats."
-  },
-  {
-   "t": "Астронавты США голосуют из космоса на промежуточных выборах 2026 года",
-   "x": "Астронавт НАСА Анил Менон продемонстрировал в социальных сетях, как он проголосовал за округ Харрис в Техасе из космоса.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 80,
-   "ten": 43,
-   "ago": 1,
-   "s": [
-    "Al Jazeera",
-    "CNBC",
-    "Euronews"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/3/aje-onl-nf_us-astronauts-vote-from-space-in-2026-elections-031126?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/97/63/78/696x392_cmsv2_ccd6c0e1-de8a-5c4a-851b-f56d749b5862-9976378.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.aljazeera.com/news/2026/11/4/fbi-arrests-man-for-sending-700-white-powder-letters-to-us-officials?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
    "fresh": true,
    "n": 3,
-   "lat": 38.3,
-   "lon": -98.39,
+   "lat": 39.87,
+   "lon": -97.92,
    "place": "США",
    "place_en": "United States",
-   "id": 4,
-   "t_en": "US astronauts vote from space in 2026 midterm elections",
-   "x_en": "NASA astronaut Anil Menon demonstrated on social media how he cast his ballot for Harris County in Texas, from space."
+   "id": 6,
+   "t_en": "FBI arrests man for sending over 700 threatening letters to US officials",
+   "x_en": "The suspect, an Oklahoma City man, is accused of mailing hoax letters with white powder and treason warnings."
   },
   {
    "t": "США нанесли удар по иранскому острову накануне промежуточных выборов",
    "x": "По данным CBS, американского партнера BBC, официальные лица США охарактеризовали нападения на остров Кешм как ограниченные и оборонительные.",
    "r": "Америка",
    "c": "Политика",
-   "imp": 78,
-   "ten": 67,
-   "ago": 145,
+   "imp": 75,
+   "ten": 66,
+   "ago": 182,
    "s": [
     "BBC",
     "Euronews",
     "CBS News",
-    "ABC News",
     "Africanews",
     "The Hindu",
     "AP"
@@ -271,150 +340,67 @@
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/935d/live/479e54b0-d745-11f1-b441-2b33b063138f.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 8,
+   "n": 7,
    "lat": 38.64,
    "lon": -99.73,
    "place": "США",
    "place_en": "United States",
-   "id": 5,
+   "id": 7,
    "t_en": "US strikes Iranian island ahead of midterm elections",
    "x_en": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner."
   },
   {
-   "t": "Южная Африка готовится к потере рабочих мест после завершения AGOA",
-   "x": "В сегодняшнем выпуске Руанда и Южная Африка потеряют беспошлинный доступ на рынок США после исключения из торговой программы AGOA. Кроме того, южноафриканцы идут на избирательные участки из-за нехватки воды и разочарования в местных услугах. И в ДРК'",
-   "r": "Африка",
-   "c": "Экономика",
-   "imp": 77,
-   "ten": 37,
-   "ago": 17,
-   "s": [
-    "France 24",
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.france24.com/en/south-africa-braces-for-some-job-losses-as-agoa-ends",
-   "img": "https://s.france24.com/media/display/360b5014-d7cb-11f1-a00a-d18c5759e759/w:1024/p:16x9/DL00006210-VOD-00023658-01.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 3,
-   "lat": -28.92,
-   "lon": 24.44,
-   "place": "ЮАР",
-   "place_en": "South Africa",
-   "id": 6,
-   "t_en": "South Africa braces for some job losses as AGOA ends",
-   "x_en": "In tonight's edition, Rwanda and South Africa will lose their duty-free access to the U.S. market after being excluded from the AGOA trade program. Also, South Africans head to the polls amid water shortages and frustration with local services. And in the DRC'"
-  },
-  {
-   "t": "Трамп заявил, что США прекратят военную помощь Израилю к концу этого года",
-   "x": "Президент США сделал неожиданное заявление в день выборов, заявив, что стране «не нужны» ежегодные выплаты в размере 4 миллиардов долларов.",
+   "t": "Закрыты первые избирательные участки на важнейших промежуточных выборах в США",
+   "x": "Поскольку на кону стоит контроль над Конгрессом США, результаты выборов во вторник будут иметь заметные последствия для страны.",
    "r": "Америка",
    "c": "Политика",
-   "imp": 76,
-   "ten": 35,
-   "ago": 115,
+   "imp": 73,
+   "ten": 40,
+   "ago": 47,
    "s": [
-    "The Guardian",
+    "Al Jazeera",
     "Euronews",
-    "Africanews",
-    "Dawn",
-    "Times of India",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/03/donald-trump-usa-end-military-aid-to-israel-end-year-midterms",
-   "img": "https://i.guim.co.uk/img/media/60b8ee8c7578d9966d060062362646a8be71b3ad/225_0_2339_1872/master/2339.jpg?width=700&quality=85&auto=format&fit=max&s=f699d602b83c8cd2a47812eb49f8f4d5",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 8,
-   "lat": 39.55,
-   "lon": -99.08,
-   "place": "США",
-   "place_en": "United States",
-   "id": 7,
-   "t_en": "Trump claims US will end military aid to Israel by end of this year",
-   "x_en": "US president makes surprise election day announcement, saying country does not ‘need’ $4bn annual payment Donald Trump has said that the US will end military aid to Israel at the end of this year in a surprise election day announcement that appeared to be targ"
-  },
-  {
-   "t": "США нанесли удар по иранскому острову Кешм, а Вэнс выразил оптимизм по поводу сделки",
-   "x": "Сообщается, что удары накануне промежуточных выборов в США были нацелены на ракеты класса «земля-воздух», используемые против американских активов.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 76,
-   "ten": 84,
-   "ago": 200,
-   "s": [
-    "The Guardian",
-    "Sky News",
-    "CNBC",
     "The Hindu"
    ],
-   "u": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-   "img": "https://i.guim.co.uk/img/media/a507f65a0fdc95194e0fcde19ff9269175f70390/500_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=1adf312aefb9ea2a14412c6a54d37753",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 4,
-   "lat": 38.81,
-   "lon": -99.36,
+   "u": "https://www.aljazeera.com/news/2026/11/3/first-polls-close-in-pivotal-us-midterm-elections?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/97/88/06/696x392_cmsv2_06908d80-743f-5a69-99af-2c709929549d-9978806.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 3,
+   "lat": 38.23,
+   "lon": -98.47,
    "place": "США",
    "place_en": "United States",
    "id": 8,
-   "t_en": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
-   "x_en": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours after the vice-president, JD Vance, said he was optimistic that diplomatic effor"
+   "t_en": "First polls close in pivotal US midterm elections",
+   "x_en": "With control of the US Congress on the line, results from Tuesday's races will have marked implications for the country."
   },
   {
-   "t": "Король Чарльз говорит, что лучше понимает «ужасы» рабства, но не приносит извинений",
-   "x": "Король Карл III во вторник заявил главам 56 стран Содружества, что он лучше понимает ужасы рабства, назвав его «позорной главой истории». Это произошло после того, как премьер-министр Энди Бернхэм заявил, что он открыт для Соединенного Королевства.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 75,
-   "ten": 37,
-   "ago": 26,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "Africanews"
-   ],
-   "u": "https://www.france24.com/en/europe/20261103-king-charles-says-he-has-greater-understanding-of-horrors-of-slavery-falls-short-of-apology",
-   "img": "https://s.france24.com/media/display/7a616320-d799-11f1-b243-d18c5759e759/w:1024/p:16x9/AP26307507185418.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 3,
-   "lat": 54.46,
-   "lon": -2.56,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 9,
-   "t_en": "King Charles says he has greater understanding of 'horrors' of slavery, falls short of apology",
-   "x_en": "King Charles III told the heads of 56 Commonwealth countries on Tuesday that he has a greater understanding of the horrors of slavery, calling it a \"shameful chapter of history\". This comes as Prime Minister Andy Burnham said he was open to the United Kingdom "
-  },
-  {
-   "t": "В Высоком суде Австралии начинается серьезная проверка запрета социальных сетей",
-   "x": "Юристы Reddit и группы по защите цифровых прав утверждают, что ведущая в мире политика лишает детей права на свободное общение.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 75,
-   "ten": 40,
-   "ago": 137,
+   "t": "Трамп исключит Руанду и ЮАР из торгового соглашения с США",
+   "x": "Этот шаг был предпринят всего через неделю после того, как министерство обороны Руанды подверглось санкциям со стороны Министерства финансов США.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 73,
+   "ten": 32,
+   "ago": 144,
    "s": [
     "BBC",
-    "Sky News",
-    "NYT",
-    "ABC News"
+    "Africanews",
+    "Japan Times",
+    "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2ab0/live/69114010-d75b-11f1-8f6b-d71817972456.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e727/live/e5cde5c0-d6ef-11f1-ae42-99a80c72db9e.jpg",
    "img_src": "BBC",
    "fresh": false,
    "n": 4,
-   "lat": -24.94,
-   "lon": 133.66,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 10,
-   "t_en": "Major test for Australia's social media ban begins in High Court",
-   "x_en": "Lawyers for Reddit and a digital rights group are arguing the world-leading policy robs children of their right to free communication."
+   "lat": 39.63,
+   "lon": -97.73,
+   "place": "США",
+   "place_en": "United States",
+   "id": 9,
+   "t_en": "Trump to remove Rwanda and South Africa from US trade deal",
+   "x_en": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury."
   },
   {
    "t": "Binance заявляет, что фальшивые собеседования использовались как часть взлома криптовалюты на 6,3 миллиарда долларов",
@@ -422,14 +408,14 @@
    "r": "Америка",
    "c": "Наука",
    "imp": 73,
-   "ten": 45,
-   "ago": 164,
+   "ten": 42,
+   "ago": 160,
    "s": [
     "BBC",
     "CNBC",
     "Yonhap",
     "Dawn",
-    "Reuters"
+    "Japan Times"
    ],
    "u": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b517/live/8d68c970-d7a0-11f1-84dd-e55f4bec0ecd.jpg",
@@ -440,34 +426,36 @@
    "lon": -77.01,
    "place": "Вашингтон",
    "place_en": "Washington",
-   "id": 11,
+   "id": 10,
    "t_en": "Binance says fake job interviews used as part of $6.3bn crypto hack",
    "x_en": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says."
   },
   {
-   "t": "8 способов, которыми промежуточные выборы в США могут повлиять на политику Дональда Трампа в отношении Ирана",
-   "x": "Хотя промежуточные выборы в США могут открыть окно для дипломатии с Ираном, они также могут спровоцировать новую военную эскалацию. DW поговорил с аналитиками, чтобы выявить восемь факторов, которые могут склонить чашу весов в сторону войны или мира.",
-   "r": "Америка",
-   "c": "Конфликты",
+   "t": "США будут посредником на предстоящих украинско-российских переговорах в Абу-Даби, заявил Виткофф",
+   "x": "Специальный посланник США Стив Уиткофф объявил о мирных переговорах между Украиной и Россией при посредничестве США 10 и 11 ноября, уделив особое внимание мерам безопасности и деэскалации.",
+   "r": "Европа",
+   "c": "Политика",
    "imp": 71,
-   "ten": 60,
-   "ago": 5,
+   "ten": 51,
+   "ago": 206,
    "s": [
-    "DW",
-    "NYT"
+    "Fox News",
+    "The Hindu",
+    "Japan Times",
+    "Reuters"
    ],
-   "u": "https://www.dw.com/en/8-ways-the-us-midterm-election-could-affect-donald-trump-s-iran-policy/a-79831816?maca=en-rss-en-world-4025-rdf",
-   "img": "https://static01.nyt.com/images/2026/11/03/multimedia/00int-iran-us-elections-explainer-01-zlfj/00int-iran-us-elections-explainer-01-zlfj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 3,
-   "lat": 40.54,
-   "lon": -98.5,
+   "u": "https://www.foxnews.com/world/us-mediate-upcoming-ukraine-russia-talks-abu-dhabi-witkoff-says",
+   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/zelenskyy-kushner-witkoff-kyiv-talks.jpg?ve=1&tl=1",
+   "img_src": "Fox News",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.38,
+   "lon": -97.55,
    "place": "США",
    "place_en": "United States",
-   "id": 12,
-   "t_en": "8 ways the US midterm election could affect Donald Trump's Iran policy",
-   "x_en": "While the US midterms could open a window for diplomacy with Iran, they could also unleash a new military escalation. DW spoke with analysts to identify eight factors that could tip the balance toward war or peace."
+   "id": 11,
+   "t_en": "US will mediate upcoming Ukraine-Russia talks in Abu Dhabi, Witkoff says",
+   "x_en": "U.S. Special Envoy Steve Witkoff announced U.S.-mediated peace talks between Ukraine and Russia on Nov. 10 and 11, focusing on security arrangements and de-escalation."
   },
   {
    "t": "Швейные фабрики Бангладеш снова закрылись, поскольку протесты против повышения заработной платы переросли в насилие",
@@ -490,9 +478,34 @@
    "lon": 91.17,
    "place": "Бангладеш",
    "place_en": "Bangladesh",
-   "id": 13,
+   "id": 12,
    "t_en": "Bangladesh garment factories shut again as wage protests turn violent",
    "x_en": "The government has formed a six-member wage board to address workers’ demands for a monthly minimum wage increase amid rising inflation and living costs."
+  },
+  {
+   "t": "Трамп не предлагает немедленного плана нанесения удара по Ирану, но говорит, что США «заряжены и готовы»",
+   "x": "В беседе с Financial Times президент США Дональд Трамп заявил, что в ближайшем будущем у него нет планов нанести удар по Ирану. «Я готов, мы готовы. Мы заперты и загружены, если нам нужно идти, но для этого может не быть причин», - сказал он. «Кажется, мы получаем все, что",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 66,
+   "ago": 21,
+   "s": [
+    "Middle East Eye",
+    "Reuters"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-suggests-no-immediate-plan-strike-iran-says-us-locked-and-loaded",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-10/Iran_Saudi_Pakistan_Turkey.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 38.71,
+   "lon": -98.66,
+   "place": "США",
+   "place_en": "United States",
+   "id": 13,
+   "t_en": "Trump suggests no immediate plan to strike Iran, but says US 'locked and loaded'",
+   "x_en": "Speaking to the Financial Times, US President Donald Trump indicated that are no immediate plans to strike Iran. \"I'm ready, we're ready. We're locked and loaded if we need to go, but there may be no reason for it,\" he said. \"We seem to be getting everything w"
   },
   {
    "t": "ЕС активизирует прокладку подводного кабеля в Японию и Южную Корею",
@@ -520,259 +533,158 @@
    "x_en": "Workers from the Korean Peninsula were among victims of a 1942 flooding at the Chosei coal mine in the city of Ube in Yamaguchi Prefecture."
   },
   {
-   "t": "Представители избирательной комиссии готовятся к возможному вмешательству Трампа в промежуточные выборы",
-   "x": "Государственные чиновники, которые проводят выборы в США, готовятся к возможному вмешательству администрации президента Дональда Трампа во вторник в промежуточные выборы, опасаясь, что лояльные президенту федеральные власти могут сорвать голосование, оспорить подсчет бюллетеней или попытаться заблокировать сертификаты.",
+   "t": "Демократы стремятся отобрать Сенат у республиканцев, пока американцы идут на выборы",
+   "x": "Партия надеется, что неодобрение президентства Трампа дает им преимущество, поскольку республиканцы защищают незначительное большинство на промежуточных выборах в США – обновления в реальном времени Отслеживайте результаты в реальном времени во всех 50 штатах Республиканцы защищают свое большинство в Сенате США от возрождающейся демократической партии",
    "r": "Америка",
    "c": "Политика",
    "imp": 67,
    "ten": 40,
-   "ago": 9,
+   "ago": 10,
    "s": [
-    "France 24",
-    "Reuters"
+    "The Guardian",
+    "The Hindu"
    ],
-   "u": "https://www.france24.com/en/americas/20261103-how-state-officials-prepared-for-possible-trump-interference-in-the-midterms",
-   "img": "https://s.france24.com/media/display/75b70602-d7a5-11f1-97ab-a575454bc579/w:1024/p:16x9/bc104701a09f9c505036ada5a600528ca70ddfea.jpg",
-   "img_src": "France 24",
+   "u": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-midterm-elections-results",
+   "img": "https://i.guim.co.uk/img/media/5d352c76e8cff67f4382f6010c168f71b2b7ccb9/55_0_3760_3008/master/3760.jpg?width=700&quality=85&auto=format&fit=max&s=ffa7b0bd382568374a6347d729302c3b",
+   "img_src": "The Guardian",
    "fresh": true,
    "n": 2,
-   "lat": 38.8,
-   "lon": -98.87,
+   "lat": 38.86,
+   "lon": -98.5,
    "place": "США",
    "place_en": "United States",
    "id": 15,
-   "t_en": "Election officials brace for possible Trump interference in the midterms",
-   "x_en": "State officials who run US elections braced for possible intervention by President Donald Trump's administration in Tuesday's midterms, fearing federal authorities loyal to the president could disrupt voting, challenge ballot counts or try to block the certifi"
+   "t_en": "Democrats aim to retake Senate from Republicans as Americans go to polls",
+   "x_en": "Party hopes disapproval with Trump’s presidency gives them advantage as Republicans defend slim majority US midterm elections – live updates Track live results from all 50 states Republicans are defending their majority in the US Senate against resurgent Democ"
   },
   {
-   "t": "Министерство юстиции Трампа направило целевые письма демократам по уголовному расследованию в Сенате Аляски: отчеты",
-   "x": "«Нет сомнений в том, что эти угрозы представляют собой угрозу нашей демократии», — сказал Джон Кьюсик, помощник адвоката Фонда правовой защиты.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 57,
-   "ago": 29,
-   "s": [
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108453005-1792786191222-gettyimages-2301163225-ryder-ballots-1.jpeg?v=1792786239&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.15,
-   "lon": -98.16,
-   "place": "США",
-   "place_en": "United States",
-   "id": 16,
-   "t_en": "Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports",
-   "x_en": "\"There's no doubt that the threats are threats to our democracy,\" said John Cusick, assistant counsel at the Legal Defense Fund."
-  },
-  {
-   "t": "Парламент Гренландии одобрил соглашение по безопасности с США и Данией",
-   "x": "Законодатели проголосовали 16-0 за трехстороннее соглашение, подписанное в сентябре, семь человек воздержались.",
+   "t": "Прямые обновления промежуточных выборов в США 2026 года: демократы отказываются от места в Сенате Северной Каролины на фоне досрочных побед в борьбе за контрольную палату",
+   "x": "Бывший губернатор Рой Купер побеждает в Северной Каролине и становится первым действующим демократом с 2008 года; Сенаторы-демократы США от Джорджии и Вирджинии побеждают на переизбрании. Отслеживайте текущие результаты во всех 50 штатах. Мы представляем вам последние новости со всей страны, Дональд Трамп.",
    "r": "Америка",
    "c": "Политика",
    "imp": 66,
-   "ten": 24,
-   "ago": 210,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/3/greenland-parliament-approves-security-deal-with-us-denmark?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/US/wirestory_33824857ac4312c5ebd53821187ecc13_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": 71.79,
-   "lon": -41.31,
-   "place": "Гренландия",
-   "place_en": "Greenland",
-   "id": 17,
-   "t_en": "Greenland parliament approves security deal with US, Denmark",
-   "x_en": "Lawmakers vote 16-0 for trilateral agreement signed in September, while seven abstained."
-  },
-  {
-   "t": "Угрозы взрыва сорвали несколько рейсов по Европе",
-   "x": "Чиновники расследуют угрозы в отношении как минимум семи самолетов. По словам властей, самолет приземлился благополучно, взрывчатых веществ обнаружено не было.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 84,
-   "ago": 74,
-   "s": [
-    "NYT",
-    "Reuters"
-   ],
-   "u": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html",
-   "img": "https://static01.nyt.com/images/2026/11/03/multimedia/03int-europe-bomb-threats-wqfj/03int-europe-bomb-threats-wqfj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": 32.24,
-   "lon": 34.22,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 18,
-   "t_en": "Bomb Threats Disrupt Several Flights Across Europe",
-   "x_en": "Officials are investigating threats against at least seven planes. The aircraft landed safely and no explosives were found, the authorities said."
-  },
-  {
-   "t": "Два австралийца погибли в результате крушения скоростного поезда в Испании",
-   "x": "В идентификации юридического лица говорится, что среди трех последних жертв - двое австралийцев и гражданин Японии. Получайте наши экстренные новости по электронной почте, бесплатному приложению или подкасту ежедневных новостей. Два австралийца входят в число 69 человек, погибших в результате столкновения высокоскоростного поезда на прошлой неделе.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 78,
-   "ago": 74,
+   "ten": 28,
+   "ago": 4,
    "s": [
     "The Guardian",
-    "Japan Times"
+    "CNBC"
    ],
-   "u": "https://www.theguardian.com/world/2026/nov/04/two-australians-dead-in-spain-high-speed-train-crash-ntwnfb",
-   "img": "https://i.guim.co.uk/img/media/3a53091f68fd61e0d54bc255ed8c1604aa2b87be/424_0_4240_3392/master/4240.jpg?width=700&quality=85&auto=format&fit=max&s=43b3eee3cb6bd27da8135bdf67de105c",
+   "u": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+   "img": "https://i.guim.co.uk/img/media/98af47a67e8f68571dc40d52ffd16401887b53c5/520_0_4500_3599/master/4500.jpg?width=700&quality=85&auto=format&fit=max&s=1478369c5cd1c6549b39b25da449c8dd",
    "img_src": "The Guardian",
-   "fresh": false,
+   "fresh": true,
    "n": 2,
-   "lat": 40.92,
-   "lon": -3.6,
+   "lat": 39.21,
+   "lon": -98.27,
+   "place": "США",
+   "place_en": "United States",
+   "id": 16,
+   "t_en": "US midterm elections 2026 live updates: Democrats flip North Carolina Senate seat amid early wins in bid to control chamber",
+   "x_en": "Former governor Roy Cooper wins North Carolina to become first Democrat in seat since 2008; Democratic US senators from Georgia and Virginia win re-election Track live results from all 50 states As we bring you the latest from around the country, Donald Trump "
+  },
+  {
+   "t": "Испанский футболист погиб после столкновения на поле",
+   "x": "Футболист Тенерифе Хесус де Мигель скончался от остановки сердца в результате столкновения на поле во время матча в понедельник.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 52,
+   "ago": 278,
+   "s": [
+    "Sky News",
+    "ABC Australia",
+    "Africanews",
+    "Dawn"
+   ],
+   "u": "https://news.sky.com/story/tenerife-footballer-jesus-de-miguel-30-dies-after-on-field-collision-13607419",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-jesus-de-miguel-tenerife_7395617.jpg?20261103101535",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 4,
+   "lat": 40.97,
+   "lon": -3.13,
    "place": "Испания",
    "place_en": "Spain",
-   "id": 19,
-   "t_en": "Two Australians confirmed dead in Spain’s high-speed train crash",
-   "x_en": "Legal body handling identification says three latest victims include two Australians and a Japanese citizen Get our breaking news email , free app or daily news podcast Two Australians are among 69 people who died in last week’s high-speed train collision afte"
+   "id": 17,
+   "t_en": "Spanish footballer dies after on-field collision",
+   "x_en": "Tenerife football player Jesus de Miguel has died after suffering a cardiac arrest following an on-field collision in a match on Monday."
   },
   {
-   "t": "Число погибших в результате удара России по украинскому объекту помощи достигло 29, 48 пропали без вести",
-   "x": "Россия запустила 289 ударных беспилотников, 17 баллистических ракет и 59 крылатых ракет по девяти регионам, заявил президент Зеленский в онлайн-сообщении, в котором отметил, что обстрел совпал с выборами в США.",
-   "r": "Европа",
+   "t": "США нанесли удар по иранскому острову Кешм, а Вэнс выразил оптимизм по поводу сделки",
+   "x": "Сообщается, что удары накануне промежуточных выборов в США были нацелены на ракеты класса «земля-воздух», используемые против американских активов.",
+   "r": "Америка",
    "c": "Конфликты",
-   "imp": 64,
-   "ten": 79,
-   "ago": 199,
-   "s": [
-    "NPR",
-    "ABC News",
-    "The Hindu"
-   ],
-   "u": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1333+0+0/resize/2000x1333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2F00%2Fe7174a5c406193d73990b753ec8d%2Fap26307327730564.jpg",
-   "img_src": "NPR",
-   "fresh": false,
-   "n": 3,
-   "lat": 61.65,
-   "lon": 96.05,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 20,
-   "t_en": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
-   "x_en": "Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, President Zelenskyy said in an online post that noted the barrage coincided with U.S. elections."
-  },
-  {
-   "t": "Индийский турист погиб после столкновения двух вертолетов возле базового лагеря Эвереста",
-   "x": "Два самолета разбились всего в нескольких метрах от земли после попытки приземлиться в одном и том же месте.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 69,
-   "ago": 436,
-   "s": [
-    "BBC",
-    "CBS News",
-    "CNA",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmqlnx7z1549o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/029f/live/4eb51590-d772-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 6,
-   "lat": 22.65,
-   "lon": 79.79,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 21,
-   "t_en": "Indian tourist killed after two helicopters collide near Everest base camp",
-   "x_en": "The two aircraft crashed just metres from the ground after trying to land at the same spot."
-  },
-  {
-   "t": "Норвегия размещает дополнительные датчики ПВО и войска у границы с Россией",
-   "x": "«Опыт Украины показывает, насколько важно иметь хороший обзор и получать раннее предупреждение. Это датчики, которые усилят нашу способность обнаруживать дроны в Финнмарке», — заявил министр обороны Норвегии Торе О. Сандвик.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 62,
+   "imp": 66,
    "ten": 82,
-   "ago": 10,
+   "ago": 396,
    "s": [
-    "Kyiv Independent"
+    "The Guardian",
+    "CNBC",
+    "Middle East Eye",
+    "The Hindu"
    ],
-   "u": "https://kyivindependent.com/norway-deploys-additional-air-defense-sensors-troops-near-russia-border/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2265799003_20261103-202229_20261103-202950.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 1,
-   "lat": 61.9,
-   "lon": 7.34,
-   "place": "Норвегия",
-   "place_en": "Norway",
-   "id": 22,
-   "t_en": "Norway deploys additional air defense sensors, troops near Russia border",
-   "x_en": "\"The experience from Ukraine shows how important it is to have a good overview and receive early warning. These are sensors that will strengthen our ability to detect drones in Finnmark,\" Norwegian Defense Minister Tore O. Sandvik said."
+   "u": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+   "img": "https://i.guim.co.uk/img/media/a507f65a0fdc95194e0fcde19ff9269175f70390/500_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=1adf312aefb9ea2a14412c6a54d37753",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 5,
+   "lat": 38.81,
+   "lon": -99.36,
+   "place": "США",
+   "place_en": "United States",
+   "id": 18,
+   "t_en": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+   "x_en": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours after the vice-president, JD Vance, said he was optimistic that diplomatic effor"
   },
   {
-   "t": "Жителю Оклахома-Сити предъявлено обвинение в письмах с угрозами в адрес избирательных комиссий",
+   "t": "Демократ Джон Оссофф побеждает на выборах в Сенат США от Джорджии",
+   "x": "Оссофф переизбирается на второй срок, получая ключевое место для демократов, поскольку партия пытается вернуть себе место в Сенате.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 32,
+   "ago": 16,
+   "s": [
+    "Al Jazeera",
+    "The Guardian"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/4/democrat-jon-ossoff-wins-georgia-us-senate-race?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/7041c3748784bc7c306e4c2cc584762b51c6afb9/458_0_4568_3655/master/4568.jpg?width=700&quality=85&auto=format&fit=max&s=8dad5ca4e71d971c2576e3bc3321ec89",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 38.69,
+   "lon": -98.37,
+   "place": "США",
+   "place_en": "United States",
+   "id": 19,
+   "t_en": "Democrat Jon Ossoff wins Georgia US Senate race",
+   "x_en": "Ossoff is re-elected to a second term, winning a key seat for Democrats as the party tries to retake the Senate."
+  },
+  {
+   "t": "Сенатор Джон Оссофф побеждает на переизбрании, сохраняя Грузию за демократов",
    "x": "Рейтер",
    "r": "Мир",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 48,
-   "ago": 58,
+   "c": "Общее",
+   "imp": 63,
+   "ten": 32,
+   "ago": 31,
    "s": [
     "Reuters",
     "AP"
    ],
-   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWWktN0dPTE0wR0tGZGhKeUVJRXA1RjVJY0ZWZ1R4N2FGajFHY2pUemVJenVqZmk2R3FTeEVoeUk1bVZDZWhzdGdPWnhBQmtVZWxVTlc5M1lsV0Jwc2liTDE2bW1FTXlzWFJ4UE9sZ1pGOGs4THNnQm1acWxOX1EzN0hpTnFQUUtZOHpnY3NrbG0ySVgwa0w3c3pPV0psV2J5Ymp2RG03Q0hKMUtVTlE?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ05OSFAxbUI3MjloX2Zza2REVE5FcWxJNFNWSzhFbWdOTjRMZnAtbTlycjlnOVE5MHJMalJnZUNQbHlQZE9ZWkV4ei1Ea1BkZlpIeURuSk81X3R4Z21nYTctbS1kTjJ5TUtaTWhwOEJXTm9jNk5ZT0YyblpOcmVCa04wTm9zWUI4Y3VTYW1ueUlfdm43VGtNZGNEb2tObnZsMDgxcXlVRzY?oc=5",
    "img": "",
    "img_src": "",
    "fresh": true,
    "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 23,
-   "t_en": "Oklahoma City man charged over threatening letters to election officials",
+   "lat": 40.03,
+   "lon": -98.33,
+   "place": "США",
+   "place_en": "United States",
+   "id": 20,
+   "t_en": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
    "x_en": "Reuters"
-  },
-  {
-   "t": "Работники чешских СМИ объявили забастовку из-за плана правительства по пересмотру их финансирования",
-   "x": "Работники чешских государственных СМИ объявили однодневную забастовку в знак протеста против плана правительства изменить порядок финансирования общественных вещателей.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 74,
-   "ago": 93,
-   "s": [
-    "ABC News",
-    "Reuters"
-   ],
-   "u": "https://abcnews.com/International/wireStory/czech-public-media-workers-strike-government-plan-overhaul-137800075",
-   "img": "https://s.abcnews.com/images/International/wirestory_ba62e1b60f974e0e514bf7145a7207b3_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 2,
-   "lat": 49.64,
-   "lon": 14.93,
-   "place": "Чехия",
-   "place_en": "Czech Republic",
-   "id": 24,
-   "t_en": "Czech public media workers go on strike over a government plan to overhaul their funding",
-   "x_en": "Czech public media workers have gone on a one-day strike to protest a government plan to change how public broadcasters are funded"
   },
   {
    "t": "Растущие расходы и торговая война с Китаем проверяют лояльность американских фермеров Трампу",
@@ -794,59 +706,33 @@
    "lon": -98.58,
    "place": "США",
    "place_en": "United States",
-   "id": 25,
+   "id": 21,
    "t_en": "Surging costs and China trade war test US farmers' loyalty to Trump",
    "x_en": ""
   },
   {
-   "t": "Бразилия внимательно следит за промежуточными выборами в США",
-   "x": "Бразилия внимательно следит за промежуточными выборами в США. После возвращения Дональда Трампа в Белый дом отношения между Бразилиа и Вашингтоном становятся все более напряженными. На экономическом фронте агрессивная торговая политика поставила под угрозу бразильский импорт.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 61,
-   "ten": 40,
-   "ago": 53,
-   "s": [
-    "France 24",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/video/20261103-brazil-keeps-a-close-eye-on-us-midterm-elections",
-   "img": "https://s.france24.com/media/display/dcee6d6c-d7a3-11f1-8c64-d18c5759e759/w:1024/p:16x9/capture-dd5dbc4b.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 2,
-   "lat": -10.44,
-   "lon": -51.81,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 26,
-   "t_en": "Brazil keeps a close eye on US midterm elections",
-   "x_en": "Brazil is keeping a close eye on the US midterm elections. Since Donald Trump's return to the White House, relations between Brasilia and Washington have grown increasingly tense. On the economic front, aggressive trade policies have subjected Brazilian import"
-  },
-  {
-   "t": "Верховный суд ООН 19 ноября вынесет решение по делу о геноциде рохинджа",
-   "x": "Судьи Международного Суда (МС) в течение семи лет рассматривают обвинения Гамбии в том, что жестокие репрессии Мьянмы против рохинджа нарушили Конвенцию ООН о геноциде 1948 года.",
+   "t": "Япония усилит оборону унифицированными ракетными и артиллерийскими системами",
+   "x": "",
    "r": "Азия",
-   "c": "Политика",
+   "c": "Конфликты",
    "imp": 61,
-   "ten": 78,
-   "ago": 108,
+   "ten": 66,
+   "ago": 1,
    "s": [
-    "The Hindu",
-    "Reuters"
+    "Nikkei Asia"
    ],
-   "u": "https://www.thehindu.com/news/international/top-un-court-to-rule-november-19-on-rohingya-genocide-case/article71662800.ece",
-   "img": "https://th-i.thgim.com/public/news/national/efo457/article71662797.ece/alternates/LANDSCAPE_1200/iStock-2192979063.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 2,
-   "lat": 52.38,
-   "lon": 4.69,
-   "place": "Гаага",
-   "place_en": "The Hague",
-   "id": 27,
-   "t_en": "Top UN court to rule November 19 on Rohingya genocide case",
-   "x_en": "Judges at the International Court of Justice (ICJ) have for seven years been weighing accusations by The Gambia that Myanmar’s brutal repression of the Rohingya breached the 1948 UN Genocide Convention"
+   "u": "https://asia.nikkei.com/politics/defense/japan-to-bolster-defenses-with-unified-missile-artillery-systems",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F2%2F7%2F3%2F13393726-2-eng-GB%2Fada8259653cc-photo_SXM2026092900015382.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.9,
+   "lon": 137.6,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 22,
+   "t_en": "Japan to bolster defenses with unified missile, artillery systems",
+   "x_en": ""
   },
   {
    "t": "Политические маневры Индонезии препятствуют рыночным реформам на фоне угроз понижения рейтинга",
@@ -868,7 +754,7 @@
    "lon": 117.29,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 28,
+   "id": 23,
    "t_en": "Indonesian political maneuvers hinder market reforms amid downgrade threats",
    "x_en": ""
   },
@@ -892,7 +778,7 @@
    "lon": -97.56,
    "place": "США",
    "place_en": "United States",
-   "id": 29,
+   "id": 24,
    "t_en": "US experts warm to Japanese nuclear subs as check on China in Asian waters",
    "x_en": ""
   },
@@ -916,132 +802,62 @@
    "lon": 102.69,
    "place": "Китай",
    "place_en": "China",
-   "id": 30,
+   "id": 25,
    "t_en": "China's cable-cutting threat reaches Taiwan and the Philippines",
    "x_en": ""
   },
   {
-   "t": "Жители Миннеаполиса оставляют стикеры с надписью «Я голосовал» на мемориалах Алекса Претти и Рене Гуд.",
-   "x": "Жители посылают четкий сигнал о насильственных депортациях, происходящих по всей территории США в этом промежуточном цикле. Избиратели Миннесоты оставили наклейки с надписью «Я голосовал» на мемориальных площадках Алекса Претти и Рене Николь Гуд, двух граждан США, убитых федеральными иммигрантами.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 66,
-   "ago": 9,
-   "s": [
-    "The Guardian"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/03/minneapolis-i-voted-stickers-alex-pretti-memorial",
-   "img": "https://i.guim.co.uk/img/media/5b1f24cdf98e331bda1a9d69d48d3122547fcd3c/500_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=69d28cd8064d1b5dd2fc6b2990061a60",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.1,
-   "lon": -98.61,
-   "place": "США",
-   "place_en": "United States",
-   "id": 31,
-   "t_en": "Minneapolis community leave ‘I Voted’ stickers at memorial sites for Alex Pretti and Renee Good",
-   "x_en": "Residents are sending a clear message about the violent deportations taking place across the US this midterm cycle Minnesota voters left “I Voted” stickers on memorial sites for Alex Pretti and Renee Nicole Good, the two US citizens killed by federal immigrati"
-  },
-  {
-   "t": "Кто защищает тех, кто считает голоса Америки? Сотрудники избирательных комиссий в США столкнулись с угрозами во время промежуточных выборов",
-   "x": "В ответ на эскалацию угроз и преследований сотрудники местных органов власти, наблюдающие за выборами в США, теперь находятся под усиленными мерами безопасности. Это включает в себя установку пуленепробиваемых стекол и кнопок экстренной паники, а также обучение управлению агрессией.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 95,
-   "ago": 37,
-   "s": [
-    "Times of India"
-   ],
-   "u": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/who-protects-those-counting-americas-votes-us-election-workers-face-threats-amid-midterms/articleshow/135512154.cms",
-   "img": "https://static.toiimg.com/photo/msid-135513036,imgsize-64881.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.58,
-   "lon": -99.9,
-   "place": "США",
-   "place_en": "United States",
-   "id": 32,
-   "t_en": "Who protects those counting America's votes? US election workers face threats amid midterms",
-   "x_en": "In response to escalating threats and harassment, local government workers overseeing elections in the US are now under heightened security measures. This includes installation of bulletproof glass and emergency panic buttons, alongside training to manage aggr"
-  },
-  {
-   "t": "Осужденный убийца, сбежавший из тюрьмы Теннесси, задержан в Миссури",
-   "x": "Джейкоб Морли, отбывающий пожизненное заключение за убийство коллеги, на прошлой неделе проскользнул через тюремный забор. Сбежавший заключенный из Теннесси, осужденный за убийство, был пойман во вторник недалеко от Канзас-Сити, штат Миссури, когда его грузовик застрял в грязи после полицейских",
+   "t": "В Высоком суде Австралии начинается серьезная проверка запрета социальных сетей",
+   "x": "Юристы Reddit и группы по защите цифровых прав утверждают, что ведущая в мире политика лишает детей права на свободное общение.",
    "r": "Мир",
-   "c": "Общее",
+   "c": "Политика",
    "imp": 60,
-   "ten": 53,
-   "ago": 75,
+   "ten": 40,
+   "ago": 379,
    "s": [
-    "The Guardian",
-    "AP"
+    "BBC",
+    "Sky News",
+    "NYT",
+    "ABC News"
    ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/03/jacob-morley-tennessee-prisoner-capture",
-   "img": "https://i.guim.co.uk/img/media/40d528857726a333f39a6ee98074c5d17bac83a1/914_0_2033_1627/master/2033.jpg?width=700&quality=85&auto=format&fit=max&s=eaad6a6d47e4cc5a2ef93e89919b3688",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2ab0/live/69114010-d75b-11f1-8f6b-d71817972456.jpg",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 33,
-   "t_en": "Convicted murderer who escaped from Tennessee prison captured in Missouri",
-   "x_en": "Jacob Morley, serving a life sentence for killing a co-worker, slipped through a prison fence last week An escaped Tennessee prisoner convicted of murder was recaptured on Tuesday near Kansas City, Missouri , when his truck got stuck in the mud after troopers "
+   "n": 4,
+   "lat": -24.94,
+   "lon": 133.66,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 26,
+   "t_en": "Major test for Australia's social media ban begins in High Court",
+   "x_en": "Lawyers for Reddit and a digital rights group are arguing the world-leading policy robs children of their right to free communication."
   },
   {
-   "t": "(СРОЧНО) Ким Ё Чжон из Северной Кореи говорит, что диалог с США остается вариантом мира, но считает, что он должен служить национальным интересам Пхеньяна",
-   "x": "(КОНЕЦ)",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 59,
-   "ten": 23,
-   "ago": 7,
-   "s": [
-    "Yonhap"
-   ],
-   "u": "https://en.yna.co.kr/view/AEN20261104000800315",
-   "img": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.41,
-   "lon": 125.73,
-   "place": "Пхеньян",
-   "place_en": "Pyongyang",
-   "id": 34,
-   "t_en": "(URGENT) N. Korea's Kim Yo-jong says dialogue with U.S. remains option for peace but suggests must serve Pyongyang's national interest",
-   "x_en": "(END)"
-  },
-  {
-   "t": "Что нужно знать о кризисе вокруг Конституционного трибунала Польши",
-   "x": "Судьи Конституционного трибунала Польши встречаются, чтобы решить его будущее после того, как председатель суда был отстранен от должности из-за спора с правительством",
-   "r": "Европа",
+   "t": "Результаты промежуточных выборов в США в прямом эфире: демократы растут по мере поступления результатов",
+   "x": "Результаты поступают со всех концов США по мере закрытия избирательных участков на промежуточных выборах, когда на карту поставлен контроль над Конгрессом.",
+   "r": "Америка",
    "c": "Политика",
    "imp": 59,
-   "ten": 60,
-   "ago": 226,
+   "ten": 40,
+   "ago": 188,
    "s": [
-    "ABC News",
-    "The Hindu",
+    "Al Jazeera",
+    "CNBC",
     "AP"
    ],
-   "u": "https://abcnews.com/International/wireStory/crisis-polands-constitutional-tribunal-137807738",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-election-results-live-polls-to-start-closing-in-some-states?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6aea7b30db97-1793751856.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
    "fresh": false,
    "n": 3,
-   "lat": 51.14,
-   "lon": 19.16,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 35,
-   "t_en": "What to know about the crisis around Poland's Constitutional Tribunal",
-   "x_en": "Judges at Poland’s Constitutional Tribunal are meeting to decide its future after the court president was suspended in a dispute with the government"
+   "lat": 39.36,
+   "lon": -97.69,
+   "place": "США",
+   "place_en": "United States",
+   "id": 27,
+   "t_en": "US midterm election results live: Democrats up as results roll in",
+   "x_en": "Results are coming in from across the US as polls close in the midterm elections, with control of Congress at stake."
   },
   {
    "t": "Беженцы из Мьянмы заполняют пробелы в рабочей силе в Таиланде, поскольку камбоджийцы возвращаются домой",
@@ -1063,7 +879,7 @@
    "lon": 95.39,
    "place": "Мьянма",
    "place_en": "Myanmar",
-   "id": 36,
+   "id": 28,
    "t_en": "Myanmar refugees fill labor gaps in Thailand as Cambodians return home",
    "x_en": ""
   },
@@ -1087,57 +903,134 @@
    "lon": 137.43,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 37,
+   "id": 29,
    "t_en": "Japan's IHI wins key role in Westinghouse's new Poland nuclear plant",
    "x_en": ""
   },
   {
-   "t": "Япония привлекает стартапы. Но сможет ли оно их удержать?",
-   "x": "",
+   "t": "Северная Корея выпустила неопознанный снаряд в сторону Восточного моря: JCS",
+   "x": "СЕУЛ, 4 ноября (Рёнхап) -- Северная Корея выпустила неопознанный снаряд в сторону...",
    "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
+   "c": "Конфликты",
+   "imp": 58,
    "ten": 40,
-   "ago": 1,
+   "ago": 33,
    "s": [
-    "Nikkei Asia"
+    "Yonhap"
    ],
-   "u": "https://asia.nikkei.com/opinion/japan-is-attracting-startups.-but-can-it-keep-them",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F7%2F6%2F1%2F13371671-1-eng-GB%2F207cd7cfa916-photo_SXM2026100500005798f.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://en.yna.co.kr/view/AEN20261029008100315",
+   "img": "https://img.yna.co.kr/photo/yna/YH/2026/10/29/PYH2026102912310001300_P2.jpg",
+   "img_src": "Yonhap",
    "fresh": true,
-   "n": 1,
-   "lat": 35.86,
-   "lon": 137.38,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 38,
-   "t_en": "Japan is attracting startups. But can it keep them?",
-   "x_en": ""
+   "n": 2,
+   "lat": 37.41,
+   "lon": 127.02,
+   "place": "Сеул",
+   "place_en": "Seoul",
+   "id": 30,
+   "t_en": "N. Korea fires unidentified projectile toward East Sea: JCS",
+   "x_en": "SEOUL, Nov. 4 (Yonhap) -- North Korea fired an unidentified projectile toward th..."
   },
   {
-   "t": "Коммунистическая партия Китая использует слежку за большими данными для борьбы с коррупцией",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
+   "t": "Вспышка сибирской язвы в старейшем национальном парке Африки убивает бегемотов",
+   "x": "По словам официальных лиц, с сентября от этой болезни погибло 30 гиппопотамов в национальном парке Вирунга в Демократической Республике Конго.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 58,
+   "ten": 91,
+   "ago": 50,
    "s": [
-    "Nikkei Asia"
+    "NYT"
    ],
-   "u": "https://asia.nikkei.com/politics/chinese-communist-party-taps-big-data-surveillance-to-combat-corruption",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F1%2F0%2F7%2F13387015-2-eng-GB%2Fba750179f2da-photo_SXM2026110100005857.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.nytimes.com/2026/11/03/world/africa/congo-anthrax-hippos-virunga-park.html",
+   "img": "https://static01.nyt.com/images/2026/11/03/multimedia/03int-drc-hippo-anthrax-kmtf/03int-drc-hippo-anthrax-kmtf-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
    "fresh": true,
    "n": 1,
-   "lat": 33.83,
-   "lon": 103.51,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 39,
-   "t_en": "Chinese Communist Party taps big data surveillance to combat corruption",
-   "x_en": ""
+   "lat": -3.31,
+   "lon": 22.62,
+   "place": "ДР Конго",
+   "place_en": "DR Congo",
+   "id": 31,
+   "t_en": "Anthrax Outbreak in Africa’s Oldest National Park Is Killing Hippos",
+   "x_en": "The disease has killed 30 hippopotamuses in Virunga National Park in the Democratic Republic of Congo since September, officials say."
+  },
+  {
+   "t": "В Индонезии задержаны трое генералов полиции, подозреваемых в прослушивании телефонных разговоров президента",
+   "x": "Полиция Индонезии задержала трех высокопоставленных генералов полиции по подозрению в прослушивании телефонных разговоров президента Прабово Субианто и других видных деятелей.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 40,
+   "ago": 81,
+   "s": [
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/indonesia-detains-3-police-generals-suspected-wiretapping-president-137815036",
+   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 2,
+   "lat": -1.33,
+   "lon": 117.86,
+   "place": "Индонезия",
+   "place_en": "Indonesia",
+   "id": 32,
+   "t_en": "Indonesia detains 3 police generals suspected of wiretapping president",
+   "x_en": "Indonesian police have detained three senior police generals for allegedly wiretapping President Prabowo Subianto and other prominent figures"
+  },
+  {
+   "t": "Король Великобритании Чарльз выразил на Антигуа «скорбь» по поводу работорговли",
+   "x": "Карибские страны требуют репараций, поскольку король Карл не приносит извинений за рабство колониальной эпохи.",
+   "r": "Европа",
+   "c": "Экономика",
+   "imp": 58,
+   "ten": 40,
+   "ago": 199,
+   "s": [
+    "Al Jazeera",
+    "NYT",
+    "ABC News"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/3/uks-king-charles-expresses-profound-sorrow-over-transatlantic-slave-era?traffic_source=rss",
+   "img": "https://static01.nyt.com/images/2026/11/03/multimedia/03int-king-commonwealth-meeting-01-fzvc/03int-king-commonwealth-meeting-01-fzvc-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 3,
+   "lat": 54.28,
+   "lon": -3.76,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 33,
+   "t_en": "UK’s King Charles expresses ‘sorrow’ in Antigua over slave trade",
+   "x_en": "Caribbean nations call for reparations as King Charles stops short of issuing an apology for colonial-era slavery."
+  },
+  {
+   "t": "Король Чарльз говорит, что лучше понимает «ужасы» рабства, но не приносит извинений",
+   "x": "Король Карл III во вторник заявил главам 56 стран Содружества, что он лучше понимает ужасы рабства, назвав его «позорной главой истории». Это произошло после того, как премьер-министр Энди Бернхэм заявил, что он открыт для Соединенного Королевства.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 37,
+   "ago": 203,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "Africanews"
+   ],
+   "u": "https://www.france24.com/en/europe/20261103-king-charles-says-he-has-greater-understanding-of-horrors-of-slavery-falls-short-of-apology",
+   "img": "https://s.france24.com/media/display/7a616320-d799-11f1-b243-d18c5759e759/w:1024/p:16x9/AP26307507185418.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 54.46,
+   "lon": -2.56,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 34,
+   "t_en": "King Charles says he has greater understanding of 'horrors' of slavery, falls short of apology",
+   "x_en": "King Charles III told the heads of 56 Commonwealth countries on Tuesday that he has a greater understanding of the horrors of slavery, calling it a \"shameful chapter of history\". This comes as Prime Minister Andy Burnham said he was open to the United Kingdom "
   },
   {
    "t": "Основатель Oriental Kopi хочет включить Малайзию в меню",
@@ -1159,8 +1052,128 @@
    "lon": 101.38,
    "place": "Малайзия",
    "place_en": "Malaysia",
-   "id": 40,
+   "id": 35,
    "t_en": "Oriental Kopi founder wants to put Malaysia on the menu",
+   "x_en": ""
+  },
+  {
+   "t": "Бангладеш обращается к Китаю за обучением рабочих на фоне проблем с трудоустройством выпускников",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/education/bangladesh-turns-to-china-for-worker-training-amid-graduate-job-struggles",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F7%2F6%2F6%2F13376679-1-eng-GB%2Ff20e33003f49-2d2.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 24.92,
+   "lon": 89.99,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 36,
+   "t_en": "Bangladesh turns to China for worker training amid graduate job struggles",
+   "x_en": ""
+  },
+  {
+   "t": "Китайская сталелитейная промышленность терпит снежный ком, поскольку спрос падает, а затраты растут",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/materials/chinese-steel-industry-losses-snowball-as-demand-falls-and-costs-rise",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F5%2F0%2F8%2F13388058-1-eng-GB%2F74b320e49dd9-2017-07-08T125700Z_1471666626_RC11DB331350_RTRMADP_3_CHINA-STEEL.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.39,
+   "lon": 103.18,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 37,
+   "t_en": "Chinese steel industry losses snowball as demand falls and costs rise",
+   "x_en": ""
+  },
+  {
+   "t": "Принесут ли японские страховщики деньги домой? 5 вещей, которые нужно знать",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/bonds/will-japanese-insurers-bring-money-home-5-things-to-know",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.36,
+   "lon": 137.02,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 38,
+   "t_en": "Will Japanese insurers bring money home? 5 things to know",
+   "x_en": ""
+  },
+  {
+   "t": "Успех солнечной энергетики во Вьетнаме заставляет переосмыслить ценообразование на электроэнергию",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/energy/vietnam-solar-success-prompts-rethink-of-power-pricing",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 15.08,
+   "lon": 106.08,
+   "place": "Вьетнам",
+   "place_en": "Vietnam",
+   "id": 39,
+   "t_en": "Vietnam solar success prompts rethink of power pricing",
+   "x_en": ""
+  },
+  {
+   "t": "Япония может укрепить оборонное преимущество с помощью ИИ, говорит генеральный директор Palantir",
+   "x": "",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/editor-s-picks/interview/japan-can-build-defense-edge-on-ai-palantir-ceo-says",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.61,
+   "lon": 139.2,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 40,
+   "t_en": "Japan can build defense edge on AI, Palantir CEO says",
    "x_en": ""
   }
  ],
@@ -1180,139 +1193,143 @@
   {
    "t": 1793741737479,
    "v": 50
+  },
+  {
+   "t": 1793756291909,
+   "v": 51
   }
  ],
  "timeline": [
   {
-   "t": 1793655337479,
-   "v": 45,
-   "n": 19
+   "t": 1793669891909,
+   "v": 52,
+   "n": 13
   },
   {
-   "t": 1793658937479,
-   "v": 44,
-   "n": 16
-  },
-  {
-   "t": 1793662537479,
-   "v": 46,
-   "n": 15
-  },
-  {
-   "t": 1793666137479,
-   "v": 49,
-   "n": 19
-  },
-  {
-   "t": 1793669737479,
+   "t": 1793673491909,
    "v": 50,
-   "n": 18
+   "n": 14
   },
   {
-   "t": 1793673337479,
-   "v": 48,
-   "n": 24
-  },
-  {
-   "t": 1793676937479,
+   "t": 1793677091909,
    "v": 45,
-   "n": 20
+   "n": 13
   },
   {
-   "t": 1793680537479,
-   "v": 47,
-   "n": 33
+   "t": 1793680691909,
+   "v": 48,
+   "n": 27
   },
   {
-   "t": 1793684137479,
+   "t": 1793684291909,
    "v": 50,
    "n": 41
   },
   {
-   "t": 1793687737479,
-   "v": 49,
-   "n": 58
+   "t": 1793687891909,
+   "v": 51,
+   "n": 48
   },
   {
-   "t": 1793691337479,
-   "v": 48,
-   "n": 60
-  },
-  {
-   "t": 1793694937479,
-   "v": 49,
-   "n": 62
-  },
-  {
-   "t": 1793698537479,
-   "v": 50,
-   "n": 55
-  },
-  {
-   "t": 1793702137479,
-   "v": 53,
-   "n": 53
-  },
-  {
-   "t": 1793705737479,
-   "v": 54,
-   "n": 50
-  },
-  {
-   "t": 1793709337479,
+   "t": 1793691491909,
    "v": 52,
-   "n": 66
+   "n": 46
   },
   {
-   "t": 1793712937479,
-   "v": 50,
-   "n": 81
+   "t": 1793695091909,
+   "v": 54,
+   "n": 41
   },
   {
-   "t": 1793716537479,
+   "t": 1793698691909,
+   "v": 55,
+   "n": 47
+  },
+  {
+   "t": 1793702291909,
+   "v": 57,
+   "n": 51
+  },
+  {
+   "t": 1793705891909,
+   "v": 56,
+   "n": 49
+  },
+  {
+   "t": 1793709491909,
+   "v": 53,
+   "n": 59
+  },
+  {
+   "t": 1793713091909,
    "v": 48,
-   "n": 100
+   "n": 68
   },
   {
-   "t": 1793720137479,
+   "t": 1793716691909,
    "v": 49,
+   "n": 79
+  },
+  {
+   "t": 1793720291909,
+   "v": 49,
+   "n": 78
+  },
+  {
+   "t": 1793723891909,
+   "v": 51,
+   "n": 80
+  },
+  {
+   "t": 1793727491909,
+   "v": 51,
+   "n": 90
+  },
+  {
+   "t": 1793731091909,
+   "v": 50,
+   "n": 91
+  },
+  {
+   "t": 1793734691909,
+   "v": 50,
    "n": 107
   },
   {
-   "t": 1793723737479,
-   "v": 49,
+   "t": 1793738291909,
+   "v": 48,
+   "n": 106
+  },
+  {
+   "t": 1793741891909,
+   "v": 50,
    "n": 121
   },
   {
-   "t": 1793727337479,
-   "v": 50,
-   "n": 129
+   "t": 1793745491909,
+   "v": 47,
+   "n": 117
   },
   {
-   "t": 1793730937479,
-   "v": 49,
-   "n": 126
+   "t": 1793749091909,
+   "v": 47,
+   "n": 123
   },
   {
-   "t": 1793734537479,
-   "v": 49,
-   "n": 124
+   "t": 1793752691909,
+   "v": 43,
+   "n": 143
   },
   {
-   "t": 1793738137479,
-   "v": 46,
-   "n": 145
-  },
-  {
-   "t": 1793741737479,
-   "v": 46,
-   "n": 111
+   "t": 1793756291909,
+   "v": 43,
+   "n": 101
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 30
+   "items": 31
   },
   {
    "n": "Al Jazeera",
@@ -1328,7 +1345,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 28
+   "items": 29
   },
   {
    "n": "Sky News",
@@ -1336,11 +1353,11 @@
   },
   {
    "n": "NPR",
-   "items": 6
+   "items": 5
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 5
   },
   {
    "n": "CNBC",
@@ -1348,11 +1365,11 @@
   },
   {
    "n": "Euronews",
-   "items": 30
+   "items": 25
   },
   {
    "n": "NYT",
-   "items": 34
+   "items": 39
   },
   {
    "n": "Washington Post",
@@ -1360,11 +1377,11 @@
   },
   {
    "n": "CBS News",
-   "items": 18
+   "items": 16
   },
   {
    "n": "ABC News",
-   "items": 22
+   "items": 25
   },
   {
    "n": "CNN",
@@ -1376,7 +1393,7 @@
   },
   {
    "n": "ABC Australia",
-   "items": 12
+   "items": 15
   },
   {
    "n": "CNA",
@@ -1388,7 +1405,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1396,7 +1413,7 @@
   },
   {
    "n": "Africanews",
-   "items": 40
+   "items": 35
   },
   {
    "n": "Kyiv Independent",
@@ -1412,7 +1429,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 24
+   "items": 22
   },
   {
    "n": "Dawn",
@@ -1444,10 +1461,8 @@
   }
  ],
  "failed": [
-  "UN News",
   "Washington Post",
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

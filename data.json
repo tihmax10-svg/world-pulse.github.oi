@@ -1,38 +1,42 @@
 {
- "updated": 1793779170644,
+ "updated": 1793808293614,
  "demo": false,
- "total_articles": 636,
- "second_delta": 2,
+ "total_articles": 653,
+ "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 47
-  },
-  {
-   "n": "Al Jazeera",
    "v": 41
   },
   {
+   "n": "Al Jazeera",
+   "v": 56
+  },
+  {
    "n": "DW",
-   "v": 52
+   "v": 54
   },
   {
    "n": "France 24",
-   "v": 43
-  },
-  {
-   "n": "The Guardian",
    "v": 51
   },
   {
+   "n": "The Guardian",
+   "v": 54
+  },
+  {
    "n": "Sky News",
-   "v": 65
+   "v": 63
   },
   {
    "n": "NPR",
-   "v": 58
+   "v": 48
+  },
+  {
+   "n": "UN News",
+   "v": 71
   },
   {
    "n": "CNBC",
@@ -40,7 +44,7 @@
   },
   {
    "n": "Euronews",
-   "v": 51
+   "v": 52
   },
   {
    "n": "NYT",
@@ -48,11 +52,11 @@
   },
   {
    "n": "CBS News",
-   "v": 46
+   "v": 55
   },
   {
    "n": "ABC News",
-   "v": 52
+   "v": 50
   },
   {
    "n": "CNN",
@@ -60,35 +64,35 @@
   },
   {
    "n": "Fox News",
-   "v": 59
+   "v": 61
   },
   {
    "n": "ABC Australia",
-   "v": 42
-  },
-  {
-   "n": "CNA",
-   "v": 50
-  },
-  {
-   "n": "Africanews",
-   "v": 44
-  },
-  {
-   "n": "Kyiv Independent",
-   "v": 64
-  },
-  {
-   "n": "Yonhap",
    "v": 43
   },
   {
-   "n": "Nikkei Asia",
+   "n": "CNA",
+   "v": 49
+  },
+  {
+   "n": "Africanews",
+   "v": 45
+  },
+  {
+   "n": "Kyiv Independent",
+   "v": 59
+  },
+  {
+   "n": "Yonhap",
    "v": 41
   },
   {
-   "n": "The Diplomat",
+   "n": "Nikkei Asia",
    "v": 42
+  },
+  {
+   "n": "The Diplomat",
+   "v": 40
   },
   {
    "n": "Dawn",
@@ -96,11 +100,11 @@
   },
   {
    "n": "Times of India",
-   "v": 51
+   "v": 42
   },
   {
    "n": "The Hindu",
-   "v": 50
+   "v": 43
   },
   {
    "n": "Politico EU",
@@ -108,778 +112,667 @@
   },
   {
    "n": "Japan Times",
-   "v": 49
+   "v": 48
   },
   {
    "n": "Reuters",
-   "v": 41
+   "v": 42
   },
   {
    "n": "AP",
-   "v": 40
+   "v": 42
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 59
+   "v": 57
   },
   {
    "n": "Ближний Восток",
-   "v": 54
+   "v": 56
   },
   {
    "n": "Азия",
-   "v": 47
+   "v": 46
   },
   {
    "n": "Африка",
-   "v": 47
+   "v": 46
   },
   {
    "n": "Америка",
-   "v": 44
+   "v": 45
   }
  ],
  "events": [
   {
-   "t": "Семь рейсов по Европе подверглись подозрению в угрозах взрыва",
-   "x": "Самолеты в Польше, Испании, Болгарии и Италии были проверены на наличие взрывчатых веществ после отдельных угроз.",
+   "t": "Прямые обновления промежуточных выборов в США 2026 года: демократы берут под свой контроль Конгресс, что является серьезной неудачей для Трампа",
+   "x": "Демократы поменяли семь мест в Сенате в Канзасе, Айове, Техасе, Мэне, Огайо, Северной Каролине и Южной Каролине; «Голубая волна» отвергает повестку дня Трампа. Отслеживайте живые результаты во всех 50 штатах. Полный отчет: демократы получают контроль над Конгрессом. Расскажите нам: как вы относитесь к",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 91,
+   "ten": 44,
+   "ago": 7,
+   "s": [
+    "The Guardian",
+    "CNBC",
+    "Euronews",
+    "Dawn",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+   "img": "https://i.guim.co.uk/img/media/2289c25cb92bd6c75d4bf752e0d4b85e41ef3df2/459_0_4162_3329/master/4162.jpg?width=700&quality=85&auto=format&fit=max&s=5a075ac0aabbb051aefa2cde47df7713",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 8,
+   "lat": 38.47,
+   "lon": -99.45,
+   "place": "США",
+   "place_en": "United States",
+   "id": 1,
+   "t_en": "US midterm elections 2026 live updates: Democrats take control of Congress in major setback for Trump",
+   "x_en": "Democrats flip seven Senate seats in Kansas, Iowa, Texas, Maine, Ohio, North Carolina and South Carolina; ‘blue wave’ rejects Trump’s agenda Track live results from all 50 states Full report: Democrats win control of Congress Tell us: how do you feel about the"
+  },
+  {
+   "t": "Число погибших в результате удара России по украинскому объекту помощи достигло 29, 48 пропали без вести",
+   "x": "Россия запустила 289 ударных беспилотников, 17 баллистических ракет и 59 крылатых ракет по девяти регионам, заявил президент Зеленский в онлайн-сообщении, в котором отметил, что обстрел совпал с выборами в США.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 94,
-   "ten": 92,
-   "ago": 30,
+   "imp": 91,
+   "ten": 90,
+   "ago": 57,
    "s": [
-    "BBC",
+    "NPR",
+    "Euronews",
+    "Africanews",
+    "Reuters"
+   ],
+   "u": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1333+0+0/resize/2000x1333!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2F00%2Fe7174a5c406193d73990b753ec8d%2Fap26307327730564.jpg",
+   "img_src": "NPR",
+   "fresh": true,
+   "n": 4,
+   "lat": 61.65,
+   "lon": 96.05,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 2,
+   "t_en": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+   "x_en": "Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, President Zelenskyy said in an online post that noted the barrage coincided with U.S. elections."
+  },
+  {
+   "t": "Смертельные крушения поездов в Испании подорвали доверие общества к системе",
+   "x": "Педро Санчес и его коалиционное правительство, возглавляемое социалистами, стремятся восстановить доверие в преддверии досрочных выборов, но перед ними стоит огромная задача • Не получите сообщение «Это Европа» на свой почтовый ящик? Зарегистрируйтесь здесь Неделю назад сегодня, второй раз за девять месяцев.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 46,
+   "ago": 24,
+   "s": [
     "The Guardian",
     "NYT",
     "ABC News",
-    "Japan Times"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/db91/live/79069d70-d79d-11f1-84dd-e55f4bec0ecd.png",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 5,
-   "lat": 52.01,
-   "lon": 20.82,
-   "place": "Варшава",
-   "place_en": "Warsaw",
-   "id": 1,
-   "t_en": "Seven flights across Europe targeted by suspected bomb threats",
-   "x_en": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats."
-  },
-  {
-   "t": "Демократы побеждают в Конгрессе: как они это сделали и что это значит",
-   "x": "Имея контроль над Конгрессом, демократы могут бросить вызов повестке дня Трампа посредством повесток в суд и голосований по утверждению кандидатуры.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 92,
-   "ten": 53,
-   "ago": 7,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "Dawn",
     "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/democrats-win-the-us-senate-what-does-this-mean?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/bca6f5fa-d812-11f1-ad05-695cb59fade5/w:1024/p:16x9/AP26306711947330.jpg",
-   "img_src": "France 24",
+   "u": "https://www.theguardian.com/world/2026/nov/04/spains-deadly-train-crashes-have-damaged-public-trust-in-the-system",
+   "img": "https://i.guim.co.uk/img/media/761dff5040731572cd809d76f86cf7a461b0100f/517_447_2958_2366/master/2958.jpg?width=700&quality=85&auto=format&fit=max&s=afd77dfc8255499f9508c4a6a3c43dbb",
+   "img_src": "The Guardian",
    "fresh": true,
    "n": 4,
-   "lat": 39.37,
-   "lon": -97.76,
-   "place": "США",
-   "place_en": "United States",
-   "id": 2,
-   "t_en": "Democrats win Congress: How they did it, and what it means",
-   "x_en": "With control of Congress, Democrats can challenge Trump’s agenda through subpoenas, confirmation votes."
-  },
-  {
-   "t": "Северная Корея запустила несколько ракет и отрицает обвинения США в взломе Binance",
-   "x": "Ким Ё Чен отказывается от диалога с США после того, как отрицает ответственность за кражу криптовалютных активов на сумму более 6 миллиардов долларов.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 92,
-   "ten": 79,
-   "ago": 32,
-   "s": [
-    "Al Jazeera",
-    "Euronews",
-    "CNA",
-    "Yonhap",
-    "Times of India",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/97/73/59/696x392_cmsv2_5d6e267c-9723-5e1c-9bd3-a0017ae7c58d-9977359.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 8,
-   "lat": 39.93,
-   "lon": -98.65,
-   "place": "США",
-   "place_en": "United States",
+   "lat": 40.2,
+   "lon": -2.65,
+   "place": "Испания",
+   "place_en": "Spain",
    "id": 3,
-   "t_en": "N Korea fires multiple missiles, denies US claims on Binance hack",
-   "x_en": "Kim Yo Jong refuses dialogue with US after denying responsibility for theft of more than $6bn in crypto assets."
+   "t_en": "Spain’s deadly train crashes have damaged public confidence in the system",
+   "x_en": "Pedro Sánchez and his socialist-led coalition government are racing to rebuild trust ahead of a snap election, but the task they face is immense • Don’t get This Is Europe delivered to your inbox? Sign up here A week ago today, for the second time in nine mont"
   },
   {
-   "t": "Промежуточные выборы в США: демократы поменяли место в Сенате Северной Каролины",
-   "x": "Демократы сменили место в Сенате Северной Каролины, пытаясь вернуть себе большинство в Конгрессе и ослабить единую власть республиканцев в Вашингтоне. Флоранс Вильмино из France 24 знакомит нас с электоральной картой США.",
-   "r": "Америка",
+   "t": "Верховный суд Великобритании рассматривает апелляцию на запрет палестинской акции",
+   "x": "Правозащитники говорят, что решение Великобритании против палестинской акции является «злоупотреблением террористическими полномочиями».",
+   "r": "Европа",
    "c": "Политика",
-   "imp": 90,
-   "ten": 43,
-   "ago": 8,
-   "s": [
-    "France 24",
-    "CNBC",
-    "The Hindu",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/video/20261104-us-midterms-democrats-flip-senate-seat-in-north-carolina",
-   "img": "https://s.france24.com/media/display/39130d60-d7f8-11f1-8bf4-d18c5759e759/w:1024/p:16x9/EN-20261104-030003-030547-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 6,
-   "lat": 38.75,
-   "lon": -97.87,
-   "place": "США",
-   "place_en": "United States",
-   "id": 4,
-   "t_en": "US midterm elections: Democrats flip Senate seat in North Carolina",
-   "x_en": "Democrats have flipped a Senate seat in North Carolina as they try to recapture majorities in Congress and break Republicans’ unified hold on power in Washington. France 24's Florence Villeminot walks us through the US electoral map."
-  },
-  {
-   "t": "Демократ Эми Эктон победила республиканца Вивека Рамасвами на выборах губернатора Огайо",
-   "x": "Эктон — первый демократ, ставший губернатором Огайо с 2006 года.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 89,
-   "ten": 40,
+   "imp": 83,
+   "ten": 78,
    "ago": 15,
    "s": [
     "Al Jazeera",
-    "Times of India",
-    "The Hindu",
-    "AP"
+    "The Guardian",
+    "NYT"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/democrat-amy-acton-beats-republican-vivek-ramaswamy-in-ohio-governors-race?traffic_source=rss",
-   "img": "https://static.toiimg.com/photo/msid-135523143,imgsize-833642.cms",
-   "img_src": "Times of India",
+   "u": "https://www.aljazeera.com/news/2026/11/4/uk-supreme-court-hears-appeal-against-palestine-actions-proscription?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/537ec856066045f324f9d6bb89a717ca8322717a/945_19_4440_3551/master/4440.jpg?width=700&quality=85&auto=format&fit=max&s=52d8b1996bff2b524cf23d0b01b7ae70",
+   "img_src": "The Guardian",
    "fresh": true,
-   "n": 4,
-   "lat": 39.81,
-   "lon": -99.29,
+   "n": 3,
+   "lat": 53.84,
+   "lon": -1.79,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 4,
+   "t_en": "UK Supreme Court hears appeal against Palestine Action’s proscription",
+   "x_en": "Rights activists say UK decision against Palestine Action is a 'misuse of terrorism powers'."
+  },
+  {
+   "t": "Смогут ли демократы остановить войну с Ираном и отменить пошлины Трампа после победы на промежуточных выборах?",
+   "x": "Демократы могут заблокировать законодательную программу Трампа, начать расследование, но у них нет достаточного количества голосов, чтобы преодолеть его вето.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 81,
+   "ten": 54,
+   "ago": 8,
+   "s": [
+    "Al Jazeera",
+    "DW",
+    "The Guardian"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/4/tariffs-to-iran-war-can-democrats-reverse-trump-policy-with-midterms-win?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/2a93f1501ef9ad49bab6fef5ee59dc4a5af2e1b6/785_0_5678_4542/master/5678.jpg?width=700&quality=85&auto=format&fit=max&s=27605fb4acada390537fa3138730f2b0",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.14,
+   "lon": -98.44,
    "place": "США",
    "place_en": "United States",
    "id": 5,
-   "t_en": "Democrat Amy Acton beats Republican Vivek Ramaswamy in Ohio governor’s race",
-   "x_en": "Acton is the first Democrat to become governor of Ohio since 2006."
+   "t_en": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
+   "x_en": "Democrats can block Trump's legislative agenda, launch investigations but don't have the numbers to override his veto."
+  },
+  {
+   "t": "АНК сталкивается с гневом по поводу плохих услуг, поскольку южноафриканцы голосуют на местных выборах",
+   "x": "Ожидается, что партия наберет менее трети голосов на фоне разочарования по поводу перебоев в водоснабжении и отключении электроэнергии. Африканский национальный конгресс находится на пути к разгромному результату на местных выборах в Южной Африке в среду, поскольку избиратели идут на избирательные участки в условиях глубокого недовольства",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 40,
+   "ago": 74,
+   "s": [
+    "The Guardian",
+    "ABC News",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+   "img": "https://i.guim.co.uk/img/media/e9b250d3d92ad0c01aabfd863c7f2487bcf38208/405_0_4412_3530/master/4412.jpg?width=700&quality=85&auto=format&fit=max&s=51cd6c20bfe7f3b1480aed9b51953c0d",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.06,
+   "lon": -97.48,
+   "place": "США",
+   "place_en": "United States",
+   "id": 6,
+   "t_en": "ANC faces anger over poor services as South Africans vote in local elections",
+   "x_en": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local elections on Wednesday as voters go to the polls amid deep disconten"
+  },
+  {
+   "t": "Абдул Эль-Сайед вошел в историю как первый мусульманин, избранный в Сенат США",
+   "x": "Демократ Абдул Эль-Сайед выиграл выборы в Сенат штата Мичиган у республиканца Майка Роджерса, став первым мусульманином, избранным в Сенат США. 42-летний врач, представляющий прогрессивное крыло Демократической партии, получил место, которое хотели получить республиканцы.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 78,
+   "ten": 37,
+   "ago": 7,
+   "s": [
+    "Euronews",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.euronews.com/2026/11/04/abdul-el-sayed-makes-history-as-first-muslim-elected-to-us-senate",
+   "img": "https://images.euronews.com/articles/stories/09/97/93/41/696x392_cmsv2_2249fd9a-cb7a-5a42-a5a4-fed5bca82f77-9979341.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 3,
+   "lat": 38.94,
+   "lon": -99.64,
+   "place": "США",
+   "place_en": "United States",
+   "id": 7,
+   "t_en": "Abdul El-Sayed makes history as first Muslim elected to US Senate",
+   "x_en": "Democrat Abdul El-Sayed has won Michigan's Senate race against Republican Mike Rogers, becoming the first Muslim elected to the US Senate. The 42-year-old physician, who represents the progressive wing of the Democratic Party, secured a seat that Republicans h"
   },
   {
    "t": "Джеймс Таларико становится первым демократом, получившим место в Сенате Техаса с 1988 года.",
    "x": "«Это было не просто цунами, не просто референдум, это была кровавая баня», - сказал Би-би-си один эксперт об исторических победах демократов в Техасе.",
    "r": "Америка",
    "c": "Политика",
-   "imp": 88,
-   "ten": 40,
-   "ago": 23,
+   "imp": 78,
+   "ten": 42,
+   "ago": 107,
    "s": [
     "BBC",
-    "France 24",
+    "Dawn",
     "The Hindu",
-    "Reuters",
     "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2e3c/live/a1b3d4e0-d7ac-11f1-9092-abeae3cab3b1.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73ea/live/1e2e9940-d836-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
-   "fresh": true,
-   "n": 5,
+   "fresh": false,
+   "n": 4,
    "lat": 39.72,
    "lon": -98.77,
    "place": "США",
    "place_en": "United States",
-   "id": 6,
+   "id": 8,
    "t_en": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
    "x_en": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas."
   },
   {
-   "t": "Министр транспорта Испании ушел в отставку через несколько дней после смертельного крушения поезда",
-   "x": "По меньшей мере 69 человек погибли и десятки получили ранения в результате столкновения к югу от столицы Мадрида.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 59,
-   "ago": 41,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "The Guardian",
-    "Sky News",
-    "NYT",
-    "ABC News",
-    "The Hindu",
-    "Politico EU"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6eee/live/c7353ed0-d81e-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 8,
-   "lat": 39.56,
-   "lon": -2.78,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 7,
-   "t_en": "Spanish transport minister resigns days after deadly train crash",
-   "x_en": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid."
-  },
-  {
-   "t": "Демократ Эми Эктон творит историю в Огайо",
-   "x": "Демократ Эми Эктон побеждает республиканца Вивека Рамасвами и становится первой женщиной, избранной губернатором штата Огайо.",
+   "t": "Промежуточные выборы в США: «Возможно, лучший цвет для Техаса — фиолетовый»",
+   "x": "Техас стал синим после промежуточных выборов в США, ознаменовав исторический сдвиг для штата, который десятилетиями не возглавлялся демократами. Наследие длительного правления республиканцев оставило неизгладимый след, но, как сказал демократ Джеймс Таларико в отношении этого избранного",
    "r": "Америка",
    "c": "Политика",
-   "imp": 83,
-   "ten": 40,
-   "ago": 57,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "Times of India",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-amy-acton-makes-history-in-ohio?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/af1c1046-d81c-11f1-a439-695cb59fade5/w:1024/p:16x9/minia-en-bottoms.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 6,
-   "lat": 39.83,
-   "lon": -98.03,
-   "place": "США",
-   "place_en": "United States",
-   "id": 8,
-   "t_en": "Democrat Amy Acton makes history in Ohio",
-   "x_en": "Democrat Amy Acton defeats Republican Vivek Ramaswamy to become the first ever woman to be elected as governor in Ohio."
-  },
-  {
-   "t": "Голубая волна «превращается в цунами», поскольку демократы берут под контроль Конгресс",
-   "x": "Демократы захватили контроль над Сенатом и Палатой представителей на промежуточных выборах в США 3 ноября, впервые за многие поколения одержав уверенную победу в оплотах республиканцев, когда десятки миллионов избирателей выступили с резким упреком в адрес президента Дональда Трампа.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 82,
-   "ten": 63,
-   "ago": 8,
+   "imp": 76,
+   "ten": 35,
+   "ago": 20,
    "s": [
     "France 24",
-    "CNBC",
-    "Euronews"
+    "Euronews",
+    "Africanews"
    ],
-   "u": "https://www.france24.com/en/video/20261104-blue-wave-turning-into-a-tsunami-as-democrats-take-control-of-congress",
-   "img": "https://s.france24.com/media/display/9e16a558-d822-11f1-805e-695cb59fade5/w:1024/p:16x9/EN-20261104-080944-081226-CS.jpg",
+   "u": "https://www.france24.com/en/us-midterm-elections-maybe-the-best-colour-for-texas-is-purple",
+   "img": "https://s.france24.com/media/display/cefbe528-d865-11f1-9baa-695cb59fade5/w:1024/p:16x9/EN-20261104-161328-161923-CS.jpg",
    "img_src": "France 24",
    "fresh": true,
    "n": 3,
-   "lat": 39.39,
-   "lon": -97.76,
+   "lat": 40.52,
+   "lon": -98.96,
    "place": "США",
    "place_en": "United States",
    "id": 9,
-   "t_en": "Blue wave 'turning into a tsunami' as Democrats take control of Congress",
-   "x_en": "Democrats seized control of both the Senate and House at the US midterms on November 3, scoring sweeping victories in Republican strongholds for the first time in generations as tens of millions of voters delivered a scathing rebuke to President Donald Trump. "
+   "t_en": "US midterm elections: 'Maybe the best colour for Texas is purple'",
+   "x_en": "Texas flipped blue following the US midterm elections, marking a historic shift for a state that hasn't been led by Democrats in decades. The legacy of prolonged Republican leadership has left a lasting mark, but as Democrat James Talarico said with this elect"
   },
   {
-   "t": "Правительство Индонезии заявило, что бывший начальник полиции мог совершить «измену», прослушивая телефонные разговоры президента",
-   "x": "Листье Сигит Прабово занимал должность начальника национальной полиции в период предполагаемого прослушивания телефонных разговоров.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 81,
-   "ten": 45,
-   "ago": 80,
-   "s": [
-    "CNA",
-    "The Hindu",
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/indonesia-listyo-sigit-prabowo-treason-wiretapping-6521676",
-   "img": "https://dam.mediacorp.sg/image/upload/s--PknL1Tzs--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/03/000_c9wb48p.jpg?itok=lwxjIChI",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 5,
-   "lat": -2.27,
-   "lon": 118.6,
-   "place": "Индонезия",
-   "place_en": "Indonesia",
-   "id": 10,
-   "t_en": "Indonesia government says ex-police chief may have committed 'treason' by wiretapping president",
-   "x_en": "Listyo Sigit Prabowo had served as the national police chief during the period of the alleged wiretapping."
-  },
-  {
-   "t": "Europe Today: Демократы побеждают в Сенате, осуждая Трампа, поскольку конституционный кризис в Польше затягивается",
-   "x": "Голубая волна захлестнула США на промежуточных выборах: демократы победили в Сенате и получили значительное большинство в Палате представителей, поскольку голоса на Западном побережье все еще подсчитываются. Мы приносим живой анализ из Филадельфии и Брюсселя, а также кризис в Польше и Украине.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 78,
-   "ten": 51,
-   "ago": 22,
-   "s": [
-    "Euronews",
-    "Politico EU",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/2026/11/04/europe-today-democrats-win-senate-in-rebuke-of-trump-as-polands-crisis-drags-on",
-   "img": "https://images.euronews.com/articles/stories/09/97/41/03/696x392_cmsv2_fc2958e0-7d1a-54c9-b721-b1d124388d6d-9974103.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 3,
-   "lat": 40.41,
-   "lon": -99.57,
-   "place": "США",
-   "place_en": "United States",
-   "id": 11,
-   "t_en": "Europe Today: Democrats win Senate in rebuke of Trump as Poland’s constitutional crisis drags on",
-   "x_en": "A blue wave has swept the US in the midterm elections, with Democrats winning the Senate and heading for a big House majority as votes are still being counted on the West Coast. We bring live analysis from Philadelphia and Brussels, plus Poland’s crisis, Ukrai"
-  },
-  {
-   "t": "Промежуточные выборы 2026 года: демократы получают контроль над Палатой представителей и Сенатом, а оплоты республиканцев падают",
-   "x": "Демократы меняют места в Сенате в Мичигане, Техасе, Айове, Канзасе, Северной Каролине, Южной Каролине и Огайо; избиратели отвергают повестку дня Трампа в «голубой волне» Отслеживайте живые результаты во всех 50 штатах Полный отчет: демократы получают контроль над Конгрессом в «голубой волне» Расскажите нам: что",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 77,
-   "ten": 37,
-   "ago": 19,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "Yonhap"
-   ],
-   "u": "https://www.france24.com/en/americas/20261103-live-americans-head-to-the-polls-to-vote-in-us-midterm-elections",
-   "img": "https://i.guim.co.uk/img/media/a42ff5f4edb2a9b0e1ea5d089f5a80f58449c6ae/39_571_6336_5070/master/6336.jpg?width=700&quality=85&auto=format&fit=max&s=7d97eb7ed71afb74615eac7066245996",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.1,
-   "lon": -98.73,
-   "place": "США",
-   "place_en": "United States",
-   "id": 12,
-   "t_en": "Midterms 2026: Democrats win control of House and Senate as Republican strongholds fall",
-   "x_en": "Democrats flip Senate seats in Michigan, Texas, Iowa, Kansas, North Carolina, South Carolina and Ohio; voters reject Trump’s agenda in ‘blue wave’ Track live results from all 50 states Full report: Democrats win control of Congress in ‘blue wave’ Tell us: what"
-  },
-  {
-   "t": "Впервые среди женщин и меньшинств на промежуточных выборах в США",
-   "x": "Выборы, на которых демократы добились больших успехов, также стали первыми для женщин и представителей меньшинств на крупных постах.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 76,
-   "ten": 37,
-   "ago": 19,
-   "s": [
-    "Al Jazeera",
-    "Euronews",
-    "Dawn"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/firsts-for-women-and-minorities-in-us-midterm-elections?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/97/90/77/696x392_cmsv2_cb057cb0-17d2-5192-b9ee-a9f4dd36bcae-9979077.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.23,
-   "lon": -98.68,
-   "place": "США",
-   "place_en": "United States",
-   "id": 13,
-   "t_en": "Firsts for women and minorities in US midterm elections",
-   "x_en": "The elections, which saw Democrats make big gains, also marked firsts for women and minorities in major offices."
-  },
-  {
-   "t": "Эль-Сайед побеждает Роджерса и получает место в Сенате штата Мичиган",
-   "x": "Это сенсационная новость.",
+   "t": "Французские банки крови предотвратили новую кибератаку, нацеленную на холодильники",
+   "x": "Кибератака во Франции была нацелена на три холодильных склада, в которых хранились образцы донорской крови и плазмы, сообщили власти в среду. Инцидент, который не увенчался успехом из-за систем сигнализации на объектах, является последним в серии предполагаемых нападений, которые",
    "r": "Европа",
    "c": "Общее",
    "imp": 76,
-   "ten": 40,
-   "ago": 28,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/el-sayed-defeats-rogers-to-win-senate-seat-in-michigan?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/dc5ddf66-d7fa-11f1-a8fe-d18c5759e759/w:1024/p:16x9/capture-b2e393bd.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.69,
-   "lon": -98.13,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "El-Sayed defeats Rogers to win Senate seat in Michigan",
-   "x_en": "This is a breaking news story."
-  },
-  {
-   "t": "Демократ Джош Турек отказался от места в Сенате штата Айова",
-   "x": "Турек победил республиканца Эшли Хинсон, члена Палаты представителей США.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 75,
-   "ten": 35,
-   "ago": 27,
-   "s": [
-    "Al Jazeera",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/democrat-josh-turek-flips-iowa-senate-seat?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6aeab9f4-1793767924.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 5,
-   "lat": 39.1,
-   "lon": -98.18,
-   "place": "США",
-   "place_en": "United States",
-   "id": 15,
-   "t_en": "Democrat Josh Turek flips Iowa Senate seat",
-   "x_en": "Turek beat Republican Ashley Hinson, a US House member."
-  },
-  {
-   "t": "Республиканцы Флориды отбиваются от демократов, поскольку штат выбирает первого чернокожего губернатора",
-   "x": "Республиканец Байрон Дональдс, которого поддержал президент Дональд Трамп, станет первым чернокожим губернатором Флориды.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 37,
-   "ago": 47,
-   "s": [
-    "BBC",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ee47/live/138d4020-d80b-11f1-915d-779ac405bbbc.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 3,
-   "lat": 40.7,
-   "lon": -98.28,
-   "place": "США",
-   "place_en": "United States",
-   "id": 16,
-   "t_en": "Florida Republicans fend off Democrats as state elects first black governor",
-   "x_en": "Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida."
-  },
-  {
-   "t": "Демократ Трой Джексон выиграл место в Сенате США от штата Мэн, нанеся удар республиканцам",
-   "x": "Сенатор-республиканец Сьюзан Коллинз, долгое время занимавшая это место в течение трех десятилетий, была смыта голубой волной.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 71,
-   "ten": 35,
+   "ten": 68,
    "ago": 55,
    "s": [
-    "Al Jazeera",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/democrat-troy-jackson-wins-maine-us-senate-seat-in-blow-to-republicans?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aeacd993cd0f-1793772953.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.02,
-   "lon": -98.05,
-   "place": "США",
-   "place_en": "United States",
-   "id": 17,
-   "t_en": "Democrat Troy Jackson wins Maine US Senate seat in blow to Republicans",
-   "x_en": "Longtime Republican Senator Susan Collins had held the seat for three decades, but was swept away in the blue wave."
-  },
-  {
-   "t": "Голосование южноафриканцев на местных выборах рассматривается как испытание для находящегося в боевой готовности АНК",
-   "x": "Опросы показывают, что доля правящей партии может упасть ниже 40 процентов, поскольку избиратели взвешивают недостатки услуг.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 71,
-   "ten": 40,
-   "ago": 62,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "ABC News"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/ab849d0dfce7fca0440c040983efe4e27460cf1e/1440_0_7200_5760/master/7200.jpg?width=700&quality=85&auto=format&fit=max&s=2b4b7bc65d60feb67a8ced55d59c7921",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": -29.91,
-   "lon": 24.88,
-   "place": "ЮАР",
-   "place_en": "South Africa",
-   "id": 18,
-   "t_en": "South Africans vote in local elections seen as test for embattled ANC",
-   "x_en": "Polls suggest the governing party could fall below 40 percent as voters weigh failing services."
-  },
-  {
-   "t": "Спикер Палаты представителей США Джонсон разглагольствует о марксизме после победы демократов",
-   "x": "Спикер Палаты представителей США Майк Джонсон призвал республиканцев не терять надежду после того, как демократы добились значительных успехов на промежуточных выборах 2026 года. Джонсон пообещал, что республиканцы удвоят свою повестку дня и попытаются вернуть себе Палату представителей в 2028 году.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 40,
-   "ago": 11,
-   "s": [
-    "Al Jazeera",
-    "Euronews"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/4/us-house-speaker-johnson-rants-about-marxism-after-democrat-gains?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/97/91/28/696x392_cmsv2_24c7577e-f85b-5be6-ba93-1670d82c4d99-9979128.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.74,
-   "lon": -98.98,
-   "place": "США",
-   "place_en": "United States",
-   "id": 19,
-   "t_en": "US House Speaker Johnson rants about Marxism after Democrat gains",
-   "x_en": "US House Speaker Mike Johnson has urged Republicans not to lose hope after Democrats made major gains in the 2026 midterm elections. Johnson vowed that Republicans would double down on their agenda and seek to retake the House in 2028."
-  },
-  {
-   "t": "Шеррод Браун, демократ из Огайо, возвращается в Сенат США",
-   "x": "На конкурс было потрачено более 500 миллионов долларов, что сделало его одним из самых дорогих выборов в Сенат в истории США.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 35,
-   "ago": 95,
-   "s": [
-    "Al Jazeera",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/sherrod-brown-an-ohio-democrat-wins-return-to-us-senate?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6aea8f64574b-1793757028.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.86,
-   "lon": -97.61,
-   "place": "США",
-   "place_en": "United States",
-   "id": 20,
-   "t_en": "Sherrod Brown, an Ohio Democrat, wins return to US Senate",
-   "x_en": "More than $500m was spent on the contest, making it one of the most expensive Senate races in US history."
-  },
-  {
-   "t": "Демократы захватили контроль над Конгрессом США после долгой ночи для Республиканской партии",
-   "x": "Это дало бы демократам серьезный контроль над Трампом, потенциально позволив партии провести расследование в отношении его администрации и усилить давление на Белый дом по поводу его политики.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 67,
-   "ten": 37,
-   "ago": 100,
-   "s": [
-    "Euronews",
-    "Kyiv Independent",
-    "Japan Times"
-   ],
-   "u": "https://www.euronews.com/2026/11/04/democrats-set-to-seize-control-of-congress-after-long-night-for-republican-party",
-   "img": "https://images.euronews.com/articles/stories/09/97/89/85/696x392_cmsv2_b0f45aeb-1d9f-5705-aa64-d86a49ec330c-9978985.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.1,
-   "lon": -97.77,
-   "place": "США",
-   "place_en": "United States",
-   "id": 21,
-   "t_en": "Democrats seize control of US Congress after long night for Republican party",
-   "x_en": "It would give the Democrats a significant check on Trump, potentially allowing the party to investigate his administration and to increase pressure on the White House over its policies."
-  },
-  {
-   "t": "Фьючерсы на акции смешанные, поскольку демократы выигрывают на промежуточных выборах, трейдеры делают ставку на то, что они замедлят строительство центров обработки данных: текущие обновления",
-   "x": "Инвесторы ждут результатов промежуточных выборов в США в 2026 году.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 40,
-   "ago": 13,
-   "s": [
-    "CNBC",
-    "NYT"
-   ],
-   "u": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html",
-   "img": "https://static01.nyt.com/images/2026/11/04/multimedia/04int-theworld-midterms-virginia-qvcf/04int-theworld-midterms-virginia-qvcf-mediumSquareAt3X-v2.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.42,
-   "lon": -99.14,
-   "place": "США",
-   "place_en": "United States",
-   "id": 22,
-   "t_en": "Stock futures mixed as Democrats win big in midterms, traders bet they will slow data center buildout: Live updates",
-   "x_en": "Investors braced for the results of the 2026 U.S. midterm elections."
-  },
-  {
-   "t": "Южная Каролина избирает сенатора-демократа впервые за почти три десятилетия",
-   "x": "Предполагается, что Энни Эндрюс победит Дарлин Грэм, которую президент Трамп выбрал, чтобы занять место ее брата после его смерти.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 66,
-   "ten": 48,
-   "ago": 27,
-   "s": [
-    "BBC",
-    "Al Jazeera"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e6a3/live/caaae0c0-d822-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": 38.43,
-   "lon": -97.68,
-   "place": "США",
-   "place_en": "United States",
-   "id": 23,
-   "t_en": "South Carolina elects Democratic senator for first time in almost three decades",
-   "x_en": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death."
-  },
-  {
-   "t": "Прогрессивный Абдул Эль-Сайед победил в гонке в Сенат штата Мичиган и стал первым сенатором США-мусульманином",
-   "x": "Демократ побеждает Майка Роджерса в гонке, отмеченной исламофобскими нападками со стороны Трампа и его союзников-республиканцев Абдул Эль-Сайед, врач и прогрессивный повстанец, вошел в историю, выиграв тщательно отслеживаемую гонку в Сенат США в Мичигане, победив республиканца Майка.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 65,
-   "ten": 40,
-   "ago": 27,
-   "s": [
-    "The Guardian",
-    "The Hindu"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/03/abdul-el-sayed-mike-rogers-michigan-senate",
-   "img": "https://i.guim.co.uk/img/media/962825a1cc0faaec411418d7850b922d8dd48894/0_0_3000_2400/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=bbecb061621e8d3c43960b285937e095",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.29,
-   "lon": -97.21,
-   "place": "США",
-   "place_en": "United States",
-   "id": 24,
-   "t_en": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
-   "x_en": "Democrat defeats Mike Rogers in race marked by Islamophobic attacks from Trump and Republican allies Abdul El-Sayed, the doctor and progressive insurgent, has made history in winning the closely watched US Senate race in Michigan, defeating the Republican Mike"
-  },
-  {
-   "t": "«Демократы проделали хорошую работу»: Трамп поздравляет демократов с победами на промежуточных выборах",
-   "x": "Президент США Дональд Трамп признал, что рост цен на бензин, связанный с войной в Иране, способствовал поражению его Республиканской партии на промежуточных выборах. Он сказал, что избиратели поддержали его действия против Ирана, но не хотели платить больше за насос.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 48,
-   "ago": 34,
-   "s": [
-    "Euronews",
-    "The Hindu"
-   ],
-   "u": "https://www.euronews.com/2026/11/04/democrats-did-a-good-job-trump-congratulates-democrats-on-midterm-wins",
-   "img": "https://images.euronews.com/articles/stories/09/97/91/09/696x392_cmsv2_bb15f272-0008-5b83-a7b2-b67708c93b15-9979109.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.01,
-   "lon": -98.72,
-   "place": "США",
-   "place_en": "United States",
-   "id": 25,
-   "t_en": "‘Democrats did a good job’: Trump congratulates Democrats on midterm wins",
-   "x_en": "US President Donald Trump has acknowledged that rising petrol prices linked to the war in Iran contributed to his Republican Party's defeat in the midterm elections. He said voters supported his actions against Iran but were reluctant to pay more at the pump. "
-  },
-  {
-   "t": "Таларико говорит, что «власть принадлежит народу», поскольку демократы одержали крупную победу в Техасе",
-   "x": "Демократ Джеймс Таларико во вторник сменил место в Сенате США в Техасе, победив республиканца Кена Пакстона и одержав первую победу в масштабе штата за более чем 30 лет и нанеся толчок давнему оплоту Республиканской партии, который президент Дональд Трамп с трудом одержал.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 34,
-   "ago": 23,
-   "s": [
     "France 24",
-    "Euronews"
+    "Politico EU",
+    "Reuters"
    ],
-   "u": "https://www.france24.com/en/video/20261104-talarico-says-power-belongs-to-the-people-as-democrats-win-big-in-texas",
-   "img": "https://s.france24.com/media/display/6b557b0e-d821-11f1-9612-695cb59fade5/w:1024/p:16x9/EN-20261104-080320-080936-CS.jpg",
+   "u": "https://www.france24.com/en/france/20261104-french-blood-banks-foil-new-cyberattack-targeting-refrigerators",
+   "img": "https://s.france24.com/media/display/539747e8-d85f-11f1-ad37-d18c5759e759/w:1024/p:16x9/000-D3247KH-1.jpg",
    "img_src": "France 24",
    "fresh": true,
    "n": 3,
-   "lat": 38.62,
-   "lon": -98.6,
-   "place": "США",
-   "place_en": "United States",
-   "id": 26,
-   "t_en": "Talarico says 'power belongs to the people' as Democrats win big in Texas",
-   "x_en": "Democrat James Talarico flipped a US Senate seat in Texas on Tuesday, defeating Republican Ken Paxton to pull off the first statewide victory in more than 30 years and sending a jolt through a longtime GOP stronghold that President Donald Trump carried by doub"
+   "lat": 45.94,
+   "lon": 4.08,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 10,
+   "t_en": "French blood banks foil new cyberattack targeting refrigerators",
+   "x_en": "A cyberattack in France targeted three cold stores containing donated blood samples and plasma, authorities said on Wednesday. The incident – which was unsuccessful due to the facilities' alarm systems – is the latest in a series of suspected attacks that have"
   },
   {
-   "t": "Результаты промежуточных выборов в США 2026 года: список победителей индийского происхождения",
-   "x": "Американцы индийского происхождения Сухас Субраманьям и Пиа Дандия получили места в Палате представителей США, а Вивек «Рамасвами» потерпел поражение в гонке за то, чтобы стать «следующим губернатором» штата Огайо.",
-   "r": "Америка",
+   "t": "Избирательная комиссия Израиля отвергает обвинения Нетаньяху в фальсификации результатов голосования",
+   "x": "Этот шаг был предпринят после того, как генеральный прокурор заблокировал призыв ШАБАКа допросить политиков из партий, возглавляемых палестинцами. Избирательная комиссия Израиля в среду подтвердила окончательные результаты голосования на прошлой неделе, которое лишило крайне правую коалицию Биньямина Нетаньяху права голоса.",
+   "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 64,
+   "imp": 76,
    "ten": 40,
-   "ago": 31,
+   "ago": 126,
    "s": [
+    "The Guardian",
+    "Euronews",
+    "Dawn",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.thehindu.com/news/international/us-midterm-election-results-2026-list-of-indian-origin-winners-american/article71664310.ece",
-   "img": "https://th-i.thgim.com/public/incoming/257h7j/article71664303.ece/alternates/LANDSCAPE_1200/collage-us-elections.jpg.jpeg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 4,
-   "lat": 38.92,
-   "lon": -99.5,
-   "place": "США",
-   "place_en": "United States",
-   "id": 27,
-   "t_en": "US midterm election results 2026: List of Indian-origin winners",
-   "x_en": "Indian-Americans Suhas Subramanyam and Pia Dandiya won their seats in the US House of Representatives, while Vivek ‌Ramaswamy‌ was defeated in ⁠the ⁠race to become Ohio’s ‌next governor"
+   "u": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
+   "img": "https://i.guim.co.uk/img/media/288a15e92c7bafcb3600eb1b2d8e20cc71573794/291_0_3027_2421/master/3027.jpg?width=700&quality=85&auto=format&fit=max&s=d503b3b5db741025bafb03e3ec797890",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 6,
+   "lat": 32.44,
+   "lon": 34.26,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 11,
+   "t_en": "Israel’s election commission rejects Netanyahu claims of voting fraud",
+   "x_en": "Move comes after attorney general blocks Shin Bet call to interrogate politicians from Palestinian-led parties Israel’s election commission on Wednesday confirmed the final results of last week’s vote that stripped Benjamin Netanyahu’s far-right coalition of i"
   },
   {
-   "t": "Промежуточные выборы в США: «Избиратели все больше разочаровываются в президенте Трампе»",
-   "x": "Опросы общественного мнения на этих промежуточных выборах показывают, что «это будет либо спокойная ночь, либо историческая ночь для демократов». Но что движет этим импульсом? Мы обсуждаем это с нашим гостем, Мэллори Ньюолл, старшим вице-президентом Ipsos. «Мы видели в нашем опросе",
-   "r": "Америка",
+   "t": "Министр транспорта Испании подал в отставку из-за крушения поезда",
+   "x": "Рейтер",
+   "r": "Европа",
    "c": "Политика",
-   "imp": 63,
-   "ten": 48,
-   "ago": 48,
+   "imp": 76,
+   "ten": 46,
+   "ago": 133,
    "s": [
-    "France 24",
-    "The Guardian"
+    "Al Jazeera",
+    "Sky News",
+    "Politico EU",
+    "Reuters"
    ],
-   "u": "https://www.france24.com/en/video/20261104-us-midterms-voters-have-become-increasingly-frustrated-with-president-trump",
-   "img": "https://s.france24.com/media/display/c941b364-d7fd-11f1-8a7e-1beafce15fea/w:1024/p:16x9/EN-20261104-031154-032057-CS.jpg",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/4/spanish-transport-minister-resigns-over-train-crash-disasters?traffic_source=rss",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-spain-oscarpuente_7396149.jpg?20261103210019",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.91,
+   "lon": -5.02,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 12,
+   "t_en": "Spanish Transport Minister resigns over train crash disasters",
+   "x_en": "Reuters"
+  },
+  {
+   "t": "Индонезия направляет войска в Джакарту после обвинений в прослушивании телефонных разговоров",
+   "x": "Индонезийские войска размещаются в Джакарте на фоне обвинений в прослушивании телефонных разговоров с участием главы администрации президента. Подозреваемых обвиняют в незаконном прослушивании телефонов президента.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 76,
+   "ten": 70,
+   "ago": 175,
+   "s": [
+    "DW",
+    "ABC News",
+    "CNA",
+    "AP"
+   ],
+   "u": "https://www.dw.com/en/indonesia-deploys-troops-to-jakarta-after-wiretapping-allegations/a-79853779?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.abcnews.com/images/International/wirestory_8e598661a904d8af89b35ea04d420506_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": -6.07,
+   "lon": 106.91,
+   "place": "Джакарта",
+   "place_en": "Jakarta",
+   "id": 13,
+   "t_en": "Indonesia deploys troops to Jakarta after wiretapping allegations",
+   "x_en": "Indonesian troops are being stationed in Jakarta amid wiretapping allegations implicating the president's chief of staff. Suspects are being accused of illegally tapping the president's phones."
+  },
+  {
+   "t": "Застрявший американский круизный лайнер покинул Камбоджу без пассажиров",
+   "x": "Судно MV Odyssey совершало кругосветное путешествие, но приостановило запланированное трехлетнее путешествие из-за резкого роста цен на топливо.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 75,
+   "ten": 46,
+   "ago": 147,
+   "s": [
+    "CBS News",
+    "ABC News",
+    "CNA",
+    "Reuters"
+   ],
+   "u": "https://www.cbsnews.com/news/us-cruise-ship-odyssey-leaves-cambodia-no-passengers/",
+   "img": "https://s.abcnews.com/images/Travel/wirestory_cff8a432f3dcfb05269f7c21f021cc97_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 13.11,
+   "lon": 105.81,
+   "place": "Камбоджа",
+   "place_en": "Cambodia",
+   "id": 14,
+   "t_en": "Stranded U.S. cruise ship departs Cambodia with no passengers",
+   "x_en": "The MV Odyssey had been on an around-the-world cruise when it suspended its planned three-year voyage due to the sharp rise in fuel costs."
+  },
+  {
+   "t": "Швейные фабрики в Бангладеш закрываются из-за столкновений рабочих с полицией из-за протестов по поводу зарплаты",
+   "x": "Полиция столкнулась с работниками швейной промышленности, требующими повышения минимальной заработной платы в Бангладеш, где дни протестов разрушили отрасль, в которой занято около 4 миллионов человек.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 72,
+   "ten": 66,
+   "ago": 1,
+   "s": [
+    "ABC News",
+    "Nikkei Asia"
+   ],
+   "u": "https://abcnews.com/International/wireStory/bangladesh-garment-factories-close-workers-clash-police-pay-137843912",
+   "img": "https://s.abcnews.com/images/International/wirestory_eca550eb2285e98040778d280600c900_2x1_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 2,
+   "lat": 24.44,
+   "lon": 89.36,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 15,
+   "t_en": "Bangladesh garment factories close as workers clash with police in pay protests",
+   "x_en": "Police have clashed with garment workers demanding higher minimum wages in Bangladesh, where days of protests have disrupted an industry that employs about 4 million people"
+  },
+  {
+   "t": "Бёрнем говорит, что промежуточные результаты США создали «возможность» для мира сосредоточиться на стоимости жизни и прекращении войны с Ираном – политика Великобритании в прямом эфире",
+   "x": "«Я думаю, люди хотят, чтобы мир объединился и сосредоточился на вещах, которые важны для людей», — говорит премьер-министр Луиза Хей, начиная с того, что она заменяет Энди Бернхэма. Она говорит, что в эти выходные вся страна замолчит, чтобы отметить День памяти.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 66,
+   "ago": 9,
+   "s": [
+    "The Guardian",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/politics/live/2026/nov/04/ed-miliband-andy-burnham-king-charles-labour-louise-haigh-alex-burghart-pmqs-conservatives-uk-politics-latest-news",
+   "img": "https://i.guim.co.uk/img/media/2e561cbb6409fbdb9d404590fb61932c4a3b8429/398_0_6159_4927/master/6159.jpg?width=700&quality=85&auto=format&fit=max&s=a613c76a3949d073cdc97c27451f9d9b",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.54,
+   "lon": -98.23,
+   "place": "США",
+   "place_en": "United States",
+   "id": 16,
+   "t_en": "Burnham says US midterm results have created ‘opportunity’ for world to focus on cost of living and ending Iran war – UK politics live",
+   "x_en": "‘I think people want to see the world coming together and focusing on the things that matter to people,’ PM says Louise Haigh starts by saying she is standing in for Andy Burnham. She says this weekend the whole country will fall silent to mark Remembrance Sun"
+  },
+  {
+   "t": "Президент Израиля начнет консультации с партиями после тупика на выборах",
+   "x": "Херцог предупредил политиков, что «не все обязательства и обещания могут быть выполнены», если они хотят избежать новых выборов.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 71,
+   "ten": 44,
+   "ago": 19,
+   "s": [
+    "BBC",
+    "NYT"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc51/live/4104b7f0-d869-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 2,
+   "lat": 32.11,
+   "lon": 34.71,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 17,
+   "t_en": "Israel's president to begin consultations with parties after election deadlock",
+   "x_en": "Herzog warned politicians that \"not every commitment and promise can be fulfilled\" if they want to avoid another election."
+  },
+  {
+   "t": "Один человек погиб и еще один пропал без вести в результате предполагаемого нападения медведя гризли в Канаде",
+   "x": "Инцидент произошел в той же провинции, где гризли напал на группу школьников в ноябре прошлого года. Мать мертва, а ее дочь пропала без вести в западной Канаде после предполагаемого нападения медведя гризли в том же населенном пункте, где медведь напал на гризли.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 88,
+   "ago": 31,
+   "s": [
+    "The Guardian",
+    "CBS News"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
+   "img": "https://i.guim.co.uk/img/media/fceb81be290fbe0b0ac46e0b4dfc0b39aab55c9c/480_0_4800_3840/master/4800.jpg?width=700&quality=85&auto=format&fit=max&s=f39c104c7371cb168a6cb3ea9b1a018c",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 2,
+   "lat": 58.33,
+   "lon": -96.68,
+   "place": "Канада",
+   "place_en": "Canada",
+   "id": 18,
+   "t_en": "One dead and another missing in suspected grizzly bear attack in Canada",
+   "x_en": "The incident took place in the same province where a grizzly attacked a group of schoolchildren last November A mother is dead and her daughter is missing in western Canada after a suspected grizzly bear attack in the same community where a bear attacked a gro"
+  },
+  {
+   "t": "Никаких сожалений: Трамп считает войну с Ираном оправданной, несмотря на поражение по опросам",
+   "x": "Трамп признает, что война с Ираном сыграла свою роль в поражениях, но говорит, что начнет ее снова.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 91,
+   "ago": 37,
+   "s": [
+    "Al Jazeera",
+    "France 24"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/4/no-regrets-trump-says-iran-war-justified-despite-polls-drubbing?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/f15ba2ee-d83c-11f1-8d25-d18c5759e759/w:1024/p:16x9/EN-20261104-110201-110833-CS.jpg",
    "img_src": "France 24",
    "fresh": true,
    "n": 2,
-   "lat": 39.94,
-   "lon": -98.67,
+   "lat": 39.51,
+   "lon": -97.85,
    "place": "США",
    "place_en": "United States",
-   "id": 28,
-   "t_en": "US midterms: \"Voters have become increasingly frustrated with President Trump\"",
-   "x_en": "The polls in these midterm elections suggest that \"this will either be a good night or a historic night for Democrats\". But what is driving this momentum? We discuss this with our guest, Mallory Newall, Senior Vice President at Ipsos. \"We've seen in our pollin"
+   "id": 19,
+   "t_en": "No regrets: Trump says Iran war justified despite polls drubbing",
+   "x_en": "Trump acknowledges Iran war played role in defeats but says he would launch it again."
+  },
+  {
+   "t": "Французские банки крови взломаны в результате последней кибератаки на Европу",
+   "x": "Пороги температуры и размораживания подняты до «очень высокого уровня» в трех холодильных складах, где хранятся жизненно важные продукты крови Европа в прямом эфире – последние новости Национальная служба крови Франции заявила, что хакеры получили доступ к системам контроля и повысили температуру в трех холодных",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 71,
+   "ago": 109,
+   "s": [
+    "The Guardian",
+    "Sky News",
+    "CNBC"
+   ],
+   "u": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe",
+   "img": "https://i.guim.co.uk/img/media/71023ce1bb06b16b33943aaac6da2f2e793af003/414_0_4799_3840/master/4799.jpg?width=700&quality=85&auto=format&fit=max&s=bc71b87cf79b097a25597d5959b5303a",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 47.17,
+   "lon": 1.38,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 20,
+   "t_en": "French blood banks hacked in latest cyber-attack on Europe",
+   "x_en": "Temperature and defrosting thresholds raised to ‘very high levels’ at three cold stores stocking vital blood products Europe live – latest updates France’s national blood service has said hackers accessed control systems and boosted temperatures at three cold "
+  },
+  {
+   "t": "Новый цифровой банк MUFG откажется от банкоматных карт в целях защиты от киберпреступности",
+   "x": "MUFG Emut станет первым банком, аффилированным с крупной японской финансовой группой, который не будет выпускать банковские карты.",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia",
+    "Japan Times"
+   ],
+   "u": "https://asia.nikkei.com/business/finance/new-mufg-digital-bank-to-forgo-atm-cards-in-cybercrime-safeguard",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/04/thumbs/400x400/572312.jpg",
+   "img_src": "Japan Times",
+   "fresh": true,
+   "n": 2,
+   "lat": 35.99,
+   "lon": 137.91,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 21,
+   "t_en": "New MUFG digital bank to forgo ATM cards in cybercrime safeguard",
+   "x_en": "MUFG Emut will be the first bank affiliated with a major Japanese financial group not to issue cash cards."
+  },
+  {
+   "t": "Что означают промежуточные выборы в США для Украины, Ирана и других стран",
+   "x": "Республиканцы Дональда Трампа больше не будут контролировать Конгресс США после того, как демократы поменяли местами обе палаты на промежуточных выборах. Результат может повлиять на конфликты в Европе и на Ближнем Востоке.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 49,
+   "ago": 11,
+   "s": [
+    "DW",
+    "CNBC"
+   ],
+   "u": "https://www.dw.com/en/what-us-midterm-elections-mean-for-ukraine-iran-and-elsewhere/a-79836423?maca=en-rss-en-world-4025-rdf",
+   "img": "https://www.dw.com/en/what-us-midterm-elections-mean-for-ukraine-iran-and-elsewhere/image/jpeg",
+   "img_src": "DW (og)",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.3,
+   "lon": -99.74,
+   "place": "США",
+   "place_en": "United States",
+   "id": 22,
+   "t_en": "What US midterm elections mean for Ukraine, Iran and elsewhere",
+   "x_en": "Donald Trump's Republicans will no longer control the US Congress after the Democrats flipped both chambers in the midterm elections. The outcome could impact conflicts in Europe and the Middle East."
+  },
+  {
+   "t": "Почему демократам может быть сложно обуздать внешнюю политику Трампа",
+   "x": "Внешнеполитическая повестка президента США Дональда Трампа сталкивается с новыми ограничениями после промежуточных потерь.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 66,
+   "ten": 49,
+   "ago": 128,
+   "s": [
+    "Al Jazeera",
+    "DW",
+    "Times of India"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/4/why-democrats-may-struggle-to-rein-in-trumps-foreign-policy?traffic_source=rss",
+   "img": "https://static.toiimg.com/photo/msid-135541260,imgsize-263420.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.33,
+   "lon": -99.12,
+   "place": "США",
+   "place_en": "United States",
+   "id": 23,
+   "t_en": "Why Democrats may struggle to rein in Trump’s foreign policy",
+   "x_en": "US President Donald Trump's foreign policy agenda faces new constraints after midterm losses."
+  },
+  {
+   "t": "Бюллетень последних новостей | 4 ноября 2026 г. – полдень.",
+   "x": "Будьте в курсе самых важных историй со всей Европы и за ее пределами 4 ноября 2026 года — последние новости, последние новости из мира, бизнеса, развлечений, политики, культуры, путешествий.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 64,
+   "ten": 40,
+   "ago": 30,
+   "s": [
+    "Euronews",
+    "Africanews"
+   ],
+   "u": "https://www.euronews.com/video/2026/11/04/latest-news-bulletin-november-4th-2026-midday",
+   "img": "https://images.euronews.com/articles/stories/09/97/95/72/696x392_cmsv2_215ecf58-19fd-553c-8d2a-4efe81b76f3f-9979572.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 7,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 24,
+   "t_en": "Latest news bulletin | November 4th, 2026 – Midday",
+   "x_en": "Catch up with the most important stories from around Europe and beyond this November 4th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel."
   },
   {
    "t": "Фукусима пытается превратиться в центр для дронов, роботов и ракет",
@@ -901,59 +794,34 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 29,
+   "id": 25,
    "t_en": "Fukushima tries to reinvent itself as hub for drones, robots and rockets",
    "x_en": ""
   },
   {
-   "t": "Четыре танкера уничтожены морскими минами в Ормузском проливе, сообщает иранский КСИР",
-   "x": "Корпус стражей исламской революции Ирана утверждает, что суда подорвались на морских минах при попытке пересечь запрещенный маршрут.",
+   "t": "Американцы сказали «НЕТ ВОЙНЕ», заявил спикер Ирана, когда демократы принимают участие в Конгрессе",
+   "x": "Галибаф сказал: «Совесть или стоимость жизни, американцы сказали НЕТ ВОЙНЕ, и мы поддерживаем это послание».",
    "r": "Ближний Восток",
-   "c": "Общее",
+   "c": "Конфликты",
    "imp": 62,
-   "ten": 40,
-   "ago": 42,
+   "ten": 91,
+   "ago": 114,
    "s": [
-    "BBC",
-    "Reuters"
+    "CNBC",
+    "CBS News"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6f99/live/34bf7e30-d80f-11f1-bc0e-b5a9e0785e4b.jpg",
-   "img_src": "BBC",
-   "fresh": true,
+   "u": "https://www.cnbc.com/2026/11/04/us-midterm-elections-iran-war-speaker.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108321874-1781528228863-gettyimages-2277308819-230326_1_h_m01283.jpeg?v=1782877636&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": false,
    "n": 2,
-   "lat": 26.72,
-   "lon": 55.98,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 30,
-   "t_en": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
-   "x_en": "Iran's Islamic Revolutionary Guard Corps says the vessels had hit sea mines while trying to cross a prohibited route."
-  },
-  {
-   "t": "Хаким Джеффрис готов стать первым чернокожим спикером Палаты представителей США",
-   "x": "В качестве спикера г-н Джеффрис, представляющий избирательный округ Нью-Йорка, будет председательствовать над большинством, которое будет приведено к присяге в первую неделю января, взяв бразды правления у республиканцев, которые контролировали Палату представителей в течение последних четырех лет.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 62,
-   "ten": 40,
-   "ago": 48,
-   "s": [
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.thehindu.com/news/international/hakeem-jeffries-poised-to-become-first-black-speaker-of-us-house-of-representatives/article71664413.ece",
-   "img": "https://th-i.thgim.com/public/incoming/racj5a/article71664428.ece/alternates/LANDSCAPE_1200/Election_2_26__94_6.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.16,
-   "lon": -98.76,
-   "place": "США",
-   "place_en": "United States",
-   "id": 31,
-   "t_en": "Hakeem Jeffries poised to become first Black Speaker of U.S. House of Representatives",
-   "x_en": "As Speaker, Mr. Jeffries, representing a New York ​City congressional district, would preside over a majority that will be sworn in the first week of January, taking the reins from Republicans ⁠who controlled the House for the past four years"
+   "lat": 32.9,
+   "lon": 54.23,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 26,
+   "t_en": "Americans have said 'NO TO WAR,' Iran speaker says as Democrats take Congress",
+   "x_en": "Ghalibaf said that \"Conscience or the cost of living, Americans said NO TO WAR, and we endorse this message.\""
   },
   {
    "t": "Япония усилит оборону унифицированными ракетными и артиллерийскими системами",
@@ -975,59 +843,82 @@
    "lon": 137.6,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 32,
+   "id": 27,
    "t_en": "Japan to bolster defenses with unified missile, artillery systems",
    "x_en": ""
   },
   {
-   "t": "Генштаб: Россия потеряла на Украине 1 597 010 военнослужащих с 24 февраля 2022 года",
-   "x": "В это число входят 2180 жертв, которые российские войска понесли за прошедшие сутки.",
-   "r": "Европа",
-   "c": "Конфликты",
+   "t": "Затраты на долг сдерживают рост развивающихся стран, говорит представитель Рокфеллера",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
    "imp": 61,
-   "ten": 82,
-   "ago": 17,
+   "ten": 32,
+   "ago": 1,
    "s": [
-    "Kyiv Independent"
+    "Nikkei Asia"
    ],
-   "u": "https://kyivindependent.com/general-staff-russia-has-lost-1-597-010-troops-in-ukraine-since-feb-24-2022/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2292152705_20261003-062709.jpg",
-   "img_src": "Kyiv Independent",
+   "u": "https://asia.nikkei.com/economy/debt-costs-curb-growth-for-developing-nations-rockefeller-official-says",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F5%2F2%2F7%2F13387255-2-eng-GB%2F400cade648ba-photo_SXM2026101500013943.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 61.79,
-   "lon": 94.85,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 33,
-   "t_en": "General Staff: Russia has lost 1,597,010 troops in Ukraine since Feb. 24, 2022",
-   "x_en": "The number includes 2,180 casualties that Russian forces suffered over the past day."
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 28,
+   "t_en": "Debt costs curb growth for developing nations, Rockefeller official says",
+   "x_en": ""
   },
   {
-   "t": "Запрет социальных сетей в Австралии оспорен Reddit и правозащитной группой в суде",
-   "x": "Знаменитый в Австралии запрет на социальные сети для детей младше 16 лет сталкивается с проблемами в суде из-за обвинений в том, что он представляет собой цензуру и создает проблемы с конфиденциальностью.",
+   "t": "Кембридж просит адвоката почтового отделения провести расследование смерти Джейсона Ардея",
+   "x": "Джейсон Бир KC изучит «политику и процедуры» в трагическом деле самого молодого чернокожего профессора университета. Ведущий адвокат по расследованию почтового отделения Horizon был назначен руководителем независимого расследования смерти кембриджского академика Джейсона.",
    "r": "Мир",
+   "c": "Общее",
+   "imp": 61,
+   "ten": 74,
+   "ago": 11,
+   "s": [
+    "The Guardian"
+   ],
+   "u": "https://www.theguardian.com/uk-news/2026/nov/04/cambridge-university-asks-barrister-to-lead-jason-arday-review",
+   "img": "https://i.guim.co.uk/img/media/f2b11433fe6a4e276c2594f779870a25470a56f3/479_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=a9735c190c83da7af1ce01fc873f3fee",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 29,
+   "t_en": "Cambridge asks Post Office inquiry barrister to lead review into death of Jason Arday",
+   "x_en": "Jason Beer KC will examine ‘policies and procedures’ in tragic case of the university’s youngest black professor The lead barrister for the Post Office Horizon inquiry has been appointed to head an independent review into the death of Cambridge academic Jason "
+  },
+  {
+   "t": "Промежуточные выборы в США: поколение Z оказывает демократам самую решительную поддержку",
+   "x": "На промежуточных выборах в США право голоса имели 50 миллионов представителей поколения Z. Молодые избиратели оказали демократам самую сильную поддержку: за партию проголосовали 75% из них. Это поколение станет крупнейшим избирательным блоком в Соединенных Штатах в ближайшие годы.",
+   "r": "Америка",
    "c": "Политика",
    "imp": 61,
-   "ten": 48,
-   "ago": 178,
+   "ten": 40,
+   "ago": 55,
    "s": [
-    "Sky News",
-    "NYT",
-    "ABC News"
+    "France 24",
+    "NPR"
    ],
-   "u": "https://news.sky.com/story/reddit-and-rights-group-challenge-australias-under-16s-social-media-ban-in-court-13607383",
-   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-social-media-ofcom_7391817.jpg?20261030120646",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 4,
-   "lat": -24.35,
-   "lon": 133.52,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 34,
-   "t_en": "Australia's social media ban challenged by Reddit and rights group in court",
-   "x_en": "Australia's landmark social media ban for under-16s faces challenges in court over accusations that it amounts to censorship and creates privacy issues."
+   "u": "https://www.france24.com/en/video/20261104-us-midterm-elections-gen-z-gives-democrats-their-strongest-support",
+   "img": "https://s.france24.com/media/display/2d60a47e-d860-11f1-a7d7-bf1914cabd52/w:1024/p:16x9/capture-e3c48e7e.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.9,
+   "lon": -99.48,
+   "place": "США",
+   "place_en": "United States",
+   "id": 30,
+   "t_en": "US midterm elections: Gen Z gives Democrats their strongest support",
+   "x_en": "In the US midterm elections, 50 million members of Gen Z were eligible to vote. Young voters gave Democrats the strongest support, with 75% of them voting for the party. This generation will be the biggest voting bloc in the United States in the coming years. "
   },
   {
    "t": "Американские эксперты тепло относятся к японским атомным подводным лодкам как к сдерживанию Китая в азиатских водах",
@@ -1049,7 +940,7 @@
    "lon": -97.56,
    "place": "США",
    "place_en": "United States",
-   "id": 35,
+   "id": 31,
    "t_en": "US experts warm to Japanese nuclear subs as check on China in Asian waters",
    "x_en": ""
   },
@@ -1073,117 +964,207 @@
    "lon": 102.69,
    "place": "Китай",
    "place_en": "China",
-   "id": 36,
+   "id": 32,
    "t_en": "China's cable-cutting threat reaches Taiwan and the Philippines",
    "x_en": ""
   },
   {
-   "t": "Иран называет ответ США на план Ормуза «неубедительным»; Трамп подтверждает удары",
-   "x": "Непрямые переговоры продолжаются, поскольку Трамп заявил, что американские военные во вторник нанесли удар по иранскому объекту ПВО.",
+   "t": "Зеленский говорит, что теперь подтверждено, что 40 человек погибли после «безумного» нападения России на школу – Europe live",
+   "x": "В понедельник был нанесен удар по школе в Комишувахе Запорожской области. Тем временем в Кремле заявили, что надеются, что результаты промежуточных выборов в США не повлияют на то, что, по его словам, были \"миротворческими усилиями\" президента Дональда Трампа на Украине,",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 66,
+   "ago": 10,
+   "s": [
+    "The Guardian"
+   ],
+   "u": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
+   "img": "https://i.guim.co.uk/img/media/e0cb5d88bda0606809e4be729804001f7a8c9e93/664_0_5088_4071/master/5088.jpg?width=700&quality=85&auto=format&fit=max&s=8c4442249c4ddb930ede3676fa2c3ba2",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 1,
+   "lat": 49.77,
+   "lon": 32.29,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 33,
+   "t_en": "Zelenskyy says 40 now confirmed dead after ‘insane’ Russian attack on school – Europe live",
+   "x_en": "School in Komyshuvakha in the Zaporizhzhia region was struck on Monday Meanwhile, the Kremlin said that ⁠it ​hopes that the ⁠results of the US ⁠midterm ​elections ‌will not impact ‌what it ‌said were president Donald Trump’s “peacemaking efforts\" on Ukraine, R"
+  },
+  {
+   "t": "Трамп теряет контроль над Конгрессом",
+   "x": "Демократы добились исторических успехов на промежуточных выборах в США, нанеся серьезный удар президенту Дональду Трампу.",
    "r": "Америка",
    "c": "Конфликты",
    "imp": 60,
-   "ten": 54,
-   "ago": 200,
+   "ten": 53,
+   "ago": 83,
    "s": [
     "Al Jazeera",
-    "The Hindu",
-    "Reuters"
+    "Times of India"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/vwqu31/article71663803.ece/alternates/LANDSCAPE_1200/Trump_Dodging_Responsibility__6321%201.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 31.62,
-   "lon": 54.79,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 37,
-   "t_en": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
-   "x_en": "Indirect talks continue as Trump says US military struck an Iranian anti-aircraft facility on Tuesday."
-  },
-  {
-   "t": "(2-й LD) Акции Сеула закрылись ростом на фоне результатов досрочных промежуточных выборов в США",
-   "x": "СЕУЛ, 4 ноября (Рёнхап) -- Южнокорейские фондовые индексы закрылись в среду небольшим ростом...",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 40,
-   "ago": 24,
-   "s": [
-    "Yonhap"
-   ],
-   "u": "https://en.yna.co.kr/view/AEN20261104006852320",
-   "img": "https://img.yna.co.kr/photo/yna/YH/2026/11/04/PYH2026110415720001300_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": true,
-   "n": 4,
-   "lat": 37.61,
-   "lon": 126.84,
-   "place": "Сеул",
-   "place_en": "Seoul",
-   "id": 38,
-   "t_en": "(2nd LD) Seoul shares close higher on early U.S. midterm election outcome",
-   "x_en": "SEOUL, Nov. 4 (Yonhap) -- South Korean stocks closed slightly higher Wednesday a..."
-  },
-  {
-   "t": "Ксавье Бесерра побеждает в гонках на пост губернатора Калифорнии, пообещав противостоять планам Трампа",
-   "x": "Сын мексиканских иммигрантов станет первым латиноамериканским губернатором штата с 1875 года после победы над бывшим ведущим Fox News Стивом Хилтоном Промежуточные выборы в США – обновления в реальном времени Отслеживайте результаты в реальном времени из всех 50 штатов Ксавье Бесерра, бывший демократ в области здравоохранения и социального обеспечения",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 32,
-   "ago": 60,
-   "s": [
-    "The Guardian",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/03/xavier-becerra-steve-hilton-california-governor",
-   "img": "https://i.guim.co.uk/img/media/7a0df52754f0a02f3df257b2c835c5d61c2e4603/285_0_4299_3440/master/4299.jpg?width=700&quality=85&auto=format&fit=max&s=8f8073c41569f06ebe39af9209d50c95",
-   "img_src": "The Guardian",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-loses-control-of-congress?traffic_source=rss",
+   "img": "https://static.toiimg.com/photo/msid-135539446,imgsize-825958.cms",
+   "img_src": "Times of India",
    "fresh": false,
    "n": 2,
-   "lat": 33.91,
-   "lon": -118.19,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 39,
-   "t_en": "Xavier Becerra wins California race for governor with vows to resist Trump’s agenda",
-   "x_en": "Son of Mexican immigrants will become state’s first Latino governor since 1875 after victory over ex-Fox News host Steve Hilton US midterm elections – live updates Track live results from all 50 states Xavier Becerra, the Democratic former health and human ser"
-  },
-  {
-   "t": "ПОВТОР: Сенатор от Джорджии Джон Оссофф побеждает на переизбрании",
-   "x": "Сенатор от Джорджии Джон Оссофф был переизбран во вторник на второй срок, заняв ключевое место для демократов, победив представителя республиканской партии Майка Коллинза в гонке, которая вывела самого молодого члена Сената в авангард национальных звезд его партии, поскольку он",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 32,
-   "ago": 177,
-   "s": [
-    "France 24",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/video/20261104-replay-georgia-senator-jon-ossoff-wins-reelection",
-   "img": "https://s.france24.com/media/display/b38b5bd6-d7ff-11f1-8783-1beafce15fea/w:1024/p:16x9/EN-20261104-033315-034435-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.12,
-   "lon": -97.77,
+   "lat": 40.47,
+   "lon": -98.18,
    "place": "США",
    "place_en": "United States",
+   "id": 34,
+   "t_en": "Trump loses control of Congress",
+   "x_en": "Democrats have made historic gains in the US midterms, dealing a major setback to President Donald Trump."
+  },
+  {
+   "t": "Трамп заявил, что США прекратят военную помощь Израилю к концу этого года",
+   "x": "Президент США сделал неожиданное заявление в день выборов, заявив, что стране «не нужны» ежегодные выплаты в размере 4 миллиардов долларов.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 23,
+   "ago": 147,
+   "s": [
+    "The Guardian",
+    "NPR",
+    "Euronews"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/nov/03/donald-trump-usa-end-military-aid-to-israel-end-year-midterms",
+   "img": "https://i.guim.co.uk/img/media/60b8ee8c7578d9966d060062362646a8be71b3ad/225_0_2339_1872/master/2339.jpg?width=700&quality=85&auto=format&fit=max&s=f699d602b83c8cd2a47812eb49f8f4d5",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.55,
+   "lon": -99.08,
+   "place": "США",
+   "place_en": "United States",
+   "id": 35,
+   "t_en": "Trump claims US will end military aid to Israel by end of this year",
+   "x_en": "US president makes surprise election day announcement, saying country does not ‘need’ $4bn annual payment Donald Trump has said that the US will end military aid to Israel at the end of this year in a surprise election day announcement that appeared to be targ"
+  },
+  {
+   "t": "Японская IHI получила ключевую роль в строительстве новой атомной электростанции Westinghouse в Польше",
+   "x": "",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 58,
+   "ten": 48,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/energy/japan-s-ihi-wins-key-role-in-westinghouse-s-new-poland-nuclear-plant",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F3%2F5%2F1%2F13391537-1-eng-GB%2F6b29d9cf04ae-2024-08-14T020733Z_1546528781_RC29F9A01URX_RTRMADP_3_USA-ENERGY-GEORGIA.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.61,
+   "lon": 137.43,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 36,
+   "t_en": "Japan's IHI wins key role in Westinghouse's new Poland nuclear plant",
+   "x_en": ""
+  },
+  {
+   "t": "Китайские компании Temu и JD.com обновляют бизнес-модели на фоне препятствий в отношении тарифов",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 58,
+   "ten": 48,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/retail/china-s-temu-jd.com-revamp-business-models-amid-tariff-headwinds",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F4%2F5%2F4%2F13394544-2-eng-GB%2F6aa7d95465e3-photo_SXM2026092100004027.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 33.94,
+   "lon": 103.34,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 37,
+   "t_en": "China's Temu, JD.com revamp business models amid tariff headwinds",
+   "x_en": ""
+  },
+  {
+   "t": "Не позволяйте владельцу Poundland максимизировать прибыль за наш счет, говорят поставщики",
+   "x": "Британские компании, снабжающие принадлежащий США бюджетный ритейлер, столкнутся с убытками в миллионы фунтов, если он обанкротится.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 58,
+   "ten": 74,
+   "ago": 33,
+   "s": [
+    "The Guardian"
+   ],
+   "u": "https://www.theguardian.com/business/2026/nov/04/poundland-suppliers-facing-losses-gordon-brothers",
+   "img": "https://i.guim.co.uk/img/media/4b1cc1069c8b6314edc3f544b9dcf5ac43d41f76/304_0_4305_3445/master/4305.jpg?width=700&quality=85&auto=format&fit=max&s=7e490b62332987f771a55bc0c540a292",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.83,
+   "lon": -97.66,
+   "place": "США",
+   "place_en": "United States",
+   "id": 38,
+   "t_en": "Don’t let Poundland owner maximise its return at our expense, suppliers say",
+   "x_en": "British companies that supply US-owned budget retailer face millions of pounds’ worth of losses if it collapses Suppliers facing millions of pounds in losses if Poundland collapses have said the chain’s US owner should not be permitted to maximise its return a"
+  },
+  {
+   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 39,
+   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "x_en": ""
+  },
+  {
+   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 40,
-   "t_en": "REPLAY: Georgia Senator Jon Ossoff wins reelection",
-   "x_en": "Georgia Senator Jon Ossoff was reelected Tuesday to a second term, holding a key seat for Democrats by defeating Republican Representative Mike Collins in a race that catapulted the Senate’s youngest member to the forefront of his party’s national stars as it "
+   "t_en": "Dream Big with a Home Equity Loan",
+   "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793692734597,
-   "v": 50
-  },
   {
    "t": 1793721561848,
    "v": 50
@@ -1199,139 +1180,143 @@
   {
    "t": 1793779170644,
    "v": 48
+  },
+  {
+   "t": 1793808293614,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1793692770644,
-   "v": 55,
-   "n": 19
-  },
-  {
-   "t": 1793696370644,
-   "v": 57,
-   "n": 25
-  },
-  {
-   "t": 1793699970644,
-   "v": 58,
+   "t": 1793721893614,
+   "v": 44,
    "n": 27
   },
   {
-   "t": 1793703570644,
+   "t": 1793725493614,
+   "v": 43,
+   "n": 27
+  },
+  {
+   "t": 1793729093614,
+   "v": 42,
+   "n": 21
+  },
+  {
+   "t": 1793732693614,
+   "v": 48,
+   "n": 26
+  },
+  {
+   "t": 1793736293614,
+   "v": 48,
+   "n": 23
+  },
+  {
+   "t": 1793739893614,
    "v": 54,
-   "n": 31
+   "n": 28
   },
   {
-   "t": 1793707170644,
-   "v": 52,
-   "n": 34
-  },
-  {
-   "t": 1793710770644,
-   "v": 51,
-   "n": 43
-  },
-  {
-   "t": 1793714370644,
-   "v": 52,
-   "n": 46
-  },
-  {
-   "t": 1793717970644,
-   "v": 51,
-   "n": 46
-  },
-  {
-   "t": 1793721570644,
-   "v": 50,
-   "n": 38
-  },
-  {
-   "t": 1793725170644,
-   "v": 49,
-   "n": 42
-  },
-  {
-   "t": 1793728770644,
-   "v": 51,
-   "n": 39
-  },
-  {
-   "t": 1793732370644,
-   "v": 52,
-   "n": 39
-  },
-  {
-   "t": 1793735970644,
+   "t": 1793743493614,
    "v": 54,
-   "n": 36
+   "n": 28
   },
   {
-   "t": 1793739570644,
-   "v": 54,
-   "n": 46
-  },
-  {
-   "t": 1793743170644,
+   "t": 1793747093614,
    "v": 55,
-   "n": 51
+   "n": 26
   },
   {
-   "t": 1793746770644,
-   "v": 51,
-   "n": 51
+   "t": 1793750693614,
+   "v": 55,
+   "n": 23
   },
   {
-   "t": 1793750370644,
+   "t": 1793754293614,
    "v": 49,
-   "n": 53
+   "n": 27
   },
   {
-   "t": 1793753970644,
+   "t": 1793757893614,
+   "v": 49,
+   "n": 28
+  },
+  {
+   "t": 1793761493614,
+   "v": 47,
+   "n": 29
+  },
+  {
+   "t": 1793765093614,
+   "v": 48,
+   "n": 26
+  },
+  {
+   "t": 1793768693614,
    "v": 46,
-   "n": 72
+   "n": 52
   },
   {
-   "t": 1793757570644,
-   "v": 45,
-   "n": 83
+   "t": 1793772293614,
+   "v": 44,
+   "n": 77
   },
   {
-   "t": 1793761170644,
-   "v": 45,
+   "t": 1793775893614,
+   "v": 43,
    "n": 97
   },
   {
-   "t": 1793764770644,
+   "t": 1793779493614,
+   "v": 43,
+   "n": 82
+  },
+  {
+   "t": 1793783093614,
    "v": 44,
-   "n": 120
+   "n": 72
   },
   {
-   "t": 1793768370644,
-   "v": 44,
-   "n": 142
+   "t": 1793786693614,
+   "v": 45,
+   "n": 81
   },
   {
-   "t": 1793771970644,
-   "v": 43,
-   "n": 174
+   "t": 1793790293614,
+   "v": 46,
+   "n": 105
   },
   {
-   "t": 1793775570644,
-   "v": 43,
-   "n": 196
+   "t": 1793793893614,
+   "v": 47,
+   "n": 138
   },
   {
-   "t": 1793779170644,
-   "v": 43,
-   "n": 147
+   "t": 1793797493614,
+   "v": 48,
+   "n": 140
+  },
+  {
+   "t": 1793801093614,
+   "v": 48,
+   "n": 156
+  },
+  {
+   "t": 1793804693614,
+   "v": 46,
+   "n": 165
+  },
+  {
+   "t": 1793808293614,
+   "v": 46,
+   "n": 123
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 22
+   "items": 19
   },
   {
    "n": "Al Jazeera",
@@ -1339,7 +1324,7 @@
   },
   {
    "n": "DW",
-   "items": 11
+   "items": 12
   },
   {
    "n": "France 24",
@@ -1347,31 +1332,31 @@
   },
   {
    "n": "The Guardian",
-   "items": 29
-  },
-  {
-   "n": "Sky News",
-   "items": 7
-  },
-  {
-   "n": "NPR",
-   "items": 5
-  },
-  {
-   "n": "UN News",
-   "items": 0
-  },
-  {
-   "n": "CNBC",
    "items": 30
   },
   {
-   "n": "Euronews",
+   "n": "Sky News",
+   "items": 6
+  },
+  {
+   "n": "NPR",
+   "items": 8
+  },
+  {
+   "n": "UN News",
+   "items": 8
+  },
+  {
+   "n": "CNBC",
    "items": 29
   },
   {
+   "n": "Euronews",
+   "items": 38
+  },
+  {
    "n": "NYT",
-   "items": 35
+   "items": 36
   },
   {
    "n": "Washington Post",
@@ -1379,7 +1364,7 @@
   },
   {
    "n": "CBS News",
-   "items": 13
+   "items": 14
   },
   {
    "n": "ABC News",
@@ -1391,11 +1376,11 @@
   },
   {
    "n": "Fox News",
-   "items": 4
+   "items": 2
   },
   {
    "n": "ABC Australia",
-   "items": 19
+   "items": 13
   },
   {
    "n": "CNA",
@@ -1415,11 +1400,11 @@
   },
   {
    "n": "Africanews",
-   "items": 24
+   "items": 37
   },
   {
    "n": "Kyiv Independent",
-   "items": 14
+   "items": 15
   },
   {
    "n": "Yonhap",
@@ -1431,7 +1416,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 15
+   "items": 9
   },
   {
    "n": "Dawn",
@@ -1463,7 +1448,6 @@
   }
  ],
  "failed": [
-  "UN News",
   "Washington Post",
   "Times of Israel",
   "Middle East Eye",

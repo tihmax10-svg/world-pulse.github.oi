@@ -1,46 +1,46 @@
 {
- "updated": 1793932691128,
+ "updated": 1793958663674,
  "demo": false,
- "total_articles": 677,
- "second_delta": 0,
+ "total_articles": 654,
+ "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 56
+   "v": 57
   },
   {
    "n": "Al Jazeera",
-   "v": 50
+   "v": 48
   },
   {
    "n": "DW",
-   "v": 55
+   "v": 59
   },
   {
    "n": "France 24",
-   "v": 54
+   "v": 49
   },
   {
    "n": "The Guardian",
-   "v": 52
-  },
-  {
-   "n": "Sky News",
    "v": 54
   },
   {
+   "n": "Sky News",
+   "v": 40
+  },
+  {
    "n": "NPR",
-   "v": 47
+   "v": 49
   },
   {
    "n": "CNBC",
-   "v": 46
+   "v": 47
   },
   {
    "n": "Euronews",
-   "v": 49
+   "v": 53
   },
   {
    "n": "NYT",
@@ -48,11 +48,11 @@
   },
   {
    "n": "CBS News",
-   "v": 62
+   "v": 58
   },
   {
    "n": "ABC News",
-   "v": 61
+   "v": 64
   },
   {
    "n": "CNN",
@@ -60,27 +60,27 @@
   },
   {
    "n": "Fox News",
-   "v": 70
+   "v": 58
   },
   {
    "n": "ABC Australia",
-   "v": 43
+   "v": 42
   },
   {
    "n": "CNA",
-   "v": 45
+   "v": 40
   },
   {
    "n": "Africanews",
-   "v": 48
+   "v": 49
   },
   {
    "n": "Kyiv Independent",
-   "v": 45
+   "v": 49
   },
   {
    "n": "Yonhap",
-   "v": 39
+   "v": 41
   },
   {
    "n": "Nikkei Asia",
@@ -88,11 +88,11 @@
   },
   {
    "n": "The Diplomat",
-   "v": 47
+   "v": 46
   },
   {
    "n": "Dawn",
-   "v": 46
+   "v": 49
   },
   {
    "n": "Times of India",
@@ -104,7 +104,7 @@
   },
   {
    "n": "Politico EU",
-   "v": 42
+   "v": 39
   },
   {
    "n": "Japan Times",
@@ -112,11 +112,11 @@
   },
   {
    "n": "Reuters",
-   "v": 46
+   "v": 42
   },
   {
    "n": "AP",
-   "v": 46
+   "v": 42
   }
  ],
  "regions": [
@@ -126,7 +126,7 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 53
+   "v": 52
   },
   {
    "n": "Азия",
@@ -143,55 +143,53 @@
  ],
  "events": [
   {
-   "t": "Президент Парагвая уходит в отставку после того, как миллионы людей заморозили сбережения в результате банковского кризиса",
-   "x": "Правая администрация Сантьяго Пенья уполномочила банк Уэно радикально расширить операции перед крахом. Правый президент Парагвая Сантьяго Пенья подал в отставку в четверг после того, как политический и финансовый кризис обрушил экономику южноамериканской страны.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 94,
-   "ten": 69,
-   "ago": 7,
+   "t": "Небо Европы находится в состоянии повышенной готовности после ложных угроз о бомбе на этой неделе – Европа в прямом эфире",
+   "x": "На этой неделе мистификационные угрозы о взрыве бомб были нацелены на коммерческие рейсы, в результате чего было обнаружено или изменено направление по меньшей мере 35 самолетов. Авиакомпании и аэропорты по всей Европе находятся в состоянии повышенной готовности после волны ложных угроз о взрыве бомб, нацеленных на коммерческие рейсы на этой неделе, в результате чего по меньшей мере 35 самолетов оказались под угрозой.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 93,
+   "ten": 95,
+   "ago": 47,
    "s": [
     "The Guardian",
+    "CNBC",
     "NYT",
-    "The Hindu",
-    "Reuters"
+    "CBS News"
    ],
-   "u": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
-   "img": "https://i.guim.co.uk/img/media/a77eebbaa9a34c6ba08a7521d0b9d7e55650da11/1666_5_3949_3159/master/3949.jpg?width=700&quality=85&auto=format&fit=max&s=5ed3c0943e5233ed409e6bf5a4d8a789",
+   "u": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+   "img": "https://i.guim.co.uk/img/media/58e977d2b6d34908f3a1633b4fa07e17d6057f95/318_0_3183_2546/master/3183.jpg?width=700&quality=85&auto=format&fit=max&s=4576f47dbc9bbbfd8f0b25c2836b270a",
    "img_src": "The Guardian",
    "fresh": true,
-   "n": 4,
-   "lat": -23.48,
-   "lon": -57.97,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
+   "n": 6,
+   "lat": 51.63,
+   "lon": -0.29,
+   "place": "Лондон",
+   "place_en": "London",
    "id": 1,
-   "t_en": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
-   "x_en": "Santiago Peña’s rightwing administration had authorised Ueno Bank to drastically expand operations before collapse Paraguay’s rightwing president, Santiago Peña, resigned on Thursday after a political and financial crisis collapsed the South American country’s"
+   "t_en": "European skies on high alert after hoax bomb threats this week – Europe live",
+   "x_en": "Hoax bomb threats targeted commercial flights this week leaving at least 35 planes searched or diverted Airlines and airports across Europe are on high alert after a wave of hoax bomb threats targeted commercial flights this week, leaving at least 35 planes se"
   },
   {
    "t": "Гонконгский демократический активист Джошуа Вонг приговорен к 10 годам тюремного заключения по делу о национальной безопасности",
    "x": "30-летний Вонг, находящийся в тюрьме с 2020 года, является единственным активистом в Гонконге, которого дважды преследовали по закону о национальной безопасности Эксклюзив: Джошуа Вонг оплакивает судьбу города из тюрьмы строгого режима Гонконгский активист Джошуа Вонг был приговорен к 10 годам тюремного заключения",
    "r": "Азия",
-   "c": "Политика",
-   "imp": 91,
-   "ten": 43,
+   "c": "Общее",
+   "imp": 92,
+   "ten": 44,
    "ago": 1,
    "s": [
     "The Guardian",
     "NPR",
     "Euronews",
     "NYT",
-    "ABC News",
-    "CNA",
     "Nikkei Asia",
-    "The Hindu"
+    "AP"
    ],
    "u": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
    "img": "https://i.guim.co.uk/img/media/d9bf9f9b9523e26c98269088295afe0101408a09/745_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=07cb66465e5b2ceb03b6e99424ec33e1",
    "img_src": "The Guardian",
    "fresh": true,
-   "n": 9,
+   "n": 6,
    "lat": 22.3,
    "lon": 115.37,
    "place": "Гонконг",
@@ -201,304 +199,377 @@
    "x_en": "Wong, 30, in prison since 2020, is only activist in Hong Kong prosecuted twice under national security law Exclusive: Joshua Wong laments city’s fate from inside maximum security prison The Hong Kong activist Joshua Wong has been sentenced to 10 years in priso"
   },
   {
-   "t": "Губернатор Калифорнии смягчил приговоры 548 заключенным штата, приговоренным к смертной казни",
-   "x": "В Калифорнии исторически было самое большое количество людей, приговоренных к смертной казни в США.",
+   "t": "Суд США остановил строительство триумфальной арки Трампа в Вашингтоне",
+   "x": "Была объявлена ​​14-дневная пауза для блокировки так называемого проекта «Арка Трампа» в Вашингтоне, округ Колумбия.",
    "r": "Америка",
-   "c": "Общее",
-   "imp": 88,
-   "ten": 63,
-   "ago": 45,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "France 24",
-    "Japan Times",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6243/live/f34ef550-d982-11f1-9367-d509fddfe31c.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 6,
-   "lat": 33.91,
-   "lon": -118.15,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 3,
-   "t_en": "California governor commutes sentences for state's 548 death row inmates",
-   "x_en": "California has historically had the largest population of people on death row in the US."
-  },
-  {
-   "t": "Президент Парагвая Сантьяго Пенья подал в отставку после краха банка",
-   "x": "Этот шаг последовал за крахом банка и после того, как нижняя палата Конгресса проголосовала за проведение против него судебного процесса по импичменту.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 88,
-   "ten": 67,
-   "ago": 47,
-   "s": [
-    "BBC",
-    "NPR",
-    "Euronews",
-    "Japan Times",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/12e6/live/3ccd15c0-d93a-11f1-95ea-8df9a040b6bf.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 5,
-   "lat": -23.8,
-   "lon": -58.57,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 4,
-   "t_en": "Paraguay President Santiago Peña resigns after bank collapse",
-   "x_en": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him."
-  },
-  {
-   "t": "Мистические угрозы о взрыве вынуждают совершать экстренные посадки и эвакуацию по всей Европе",
-   "x": "Угрозы взрыва вызывают сбои в поездках в аэропортах по всей Европе, затрагивая как минимум 27 рейсов.",
-   "r": "Европа",
    "c": "Конфликты",
-   "imp": 86,
-   "ten": 90,
-   "ago": 96,
+   "imp": 88,
+   "ten": 48,
+   "ago": 32,
    "s": [
     "Al Jazeera",
     "The Guardian",
-    "CBS News",
-    "ABC News",
-    "Dawn",
-    "Japan Times",
-    "Reuters",
-    "AP"
+    "Euronews",
+    "Times of India"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/ea6a1228985c75548960879b1e07ce091681abe5/322_234_1500_1200/master/1500.jpg?width=700&quality=85&auto=format&fit=max&s=9a5f859045dc4329077a47d057b50fcf",
+   "u": "https://www.aljazeera.com/news/2026/11/6/us-judge-halts-construction-of-trumps-triumphal-arch-in-washington-dc?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/80501b103a6ec118c03b3ae74e80f2703d3be4e3/1131_0_5655_4526/master/5655.jpg?width=700&quality=85&auto=format&fit=max&s=300c5e81b655f63a75e90b1aed008e8f",
    "img_src": "The Guardian",
-   "fresh": false,
-   "n": 8,
-   "lat": 51.64,
-   "lon": -0.12,
-   "place": "Лондон",
-   "place_en": "London",
-   "id": 5,
-   "t_en": "Hoax bomb threats force emergency landings, evacuations across Europe",
-   "x_en": "Bomb threats are causing travel disruptions at airports across Europe, targeting at least 27 flights."
+   "fresh": true,
+   "n": 4,
+   "lat": 38.67,
+   "lon": -77.0,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 3,
+   "t_en": "US judge halts construction of Trump’s triumphal arch in Washington, DC",
+   "x_en": "A 14-day pause has been ordered blocking the so-called 'Arc de Trump' project in Washington, DC."
   },
   {
-   "t": "Трамп подписал указ, запрещающий будущим президентам менять Овальный кабинет",
-   "x": "Приказ появился после того, как Трамп внес ряд крупных изменений в декор Овального кабинета и запустил знаковые строительные проекты по всему Вашингтону.",
+   "t": "Трамп подписал указ о сохранении Овального кабинета как национального памятника",
+   "x": "Приказ поступил после того, как Трамп внес ряд крупных изменений в декор Овального кабинета и снес восточное крыло Белого дома.",
    "r": "Америка",
    "c": "Конфликты",
-   "imp": 83,
-   "ten": 46,
-   "ago": 67,
+   "imp": 87,
+   "ten": 45,
+   "ago": 31,
    "s": [
     "BBC",
+    "Al Jazeera",
     "The Hindu",
     "Reuters",
     "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8beb/live/f899a990-d97f-11f1-bf3f-d5d9031d14b1.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97ff/live/e5957760-d9b2-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 39.21,
+   "lon": -99.73,
+   "place": "США",
+   "place_en": "United States",
+   "id": 4,
+   "t_en": "Trump signs order to preserve Oval Office as national monument",
+   "x_en": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing."
+  },
+  {
+   "t": "Папа Римский отправляется в длительную поездку в Латинскую Америку через несколько недель после операции по поводу рака легких",
+   "x": "Папа Лев, которому в прошлом месяце удалили часть легкого, посетит Уругвай, Аргентину и Перу.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 86,
+   "ten": 40,
+   "ago": 31,
+   "s": [
+    "BBC",
+    "NPR",
+    "NYT",
+    "ABC News"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d5f5/live/a7b86be0-d96d-11f1-9fd0-cdf612d1539f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": 40.68,
+   "lon": -98.8,
+   "place": "США",
+   "place_en": "United States",
+   "id": 5,
+   "t_en": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+   "x_en": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru."
+  },
+  {
+   "t": "В Макао заключен в тюрьму демократический активист по первому в городе делу о национальной безопасности",
+   "x": "Ау Кам Сан был приговорен к 12 годам и шести месяцам тюремного заключения за «подрывную деятельность против политической власти государства».",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 85,
+   "ten": 48,
+   "ago": 54,
+   "s": [
+    "BBC",
+    "ABC News",
+    "CNA",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0ae0/live/23a8aa80-d9aa-11f1-88e6-7913ca4cf3b6.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 39.57,
+   "lon": 116.29,
+   "place": "Пекин",
+   "place_en": "Beijing",
+   "id": 6,
+   "t_en": "Macau jails pro-democracy campaigner in city's first national security case",
+   "x_en": "Au Kam San was sentenced to 12 years and six months' jail for \"subversion against the political power of the state\"."
+  },
+  {
+   "t": "Президент Парагвая Сантьяго Пенья подал в отставку после краха банка",
+   "x": "Этот шаг последовал за крахом банка и после того, как нижняя палата Конгресса проголосовала за проведение против него судебного процесса по импичменту.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 84,
+   "ten": 63,
+   "ago": 82,
+   "s": [
+    "BBC",
+    "Euronews",
+    "NYT",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/12e6/live/3ccd15c0-d93a-11f1-95ea-8df9a040b6bf.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 6,
+   "lat": -23.8,
+   "lon": -58.57,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 7,
+   "t_en": "Paraguay President Santiago Peña resigns after bank collapse",
+   "x_en": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him."
+  },
+  {
+   "t": "Лондонский суд присяжных признал британского комика Рассела Брэнда виновным в изнасиловании и трех сексуальных домогательствах",
+   "x": "Рассел Брэнд был признан виновным в четырех преступлениях сексуального характера, одном изнасиловании и трех сексуальных нападениях с участием четырех женщин в период с 2005 по 2009 год в разных местах.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 82,
+   "ten": 40,
+   "ago": 63,
+   "s": [
+    "Euronews",
+    "CBS News",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
+   "img": "https://images.euronews.com/articles/stories/09/98/16/91/696x392_cmsv2_e35efd5d-3c44-5767-adec-7fb605279403-9981691.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 4,
+   "lat": 51.56,
+   "lon": 0.36,
+   "place": "Лондон",
+   "place_en": "London",
+   "id": 8,
+   "t_en": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
+   "x_en": "Russell Brand was convicted of four sexual offences, one rape and three sexual assaults, involving four women between 2005 and 2009 in different locations."
+  },
+  {
+   "t": "Что означает потеря Трампом власти над Конгрессом для Ирана, Украины и внешней политики",
+   "x": "Демократический контроль над Конгрессом может привести к более тщательному изучению действий Трампа в войнах в Иране и на Украине, оставив при этом ему широкие внешнеполитические полномочия.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 79,
+   "ten": 46,
+   "ago": 11,
+   "s": [
+    "CNBC",
+    "NYT",
+    "Reuters"
+   ],
+   "u": "https://www.cnbc.com/2026/11/04/democrats-congress-trump-foreign-policy.html",
+   "img": "https://static01.nyt.com/images/2026/11/06/multimedia/06europe-trump-01-bwzm/06europe-trump-01-bwzm-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.51,
+   "lon": -99.46,
+   "place": "США",
+   "place_en": "United States",
+   "id": 9,
+   "t_en": "What Trump losing power over Congress means for Iran, Ukraine and foreign policy",
+   "x_en": "Democratic control of Congress could bring greater scrutiny of Trump’s handling of the Iran and Ukraine wars, while leaving him broad foreign-policy powers."
+  },
+  {
+   "t": "Охота на медведя гризли началась после того, как в Канаде убили мать и дочь",
+   "x": "Мать и ее дочь были найдены мертвыми после предполагаемого нападения медведя недалеко от Белла Кула в Британской Колумбии. Офицеры охраны природы говорят, что в этом могли быть замешаны несколько гризли, и сейчас предпринимаются усилия по их отлову. Власти ввели комендантский час",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 79,
+   "ten": 84,
+   "ago": 51,
+   "s": [
+    "Euronews",
+    "NYT",
+    "ABC News"
+   ],
+   "u": "https://www.euronews.com/2026/11/06/grizzly-bear-hunt-underway-after-mother-and-daughter-killed-in-canada",
+   "img": "https://images.euronews.com/articles/stories/09/98/22/15/696x392_cmsv2_84eb1b49-0e6c-5faa-8c1a-42a96c4e0b1c-9982215.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 3,
+   "lat": 57.7,
+   "lon": -95.29,
+   "place": "Канада",
+   "place_en": "Canada",
+   "id": 10,
+   "t_en": "Grizzly bear hunt underway after mother and daughter killed in Canada",
+   "x_en": "A mother and her daughter have been found dead following a suspected bear attack near Bella Coola, in British Columbia. Conservation officers say multiple grizzlies may have been involved, with trapping efforts underway. Authorities have imposed a curfew as th"
+  },
+  {
+   "t": "Мировые акции технологических компаний упали из-за опасений по поводу ограничения ИИ в США",
+   "x": "Азиатские рынки упали в пятницу, следуя за распродажей западных акций после промежуточных выборов в США.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 78,
+   "ten": 40,
+   "ago": 14,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "The Guardian"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/6/global-tech-stocks-plunge-over-fears-of-ai-curbs-in-us?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/d71b2db8-d9be-11f1-82d6-a575454bc579/w:1024/p:16x9/2026-11-05T161457Z-54596775-RC2QHOA0MWI0-RTRMADP-3-EUROPE-STOCKS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 4,
+   "lat": 38.75,
+   "lon": -97.47,
+   "place": "США",
+   "place_en": "United States",
+   "id": 11,
+   "t_en": "Global tech stocks plunge over fears of AI curbs in US",
+   "x_en": "Asian markets plunged Friday, tracking a sell-off in Western stocks following the US midterm elections."
+  },
+  {
+   "t": "Мелания Трамп призывает к длительному перемирию на Украине, принимая российских и украинских чиновников",
+   "x": "Все отдали должное первой леди США за то, что она сыграла ключевую, хотя и неуказанную, роль в прекращении огня.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 76,
+   "ten": 32,
+   "ago": 115,
+   "s": [
+    "BBC",
+    "Euronews",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a4b7/live/4ad22690-d955-11f1-b7f4-8bd3c0617693.jpg",
    "img_src": "BBC",
    "fresh": false,
    "n": 4,
-   "lat": 39.01,
-   "lon": -97.59,
+   "lat": 39.82,
+   "lon": -98.79,
    "place": "США",
    "place_en": "United States",
-   "id": 6,
-   "t_en": "Trump signs order preventing future presidents from changing Oval Office",
-   "x_en": "The order comes after Trump made a series of big changes the Oval Office decor and launched landmark construction projects across Washington."
+   "id": 12,
+   "t_en": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+   "x_en": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire."
   },
   {
-   "t": "Белый дом запрещает Хегсету и Рубио покидать рабочие места после поражений республиканцев на выборах",
-   "x": "Администрация Трампа преуменьшала значение сообщений о том, что пара может уйти после тяжелых поражений республиканцев на выборах.",
-   "r": "Америка",
+   "t": "Суд предоставил экс-премьеру Малайзии Наджибу домашний арест после королевского помилования на 12 миллионов долларов",
+   "x": "Наджиба переводят под домашний арест после того, как его партия ОМНО собрала штраф в 12 миллионов долларов через краудфандинг.",
+   "r": "Мир",
    "c": "Политика",
    "imp": 75,
-   "ten": 40,
-   "ago": 29,
+   "ten": 54,
+   "ago": 49,
    "s": [
-    "BBC",
-    "France 24",
+    "Al Jazeera",
+    "Times of India",
     "Japan Times"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1ee7/live/6a397360-d97f-11f1-9ef8-af6a44fd33d8.jpg",
-   "img_src": "BBC",
+   "u": "https://www.aljazeera.com/news/2026/11/6/courts-grant-ex-malaysian-pm-najib-house-arrest-after-12m-royal-pardon?traffic_source=rss",
+   "img": "https://static.toiimg.com/photo/msid-135599343,imgsize-81415.cms",
+   "img_src": "Times of India",
    "fresh": true,
    "n": 3,
-   "lat": 38.75,
-   "lon": -76.67,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 7,
-   "t_en": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-   "x_en": "The Trump administration has downplayed reports the pair could be on their way out after heavy Republicans election losses."
+   "lat": 4.13,
+   "lon": 101.5,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 13,
+   "t_en": "Court grants ex-Malaysian PM Najib house arrest after $12m royal pardon",
+   "x_en": "Najib transitions to house arrest after his party UMNO raises $12m fine via crowdfunding."
   },
   {
-   "t": "Арабская партия поддерживает Айзенкота в его стремлении сформировать следующее правительство Израиля",
-   "x": "Партия арабского большинства «Раам» и демократы поддержали Гади Айзенкота в его стремлении сформировать следующее правительство Израиля.",
-   "r": "Ближний Восток",
+   "t": "Президенту Парагвая объявлен импичмент на фоне краха банка",
+   "x": "Законодатели проголосовали за импичмент президенту Парагвая Сантьяго Пенья на фоне банковского краха, который потряс страну.",
+   "r": "Америка",
    "c": "Политика",
-   "imp": 75,
-   "ten": 40,
-   "ago": 128,
+   "imp": 74,
+   "ten": 79,
+   "ago": 215,
    "s": [
     "Al Jazeera",
     "The Guardian",
-    "Dawn",
-    "The Hindu",
+    "NPR",
     "Japan Times"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/a185514bb9391c025cb28c78344aff4c704d891e/661_145_2662_2130/master/2662.jpg?width=700&quality=85&auto=format&fit=max&s=62034829757d1f0a524a533c683689c7",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 6,
-   "lat": 32.52,
-   "lon": 34.24,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 8,
-   "t_en": "Arab party backs Eisenkot in bid to form Israel’s next government",
-   "x_en": "Arab-majority party Ra’am and the Democrats have backed Gadi Eisenkot in a bid to form Israel’s next government."
-  },
-  {
-   "t": "Демократ-социалист побеждает действующую Карен Басс на выборах мэра Лос-Анджелеса",
-   "x": "Результаты означают, что два самых густонаселенных города Америки - Нью-Йорк и Лос-Анджелес - будут возглавляться демократическими социалистами.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 70,
-   "ten": 40,
-   "ago": 70,
-   "s": [
-    "BBC",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9b37/live/0e287b40-d96e-11f1-9fd0-cdf612d1539f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 34.03,
-   "lon": -117.97,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 9,
-   "t_en": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
-   "x_en": "The results mean America's two most populous cities - New York and Los Angeles - will be led by democratic socialists."
-  },
-  {
-   "t": "Эвакуированный из ДР Конго британский пациент с Эболой прибыл в лондонскую больницу",
-   "x": "Врача, который помогал бороться со вспышкой в ​​Африке, доставили в специализированное изоляционное отделение больницы Роял Фри Британский врач, у которого был положительный результат теста на Эболу во время работы в Демократической Республике Конго, вернулся в Великобританию для прохождения специализированного лечения",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 70,
-   "ten": 59,
-   "ago": 239,
-   "s": [
-    "The Guardian",
-    "NYT",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
-   "img": "https://i.guim.co.uk/img/media/b58a5b463f1a943c738a5d7c55d8aa4d09f9ba33/1000_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=74f2d53e718f7106798725b09c9bb3ce",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/6/paraguays-president-impeached-amid-bank-collapse-crisis?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/a77eebbaa9a34c6ba08a7521d0b9d7e55650da11/1666_5_3949_3159/master/3949.jpg?width=700&quality=85&auto=format&fit=max&s=5ed3c0943e5233ed409e6bf5a4d8a789",
    "img_src": "The Guardian",
    "fresh": false,
    "n": 4,
-   "lat": 51.45,
-   "lon": -0.49,
-   "place": "Лондон",
-   "place_en": "London",
-   "id": 10,
-   "t_en": "British Ebola patient evacuated from DR Congo arrives at London hospital",
-   "x_en": "Doctor who was helping response to outbreak in Africa taken to specialist isolation unit at Royal Free hospital A British doctor who tested positive for Ebola while working in the Democratic Republic of the Congo has returned to the UK for specialist treatment"
+   "lat": -23.54,
+   "lon": -58.7,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 14,
+   "t_en": "Paraguay’s president impeached amid bank collapse crisis",
+   "x_en": "Lawmakers have voted to impeach Paraguay’s President Santiago Pena amid a banking collapse that has roiled the country."
   },
   {
-   "t": "Что значит победа демократов на промежуточных выборах для экономики США и Трампа",
-   "x": "От высоких цен на нефть и центров обработки данных до тарифов и растущего долга — экономические проблемы сыграли ключевую роль в сокрушительном поражении республиканцев президента Дональда Трампа. Так смогут ли демократы теперь изменить ситуацию?",
-   "r": "Америка",
-   "c": "Экономика",
+   "t": "Путин захватывает контроль над подразделениями Japan Tobacco на фоне ухудшения отношений между Москвой и Токио",
+   "x": "Приказ затрагивает четыре производственных предприятия и вызвал немедленный протест со стороны Токио.",
+   "r": "Азия",
+   "c": "Политика",
    "imp": 69,
    "ten": 44,
    "ago": 1,
    "s": [
-    "DW",
-    "Nikkei Asia"
+    "Nikkei Asia",
+    "Japan Times"
    ],
-   "u": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-world-4025-rdf",
-   "img": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/image/jpeg",
-   "img_src": "DW (og)",
+   "u": "https://asia.nikkei.com/politics/international-relations/putin-seizes-control-of-japan-tobacco-units-as-moscow-tokyo-ties-fray",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/06/thumbs/400x400/572745.jpg",
+   "img_src": "Japan Times",
    "fresh": true,
    "n": 2,
-   "lat": 39.75,
-   "lon": -99.88,
-   "place": "США",
-   "place_en": "United States",
-   "id": 11,
-   "t_en": "What the Democrats' midterms win means for the US economy and Trump",
-   "x_en": "From high oil prices and data centers to tariffs and mounting debt, economic concerns played a key role in the crushing defeat of President Donald Trump's Republicans. So can the Democrats now make a difference?"
+   "lat": 35.5,
+   "lon": 139.82,
+   "place": "Токио",
+   "place_en": "Tokyo",
+   "id": 15,
+   "t_en": "Putin seizes control of Japan Tobacco units as Moscow-Tokyo ties fray",
+   "x_en": "The order impacts four manufacturing plants and has drawn immediate protest from Tokyo."
   },
   {
-   "t": "Война в Иране в прямом эфире: Трамп предупреждает, что США, возможно, придется «уничтожить» остальную часть Ирана",
-   "x": "Трамп говорит, что США, возможно, придется «уничтожить» остальную часть Ирана, добавляя, что люди «достаточно скоро узнают об этом».",
-   "r": "Америка",
-   "c": "Конфликты",
+   "t": "Китайско-японский спор из-за комментария Такаичи о Тайване длится второй год",
+   "x": "Продолжающийся спор между Китаем и Японией начался после высказываний премьер-министра Санаэ Такаити о Тайване в парламенте 7 ноября 2025 года.",
+   "r": "Азия",
+   "c": "Политика",
    "imp": 69,
-   "ten": 84,
-   "ago": 44,
+   "ten": 44,
+   "ago": 1,
    "s": [
-    "Al Jazeera",
-    "Times of India"
+    "Nikkei Asia",
+    "Japan Times"
    ],
-   "u": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran?traffic_source=rss",
-   "img": "https://static.toiimg.com/photo/msid-135590333,imgsize-9556588.cms",
-   "img_src": "Times of India",
+   "u": "https://asia.nikkei.com/politics/international-relations/japan-china-tensions/china-japan-row-over-takaichi-s-taiwan-comment-enters-2nd-year",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/06/thumbs/400x400/572712.jpg",
+   "img_src": "Japan Times",
    "fresh": true,
    "n": 2,
-   "lat": 31.5,
-   "lon": 53.92,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 12,
-   "t_en": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
-   "x_en": "Trump says the US may have to 'destroy' the rest of Iran, adding that people will 'know soon enough'."
-  },
-  {
-   "t": "Угрозы о взрыве сорвали несколько рейсов по Европе",
-   "x": "По меньшей мере дюжина рейсов была либо отклонена, либо приземлилась в сопровождении военного эскорта из-за угрозы взрыва или угрозы безопасности. Первый зарегистрированный случай был связан с рейсом из Дублина в Рим, приземлившимся недалеко от Парижа, а вскоре последовали и другие.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 95,
-   "ago": 360,
-   "s": [
-    "DW",
-    "The Guardian",
-    "CNBC",
-    "NYT",
-    "CBS News"
-   ],
-   "u": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-world-4025-rdf",
-   "img": "https://i.guim.co.uk/img/media/8be530b5c237fee6a55ec439ba8a4e0c218f7f83/663_0_4160_3328/master/4160.jpg?width=700&quality=85&auto=format&fit=max&s=e06d5dd8bbe87620e0a9dc7e63cfb72f",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 6,
-   "lat": 48.83,
-   "lon": 2.11,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 13,
-   "t_en": "Bomb threats disrupt several flights across Europe",
-   "x_en": "At least a dozen flights were either diverted or landed with a military escort after bomb or security threats. The first reported case involved a flight from Dublin to Rome landing outside Paris and more soon followed."
+   "lat": 34.62,
+   "lon": 102.59,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 16,
+   "t_en": "China-Japan row over Takaichi's Taiwan comment enters 2nd year",
+   "x_en": "The ongoing dispute between China and Japan began following Prime Minister Sanae Takaichi's remarks about Taiwan in parliament on Nov. 7, 2025."
   },
   {
    "t": "Японская Sony сообщает о огромной прибыли от своего блокбастера «Человек-паук»",
@@ -521,59 +592,159 @@
    "lon": 138.56,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 14,
+   "id": 17,
    "t_en": "Japan's Sony reports a hefty profit on the back of its blockbuster 'Spider-Man' movie",
    "x_en": "Japanese electronics and entertainment company Sony has reported a 44% surge in its profit in July-September, largely on the box office success of its movie, “Spider-Man: Brand New Day.”"
   },
   {
-   "t": "Путин конфисковал российские операции сигаретного гиганта Japan Tobacco International",
-   "x": "Указ передал четыре завода JTI, около 4000 сотрудников и примерно 40% российского табачного рынка государственной холдинговой компании. Последняя конфискация пополнила список, в который входят Nestlé, Auchan, Leroy Merlin и Metro.",
-   "r": "Европа",
-   "c": "Экономика",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
+   "t": "Лидер танзанийской оппозиции признан виновным в подстрекательстве",
+   "x": "58-летний мужчина, находившийся под стражей с апреля прошлого года, был оправдан по более серьезному обвинению в государственной измене.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 67,
+   "ten": 48,
+   "ago": 18,
    "s": [
-    "Euronews",
-    "Nikkei Asia"
+    "BBC",
+    "Africanews"
    ],
-   "u": "https://www.euronews.com/2026/11/05/putin-seizes-russian-operations-of-cigarette-giant-japan-tobacco-international",
-   "img": "https://images.euronews.com/articles/stories/09/98/16/29/696x392_cmsv2_31f8dc9d-6310-56ae-af5c-9af52eb25367-9981629.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.bbc.co.uk/news/articles/ckp8g4pm0y4lo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c804/live/6a70d320-d8e7-11f1-8a29-751f921d505b.jpg",
+   "img_src": "BBC",
    "fresh": true,
    "n": 2,
-   "lat": 61.02,
-   "lon": 93.98,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 15,
-   "t_en": "Putin seizes Russian operations of cigarette giant Japan Tobacco International",
-   "x_en": "The decree transferred JTI’s four factories, around 4,000 employees and roughly 40% of the Russian cigarette market to a state-linked holding company. The latest seizure added to a list that includes Nestlé, Auchan, Leroy Merlin and Metro."
+   "lat": -5.74,
+   "lon": 35.72,
+   "place": "Танзания",
+   "place_en": "Tanzania",
+   "id": 18,
+   "t_en": "Tanzanian opposition leader found guilty of incitement",
+   "x_en": "The 58-year-old, who has been detained since April last year, was acquitted of the more serious charge of treason."
   },
   {
-   "t": "Хармит Диллон, главный чиновник США по гражданским правам при Трампе, уходит в отставку",
-   "x": "Новый Демократический Конгресс, как ожидается, расследует действия министерства юстиции Трампа по работе с файлами Эпштейна и убийствами ICE.",
+   "t": "Премьер-министр Малайзии Анвар заявил, что не согласен с выплатой UMNO штрафа Наджибу в размере 12,3 миллиона долларов США",
+   "x": "«Не должно создаваться впечатление, что коррупцию, охватывающую миллиарды ринггитов, можно просто игнорировать», - заявил премьер-министр Малайзии Анвар Ибрагим.",
    "r": "Америка",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 53,
-   "ago": 48,
+   "c": "Политика",
+   "imp": 65,
+   "ten": 43,
+   "ago": 25,
    "s": [
-    "Al Jazeera",
+    "CNA",
     "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/5/top-us-civil-rights-official-resigns?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/i4x7i0/article71672625.ece/alternates/LANDSCAPE_1200/Justice_Department_Civil_Rights_Division_3_819.jpg",
-   "img_src": "The Hindu",
+   "u": "https://www.channelnewsasia.com/asia/malaysia-anwar-ibrahim-disagrees-umno-pays-najib-razak-fine-6530656",
+   "img": "https://dam.mediacorp.sg/image/upload/s--XIS7a5IQ--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/21/anwar_najib_.png?itok=E2eDhpqn",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 3,
+   "lat": 3.96,
+   "lon": 101.63,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 19,
+   "t_en": "Malaysia PM Anwar says he disagrees with UMNO paying Najib’s US$12.3 million fine",
+   "x_en": "\"It should not give the impression that corruption involving billions of ringgit can simply be overlooked,\" said Malaysian Prime Minister Anwar Ibrahim."
+  },
+  {
+   "t": "Министр транспорта Малайзии Энтони Локе подтверждает, что уйдет в отставку, когда Наджиб начнет домашний арест",
+   "x": "Рейтер",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 48,
+   "ago": 32,
+   "s": [
+    "CNA",
+    "Reuters"
+   ],
+   "u": "https://www.channelnewsasia.com/asia/malaysia-transport-minister-anthony-loke-confirms-he-will-resign-when-najib-begins-house-arrest-6530426",
+   "img": "https://dam.mediacorp.sg/image/upload/s--AndJ3pBg--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/07/13/fdz_0681.jpg?itok=qGQduJ3E",
+   "img_src": "CNA",
    "fresh": true,
    "n": 2,
-   "lat": 40.3,
-   "lon": -97.99,
+   "lat": 4.87,
+   "lon": 102.23,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 20,
+   "t_en": "Malaysia Transport Minister Anthony Loke confirms he will resign when Najib begins house arrest",
+   "x_en": "Reuters"
+  },
+  {
+   "t": "Что означает поражение Трампа в среднесрочной перспективе для Ирана и цен на нефть",
+   "x": "Зарубежные комментаторы задавались вопросом, какое значение могут иметь проигрыши президента Трампа на выборах для цен на нефть, войны с Ираном и будущего американской политики.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 65,
+   "ten": 70,
+   "ago": 55,
+   "s": [
+    "NYT",
+    "CBS News"
+   ],
+   "u": "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
+   "img": "https://static01.nyt.com/images/2026/11/04/multimedia/04int-global-midterm-reax-zbjv/04int-global-midterm-reax-zbjv-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.72,
+   "lon": -99.1,
    "place": "США",
    "place_en": "United States",
-   "id": 16,
-   "t_en": "Harmeet Dhillon, top US civil rights official under Trump, resigns",
-   "x_en": "New Democratic Congress expected to probe Trump Justice Department office's handling of Epstein files and ICE killings."
+   "id": 21,
+   "t_en": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
+   "x_en": "Commentators abroad wondered what President Trump’s electoral losses might mean for oil prices, the war on Iran and the future of American politics."
+  },
+  {
+   "t": "Кто такой Кодзо Ташима, японский чиновник, баллотирующийся на пост президента ФИФА?",
+   "x": "Ташима работал футболистом, тренером и бюрократом и имеет репутацию надежного человека.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 40,
+   "ago": 121,
+   "s": [
+    "Al Jazeera",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/sports/2026/11/6/kozo-tashima-japan-fifa-president-election-gianni-infantino?traffic_source=rss",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/06/thumbs/400x400/572797.jpg",
+   "img_src": "Japan Times",
+   "fresh": false,
+   "n": 3,
+   "lat": 37.36,
+   "lon": 139.44,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 22,
+   "t_en": "Who is Kozo Tashima, the Japanese official running for FIFA presidency?",
+   "x_en": "Tashima has served as a football player, coach and bureaucrat, and has a reputation for being a safe pair of hands."
+  },
+  {
+   "t": "Помощник режиссера Надра застрелен неизвестными в пешаварском Хаятабаде - полиция",
+   "x": "ПЕШАВАР: В пятницу утром помощник директора Национальной базы данных и регистрации (Надра) был застрелен неизвестными вооруженными людьми возле офиса органа в районе Хаятабад Пешавара, сообщила полиция. Чиновника опознали как Фахада Хана.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 64,
+   "ten": 95,
+   "ago": 7,
+   "s": [
+    "Dawn"
+   ],
+   "u": "https://www.dawn.com/news/2042578/nadra-assistant-director-shot-dead-by-unidentified-gunmen-in-peshawars-hayatabad-police",
+   "img": "https://i.dawn.com/large/2021/11/619c731e25a4e.jpg",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 23,
+   "t_en": "Nadra assistant director shot dead by unidentified gunmen in Peshawar's Hayatabad: police",
+   "x_en": "PESHAWAR: An assistant director of the National Database and Registration Authority (Nadra) was shot dead by unidentified gunmen near the authority’s office in Peshawar’s Hayatabad area on Friday morning, police said. The official was identified as Fahad Khan,"
   },
   {
    "t": "McDonald's ведет войну с KFC в Японии, поскольку потребители жаждут курицы",
@@ -595,161 +766,137 @@
    "lon": 138.67,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 17,
+   "id": 24,
    "t_en": "McDonald's wages war on KFC in Japan as consumers crave chicken",
    "x_en": ""
   },
   {
-   "t": "Акции в Сеуле резко упали вечером в пятницу. утро на маршруте AI",
-   "x": "СЕУЛ, 6 ноября (Рёнхап) – В пятницу вечером акции в Сеуле резко упали...",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 61,
-   "ten": 40,
-   "ago": 7,
-   "s": [
-    "Yonhap"
-   ],
-   "u": "https://en.yna.co.kr/view/AEN20261106004600320",
-   "img": "https://img.yna.co.kr/photo/yna/YH/2026/11/06/PYH2026110604000001302_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": true,
-   "n": 4,
-   "lat": 37.77,
-   "lon": 126.92,
-   "place": "Сеул",
-   "place_en": "Seoul",
-   "id": 18,
-   "t_en": "Seoul stocks sharply down late Fri. morning on AI rout",
-   "x_en": "SEOUL, Nov. 6 (Yonhap) -- Seoul stocks were trading sharply lower late Friday mo..."
-  },
-  {
-   "t": "После баррикад, беспорядков и протестов французские рабочие объявили забастовку",
-   "x": "В четверг по всей Франции прошли сотни демонстраций, которые усилили продолжавшиеся несколько недель протесты против роста стоимости жизни.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 76,
-   "ago": 98,
-   "s": [
-    "NYT",
-    "CBS News"
-   ],
-   "u": "https://www.nytimes.com/2026/11/05/world/europe/france-protests-general-strike.html",
-   "img": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-france-protests-vjhc/05int-france-protests-vjhc-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 2,
-   "lat": 47.1,
-   "lon": 3.4,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 19,
-   "t_en": "After Barricades, Riots and Protests, French Workers Go on Strike",
-   "x_en": "Hundreds of demonstrations took place across France on Thursday, escalating weeks of protests against the rising cost of living."
-  },
-  {
-   "t": "Злоумышленник из дробовика убил 8 человек в трех местах на западе Турции, прежде чем его поймали",
-   "x": "Злоумышленник, вооруженный дробовиком, убил восемь человек в трех местах на западе Турции.",
+   "t": "Война США в Иране оставляет Шри-Ланку в неспокойных дипломатических водах",
+   "x": "",
    "r": "Ближний Восток",
    "c": "Конфликты",
    "imp": 61,
-   "ten": 88,
-   "ago": 122,
-   "s": [
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/shotgun-attacker-kills-8-3-sites-western-turkey-137894224",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 2,
-   "lat": 39.45,
-   "lon": 33.84,
-   "place": "Турция",
-   "place_en": "Turkey",
-   "id": 20,
-   "t_en": "Shotgun attacker kills 8 across 3 sites in western Turkey before capture",
-   "x_en": "An attacker armed with a shotgun has killed eight people in three locations in western Turkey"
-  },
-  {
-   "t": "Мелания Трамп призывает к длительному перемирию на Украине, принимая российских и украинских чиновников",
-   "x": "Все отдали должное первой леди США за то, что она сыграла ключевую, хотя и неуказанную, роль в прекращении огня.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 27,
-   "ago": 315,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "Kyiv Independent",
-    "Yonhap"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c9p8g085mz07o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a4b7/live/4ad22690-d955-11f1-b7f4-8bd3c0617693.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 39.82,
-   "lon": -98.79,
-   "place": "США",
-   "place_en": "United States",
-   "id": 21,
-   "t_en": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
-   "x_en": "The US first lady was credited by all for playing a key though unspecified role in the ceasefire."
-  },
-  {
-   "t": "Португалия: Криштиану Роналду объявляет о завершении международной карьеры",
-   "x": "Легенда португальского футбола Криштиану Роналду объявил в четверг, что уходит из международного футбола в возрасте 41 года.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 61,
-   "ten": 40,
-   "ago": 352,
-   "s": [
-    "France 24",
-    "Africanews",
-    "Dawn",
-    "Reuters"
-   ],
-   "u": "https://www.france24.com/en/video/20261105-portugal-cristiano-ronaldo-announces-his-international-retirement",
-   "img": "https://s.france24.com/media/display/e8a83d16-d944-11f1-a0f7-d18c5759e759/w:1024/p:16x9/Ronaldo-2.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": 40.22,
-   "lon": -8.51,
-   "place": "Португалия",
-   "place_en": "Portugal",
-   "id": 22,
-   "t_en": "Portugal: Cristiano Ronaldo announces his international retirement",
-   "x_en": "Portuguese football legend Cristiano Ronaldo announced on Thursday he was retiring from international football at the age of 41."
-  },
-  {
-   "t": "Руководители торговых домов Японии предупреждают о неопределенности после промежуточных выборов в США",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 48,
+   "ten": 66,
    "ago": 1,
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/companies/japan-s-trading-house-chiefs-warn-of-uncertainty-after-us-midterms",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F9%2F6%2F1%2F13401690-1-eng-GB%2Fc69d438041c3-2026-11-04T065616Z_1946226397_RC2RGOASBIOG_RTRMADP_3_USA-ELECTION-NEVADA.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/spotlight/iran-tensions/iran-war/us-war-in-iran-leaves-sri-lanka-in-troubled-diplomatic-waters",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F2%2F8%2F8%2F13408827-1-eng-GB%2F32cd36ef1595-2026-03-22T033200Z_73828148_RC2YYJAWPVB6_RTRMADP_3_IRAN-CRISIS-SHIP-SRI-LANKA.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 35.71,
-   "lon": 139.16,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 23,
-   "t_en": "Japan's trading house chiefs warn of uncertainty after US midterms",
+   "lat": 39.87,
+   "lon": -99.81,
+   "place": "США",
+   "place_en": "United States",
+   "id": 25,
+   "t_en": "US war in Iran leaves Sri Lanka in troubled diplomatic waters",
    "x_en": ""
+  },
+  {
+   "t": "Профсоюзы присоединились к растущим протестам во Франции",
+   "x": "Демонстрации продолжились по всей Франции в четверг, поскольку профсоюзы объявили забастовку из-за повышения стоимости жизни.",
+   "r": "Европа",
+   "c": "Экономика",
+   "imp": 61,
+   "ten": 66,
+   "ago": 4,
+   "s": [
+    "NPR"
+   ],
+   "u": "https://www.npr.org/2026/11/06/nx-s1-6030666/trade-unions-join-growing-protests-in-france",
+   "img": "https://media.npr.org/include/images/facebook-default-wide-s1400-c85.jpg",
+   "img_src": "NPR (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 47.21,
+   "lon": 1.98,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 26,
+   "t_en": "Trade unions join growing protests in France",
+   "x_en": "Demonstrations continued across France Thursday, as trade unions went on strike over the cost of living."
+  },
+  {
+   "t": "Губернатор Калифорнии смягчил приговоры 548 заключенным штата, приговоренным к смертной казни",
+   "x": "В Калифорнии исторически было самое большое количество людей, приговоренных к смертной казни в США.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 61,
+   "ten": 66,
+   "ago": 478,
+   "s": [
+    "BBC",
+    "France 24",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6243/live/f34ef550-d982-11f1-9367-d509fddfe31c.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 33.91,
+   "lon": -118.15,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
+   "id": 27,
+   "t_en": "California governor commutes sentences for state's 548 death row inmates",
+   "x_en": "California has historically had the largest population of people on death row in the US."
+  },
+  {
+   "t": "Угрозы о взрыве сорвали несколько рейсов по Европе",
+   "x": "По меньшей мере дюжина рейсов была либо отклонена, либо приземлилась в сопровождении военного эскорта из-за угрозы взрыва или угрозы безопасности. Первый зарегистрированный случай был связан с рейсом из Дублина в Рим, приземлившимся недалеко от Парижа, а вскоре последовали и другие.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 95,
+   "ago": 833,
+   "s": [
+    "DW",
+    "France 24",
+    "ABC News",
+    "Fox News",
+    "The Hindu"
+   ],
+   "u": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.france24.com/media/display/27b15c74-d92f-11f1-ba6f-d18c5759e759/w:1024/p:16x9/Bomb-threats-EN.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 5,
+   "lat": 52.2,
+   "lon": 20.76,
+   "place": "Варшава",
+   "place_en": "Warsaw",
+   "id": 28,
+   "t_en": "Bomb threats disrupt several flights across Europe",
+   "x_en": "At least a dozen flights were either diverted or landed with a military escort after bomb or security threats. The first reported case involved a flight from Dublin to Rome landing outside Paris and more soon followed."
+  },
+  {
+   "t": "Верховный суд Сомали отклонил продление срока президента на фоне политического кризиса",
+   "x": "Первые общенациональные выборы в стране с 1969 года должны состояться в следующем году, но их сроки сейчас подвергаются сомнению.",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 57,
+   "ago": 93,
+   "s": [
+    "BBC",
+    "Africanews"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c977ppnezep6o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/679b/live/77438af0-d9b1-11f1-bbc7-9574ed12e2df.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 2,
+   "lat": 5.51,
+   "lon": 46.45,
+   "place": "Сомали",
+   "place_en": "Somalia",
+   "id": 29,
+   "t_en": "Somalia's top court rejects president's term extension amid political crisis",
+   "x_en": "The country's first nationwide elections since 1969 are due next year - a timetable now thrown into doubt."
   },
   {
    "t": "Глава DBS предупреждает о нестабильности фондовых рынков после промежуточных выборов в США",
@@ -771,64 +918,36 @@
    "lon": -98.7,
    "place": "США",
    "place_en": "United States",
-   "id": 24,
+   "id": 30,
    "t_en": "DBS chief warns of 'choppy' equity markets after US midterms",
    "x_en": ""
   },
   {
-   "t": "Британский комик Рассел Брэнд признан виновным в изнасиловании и сексуальном насилии",
-   "x": "Лондонский суд присяжных в четверг признал британского комика и актера Рассела Брэнда виновным в одном изнасиловании и трех случаях сексуального насилия.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 58,
-   "ten": 40,
-   "ago": 441,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "CBS News",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/europe/20261105-british-comedian-russell-brand-found-guilty-of-rape-sexual-assault",
-   "img": "https://s.france24.com/media/display/53ca4e84-d924-11f1-a998-695cb59fade5/w:1024/p:16x9/000-D6FC68G.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": 54.91,
-   "lon": -3.04,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 25,
-   "t_en": "British comedian Russell Brand found guilty of rape, sexual assault",
-   "x_en": "A London jury on Thursday convicted British comedian and actor Russell Brand of one count of rape and three counts of sexual assault."
-  },
-  {
-   "t": "Mitsui Chemicals купит японского производителя чипсов JSR за более чем 8,2 миллиарда долларов",
+   "t": "Руководитель индийского ИТ-лобби предупреждает, что выпускникам будет сложно найти работу из-за ИИ",
    "x": "",
    "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
+   "c": "Наука",
+   "imp": 58,
+   "ten": 48,
    "ago": 1,
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/business-deals/mitsui-chemicals-to-buy-japan-chip-material-maker-jsr-for-over-8.2bn2",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F5%2F5%2F0%2F13400553-1-eng-GB%2F5cb644925acb-collage.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/editor-s-picks/interview/india-s-it-lobby-chief-warns-grads-could-struggle-to-find-jobs-due-to-ai",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F8%2F2%2F5%2F13405280-1-eng-GB%2F6e4c759b0db5-GettyImages-2281719557-1-i.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 37.81,
-   "lon": 138.8,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 26,
-   "t_en": "Mitsui Chemicals to buy Japan chip material maker JSR for over $8.2bn",
+   "lat": 21.78,
+   "lon": 79.92,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 31,
+   "t_en": "India's IT lobby chief warns grads could struggle to find jobs due to AI",
    "x_en": ""
   },
   {
-   "t": "Продажи автомобилей в странах АСЕАН выросли на 13% в третьем квартале благодаря спросу на электромобили и гибриды на ключевых рынках.",
+   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
    "x": "",
    "r": "Мир",
    "c": "Общее",
@@ -836,211 +955,115 @@
    "ten": 40,
    "ago": 1,
    "s": [
-    "Nikkei Asia"
+    "CNN"
    ],
-   "u": "https://asia.nikkei.com/business/automobiles/asean-auto-sales-rose-13-in-q3-on-ev-and-hybrid-demand-in-key-markets",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F5%2F9%2F2%2F13382952-1-eng-GB%2F7ee42a37b15a-byd.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 32,
+   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "x_en": ""
+  },
+  {
+   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 27,
-   "t_en": "ASEAN auto sales rose 13% in Q3 on EV and hybrid demand in key markets",
+   "id": 33,
+   "t_en": "Dream Big with a Home Equity Loan",
    "x_en": ""
   },
   {
-   "t": "Государственные авиакомпании Китая, переживающие спад, возлагают надежды на зарубежный спрос, как и экспортеры.",
+   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
    "x": "",
-   "r": "Азия",
+   "r": "Мир",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "Nikkei Asia"
+    "CNN"
    ],
-   "u": "https://asia.nikkei.com/business/transportation/china-s-slumping-state-airlines-pin-hopes-on-overseas-demand-like-exporters",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F7%2F8%2F5%2F13395875-1-eng-GB%2F4cc3f492533c-2022-03-24T015626Z_974941750_RC298T9CIPZM_RTRMADP_3_CHINA-CRASH.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
    "fresh": true,
    "n": 1,
-   "lat": 35.37,
-   "lon": 101.53,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 28,
-   "t_en": "China's slumping state airlines pin hopes on overseas demand like exporters",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 34,
+   "t_en": "Experts: this is the best cash back card of 2022",
    "x_en": ""
   },
   {
-   "t": "Азиатские акции сталкиваются с волатильностью, поскольку голубая волна Демократической партии захлестнула США",
+   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
    "x": "",
-   "r": "Америка",
+   "r": "Мир",
    "c": "Экономика",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "Nikkei Asia"
+    "CNN"
    ],
-   "u": "https://asia.nikkei.com/business/markets/asian-stocks-face-volatility-as-democratic-blue-wave-sweeps-us",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F8%2F9%2F5%2F13395989-3-eng-GB%2Fa55664f77035-photo_SXM2026110400008262.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.66,
-   "lon": -98.8,
-   "place": "США",
-   "place_en": "United States",
-   "id": 29,
-   "t_en": "Asian stocks face volatility as Democratic blue wave sweeps US",
-   "x_en": ""
-  },
-  {
-   "t": "Tencent заявляет, что ее Hy4 присоединяется к «высшему уровню» моделей искусственного интеллекта с открытым исходным кодом",
-   "x": "",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/tencent-says-its-hy4-joins-top-tier-of-open-source-ai-models",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F0%2F3%2F1%2F13401301-1-eng-GB%2F7690b8abf926-robotencent.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
    "fresh": true,
    "n": 1,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 30,
-   "t_en": "Tencent says its Hy4 joins 'top-tier' of open-source AI models",
-   "x_en": ""
-  },
-  {
-   "t": "Глава администрации Индонезии уволен за предположительное прослушивание телефонных разговоров президента Прабово",
-   "x": "",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/politics/indonesia-chief-of-staff-sacked-for-allegedly-wiretapping-president-prabowo",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F8%2F2%2F1%2F13401284-1-eng-GB%2F07eb8413379d-2026-11-04T020657Z_1461848709_RC29UNAAFOBC_RTRMADP_3_INDONESIA-CRIME.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": -2.57,
-   "lon": 117.63,
-   "place": "Индонезия",
-   "place_en": "Indonesia",
-   "id": 31,
-   "t_en": "Indonesia chief of staff sacked for allegedly wiretapping President Prabowo",
-   "x_en": ""
-  },
-  {
-   "t": "Япония хочет, чтобы американские технологические компании делились нераскрытыми недостатками программного обеспечения по мере роста рисков",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/cybersecurity/japan-wants-us-tech-companies-to-share-undisclosed-software-flaws-as-risks-mount",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F0%2F1%2F2%2F13402102-2-eng-GB%2Fbc1d314b57dc-photo_SXM2026110400015213.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.15,
-   "lon": 137.83,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 32,
-   "t_en": "Japan wants US tech companies to share undisclosed software flaws as risks mount",
-   "x_en": ""
-  },
-  {
-   "t": "Японская компания Nidec продлит кредитные линии на $3,8 млрд.",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/companies/japan-s-scandal-hit-nidec-to-have-3.8bn-in-credit-lines-renewed",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F9%2F1%2F2%2F13402199-2-eng-GB%2Fdfe486ac1c28-photo_SXM2026110400001914.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.45,
-   "lon": 137.01,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 33,
-   "t_en": "Japan's scandal-hit Nidec to have $3.8bn in credit lines renewed",
-   "x_en": ""
-  },
-  {
-   "t": "Поставщик Toyota покупает связанного с Nissan аналога на фоне конкуренции в Китае",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/business-deals/toyota-supplier-buys-nissan-linked-peer-amid-china-competition",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F6%2F1%2F2%2F13402165-2-eng-GB%2F76dba9ae5202-photo_SXM2026110400006191.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 34.78,
-   "lon": 104.1,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 34,
-   "t_en": "Toyota supplier buys Nissan-linked peer amid China competition",
-   "x_en": ""
-  },
-  {
-   "t": "Японский кредитор открыл кредитную линию на 600 миллионов долларов, чтобы помочь малайзийской Petronas сократить выбросы CO2",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/energy/japan-lender-leads-600m-credit-line-to-help-malaysia-s-petronas-cut-co2",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F8%2F5%2F2%2F13402582-2-eng-GB%2F307c293c5bf2-2026-09-14T114445Z_1297505834_RC2VINA14W9D_RTRMADP_3_GLOBAL-LNG.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.63,
-   "lon": 137.07,
-   "place": "Япония",
-   "place_en": "Japan",
    "id": 35,
-   "t_en": "Japan lender leads $600m credit line to help Malaysia's Petronas cut CO2",
+   "t_en": "It's official: now avoid credit card interest into 2024",
+   "x_en": ""
+  },
+  {
+   "t": "Начальная годовая процентная ставка 0% до 2024 года — это 100% безумие.",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 36,
+   "t_en": "0% intro APR until 2024 is 100% insane",
    "x_en": ""
   },
   {
@@ -1055,15 +1078,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/editor-s-picks/china-up-close/analysis-how-a-secret-feud-ignited-xi-jinping-s-governance-drive",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F5%2F1%2F0%2F13400156-1-eng-GB%2F3d2b8b06b454-20261106-CUC-img.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 34.88,
    "lon": 104.36,
    "place": "Китай",
    "place_en": "China",
-   "id": 36,
+   "id": 37,
    "t_en": "Analysis: How a secret feud ignited Xi Jinping's governance drive",
    "x_en": ""
   },
@@ -1079,15 +1102,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/business/automobiles/japan-s-koito-looks-to-keep-lighting-way-with-smart-automotive-lamps",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F9%2F2%2F2%2F13402296-2-eng-GB%2F6c24c2833ef7-6c5dd0b8-f22f-4736-bf76-66dec8742ba1.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 36.62,
    "lon": 139.62,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 37,
+   "id": 38,
    "t_en": "Japan's Koito looks to keep lighting way with smart automotive lamps",
    "x_en": ""
   },
@@ -1103,15 +1126,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/opinion/the-price-of-building-japanese-stealth-frigates-in-australia",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F1%2F6%2F5%2F13395614-1-eng-GB%2Ffe453567a205-AP25248400869327.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 37.25,
    "lon": 138.89,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 38,
+   "id": 39,
    "t_en": "The price of building Japanese stealth frigates in Australia",
    "x_en": ""
   },
@@ -1127,48 +1150,20 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/business/materials/u.s.-steel-grows-to-40-of-nippon-steel-profit-as-prices-surge",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F3%2F4%2F2%2F13402439-2-eng-GB%2Fb2a3ae2c2309-photo_SXM2026110400005812.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 39.19,
    "lon": -98.54,
    "place": "США",
    "place_en": "United States",
-   "id": 39,
-   "t_en": "U.S. Steel grows to 40% of Nippon Steel profit as prices surge",
-   "x_en": ""
-  },
-  {
-   "t": "Toyota вернет Celica в ведущие раллийные гонки после 32-летнего перерыва",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/toyota-to-bring-celica-back-to-premier-rally-racing-after-32-year-break",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
    "id": 40,
-   "t_en": "Toyota to bring Celica back to premier rally racing after 32-year break",
+   "t_en": "U.S. Steel grows to 40% of Nippon Steel profit as prices surge",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793843477470,
-   "v": 49
-  },
   {
    "t": 1793867784872,
    "v": 50
@@ -1184,139 +1179,143 @@
   {
    "t": 1793932691128,
    "v": 49
+  },
+  {
+   "t": 1793958663674,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1793846291128,
-   "v": 59,
-   "n": 5
+   "t": 1793872263674,
+   "v": 55,
+   "n": 33
   },
   {
-   "t": 1793849891128,
-   "v": 49,
-   "n": 14
+   "t": 1793875863674,
+   "v": 52,
+   "n": 43
   },
   {
-   "t": 1793853491128,
-   "v": 46,
-   "n": 22
-  },
-  {
-   "t": 1793857091128,
-   "v": 45,
-   "n": 30
-  },
-  {
-   "t": 1793860691128,
-   "v": 45,
-   "n": 28
-  },
-  {
-   "t": 1793864291128,
+   "t": 1793879463674,
    "v": 48,
-   "n": 38
+   "n": 39
   },
   {
-   "t": 1793867891128,
+   "t": 1793883063674,
+   "v": 52,
+   "n": 41
+  },
+  {
+   "t": 1793886663674,
+   "v": 54,
+   "n": 45
+  },
+  {
+   "t": 1793890263674,
    "v": 53,
+   "n": 54
+  },
+  {
+   "t": 1793893863674,
+   "v": 51,
+   "n": 53
+  },
+  {
+   "t": 1793897463674,
+   "v": 54,
+   "n": 65
+  },
+  {
+   "t": 1793901063674,
+   "v": 55,
+   "n": 71
+  },
+  {
+   "t": 1793904663674,
+   "v": 58,
+   "n": 64
+  },
+  {
+   "t": 1793908263674,
+   "v": 55,
+   "n": 45
+  },
+  {
+   "t": 1793911863674,
+   "v": 50,
+   "n": 35
+  },
+  {
+   "t": 1793915463674,
+   "v": 45,
    "n": 42
   },
   {
-   "t": 1793871491128,
-   "v": 52,
-   "n": 55
+   "t": 1793919063674,
+   "v": 43,
+   "n": 48
   },
   {
-   "t": 1793875091128,
-   "v": 49,
+   "t": 1793922663674,
+   "v": 47,
+   "n": 53
+  },
+  {
+   "t": 1793926263674,
+   "v": 47,
    "n": 63
   },
   {
-   "t": 1793878691128,
-   "v": 47,
-   "n": 66
-  },
-  {
-   "t": 1793882291128,
-   "v": 45,
-   "n": 67
-  },
-  {
-   "t": 1793885891128,
-   "v": 50,
-   "n": 75
-  },
-  {
-   "t": 1793889491128,
-   "v": 50,
-   "n": 75
-  },
-  {
-   "t": 1793893091128,
-   "v": 51,
-   "n": 80
-  },
-  {
-   "t": 1793896691128,
-   "v": 51,
-   "n": 82
-  },
-  {
-   "t": 1793900291128,
-   "v": 54,
-   "n": 97
-  },
-  {
-   "t": 1793903891128,
-   "v": 54,
-   "n": 101
-  },
-  {
-   "t": 1793907491128,
-   "v": 53,
-   "n": 88
-  },
-  {
-   "t": 1793911091128,
-   "v": 49,
-   "n": 105
-  },
-  {
-   "t": 1793914691128,
-   "v": 47,
-   "n": 107
-  },
-  {
-   "t": 1793918291128,
+   "t": 1793929863674,
    "v": 46,
-   "n": 119
+   "n": 71
   },
   {
-   "t": 1793921891128,
-   "v": 46,
-   "n": 105
-  },
-  {
-   "t": 1793925491128,
-   "v": 46,
-   "n": 106
-  },
-  {
-   "t": 1793929091128,
+   "t": 1793933463674,
    "v": 44,
+   "n": 74
+  },
+  {
+   "t": 1793937063674,
+   "v": 44,
+   "n": 89
+  },
+  {
+   "t": 1793940663674,
+   "v": 46,
+   "n": 105
+  },
+  {
+   "t": 1793944263674,
+   "v": 46,
    "n": 134
   },
   {
-   "t": 1793932691128,
-   "v": 43,
-   "n": 98
+   "t": 1793947863674,
+   "v": 47,
+   "n": 137
+  },
+  {
+   "t": 1793951463674,
+   "v": 46,
+   "n": 133
+  },
+  {
+   "t": 1793955063674,
+   "v": 45,
+   "n": 140
+  },
+  {
+   "t": 1793958663674,
+   "v": 44,
+   "n": 96
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 20
+   "items": 24
   },
   {
    "n": "Al Jazeera",
@@ -1324,7 +1323,7 @@
   },
   {
    "n": "DW",
-   "items": 11
+   "items": 8
   },
   {
    "n": "France 24",
@@ -1332,15 +1331,15 @@
   },
   {
    "n": "The Guardian",
-   "items": 35
+   "items": 30
   },
   {
    "n": "Sky News",
-   "items": 6
+   "items": 4
   },
   {
    "n": "NPR",
-   "items": 6
+   "items": 8
   },
   {
    "n": "UN News",
@@ -1352,11 +1351,11 @@
   },
   {
    "n": "Euronews",
-   "items": 36
+   "items": 34
   },
   {
    "n": "NYT",
-   "items": 36
+   "items": 37
   },
   {
    "n": "Washington Post",
@@ -1364,7 +1363,7 @@
   },
   {
    "n": "CBS News",
-   "items": 19
+   "items": 15
   },
   {
    "n": "ABC News",
@@ -1376,7 +1375,7 @@
   },
   {
    "n": "Fox News",
-   "items": 6
+   "items": 4
   },
   {
    "n": "ABC Australia",
@@ -1404,7 +1403,7 @@
   },
   {
    "n": "Kyiv Independent",
-   "items": 14
+   "items": 15
   },
   {
    "n": "Yonhap",
@@ -1416,11 +1415,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 18
+   "items": 12
   },
   {
    "n": "Dawn",
-   "items": 29
+   "items": 24
   },
   {
    "n": "Times of India",

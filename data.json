@@ -1,42 +1,42 @@
 {
- "updated": 1793984292275,
+ "updated": 1794002253031,
  "demo": false,
- "total_articles": 692,
- "second_delta": -2,
+ "total_articles": 713,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 56
+   "v": 57
   },
   {
    "n": "Al Jazeera",
-   "v": 48
-  },
-  {
-   "n": "DW",
-   "v": 60
-  },
-  {
-   "n": "France 24",
-   "v": 50
-  },
-  {
-   "n": "The Guardian",
    "v": 52
   },
   {
+   "n": "DW",
+   "v": 65
+  },
+  {
+   "n": "France 24",
+   "v": 54
+  },
+  {
+   "n": "The Guardian",
+   "v": 54
+  },
+  {
    "n": "Sky News",
-   "v": 53
+   "v": 66
   },
   {
    "n": "NPR",
-   "v": 51
+   "v": 57
   },
   {
    "n": "UN News",
-   "v": 75
+   "v": 73
   },
   {
    "n": "CNBC",
@@ -44,19 +44,23 @@
   },
   {
    "n": "Euronews",
-   "v": 53
+   "v": 51
   },
   {
    "n": "NYT",
-   "v": 55
+   "v": 53
+  },
+  {
+   "n": "Washington Post",
+   "v": 48
   },
   {
    "n": "CBS News",
-   "v": 58
+   "v": 56
   },
   {
    "n": "ABC News",
-   "v": 68
+   "v": 64
   },
   {
    "n": "CNN",
@@ -68,7 +72,7 @@
   },
   {
    "n": "ABC Australia",
-   "v": 42
+   "v": 40
   },
   {
    "n": "CNA",
@@ -76,11 +80,11 @@
   },
   {
    "n": "Africanews",
-   "v": 49
+   "v": 47
   },
   {
    "n": "Kyiv Independent",
-   "v": 57
+   "v": 51
   },
   {
    "n": "Yonhap",
@@ -88,11 +92,11 @@
   },
   {
    "n": "Nikkei Asia",
-   "v": 41
+   "v": 42
   },
   {
    "n": "The Diplomat",
-   "v": 49
+   "v": 45
   },
   {
    "n": "Dawn",
@@ -100,15 +104,15 @@
   },
   {
    "n": "Times of India",
-   "v": 38
+   "v": 40
   },
   {
    "n": "The Hindu",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Politico EU",
-   "v": 50
+   "v": 46
   },
   {
    "n": "Japan Times",
@@ -116,17 +120,17 @@
   },
   {
    "n": "Reuters",
-   "v": 46
+   "v": 43
   },
   {
    "n": "AP",
-   "v": 46
+   "v": 45
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 61
+   "v": 58
   },
   {
    "n": "Ближний Восток",
@@ -138,7 +142,7 @@
   },
   {
    "n": "Африка",
-   "v": 53
+   "v": 51
   },
   {
    "n": "Америка",
@@ -147,292 +151,248 @@
  ],
  "events": [
   {
-   "t": "Угрозы взрыва бомб в отношении европейских рейсов «вероятно, являются скоординированной кампанией по подрыву», говорит Ирландия – как это произошло",
-   "x": "Этот блог сейчас закрыт, вы можете прочитать больше об этой истории здесь. Рейс румынской авиакомпании Tarom из Праги в Бухарест стал последним, который, как полагают, пострадал от сегодняшних угроз о взрыве. Самолет, выполнявший рейс ROT226M, передал звуковой код 7700 – ge.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 98,
-   "ten": 95,
-   "ago": 8,
-   "s": [
-    "The Guardian",
-    "NYT",
-    "The Hindu",
-    "Politico EU"
-   ],
-   "u": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
-   "img": "https://i.guim.co.uk/img/media/af13db51b17a65dbfc940a3980063bfbda88b6e9/253_0_4583_3667/master/4583.jpg?width=700&quality=85&auto=format&fit=max&s=18ced2ee913914b087943caabaa3464e",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 4,
-   "lat": 52.71,
-   "lon": -6.5,
-   "place": "Ирландия",
-   "place_en": "Ireland",
-   "id": 1,
-   "t_en": "Bomb threats against European flights ‘likely a coordinated campaign of disruption’, Ireland says – as it happened",
-   "x_en": "This blog is now closed, you can read more on this story here A Romanian airline Tarom flight from Prague to Bucharest is the latest believed to be affected by today’s bomb threats. The aircraft, operating flight number ROT226M, sent a squawk code of 7700 – ge"
-  },
-  {
-   "t": "Новые угрозы о взрыве нацелены на европейские телерадиокомпании и авиасообщение",
-   "x": "На этой неделе череда ложных предупреждений, повлекших за собой отклонения рейсов по всей Европе, распространилась и на редакции новостей.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 95,
-   "ten": 91,
-   "ago": 24,
-   "s": [
-    "Al Jazeera",
-    "NPR",
-    "ABC News",
-    "Dawn",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/6/new-bomb-threats-target-european-broadcasters-air-traffic?traffic_source=rss",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fff%2F64%2Fb282b384425e903e486372448a31%2Fap26310409371268.jpg",
-   "img_src": "NPR",
-   "fresh": true,
-   "n": 6,
-   "lat": 42.11,
-   "lon": 24.91,
-   "place": "Болгария",
-   "place_en": "Bulgaria",
-   "id": 2,
-   "t_en": "New bomb threats target European broadcasters, air traffic",
-   "x_en": "A string of hoax alerts causing flight diversions across Europe this week has broadened to include newsrooms."
-  },
-  {
-   "t": "Отец Меган арестован во Флориде по обвинению в распространении материалов о сексуальном насилии над детьми",
-   "x": "Отец герцогини Сассекской был взят под стражу недалеко от Тампы, сообщила прокуратура США, Томас Маркл, отец герцогини Сассекской, был арестован федеральными агентами США во Флориде по обвинению, связанному с материалами о сексуальном насилии над детьми. Маркл, 82 года, была схвачена",
+   "t": "Кто такой Стивен Миллер, новый руководитель администрации Трампа в Белом доме?",
+   "x": "Миллер был близким доверенным лицом Трампа с 2016 года и разработчиком жесткой иммиграционной политики президента.",
    "r": "Америка",
-   "c": "Общее",
-   "imp": 91,
-   "ten": 52,
+   "c": "Политика",
+   "imp": 90,
+   "ten": 45,
    "ago": 12,
    "s": [
+    "Al Jazeera",
     "The Guardian",
-    "Euronews",
-    "NYT",
+    "Yonhap",
     "Dawn",
     "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested",
-   "img": "https://i.guim.co.uk/img/media/f9cfec4c1e00591a43dd167e340d0109f7c8ff90/221_0_4320_3456/master/4320.jpg?width=700&quality=85&auto=format&fit=max&s=351fd81083534cae7229c7de287f58cf",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 6,
-   "lat": 38.94,
-   "lon": -99.04,
-   "place": "США",
-   "place_en": "United States",
-   "id": 3,
-   "t_en": "Meghan’s father arrested in Florida on charges related to child sexual abuse material",
-   "x_en": "Father of the Duchess of Sussex was taken into custody near Tampa, US prosecutors said Thomas Markle, father of the Duchess of Sussex , has been arrested by US federal agents in Florida on charges related to child sexual abuse material. Markle, 82, was taken i"
-  },
-  {
-   "t": "Британский комик Рассел Брэнд признан виновным в изнасиловании и трех сексуальных домогательствах",
-   "x": "Британский комик Рассел Брэнд был в четверг, 5 ноября, признан лондонскими присяжными виновным в изнасиловании и трех сексуальных нападениях, в том числе в отношении 16-летней девочки. По словам судьи, теперь ему грозит «значительный» тюремный срок.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 89,
-   "ten": 40,
-   "ago": 13,
-   "s": [
-    "France 24",
-    "Euronews",
-    "CBS News",
-    "Japan Times"
-   ],
-   "u": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
-   "img": "https://s.france24.com/media/display/090853f4-da01-11f1-95a1-695cb59fade5/w:1024/p:16x9/capture-9b57246d.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 4,
-   "lat": 54.37,
-   "lon": -4.33,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 4,
-   "t_en": "British comedian Russell Brand found guilty of rape and three sexual assaults",
-   "x_en": "British comedian Russell Brand was on Thursday, November 5, found guilty of rape and three sexual assaults by a London jury, including a 16-year-old girl. He now faces \"significant\" prison time, according to the judge."
-  },
-  {
-   "t": "Кенийский суд приговорил лидера культа голодания к 200 годам заключения",
-   "x": "Пол Маккензи и его сообщники были признаны виновными в убийстве 190 детей и одного взрослого.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 89,
-   "ten": 48,
-   "ago": 24,
-   "s": [
-    "Al Jazeera",
-    "DW",
-    "The Guardian",
-    "NPR",
-    "NYT",
-    "CBS News",
-    "ABC News",
-    "Africanews",
     "Reuters",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/6/kenyan-court-sentences-starvation-cult-leader-to-200-years?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/017bd9f3ebe11c01312f4eefff5b6fce391376f3/332_0_3320_2656/master/3320.jpg?width=700&quality=85&auto=format&fit=max&s=8a0748f8e79a98a7be3eb273d2d19b8d",
+   "u": "https://www.aljazeera.com/news/2026/11/6/who-is-stephen-miller-trumps-new-white-house-chief-of-staff?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/f9722987baf4b5522f5f6efd1409295823e842e7/1157_0_6660_5331/master/6660.jpg?width=700&quality=85&auto=format&fit=max&s=fe5ab6c051f3dd9b8609b3670fedd19b",
    "img_src": "The Guardian",
    "fresh": true,
    "n": 10,
-   "lat": -0.13,
-   "lon": 37.51,
-   "place": "Кения",
-   "place_en": "Kenya",
-   "id": 5,
-   "t_en": "Kenyan court sentences starvation cult leader to 200 years",
-   "x_en": "Paul Mackenzie and accomplices were convicted of murdering 190 children and one adult."
+   "lat": 38.87,
+   "lon": -76.85,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 1,
+   "t_en": "Who is Stephen Miller, Trump’s new White House chief of staff?",
+   "x_en": "Miller has been a close confidant of Trump since 2016 and an architect of the president's hardline immigration policies."
   },
   {
-   "t": "Протестующие ворвались в центр обработки данных Microsoft AI в Амстердаме",
-   "x": "Более 100 активистов ворвались на стройку дата-центра Microsoft в Амстердаме.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 88,
-   "ten": 61,
-   "ago": 46,
+   "t": "Лидер кенийской секты Судного дня приговорен к 200 годам тюрьмы за убийство 190 детей",
+   "x": "Пол Маккензи осужден за смерть детей и одного взрослого после того, как последователям было приказано морить голодом себя и свои семьи Лидер кенийской секты судного дня был приговорен к 200 годам тюремного заключения за убийство 190 детей и одного взрослого в",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 90,
+   "ten": 48,
+   "ago": 13,
    "s": [
-    "Al Jazeera",
-    "Euronews",
+    "The Guardian",
+    "NPR",
+    "NYT",
+    "Washington Post",
     "ABC News",
     "Africanews",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/6/protesters-break-into-microsoft-ai-data-centre-site-in-amsterdam?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/98/28/42/696x392_cmsv2_a64f83a6-aeb0-5eff-9d55-2c53bd56e6c4-9982842.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+   "img": "https://i.guim.co.uk/img/media/017bd9f3ebe11c01312f4eefff5b6fce391376f3/332_0_3320_2656/master/3320.jpg?width=700&quality=85&auto=format&fit=max&s=8a0748f8e79a98a7be3eb273d2d19b8d",
+   "img_src": "The Guardian",
    "fresh": true,
-   "n": 6,
-   "lat": 52.49,
-   "lon": 6.1,
-   "place": "Нидерланды",
-   "place_en": "Netherlands",
-   "id": 6,
-   "t_en": "Protesters break into Microsoft AI data centre site in Amsterdam",
-   "x_en": "More than 100 activists broke into a Microsoft data centre construction site in Amsterdam."
+   "n": 8,
+   "lat": 0.17,
+   "lon": 37.37,
+   "place": "Кения",
+   "place_en": "Kenya",
+   "id": 2,
+   "t_en": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+   "x_en": "Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their families The leader of a Kenyan doomsday sect has been sentenced to 200 years in prison for the murders of 190 children and one adult in "
   },
   {
-   "t": "Два человека погибли в результате крушения автобуса во Франции, сообщили официальные лица",
-   "x": "По данным местных властей, в результате крушения один ребенок и один молодой человек погибли, еще больше получили ранения.",
+   "t": "Отец Меган Маркл арестован в США из-за предполагаемых фотографий сексуального насилия над детьми",
+   "x": "Власти США обнаружили откровенно сексуальные фотографии, на которых изображен Томас Маркл с девочками препубертатного возраста.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 87,
+   "ten": 51,
+   "ago": 41,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "Euronews",
+    "NYT",
+    "CBS News",
+    "Dawn",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/6/meghan-markles-father-arrested-in-us-over-alleged-child-sex-abuse-photos?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/a2adfb76057620d1e7d74079ddf4e8b2f7b269d6/589_201_4067_3254/master/4067.jpg?width=700&quality=85&auto=format&fit=max&s=1e6fb00dd442c82a091a527ab94c82ce",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 9,
+   "lat": 39.14,
+   "lon": -97.79,
+   "place": "США",
+   "place_en": "United States",
+   "id": 3,
+   "t_en": "Meghan Markle’s father arrested in US over alleged child sex abuse photos",
+   "x_en": "US authorities found sexually explicit photos that appeared to show Thomas Markle with prepubescent girls."
+  },
+  {
+   "t": "Протестующие ворвались в дата-центр Microsoft в Амстердаме",
+   "x": "Центры обработки данных сталкиваются с протестами по всей Европе из-за огромного количества вычислительной мощности и воды, которые они используют.",
+   "r": "Европа",
+   "c": "Наука",
+   "imp": 86,
+   "ten": 58,
+   "ago": 53,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "Euronews",
+    "ABC News",
+    "Africanews",
+    "Dawn",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/414d7d67ea2545c80811d6232dffc8abf84afb3f/188_0_1702_1362/master/1702.jpg?width=700&quality=85&auto=format&fit=max&s=52fbcf61d07c15536e56455244b93613",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 9,
+   "lat": 51.68,
+   "lon": 6.07,
+   "place": "Нидерланды",
+   "place_en": "Netherlands",
+   "id": 4,
+   "t_en": "Protesters break into Microsoft data centre site in Amsterdam",
+   "x_en": "Data centres face protests across Europe due to the massive amounts of computing power and water they use."
+  },
+  {
+   "t": "Угрозы о взрыве «Послания Западу» нацелены на европейские редакции новостей и путешествия",
+   "x": "Редакции новостей в Ирландии и Болгарии получили угрозы о взрыве от человека, назвавшегося «Михаилом Андроповым».",
    "r": "Европа",
    "c": "Конфликты",
    "imp": 86,
-   "ten": 81,
-   "ago": 84,
+   "ten": 93,
+   "ago": 103,
    "s": [
-    "BBC",
-    "Sky News",
-    "ABC News",
-    "The Hindu",
+    "Al Jazeera",
+    "The Guardian",
+    "NPR",
+    "CNBC",
+    "CBS News",
+    "Politico EU",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5740/live/92c81290-d9cb-11f1-bb8e-efaa31738708.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 47.77,
-   "lon": 2.35,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 7,
-   "t_en": "Two dead after bus crashes in France, officials say",
-   "x_en": "One child and one young adult were killed in the crash, local authorities say, with more injured."
-  },
-  {
-   "t": "Новая волна угроз о взрыве ударила по европейским авиакомпаниям",
-   "x": "Никакой связи между угрозами в адрес авиакомпаний и СМИ не установлено.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 84,
-   "ten": 95,
-   "ago": 25,
-   "s": [
-    "BBC",
-    "France 24",
-    "CBS News"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c047/live/33f77d10-d9ed-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 4,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 8,
-   "t_en": "New wave of bomb threats hit European airlines",
-   "x_en": "No link has been established between the threats against the airlines and those against the media outlets."
-  },
-  {
-   "t": "Дальнейшие угрозы взрыва сорвали еще как минимум 18 рейсов по Европе.",
-   "x": "СМИ в Ирландии и Великобритании также пострадали, поскольку очевидно скоординированные усилия по созданию хаоса продолжаются. Новая волна угроз о взрыве бомб нарушила воздушное сообщение по всей Европе, но пострадавшие самолеты благополучно приземлились, а обыски не обнаружили никаких взрывных устройств.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 83,
-   "ten": 95,
-   "ago": 37,
-   "s": [
-    "The Guardian",
-    "CNBC",
-    "NYT"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/6/message-to-the-west-bomb-threats-target-european-newsrooms-travel?traffic_source=rss",
    "img": "https://i.guim.co.uk/img/media/1f88c9a52100be8318eb3a96107a54f59d0a5606/205_0_4147_3317/master/4147.jpg?width=700&quality=85&auto=format&fit=max&s=fb868e3e898416cc612bc1907e2fa014",
    "img_src": "The Guardian",
-   "fresh": true,
-   "n": 4,
-   "lat": 52.07,
-   "lon": 21.45,
-   "place": "Варшава",
-   "place_en": "Warsaw",
-   "id": 9,
-   "t_en": "Further bomb threats disrupt at least another 18 flights across Europe",
-   "x_en": "Media organisations in Ireland and UK also affected as apparently coordinated effort to cause chaos continues A fresh wave of bomb threats has disrupted air traffic across Europe but the affected planes landed safely and searches revealed no explosive devices."
+   "fresh": false,
+   "n": 7,
+   "lat": 51.48,
+   "lon": -0.67,
+   "place": "Лондон",
+   "place_en": "London",
+   "id": 5,
+   "t_en": "‘Message to the West’ bomb threats target European newsrooms, travel",
+   "x_en": "Newsrooms in Ireland and Bulgaria received bomb threats from someone identifying themself as ‘Mikhail Andropov’."
   },
   {
-   "t": "Гонконгский демократический активист Джошуа Вонг приговорен к 10 годам тюремного заключения по делу о национальной безопасности",
-   "x": "30-летний Вонг, находящийся в тюрьме с 2020 года, является единственным активистом в Гонконге, которого дважды преследовали по закону о национальной безопасности Эксклюзив: Джошуа Вонг оплакивает судьбу города из тюрьмы строгого режима Гонконгский активист Джошуа Вонг был приговорен к 10 годам тюремного заключения",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 80,
+   "t": "Папа Римский отправляется в длительную поездку в Латинскую Америку через несколько недель после операции по поводу рака легких",
+   "x": "Папа Лев, которому в прошлом месяце удалили часть легкого, посетит Уругвай, Аргентину и Перу.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 85,
    "ten": 40,
-   "ago": 1,
+   "ago": 43,
    "s": [
+    "BBC",
+    "Al Jazeera",
+    "France 24",
+    "NPR",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d5f5/live/a7b86be0-d96d-11f1-9fd0-cdf612d1539f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 7,
+   "lat": 40.68,
+   "lon": -98.8,
+   "place": "США",
+   "place_en": "United States",
+   "id": 6,
+   "t_en": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+   "x_en": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru."
+  },
+  {
+   "t": "Европа: что мы знаем о ложных угрозах взрыва бомбы, препятствующих полетам",
+   "x": "Десятки европейских рейсов были прерваны на этой неделе после того, как в различные аэропорты поступили угрозы о взрыве бомб, причем истребители сопровождали многие гражданские самолеты после того, как угрозы были объявлены в полете.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 85,
+   "ten": 95,
+   "ago": 110,
+   "s": [
+    "France 24",
     "The Guardian",
     "NYT",
-    "Nikkei Asia"
+    "The Hindu"
    ],
-   "u": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
-   "img": "https://i.guim.co.uk/img/media/d9bf9f9b9523e26c98269088295afe0101408a09/745_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=07cb66465e5b2ceb03b6e99424ec33e1",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 22.3,
-   "lon": 115.37,
-   "place": "Гонконг",
-   "place_en": "Hong Kong",
-   "id": 10,
-   "t_en": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
-   "x_en": "Wong, 30, in prison since 2020, is only activist in Hong Kong prosecuted twice under national security law Exclusive: Joshua Wong laments city’s fate from inside maximum security prison The Hong Kong activist Joshua Wong has been sentenced to 10 years in priso"
+   "u": "https://www.france24.com/en/europe-what-we-know-about-the-hoax-bomb-threats-disrupting-flights",
+   "img": "https://s.france24.com/media/display/821a507a-da02-11f1-960f-1beafce15fea/w:1024/p:16x9/Thumb-01-1.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 6,
+   "lat": 52.34,
+   "lon": 20.83,
+   "place": "Варшава",
+   "place_en": "Warsaw",
+   "id": 7,
+   "t_en": "Europe: What we know about the hoax bomb threats disrupting flights",
+   "x_en": "Dozens of European flights have been disrupted this week after bomb threats were sent in to various airports, with fighter planes escorting many civilian aircraft after threats were called in mid-flight."
+  },
+  {
+   "t": "Как крах Уэно в Парагвае — всего лишь последний банковский кризис",
+   "x": "Президент Сантьяго Пенья подвергается критике из-за связей с материнской компанией обанкротившегося банка.",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 84,
+   "ten": 78,
+   "ago": 95,
+   "s": [
+    "Al Jazeera",
+    "DW",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/6/how-paraguays-ueno-collapse-is-only-its-latest-banking-crisis?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_e84f5ada84e8c747329ec82fabb46e4d_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": -22.3,
+   "lon": -57.8,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 8,
+   "t_en": "How Paraguay’s Ueno collapse is only its latest banking crisis",
+   "x_en": "President Santiago Pena is under fire over links to parent company of collapsed bank."
   },
   {
    "t": "Лидер танзанийской оппозиции признан виновным в разжигании беспорядков, но оправдан в государственной измене",
    "x": "58-летний мужчина, находящийся под стражей с апреля прошлого года, говорит, что обвинения политически мотивированы.",
    "r": "Мир",
    "c": "Политика",
-   "imp": 79,
-   "ten": 57,
-   "ago": 121,
+   "imp": 76,
+   "ten": 51,
+   "ago": 135,
    "s": [
     "BBC",
     "Al Jazeera",
@@ -449,118 +409,112 @@
    "lon": 34.9,
    "place": "Танзания",
    "place_en": "Tanzania",
-   "id": 11,
+   "id": 9,
    "t_en": "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason",
    "x_en": "The 58-year-old, who has been detained since April last year, says the charges are politically motivated."
   },
   {
-   "t": "Папа Римский отправляется в длительную поездку в Латинскую Америку через несколько недель после операции по поводу рака легких",
-   "x": "Папа Лев, которому в прошлом месяце удалили часть легкого, посетит Уругвай, Аргентину и Перу.",
+   "t": "Мировые фондовые индексы падают на фоне «больших опасений по поводу ИИ» после победы демократов на промежуточных выборах",
+   "x": "Азиатские и европейские рынки следуют за разгромом технологических компаний США, и многие аналитики предсказывают, что впереди новые волны продаж. Европейские и азиатские фондовые рынки резко упали в пятницу после того, как решающая победа демократов на промежуточных выборах вызвала ежедневный разгром акций технологических компаний США.",
    "r": "Америка",
    "c": "Наука",
-   "imp": 76,
-   "ten": 40,
-   "ago": 120,
+   "imp": 74,
+   "ten": 37,
+   "ago": 34,
    "s": [
-    "BBC",
-    "France 24",
-    "NPR",
-    "NYT",
-    "AP"
+    "The Guardian",
+    "CNA",
+    "Dawn"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d5f5/live/a7b86be0-d96d-11f1-9fd0-cdf612d1539f.jpg",
-   "img_src": "BBC",
+   "u": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+   "img": "https://i.guim.co.uk/img/media/133fcf307a659f484d60938a125776efe501ba4e/407_0_3025_2422/master/3025.jpg?width=700&quality=85&auto=format&fit=max&s=c9b009d116ee1fdcc35377fd421c7636",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 35.76,
+   "lon": 139.76,
+   "place": "Токио",
+   "place_en": "Tokyo",
+   "id": 10,
+   "t_en": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+   "x_en": "Asian and European markets follow US tech rout with many analysts predicting more waves of selling to come European and Asian stock markets fell sharply on Friday after the Democrats’ decisive victory in the midterms triggered a rout in US tech stocks a day ea"
+  },
+  {
+   "t": "Папа проголосовал на выборах в США, потому что «гордится тем, что он американец»",
+   "x": "Папа Лев, который находится в 12-дневной поездке по трем странам Латинской Америки, также сказал, что благодарит Бога и врачей за свое выздоровление после операции по поводу рака легких.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 72,
+   "ten": 37,
+   "ago": 50,
+   "s": [
+    "CBS News",
+    "ABC News",
+    "Reuters"
+   ],
+   "u": "https://www.cbsnews.com/news/pope-leo-votes-election-proud-american/",
+   "img": "https://s.abcnews.com/images/US/wirestory_af93789d128017eb10d42a567e032f84_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.66,
+   "lon": -99.57,
+   "place": "США",
+   "place_en": "United States",
+   "id": 11,
+   "t_en": "Pope voted in U.S. election because he's \"proud to be an American\"",
+   "x_en": "Pope Leo, who is on a 12-day, three-country trip in Latin America, also said he credits God and doctors for his lung cancer surgery recovery."
+  },
+  {
+   "t": "Трамп выдвинул Стивена Миллера на должность главы администрации, «чтобы хорошо управлять делами»",
+   "x": "Президент Дональд Трамп назначил на должность главы администрации своего давнего помощника Стивена Миллера, заменив Сьюзи Уайлс.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 72,
+   "ten": 46,
+   "ago": 66,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Euronews"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/6/trump-promotes-stephen-miller-to-chief-of-staff-to-run-things?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/e4ccbd52-da20-11f1-92bf-a575454bc579/w:1024/p:16x9/000-D6PN3T3.jpg",
+   "img_src": "France 24",
    "fresh": false,
-   "n": 5,
-   "lat": 40.68,
-   "lon": -98.8,
+   "n": 3,
+   "lat": 39.81,
+   "lon": -98.31,
    "place": "США",
    "place_en": "United States",
    "id": 12,
-   "t_en": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-   "x_en": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru."
+   "t_en": "Trump promotes Stephen Miller to Chief of Staff ‘to run things well’",
+   "x_en": "President Donald Trump has promoted long-time aide Stephen Miller to Chief of Staff, replacing Susie Wiles."
   },
   {
-   "t": "Джей Рокфеллер, наследник знаменитой династии и защитник здравоохранения в Сенате США, умер в возрасте 89 лет",
-   "x": "Джей Рокфеллер, высокий, тихий демократ с либеральными взглядами, был правнуком нефтяного магната Джона Д. Рокфеллер и отпрыск семьи, сформировавшей политическую династию",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 73,
-   "ten": 40,
-   "ago": 52,
+   "t": "Гонконг приговорил Джошуа Вонга, лидера протестов против демократии, к еще 10 годам заключения",
+   "x": "Вонг, который несколько раз сидел в тюрьме после протестов, должен был быть освобожден в начале следующего года.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 51,
+   "ago": 1,
    "s": [
-    "The Hindu",
-    "Reuters",
-    "AP"
+    "Washington Post",
+    "Nikkei Asia"
    ],
-   "u": "https://www.thehindu.com/news/international/jay-rockefeller-heir-to-famed-dynasty-and-healthcare-advocate-in-us-senate-dies-at-89/article71674682.ece",
-   "img": "https://th-i.thgim.com/public/news/national/bq3jzn/article71674763.ece/alternates/LANDSCAPE_1200/Jay_Rockefeller.jpg",
-   "img_src": "The Hindu",
+   "u": "https://www.washingtonpost.com/world/2026/11/05/hong-kong-sentences-joshua-wong-face-democracy-protests-10-more-years/",
+   "img": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SGUX7ACWMTR6ACFOUBZGURC3E4.JPG&w=1440",
+   "img_src": "Washington Post (og)",
    "fresh": true,
    "n": 3,
-   "lat": 39.45,
-   "lon": -97.83,
-   "place": "США",
-   "place_en": "United States",
+   "lat": 22.16,
+   "lon": 112.98,
+   "place": "Гонконг",
+   "place_en": "Hong Kong",
    "id": 13,
-   "t_en": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in U.S. Senate, dies at 89",
-   "x_en": "Jay Rockefeller, a tall, soft-spoken Democrat with liberal views, was a great-grandson of oil tycoon John ‌D. Rockefeller and the scion of a family that formed a political dynasty"
-  },
-  {
-   "t": "В Макао заключен в тюрьму демократический активист по первому в городе делу о национальной безопасности",
-   "x": "Ау Кам Сан был приговорен к 12 годам и шести месяцам тюремного заключения за «подрывную деятельность против политической власти государства».",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 72,
-   "ten": 50,
-   "ago": 181,
-   "s": [
-    "BBC",
-    "NPR",
-    "CNA",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0ae0/live/23a8aa80-d9aa-11f1-88e6-7913ca4cf3b6.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 39.57,
-   "lon": 116.29,
-   "place": "Пекин",
-   "place_en": "Beijing",
-   "id": 14,
-   "t_en": "Macau jails pro-democracy campaigner in city's first national security case",
-   "x_en": "Au Kam San was sentenced to 12 years and six months' jail for \"subversion against the political power of the state\"."
-  },
-  {
-   "t": "Федеральный судья временно приостановил строительство триумфальной арки Трампа",
-   "x": "Суд США наложил 14-дневный запрет на строительство памятника округа Колумбия после того, как он был одобрен комиссией по планированию. Федеральный судья рано утром в пятницу заблокировал начало любых строительных работ на возвышающейся триумфальной арке Дональда Трампа на 14 дней,",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 71,
-   "ten": 40,
-   "ago": 174,
-   "s": [
-    "The Guardian",
-    "NPR",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/06/judge-temporarily-halts-work-trump-triumphal-arch-washington",
-   "img": "https://i.guim.co.uk/img/media/80501b103a6ec118c03b3ae74e80f2703d3be4e3/1131_0_5655_4526/master/5655.jpg?width=700&quality=85&auto=format&fit=max&s=300c5e81b655f63a75e90b1aed008e8f",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 4,
-   "lat": 39.82,
-   "lon": -98.75,
-   "place": "США",
-   "place_en": "United States",
-   "id": 15,
-   "t_en": "Federal judge temporarily halts building work on Trump’s triumphal arch",
-   "x_en": "US judge issues 14-day block on construction on DC monument after it was approved by planning commission A federal judge in the early hours of Friday blocked any construction work from beginning on Donald Trump’s towering triumphal arch for 14 days, a major se"
+   "t_en": "Hong Kong sentences Joshua Wong, face of democracy protests, to 10 more years",
+   "x_en": "Wong, who has had several stints in prison after his protests, had been set to be released early next year."
   },
   {
    "t": "Япония протестует против поглощения Россией дочерних компаний Japan Tobacco в России",
@@ -583,60 +537,9 @@
    "lon": 138.84,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 16,
+   "id": 14,
    "t_en": "Japan protests Russian takeover of Japan Tobacco subsidiaries in Russia",
    "x_en": "Japan has protested to Moscow after Russia placed four subsidiaries of Japan Tobacco under temporary Russian management"
-  },
-  {
-   "t": "Трамп обсудил деэскалацию в Западной Азии с эмиром Катара",
-   "x": "Согласно заявлению пресс-службы катарского правителя, телефонный разговор между Трампом и эмиром Катара шейхом Тамимом бен Хамадом аль Тани был посвящен международным усилиям по прекращению напряженности.",
-   "r": "Ближний Восток",
-   "c": "Общее",
-   "imp": 70,
-   "ten": 74,
-   "ago": 25,
-   "s": [
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.thehindu.com/news/international/trump-discusses-west-asia-de-escalation-with-qatars-emir/article71675242.ece",
-   "img": "https://th-i.thgim.com/public/news/national/w5ysw4/article71675286.ece/alternates/LANDSCAPE_1200/iStock-1089424930.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.23,
-   "lon": -97.12,
-   "place": "США",
-   "place_en": "United States",
-   "id": 17,
-   "t_en": "Trump discusses West Asia de-escalation with Qatar's Emir",
-   "x_en": "The telephone call between Trump and Qatar's Emir Sheik Tamim bin Hamad al Thani centred on international efforts to end tensions, according to a statement from the Qatari ruler's media office"
-  },
-  {
-   "t": "Мировые акции падают на фоне опасений замедления темпов развития искусственного интеллекта после промежуточного триумфа демократов",
-   "x": "Азиатские и европейские рынки последовали за Уолл-стрит с резким падением, так как FTSE упал на 1,9%. Деловая жизнь – последние новости Европейские фондовые рынки резко упали, поскольку бегство акций технологических компаний США распространилось по Атлантике после того, как победа демократов на промежуточных выборах спровоцировала",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 70,
-   "ten": 37,
-   "ago": 70,
-   "s": [
-    "The Guardian",
-    "CNA",
-    "Dawn"
-   ],
-   "u": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
-   "img": "https://i.guim.co.uk/img/media/133fcf307a659f484d60938a125776efe501ba4e/407_0_3025_2422/master/3025.jpg?width=700&quality=85&auto=format&fit=max&s=c9b009d116ee1fdcc35377fd421c7636",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 35.43,
-   "lon": 139.81,
-   "place": "Токио",
-   "place_en": "Tokyo",
-   "id": 18,
-   "t_en": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
-   "x_en": "Asian and European markets follow Wall Street with sharp fall as FTSE is down 1.9% Business live – latest updates European stock markets have fallen sharply as a rout in US tech stocks spread across the Atlantic, after the Democrats’ midterms victory sparked f"
   },
   {
    "t": "Путин захватывает контроль над подразделениями Japan Tobacco на фоне ухудшения отношений между Москвой и Токио",
@@ -659,7 +562,7 @@
    "lon": 139.82,
    "place": "Токио",
    "place_en": "Tokyo",
-   "id": 19,
+   "id": 15,
    "t_en": "Putin seizes control of Japan Tobacco units as Moscow-Tokyo ties fray",
    "x_en": "The order impacts four manufacturing plants and has drawn immediate protest from Tokyo."
   },
@@ -684,9 +587,35 @@
    "lon": 102.59,
    "place": "Китай",
    "place_en": "China",
-   "id": 20,
+   "id": 16,
    "t_en": "China-Japan row over Takaichi's Taiwan comment enters 2nd year",
    "x_en": "The ongoing dispute between China and Japan began following Prime Minister Sanae Takaichi's remarks about Taiwan in parliament on Nov. 7, 2025."
+  },
+  {
+   "t": "Партии Израиля, возглавляемые арабами, в центре внимания после безрезультатных выборов",
+   "x": "У правоцентристской оппозиции Израиля есть шанс свергнуть Нетаньяху, но поддержка партий, возглавляемых арабами, будет иметь ключевое значение",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 69,
+   "ten": 37,
+   "ago": 75,
+   "s": [
+    "NPR",
+    "NYT",
+    "Africanews"
+   ],
+   "u": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8069x5380+0+0/resize/8069x5380!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F6c%2F50cd0c0a4ea1b5b817c6d594d7b6%2Fap26300479457875.jpg",
+   "img_src": "NPR",
+   "fresh": false,
+   "n": 3,
+   "lat": 32.59,
+   "lon": 35.49,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 17,
+   "t_en": "Israel's Arab-led parties in spotlight after inconclusive election",
+   "x_en": "Israel's center-right opposition has a chance to unseat Netanyahu — but backing of Arab-led parties will be key"
   },
   {
    "t": "Японская Sony сообщает о огромной прибыли от своего блокбастера «Человек-паук»",
@@ -709,7 +638,7 @@
    "lon": 138.56,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 21,
+   "id": 18,
    "t_en": "Japan's Sony reports a hefty profit on the back of its blockbuster 'Spider-Man' movie",
    "x_en": "Japanese electronics and entertainment company Sony has reported a 44% surge in its profit in July-September, largely on the box office success of its movie, “Spider-Man: Brand New Day.”"
   },
@@ -734,7 +663,7 @@
    "lon": 30.51,
    "place": "Украина",
    "place_en": "Ukraine",
-   "id": 22,
+   "id": 19,
    "t_en": "Democratic 'blue wave' may buoy yen if AI trade reverses: FX traders",
    "x_en": "Reuters"
   },
@@ -745,7 +674,7 @@
    "c": "Политика",
    "imp": 68,
    "ten": 40,
-   "ago": 2,
+   "ago": 4,
    "s": [
     "The Hindu",
     "AP"
@@ -754,190 +683,197 @@
    "img": "https://th-i.thgim.com/public/incoming/hx39az/article71673981.ece/alternates/LANDSCAPE_1200/2026-11-06T020555Z_1604389806_RC2ZHOA3MT50_RTRMADP_3_USA-ELECTION-CALIFORNIA.JPG",
    "img_src": "The Hindu",
    "fresh": true,
-   "n": 4,
+   "n": 5,
    "lat": 39.03,
    "lon": -98.16,
    "place": "США",
    "place_en": "United States",
-   "id": 23,
+   "id": 20,
    "t_en": "US midterm election results 2026: Key Indian-origin winners",
    "x_en": "Indian-Americans Nithya Raman won the Los Angeles mayoral race, while Vivek ‌Ramaswamy‌ was defeated in ⁠the ⁠race to become Ohio’s ‌next governor"
   },
   {
-   "t": "Маск говорит, что Tesla сворачивает поляризацию производства Cybertruck из-за отставания продаж",
-   "x": "Выпущенный в 2023 году грузовик стал символом некоторой оппозиции Маску на фоне вторжения в политику США.",
+   "t": "Смотреть: Это конец пути для Cybertruck Tesla?",
+   "x": "Генеральный директор автомобильной компании Илон Маск заявил, что производство в Техасе будет остановлено, чтобы сосредоточиться на беспилотных кибертаксих компании.",
    "r": "Америка",
-   "c": "Экономика",
-   "imp": 68,
-   "ten": 37,
-   "ago": 82,
+   "c": "Общее",
+   "imp": 67,
+   "ten": 40,
+   "ago": 8,
    "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "CNBC"
+    "BBC",
+    "Dawn"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/6/musk-says-tesla-to-wind-down-polarising-cybertruck-production-as-sales-lag?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/067248f953434b6b22df921bb895b2c6f11d1011/74_41_3730_2983/master/3730.jpg?width=700&quality=85&auto=format&fit=max&s=947cbda7299392bf89d1e77176a3aaf9",
-   "img_src": "The Guardian",
-   "fresh": false,
+   "u": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3fbf/live/c3a237d0-d9f1-11f1-bb10-cdca6001fbcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
    "n": 3,
-   "lat": 38.93,
-   "lon": -98.89,
+   "lat": 38.79,
+   "lon": -97.79,
    "place": "США",
    "place_en": "United States",
-   "id": 24,
-   "t_en": "Musk says Tesla to wind down polarising Cybertruck production as sales lag",
-   "x_en": "Released in 2023, the truck has become a symbol to some of opposition to Musk amid foray into US politics."
+   "id": 21,
+   "t_en": "Watch: Is it the end of the road for Tesla's Cybertruck?",
+   "x_en": "The car company's CEO Elon Musk has said production will halt in Texas, to focus on the firm's self-driving Cybercabs."
   },
   {
-   "t": "ЕС обвиняет TikTok в вредных алгоритмических эффектах «кроличьей норы»",
-   "x": "Китайскому владельцу TikTok, ByteDance, в следующем году грозит штраф в размере до 6% от его мирового годового оборота, если он не сможет решить проблему.",
+   "t": "Два человека погибли в результате крушения автобуса во Франции, сообщили официальные лица",
+   "x": "По данным местных властей, в результате крушения один ребенок и один молодой человек погибли, еще больше получили ранения.",
    "r": "Европа",
-   "c": "Общее",
-   "imp": 65,
-   "ten": 40,
-   "ago": 124,
+   "c": "Конфликты",
+   "imp": 67,
+   "ten": 81,
+   "ago": 374,
    "s": [
-    "CNBC",
+    "BBC",
+    "Sky News",
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5740/live/92c81290-d9cb-11f1-bb8e-efaa31738708.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 5,
+   "lat": 47.77,
+   "lon": 2.35,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 22,
+   "t_en": "Two dead after bus crashes in France, officials say",
+   "x_en": "One child and one young adult were killed in the crash, local authorities say, with more injured."
+  },
+  {
+   "t": "Новая волна угроз о взрыве ударила по европейским авиакомпаниям",
+   "x": "Никакой связи между угрозами в адрес авиакомпаний и СМИ не установлено.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 95,
+   "ago": 207,
+   "s": [
+    "BBC",
     "Dawn",
     "Reuters"
    ],
-   "u": "https://www.cnbc.com/2026/11/06/eu-charges-tiktok-harmful-algorithmic-rabbit-hole-effects.html",
-   "img": "https://i.dawn.com/large/2025/12/1816544769464fb.webp",
-   "img_src": "Dawn",
+   "u": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c047/live/33f77d10-d9ed-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
    "fresh": false,
    "n": 3,
-   "lat": 50.71,
-   "lon": 4.24,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 25,
-   "t_en": "EU charges TikTok over harmful algorithmic 'rabbit hole' effects",
-   "x_en": "TikTok's Chinese owner ByteDance risks a fine next year of up to 6% of its global annual turnover unless it can resolve the issue."
+   "lat": 43.61,
+   "lon": 25.61,
+   "place": "Болгария",
+   "place_en": "Bulgaria",
+   "id": 23,
+   "t_en": "New wave of bomb threats hit European airlines",
+   "x_en": "No link has been established between the threats against the airlines and those against the media outlets."
   },
   {
-   "t": "Администрация Трампа отменяет заседание комиссии, в которую входят Цукерберг из Meta и Хуан из Nvidia",
-   "x": "Акции технологических компаний резко распродавались 5 ноября из-за растущих опасений, что новый Конгресс замедлит развитие ИИ, а также из-за опасений, что огромные капитальные затраты на создание ИИ не принесут достаточной прибыли.",
+   "t": "Джей Рокфеллер, наследник знаменитой династии и защитник здравоохранения в Сенате США, умер в возрасте 89 лет",
+   "x": "Джей Рокфеллер, высокий, тихий демократ с либеральными взглядами, был правнуком нефтяного магната Джона Д. Рокфеллер и отпрыск семьи, сформировавшей политическую династию",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 65,
+   "ten": 40,
+   "ago": 117,
+   "s": [
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.thehindu.com/news/international/jay-rockefeller-heir-to-famed-dynasty-and-healthcare-advocate-in-us-senate-dies-at-89/article71674682.ece",
+   "img": "https://th-i.thgim.com/public/news/national/bq3jzn/article71674763.ece/alternates/LANDSCAPE_1200/Jay_Rockefeller.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.45,
+   "lon": -97.83,
+   "place": "США",
+   "place_en": "United States",
+   "id": 24,
+   "t_en": "Jay Rockefeller, heir to famed dynasty and healthcare advocate in U.S. Senate, dies at 89",
+   "x_en": "Jay Rockefeller, a tall, soft-spoken Democrat with liberal views, was a great-grandson of oil tycoon John ‌D. Rockefeller and the scion of a family that formed a political dynasty"
+  },
+  {
+   "t": "Парагвай: тысячи протестуют против банковского скандала, поскольку президенту грозит импичмент",
+   "x": "Тысячи парагвайцев вышли на улицы из-за банковского скандала, в результате которого почти половина населения лишилась доступа к своим сбережениям. Протестующие требуют импичмента президенту Сантьяго Пенья, несмотря на его предложение уйти в отставку.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 51,
+   "ago": 134,
+   "s": [
+    "Euronews",
+    "Africanews",
+    "Reuters"
+   ],
+   "u": "https://www.euronews.com/video/2026/11/06/paraguay-thousands-protest-banking-scandal-as-president-faces-impeachment",
+   "img": "https://images.euronews.com/articles/stories/09/98/21/37/696x392_cmsv2_cdf9036a-557c-59a1-b21a-4a8f91e6390d-9982137.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": -23.25,
+   "lon": -59.72,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 25,
+   "t_en": "Paraguay: Thousands protest banking scandal as president faces impeachment",
+   "x_en": "Thousands of Paraguayans have taken to the streets over a banking scandal that has left nearly half the population without access to their savings. Protesters are demanding President Santiago Peña face impeachment despite his offer to resign."
+  },
+  {
+   "t": "В США трое мужчин обвинены в использовании искусственного интеллекта для выдачи себя за руководителей и кражи миллионов",
+   "x": "Мужчины предположительно выдавали себя за голоса и изображения руководителей, чтобы убедить сотрудников отправлять крупные платежи. Трое иностранных граждан были арестованы и обвинены в использовании искусственного интеллекта, чтобы якобы выдать себя за руководителей компаний и адвокатов с целью украсть более 100 миллионов долларов, согласно данным i.",
    "r": "Америка",
    "c": "Наука",
    "imp": 64,
-   "ten": 40,
-   "ago": 30,
+   "ten": 44,
+   "ago": 37,
    "s": [
-    "The Hindu",
-    "Reuters"
+    "The Guardian",
+    "CBS News"
    ],
-   "u": "https://www.thehindu.com/news/international/trump-administration-scraps-meeting-of-panel-that-includes-metas-zuckerberg-nvidias-huang/article71675185.ece",
-   "img": "https://th-i.thgim.com/public/incoming/m2malg/article71675212.ece/alternates/LANDSCAPE_1200/2026-11-06T110031Z_797019375_RC2UFOATWYY9_RTRMADP_3_USA-TRUMP-TRUMPMEDIA.JPG",
-   "img_src": "The Hindu",
+   "u": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
+   "img": "https://i.guim.co.uk/img/media/c3a832e799ac1dd8a85e6c73794399c038d7678b/250_0_2500_2001/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=6510daa84c876139e6adba240862f694",
+   "img_src": "The Guardian",
    "fresh": true,
    "n": 2,
-   "lat": 40.07,
-   "lon": -98.39,
+   "lat": 39.77,
+   "lon": -97.58,
    "place": "США",
    "place_en": "United States",
    "id": 26,
-   "t_en": "Trump administration scraps meeting of panel that includes Meta's Zuckerberg, Nvidia's Huang",
-   "x_en": "Technology shares sold ‌off ⁠dramatically on November 5 ⁠on growing concerns that a new Congress will slow AI development, and ​also on fears ‌that the massive capital expense of building out AI will not yield sufficient ‌returns"
+   "t_en": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+   "x_en": "Men allegedly impersonated voices and images of executives to convince employees to send large payments Three foreign nationals were arrested and charged with using AI to allegedly impersonate corporate CEOs and attorneys to steal over $100m, according to an i"
   },
   {
-   "t": "Дети подвергаются риску, поскольку количество атак на воду и канализацию в зоне боевых действий увеличилось более чем в три раза",
-   "x": "В период с 2021 по 2025 год количество нападений, повредивших или разрушивших системы водоснабжения и канализации в зонах конфликтов, утроилось, что увеличило риск заражения детей вспышками болезней, недоеданием и насилием.",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 80,
-   "ago": 81,
-   "s": [
-    "UN News",
-    "Africanews"
-   ],
-   "u": "https://news.un.org/feed/view/en/story/2026/11/1168743",
-   "img": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/07/13-07-2026_UNNews_Water_Gaza_03.jpg/image560x340cropped.jpg",
-   "img_src": "UN News",
-   "fresh": false,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 27,
-   "t_en": "Children at risk as war zone attacks on water and sanitation more than triple",
-   "x_en": "Attacks that damaged or destroyed water and sanitation systems in conflict zones tripled between 2021 and 2025, increasing children’s risk of exposure to disease outbreaks, malnutrition and violence."
-  },
-  {
-   "t": "«Джерузалем Дейли»: арабские партии поддерживают Айзенкот против Нетаньяху",
-   "x": "Партии арабского большинства в Израиле, «Объединенный список» и «Раам», поддержали соперника Нетаньяху Гади Айзенкота в формировании правительства.",
-   "r": "Ближний Восток",
-   "c": "Политика",
+   "t": "Британский комик Рассел Брэнд признан виновным в изнасиловании и трех сексуальных домогательствах",
+   "x": "Британский комик Рассел Брэнд был в четверг, 5 ноября, признан лондонскими присяжными виновным в изнасиловании и трех сексуальных нападениях, в том числе в отношении 16-летней девочки. По словам судьи, теперь ему грозит «значительный» тюремный срок.",
+   "r": "Европа",
+   "c": "Общее",
    "imp": 63,
    "ten": 40,
-   "ago": 36,
-   "s": [
-    "Al Jazeera",
-    "Africanews"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/6/jerusalem-daily-arab-parties-back-eisenkot-against-netanyahu?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/98/22/86/640x360_cmsv2_77cc888a-cdaa-5946-a08b-7be570408bc0-9982286.jpg?1793957571",
-   "img_src": "Africanews",
-   "fresh": true,
-   "n": 2,
-   "lat": 31.65,
-   "lon": 35.28,
-   "place": "Иерусалим",
-   "place_en": "Jerusalem",
-   "id": 28,
-   "t_en": "Jerusalem Daily: Arab parties back Eisenkot against Netanyahu",
-   "x_en": "Arab-majority parties in Israel, the Joint List and Ra’am, have backed Netanyahu’s rival Gadi Eisenkot to form a governm"
-  },
-  {
-   "t": "Израильский Айзенкот заявляет о «прогрессе» в переговорах по коалиции, поскольку оппозиция смягчила решение по ультраортодоксальному призыву",
-   "x": "Кандидат от израильской оппозиции Гади Айзенкот заявил в пятницу, что он добился «значительного прогресса» в формировании правительства для свержения премьер-министра Биньямина Нетаньяху, поскольку один из его возможных партнеров по коалиции отказался от требований, чтобы ультраортодоксальные евреи завершили военные действия.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 36,
-   "ago": 41,
+   "ago": 312,
    "s": [
     "France 24",
-    "The Hindu"
+    "Euronews",
+    "CBS News",
+    "Japan Times"
    ],
-   "u": "https://www.france24.com/en/middle-east/20261106-israel-s-eisenkot-claims-significant-progress-in-coalition-talks-as-opposition-eases-on-ultra-orthodox-draft",
-   "img": "https://s.france24.com/media/display/9ff0f7b4-d9f0-11f1-85f8-695cb59fade5/w:1024/p:16x9/AP26300857503629.jpg",
+   "u": "https://www.france24.com/en/video/20261106-british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults",
+   "img": "https://s.france24.com/media/display/090853f4-da01-11f1-95a1-695cb59fade5/w:1024/p:16x9/capture-9b57246d.jpg",
    "img_src": "France 24",
-   "fresh": true,
-   "n": 2,
-   "lat": 31.58,
-   "lon": 35.65,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 29,
-   "t_en": "Israel's Eisenkot claims 'progress' in coalition talks as opposition eases on ultra-Orthodox draft",
-   "x_en": "Israeli opposition candidate Gadi Eisenkot said on Friday he was making \"significant progress\" in forming a government to oust Prime Minister Benjamin Netanyahu as one of his possible coalition partners walked back demands that ultra-Orthodox Jews complete mil"
-  },
-  {
-   "t": "McDonald's ведет войну с KFC в Японии, поскольку потребители жаждут курицы",
-   "x": "",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 66,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/food-beverage/mcdonald-s-wages-war-on-kfc-in-japan-as-consumers-crave-chicken",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F2%2F4%2F2%2F13402422-2-eng-GB%2F5e114284d684-photo_SXM2026101600014770.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 37.37,
-   "lon": 138.67,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 30,
-   "t_en": "McDonald's wages war on KFC in Japan as consumers crave chicken",
-   "x_en": ""
+   "fresh": false,
+   "n": 4,
+   "lat": 54.37,
+   "lon": -4.33,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 27,
+   "t_en": "British comedian Russell Brand found guilty of rape and three sexual assaults",
+   "x_en": "British comedian Russell Brand was on Thursday, November 5, found guilty of rape and three sexual assaults by a London jury, including a 16-year-old girl. He now faces \"significant\" prison time, according to the judge."
   },
   {
    "t": "Война США в Иране оставляет Шри-Ланку в неспокойных дипломатических водах",
@@ -959,185 +895,87 @@
    "lon": -99.81,
    "place": "США",
    "place_en": "United States",
-   "id": 31,
+   "id": 28,
    "t_en": "US war in Iran leaves Sri Lanka in troubled diplomatic waters",
    "x_en": ""
   },
   {
-   "t": "Войска под руководством Саудовской Аравии взорвали дом в Йемене, в результате чего погибли девять членов семьи, говорят родственники",
-   "x": "Октябрьское нападение привлекло внимание к жертвам среди мирного населения в ходе бомбардировок хуситов под руководством Саудовской Аравии и при поддержке США.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 95,
-   "ago": 34,
+   "t": "Банки Сингапура борются с доходностью облигаций и напряженностью в отношении процентных ставок",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 60,
+   "ten": 57,
+   "ago": 1,
    "s": [
-    "NYT"
+    "Nikkei Asia"
    ],
-   "u": "https://www.nytimes.com/2026/11/06/world/middleeast/saudi-arabia-bombing-yemen-civilians-houthi-war.html",
-   "img": "https://static01.nyt.com/images/2026/10/20/world/middleeast/Screenshot-2026-10-29-at-15/Screenshot-2026-10-29-at-15-mediumSquareAt3X.png",
-   "img_src": "NYT",
+   "u": "https://asia.nikkei.com/business/finance/singapore-banks-struggle-with-bond-yield-and-interest-rate-tensions",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F7%2F0%2F13410719-2-eng-GB%2Fbfe390fe4cdd-2023-05-03T172916Z_393706530_RC2UQ0AX7CQI_RTRMADP_3_SINGAPORE-BANKS.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 23.72,
-   "lon": 44.19,
-   "place": "Саудовская Аравия",
-   "place_en": "Saudi Arabia",
-   "id": 32,
-   "t_en": "Saudi-Led Forces Bombed Yemeni Home, Killing Nine Family Members, Relatives Say",
-   "x_en": "The attack in October cast a spotlight on civilian casualties in the Saudi-led and U.S.-assisted bombing campaign against the Houthis."
+   "lat": 0.67,
+   "lon": 104.39,
+   "place": "Сингапур",
+   "place_en": "Singapore",
+   "id": 29,
+   "t_en": "Singapore banks struggle with bond yield and interest rate tensions",
+   "x_en": ""
   },
   {
-   "t": "Пенья из Парагвая подал в отставку на фоне банковского скандала и протестов",
-   "x": "Президент Парагвая Сантьяго Пенья подал в отставку в четверг, но Конгресс приостановил ее, поскольку против него продвигается процедура импичмента. Пенье грозит импичмент из-за банковского скандала, который затронул миллионы людей и вызвал протесты",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 54,
-   "ago": 192,
+   "t": "«Хаос в авиационной отрасли»: европейское воздушное сообщение пострадало из-за угроз взрыва",
+   "x": "Официальные лица по всей Европе сообщили о новой серии угроз о взрыве нескольких рейсов в пятницу, 6 ноября, после серии мистификаций, которые привели к отклонению рейсов на этой неделе. Двум телекомпаниям также поступили угрозы безопасности, что, возможно, является признаком того, что мужчины",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 95,
+   "ago": 324,
    "s": [
     "France 24",
-    "Euronews",
-    "Africanews"
+    "CBS News",
+    "ABC News"
    ],
-   "u": "https://www.france24.com/en/video/20261106-paraguay-s-pe%C3%B1a-offers-resignation-amid-banking-scandal-protests",
-   "img": "https://s.france24.com/media/display/41af145a-d9e7-11f1-9a4d-bf1914cabd52/w:1024/p:16x9/EN-20261106-141452-141644-CS.jpg",
+   "u": "https://www.france24.com/en/video/20261106-chaos-within-aviation-industry-as-european-air-traffic-hit-by-bomb-threats",
+   "img": "https://s.france24.com/media/display/1649d436-d9ff-11f1-b43d-695cb59fade5/w:1024/p:16x9/capture-5cd1fe0d.jpg",
    "img_src": "France 24",
    "fresh": false,
    "n": 3,
-   "lat": -22.35,
-   "lon": -58.01,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 33,
-   "t_en": "Paraguay's Peña offers resignation amid banking scandal, protests",
-   "x_en": "Paraguayan President Santiago Peña submitted his resignation on Thursday, but Congress put it on hold as impeachment proceedings against him move forward. Peña is facing impeachment over a banking scandal that has affected millions of people and sparked protes"
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 30,
+   "t_en": "'Chaos within aviation industry' as European air traffic hit by bomb threats",
+   "x_en": "Officials across Europe reported a fresh slew of bomb threats against multiple flights on Friday, November 6, following a string of hoaxes that have caused flight diversions this week. Two broadcasters also received security threats, in a possible sign the men"
   },
   {
-   "t": "Иранская гвардия сообщила, что в Ормузе загорелись два танкера",
-   "x": "С момента начала войны в Западной Азии 28 февраля Тегеран стремился ограничить движение по стратегическому водному пути, по которому обычно проходит около одной пятой мирового потребления нефти.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 66,
-   "ago": 9,
-   "s": [
-    "The Hindu"
-   ],
-   "u": "https://www.thehindu.com/news/international/iran-guards-say-two-tankers-caught-fire-in-hormuz/article71675787.ece",
-   "img": "https://th-i.thgim.com/public/incoming/ygw8n5/article71675814.ece/alternates/LANDSCAPE_1200/2026-10-29T181324Z_1942030626_RC2UUNAPQY14_RTRMADP_3_GLOBAL-OIL.JPG",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 1,
-   "lat": 26.45,
-   "lon": 56.08,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 34,
-   "t_en": "Iran Guards say two tankers caught fire in Hormuz",
-   "x_en": "Since the outbreak of the West Asia war on February 28, Tehran has sought to limit traffic through the strategic waterway, which normally carries about one-fifth of global oil consumption"
-  },
-  {
-   "t": "Пенья теряет главных помощников, поскольку возобновляется судебный процесс по импичменту обанкротившегося банка",
-   "x": "Главные помощники президента Парагвая Сантьяго Пенья подали в отставку, поскольку в пятницу Сенат возобновил судебный процесс по импичменту, который может отстранить его от должности",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 40,
-   "ago": 59,
-   "s": [
-    "ABC News",
-    "Reuters"
-   ],
-   "u": "https://abcnews.com/International/wireStory/paraguays-pea-loses-top-aides-impeachment-trial-resumes-137913219",
-   "img": "https://s.abcnews.com/images/International/wirestory_e84f5ada84e8c747329ec82fabb46e4d_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": -22.83,
-   "lon": -58.38,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 35,
-   "t_en": "Paraguay’s Peña loses top aides as impeachment trial resumes over failed bank",
-   "x_en": "Top aides to Paraguayan President Santiago Peña have resigned as the Senate resumed an impeachment trial Friday that could remove him from office"
-  },
-  {
-   "t": "Президент Парагвая Сантьяго Пенья подал в отставку после краха банка",
-   "x": "Этот шаг последовал за крахом банка и после того, как нижняя палата Конгресса проголосовала за проведение против него судебного процесса по импичменту.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 60,
-   "ten": 75,
-   "ago": 642,
+   "t": "В Макао заключен в тюрьму демократический активист по первому в городе делу о национальной безопасности",
+   "x": "Ау Кам Сан был приговорен к 12 годам и шести месяцам тюремного заключения за «подрывную деятельность против политической власти государства».",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 50,
+   "ago": 481,
    "s": [
     "BBC",
-    "The Guardian",
-    "Euronews",
-    "NYT"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/12e6/live/3ccd15c0-d93a-11f1-95ea-8df9a040b6bf.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": -23.8,
-   "lon": -58.57,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 36,
-   "t_en": "Paraguay President Santiago Peña resigns after bank collapse",
-   "x_en": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him."
-  },
-  {
-   "t": "Давление на главу Минобороны США Хегсета усиливается после разгрома республиканцев на выборах",
-   "x": "Министр обороны США Пит Хегсет находится под растущим давлением: победившие демократы планируют атаковать его в Конгрессе, а республиканцы обвиняют войну с Ираном, которую он отстаивал, в своих поражениях на выборах. Президент Дональд Трамп до сих пор поддерживает Хегсета, настаивая на",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 66,
-   "ago": 13,
-   "s": [
-    "France 24"
-   ],
-   "u": "https://www.france24.com/en/video/20261106-pressure-mounts-on-us-defence-chief-hegseth-after-republican-election-rout",
-   "img": "https://s.france24.com/media/display/e6399eb0-d9ff-11f1-8b14-a575454bc579/w:1024/p:16x9/EN-20261106-170741-170927-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.78,
-   "lon": -98.97,
-   "place": "США",
-   "place_en": "United States",
-   "id": 37,
-   "t_en": "Pressure mounts on US Defence chief Hegseth after Republican election rout",
-   "x_en": "US Defence Secretary Pete Hegseth is under growing pressure, with victorious Democrats planning to target him in Congress and Republicans blaming the Iran war he championed for their election losses. President Donald Trump has stood by Hegseth so far, insistin"
-  },
-  {
-   "t": "Землетрясение магнитудой 6,1 произошло в Токио, предупреждение о цунами не поступало",
-   "x": "Непосредственных сообщений о повреждениях или травмах не поступало",
-   "r": "Азия",
-   "c": "Природа",
-   "imp": 59,
-   "ten": 63,
-   "ago": 240,
-   "s": [
+    "NPR",
     "CNA",
     "The Hindu",
     "Japan Times"
    ],
-   "u": "https://www.channelnewsasia.com/east-asia/japan-tokyo-quake-kanto-region-6531296",
-   "img": "https://dam.mediacorp.sg/image/upload/s--Op4zNCkt--/c_crop,h_924,w_1643,x_1,y_66/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/06/screenshot_2026-11-06_205139.png?itok=aKze4UAD",
-   "img_src": "CNA",
+   "u": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0ae0/live/23a8aa80-d9aa-11f1-88e6-7913ca4cf3b6.jpg",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 3,
-   "lat": 35.74,
-   "lon": 139.45,
-   "place": "Токио",
-   "place_en": "Tokyo",
-   "id": 38,
-   "t_en": "Magnitude-6.1 quake hits off Tokyo, no tsunami alert issued",
-   "x_en": "There were no immediate reports of damage or injuries"
+   "n": 5,
+   "lat": 39.57,
+   "lon": 116.29,
+   "place": "Пекин",
+   "place_en": "Beijing",
+   "id": 31,
+   "t_en": "Macau jails pro-democracy campaigner in city's first national security case",
+   "x_en": "Au Kam San was sentenced to 12 years and six months' jail for \"subversion against the political power of the state\"."
   },
   {
    "t": "Глава DBS предупреждает о нестабильности фондовых рынков после промежуточных выборов в США",
@@ -1159,7 +997,7 @@
    "lon": -98.7,
    "place": "США",
    "place_en": "United States",
-   "id": 39,
+   "id": 32,
    "t_en": "DBS chief warns of 'choppy' equity markets after US midterms",
    "x_en": ""
   },
@@ -1183,16 +1021,180 @@
    "lon": 79.92,
    "place": "Индия",
    "place_en": "India",
-   "id": 40,
+   "id": 33,
    "t_en": "India's IT lobby chief warns grads could struggle to find jobs due to AI",
+   "x_en": ""
+  },
+  {
+   "t": "Японские логистические стартапы расширяют сети холодного питания в Малайзии и Вьетнаме",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/food-beverage/japan-logistics-startups-expand-cold-food-networks-in-malaysia-vietnam",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F4%2F7%2F2%2F13402742-2-eng-GB%2Fba4d28508796-photo_SXM2026092900008970.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.56,
+   "lon": 137.36,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 34,
+   "t_en": "Japan logistics startups expand cold food networks in Malaysia, Vietnam",
+   "x_en": ""
+  },
+  {
+   "t": "Основная оппозиция Малайзии призывает к большей власти штатов",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/malaysia-s-main-opposition-calls-for-greater-power-for-states",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F2%2F4%2F3%2F13393424-2-eng-GB%2Ff582571761ef-2018-04-22T000000Z_1795261560_RC1FDDCFE950_RTRMADP_3_MALAYSIA-ELECTION-ISLAMIC.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 5.1,
+   "lon": 101.6,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 35,
+   "t_en": "Malaysia's main opposition calls for greater power for states",
+   "x_en": ""
+  },
+  {
+   "t": "Терпеливые кибероперации Северной Кореи окупаются в криптовалюте",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/cryptocurrencies/north-korea-s-patient-cyber-operations-pay-off-in-crypto",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F1%2F3%2F1%2F13401318-1-eng-GB%2F356b930c1aed-1de.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 40.98,
+   "lon": 126.98,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 36,
+   "t_en": "North Korea's patient cyber operations pay off in crypto",
+   "x_en": ""
+  },
+  {
+   "t": "Индийская столица удваивает плату за парковку и требует 50% удаленной работы, чтобы сократить загрязнение окружающей среды",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/environment/indian-capital-doubles-parking-fees-asks-50-remote-work-to-curb-pollution",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F6%2F9%2F0%2F13400969-1-eng-GB%2F5ef0937f0304-2026-11-04T041753Z_1198220422_RC2QGOABD58F_RTRMADP_3_ASIA-WEATHER-SOUTHASIA-POLLUTION.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 22.86,
+   "lon": 80.26,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 37,
+   "t_en": "Indian capital doubles parking fees, asks 50% remote work to curb pollution",
+   "x_en": ""
+  },
+  {
+   "t": "Ограничение Китая на вольфрам, используемый в буровых долотах, сужает цепочку поставок ИИ",
+   "x": "",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/supply-chain/china-s-curbs-on-tungsten-used-in-drill-bits-squeeze-ai-supply-chain",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F7%2F3%2F4%2F13404376-3-eng-GB%2F254f669b1742-1f.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 34.72,
+   "lon": 103.67,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 38,
+   "t_en": "China's curbs on tungsten used in drill bits squeeze AI supply chain",
+   "x_en": ""
+  },
+  {
+   "t": "Французские Tikehau и Natixis смотрят на Азию, поскольку бум центров обработки данных в США повышает риски",
+   "x": "",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/finance/france-s-tikehau-natixis-look-to-asia-as-us-data-center-boom-raises-risks",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F5%2F2%2F1%2F13321251-1-eng-GB%2Fabd674edfbf1-TC.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 47.21,
+   "lon": 3.26,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 39,
+   "t_en": "France's Tikehau, Natixis look to Asia as US data center boom raises risks",
+   "x_en": ""
+  },
+  {
+   "t": "Китай заявляет, что торговые барьеры блокируют импорт технологий, увеличивая его профицит",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/trade/china-says-trade-barriers-block-tech-imports-fueling-its-surplus",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F3%2F9%2F5%2F13405933-1-eng-GB%2F40da8c7ac825-IMG_0337.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 33.96,
+   "lon": 103.48,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 40,
+   "t_en": "China says trade barriers block tech imports, fueling its surplus",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1793897274717,
-   "v": 50
-  },
   {
    "t": 1793917426476,
    "v": 49
@@ -1208,139 +1210,143 @@
   {
    "t": 1793984292275,
    "v": 51
+  },
+  {
+   "t": 1794002253031,
+   "v": 51
   }
  ],
  "timeline": [
   {
-   "t": 1793897892275,
-   "v": 52,
-   "n": 31
-  },
-  {
-   "t": 1793901492275,
-   "v": 55,
-   "n": 31
-  },
-  {
-   "t": 1793905092275,
-   "v": 59,
-   "n": 30
-  },
-  {
-   "t": 1793908692275,
-   "v": 56,
+   "t": 1793915853031,
+   "v": 47,
    "n": 26
   },
   {
-   "t": 1793912292275,
-   "v": 50,
-   "n": 27
-  },
-  {
-   "t": 1793915892275,
-   "v": 46,
-   "n": 26
-  },
-  {
-   "t": 1793919492275,
-   "v": 44,
+   "t": 1793919453031,
+   "v": 45,
    "n": 25
   },
   {
-   "t": 1793923092275,
-   "v": 49,
+   "t": 1793923053031,
+   "v": 50,
+   "n": 23
+  },
+  {
+   "t": 1793926653031,
+   "v": 53,
    "n": 24
   },
   {
-   "t": 1793926692275,
-   "v": 51,
-   "n": 27
+   "t": 1793930253031,
+   "v": 53,
+   "n": 21
   },
   {
-   "t": 1793930292275,
-   "v": 50,
-   "n": 27
+   "t": 1793933853031,
+   "v": 48,
+   "n": 20
   },
   {
-   "t": 1793933892275,
-   "v": 46,
-   "n": 27
+   "t": 1793937453031,
+   "v": 43,
+   "n": 22
   },
   {
-   "t": 1793937492275,
+   "t": 1793941053031,
+   "v": 49,
+   "n": 36
+  },
+  {
+   "t": 1793944653031,
    "v": 47,
-   "n": 33
+   "n": 58
   },
   {
-   "t": 1793941092275,
-   "v": 51,
-   "n": 47
-  },
-  {
-   "t": 1793944692275,
+   "t": 1793948253031,
    "v": 48,
-   "n": 71
+   "n": 76
   },
   {
-   "t": 1793948292275,
+   "t": 1793951853031,
    "v": 46,
-   "n": 83
+   "n": 76
   },
   {
-   "t": 1793951892275,
-   "v": 44,
-   "n": 85
+   "t": 1793955453031,
+   "v": 47,
+   "n": 60
   },
   {
-   "t": 1793955492275,
-   "v": 45,
-   "n": 69
-  },
-  {
-   "t": 1793959092275,
-   "v": 48,
-   "n": 67
-  },
-  {
-   "t": 1793962692275,
-   "v": 51,
-   "n": 86
-  },
-  {
-   "t": 1793966292275,
-   "v": 51,
-   "n": 129
-  },
-  {
-   "t": 1793969892275,
+   "t": 1793959053031,
    "v": 50,
-   "n": 158
+   "n": 49
   },
   {
-   "t": 1793973492275,
-   "v": 49,
-   "n": 157
+   "t": 1793962653031,
+   "v": 53,
+   "n": 52
   },
   {
-   "t": 1793977092275,
+   "t": 1793966253031,
+   "v": 53,
+   "n": 72
+  },
+  {
+   "t": 1793969853031,
+   "v": 53,
+   "n": 82
+  },
+  {
+   "t": 1793973453031,
    "v": 51,
-   "n": 159
+   "n": 88
   },
   {
-   "t": 1793980692275,
-   "v": 49,
-   "n": 172
+   "t": 1793977053031,
+   "v": 51,
+   "n": 87
   },
   {
-   "t": 1793984292275,
-   "v": 49,
-   "n": 130
+   "t": 1793980653031,
+   "v": 52,
+   "n": 112
+  },
+  {
+   "t": 1793984253031,
+   "v": 51,
+   "n": 120
+  },
+  {
+   "t": 1793987853031,
+   "v": 50,
+   "n": 138
+  },
+  {
+   "t": 1793991453031,
+   "v": 48,
+   "n": 136
+  },
+  {
+   "t": 1793995053031,
+   "v": 47,
+   "n": 141
+  },
+  {
+   "t": 1793998653031,
+   "v": 44,
+   "n": 147
+  },
+  {
+   "t": 1794002253031,
+   "v": 43,
+   "n": 98
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 29
+   "items": 25
   },
   {
    "n": "Al Jazeera",
@@ -1356,7 +1362,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 34
+   "items": 32
   },
   {
    "n": "Sky News",
@@ -1368,15 +1374,15 @@
   },
   {
    "n": "UN News",
-   "items": 7
+   "items": 9
   },
   {
    "n": "CNBC",
-   "items": 28
+   "items": 27
   },
   {
    "n": "Euronews",
-   "items": 40
+   "items": 36
   },
   {
    "n": "NYT",
@@ -1384,15 +1390,15 @@
   },
   {
    "n": "Washington Post",
-   "items": 0
+   "items": 13
   },
   {
    "n": "CBS News",
-   "items": 18
+   "items": 21
   },
   {
    "n": "ABC News",
-   "items": 24
+   "items": 21
   },
   {
    "n": "CNN",
@@ -1404,7 +1410,7 @@
   },
   {
    "n": "ABC Australia",
-   "items": 19
+   "items": 20
   },
   {
    "n": "CNA",
@@ -1440,11 +1446,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 16
+   "items": 26
   },
   {
    "n": "Dawn",
-   "items": 26
+   "items": 29
   },
   {
    "n": "Times of India",
@@ -1472,7 +1478,6 @@
   }
  ],
  "failed": [
-  "Washington Post",
   "Times of Israel",
   "Middle East Eye",
   "Arab News"

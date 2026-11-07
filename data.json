@@ -1,26 +1,26 @@
 {
- "updated": 1794061340050,
+ "updated": 1794077682075,
  "demo": false,
- "total_articles": 642,
+ "total_articles": 674,
  "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 56
+   "v": 55
   },
   {
    "n": "Al Jazeera",
-   "v": 57
+   "v": 63
   },
   {
    "n": "DW",
-   "v": 59
+   "v": 51
   },
   {
    "n": "France 24",
-   "v": 61
+   "v": 62
   },
   {
    "n": "The Guardian",
@@ -28,11 +28,11 @@
   },
   {
    "n": "Sky News",
-   "v": 62
+   "v": 58
   },
   {
    "n": "NPR",
-   "v": 56
+   "v": 57
   },
   {
    "n": "UN News",
@@ -40,15 +40,15 @@
   },
   {
    "n": "CNBC",
-   "v": 51
+   "v": 52
   },
   {
    "n": "Euronews",
-   "v": 50
+   "v": 49
   },
   {
    "n": "NYT",
-   "v": 56
+   "v": 58
   },
   {
    "n": "Washington Post",
@@ -56,11 +56,11 @@
   },
   {
    "n": "CBS News",
-   "v": 57
+   "v": 55
   },
   {
    "n": "ABC News",
-   "v": 55
+   "v": 54
   },
   {
    "n": "CNN",
@@ -68,15 +68,19 @@
   },
   {
    "n": "Fox News",
-   "v": 68
+   "v": 75
   },
   {
    "n": "ABC Australia",
-   "v": 41
+   "v": 39
   },
   {
    "n": "CNA",
-   "v": 45
+   "v": 47
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 67
   },
   {
    "n": "Africanews",
@@ -84,7 +88,7 @@
   },
   {
    "n": "Kyiv Independent",
-   "v": 71
+   "v": 64
   },
   {
    "n": "Yonhap",
@@ -96,23 +100,23 @@
   },
   {
    "n": "The Diplomat",
-   "v": 43
+   "v": 42
   },
   {
    "n": "Dawn",
-   "v": 46
+   "v": 49
   },
   {
    "n": "Times of India",
-   "v": 47
+   "v": 45
   },
   {
    "n": "The Hindu",
-   "v": 58
+   "v": 59
   },
   {
    "n": "Politico EU",
-   "v": 46
+   "v": 43
   },
   {
    "n": "Japan Times",
@@ -138,18 +142,75 @@
   },
   {
    "n": "Азия",
-   "v": 42
+   "v": 41
   },
   {
    "n": "Африка",
-   "v": 55
+   "v": 51
   },
   {
    "n": "Америка",
-   "v": 47
+   "v": 46
   }
  ],
  "events": [
+  {
+   "t": "Хуситы заявили, что в результате авиаудара Саудовской Аравии погибли по меньшей мере 25 человек",
+   "x": "Саудовская Аравия, которая возглавляет коалицию, борющуюся с хуситами в Йемене, не прокомментировала ситуацию.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 97,
+   "ten": 92,
+   "ago": 9,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "Middle East Eye",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2670/live/bfaac760-dacc-11f1-bda8-29fb69dbc026.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 15.44,
+   "lon": 44.02,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 1,
+   "t_en": "Houthis say at least 25 killed in Saudi air strike",
+   "x_en": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented."
+  },
+  {
+   "t": "Не менее шести человек погибли в результате стрельбы в польском Кракове",
+   "x": "Премьер-министр Польши Дональд Туск заявил, что полиция проводит расследование после «трагической стрельбы» во втором по величине городе.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 95,
+   "ten": 81,
+   "ago": 12,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "CNBC",
+    "NYT",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/59a230dc-dabf-11f1-b499-d18c5759e759/w:1024/p:16x9/2026-11-07T152325Z-151899915-UP1EMB716QZIE-RTRMADP-3-POLAND-SHOOTING.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 8,
+   "lat": 52.93,
+   "lon": 17.96,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 2,
+   "t_en": "At least six people killed in shooting in Poland’s Krakow",
+   "x_en": "Polish Prime Minister Donald Tusk says police are investigating after 'tragic shooting' in second-largest city."
+  },
   {
    "t": "Япония объявляет о пакете экстренной кибербезопасности после волны атак",
    "x": "Япония анонсировала пакет экстренной кибербезопасности, включающий команды искусственного интеллекта и киберспасателей.",
@@ -173,131 +234,265 @@
    "lon": 138.71,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 1,
+   "id": 3,
    "t_en": "Japan announces emergency cybersecurity package following a wave of attacks",
    "x_en": "Japan has announced an emergency cybersecurity package that includes AI and cyber rescue teams"
   },
   {
-   "t": "Пророссийские хакеры сливают данные министра иностранных дел Италии в даркнет",
-   "x": "Премьер-министр винит в утечке пророссийских хакеров, поскольку ее главный дипломат утверждает, что киберугроза продолжается.",
+   "t": "США предлагают вознаграждение в 20 миллионов долларов за информацию о ядерной программе Ирана",
+   "x": "Дональд Трамп неоднократно заявлял о возможности возобновления ударов по ядерным объектам Ирана.",
+   "r": "Ближний Восток",
+   "c": "Общее",
+   "imp": 90,
+   "ten": 70,
+   "ago": 40,
+   "s": [
+    "BBC",
+    "Euronews",
+    "Middle East Eye",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0b84/live/0f887590-dad0-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": 38.83,
+   "lon": -99.68,
+   "place": "США",
+   "place_en": "United States",
+   "id": 4,
+   "t_en": "US offers $20m reward for information about Iran's nuclear programme",
+   "x_en": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities."
+  },
+  {
+   "t": "Папа Лев провел первую мессу в Уругвае и призвал толпу стать «строителями мостов»",
+   "x": "Ватикан сообщает, что около 40 000 человек собрались, чтобы послушать главу Римско-католической церкви в западном городе Пайсанду.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 88,
+   "ten": 40,
+   "ago": 22,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "NPR",
+    "ABC News",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/7/pope-leo-hold-first-mass-in-uruguay-urges-crowd-to-be-bridge-builders?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/edae6460-dab7-11f1-9ce0-bf1914cabd52/w:1024/p:16x9/2026-11-07T142220Z-1810286401-RC22JOA4XV14-RTRMADP-3-POPE-LATAM-URUGUAY.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 5,
+   "lat": -33.51,
+   "lon": -57.21,
+   "place": "Уругвай",
+   "place_en": "Uruguay",
+   "id": 5,
+   "t_en": "Pope Leo hold first mass in Uruguay, urges crowd to be ‘bridge builders’",
+   "x_en": "Vatican says some 40,000 people gathered to listen to the head of the Roman Catholic Church in western city of Paysandu."
+  },
+  {
+   "t": "Пять человек погибли и не менее 10 получили ранения в результате стрельбы в Кракове",
+   "x": "Пять человек погибли и не менее 10 получили ранения в результате стрельбы возле главной рыночной площади Кракова, Польша.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 86,
+   "ten": 95,
+   "ago": 14,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "Dawn"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/e32b67bd2c480efc91d11a0ef804c62a760ee830/451_0_4490_3592/master/4490.jpg?width=700&quality=85&auto=format&fit=max&s=ba45c744153ed79ad57ca36bab628397",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 51.25,
+   "lon": 19.17,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 6,
+   "t_en": "Five killed and at least 10 injured in Krakow shooting",
+   "x_en": "Five people have been killed and at least 10 injured in a shooting near the main market square in Krakow, Poland."
+  },
+  {
+   "t": "Украина: Россия нанесла авиаудары по Киеву накануне трехсторонних переговоров",
+   "x": "Ударам подверглись крупный мост и энергетические объекты в Киевской области. Президент Владимир Зеленский обвинил Москву в попытке «подтолкнуть» Украину «к отключению электроэнергии» перед переговорами в Абу-Даби.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 90,
-   "ten": 47,
-   "ago": 16,
+   "imp": 82,
+   "ten": 80,
+   "ago": 119,
    "s": [
+    "DW",
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.abcnews.com/images/International/wirestory_b042adf1f95848f5d233da866a72e312_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 50.74,
+   "lon": 30.75,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 7,
+   "t_en": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+   "x_en": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks in Abu Dhabi."
+  },
+  {
+   "t": "Свергнутому президенту Парагвая предъявлено обвинение в банковском скандале",
+   "x": "Сантьяго Пенья был подвергнут импичменту в связи с крахом банка Уэно, в результате которого миллионы людей не смогли получить доступ к своим счетам.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 68,
+   "ago": 19,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "The Guardian"
+   ],
+   "u": "https://www.aljazeera.com/economy/2026/11/7/paraguays-ousted-president-charged-over-banking-scandal?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/6d0782be-daa4-11f1-b656-d18c5759e759/w:1024/p:16x9/EN-20261107-121224-121408-CS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 3,
+   "lat": -22.53,
+   "lon": -58.25,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 8,
+   "t_en": "Paraguay’s ousted president charged over banking scandal",
+   "x_en": "Santiago Pena was impeached over the collapse of Ueno Bank, which left millions unable to access their accounts."
+  },
+  {
+   "t": "Тысячи людей пришли поприветствовать Папу Льва в начале его турне по Латинской Америке",
+   "x": "Тысячи людей приветствовали Папу Льва, когда он прибыл в Уругвай в начале 12-дневного тура по Латинской Америке.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 81,
+   "ten": 40,
+   "ago": 78,
+   "s": [
+    "Sky News",
+    "NPR",
+    "NYT",
+    "CBS News"
+   ],
+   "u": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-pope-leo-uruguay_7399813.jpg?20261107130636",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 6,
+   "lat": 38.76,
+   "lon": -97.68,
+   "place": "США",
+   "place_en": "United States",
+   "id": 9,
+   "t_en": "Thousands turn out to greet Pope Leo as he begins Latin America tour",
+   "x_en": "Thousands of people greeted Pope Leo as he arrived in Uruguay at the start of a 12-day tour of Latin America."
+  },
+  {
+   "t": "Президент Парагвая подвергнут импичменту и находится под домашним арестом после краха банка",
+   "x": "Сантьяго Пенья был свергнут из-за банковского кризиса, в результате которого миллионы людей лишились доступа к своим деньгам.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 73,
+   "ago": 123,
+   "s": [
+    "BBC",
+    "France 24",
+    "CNBC",
+    "CBS News",
+    "ABC News",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 7,
+   "lat": -22.57,
+   "lon": -57.82,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 10,
+   "t_en": "Paraguay's president impeached and under house arrest after bank collapse",
+   "x_en": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money."
+  },
+  {
+   "t": "Что нужно знать об угрозах взрыва бомбы, нарушающих полеты в Европе",
+   "x": "В пятницу поступило сообщение о новых угрозах после того, как в начале этой недели были атакованы десятки самолетов. Официальные лица не сообщили об обнаружении каких-либо взрывчатых веществ, но эти мистификации усилили беспокойство по поводу гибридных атак на континенте.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 79,
+   "ten": 93,
+   "ago": 175,
+   "s": [
+    "NYT",
+    "CBS News",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.nytimes.com/2026/11/05/world/europe/bomb-threats-europe-flights-airlines.html",
+   "img": "https://static01.nyt.com/images/2026/11/05/multimedia/05xp-bomb-threats-tbwg/05xp-bomb-threats-tbwg-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 6,
+   "lat": 52.56,
+   "lon": 20.88,
+   "place": "Варшава",
+   "place_en": "Warsaw",
+   "id": 11,
+   "t_en": "What to Know About the Bomb Threats Disrupting Flights in Europe",
+   "x_en": "More threats were reported Friday after dozens of planes were targeted earlier this week. Officials have not reported finding any explosives, but the hoaxes have added to anxiety over hybrid attacks on the continent."
+  },
+  {
+   "t": "Министр иностранных дел Италии заявил, что хакеры слили его личные данные",
+   "x": "Премьер-министр Джорджия Мелони обвинила пророссийских хакеров в публикации подробностей в Интернете.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 77,
+   "ten": 46,
+   "ago": 125,
+   "s": [
+    "BBC",
     "Al Jazeera",
     "ABC News",
     "The Hindu",
     "Reuters",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_41b956d638e95528bef84fd856d5b5d6_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 5,
-   "lat": 61.13,
-   "lon": 96.18,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 2,
-   "t_en": "Pro-Russian hackers leak Italian foreign minister’s data on dark web",
-   "x_en": "The prime minister blames pro-Russian hackers for the leak, as her top diplomat says the cyberthreat was ongoing."
-  },
-  {
-   "t": "Премьер-министр Новой Зеландии заявил, что выборы «слишком близки, чтобы их можно было назвать»",
-   "x": "Премьер-министр Новой Зеландии Кристофер Люксон говорит, что у него есть путь к формированию следующего правительства.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 40,
-   "ago": 19,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "NYT",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/7/new-zealands-prime-minister-says-election-is-too-close-to?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/7fcb32a817f834d2911af2cc72d2a3a7d313ee0e/688_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=8f3b8896357b72317e0f0e7fb8b34aac",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 4,
-   "lat": -40.81,
-   "lon": 173.91,
-   "place": "Новая Зеландия",
-   "place_en": "New Zealand",
-   "id": 3,
-   "t_en": "New Zealand’s prime minister says election is ‘too close to call’",
-   "x_en": "New Zealand prime minister Christopher Luxon says he has a pathway to form the next government."
-  },
-  {
-   "t": "Дальнейшие угрозы взрыва сорвали еще как минимум 18 рейсов по Европе.",
-   "x": "СМИ в Ирландии и Великобритании также пострадали, поскольку очевидно скоординированные усилия по созданию хаоса продолжаются. Новая волна угроз о взрыве нарушила воздушное сообщение по всей Европе в пятницу, но пострадавший самолет благополучно приземлился, и обыски не выявили взрывчатых веществ.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 86,
-   "ten": 93,
-   "ago": 104,
-   "s": [
-    "The Guardian",
-    "NPR",
-    "NYT",
-    "CBS News",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
-   "img": "https://i.guim.co.uk/img/media/1f88c9a52100be8318eb3a96107a54f59d0a5606/205_0_4147_3317/master/4147.jpg?width=700&quality=85&auto=format&fit=max&s=fb868e3e898416cc612bc1907e2fa014",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/34a9/live/e340cb90-dabb-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 7,
-   "lat": 52.76,
-   "lon": -6.53,
-   "place": "Ирландия",
-   "place_en": "Ireland",
-   "id": 4,
-   "t_en": "Further bomb threats disrupt at least another 18 flights across Europe",
-   "x_en": "Media organisations in Ireland and UK also affected as apparently coordinated effort to cause chaos continues A fresh wave of bomb threats disrupted air traffic across Europe on Friday but the affected aircraft landed safely and searches revealed no explosive "
-  },
-  {
-   "t": "Папа Римский начинает турне по Латинской Америке менее чем через месяц после операции по поводу рака легких",
-   "x": "Папа Лев заявил, что чувствовал себя лучше, чем выглядел, когда прилетел в Уругвай на 12-дневный тур по Латинской Америке, менее чем через месяц после операции по поводу рака легких.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 85,
-   "ten": 40,
-   "ago": 39,
-   "s": [
-    "Sky News",
-    "NPR",
-    "CBS News",
-    "ABC News",
-    "Africanews",
-    "AP"
-   ],
-   "u": "https://news.sky.com/story/pope-leo-begins-latin-america-tour-less-than-a-month-after-lung-cancer-surgery-13609186",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-pope-leo-uruguay_7399813.jpg?20261107130636",
-   "img_src": "Sky News",
-   "fresh": true,
-   "n": 8,
-   "lat": 40.19,
-   "lon": -98.98,
-   "place": "США",
-   "place_en": "United States",
-   "id": 5,
-   "t_en": "Pope begins Latin America tour less than a month after lung cancer surgery",
-   "x_en": "Pope Leo has said he felt better than he looked as he flew to Uruguay for a 12-day Latin America tour, less than a month after having lung cancer surgery."
+   "n": 6,
+   "lat": 43.56,
+   "lon": 12.18,
+   "place": "Италия",
+   "place_en": "Italy",
+   "id": 12,
+   "t_en": "Italian foreign minister says hackers leaked his personal data",
+   "x_en": "Prime Minister Giorgia Meloni has blamed pro-Russian hackers for publishing the details online."
   },
   {
    "t": "В результате авиаудара возле столицы Йемена погибли по меньшей мере 22 человека, сообщил представитель хуситов",
    "x": "По словам представителя йеменского министерства здравоохранения, управляемого хуситами, в результате авиаударов по городу недалеко от столицы Йемена Саны погибли 22 человека и были ранены еще 30, в основном женщины и дети.",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 83,
+   "imp": 72,
    "ten": 94,
-   "ago": 30,
+   "ago": 133,
    "s": [
     "ABC News",
     "The Hindu",
@@ -306,265 +501,66 @@
    "u": "https://abcnews.com/International/wireStory/airstrike-killed-22-people-yemens-capital-houthi-official-137937912",
    "img": "https://s.abcnews.com/images/International/wirestory_1b5aef5b86be2e96e1cd8a18165afaf6_16x9_1600.jpg",
    "img_src": "ABC News",
-   "fresh": true,
+   "fresh": false,
    "n": 3,
    "lat": 15.37,
    "lon": 44.53,
    "place": "Сана",
    "place_en": "Sanaa",
-   "id": 6,
+   "id": 13,
    "t_en": "Airstrike kills at least 22 people near Yemen's capital, Houthi official says",
    "x_en": "Airstrikes in a town near Yemen's capital, Sanaa, have killed 22 people and wounded 30 others, mostly women and children, according to a spokesman for Yemen’s Houthi-run Health Ministry"
   },
   {
-   "t": "Трамп объявляет о назначении жесткого курса иммиграции Стивена Миллера новым главой администрации",
-   "x": "Президент США Дональд Трамп в пятницу заявил, что советник Стивен Миллер станет его новым главой администрации. Миллер сыграл важную роль в реализации программы массовой депортации администрации Трампа и подвергся особой критике после смертоносных расстрелов двух человек.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 81,
-   "ten": 47,
-   "ago": 82,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "Euronews",
-    "Yonhap",
-    "The Hindu",
-    "Japan Times",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
-   "img": "https://s.france24.com/media/display/e4ccbd52-da20-11f1-92bf-a575454bc579/w:1024/p:16x9/000-D6PN3T3.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 10,
-   "lat": 39.62,
-   "lon": -99.13,
-   "place": "США",
-   "place_en": "United States",
-   "id": 7,
-   "t_en": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
-   "x_en": "US President Donald Trump on Friday said advisor Stephen Miller would become his new chief of staff. Miller has been instrumental in driving the Trump administration's mass deportation programme and faced particular criticism after the deadly shootings of two "
-  },
-  {
-   "t": "США предлагают вознаграждение в 20 миллионов долларов и «возможный переезд» за информацию о «ядерной программе Ирана»",
-   "x": "Госдепартамент заявил: «Несоблюдение режимом МАГАТЭ обязательств по гарантиям привело к потере агентством «преемственности знаний»».",
+   "t": "Хуситы заявили об атаках на объекты Saudi Aramco, аэропорт Эр-Рияда и войска",
+   "x": "Йеменские хуситы заявили в субботу, что они нанесли многочисленные ракетные удары и удары беспилотников по саудовским войскам и инфраструктуре как в королевстве, так и в Йемене. Группа начала шесть операций, нацеленных на нефтяные объекты Aramco, а также аэропорт Эр-Рияда и Сау.",
    "r": "Ближний Восток",
-   "c": "Общее",
-   "imp": 78,
-   "ten": 63,
-   "ago": 39,
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 76,
+   "ago": 22,
    "s": [
-    "Euronews",
-    "CBS News",
+    "Middle East Eye",
     "The Hindu"
    ],
-   "u": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
-   "img": "https://images.euronews.com/articles/stories/09/98/37/15/696x392_cmsv2_48141ae5-a829-5174-bcf3-c7a565a67ed8-9983715.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-saudi-aramco-sites-riyadh-airport-and-troops",
+   "img": "https://th-i.thgim.com/public/incoming/ix6pdf/article71679335.ece/alternates/LANDSCAPE_1200/2026-10-25T131533Z_501958587_RC28MNAMI4AL_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN.JPG",
+   "img_src": "The Hindu",
    "fresh": true,
-   "n": 3,
-   "lat": 40.6,
-   "lon": -97.63,
-   "place": "США",
-   "place_en": "United States",
-   "id": 8,
-   "t_en": "US offers $20 million reward and 'possible relocation' for information on 'Iran’s nuclear program'",
-   "x_en": "The State Department said: \"The regime’s lack of compliance with the IAEA on safeguards obligations has led to the agency’s loss of 'continuity of knowledge.'\""
-  },
-  {
-   "t": "Лидер кенийского культа Судного дня приговорен к пожизненному заключению за убийство 191 человека",
-   "x": "Пол Маккензи приказал своим последователям заморить своих детей голодом в лесу, чтобы они могли «встретиться с Иисусом».",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 77,
-   "ten": 56,
-   "ago": 132,
-   "s": [
-    "BBC",
-    "France 24",
-    "The Guardian",
-    "NPR",
-    "NYT",
-    "Washington Post",
-    "CBS News",
-    "ABC News",
-    "Africanews"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9676/live/4f47ccc0-d9f0-11f1-bb10-cdca6001fbcf.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 10,
-   "lat": 0.45,
-   "lon": 38.24,
-   "place": "Кения",
-   "place_en": "Kenya",
-   "id": 9,
-   "t_en": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-   "x_en": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\"."
-  },
-  {
-   "t": "Украина: Россия нанесла авиаудары по Киеву накануне трехсторонних переговоров",
-   "x": "Ударам подверглись крупный мост и энергетические объекты в Киевской области. Президент Владимир Зеленский обвинил Москву в попытке «подтолкнуть» Украину «к отключению электроэнергии» перед переговорами в Абу-Даби.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 76,
-   "ten": 77,
-   "ago": 72,
-   "s": [
-    "DW",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-rdf",
-   "img": "https://s.abcnews.com/images/International/wirestory_b042adf1f95848f5d233da866a72e312_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 50.74,
-   "lon": 30.75,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 10,
-   "t_en": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
-   "x_en": "The strikes hit a major bridge and energy facilities in the Kyiv region. President Volodymyr Zelenskyy accused Moscow of trying to \"push\" Ukraine \"into a blackout\" ahead of talks in Abu Dhabi."
-  },
-  {
-   "t": "Пострадали остров Кешм и Ормуз, поскольку посредники пытаются предотвратить эскалацию между США и Ираном",
-   "x": "Удары США по Ирану продолжились после того, как были атакованы новые корабли в Ормузском проливе.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 94,
-   "ago": 120,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "CNBC"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/25f4aae3e6af6bcaedf563ee3e0b174bd7a2de94/466_0_4645_3718/master/4645.jpg?width=700&quality=85&auto=format&fit=max&s=7751e15098bd7febeab0101fb3ff94c8",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 26.71,
-   "lon": 56.34,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 11,
-   "t_en": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
-   "x_en": "US strikes have continued on Iran after more ships in the Strait of Hormuz were attacked."
-  },
-  {
-   "t": "Президент Парагвая подвергнут импичменту и находится под домашним арестом после краха банка",
-   "x": "Сантьяго Пенья был свергнут из-за банковского кризиса, в результате которого миллионы людей лишились доступа к своим деньгам.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 78,
-   "ago": 235,
-   "s": [
-    "BBC",
-    "France 24",
-    "The Guardian",
-    "CBS News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 6,
-   "lat": -22.57,
-   "lon": -57.82,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 12,
-   "t_en": "Paraguay's president impeached and under house arrest after bank collapse",
-   "x_en": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money."
-  },
-  {
-   "t": "Пакистанский астронавт присоединится к следующей миссии китайской космической станции",
-   "x": "Неназванный человек станет первым иностранцем, посетившим китайскую космическую станцию ​​в рамках миссии \"Шэньчжоу-24\".",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 72,
-   "ten": 40,
-   "ago": 163,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "Dawn",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_5f41ab023758265d421bb4b57ebe931f_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 5,
-   "lat": 30.39,
-   "lon": 70.53,
-   "place": "Пакистан",
-   "place_en": "Pakistan",
-   "id": 13,
-   "t_en": "Pakistani astronaut to join China’s next space station mission",
-   "x_en": "The unnamed individual will be the first foreign national to visit China's space station as part of Shenzhou-24 mission."
-  },
-  {
-   "t": "Генеральный прокурор Малайзии выступает за прекращение домашнего ареста Наджиба после упрека короля",
-   "x": "Генеральный прокурор Малайзии в субботу (7 ноября) поддержал свое решение запросить юридические разъяснения по поводу приказа о домашнем аресте бывшего премьер-министра Наджиба Разака и отверг обвинения в государственной измене после того, как дворец настоял на его выполнении.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 71,
-   "ten": 57,
-   "ago": 221,
-   "s": [
-    "CNA",
-    "Times of India",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/malaysias-attorney-general-defends-halting-najibs-house-arrest-after-kings-rebuke-6532961",
-   "img": "https://dam.mediacorp.sg/image/upload/s--YKJqDXzA--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-06T080510Z_1_LYNXNPEMA50L6_RTROPTP_3_MALAYSIA-POLITICS-NAJIB.JPG?itok=3ryQAK7d",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 5,
-   "lat": 4.54,
-   "lon": 102.67,
-   "place": "Малайзия",
-   "place_en": "Malaysia",
+   "n": 2,
+   "lat": 15.02,
+   "lon": 44.15,
+   "place": "Сана",
+   "place_en": "Sanaa",
    "id": 14,
-   "t_en": "Malaysia's attorney-general defends halting Najib's house arrest after king's rebuke",
-   "x_en": "Malaysia's attorney-general on Saturday (Nov 7) stood by his decision to seek legal clarifications over former Prime Minister Najib Razak's house arrest order, and rejected accusations of treason after the palace insisted it must be implemented."
+   "t_en": "Houthis claim attacks on Saudi Aramco sites, Riyadh airport and troops",
+   "x_en": "Yemen's Houthis said on Saturday they had launched multiple missile and drone attacks against Saudi troops and infrastructure both in the kingdom and Yemen. The group launched six operations that targeted Aramco oil facilities as well as Riyadh airport and Sau"
   },
   {
-   "t": "Гонконгского активиста Джошуа Вонга приговорили к 10 годам тюрьмы за сговор с иностранцами",
-   "x": "Рейтер",
-   "r": "Азия",
+   "t": "Новая волна угроз о взрыве ударила по европейским авиакомпаниям",
+   "x": "Никакой связи между угрозами в адрес авиакомпаний и СМИ не установлено.",
+   "r": "Европа",
    "c": "Конфликты",
-   "imp": 70,
-   "ten": 49,
-   "ago": 1,
+   "imp": 71,
+   "ten": 95,
+   "ago": 141,
    "s": [
-    "Nikkei Asia",
-    "Reuters"
+    "BBC",
+    "France 24",
+    "NPR"
    ],
-   "u": "https://asia.nikkei.com/spotlight/hong-kong-security-law/hong-kong-activist-joshua-wong-sentenced-to-10-years-for-foreign-collusion",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F8%2F4%2F4%2F13404485-1-eng-GB%2F47dfe58b1772-DSC_0632.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
+   "u": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c047/live/33f77d10-d9ed-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
    "n": 3,
-   "lat": 22.14,
-   "lon": 114.47,
-   "place": "Гонконг",
-   "place_en": "Hong Kong",
+   "lat": 47.51,
+   "lon": 2.84,
+   "place": "Франция",
+   "place_en": "France",
    "id": 15,
-   "t_en": "Hong Kong activist Joshua Wong sentenced to 10 years for foreign collusion",
-   "x_en": "Reuters"
+   "t_en": "New wave of bomb threats hit European airlines",
+   "x_en": "No link has been established between the threats against the airlines and those against the media outlets."
   },
   {
    "t": "Япония протестует против поглощения Россией дочерних компаний Japan Tobacco в России",
@@ -592,6 +588,138 @@
    "x_en": "Japan has protested to Moscow after Russia placed four subsidiaries of Japan Tobacco under temporary Russian management"
   },
   {
+   "t": "Приговор Джошуа Вонгу в Гонконге вызвал словесную войну с США и Европой",
+   "x": "Рейтер",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 53,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia",
+    "Reuters"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/hong-kong-security-law/hong-kong-s-joshua-wong-sentence-sparks-war-of-words-with-us-europe",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F7%2F0%2F0%2F13410077-1-eng-GB%2Ff8858b4d7cd3-2026-11-05T035347Z_1329118625_RC2FHOAJBKIT_RTRMADP_3_HONGKONG-SECURITY-JOSHUAWONG.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 23.28,
+   "lon": 113.83,
+   "place": "Гонконг",
+   "place_en": "Hong Kong",
+   "id": 17,
+   "t_en": "Hong Kong's Joshua Wong sentence sparks war of words with US, Europe",
+   "x_en": "Reuters"
+  },
+  {
+   "t": "Американские военные стремятся расширить военно-морскую блокаду и ограничить сухопутную торговлю с Ираном: доклад",
+   "x": "Американские военные создают оперативную группу для поддержки усилий Вашингтона по ограничению перемещения Тегераном современных систем вооружения и других санкционных материалов через его сухопутные границы и Каспийское море, сообщает Reuters. Объявление оперативной группы,",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 74,
+   "ago": 117,
+   "s": [
+    "Middle East Eye",
+    "Dawn",
+    "Reuters"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-military-looking-expand-naval-blockade-and-restrict-iranian-land",
+   "img": "https://i.dawn.com/large/2026/06/18222855fbfda9b.webp",
+   "img_src": "Dawn",
+   "fresh": false,
+   "n": 3,
+   "lat": 38.63,
+   "lon": -97.96,
+   "place": "США",
+   "place_en": "United States",
+   "id": 18,
+   "t_en": "US military looking to expand naval blockade and restrict Iranian land commerce: Report",
+   "x_en": "The US military is setting up a task force to bolster Washington's efforts to restrict Tehran's movement of advanced weapons systems and other sanctions materials across its land borders and the Caspian Sea, Reuters reports. The announcement of the task force,"
+  },
+  {
+   "t": "Новый глава администрации Трампа Стивен Миллер говорит, что он «спас Америку»",
+   "x": "Стивен Миллер, новый руководитель администрации президента США Дональда Трампа, хвалит его.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 70,
+   "ten": 48,
+   "ago": 206,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "Yonhap",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-trump-stephen-miller-loyalty-pledge?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/4bca0edc-daa4-11f1-9347-bf1914cabd52/w:1024/p:16x9/EN-20261107-120813-120953-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 8,
+   "lat": 39.76,
+   "lon": -99.85,
+   "place": "США",
+   "place_en": "United States",
+   "id": 19,
+   "t_en": "Trump’s new chief of staff Stephen Miller says he ‘saved America’",
+   "x_en": "Stephen Miller, US President Donald Trump’s incoming chief of staff praises him."
+  },
+  {
+   "t": "Сирия отрицает планы по отправке войск в Йемен, заявляет, что военное сотрудничество с Саудовской Аравией может расшириться",
+   "x": "Сирия не планирует отправлять вооруженные силы в Йемен, сообщил сирийский дипломатический источник государственному информационному агентству SANA, отвергнув сообщения о возможном развертывании как необоснованные. Источник изложил масштабы военного сотрудничества с Саудовской Аравией, которая в настоящее время",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 46,
+   "ago": 85,
+   "s": [
+    "Middle East Eye",
+    "Times of India",
+    "Reuters"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/syria-denies-plans-send-troops-yemen-says-military-cooperation-saudi",
+   "img": "https://static.toiimg.com/photo/msid-135643315,imgsize-248296.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 3,
+   "lat": 35.49,
+   "lon": 37.74,
+   "place": "Сирия",
+   "place_en": "Syria",
+   "id": 20,
+   "t_en": "Syria denies plans to send troops to Yemen, says military cooperation with Saudi Arabia could expand",
+   "x_en": "Syria has no plans to send military forces to Yemen, a Syrian diplomatic source told state news agency SANA, dismissing reports of a possible deployment as baseless. The source was outlining the scope of military cooperation with Saudi Arabia, which currently "
+  },
+  {
+   "t": "Сильные дожди затопили лагеря для перемещенных лиц в секторе Газа",
+   "x": "Проливные дожди и сильный ветер затопили и повредили передвижные палатки по всей Газе.",
+   "r": "Ближний Восток",
+   "c": "Природа",
+   "imp": 69,
+   "ten": 55,
+   "ago": 103,
+   "s": [
+    "Al Jazeera",
+    "Middle East Eye",
+    "Africanews"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/7/heavy-rains-flood-displacement-camps-across-gaza?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/98/38/40/640x360_cmsv2_461d4df1-ece5-5437-8e46-3d3be34ebb5f-9983840.jpg?1794049254",
+   "img_src": "Africanews",
+   "fresh": false,
+   "n": 4,
+   "lat": 31.2,
+   "lon": 34.42,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 21,
+   "t_en": "Heavy rains flood displacement camps across Gaza",
+   "x_en": "Heavy rains and strong winds have flooded and damaged displacement tents across Gaza."
+  },
+  {
    "t": "Новая Зеландия подсчитывает голоса на минимальных выборах после того, как кампания была сосредоточена на стоимости жизни",
    "x": "В Новой Зеландии на всеобщих выборах люди голосуют как за партию, так и за голос избирателей. Своими голосами избирателей новозеландцы голосуют за кандидата, который будет представлять местный электорат в парламенте. Они также голосуют за партию, которую хотят видеть в правительстве.",
    "r": "Мир",
@@ -612,7 +740,7 @@
    "lon": 173.76,
    "place": "Новая Зеландия",
    "place_en": "New Zealand",
-   "id": 17,
+   "id": 22,
    "t_en": "New Zealand counts votes in razor-thin election after campaign centred on cost of living",
    "x_en": "In New Zealand, people cast a party vote as well as an electorate vote in a general election. With their electorate vote, New Zealanders vote for a candidate to represent their local electorate in parliament. They also vote for the party they want to be in gov"
   },
@@ -637,120 +765,18 @@
    "lon": 103.21,
    "place": "Китай",
    "place_en": "China",
-   "id": 18,
+   "id": 23,
    "t_en": "China blocks SoftBank's $5.4bn deal for ABB robotics division",
    "x_en": "Reuters"
-  },
-  {
-   "t": "Будет ли Трамп снова наносить удары по ядерным объектам, когда Иран начнет «когнитивную войну»?",
-   "x": "Президент США посылает неоднозначные сообщения после того, как его партия потерпела поражение на промежуточных выборах.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 84,
-   "ago": 55,
-   "s": [
-    "Al Jazeera",
-    "Dawn"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/11/0718344158e20ba.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.46,
-   "lon": 54.72,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 19,
-   "t_en": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?",
-   "x_en": "The US president has been sending mixed messages after his party suffered a defeat at the midterm elections."
-  },
-  {
-   "t": "Банковский скандал свергнул президента Парагвая",
-   "x": "Свергнутый президент Парагвая Сантьяго Пенья был помещен под домашний арест после того, как сенаторы единогласно проголосовали за его отстранение из-за банковского скандала. В результате краха Ueno Bank почти три миллиона клиентов лишились доступа к своим сбережениям. Пенья отрицает какие-либо обвинения",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 67,
-   "ten": 60,
-   "ago": 126,
-   "s": [
-    "France 24",
-    "Euronews",
-    "Africanews"
-   ],
-   "u": "https://www.france24.com/en/banking-scandal-topples-paraguay-leader",
-   "img": "https://s.france24.com/media/display/6d0782be-daa4-11f1-b656-d18c5759e759/w:1024/p:16x9/EN-20261107-121224-121408-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": -22.85,
-   "lon": -58.48,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 20,
-   "t_en": "Banking scandal topples Paraguay leader",
-   "x_en": "Paraguay’s ousted president Santiago Peña has been placed under house arrest after senators unanimously voted to remove him over a banking scandal. The collapse of Ueno Bank left nearly three million customers unable to access their savings. Peña denies any wr"
-  },
-  {
-   "t": "Франция готовится к новым общенациональным протестам, поскольку «Жёлтые жилеты» призывают к «массовому неповиновению»",
-   "x": "Французские профсоюзы и студенческие группы собираются выйти на улицы в субботу, чтобы провести еще один день протестов, а движение «Желтые жилеты» планирует провести отдельный митинг в центре Парижа, несмотря на запрет властей. Демонстрации последовали за неделями беспорядков, возглавляемых молодежью.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 71,
-   "ago": 53,
-   "s": [
-    "France 24",
-    "Dawn"
-   ],
-   "u": "https://www.france24.com/en/france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
-   "img": "https://s.france24.com/media/display/c9733fde-daae-11f1-87e0-bf1914cabd52/w:1024/p:16x9/EN-20261107-130322-131958-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 3,
-   "lat": 46.72,
-   "lon": 2.05,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 21,
-   "t_en": "France braces for more nationwide protests as Yellow Vests urge 'mass disobedience'",
-   "x_en": "French unions and student groups are set to take to the streets for another day of protests on Saturday, while the Yellow Vests movement plans a separate rally in central Paris despite a ban by authorities. The demonstrations follow weeks of youth-led unrest a"
-  },
-  {
-   "t": "США наносят новые целевые удары по Ирану, поскольку Трамп заявляет о прогрессе в переговорах с Тегераном",
-   "x": "Американские военные нанесли новые авиаудары по иранским оборонительным системам, вызвав волну по всему Персидскому заливу, но Трамп настаивает, что это «незначительные удары», в то время как интенсивные дипломатические усилия продолжают предотвращать полномасштабную войну.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 70,
-   "ago": 166,
-   "s": [
-    "Euronews",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/2026/11/07/us-launches-new-targeted-strikes-on-iran-as-trump-claims-progress-in-talks-with-tehran",
-   "img": "https://images.euronews.com/articles/stories/09/98/38/09/696x392_cmsv2_9577bf6c-ec61-5266-8c6b-9dd85ee39dd2-9983809.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": 35.89,
-   "lon": 51.47,
-   "place": "Тегеран",
-   "place_en": "Tehran",
-   "id": 22,
-   "t_en": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran",
-   "x_en": "The US military carried out new airstrikes on Iranian defence systems, sending ripples across the Gulf, but Trump insists they are “minor strikes” while intense diplomatic efforts continue to avert an all-out war."
   },
   {
    "t": "Результаты промежуточных выборов в США: смены Сената, Палаты представителей и губернатора до и после",
    "x": "Демократы получили полный контроль над Конгрессом на промежуточных выборах в США в ноябре 2026 года, перевернув Сенат и Палату представителей после того, как получили чистые места на ключевых полях сражений и проникли в оплоты республиканцев. Вот что изменилось между промежуточными периодами 2022 и 2026 годов",
    "r": "Америка",
    "c": "Политика",
-   "imp": 62,
+   "imp": 67,
    "ten": 40,
-   "ago": 43,
+   "ago": 13,
    "s": [
     "The Hindu",
     "AP"
@@ -759,39 +785,147 @@
    "img": "https://th-i.thgim.com/public/incoming/j2s5sp/article71663845.ece/alternates/LANDSCAPE_1200/2026-11-04T030116Z_716209600_RC2QGOA7QDFN_RTRMADP_3_USA-ELECTION-GEORGIA.JPG",
    "img_src": "The Hindu",
    "fresh": true,
-   "n": 7,
+   "n": 15,
    "lat": 40.21,
    "lon": -98.56,
    "place": "США",
    "place_en": "United States",
-   "id": 23,
+   "id": 24,
    "t_en": "U.S. midterm election results: Senate, House and Governor shifts before and after",
    "x_en": "Democrats surged to full control of Congress in the November 2026 U.S. midterm elections, flipping the Senate and House after winning net seats across key battlegrounds and sweeping into Republican strongholds. Here’s what changed between 2022 and 2026 midterm"
   },
   {
-   "t": "Российские удары ранили девять человек и повредили энергосистему Украины перед переговорами",
-   "x": "Нападения произошли перед тем, как украинская и российская делегации должны принять участие в трехсторонних переговорах в Абу-Даби на следующей неделе.",
+   "t": "Премьер-министр Новой Зеландии заявил, что выборы «слишком близки, чтобы их можно было назвать»",
+   "x": "Премьер-министр Новой Зеландии Кристофер Люксон говорит, что у него есть путь к формированию следующего правительства.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 40,
+   "ago": 265,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "NYT",
+    "Washington Post",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/7/new-zealands-prime-minister-says-election-is-too-close-to?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/7fcb32a817f834d2911af2cc72d2a3a7d313ee0e/688_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=8f3b8896357b72317e0f0e7fb8b34aac",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 6,
+   "lat": -40.81,
+   "lon": 173.91,
+   "place": "Новая Зеландия",
+   "place_en": "New Zealand",
+   "id": 25,
+   "t_en": "New Zealand’s prime minister says election is ‘too close to call’",
+   "x_en": "New Zealand prime minister Christopher Luxon says he has a pathway to form the next government."
+  },
+  {
+   "t": "Нападение исламистских боевиков вынудило пациентов бежать из клиники Эболы в Конго",
+   "x": "По словам официальных лиц, по меньшей мере 48 человек были убиты в результате жестокого нападения со стороны группы, лояльной к Исламскому государству. Этот район является горячей точкой растущей вспышки Эболы.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 82,
+   "ago": 5,
+   "s": [
+    "NYT"
+   ],
+   "u": "https://www.nytimes.com/2026/11/07/world/africa/congo-attack-ebola-isis-adf.html",
+   "img": "https://static01.nyt.com/images/2026/11/07/multimedia/07int-congo-ebola-violence-twbp/07int-congo-ebola-violence-twbp-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 1,
+   "lat": -2.87,
+   "lon": 23.96,
+   "place": "ДР Конго",
+   "place_en": "DR Congo",
+   "id": 26,
+   "t_en": "Islamist Militant Attack Forces Patients to Flee Ebola Clinic in Congo",
+   "x_en": "At least 48 people were killed in a brutal assault by a group loyal to the Islamic State, officials said. The area is a hot spot of the growing Ebola outbreak."
+  },
+  {
+   "t": "Столкновения в Париже после новых протестов во Франции",
+   "x": "Тысячи людей протестовали по всей Франции в субботу, продемонстрировав новую демонстрацию гнева против правительства. В Париже вспыхнули столкновения между полицией и некоторыми протестующими, несмотря на более низкую явку, чем в предыдущие недели. Протесты стали четвертыми подряд",
    "r": "Европа",
    "c": "Политика",
-   "imp": 62,
-   "ten": 74,
-   "ago": 93,
+   "imp": 63,
+   "ten": 95,
+   "ago": 20,
    "s": [
-    "BBC",
-    "Africanews"
+    "Dawn"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0554/live/2786bc40-daa0-11f1-a523-f508a3e924cb.jpg",
-   "img_src": "BBC",
-   "fresh": false,
+   "u": "https://www.dawn.com/news/2042809/clashes-in-paris-after-new-french-protests",
+   "img": "https://i.dawn.com/large/2026/11/07232907cfa51ad.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 1,
+   "lat": 48.93,
+   "lon": 1.85,
+   "place": "Париж",
+   "place_en": "Paris",
+   "id": 27,
+   "t_en": "Clashes in Paris after new French protests",
+   "x_en": "Thousands of people protested across France on Saturday in a new show of anger against the government, with clashes erupting between police and some protesters in Paris despite a lower turnout than in previous weeks. The protests marked the fourth consecutive "
+  },
+  {
+   "t": "АНК ЮАР демонстрирует худшие результаты на местных выборах за всю историю",
+   "x": "Близкие к окончательным результаты показывают, что некогда доминирующий АНК Южной Африки увидит самый низкий за всю историю процент голосов. Партия берет на себя вину за плохое качество муниципальных услуг, в том числе за нехватку воды и электричества.",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 40,
+   "ago": 48,
+   "s": [
+    "DW",
+    "The Guardian"
+   ],
+   "u": "https://www.dw.com/en/south-africa-s-anc-facing-worst-ever-performance-in-local-elections/a-79887482?maca=en-rss-en-world-4025-rdf",
+   "img": "https://i.guim.co.uk/img/media/ca80f1733421e850930a8c2267b7214219fef832/697_286_4649_3719/master/4649.jpg?width=700&quality=85&auto=format&fit=max&s=4b52fcd00653a4881aa4fe2b6b753875",
+   "img_src": "The Guardian",
+   "fresh": true,
    "n": 2,
-   "lat": 61.26,
-   "lon": 92.41,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 24,
-   "t_en": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
-   "x_en": "The attacks come before Ukrainian and Russian delegations are due to take part in trilateral talks in Abu Dhabi next week."
+   "lat": -29.29,
+   "lon": 24.87,
+   "place": "ЮАР",
+   "place_en": "South Africa",
+   "id": 28,
+   "t_en": "South Africa's ANC facing worst-ever performance in local elections",
+   "x_en": "Near-final results show South Africa's once dominant ANC will see its lowest-ever vote percentage. The party is taking the blame for shoddy municipal services, including water and electricity shortages."
+  },
+  {
+   "t": "Лидер кенийской секты приговорен к 200 годам тюрьмы",
+   "x": "Лидер кенийского культа Пол Маккензи был приговорен к 200 годам тюремного заключения за смерть 190 детей, заморенных голодом по его приказу в лесу Шакахола. Прокуроры заявили, что он убедил последователей поститься, чтобы достичь небес до апокалипсиса.",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 54,
+   "ago": 404,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "NPR",
+    "NYT",
+    "CBS News",
+    "ABC News",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison-1",
+   "img": "https://s.france24.com/media/display/39739e62-da8e-11f1-b99f-a575454bc579/w:1024/p:16x9/EN-20261107-091237-091421-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 9,
+   "lat": 0.01,
+   "lon": 38.74,
+   "place": "Кения",
+   "place_en": "Kenya",
+   "id": 29,
+   "t_en": "Kenyan cult leader sentenced to 200 years in prison",
+   "x_en": "Kenyan cult leader Paul Mackenzie has been sentenced to 200 years in prison for the deaths of 190 children who were starved to death on his orders in Shakahola Forest. Prosecutors said he had convinced followers to fast to reach heaven before the apocalypse, w"
   },
   {
    "t": "Война США в Иране оставляет Шри-Ланку в неспокойных дипломатических водах",
@@ -813,7 +947,7 @@
    "lon": -99.81,
    "place": "США",
    "place_en": "United States",
-   "id": 25,
+   "id": 30,
    "t_en": "US war in Iran leaves Sri Lanka in troubled diplomatic waters",
    "x_en": ""
   },
@@ -837,34 +971,57 @@
    "lon": 104.39,
    "place": "Сингапур",
    "place_en": "Singapore",
-   "id": 26,
+   "id": 31,
    "t_en": "Singapore banks struggle with bond yield and interest rate tensions",
    "x_en": ""
   },
   {
-   "t": "Россия нанесла массированный удар по Киеву",
-   "x": "Пока Украина готовится к очередному раунду переговоров с Россией и Соединенными Штатами на следующей неделе, Москва начала массированную ночную забастовку. По меньшей мере пять человек получили ранения в Киеве, где российские ракеты повредили жилые и коммерческие здания.",
+   "t": "США ввели санкции против камбоджийской компании Prince Group из-за онлайн-мошенничества",
+   "x": "",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 60,
+   "ten": 57,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/society/crime/us-slaps-sanctions-on-cambodia-s-prince-group-over-online-scams",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F4%2F0%2F4%2F13414040-2-eng-GB%2F0f0cdcb1da24-photo_SXM2026110600006414.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 38.88,
+   "lon": -98.27,
+   "place": "США",
+   "place_en": "United States",
+   "id": 32,
+   "t_en": "US slaps sanctions on Cambodia's Prince Group over online scams",
+   "x_en": ""
+  },
+  {
+   "t": "Что мы знаем о массовом расстреле в Кракове на данный момент",
+   "x": "По меньшей мере шесть человек были убиты вооруженным преступником в военной форме, открывшим огонь во втором по величине городе Польши.",
    "r": "Европа",
    "c": "Конфликты",
    "imp": 59,
-   "ten": 81,
-   "ago": 127,
+   "ten": 82,
+   "ago": 33,
    "s": [
-    "France 24",
-    "Reuters"
+    "BBC"
    ],
-   "u": "https://www.france24.com/en/video/20261107-russia-launches-massive-strike-on-kyiv-1",
-   "img": "https://s.france24.com/media/display/50e433a2-daa4-11f1-b5c1-1beafce15fea/w:1024/p:16x9/EN-20261107-120558-120735-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 50.54,
-   "lon": 30.54,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 27,
-   "t_en": "Russia launches massive strike on Kyiv",
-   "x_en": "As Ukraine prepares for another round of talks with Russia and the United States next week, Moscow has launched a massive overnight strike. At least five people were injured in Kyiv, where Russian missiles damaged residential and commercial buildings, forced t"
+   "u": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f6c3/live/95455f00-dac5-11f1-bda8-29fb69dbc026.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 1,
+   "lat": 52.41,
+   "lon": 20.06,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 33,
+   "t_en": "What we know about Krakow mass shooting so far",
+   "x_en": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city."
   },
   {
    "t": "Руководитель индийского ИТ-лобби предупреждает, что выпускникам будет сложно найти работу из-за ИИ",
@@ -886,88 +1043,108 @@
    "lon": 79.92,
    "place": "Индия",
    "place_en": "India",
-   "id": 28,
+   "id": 34,
    "t_en": "India's IT lobby chief warns grads could struggle to find jobs due to AI",
    "x_en": ""
   },
   {
-   "t": "«Нас начали бомбить дронами»: российские атаки нервируют Запорожье",
-   "x": "Регион, который когда-то предлагал убежище, становится все более опасным, поскольку в результате одного нападения погибло 50 человек.",
-   "r": "Америка",
-   "c": "Конфликты",
+   "t": "Выборочное преследование Армении: угроза отношениям с ЕС?",
+   "x": "Хотя Брюссель воздерживается от резкой критики, гражданское общество Армении предостерегает об избирательном правосудии в отношении деятелей оппозиции. Может ли прагматичная позиция ЕС рисковать повторением прошлых ошибок?",
+   "r": "Европа",
+   "c": "Общее",
    "imp": 58,
-   "ten": 95,
-   "ago": 58,
+   "ten": 66,
+   "ago": 19,
    "s": [
-    "Al Jazeera"
+    "DW"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/Img-3-Volodymyr-1794035357.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
+   "u": "https://www.dw.com/en/armenia-s-selective-prosecution-a-threat-to-eu-relations/a-79878159?maca=en-rss-en-world-4025-rdf",
+   "img": "https://www.dw.com/en/armenia-s-selective-prosecution-a-threat-to-eu-relations/image/jpeg",
+   "img_src": "DW (og)",
    "fresh": true,
    "n": 1,
-   "lat": 47.96,
-   "lon": 35.48,
-   "place": "Запорожье",
-   "place_en": "Zaporizhzhia",
-   "id": 29,
-   "t_en": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia",
-   "x_en": "A region once offering refuge becomes increasingly dangerous, as 50 people are killed in a single attack."
+   "lat": 50.85,
+   "lon": 4.12,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 35,
+   "t_en": "Armenia's selective prosecution: A threat to EU relations?",
+   "x_en": "While Brussels has refrained from harsh criticism, Armenian civil society has warned of selective justice against opposition figures. Could the EU's pragmatic stance risk repeating past mistakes?"
   },
   {
-   "t": "Педро Аллиана приведен к присяге в качестве президента Парагвая после импичмента Сантьяго Пенья",
-   "x": "Свергнутый экс-президент Сантьяго Пенья был помещен под домашний арест в пятницу после того, как ему был объявлен импичмент из-за крупного банковского кризиса.",
+   "t": "Berkshire Hathaway более чем удвоила объемы обратного выкупа в третьем квартале на фоне снижения прибыли",
+   "x": "Berkshire Hathaway заявила в субботу, что ускорила выкуп акций в третьем квартале, поскольку операционная и общая прибыль пострадали.",
    "r": "Мир",
-   "c": "Политика",
+   "c": "Общее",
    "imp": 58,
-   "ten": 48,
-   "ago": 226,
+   "ten": 40,
+   "ago": 77,
    "s": [
-    "Euronews",
-    "Africanews",
+    "CNBC",
     "Reuters"
    ],
-   "u": "https://www.euronews.com/2026/11/07/pedro-alliana-sworn-in-as-paraguay-president-after-santiago-penas-impeachment",
-   "img": "https://images.euronews.com/articles/stories/09/98/36/69/696x392_cmsv2_7440ae8f-1163-5e6f-8ace-204c114d8f1d-9983669.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108544105-1794064987864-gettyimages-2283537705-050126-owh-new-berkshire-nf-24.jpeg?v=1794065008&w=1920&h=1080",
+   "img_src": "CNBC (og)",
    "fresh": false,
-   "n": 4,
-   "lat": -23.14,
-   "lon": -58.13,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 30,
-   "t_en": "Pedro Alliana sworn in as Paraguay president after Santiago Peña's impeachment",
-   "x_en": "Ousted ex-President Santiago Peña was placed under house arrest on Friday after he was impeached over a major banking crisis."
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 36,
+   "t_en": "Berkshire Hathaway more than doubles buybacks in third quarter as earnings decline",
+   "x_en": "Berkshire Hathaway said Saturday it accelerated its share repurchases during the third quarter, as operating and overall profits took a hit."
   },
   {
-   "t": "Отцу Меган предстало перед судом обвинение в хранении материалов о жестоком обращении с детьми",
-   "x": "Отец герцогини Сассекской предстал перед судом после ареста по обвинению в хранении изображений сексуального насилия над детьми.",
-   "r": "Азия",
-   "c": "Политика",
+   "t": "Первый избранный сенатор США-мусульманин Абдул Эль-Сайед запускает «Хабиби ПКК» после протестов против денег в политике",
+   "x": "Абдул аль-Сайед станет первым мусульманином, прошедшим в Сенат США, одержав победу над бывшим депутатом-республиканцем Майком Роджерсом на промежуточных выборах.",
+   "r": "Америка",
+   "c": "Общее",
    "imp": 58,
-   "ten": 48,
-   "ago": 520,
+   "ten": 40,
+   "ago": 82,
    "s": [
-    "Sky News",
-    "Euronews",
-    "NYT",
-    "The Hindu",
-    "Reuters",
+    "Times of India",
+    "The Hindu"
+   ],
+   "u": "https://timesofindia.indiatimes.com/world/us/first-muslim-us-senator-elect-abdul-el-sayed-launches-habibi-pac-after-railing-against-money-in-politics/articleshow/135643015.cms",
+   "img": "https://static.toiimg.com/photo/msid-135643513,imgsize-641175.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 2,
+   "lat": 39.42,
+   "lon": -99.13,
+   "place": "США",
+   "place_en": "United States",
+   "id": 37,
+   "t_en": "First Muslim US senator-elect Abdul El-Sayed launches ‘Habibi PAC’ after railing against money in politics",
+   "x_en": "Abdul El-Sayed is set to become the first Muslim to enter the U.S. Senate with his victory over former Republican lawmaker Mike Rogers in midterm elections"
+  },
+  {
+   "t": "Иран заявляет, что снял добровольное ограничение на дальность ракет и другие новости Ближнего Востока",
+   "x": "Революционная гвардия Ирана сняла добровольно установленное ограничение на дальность своих баллистических ракет, намекая на потенциальные разработки в области возможностей большей дальности.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 58,
+   "ten": 78,
+   "ago": 134,
+   "s": [
+    "ABC News",
     "AP"
    ],
-   "u": "https://news.sky.com/story/meghans-father-thomas-markle-appears-in-court-charged-with-possessing-child-abuse-material-13609134",
-   "img": "https://e3.365dm.com/26/10/1920x1080/skynews-thomas-markle-meghan-markle_7391188.png?20261029175915",
-   "img_src": "Sky News",
+   "u": "https://abcnews.com/International/wireStory/iran-lifted-imposed-limit-missile-ranges-mideast-news-137937910",
+   "img": "https://s.abcnews.com/images/International/wirestory_c26759ac66e6c022a3256adeae40c965_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": false,
-   "n": 6,
-   "lat": 12.33,
-   "lon": 123.62,
-   "place": "Филиппины",
-   "place_en": "Philippines",
-   "id": 31,
-   "t_en": "Meghan's father in court charged with possessing child abuse material",
-   "x_en": "The Duchess of Sussex's father has appeared in court after being arrested and charged with allegedly possessing child sexual abuse images."
+   "n": 2,
+   "lat": 32.09,
+   "lon": 53.47,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 38,
+   "t_en": "Iran says it has lifted its self-imposed limit on missile ranges, and other Mideast news",
+   "x_en": "Iran’s Revolutionary Guard has lifted its self-imposed limit on the range of its ballistic missiles, hinting at potential developments for longer-range capabilities"
   },
   {
    "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
@@ -989,7 +1166,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 32,
+   "id": 39,
    "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
    "x_en": ""
   },
@@ -1013,176 +1190,8 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 33,
-   "t_en": "Dream Big with a Home Equity Loan",
-   "x_en": ""
-  },
-  {
-   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 34,
-   "t_en": "Experts: this is the best cash back card of 2022",
-   "x_en": ""
-  },
-  {
-   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
-   "x": "",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 35,
-   "t_en": "It's official: now avoid credit card interest into 2024",
-   "x_en": ""
-  },
-  {
-   "t": "Начальная годовая процентная ставка 0% до 2024 года — это 100% безумие.",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 36,
-   "t_en": "0% intro APR until 2024 is 100% insane",
-   "x_en": ""
-  },
-  {
-   "t": "Китай заявляет, что торговые барьеры блокируют импорт технологий, увеличивая его профицит",
-   "x": "",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/economy/trade/china-says-trade-barriers-block-tech-imports-fueling-its-surplus",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F3%2F9%2F5%2F13405933-1-eng-GB%2F40da8c7ac825-IMG_0337.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 33.96,
-   "lon": 103.48,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 37,
-   "t_en": "China says trade barriers block tech imports, fueling its surplus",
-   "x_en": ""
-  },
-  {
-   "t": "Азиатские фондовые рынки падают, поскольку победа Демократической партии усиливает опасения по поводу проверки ИИ",
-   "x": "",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/asian-stock-markets-drop-as-democratic-win-stokes-fears-over-ai-scrutiny",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F5%2F4%2F13404519-1-eng-GB%2F7adb31577d9a-2026-10-29T231250Z_679351365_RC21DOAY0514_RTRMADP_3_USA-ELECTION-OHIO.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 38,
-   "t_en": "Asian stock markets drop as Democratic win stokes fears over AI scrutiny",
-   "x_en": ""
-  },
-  {
-   "t": "Тайваньские производители микросхем сияют ярче всех на памяти живущих",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/techasia/taiwan-s-chipmakers-shine-brightest-in-living-memory",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F0%2F6%2F1%2F39691606-1-eng-GB%2FCheng.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 23.57,
-   "lon": 121.77,
-   "place": "Тайвань",
-   "place_en": "Taiwan",
-   "id": 39,
-   "t_en": "Taiwan's chipmakers shine brightest in living memory",
-   "x_en": ""
-  },
-  {
-   "t": "Toyota готова «вернуть себе долю рынка» в Китае за счет расширения местных поставок",
-   "x": "",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/toyota-ready-to-regain-market-share-in-china-on-expanded-local-sourcing",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F5%2F7%2F4%2F13404754-2-eng-GB%2F5ecfc9bd957c-fff.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.59,
-   "lon": 101.63,
-   "place": "Китай",
-   "place_en": "China",
    "id": 40,
-   "t_en": "Toyota ready to 'regain market share' in China on expanded local sourcing",
+   "t_en": "Dream Big with a Home Equity Loan",
    "x_en": ""
   }
  ],
@@ -1206,139 +1215,143 @@
   {
    "t": 1794061340050,
    "v": 52
+  },
+  {
+   "t": 1794077682075,
+   "v": 52
   }
  ],
  "timeline": [
   {
-   "t": 1793974940050,
-   "v": 51,
-   "n": 58
+   "t": 1793991282075,
+   "v": 49,
+   "n": 46
   },
   {
-   "t": 1793978540050,
-   "v": 52,
-   "n": 57
-  },
-  {
-   "t": 1793982140050,
-   "v": 57,
-   "n": 57
-  },
-  {
-   "t": 1793985740050,
-   "v": 54,
-   "n": 54
-  },
-  {
-   "t": 1793989340050,
-   "v": 53,
-   "n": 53
-  },
-  {
-   "t": 1793992940050,
-   "v": 50,
-   "n": 49
-  },
-  {
-   "t": 1793996540050,
-   "v": 50,
-   "n": 51
-  },
-  {
-   "t": 1794000140050,
-   "v": 48,
+   "t": 1793994882075,
+   "v": 49,
    "n": 45
   },
   {
-   "t": 1794003740050,
+   "t": 1793998482075,
    "v": 47,
-   "n": 51
+   "n": 39
   },
   {
-   "t": 1794007340050,
-   "v": 47,
-   "n": 55
+   "t": 1794002082075,
+   "v": 45,
+   "n": 30
   },
   {
-   "t": 1794010940050,
+   "t": 1794005682075,
    "v": 48,
-   "n": 57
+   "n": 33
   },
   {
-   "t": 1794014540050,
-   "v": 46,
-   "n": 48
+   "t": 1794009282075,
+   "v": 49,
+   "n": 31
   },
   {
-   "t": 1794018140050,
-   "v": 46,
-   "n": 45
+   "t": 1794012882075,
+   "v": 49,
+   "n": 34
   },
   {
-   "t": 1794021740050,
-   "v": 46,
+   "t": 1794016482075,
+   "v": 48,
+   "n": 28
+  },
+  {
+   "t": 1794020082075,
+   "v": 47,
+   "n": 28
+  },
+  {
+   "t": 1794023682075,
+   "v": 45,
+   "n": 33
+  },
+  {
+   "t": 1794027282075,
+   "v": 47,
    "n": 40
   },
   {
-   "t": 1794025340050,
-   "v": 46,
-   "n": 48
+   "t": 1794030882075,
+   "v": 49,
+   "n": 40
   },
   {
-   "t": 1794028940050,
-   "v": 48,
-   "n": 48
-  },
-  {
-   "t": 1794032540050,
-   "v": 52,
-   "n": 51
-  },
-  {
-   "t": 1794036140050,
-   "v": 53,
-   "n": 48
-  },
-  {
-   "t": 1794039740050,
-   "v": 52,
-   "n": 54
-  },
-  {
-   "t": 1794043340050,
+   "t": 1794034482075,
    "v": 51,
+   "n": 45
+  },
+  {
+   "t": 1794038082075,
+   "v": 50,
+   "n": 47
+  },
+  {
+   "t": 1794041682075,
+   "v": 49,
+   "n": 58
+  },
+  {
+   "t": 1794045282075,
+   "v": 51,
+   "n": 61
+  },
+  {
+   "t": 1794048882075,
+   "v": 53,
+   "n": 61
+  },
+  {
+   "t": 1794052482075,
+   "v": 57,
+   "n": 75
+  },
+  {
+   "t": 1794056082075,
+   "v": 57,
    "n": 69
   },
   {
-   "t": 1794046940050,
-   "v": 51,
-   "n": 73
-  },
-  {
-   "t": 1794050540050,
-   "v": 55,
+   "t": 1794059682075,
+   "v": 54,
    "n": 91
   },
   {
-   "t": 1794054140050,
+   "t": 1794063282075,
+   "v": 52,
+   "n": 91
+  },
+  {
+   "t": 1794066882075,
+   "v": 54,
+   "n": 112
+  },
+  {
+   "t": 1794070482075,
    "v": 56,
-   "n": 92
+   "n": 95
   },
   {
-   "t": 1794057740050,
-   "v": 51,
-   "n": 123
+   "t": 1794074082075,
+   "v": 52,
+   "n": 126
   },
   {
-   "t": 1794061340050,
-   "v": 47,
-   "n": 82
+   "t": 1794077682075,
+   "v": 49,
+   "n": 88
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 21
+   "items": 23
   },
   {
    "n": "Al Jazeera",
@@ -1346,7 +1359,7 @@
   },
   {
    "n": "DW",
-   "items": 12
+   "items": 13
   },
   {
    "n": "France 24",
@@ -1354,15 +1367,15 @@
   },
   {
    "n": "The Guardian",
-   "items": 33
+   "items": 32
   },
   {
    "n": "Sky News",
-   "items": 5
+   "items": 6
   },
   {
    "n": "NPR",
-   "items": 8
+   "items": 9
   },
   {
    "n": "UN News",
@@ -1370,11 +1383,11 @@
   },
   {
    "n": "CNBC",
-   "items": 23
+   "items": 28
   },
   {
    "n": "Euronews",
-   "items": 28
+   "items": 29
   },
   {
    "n": "NYT",
@@ -1382,11 +1395,11 @@
   },
   {
    "n": "Washington Post",
-   "items": 8
+   "items": 9
   },
   {
    "n": "CBS News",
-   "items": 13
+   "items": 19
   },
   {
    "n": "ABC News",
@@ -1398,15 +1411,15 @@
   },
   {
    "n": "Fox News",
-   "items": 2
+   "items": 3
   },
   {
    "n": "ABC Australia",
-   "items": 16
+   "items": 12
   },
   {
    "n": "CNA",
-   "items": 20
+   "items": 13
   },
   {
    "n": "Times of Israel",
@@ -1414,7 +1427,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1426,7 +1439,7 @@
   },
   {
    "n": "Kyiv Independent",
-   "items": 14
+   "items": 15
   },
   {
    "n": "Yonhap",
@@ -1438,11 +1451,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 12
+   "items": 11
   },
   {
    "n": "Dawn",
-   "items": 26
+   "items": 28
   },
   {
    "n": "Times of India",
@@ -1471,7 +1484,6 @@
  ],
  "failed": [
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

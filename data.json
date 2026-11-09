@@ -1,42 +1,46 @@
 {
- "updated": 1794217625580,
+ "updated": 1794255019852,
  "demo": false,
- "total_articles": 625,
- "second_delta": 0,
+ "total_articles": 677,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 53
+   "v": 50
   },
   {
    "n": "Al Jazeera",
-   "v": 43
+   "v": 58
   },
   {
    "n": "DW",
-   "v": 68
+   "v": 50
   },
   {
    "n": "France 24",
-   "v": 61
+   "v": 55
   },
   {
    "n": "The Guardian",
-   "v": 49
+   "v": 54
   },
   {
    "n": "Sky News",
-   "v": 53
+   "v": 68
   },
   {
    "n": "NPR",
    "v": 44
   },
   {
+   "n": "UN News",
+   "v": 50
+  },
+  {
    "n": "CNBC",
-   "v": 54
+   "v": 47
   },
   {
    "n": "Euronews",
@@ -44,11 +48,11 @@
   },
   {
    "n": "NYT",
-   "v": 54
+   "v": 53
   },
   {
    "n": "Washington Post",
-   "v": 48
+   "v": 51
   },
   {
    "n": "CBS News",
@@ -56,7 +60,7 @@
   },
   {
    "n": "ABC News",
-   "v": 61
+   "v": 57
   },
   {
    "n": "CNN",
@@ -64,27 +68,27 @@
   },
   {
    "n": "Fox News",
-   "v": 68
+   "v": 70
   },
   {
    "n": "ABC Australia",
-   "v": 41
+   "v": 43
   },
   {
    "n": "CNA",
-   "v": 44
+   "v": 48
   },
   {
    "n": "Middle East Eye",
-   "v": 59
+   "v": 70
   },
   {
    "n": "Africanews",
-   "v": 49
+   "v": 47
   },
   {
    "n": "Kyiv Independent",
-   "v": 59
+   "v": 61
   },
   {
    "n": "Yonhap",
@@ -100,41 +104,41 @@
   },
   {
    "n": "Dawn",
-   "v": 49
+   "v": 58
   },
   {
    "n": "Times of India",
-   "v": 47
+   "v": 40
   },
   {
    "n": "The Hindu",
-   "v": 53
+   "v": 55
   },
   {
    "n": "Politico EU",
-   "v": 38
-  },
-  {
-   "n": "Japan Times",
-   "v": 44
-  },
-  {
-   "n": "Reuters",
    "v": 42
   },
   {
+   "n": "Japan Times",
+   "v": 45
+  },
+  {
+   "n": "Reuters",
+   "v": 46
+  },
+  {
    "n": "AP",
-   "v": 43
+   "v": 45
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 59
+   "v": 57
   },
   {
    "n": "Ближний Восток",
-   "v": 56
+   "v": 62
   },
   {
    "n": "Азия",
@@ -151,218 +155,45 @@
  ],
  "events": [
   {
-   "t": "Подозреваемый в стрельбе в Кракове скончался в больнице, сообщает полиция",
-   "x": "В результате перестрелки погибли по меньшей мере шесть человек, а в их доме были обнаружены тела трех членов семьи подозреваемого.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 98,
-   "ten": 95,
-   "ago": 9,
+   "t": "В результате взрыва на сталелитейном заводе в Турции погибли по меньшей мере 16 человек",
+   "x": "Очевидцы говорят, что взрыв потряс землю, причем один из них полагает, что землетрясение произошло недалеко от завода Habas Demir Celik в Алиаге.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 96,
+   "ten": 88,
+   "ago": 12,
    "s": [
     "BBC",
-    "The Guardian",
-    "NYT",
-    "ABC News"
+    "Al Jazeera",
+    "Sky News",
+    "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b131/live/b7c6ce50-dc06-11f1-b6f4-7b86d13131ad.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5625/live/fd460940-dc61-11f1-8fe6-5becaee5408f.jpg",
    "img_src": "BBC",
    "fresh": true,
    "n": 4,
-   "lat": 51.14,
-   "lon": 20.23,
-   "place": "Польша",
-   "place_en": "Poland",
+   "lat": 38.81,
+   "lon": 36.26,
+   "place": "Турция",
+   "place_en": "Turkey",
    "id": 1,
-   "t_en": "Krakow shooting suspect has died in hospital, police say",
-   "x_en": "At least six people were killed in the shooting, and three bodies of the suspect's family members were found at their home."
-  },
-  {
-   "t": "Участник массового расстрела в Польше скончался в больнице, сообщает полиция",
-   "x": "Подозреваемый застрелен полицией и арестован через несколько минут после того, как в центре Кракова открылась стрельба по людям.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 96,
-   "ten": 79,
-   "ago": 9,
-   "s": [
-    "Al Jazeera",
-    "DW",
-    "France 24",
-    "CNBC",
-    "ABC News",
-    "Fox News",
-    "The Hindu",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/9/poland-mass-shooting-assailant-dies-in-hospital-police-say?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/5cea55f2-db7e-11f1-bd0a-695cb59fade5/w:1024/p:16x9/EN-20261108-150134-150232-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 11,
-   "lat": 52.67,
-   "lon": 18.5,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 2,
-   "t_en": "Poland mass shooting assailant dies in hospital, police say",
-   "x_en": "Suspect shot by police and arrested minutes ‌after gunfire opened on people in central Krakow."
-  },
-  {
-   "t": "Президент Израиля привлекает кандидата от оппозиции Айзенкота для формирования правительства, что является неудачей для Нетаньяху",
-   "x": "Айзенкот, который баллотировался в качестве главного соперника премьер-министра Биньямина Нетаньяху, теперь стал на шаг ближе к свержению премьер-министра Израиля, находившегося на посту дольше всех.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 92,
-   "ten": 45,
-   "ago": 1,
-   "s": [
-    "CNBC",
-    "NYT",
-    "Fox News",
-    "Nikkei Asia",
-    "The Hindu"
-   ],
-   "u": "https://www.cnbc.com/2026/11/07/israel-eisenkot-netanyahu.html",
-   "img": "https://static01.nyt.com/images/2026/11/08/multimedia/08int-israel-politics-eisenkot-HFO-vbtf/08int-israel-politics-eisenkot-HFO-vbtf-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 5,
-   "lat": 31.44,
-   "lon": 34.04,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 3,
-   "t_en": "Israel’s president taps opposition candidate Eisenkot to form a government, in setback for Netanyahu",
-   "x_en": "Eisenkot, who ran as the main challenger to Prime Minister Benjamin Netanyahu, is now a step closer to ousting Israel's longest-serving premier."
-  },
-  {
-   "t": "Траур в Польше после массового расстрела",
-   "x": "Польша начала расследование терроризма после того, как в результате смертельной стрельбы шесть человек погибли и 16 получили ранения. Сообщается, что 24-летний подозреваемый поляк был очарован крайне правой идеологией. Власти расследуют возможный экстремистский мотив Кракова.",
-   "r": "Европа",
-   "c": "Экономика",
-   "imp": 91,
-   "ten": 87,
-   "ago": 49,
-   "s": [
-    "France 24",
-    "Euronews",
-    "NYT",
-    "CBS News",
-    "Africanews"
-   ],
-   "u": "https://www.france24.com/en/mourning-in-poland-after-mass-shooting",
-   "img": "https://s.france24.com/media/display/ac245178-db7d-11f1-9478-695cb59fade5/w:1024/p:16x9/EN-20261108-140118-140318-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 5,
-   "lat": 51.12,
-   "lon": 19.1,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 4,
-   "t_en": "Mourning in Poland after mass shooting",
-   "x_en": "Poland has launched a terrorism investigation after a deadly shooting left six people dead and 16 injured. The 24-year-old Polish suspect was reportedly fascinated by far-right ideologies. Authorities are investigating the possible extremist motive as Krakow's"
-  },
-  {
-   "t": "Акции Nvidia упали на 5%, поскольку внимание обращено на отношения Дженсена Хуанга с предполагаемым китайским шпионом",
-   "x": "Nvidia заявила, что ее правление начало независимое расследование после сообщений о том, что Хуан стал объектом «усилий внешней разведки».",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 90,
-   "ten": 40,
-   "ago": 9,
-   "s": [
-    "CNBC",
-    "Euronews",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-   "img": "https://images.euronews.com/articles/stories/09/98/50/97/696x392_cmsv2_64a26570-8113-5a99-a375-34a63f598b48-9985097.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 6,
-   "lat": 35.06,
-   "lon": 102.31,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 5,
-   "t_en": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
-   "x_en": "Nvidia said its board has launched an independent investigation following the reports that Huang was the target of a \"foreign intelligence effort.\""
-  },
-  {
-   "t": "Семь человек погибли и более 100 получили ранения в результате столкновения поездов в Египте",
-   "x": "Несколько вагонов сошли с рельсов после того, как два поезда, следовавшие в одном направлении, разбились возле города Гиза.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 70,
-   "ago": 58,
-   "s": [
-    "BBC",
-    "Sky News",
-    "Euronews",
-    "Washington Post",
-    "CBS News",
-    "ABC News",
-    "Africanews"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3886/live/ab03aa70-db8a-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 7,
-   "lat": 27.4,
-   "lon": 30.75,
-   "place": "Египет",
-   "place_en": "Egypt",
-   "id": 6,
-   "t_en": "Seven dead and more than 100 injured after trains collide in Egypt",
-   "x_en": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza."
-  },
-  {
-   "t": "Европа будет давить на США по поводу мира с Украиной и Ирана на переговорах G7 в Париже",
-   "x": "Министры иностранных дел стран «Большой семерки» еще раз обсудят войну России на Украине и перспективы дальнейших ударов США по Ирану на встрече в Париже в понедельник. Вашингтон сохранил возможность новых ударов, поскольку республиканцы проиграли промежуточные выборы. Госсекретарь США М.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 87,
-   "ten": 28,
-   "ago": 12,
-   "s": [
-    "France 24",
-    "NPR",
-    "NYT",
-    "Kyiv Independent",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/france/20261109-europa-us-ukraine-peace-iran-paris-g7-ministers",
-   "img": "https://s.france24.com/media/display/05c2455c-dbe0-11f1-8e22-695cb59fade5/w:1024/p:16x9/AP26086585080668.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 7,
-   "lat": 48.72,
-   "lon": 2.25,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 7,
-   "t_en": "Europe to press US on Ukraine peace and Iran at Paris G7 talks",
-   "x_en": "G7 foreign ministers will revisit Russia’s war in Ukraine and the prospect of further US strikes on Iran when they meet in Paris on Monday. Washington has kept the option of new strikes open since Republicans lost the midterm elections. US Secretary of State M"
+   "t_en": "Turkey steel factory blast kills at least 16 people",
+   "x_en": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga."
   },
   {
    "t": "Власти сообщают, что по меньшей мере 21 человек погиб в результате опрокидывания лодки с мигрантами у берегов Сенегала",
    "x": "Международная организация по миграции (МОМ) при ООН заявляет, что опасный Атлантический маршрут является ключевым путем для мигрантов из Западной Африки, направляющихся в Европу.",
    "r": "Европа",
-   "c": "Общее",
-   "imp": 87,
-   "ten": 55,
-   "ago": 44,
+   "c": "Конфликты",
+   "imp": 94,
+   "ten": 70,
+   "ago": 13,
    "s": [
     "Euronews",
+    "NYT",
     "ABC News",
-    "The Hindu",
-    "Reuters"
+    "Africanews"
    ],
    "u": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
    "img": "https://images.euronews.com/articles/stories/09/98/43/34/696x392_cmsv2_59c3d2f5-6cdf-5678-956b-c29984de7934-9984334.jpg",
@@ -373,366 +204,477 @@
    "lon": -13.85,
    "place": "Сенегал",
    "place_en": "Senegal",
-   "id": 8,
+   "id": 2,
    "t_en": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
    "x_en": "The United Nations' International Organization for Migration (IOM) says the dangerous Atlantic Route is a key pathway for West African migrants travelling to Europe."
   },
   {
-   "t": "Свергнутый премьер-министр Шейх Хасина требует паспорт в знак плана возвращения Бангладеш",
-   "x": "Хасина, которая живет в Индии уже два года, пообещала вернуться в Бангладеш в декабре.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 85,
-   "ten": 40,
-   "ago": 40,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "Dawn",
-    "The Hindu",
-    "Japan Times",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/9/ousted-pm-sheikh-hasina-seeks-passport-in-sign-of-bangladesh-return-plan?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_81c5aa1fd7c84bedef0ae07af1d1640d_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 7,
-   "lat": 24.89,
-   "lon": 90.39,
-   "place": "Бангладеш",
-   "place_en": "Bangladesh",
-   "id": 9,
-   "t_en": "Ousted PM Sheikh Hasina seeks passport in sign of Bangladesh return plan",
-   "x_en": "Hasina, who has been living in India for two years, has promised to return to Bangladesh in December."
-  },
-  {
-   "t": "Трамп заявил, что «шутил» по поводу предложения Даны Уайта стать пресс-секретарем",
-   "x": "Президент сказал боссу Ultimate Fighting Championship «пожалуйста, примите эту работу» в субботнем посте Truth Social.",
+   "t": "Премьер Катара встретился с Трампом для переговоров о прекращении войны с Ираном",
+   "x": "Премьер-министр Катара шейх Мохаммед бен Абдулрахман бин Джассим Аль Тани встретился с президентом США Дональдом Трампом.",
    "r": "Америка",
    "c": "Политика",
-   "imp": 84,
-   "ten": 40,
-   "ago": 48,
+   "imp": 92,
+   "ten": 81,
+   "ago": 33,
    "s": [
-    "BBC",
     "Al Jazeera",
-    "The Guardian",
-    "Sky News",
     "CNBC",
     "Euronews",
-    "Dawn"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dcbb/live/2fcfac50-dc11-11f1-a631-078d47c5aafb.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 8,
-   "lat": 39.98,
-   "lon": -99.11,
-   "place": "США",
-   "place_en": "United States",
-   "id": 10,
-   "t_en": "Trump says he was 'kidding' about Dana White press secretary offer",
-   "x_en": "The president told the Ultimate Fighting Championship boss to \"please take the job\" in a Truth Social post on Saturday."
-  },
-  {
-   "t": "«Разрушительное послание», поскольку АНК фиксирует худший результат за всю историю выборов в Южной Африке",
-   "x": "Президент Сирил Рамафоса заявляет, что приговор необходимо соблюдать, а генеральный секретарь партии называет результат «катастрофическим».",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 84,
-   "ten": 39,
-   "ago": 49,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "DW",
-    "ABC News",
-    "Africanews",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cwrkygrxp11mo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2630/live/78c708a0-db5c-11f1-adda-c54f54e3ce6a.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 7,
-   "lat": -29.73,
-   "lon": 22.89,
-   "place": "ЮАР",
-   "place_en": "South Africa",
-   "id": 11,
-   "t_en": "'Devastating message' as ANC records worst-ever result in South Africa election",
-   "x_en": "President Cyril Ramaphosa says the verdict must be respected, while the party's secretary-general calls the outcome \"catastrophic\"."
-  },
-  {
-   "t": "Подача электроэнергии на Запорожскую АЭС прекращена и восстановлена, сообщает МАГАТЭ",
-   "x": "МАГАТЭ объявило около полудня по местному времени, что завод потерял подключение к своей единственной внешней линии электропередачи напряжением 330 кВ, что вынудило его полагаться на аварийные дизель-генераторы для охлаждения и обеспечения безопасности. 10 часов спустя МАГАТЭ подтвердило, что электричество было восстановлено.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 82,
-   "ten": 57,
-   "ago": 1,
-   "s": [
-    "Kyiv Independent",
-    "Nikkei Asia",
-    "The Hindu"
-   ],
-   "u": "https://kyivindependent.com/power-to-zaporizhzhia-nuclear-power-plant-cut-restored-iaea-says/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-1249887111_20261109-010738.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 3,
-   "lat": 48.06,
-   "lon": 35.07,
-   "place": "Запорожье",
-   "place_en": "Zaporizhzhia",
-   "id": 12,
-   "t_en": "Power to Zaporizhzhia nuclear power plant cut, restored, IAEA says",
-   "x_en": "The plant lost connection to its sole 330-kilovolt (kV) external power line, forcing it to rely on emergency diesel generators for cooling and safety functions, the IAEA announced around noon local time. 10 hours later, the IAEA confirmed power had been restor"
-  },
-  {
-   "t": "Трамп назвал свою иммиграционную политику «слишком жесткой» для избирателей",
-   "x": "Трамп признает, что некоторые избиратели были недовольны скандальной инициативой его администрации по депортации.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 82,
-   "ten": 45,
-   "ago": 72,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Guardian",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/9/trump-says-his-immigration-policy-too-tough-for-voters?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/d373e164-dc11-11f1-a96a-d18c5759e759/w:1024/p:16x9/AP26313093851055.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": 39.93,
-   "lon": -99.12,
-   "place": "США",
-   "place_en": "United States",
-   "id": 13,
-   "t_en": "Trump says his immigration policy ‘too tough’ for voters",
-   "x_en": "Trump concedes some voters were unhappy with his administration's controversial deportation drive."
-  },
-  {
-   "t": "Трамп защищает генерального директора Nvidia на фоне обвинений Китая в шпионаже",
-   "x": "Дональд Трамп защитил генерального директора Nvidia Дженсена Хуана, который признался в романе с женщиной, подозреваемой в шпионаже в пользу Китая.",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 81,
-   "ten": 42,
-   "ago": 81,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Guardian",
-    "CNA",
-    "Dawn",
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-defends-nvidia-ceo-amid-chinese-spying-allegations?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/de28787e-ce09-11f1-932f-8d87bc3aeb3a/w:1024/p:16x9/4be63ee4f4f77ef4291d72acfad4aed31a19b368.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 8,
-   "lat": 39.85,
-   "lon": -97.67,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "Trump defends Nvidia CEO amid Chinese spying allegations",
-   "x_en": "Donald Trump has defended Nvidia CEO Jensen Huang, who admitted to an affair with a woman suspected of spying for China."
-  },
-  {
-   "t": "Рубио говорит, что война с Ираном непопулярна, но «необходима», чтобы остановить ядерную угрозу",
-   "x": "Госсекретарь США назвал требования Ирана на переговорах «возмутительными, нелепыми и на самом деле нереалистичными».",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 79,
-   "ten": 94,
-   "ago": 65,
-   "s": [
-    "Al Jazeera",
     "CBS News",
     "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/9/rubio-says-war-on-iran-unpopular-but-necessary-to-stop-nuclear-threat?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/8vyybh/article71681268.ece/alternates/LANDSCAPE_1200/2026-11-08T221548Z_927214633_RC2YJOAS8LEN_RTRMADP_3_USA-RUBIO.JPG",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 33.36,
-   "lon": 53.7,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 15,
-   "t_en": "Rubio says war on Iran unpopular but ‘necessary’ to stop nuclear threat",
-   "x_en": "US secretary of state says Iran's negotiation demands are 'outrageous and ridiculous, and really not realistic'."
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/9/qatar-pm-meets-with-trump-for-talks-on-ending-war-on-iran?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/98/48/16/696x392_cmsv2_43d6b671-e5a3-57ae-8d32-b80a6780774a-9984816.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 5,
+   "lat": 39.05,
+   "lon": -98.05,
+   "place": "США",
+   "place_en": "United States",
+   "id": 3,
+   "t_en": "Qatar PM meets with Trump for talks on ending war on Iran",
+   "x_en": "Qatari Prime Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani has met with US President Donald Trump."
   },
   {
-   "t": "Смог покрыл Нью-Дели, поскольку петарды Дивали ухудшают качество воздуха",
-   "x": "Качество воздуха в индийской столице достигает серьезного уровня, создавая повышенный риск для здоровья более чем 30 миллионов жителей.",
+   "t": "Акции Nvidia упали на фоне расследования в отношении генерального директора Дженсена Хуанга",
+   "x": "Хуан признает неверность и отрицает угрозу безопасности Nvidia, поскольку китайское шпионское расследование потрясло компанию в области искусственного интеллекта стоимостью 4,5 триллиона долларов.",
    "r": "Азия",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 36,
-   "ago": 9,
+   "c": "Наука",
+   "imp": 91,
+   "ten": 40,
+   "ago": 1,
    "s": [
     "Al Jazeera",
-    "NYT",
-    "ABC News"
+    "France 24",
+    "CNBC",
+    "Euronews",
+    "CBS News",
+    "Nikkei Asia"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/9/smog-blankets-new-delhi-as-diwali-firecrackers-worsen-air-quality?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/12/08/multimedia/08int-india-diwali-pollution-khqw/08int-india-diwali-pollution-khqw-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
+   "u": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/0b13626c-dc4d-11f1-847f-a575454bc579/w:1024/p:16x9/capture-6b650de8.jpg",
+   "img_src": "France 24",
    "fresh": true,
-   "n": 4,
-   "lat": 28.88,
-   "lon": 77.16,
-   "place": "Нью-Дели",
-   "place_en": "New Delhi",
-   "id": 16,
-   "t_en": "Smog blankets New Delhi as Diwali firecrackers worsen air quality",
-   "x_en": "Air quality in Indian capital reaches severe levels, posing heightened health risks for more than 30 million residents."
-  },
-  {
-   "t": "«Безосновательная клевета»: Китай отрицает обвинения в шпионаже против генерального директора Nvidia Дженсена Хуана",
-   "x": "Китай отверг обвинения в шпионаже с участием генерального директора Nvidia Дженсена Хуанга, назвав их клеветнической кампанией. Представитель министерства иностранных дел Го Цзякунь заявил, что эти утверждения необоснованны и необоснованны. Совет директоров Nvidia начал независимое расследование",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 78,
-   "ten": 40,
-   "ago": 13,
-   "s": [
-    "Times of India",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://timesofindia.indiatimes.com/world/china/a-baseless-smear-campaign-china-denies-spying-charge-targeting-nvidia-ceo-jensen-huang/articleshow/135674983.cms",
-   "img": "https://static.toiimg.com/photo/msid-135676299,imgsize-64784.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 3,
-   "lat": 34.77,
-   "lon": 102.38,
+   "n": 6,
+   "lat": 34.45,
+   "lon": 103.21,
    "place": "Китай",
    "place_en": "China",
-   "id": 17,
-   "t_en": "'A baseless smearing': China denies spying charge targeting Nvidia CEO Jensen Huang",
-   "x_en": "China has rejected allegations of espionage involving Nvidia CEO Jensen Huang, labeling them as a smear campaign. Foreign ministry spokesperson Guo Jiakun stated that these claims are unfounded and baseless. Nvidia's board has initiated an independent investig"
+   "id": 4,
+   "t_en": "Nvidia shares slump amid investigation into CEO Jensen Huang",
+   "x_en": "Huang admits infidelity, denies compromising Nvidia security as China spy inquiry shakes $4.5 trillion AI firm."
   },
   {
-   "t": "В результате столкновения двух поездов в Египте погибли по меньшей мере семь человек",
-   "x": "Президент поручил незамедлительно провести расследование после того, как один поезд сошел с рельсов в результате столкновения в Аль-Айяте примерно в 50 км от Каира. Семь человек погибли и по меньшей мере 125 получили ранения в результате столкновения двух поездов в воскресенье к югу от столицы Египта Каира, сообщили официальные лица. Авария ок",
-   "r": "Африка",
+   "t": "🔴 Стражи исламской революции стоят за кибератаками на холодильники в супермаркетах, заявил министр иностранных дел Франции",
+   "x": "Ирану приписывают «не особенно сложный» взлом размораживания, и предполагается, что он связан с другими хакерами по всей Европе. Иранские хакеры любят отправлять сообщения. В 2023 году группа, поддерживаемая государством, прервала работу служб потокового телевидения в Объединенных Арабских Эмиратах, чтобы",
+   "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 78,
-   "ten": 83,
-   "ago": 56,
-   "s": [
-    "The Guardian",
-    "Africanews",
-    "The Hindu"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
-   "img": "https://i.guim.co.uk/img/media/7527078bbb41cf17b1a35718b70ebdceeada7492/206_271_4462_3569/master/4462.jpg?width=700&quality=85&auto=format&fit=max&s=9a7f650e6ba494d56a7a03998e168b5f",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 26.14,
-   "lon": 32.03,
-   "place": "Египет",
-   "place_en": "Egypt",
-   "id": 18,
-   "t_en": "Collision of two trains in Egypt kills at least seven",
-   "x_en": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash oc"
-  },
-  {
-   "t": "Премьер-министр Катара встретится с Трампом: каковы последние новости о переговорах между США и Ираном?",
-   "x": "Иран выдвинул двухдневное предложение, разработанное совместно с катарскими посредниками и которое сейчас изучается в Вашингтоне.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 76,
-   "ten": 36,
-   "ago": 20,
-   "s": [
-    "Al Jazeera",
-    "Middle East Eye",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/9/qatar-pm-to-meet-trump-whats-the-latest-on-us-iran-negotiations?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/09/epa_6ab17e4ca419-1790017100.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 4,
-   "lat": 24.78,
-   "lon": 50.25,
-   "place": "Катар",
-   "place_en": "Qatar",
-   "id": 19,
-   "t_en": "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations?",
-   "x_en": "Iran has put forward a two-day proposal developed with Qatari mediators that Washington is examining."
-  },
-  {
-   "t": "Папа Лев раскритиковал политику жесткой экономии Милеи в Аргентине, заявив, что экономический рост должен принести пользу всем",
-   "x": "Папа Лев XIV прибыл в Аргентину в воскресенье из Уругвая, где началось его турне по Латинской Америке, столкнувшись с призывами помочь преодолеть разногласия после трех лет жесткой экономии под руководством президента Хавьера Милея. Визит понтифика в Буэнос-Айрес стал первым визитом понтифика покойного поп-музыки.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 75,
-   "ten": 28,
-   "ago": 113,
+   "imp": 91,
+   "ten": 67,
+   "ago": 30,
    "s": [
     "France 24",
     "The Guardian",
-    "Euronews",
-    "Africanews"
+    "Sky News",
+    "Politico EU"
    ],
-   "u": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei",
-   "img": "https://s.france24.com/media/display/9c453da6-dc10-11f1-9232-bf1914cabd52/w:1024/p:16x9/000-D6V94TC.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": -34.88,
-   "lon": -66.05,
-   "place": "Аргентина",
-   "place_en": "Argentina",
-   "id": 20,
-   "t_en": "Pope Leo criticises Milei’s austerity in Argentina, says growth must benefit all",
-   "x_en": "Pope Leo XIV arrived in Argentina on Sunday from Uruguay, where his Latin America tour began, facing calls to help bridge divisions after three years of austerity under President Javier Milei. The visit to Buenos Aires is the first by a pontiff to the late Pop"
+   "u": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
+   "img": "https://i.guim.co.uk/img/media/67edbe777b6f2a03334e7acacf646cbcabb1144d/2_0_3540_2832/master/3540.jpg?width=700&quality=85&auto=format&fit=max&s=073968a64436f7f573c451c6695f6baa",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 5,
+   "lat": 32.63,
+   "lon": 52.9,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 5,
+   "t_en": "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+   "x_en": "‘Not particularly complex’ defrosting hack has been attributed to Iran, with presumption it is linked to others across Europe Iranian hackers like to send a message. In 2023 a state-backed group interrupted TV streaming services in the United Arab Emirates to "
   },
   {
    "t": "Что мы знаем о романе генерального директора Nvidia с подозреваемым китайским шпионом?",
    "x": "Поклонение генеральному директору американского технологического гиганта Дженсену Хуангу было названо «дженсанити», но сможет ли его репутация пережить новости о его романе?",
    "r": "Америка",
    "c": "Наука",
-   "imp": 73,
+   "imp": 89,
    "ten": 40,
-   "ago": 157,
+   "ago": 12,
    "s": [
     "BBC",
-    "Sky News",
-    "CBS News",
-    "Reuters"
+    "France 24",
+    "The Guardian",
+    "CNBC",
+    "Euronews",
+    "CBS News"
    ],
    "u": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0343/live/157fc790-dc0c-11f1-b441-2b33b063138f.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/83e2/live/f1cb1e30-dc24-11f1-93e1-3b657b665bcf.png",
    "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
+   "fresh": true,
+   "n": 7,
    "lat": 34.83,
    "lon": 103.45,
    "place": "Китай",
    "place_en": "China",
-   "id": 21,
+   "id": 6,
    "t_en": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
    "x_en": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?"
+  },
+  {
+   "t": "Франция обвинила Иран во взломе холодильника в супермаркете",
+   "x": "Кибератака в прошлом месяце привела к нагреву холодильников и морозильников в сотнях супермаркетов по всей Франции.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 60,
+   "ago": 41,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "France 24",
+    "NYT",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f0bc/live/eec149b0-dc5d-11f1-8fe6-5becaee5408f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 46.5,
+   "lon": 3.49,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 7,
+   "t_en": "France accuses Iran of supermarket fridge hacking",
+   "x_en": "The cyber-attack last month saw fridges and freezers in hundreds of supermarkets across France heated up."
+  },
+  {
+   "t": "Nvidia начинает расследование после сообщения о том, что генеральный директор Дженсен Хуанг стал объектом внешней разведки",
+   "x": "Сообщается, что генеральный директор «имел тесные отношения» с китайской бизнес-леди, которая передала информацию в Пекин. Nvidia заявила, что в воскресенье «начинает независимое расследование в свете недавних сообщений о том, что основатель и генеральный директор Дженсен Хуанг стал целью",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 84,
+   "ten": 40,
+   "ago": 51,
+   "s": [
+    "The Guardian",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+   "img": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/2488_14_5430_4347/master/5430.jpg?width=700&quality=85&auto=format&fit=max&s=479082a01b7c472e474af2b77df4e1a8",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 4,
+   "lat": 40.12,
+   "lon": 116.48,
+   "place": "Пекин",
+   "place_en": "Beijing",
+   "id": 8,
+   "t_en": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+   "x_en": "CEO reportedly ‌had close relationship ‌with a Chinese businesswoman who passed information to ‌Beijing Nvidia said ⁠on Sunday it “is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of "
+  },
+  {
+   "t": "Подозреваемый в стрельбе в Кракове скончался в больнице, сообщает полиция",
+   "x": "В результате перестрелки погибли шесть человек, а в их доме были обнаружены тела трех членов семьи подозреваемого.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 83,
+   "ten": 83,
+   "ago": 118,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "DW",
+    "CNBC",
+    "NYT",
+    "Washington Post",
+    "CBS News",
+    "Fox News",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/707b/live/625f7400-dc3b-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 9,
+   "lat": 51.14,
+   "lon": 20.23,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 9,
+   "t_en": "Krakow shooting suspect has died in hospital, police say",
+   "x_en": "Six people were killed in the shooting, and three bodies of the suspect's family members were found at their home."
+  },
+  {
+   "t": "Трамп ставит под сомнение честность промежуточных выборов после того, как ранее принял результаты",
+   "x": "Трамп сделал эти заявления без каких-либо доказательств на канале Truth Social в понедельник.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 82,
+   "ten": 40,
+   "ago": 63,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "Dawn",
+    "Times of India"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/de62/live/5a7465d0-dc53-11f1-a869-656dc96bd12d.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.19,
+   "lon": -98.63,
+   "place": "США",
+   "place_en": "United States",
+   "id": 10,
+   "t_en": "Trump questions midterm elections integrity after previously accepting results",
+   "x_en": "Trump made the claims, without evidence, on Truth Social on Monday."
+  },
+  {
+   "t": "Айзенкот, соперник Нетаньяху и лидер оппозиции, призван попытаться сформировать правительство",
+   "x": "Гади Айзенкот, бывший военачальник, надеется сменить Биньямина Нетаньяху на посту премьер-министра, создав коалицию после безрезультатных выборов.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 49,
+   "ago": 1,
+   "s": [
+    "NYT",
+    "Nikkei Asia",
+    "The Hindu"
+   ],
+   "u": "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html",
+   "img": "https://static01.nyt.com/images/2026/11/08/multimedia/08int-israel-politics-eisenkot-HFO-vbtf/08int-israel-politics-eisenkot-HFO-vbtf-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 3,
+   "lat": 30.76,
+   "lon": 34.77,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 11,
+   "t_en": "Eisenkot, Netanyahu Rival and Opposition Leader, Tapped to Try to Form Government",
+   "x_en": "Gadi Eisenkot, a former military chief, hopes to succeed Benjamin Netanyahu as prime minister by cobbling together a coalition after an inconclusive election."
+  },
+  {
+   "t": "Конгрессмен-республиканец принудит провести голосование по импичменту министра обороны Хегсета",
+   "x": "Эта попытка, скорее всего, потерпит неудачу, но член палаты представителей Томас Мэсси хочет подтолкнуть Трампа к увольнению Хегсета, прежде чем демократы смогут начать собственный процесс импичмента.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 79,
+   "ten": 53,
+   "ago": 20,
+   "s": [
+    "BBC",
+    "France 24",
+    "The Guardian"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ed7c/live/626cdfb0-dc76-11f1-bbe9-83c09cc9b23f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": 39.88,
+   "lon": -99.95,
+   "place": "США",
+   "place_en": "United States",
+   "id": 12,
+   "t_en": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+   "x_en": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process."
+  },
+  {
+   "t": "Мирные переговоры по Украине возобновятся на этой неделе в Абу-Даби",
+   "x": "Переговоры под руководством США по прекращению войны между Россией и Украиной возобновятся на этой неделе в Абу-Даби. О прекращении огня не будет речи.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 78,
+   "ten": 20,
+   "ago": 78,
+   "s": [
+    "NYT",
+    "Washington Post",
+    "Kyiv Independent",
+    "The Hindu",
+    "Politico EU"
+   ],
+   "u": "https://www.nytimes.com/2026/11/09/world/europe/ukraine-russia-peace-talks.html",
+   "img": "https://static01.nyt.com/images/2026/11/09/multimedia/09int-ukraine-russia-talks-vfqh/09int-ukraine-russia-talks-vfqh-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 5,
+   "lat": 49.51,
+   "lon": 31.3,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 13,
+   "t_en": "Ukraine Peace Talks Resume This Week in Abu Dhabi",
+   "x_en": "U.S.-led talks to end the war between Russia and Ukraine will resume this week in Abu Dhabi. A cease-fire won’t be on the table."
+  },
+  {
+   "t": "Франция ускоряет повышение минимальной заработной платы в попытке подавить протесты",
+   "x": "Профсоюзы считают это увеличение недостаточным, поскольку правительство пытается разрядить беспорядки в преддверии предстоящих выборов.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 77,
+   "ten": 61,
+   "ago": 144,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Times of India",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/9/france-accelerates-minimum-wage-hike-in-bid-to-quell-protest?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/c6cb5fb8-dc49-11f1-8dc8-695cb59fade5/w:1024/p:16x9/EN-20261109-150119-150508-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 46.88,
+   "lon": 3.08,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 14,
+   "t_en": "France accelerates minimum wage hike in bid to quell protest",
+   "x_en": "Unions slam the increase as insufficient, as the government seeks to defuse the unrest ahead of upcoming elections."
+  },
+  {
+   "t": "Трамп назвал главу Nvidia Дженсена Хуана «благородным парнем» на фоне обвинений в шпионаже",
+   "x": "Президент США Дональд Трамп выступил в защиту генерального директора Nvidia Дженсена Хуанга после сообщений о том, что у него были интимные отношения с бизнес-леди, подозреваемой в работе на китайскую разведку. Трамп назвал Хуана «благородным парнем».",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 76,
+   "ten": 40,
+   "ago": 121,
+   "s": [
+    "Euronews",
+    "Dawn",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.euronews.com/2026/11/09/trump-calls-nvidia-chief-jensen-huang-an-honorable-guy-amid-spy-allegations",
+   "img": "https://images.euronews.com/articles/stories/09/98/50/97/696x392_cmsv2_64a26570-8113-5a99-a375-34a63f598b48-9985097.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 5,
+   "lat": 40.02,
+   "lon": -97.93,
+   "place": "США",
+   "place_en": "United States",
+   "id": 15,
+   "t_en": "Trump calls Nvidia chief Jensen Huang an 'honorable guy' amid spy allegations",
+   "x_en": "US President Donald Trump has defended Nvidia CEO Jensen Huang after reports that he had an intimate relationship with a businesswoman suspected of working for Chinese intelligence. Trump said Huang was an \"honorable guy\"."
+  },
+  {
+   "t": "Рассел Брэнд приговорен к 10 с половиной годам тюремного заключения за изнасилование и сексуальное насилие",
+   "x": "Британский комик Рассел Брэнд, когда-то один из самых известных телеведущих страны и голливудская звезда, был заключен в тюрьму на 10 с половиной лет в понедельник после того, как его признали виновным в изнасиловании одной женщины и сексуальном насилии над тремя другими около двух десятилетий назад.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 76,
+   "ten": 40,
+   "ago": 127,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "NPR",
+    "Euronews",
+    "CBS News",
+    "Dawn",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/video/20261109-russell-brand-sentenced-to-10-and-a-half-years-in-jail-for-rape-sexual-assault",
+   "img": "https://s.france24.com/media/display/9bb8b612-dc59-11f1-85fd-d18c5759e759/w:1024/p:16x9/EN-20261109-170739-171027-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 12,
+   "lat": 54.48,
+   "lon": -1.17,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 16,
+   "t_en": "Russell Brand sentenced to 10-and-a-half years in jail for rape, sexual assault",
+   "x_en": "British comedian Russell Brand, once one of the country's most high-profile broadcasters and a Hollywood star, was jailed for 10-and-a-half years on Monday after he was convicted of raping one woman and sexually assaulting three others around two decades ago. "
+  },
+  {
+   "t": "Повстанцы-хуситы заявили о гибели по меньшей мере 44 человек в результате авиаудара возле столицы Йемена",
+   "x": "Аль-Асбахи сказал, что спасательные команды все еще ищут в этом районе пропавших людей, что вызывает опасения, что число погибших может увеличиться.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 93,
+   "ago": 35,
+   "s": [
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.thehindu.com/news/international/houthi-rebels-say-at-least-44-killed-in-airstrike-near-yemeni-capital/article71683574.ece",
+   "img": "https://th-i.thgim.com/public/incoming/ojpqx/article71683584.ece/alternates/LANDSCAPE_1200/2026-11-09T150646Z_62128188_RC28KOA8C3VC_RTRMADP_3_IRAN-CRISIS-YEMEN-STRIKE.JPG",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": 15.22,
+   "lon": 44.49,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 17,
+   "t_en": "Houthi rebels say at least 44 killed in airstrike near Yemeni capital",
+   "x_en": "Al-Asbahi said rescue teams were still searching the area for missing people, raising fears that the death toll could rise."
+  },
+  {
+   "t": "Япония поставит Филиппинам береговые радары и дроны по сделке на 27 миллионов долларов",
+   "x": "Япония заявила, что предоставит Филиппинам береговую радиолокационную систему и беспилотные самолеты в рамках соглашения о помощи в области безопасности, поскольку обе страны сталкиваются с растущей напряженностью в отношениях с Китаем.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 70,
+   "ten": 48,
+   "ago": 1,
+   "s": [
+    "ABC News",
+    "Nikkei Asia"
+   ],
+   "u": "https://abcnews.com/International/wireStory/japan-provide-coastal-radar-drones-philippines-27m-deal-137975977",
+   "img": "https://s.abcnews.com/images/International/wirestory_fe32ef6b4c11bb348bb4d5df253a8378_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 2,
+   "lat": 37.13,
+   "lon": 137.92,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 18,
+   "t_en": "Japan to provide coastal radar and drones to the Philippines under $27M deal",
+   "x_en": "Japan said it will provide a coastal radar system and unmanned aircraft to the Philippines under a security aid deal, as both countries face growing tensions with China"
+  },
+  {
+   "t": "В результате взрыва на сталелитейном заводе в Турции погибли 16 человек; зонд запущен",
+   "x": "В понедельник на сталелитейном заводе на западе Турции произошел взрыв, в результате которого 16 человек погибли и 13 получили ранения, заявил президент Реджеп Тайип Эрдоган, объявляя о расследовании трагедии. Восемь рабочих оказались в ловушке на сталелитейном заводе HABAS примерно в 60 километрах",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 84,
+   "ago": 54,
+   "s": [
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.dawn.com/news/2043324/turkiye-steel-factory-blast-kills-16-probe-launched",
+   "img": "https://i.dawn.com/large/2026/11/09235600767d6c7.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 2,
+   "lat": 38.97,
+   "lon": 35.87,
+   "place": "Турция",
+   "place_en": "Turkey",
+   "id": 19,
+   "t_en": "Turkiye steel factory blast kills 16; probe launched",
+   "x_en": "An explosion ripped through a steel plant in western Turkiye on Monday, killing 16 people and injuring 13, President Recep Tayyip Erdogan said, announcing investigations into the tragedy. Eight workers were trapped at the HABAS steel factory about 60 kilometre"
   },
   {
    "t": "На выборах в Новой Зеландии нет явного победителя, поскольку лидеры готовятся к неделям переговоров",
@@ -755,198 +697,418 @@
    "lon": 172.13,
    "place": "Новая Зеландия",
    "place_en": "New Zealand",
-   "id": 22,
+   "id": 20,
    "t_en": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
    "x_en": "Prime Minister Christopher Luxon, who will lead a caretaker government while negotiations take place, said: \"I think everyone's over politics so let's all have a bit of a break for the next three weeks\"."
   },
   {
-   "t": "Посол Южной Кореи по климату примет участие в климатическом саммите ООН в Турции в качестве посланника президента",
-   "x": "СЕУЛ, 9 ноября (Рёнхап) -- Посол Южной Кореи по вопросам глобального климата и окружающей среды...",
-   "r": "Азия",
-   "c": "Природа",
+   "t": "Климатический саммит COP31: можем ли мы электрифицировать мир?",
+   "x": "Ежегодный саммит ООН по изменению климата, известный как COP31, открывается в этот понедельник в Турции на фоне глубокой обеспокоенности по поводу смертельных волн жары в Европе и смертоносных наводнений в Непале. Ожидается, что «суперЭль-Ниньо» в Тихом океане приведет к увеличению числа экстремальных погодных явлений. В разрешении",
+   "r": "Ближний Восток",
+   "c": "Политика",
    "imp": 67,
    "ten": 28,
    "ago": 1,
    "s": [
-    "Yonhap",
+    "France 24",
     "Nikkei Asia"
    ],
-   "u": "https://en.yna.co.kr/view/AEN20261109009400315",
-   "img": "https://img.yna.co.kr/etc/inner/EN/2026/11/09/AEN20261109009400315_01_i_P2.jpg",
-   "img_src": "Yonhap",
+   "u": "https://www.france24.com/en/tv-shows/down-to-earth/20261109-cop31-climate-summit-can-we-electrify-the-world",
+   "img": "https://s.france24.com/media/display/763cd2d2-dc50-11f1-bf8c-a575454bc579/w:1024/p:16x9/AFP-TV-20261105-ENV-TUR-UnEnergy-D6E96NR-en.jpg",
+   "img_src": "France 24",
    "fresh": true,
    "n": 2,
-   "lat": 39.86,
-   "lon": 36.25,
+   "lat": 39.44,
+   "lon": 34.74,
    "place": "Турция",
    "place_en": "Turkey",
-   "id": 23,
-   "t_en": "S. Korea's climate ambassador to join U.N. climate summit in Turkey as presidential envoy",
-   "x_en": "SEOUL, Nov. 9 (Yonhap) -- South Korea's ambassador for global climate and enviro..."
+   "id": 21,
+   "t_en": "COP31 climate summit: Can we electrify the world?",
+   "x_en": "The UN's annual climate change summit, known as COP31, opens this Monday in Turkey amid deep concern following deadly heatwaves in Europe and deadly floods in Nepal. A \"super El Niño\" in the Pacific is also expected to drive more extreme weather events. In res"
   },
   {
-   "t": "Молдова запускает новую линию электропередачи в Румынию, чтобы снизить зависимость от России",
-   "x": "Президент Молдовы Майя Санду заявила, что «еще две линии электропередачи в Румынию находятся на подходе».",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 66,
-   "ten": 40,
-   "ago": 17,
-   "s": [
-    "Al Jazeera",
-    "Kyiv Independent"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/9/moldova-launches-new-power-line-to-romania-to-cut-reliance-on-russia?traffic_source=rss",
-   "img": "https://assets.kyivindependent.com/content/images/2026/05/GettyImages-2273947592_20260516-104514.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 2,
-   "lat": 46.86,
-   "lon": 28.55,
-   "place": "Молдова",
-   "place_en": "Moldova",
-   "id": 24,
-   "t_en": "Moldova launches new power line to Romania to cut reliance on Russia",
-   "x_en": "Moldovan President Maia Sandu says 'two more power lines to Romania are on the way'."
-  },
-  {
-   "t": "Работа по спасению разрушающейся древней крепости афганской столицы обнаружила археологические сокровища",
-   "x": "Внушительная крепость Бала-Хисар в столице Афганистана Кабуле пережила столетия потрясений и войн.",
+   "t": "Boeing сократит 5% работников коммерческих самолетов, поскольку увеличение производства займет больше времени, чем ожидалось",
+   "x": "Boeing работает над стабилизацией темпов производства своих самых продаваемых самолетов 737 Max, которые производятся за пределами Сиэтла.",
    "r": "Мир",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 53,
-   "ago": 41,
-   "s": [
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/work-save-afghan-capitals-crumbling-ancient-fortress-uncovers-137966473",
-   "img": "https://s.abcnews.com/images/International/wirestory_0e5cbce05081844cfcfd3aeb0e787e45_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": 34.16,
-   "lon": 68.56,
-   "place": "Афганистан",
-   "place_en": "Afghanistan",
-   "id": 25,
-   "t_en": "Work to save the Afghan capital’s crumbling ancient fortress uncovers archaeological treasures",
-   "x_en": "The imposing fortress of Bala Hissar in the Afghan capital Kabul has endured centuries of upheaval and war"
-  },
-  {
-   "t": "Индонезия рассматривает возможность устранения ошибок и ужесточения контроля над шпионскими инструментами после скандала с прослушиванием телефонных разговоров",
-   "x": "Скандал привел к аресту четырех высокопоставленных офицеров полиции, в том числе бывшего начальника национальной полиции, который недавно был назначен главой администрации президента Прабово Субианто.",
-   "r": "Азия",
-   "c": "Политика",
+   "c": "Общее",
    "imp": 64,
-   "ten": 44,
-   "ago": 36,
+   "ten": 40,
+   "ago": 34,
    "s": [
-    "CNA",
+    "CNBC",
     "Reuters"
    ],
-   "u": "https://www.channelnewsasia.com/asia/indonesia-bug-sweeps-tighter-controls-wiretapping-scandal-6535671",
-   "img": "https://dam.mediacorp.sg/image/upload/s--oF7FxCbp--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Indonesia_Wiretapping_6731_.jpg?itok=Ab9NVIGQ",
-   "img_src": "CNA",
+   "u": "https://www.cnbc.com/2026/11/09/boeing-layoffs-commercial-airplane.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108469569-1793115881380-gettyimages-2271074696-BOEING_FACTORY.jpeg?v=1793115913&w=1920&h=1080",
+   "img_src": "CNBC (og)",
    "fresh": true,
    "n": 2,
-   "lat": -2.12,
-   "lon": 118.88,
-   "place": "Индонезия",
-   "place_en": "Indonesia",
-   "id": 26,
-   "t_en": "Indonesia considers bug sweeps, tighter controls on spy tools after wiretap scandal",
-   "x_en": "The scandal led to the arrests of four senior police officers, among them a former national police chief who had recently been appointed President Prabowo Subianto's chief of staff."
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 22,
+   "t_en": "Boeing to cut 5% of commercial airplane workers as production increase takes longer than expected",
+   "x_en": "Boeing has been working to stabilize production rates of its bestselling 737 Max planes, which are made outside of Seattle."
   },
   {
-   "t": "Башня Saudi Aramco повреждена в результате нападения йеменских хуситов на Эр-Рияд",
-   "x": "Власти Саудовской Аравии заявили, что никто не пострадал после того, как «падающие осколки» попали в здание в финансовом районе Эр-Рияда — одном из самых популярных районов, подвергшихся нападениям хуситов.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 74,
-   "ago": 425,
-   "s": [
-    "NYT",
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.nytimes.com/2026/11/08/world/middleeast/saudi-aramco-tower-riyadh-hit.html",
-   "img": "https://static01.nyt.com/images/2026/11/08/world/08int-saudi-attack-fna/08int-saudi-attack-fna-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 4,
-   "lat": 15.25,
-   "lon": 44.09,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 27,
-   "t_en": "Saudi Aramco Tower Damaged as Yemen’s Houthis Attack Riyadh",
-   "x_en": "The Saudi authorities said no one was hurt after “falling shrapnel” hit the building in Riyadh’s financial district — one of the highest-profile areas targeted by the Houthis."
-  },
-  {
-   "t": "Министр юстиции Польши заявил, что расследование стрельбы в Кракове будет направлено на то, чтобы установить, действовал ли 24-летний мужчина в одиночку – Europe live",
-   "x": "Расследование терроризма было возбуждено после того, как злоумышленник открыл огонь на рыночной площади. Мы возобновляем прямую трансляцию европейских новостей после массовой стрельбы в Кракове, втором по величине городе Польши, в минувшие выходные, в которой были убиты шесть человек. В обновлении",
-   "r": "Европа",
-   "c": "Конфликты",
+   "t": "Помощник Трампа, придерживающийся жесткой линии, Стивен Миллер занял пост главы аппарата Белого дома",
+   "x": "Миллер, известный как архитектор противоречивой политики Трампа по подавлению иммиграции, заменяет Сьюзи Уайлс в новой роли. Политика США в прямом эфире – последние новости Стивен Миллер, архитектор политики массовой депортации Дональда Трампа и жесткого подавления иммиграции,",
+   "r": "Америка",
+   "c": "Политика",
    "imp": 63,
-   "ten": 95,
-   "ago": 19,
+   "ten": 70,
+   "ago": 71,
    "s": [
-    "The Guardian"
+    "The Guardian",
+    "The Hindu"
    ],
-   "u": "https://www.theguardian.com/world/live/2026/nov/09/polands-krakow-attack-ukraine-russia-france-germany-europe-latest-news",
-   "img": "https://i.guim.co.uk/img/media/275cfb2ac59b00e76178a04ebec8c40d2840a0a9/1268_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=df99f6c7699e53172e0148a9b9a7f1af",
+   "u": "https://www.theguardian.com/us-news/2026/nov/09/stephen-miller-white-house-chief-of-staff",
+   "img": "https://i.guim.co.uk/img/media/db4879733af20c35f81006235d81b932772ab199/670_308_2949_2359/master/2949.jpg?width=700&quality=85&auto=format&fit=max&s=59c0ec5808741845a67990ec7f8c7703",
    "img_src": "The Guardian",
-   "fresh": true,
-   "n": 1,
-   "lat": 50.83,
-   "lon": 19.3,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 28,
-   "t_en": "Poland’s justice minister says investigation into Kraków shooting will aim to establish if the 24-year-old acted alone – Europe live",
-   "x_en": "Terrorism investigation was opened after attacker opened fire in a market square We are restarting our live coverage of European news after the mass shooting in Kraków, Poland’s second-largest city, over the weekend in which six people were killed. In an updat"
+   "fresh": false,
+   "n": 2,
+   "lat": 38.97,
+   "lon": -77.45,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 23,
+   "t_en": "Hardline Trump aide Stephen Miller takes over as White House chief of staff",
+   "x_en": "Miller, known as the architect of Trump’s controversial immigration crackdown, is replacing Susie Wiles in new role US politics live – latest updates Stephen Miller, the architect of Donald Trump’s mass deportation policy and hardline crackdown on immigration,"
   },
   {
-   "t": "По меньшей мере 34 человека погибли после того, как лодка с мигрантами, направлявшаяся в Европу, затонула у берегов Сенегала",
-   "x": "Переход через Атлантический океан на испанские Канарские острова остается опасным для мигрантов, ищущих лучшей жизни",
-   "r": "Европа",
+   "t": "В Мексике убита 7-летняя американская девочка; власти расследуют причастность полиции",
+   "x": "В прошлом месяце ребенок был застрелен во время военной и полицейской операции по задержанию предполагаемого торговца наркотиками в приграничном городе Матаморос.",
+   "r": "Америка",
    "c": "Конфликты",
    "imp": 62,
-   "ten": 78,
-   "ago": 90,
+   "ten": 82,
+   "ago": 10,
    "s": [
-    "BBC",
-    "France 24"
+    "Washington Post"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cd49/live/784207a0-dc00-11f1-bbe0-3f3fc519e7d8.png",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 2,
-   "lat": 14.04,
-   "lon": -14.39,
-   "place": "Сенегал",
-   "place_en": "Senegal",
-   "id": 29,
-   "t_en": "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
-   "x_en": "The Atlantic crossing to Spain's Canary Islands remains dangerous for migrants seeking a better life"
+   "u": "https://www.washingtonpost.com/world/2026/11/09/7-year-old-american-girl-killed-mexico-authorities-probe-police-involvement/",
+   "img": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/ZFL3E67S5VGHVMYBNHCLTZ7SA4.jpg&w=1440",
+   "img_src": "Washington Post (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.36,
+   "lon": -97.6,
+   "place": "США",
+   "place_en": "United States",
+   "id": 24,
+   "t_en": "7-year-old American girl killed in Mexico; authorities probe police involvement",
+   "x_en": "The child was shot to death during a military and police operation last month to detain an alleged drug trafficker in the border city of Matamoros."
   },
   {
-   "t": "Новости Европы | Последние европейские новости сегодня",
-   "x": "АП Новости",
+   "t": "В результате столкновения двух поездов в Египте погибли по меньшей мере семь человек",
+   "x": "Президент поручил незамедлительно провести расследование после того, как один поезд сошел с рельсов в результате столкновения в Аль-Айяте примерно в 50 км от Каира. Семь человек погибли и по меньшей мере 125 получили ранения в результате столкновения двух поездов в воскресенье к югу от столицы Египта Каира, сообщили официальные лица. Авария ок",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 78,
+   "ago": 517,
+   "s": [
+    "The Guardian",
+    "Euronews",
+    "Washington Post",
+    "CBS News",
+    "ABC News",
+    "Africanews"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+   "img": "https://i.guim.co.uk/img/media/7527078bbb41cf17b1a35718b70ebdceeada7492/206_271_4462_3569/master/4462.jpg?width=700&quality=85&auto=format&fit=max&s=9a7f650e6ba494d56a7a03998e168b5f",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 8,
+   "lat": 26.14,
+   "lon": 32.03,
+   "place": "Египет",
+   "place_en": "Egypt",
+   "id": 25,
+   "t_en": "Collision of two trains in Egypt kills at least seven",
+   "x_en": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash oc"
+  },
+  {
+   "t": "Война в Иране и неоднозначные цены на топливо давят на индийских рыбаков",
+   "x": "",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 66,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/fisheries/iran-war-and-ambiguous-fuel-pricing-squeeze-indian-fishermen",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F5%2F9%2F8%2F13408958-2-eng-GB%2F9ee3d52f9809-DSC01775.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 32.1,
+   "lon": 52.53,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 26,
+   "t_en": "Iran war and ambiguous fuel pricing squeeze Indian fishermen",
+   "x_en": ""
+  },
+  {
+   "t": "Украинская Запорожская АЭС снова зависит от резервного энергоснабжения",
+   "x": "",
    "r": "Европа",
    "c": "Общее",
-   "imp": 61,
-   "ten": 40,
-   "ago": 9,
+   "imp": 60,
+   "ten": 57,
+   "ago": 1,
    "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/ukraine-war/ukraine-s-zaporizhzhia-nuclear-plant-again-relies-on-backup-power",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F6%2F7%2F7%2F13417767-1-eng-GB%2F9112d101e900-2026-11-08T083736Z_2015667076_RC2GJ1A6ROKY_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-ZAPORIZHZHIA.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 47.72,
+   "lon": 35.29,
+   "place": "Запорожье",
+   "place_en": "Zaporizhzhia",
+   "id": 27,
+   "t_en": "Ukraine's Zaporizhzhia nuclear plant again relies on backup power",
+   "x_en": ""
+  },
+  {
+   "t": "Ослабление связей между Малайзией и Тайванем угрожает будущим инвестициям в чипы",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 60,
+   "ten": 57,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/malaysia-taiwan-fraying-ties-threaten-future-chip-investments",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F4%2F1%2F7%2F13407140-1-eng-GB%2F4e9210fa6be7-bbb.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 4.55,
+   "lon": 102.82,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 28,
+   "t_en": "Malaysia-Taiwan fraying ties threaten future chip investments",
+   "x_en": ""
+  },
+  {
+   "t": "Он боролся с крайне правыми во Франции на протяжении полувека. Теперь президентская заявка Меланшона может дать ему власть",
+   "x": "Жан-Люку Меланшону 75 лет, и свой последний шанс на пост президента Франции он делает ставку на поколение, достаточно молодое, чтобы стать его внуками.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 60,
+   "ten": 40,
+   "ago": 63,
+   "s": [
+    "ABC News",
     "AP"
    ],
-   "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8zbFZLTmlvQV92TXBRZ1JoakZqWFA1NGJTWGxTTGVvVmJWNVhnNmItd0VuOGpmb0Z4eUZ5REhnWURuelU?oc=5",
+   "u": "https://abcnews.com/International/wireStory/fought-frances-half-century-now-mlenchons-presidential-bid-137966011",
+   "img": "https://s.abcnews.com/images/International/wirestory_045d056318bc6fb64a55ef25f10f1285_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 2,
+   "lat": 47.37,
+   "lon": 3.16,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 29,
+   "t_en": "He fought France's far right for half a century. Now Mélenchon's presidential bid may hand it power",
+   "x_en": "Jean-Luc Mélenchon is 75 and he's betting his last shot at France’s presidency on a generation young enough to be his grandchildren"
+  },
+  {
+   "t": "Совет Безопасности в прямом эфире: Удары по энергосистеме Украины на фоне приближающихся мирных переговоров",
+   "x": "Совет Безопасности собирается в Нью-Йорке по вопросу Украины. Российские удары по энергетической инфраструктуре грозят миллионам людей еще одной холодной и темной зимой, а число смертей среди гражданского населения резко растет. Встреча состоится накануне переговоров, которые должны состояться при поддержке США.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 60,
+   "ten": 37,
+   "ago": 170,
+   "s": [
+    "UN News",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://news.un.org/feed/view/en/story/2026/11/1168761",
+   "img": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/11/05-11-2026-UNICEF-Ukraine-01.jpg/image560x340cropped.jpg",
+   "img_src": "UN News",
+   "fresh": false,
+   "n": 3,
+   "lat": 49.71,
+   "lon": 31.63,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 30,
+   "t_en": "Security Council LIVE: Strikes on Ukraine’s power grid, as peace talks loom",
+   "x_en": "The Security Council is meeting in New York on Ukraine. Russian strikes on energy infrastructure are threatening millions with another cold, dark winter, and civilian deaths are climbing sharply. The meeting comes on the eve of US-backed talks due to take plac"
+  },
+  {
+   "t": "В ЮАР задержали иностранцев, подозреваемых в намерении присоединиться к российским войскам",
+   "x": "Африканцев и других людей продолжают вербовать для борьбы на стороне России в ее войне с Украиной.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 66,
+   "ago": 14,
+   "s": [
+    "Al Jazeera"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/9/south-africa-detains-foreigners-suspected-of-heading-to-join-russian-forces?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/02/afp_69a081ca4b09-1772126666.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 60.71,
+   "lon": 93.49,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 31,
+   "t_en": "South Africa detains foreigners suspected of heading to join Russian forces",
+   "x_en": "Africans and others continue to be recruited to fight for Russia in its war on Ukraine."
+  },
+  {
+   "t": "Два нарушения безопасности возле Белого дома привели к кратковременной изоляции",
+   "x": "Активные расследования продолжаются после того, как в парке Лафайет разбился автомобиль, а второй человек перепрыгнул через барьер.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 44,
+   "ago": 73,
+   "s": [
+    "Al Jazeera",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/9/two-security-breaches-near-white-house-prompt-brief-lockdown?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af20cd333bd-1794247891.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 2,
+   "lat": 39.21,
+   "lon": -77.28,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 32,
+   "t_en": "Two security breaches near White House prompt brief lockdown",
+   "x_en": "Active investigations are under way after a vehicle crashed at Lafayette Park and a second individual jumped a barrier."
+  },
+  {
+   "t": "Что означает победа демократов для тарифов Трампа и искусственного интеллекта",
+   "x": "",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 58,
+   "ten": 48,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/video/what-the-democratic-sweep-means-for-trump-s-tariffs-and-ai",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F8%2F2%2F7%2F13417288-3-eng-GB%2Fb3fcb37ce744-Thumbnail-Template-1.00_04_46_25.Still090.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 38.31,
+   "lon": -98.61,
+   "place": "США",
+   "place_en": "United States",
+   "id": 33,
+   "t_en": "What the Democratic sweep means for Trump's tariffs and AI",
+   "x_en": ""
+  },
+  {
+   "t": "Генеральный директор тайваньского производителя чипов предупреждает, что рост цен на память является неустойчивым",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 58,
+   "ten": 48,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/editor-s-picks/interview/taiwan-chipmaker-ceo-warns-memory-price-rises-are-unsustainable",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F4%2F3%2F8%2F13418348-5-eng-GB%2Fa514bfcf2579-1d.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 23.35,
+   "lon": 121.86,
+   "place": "Тайвань",
+   "place_en": "Taiwan",
+   "id": 34,
+   "t_en": "Taiwan chipmaker CEO warns memory price rises are unsustainable",
+   "x_en": ""
+  },
+  {
+   "t": "Франция начала расследование в отношении иранского киберподразделения по делу об атаках на холодильники",
+   "x": "Франция в понедельник заявила, что за «беспрецедентными» кибератаками на холодильники в супермаркетах в стране в прошлом месяце стоят Стражи исламской революции, пообещав ввести санкции на европейском уровне против Тегерана. Ряды французских супермаркетов пострадали 11 и 12 октября.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 91,
+   "ago": 45,
+   "s": [
+    "France 24"
+   ],
+   "u": "https://www.france24.com/en/france-opens-probe-into-iranian-cyber-unit-over-fridge-attacks",
+   "img": "https://s.france24.com/media/display/2c262730-dc72-11f1-912e-a575454bc579/w:1024/p:16x9/EN-20261109-200113-200918-CS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 1,
+   "lat": 45.47,
+   "lon": 2.19,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 35,
+   "t_en": "France opens probe into Iranian cyber unit over fridge attacks",
+   "x_en": "France on Monday said Iran's Revolutionary Guards were behind \"unprecedented\" cyberattacks on supermarket fridges in the country last month, vowing sanctions on a European level against Tehran. Swathes of French supermarkets were hit in the October 11 and 12 c"
+  },
+  {
+   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 36,
+   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "x_en": ""
+  },
+  {
+   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
    "img": "",
    "img_src": "",
    "fresh": true,
@@ -955,193 +1117,24 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 30,
-   "t_en": "Europe News | Breaking European News Today",
-   "x_en": "AP News"
-  },
-  {
-   "t": "Греческие власти обнаружили 12 тел в лодке с мигрантами; 18 человек спасены",
-   "x": "Греческие власти обнаружили 12 тел из лодки с мигрантами, найденной к югу от Крита.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 61,
-   "ten": 28,
-   "ago": 41,
-   "s": [
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/greek-authorities-find-12-bodies-boat-carrying-migrants-137966627",
-   "img": "https://s.abcnews.com/images/International/wirestory_16f88d8a9956d3ea9541e50b41826843_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.63,
-   "lon": 22.17,
-   "place": "Греция",
-   "place_en": "Greece",
-   "id": 31,
-   "t_en": "Greek authorities find 12 bodies in a boat carrying migrants; 18 people are rescued",
-   "x_en": "Greek authorities have recovered 12 bodies from a migrant boat found south of Crete"
-  },
-  {
-   "t": "Банки Сингапура борются с доходностью облигаций и напряженностью в отношении процентных ставок",
-   "x": "",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 60,
-   "ten": 57,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/finance/singapore-banks-struggle-with-bond-yield-and-interest-rate-tensions",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F7%2F0%2F13410719-2-eng-GB%2Fbfe390fe4cdd-2023-05-03T172916Z_393706530_RC2UQ0AX7CQI_RTRMADP_3_SINGAPORE-BANKS.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 0.67,
-   "lon": 104.39,
-   "place": "Сингапур",
-   "place_en": "Singapore",
-   "id": 32,
-   "t_en": "Singapore banks struggle with bond yield and interest rate tensions",
-   "x_en": ""
-  },
-  {
-   "t": "Такаити из Японии настаивает на ужесточении законов о кибербезопасности на фоне роста числа атак",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 60,
-   "ten": 57,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/cybersecurity/japan-s-takaichi-pushes-for-tougher-cybersecurity-laws-as-attacks-surge",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F9%2F1%2F3%2F13413194-3-eng-GB%2Faf1b486ef87f-photo_SXM2026110600012012.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.76,
-   "lon": 137.94,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 33,
-   "t_en": "Japan's Takaichi pushes for tougher cybersecurity laws as attacks surge",
-   "x_en": ""
-  },
-  {
-   "t": "США ввели санкции против камбоджийской компании Prince Group из-за онлайн-мошенничества",
-   "x": "",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 57,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/society/crime/us-slaps-sanctions-on-cambodia-s-prince-group-over-online-scams",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F4%2F0%2F4%2F13414040-2-eng-GB%2F0f0cdcb1da24-photo_SXM2026110600006414.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 38.88,
-   "lon": -98.27,
-   "place": "США",
-   "place_en": "United States",
-   "id": 34,
-   "t_en": "US slaps sanctions on Cambodia's Prince Group over online scams",
-   "x_en": ""
-  },
-  {
-   "t": "Силы безопасности нейтрализуют укрытия террористов в Мир-Али в Северном Вазиристане: ISPR",
-   "x": "Силы безопасности провели разведывательную операцию (IBO) в деревне Музак, на южной окраине Мир-Али в Северном Вазиристане, Хайбер-Пахтунхва, нейтрализовав два укрытия террористов, сообщило в понедельник военное медиа-подразделение. Во время операции,",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 91,
-   "ago": 35,
-   "s": [
-    "Dawn"
-   ],
-   "u": "https://www.dawn.com/news/2043264/security-forces-neutralise-terrorists-hideouts-in-north-waziristans-mir-ali-ispr",
-   "img": "https://i.dawn.com/large/2026/11/091324380ff0736.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 35,
-   "t_en": "Security forces neutralise terrorists’ hideouts in North Waziristan’s Mir Ali: ISPR",
-   "x_en": "Security forces conducted an intelligence-based operation (IBO) in Muzak village, on the southern outskirts of Mir Ali in North Waziristan, Khyber Pakhtunkhwa, neutralising two terrorist hideouts, the military’s media wing said on Monday. During the operation,"
-  },
-  {
-   "t": "«Мы называем это балансом войны и жизни»: ежедневная борьба Дарины за то, чтобы жить и выжить в военной Украине",
-   "x": "25-летняя Дарина вступила во взрослую жизнь в стране, где идет война. После полномасштабного российского вторжения ее дни определялись тревогами о воздушных налетах, отключениями электроэнергии и ночами, проведенными в метро. Несмотря на неуверенность, которая омрачает каждый день, она полна решимости добиться успеха.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 95,
-   "ago": 36,
-   "s": [
-    "France 24"
-   ],
-   "u": "https://www.france24.com/en/europe/20261109-we-call-it-war-life-balance-daryna-s-daily-struggle-to-live-survive-in-wartime-ukraine",
-   "img": "https://s.france24.com/media/display/2684a786-d8fb-11f1-b43f-bf1914cabd52/w:1024/p:16x9/vlcsnap-2026-11-04-17h06m33s709.png",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 1,
-   "lat": 49.4,
-   "lon": 31.91,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 36,
-   "t_en": "'We call it war-life balance': Daryna's daily struggle to live, survive in wartime Ukraine",
-   "x_en": "Daryna, 25, entered adulthood in a country at war. Since Russia’s full-scale invasion, her days have been shaped by air raid alerts, power outages and nights spent sheltering in the subway. Despite the uncertainty that shadows every day, she is determined to p"
-  },
-  {
-   "t": "Возобновление войны с Ираном «крайне маловероятно», но решение зависит от того, подпишет ли Тегеран «очень сильное» соглашение: Трамп",
-   "x": "Президент США Дональд Трамп поставил под сомнение возобновление боевых действий с Ираном, заявив CNN, что это «крайне маловероятно», накануне встречи с премьер-министром Катара-посредника в понедельник. Трамп пригрозил возобновить забастовки в последние недели, о чем свидетельствуют сообщения американских СМИ.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 91,
-   "ago": 39,
-   "s": [
-    "Dawn"
-   ],
-   "u": "https://www.dawn.com/news/2043269/iran-war-highly-unlikely-to-resume-but-decision-depends-on-whether-tehran-signs-very-strong-deal-trump",
-   "img": "https://i.dawn.com/large/2026/01/301244551fce73d.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.71,
-   "lon": 51.6,
-   "place": "Тегеран",
-   "place_en": "Tehran",
    "id": 37,
-   "t_en": "Iran war 'highly unlikely' to resume but decision depends on whether Tehran signs 'very strong' deal: Trump",
-   "x_en": "US President Donald Trump cast doubt on renewed fighting with Iran, telling CNN it was “highly unlikely”, ahead of a meeting with mediator Qatar’s prime minister on Monday. Trump has threatened to resume strikes in recent weeks, with US media reports suggestin"
+   "t_en": "Dream Big with a Home Equity Loan",
+   "x_en": ""
   },
   {
-   "t": "От холодильников в супермаркетах до пассажирских рейсов — волна угроз проверяет обороноспособность Европы",
-   "x": "Кибератаки на холодильники в супермаркетах и ​​волна угроз о взрывах проверяют способность Европы противостоять сбоям в работе критически важной инфраструктуры.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 59,
-   "ten": 95,
-   "ago": 48,
+   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
    "s": [
-    "CNBC"
+    "CNN"
    ],
-   "u": "https://www.cnbc.com/2026/11/09/europe-fridge-hacks-bomb-threats-cyberattack.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108497068-1793535203811-gettyimages-2302485233-GERMANY_PROTEST.jpeg?v=1793535220&w=1920&h=1080",
-   "img_src": "CNBC (og)",
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
    "fresh": true,
    "n": 1,
    "lat": null,
@@ -1149,69 +1142,59 @@
    "place": "",
    "place_en": "",
    "id": 38,
-   "t_en": "From supermarket fridges to passenger flights, a wave of threats is testing Europe's defenses",
-   "x_en": "Cyberattacks on fridges in supermarkets and a wave of bomb threats are testing Europe’s ability to withstand disruption to crucial infrastructure."
+   "t_en": "Experts: this is the best cash back card of 2022",
+   "x_en": ""
   },
   {
-   "t": "Сенегал: Школа серфинга в Дакаре помогает молодым африканцам вновь покорить волны",
-   "x": "На пляжах Дакара школа серфинга делает волны доступными для местных детей. Основатель Ибра Самб, который научился серфингу на фанере, надеется вдохновить новое поколение.",
+   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 39,
+   "t_en": "It's official: now avoid credit card interest into 2024",
+   "x_en": ""
+  },
+  {
+   "t": "Начальная годовая процентная ставка 0% до 2024 года — это 100% безумие.",
+   "x": "",
    "r": "Мир",
    "c": "Общее",
-   "imp": 59,
+   "imp": 57,
    "ten": 40,
-   "ago": 73,
+   "ago": 1,
    "s": [
-    "Euronews",
-    "Africanews"
+    "CNN"
    ],
-   "u": "https://www.euronews.com/video/2026/11/09/senegal-dakar-surf-school-helps-young-africans-reclaim-the-waves",
-   "img": "https://images.euronews.com/articles/stories/09/98/50/98/696x392_cmsv2_6ac66a9e-89c8-54a1-8e5b-932a6ce44e86-9985098.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 2,
-   "lat": 15.35,
-   "lon": -14.41,
-   "place": "Сенегал",
-   "place_en": "Senegal",
-   "id": 39,
-   "t_en": "Senegal: Dakar surf school helps young Africans reclaim the waves",
-   "x_en": "On the beaches of Dakar, a surf school is making the waves accessible to local children. Founder Ibra Samb, who learnt to surf on plywood, hopes to inspire a new generation."
-  },
-  {
-   "t": "Десятки тысяч человек маршируют в Амстердаме, оказывая давление на правительство Нидерландов по вопросам сектора Газа и Израиля.",
-   "x": "Десятки тысяч людей, многие из которых были одеты в красное, прошли маршем по Амстердаму, требуя от правительства Нидерландов принять более решительные меры против Израиля из-за Газы.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 61,
-   "ago": 97,
-   "s": [
-    "ABC News",
-    "The Hindu"
-   ],
-   "u": "https://abcnews.com/International/wireStory/tens-thousands-march-amsterdam-pressing-dutch-government-gaza-137954786",
-   "img": "https://s.abcnews.com/images/International/wirestory_1107e783bba2da73e7053a5d07367a93_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 2,
-   "lat": 31.54,
-   "lon": 34.7,
-   "place": "Газа",
-   "place_en": "Gaza",
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 40,
-   "t_en": "Tens of thousands march in Amsterdam, pressing the Dutch government on Gaza and Israel",
-   "x_en": "Tens of thousands of people, many dressed in red, have marched through Amsterdam, demanding the Dutch government take stronger action against Israel over Gaza"
+   "t_en": "0% intro APR until 2024 is 100% insane",
+   "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794124729781,
-   "v": 50
-  },
-  {
-   "t": 1794149543749,
-   "v": 50
-  },
   {
    "t": 1794165151090,
    "v": 50
@@ -1227,139 +1210,143 @@
   {
    "t": 1794217625580,
    "v": 50
+  },
+  {
+   "t": 1794255019852,
+   "v": 51
   }
  ],
  "timeline": [
   {
-   "t": 1794131225580,
-   "v": 48,
-   "n": 19
-  },
-  {
-   "t": 1794134825580,
-   "v": 51,
-   "n": 28
-  },
-  {
-   "t": 1794138425580,
-   "v": 47,
-   "n": 26
-  },
-  {
-   "t": 1794142025580,
-   "v": 48,
-   "n": 35
-  },
-  {
-   "t": 1794145625580,
-   "v": 51,
-   "n": 41
-  },
-  {
-   "t": 1794149225580,
+   "t": 1794168619852,
    "v": 52,
-   "n": 43
+   "n": 14
   },
   {
-   "t": 1794152825580,
-   "v": 53,
-   "n": 46
-  },
-  {
-   "t": 1794156425580,
-   "v": 52,
-   "n": 36
-  },
-  {
-   "t": 1794160025580,
+   "t": 1794172219852,
    "v": 58,
-   "n": 34
+   "n": 20
   },
   {
-   "t": 1794163625580,
-   "v": 60,
-   "n": 29
+   "t": 1794175819852,
+   "v": 62,
+   "n": 24
   },
   {
-   "t": 1794167225580,
-   "v": 57,
-   "n": 32
+   "t": 1794179419852,
+   "v": 59,
+   "n": 25
   },
   {
-   "t": 1794170825580,
-   "v": 57,
-   "n": 39
+   "t": 1794183019852,
+   "v": 50,
+   "n": 20
   },
   {
-   "t": 1794174425580,
-   "v": 60,
-   "n": 39
+   "t": 1794186619852,
+   "v": 46,
+   "n": 24
   },
   {
-   "t": 1794178025580,
-   "v": 60,
+   "t": 1794190219852,
+   "v": 47,
+   "n": 31
+  },
+  {
+   "t": 1794193819852,
+   "v": 49,
    "n": 33
   },
   {
-   "t": 1794181625580,
+   "t": 1794197419852,
+   "v": 47,
+   "n": 36
+  },
+  {
+   "t": 1794201019852,
+   "v": 46,
+   "n": 44
+  },
+  {
+   "t": 1794204619852,
+   "v": 46,
+   "n": 46
+  },
+  {
+   "t": 1794208219852,
+   "v": 44,
+   "n": 66
+  },
+  {
+   "t": 1794211819852,
+   "v": 47,
+   "n": 72
+  },
+  {
+   "t": 1794215419852,
+   "v": 47,
+   "n": 70
+  },
+  {
+   "t": 1794219019852,
    "v": 51,
-   "n": 32
+   "n": 64
   },
   {
-   "t": 1794185225580,
-   "v": 46,
-   "n": 47
+   "t": 1794222619852,
+   "v": 53,
+   "n": 60
   },
   {
-   "t": 1794188825580,
-   "v": 45,
-   "n": 77
+   "t": 1794226219852,
+   "v": 56,
+   "n": 74
   },
   {
-   "t": 1794192425580,
-   "v": 47,
-   "n": 87
+   "t": 1794229819852,
+   "v": 57,
+   "n": 74
   },
   {
-   "t": 1794196025580,
-   "v": 46,
-   "n": 97
+   "t": 1794233419852,
+   "v": 55,
+   "n": 96
   },
   {
-   "t": 1794199625580,
-   "v": 46,
-   "n": 99
+   "t": 1794237019852,
+   "v": 49,
+   "n": 130
   },
   {
-   "t": 1794203225580,
-   "v": 46,
-   "n": 123
-  },
-  {
-   "t": 1794206825580,
-   "v": 47,
-   "n": 135
-  },
-  {
-   "t": 1794210425580,
+   "t": 1794240619852,
    "v": 48,
-   "n": 168
+   "n": 150
   },
   {
-   "t": 1794214025580,
-   "v": 47,
-   "n": 188
+   "t": 1794244219852,
+   "v": 49,
+   "n": 154
   },
   {
-   "t": 1794217625580,
-   "v": 46,
-   "n": 140
+   "t": 1794247819852,
+   "v": 51,
+   "n": 148
+  },
+  {
+   "t": 1794251419852,
+   "v": 49,
+   "n": 163
+  },
+  {
+   "t": 1794255019852,
+   "v": 48,
+   "n": 116
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 19
+   "items": 21
   },
   {
    "n": "Al Jazeera",
@@ -1367,7 +1354,7 @@
   },
   {
    "n": "DW",
-   "items": 2
+   "items": 7
   },
   {
    "n": "France 24",
@@ -1375,11 +1362,11 @@
   },
   {
    "n": "The Guardian",
-   "items": 31
+   "items": 29
   },
   {
    "n": "Sky News",
-   "items": 5
+   "items": 7
   },
   {
    "n": "NPR",
@@ -1387,27 +1374,27 @@
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 5
   },
   {
    "n": "CNBC",
-   "items": 23
+   "items": 27
   },
   {
    "n": "Euronews",
-   "items": 25
+   "items": 35
   },
   {
    "n": "NYT",
-   "items": 25
+   "items": 26
   },
   {
    "n": "Washington Post",
-   "items": 8
+   "items": 13
   },
   {
    "n": "CBS News",
-   "items": 21
+   "items": 29
   },
   {
    "n": "ABC News",
@@ -1423,11 +1410,11 @@
   },
   {
    "n": "ABC Australia",
-   "items": 22
+   "items": 17
   },
   {
    "n": "CNA",
-   "items": 16
+   "items": 13
   },
   {
    "n": "Times of Israel",
@@ -1443,7 +1430,7 @@
   },
   {
    "n": "Africanews",
-   "items": 20
+   "items": 37
   },
   {
    "n": "Kyiv Independent",
@@ -1463,7 +1450,7 @@
   },
   {
    "n": "Dawn",
-   "items": 27
+   "items": 28
   },
   {
    "n": "Times of India",
@@ -1491,7 +1478,6 @@
   }
  ],
  "failed": [
-  "UN News",
   "Times of Israel",
   "Arab News"
  ]

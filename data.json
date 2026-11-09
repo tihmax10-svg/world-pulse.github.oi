@@ -1,18 +1,18 @@
 {
- "updated": 1794178401149,
+ "updated": 1794190245188,
  "demo": false,
- "total_articles": 601,
- "second_delta": 0,
+ "total_articles": 585,
+ "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 55
+   "v": 54
   },
   {
    "n": "Al Jazeera",
-   "v": 45
+   "v": 48
   },
   {
    "n": "DW",
@@ -20,11 +20,11 @@
   },
   {
    "n": "France 24",
-   "v": 54
+   "v": 56
   },
   {
    "n": "The Guardian",
-   "v": 47
+   "v": 49
   },
   {
    "n": "Sky News",
@@ -40,11 +40,11 @@
   },
   {
    "n": "CNBC",
-   "v": 55
+   "v": 56
   },
   {
    "n": "Euronews",
-   "v": 57
+   "v": 56
   },
   {
    "n": "NYT",
@@ -52,7 +52,7 @@
   },
   {
    "n": "Washington Post",
-   "v": 46
+   "v": 47
   },
   {
    "n": "CBS News",
@@ -60,7 +60,7 @@
   },
   {
    "n": "ABC News",
-   "v": 69
+   "v": 60
   },
   {
    "n": "CNN",
@@ -68,7 +68,7 @@
   },
   {
    "n": "Fox News",
-   "v": 63
+   "v": 65
   },
   {
    "n": "ABC Australia",
@@ -79,16 +79,12 @@
    "v": 45
   },
   {
-   "n": "Middle East Eye",
-   "v": 68
-  },
-  {
    "n": "Africanews",
-   "v": 50
+   "v": 53
   },
   {
    "n": "Kyiv Independent",
-   "v": 54
+   "v": 50
   },
   {
    "n": "Yonhap",
@@ -96,7 +92,7 @@
   },
   {
    "n": "Nikkei Asia",
-   "v": 43
+   "v": 42
   },
   {
    "n": "Dawn",
@@ -108,7 +104,7 @@
   },
   {
    "n": "The Hindu",
-   "v": 58
+   "v": 57
   },
   {
    "n": "Politico EU",
@@ -116,21 +112,21 @@
   },
   {
    "n": "Japan Times",
-   "v": 45
+   "v": 47
   },
   {
    "n": "Reuters",
-   "v": 43
+   "v": 41
   },
   {
    "n": "AP",
-   "v": 46
+   "v": 47
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 62
+   "v": 61
   },
   {
    "n": "Ближний Восток",
@@ -138,110 +134,26 @@
   },
   {
    "n": "Азия",
-   "v": 41
+   "v": 40
   },
   {
    "n": "Африка",
-   "v": 55
+   "v": 56
   },
   {
    "n": "Америка",
-   "v": 48
+   "v": 47
   }
  ],
  "events": [
-  {
-   "t": "Саудовская Аравия обращается к Сирии за помощью в связи с эскалацией боевых действий с хуситами",
-   "x": "Сирия готовится отправить боевиков в Саудовскую Аравию для поддержки эскалации конфликта с повстанцами в соседнем Йемене.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 94,
-   "ten": 80,
-   "ago": 20,
-   "s": [
-    "ABC News",
-    "Middle East Eye",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/saudi-arabia-turns-syria-fighting-houthis-escalates-137956922",
-   "img": "https://s.abcnews.com/images/International/wirestory_d436bdc81a8e6b28bb99c417aaeaf8b6_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 4,
-   "lat": 15.58,
-   "lon": 44.06,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 1,
-   "t_en": "Saudi Arabia turns to Syria for help as fighting with Houthis escalates",
-   "x_en": "Syria is preparing to send fighters to Saudi Arabia to support its escalating conflict with rebels in neighboring Yemen"
-  },
-  {
-   "t": "Башня Saudi Aramco повреждена в результате нападения йеменских хуситов на Эр-Рияд",
-   "x": "Власти Саудовской Аравии заявили, что никто не пострадал после того, как «падающие осколки» попали в здание в финансовом районе Эр-Рияда — одном из самых популярных районов, подвергшихся нападениям хуситов.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 93,
-   "ten": 76,
-   "ago": 26,
-   "s": [
-    "NYT",
-    "ABC News",
-    "Dawn",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.nytimes.com/2026/11/08/world/middleeast/saudi-aramco-tower-riyadh-hit.html",
-   "img": "https://static01.nyt.com/images/2026/11/08/world/08int-saudi-attack-fna/08int-saudi-attack-fna-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 5,
-   "lat": 15.25,
-   "lon": 44.09,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 2,
-   "t_en": "Saudi Aramco Tower Damaged as Yemen’s Houthis Attack Riyadh",
-   "x_en": "The Saudi authorities said no one was hurt after “falling shrapnel” hit the building in Riyadh’s financial district — one of the highest-profile areas targeted by the Houthis."
-  },
-  {
-   "t": "Американский производитель чипов Nvidia расследует дело генерального директора Дженсена Хуанга",
-   "x": "Хуан подтвердил, что у него был роман с женщиной, обвиняемой в шпионаже в пользу Китая.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 91,
-   "ten": 40,
-   "ago": 2,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "Sky News",
-    "CNBC",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/2374_660_5539_4431/master/5539.jpg?width=700&quality=85&auto=format&fit=max&s=8a92e56560ba4cd4a5d3ee69b18ebdd2",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 6,
-   "lat": 38.58,
-   "lon": -99.23,
-   "place": "США",
-   "place_en": "United States",
-   "id": 3,
-   "t_en": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
-   "x_en": "Huang has confirmed he had been having an affair with a woman accused of spying for China."
-  },
   {
    "t": "Польша скорбит по жертвам массовой стрельбы в Кракове, поскольку опасения по поводу безопасности растут",
    "x": "Власти обнаружили тела сестры, матери и отца нападавшего в семейном доме мужчины в Островце-Свентокшиском.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 89,
+   "imp": 95,
    "ten": 70,
-   "ago": 47,
+   "ago": 1,
    "s": [
     "CNBC",
     "Euronews",
@@ -261,45 +173,188 @@
    "lon": 18.05,
    "place": "Польша",
    "place_en": "Poland",
-   "id": 4,
+   "id": 1,
    "t_en": "Poland mourns victims of Krakow mass shooting as security fears grow",
    "x_en": "Authorities found the bodies of the assailant's sister, mother and father at the man's family home in Ostrowiec Świętokrzyski."
   },
   {
-   "t": "Сотни тысяч присоединились к протесту «Красная линия» в Амстердаме против Израиля",
-   "x": "Протестующие требуют ужесточения торговых ограничений в отношении Израиля и прекращения всех продаж оружия.",
-   "r": "Ближний Восток",
-   "c": "Политика",
+   "t": "Дело генерального директора Nvidia вызвало расследование китайского шпионажа",
+   "x": "Генеральный директор Nvidia Дженсен Хуанг признался в романе с женщиной, подозреваемой в шпионаже в пользу Китая.",
+   "r": "Азия",
+   "c": "Наука",
    "imp": 88,
-   "ten": 53,
-   "ago": 34,
+   "ten": 40,
+   "ago": 19,
    "s": [
     "Al Jazeera",
-    "Euronews",
-    "ABC News",
+    "France 24",
+    "CNBC",
+    "CBS News",
+    "The Hindu",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/98/48/03/696x392_cmsv2_9a69df69-3eec-5b67-b82d-8af349f9de5b-9984803.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/de28787e-ce09-11f1-932f-8d87bc3aeb3a/w:1024/p:16x9/4be63ee4f4f77ef4291d72acfad4aed31a19b368.jpg",
+   "img_src": "France 24",
    "fresh": true,
+   "n": 7,
+   "lat": 35.15,
+   "lon": 102.05,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 2,
+   "t_en": "Nvidia CEO’s affair sparks Chinese espionage probe",
+   "x_en": "Nvidia CEO Jensen Huang has admitted to an affair with a woman suspected of spying for China."
+  },
+  {
+   "t": "В результате столкновения двух поездов в Египте погибли по меньшей мере семь человек",
+   "x": "Президент поручил незамедлительно провести расследование после того, как один поезд сошел с рельсов в результате столкновения в Аль-Айяте примерно в 50 км от Каира. Семь человек погибли и по меньшей мере 125 получили ранения в результате столкновения двух поездов в воскресенье к югу от столицы Египта Каира, сообщили официальные лица. Авария ок",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 87,
+   "ten": 78,
+   "ago": 72,
+   "s": [
+    "The Guardian",
+    "Dawn",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+   "img": "https://i.guim.co.uk/img/media/7527078bbb41cf17b1a35718b70ebdceeada7492/206_271_4462_3569/master/4462.jpg?width=700&quality=85&auto=format&fit=max&s=9a7f650e6ba494d56a7a03998e168b5f",
+   "img_src": "The Guardian",
+   "fresh": false,
    "n": 4,
-   "lat": 52.83,
-   "lon": 4.0,
-   "place": "Нидерланды",
-   "place_en": "Netherlands",
+   "lat": 26.14,
+   "lon": 32.03,
+   "place": "Египет",
+   "place_en": "Egypt",
+   "id": 3,
+   "t_en": "Collision of two trains in Egypt kills at least seven",
+   "x_en": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash oc"
+  },
+  {
+   "t": "Почему Трамп пошутил о назначении Даны Уайта пресс-секретарем Белого дома",
+   "x": "У них есть деловые связи, насчитывающие десятилетия, и Уайт помог Трампу достучаться до более молодых избирателей.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 83,
+   "ten": 40,
+   "ago": 60,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "Sky News",
+    "CNBC",
+    "Euronews",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/8/why-trump-wants-ufc-chief-dana-white-as-his-new-white-house-press-secretary?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/bd59d8bbfe95eb6a46d7a98c6c485d6c246d296c/1023_574_3265_2613/master/3265.jpg?width=700&quality=85&auto=format&fit=max&s=62e28937fb0be3d329c66f28a2c027b6",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 7,
+   "lat": 39.16,
+   "lon": -77.39,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 4,
+   "t_en": "Why Trump joked about having Dana White as his White House press secretary",
+   "x_en": "The two have business ties going back decades, and White has helped Trump reach out to younger voters."
+  },
+  {
+   "t": "В Аргентине Папа Лев говорит президенту Милею, что экономика должна служить нуждающимся",
+   "x": "Поездка понтифика произошла на фоне напряженности между либертарианским лидером страны и ее католической церковью, которая глубоко привержена социальной справедливости.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 80,
+   "ten": 46,
+   "ago": 4,
+   "s": [
+    "NYT",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
+   "img": "https://static01.nyt.com/images/2026/11/08/multimedia/08int-pope-milei-jcpf/08int-pope-milei-jcpf-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 3,
+   "lat": -34.68,
+   "lon": -65.79,
+   "place": "Аргентина",
+   "place_en": "Argentina",
    "id": 5,
-   "t_en": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
-   "x_en": "Protesters seek stricter trade restrictions on Israel and a halt to all arms sales."
+   "t_en": "In Argentina, Pope Leo Tells President Milei Economy Must Serve the Needy",
+   "x_en": "The pontiff’s trip comes amid tensions between the country’s libertarian leader and its Catholic Church, which is deeply committed to social justice."
+  },
+  {
+   "t": "Атака дронов остановила добычу на иракском газовом месторождении Хор Мор",
+   "x": "В результате забастовки более 70 процентов курдского региона северного Ирака остаются без электричества.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 87,
+   "ago": 52,
+   "s": [
+    "Al Jazeera",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss",
+   "img": "https://th-i.thgim.com/public/incoming/tn7gjf/article71681224.ece/alternates/LANDSCAPE_1200/2026-11-08T204121Z_1782454012_RC2V4IAMOAUP_RTRMADP_3_IRAN-CRISIS-IRAQ-KHOR-MOR.JPG",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 3,
+   "lat": 32.78,
+   "lon": 42.35,
+   "place": "Ирак",
+   "place_en": "Iraq",
+   "id": 6,
+   "t_en": "Drone attack suspends production at Iraq’s Khor Mor gasfield",
+   "x_en": "The strike leaves more than 70 percent of northern Iraq's Kurdish region without power."
+  },
+  {
+   "t": "Айзенкот открыт для вступления Нетаньяху в новое правительство Израиля",
+   "x": "Президент Израиля официально поручает лидеру оппозиции сформировать новое правительство.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 78,
+   "ten": 41,
+   "ago": 100,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "NPR",
+    "CNBC",
+    "CBS News",
+    "ABC News",
+    "Dawn",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/608ffe0e-db93-11f1-85ef-d18c5759e759/w:1024/p:16x9/EN-20261108-160801-161121-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 10,
+   "lat": 32.0,
+   "lon": 34.32,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 7,
+   "t_en": "Eisenkot open to Netanyahu joining Israel’s next government",
+   "x_en": "Israel's president officially tasks the opposition leader with forming a new government."
   },
   {
    "t": "Семь человек погибли и 114 получили ранения в результате крушения поезда под Каиром",
    "x": "По данным Генеральной прокуратуры Египта, по меньшей мере семь человек погибли и более 100 получили ранения в результате крупного крушения поезда к югу от Каира.",
    "r": "Африка",
    "c": "Политика",
-   "imp": 88,
+   "imp": 75,
    "ten": 71,
-   "ago": 54,
+   "ago": 188,
    "s": [
     "Sky News",
     "Euronews",
@@ -310,79 +365,77 @@
    "u": "https://news.sky.com/story/four-dead-and-88-injured-in-train-crash-near-cairo-13609748",
    "img": "https://e3.365dm.com/26/11/1920x1080/skynews-egypt-train-derailed_7401023.jpg?20261108152839",
    "img_src": "Sky News",
-   "fresh": true,
+   "fresh": false,
    "n": 5,
    "lat": 30.2,
    "lon": 31.25,
    "place": "Каир",
    "place_en": "Cairo",
-   "id": 6,
+   "id": 8,
    "t_en": "Seven dead and 114 injured in train crash near Cairo",
    "x_en": "At least seven people have died and more than 100 have been left injured in a major train crash south of Cairo, according to the Egyptian Chief Prosecutor’s office."
   },
   {
-   "t": "Президент Милей приветствует Папу Льва во время исторического визита в Аргентину",
-   "x": "Визит Папы Льва XIV знаменует собой первую поездку папы в Аргентину за почти четыре десятилетия на фоне напряженности в отношениях с правительством.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 87,
-   "ten": 45,
-   "ago": 30,
+   "t": "Подача электроэнергии на Запорожскую АЭС прекращена и восстановлена, сообщает МАГАТЭ",
+   "x": "МАГАТЭ объявило около полудня по местному времени, что завод потерял подключение к своей единственной внешней линии электропередачи напряжением 330 кВ, что вынудило его полагаться на аварийные дизель-генераторы для охлаждения и обеспечения безопасности. 10 часов спустя МАГАТЭ подтвердило, что электричество было восстановлено.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 74,
+   "ten": 54,
+   "ago": 61,
    "s": [
-    "Al Jazeera",
-    "France 24",
-    "ABC News",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/39bb378c-dbaf-11f1-8a96-1beafce15fea/w:1024/p:16x9/2026-11-08T200018Z-1909450093-RC2WJOAQHQ73-RTRMADP-3-POPE-LATAM-ARGENTINA.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 5,
-   "lat": -34.1,
-   "lon": -65.91,
-   "place": "Аргентина",
-   "place_en": "Argentina",
-   "id": 7,
-   "t_en": "President Milei welcomes Pope Leo during historic visit to Argentina",
-   "x_en": "Pope Leo XIV's visit marks the first papal trip to Argentina in nearly four decades, amid tensions with the government."
-  },
-  {
-   "t": "Трамп говорит, что возобновление ударов по Ирану «крайне маловероятно», если переговоры пройдут, но предупреждает, что он все еще может нанести удар",
-   "x": "Трамп связал предотвращение новых ударов США с прогрессом в переговорах по ядерной программе Ирана и Ормузскому проливу.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 87,
-   "ten": 69,
-   "ago": 60,
-   "s": [
-    "CNBC",
-    "Euronews",
-    "Middle East Eye",
+    "Kyiv Independent",
+    "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
-   "img": "https://images.euronews.com/articles/stories/09/98/38/09/696x392_cmsv2_9577bf6c-ec61-5266-8c6b-9dd85ee39dd2-9983809.jpg",
+   "u": "https://kyivindependent.com/power-to-zaporizhzhia-nuclear-power-plant-cut-restored-iaea-says/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-1249887111_20261109-010738.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": false,
+   "n": 3,
+   "lat": 48.06,
+   "lon": 35.07,
+   "place": "Запорожье",
+   "place_en": "Zaporizhzhia",
+   "id": 9,
+   "t_en": "Power to Zaporizhzhia nuclear power plant cut, restored, IAEA says",
+   "x_en": "The plant lost connection to its sole 330-kilovolt (kV) external power line, forcing it to rely on emergency diesel generators for cooling and safety functions, the IAEA announced around noon local time. 10 hours later, the IAEA confirmed power had been restor"
+  },
+  {
+   "t": "Сотни тысяч присоединились к протесту «Красная линия» в Амстердаме против Израиля",
+   "x": "Протестующие требуют ужесточения торговых ограничений в отношении Израиля и прекращения всех продаж оружия.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 71,
+   "ten": 61,
+   "ago": 232,
+   "s": [
+    "Al Jazeera",
+    "Euronews",
+    "ABC News",
+    "Africanews"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/98/48/03/696x392_cmsv2_9a69df69-3eec-5b67-b82d-8af349f9de5b-9984803.jpg",
    "img_src": "Euronews",
    "fresh": false,
-   "n": 5,
-   "lat": 39.4,
-   "lon": -99.51,
-   "place": "США",
-   "place_en": "United States",
-   "id": 8,
-   "t_en": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
-   "x_en": "Trump tied avoiding renewed U.S. strikes to progress in talks over Iran’s nuclear program and the Strait of Hormuz."
+   "n": 4,
+   "lat": 52.83,
+   "lon": 4.0,
+   "place": "Нидерланды",
+   "place_en": "Netherlands",
+   "id": 10,
+   "t_en": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel",
+   "x_en": "Protesters seek stricter trade restrictions on Israel and a halt to all arms sales."
   },
   {
    "t": "Польша в шоке после шести убитых в Кракове стрельбы по ультраправым",
    "x": "Польша в воскресенье начала террористическое расследование массовой стрельбы в Кракове накануне, в результате которой шесть человек были убиты и многие получили ранения. Власти заявили, что 24-летний подозреваемый, который использовал полуавтоматическую винтовку в своей серии убийств, был",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 86,
+   "imp": 71,
    "ten": 92,
-   "ago": 104,
+   "ago": 302,
    "s": [
     "France 24",
     "Sky News",
@@ -398,236 +451,86 @@
    "lon": 19.89,
    "place": "Польша",
    "place_en": "Poland",
-   "id": 9,
+   "id": 11,
    "t_en": "Poland in shock after 6 killed in Krakow far-right shooting",
    "x_en": "Poland on Sunday launched a terror probe into the mass shooting in Krakow the day before, in which six people were killed and many more were injured. Authorities have said that the 24-year-old suspect, who used a semi-automatic rifle in his killing spree, was "
   },
   {
-   "t": "Почему Трамп хочет, чтобы руководитель UFC Дана Уайт стал его новым пресс-секретарем Белого дома",
-   "x": "У них есть деловые связи, насчитывающие десятилетия, и Уайт помог Трампу достучаться до более молодых избирателей.",
-   "r": "Америка",
+   "t": "Европа будет давить на США по вопросу мира с Украиной и Ирана на переговорах министров G7 в Париже",
+   "x": "Министры иностранных дел стран «Большой семерки» еще раз обсудят войну России на Украине и перспективы дальнейших ударов США по Ирану на встрече в Париже. Вашингтон сохранил возможность новых ударов, поскольку республиканцы проиграли промежуточные выборы. Рубио должен присутствовать оба дня.",
+   "r": "Европа",
    "c": "Политика",
-   "imp": 85,
-   "ten": 44,
-   "ago": 49,
+   "imp": 70,
+   "ten": 53,
+   "ago": 6,
    "s": [
-    "Al Jazeera",
     "France 24",
-    "Sky News",
-    "CNBC",
-    "Euronews",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/8/why-trump-wants-ufc-chief-dana-white-as-his-new-white-house-press-secretary?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/ad7ce2ee-db58-11f1-b2b1-d18c5759e759/w:1024/p:16x9/EN-20261108-101159-101400-CS.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 7,
-   "lat": 38.91,
-   "lon": -77.18,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 10,
-   "t_en": "Why Trump wants UFC chief Dana White as his new White House press secretary",
-   "x_en": "The two have business ties going back decades, and White has helped Trump reach out to younger voters."
-  },
-  {
-   "t": "Бывшему президенту Парагвая предъявлено обвинение после краха банка",
-   "x": "Сантьяго Пенья был свергнут из-за банковского кризиса, в результате которого миллионы людей лишились доступа к своим деньгам.",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 85,
-   "ten": 64,
-   "ago": 75,
-   "s": [
-    "BBC",
-    "CNBC",
-    "ABC News",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": -23.73,
-   "lon": -58.98,
-   "place": "Парагвай",
-   "place_en": "Paraguay",
-   "id": 11,
-   "t_en": "Paraguay's former president charged after bank collapse",
-   "x_en": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money."
-  },
-  {
-   "t": "Иран преуменьшает значение новой оперативной группы США, нацеленной на нарушение сухопутных маршрутов",
-   "x": "США не сообщили, будут ли проводиться какие-либо военные действия для предотвращения проникновения в Иран оружейных технологий или предметов, подпадающих под санкции.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 82,
-   "ten": 65,
-   "ago": 9,
-   "s": [
-    "CBS News",
-    "Middle East Eye",
     "The Hindu"
    ],
-   "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/",
-   "img": "https://th-i.thgim.com/public/news/national/n72rhs/article71680888.ece/alternates/LANDSCAPE_1200/iStock-1270385173.jpg",
-   "img_src": "The Hindu",
+   "u": "https://www.france24.com/en/france/20261109-europa-us-ukraine-peace-iran-paris-g7-ministers",
+   "img": "https://s.france24.com/media/display/05c2455c-dbe0-11f1-8e22-695cb59fade5/w:1024/p:16x9/AP26086585080668.jpg",
+   "img_src": "France 24",
    "fresh": true,
-   "n": 3,
-   "lat": 32.5,
-   "lon": 54.43,
-   "place": "Иран",
-   "place_en": "Iran",
+   "n": 2,
+   "lat": 48.92,
+   "lon": 2.57,
+   "place": "Париж",
+   "place_en": "Paris",
    "id": 12,
-   "t_en": "Iran downplays new U.S. task force aimed at disrupting land routes",
-   "x_en": "The U.S. did not say whether any military action would be involved in preventing weapons technology or sanctioned items from entering Iran."
+   "t_en": "Europe to press US on Ukraine peace and Iran at Paris G7 ministers talks",
+   "x_en": "G7 foreign ministers will revisit Russia’s war in Ukraine and the prospect of further US strikes on Iran when they meet in Paris. Washington has kept the option of new strikes open since Republicans lost the midterm elections. Rubio is due to attend both days,"
   },
   {
-   "t": "Лидер израильской оппозиции Айзенкот начинает тяжелую работу по созданию коалиционного правительства",
-   "x": "Экс-военный руководитель Израиля Гади Айзенкот был привлечен президентом Исааком Герцогом, чтобы попытаться сформировать правительство в воскресенье вечером. Но отсутствие у него явного большинства в парламенте сделает попытку создания коалиции наряду с разделенными второстепенными партиями страны невыполнимой задачей.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 82,
-   "ten": 40,
-   "ago": 65,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "NPR",
-    "CNBC",
-    "NYT",
-    "Washington Post",
-    "CBS News",
-    "Fox News",
-    "Dawn",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.france24.com/en/middle-east/20261108-israeli-opposition-leader-eisenkot-begins-the-hard-work-of-forging-a-coalition-government",
-   "img": "https://s.france24.com/media/display/be4c1c22-dbb5-11f1-bbd7-a575454bc579/w:1024/p:16x9/2026-11-08T152158Z-1569314181-RC2RJOASDUSW-RTRMADP-3-ISRAEL-POLITICS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 12,
-   "lat": 31.86,
-   "lon": 33.94,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 13,
-   "t_en": "Israeli opposition leader Eisenkot begins the hard work of forging a coalition government",
-   "x_en": "Israel's ex-military chief Gadi Eisenkot was tapped by President Isaac Herzog to try to form a government Sunday evening. But his lack of a clear majority in parliament will make trying to forge a coalition alongside the country's divided minor parties an uphi"
-  },
-  {
-   "t": "В результате крушения поезда семь человек погибли, десятки получили ранения недалеко от египетского Каира",
-   "x": "Пассажирский поезд следовал из столицы Египта в Асуан на юге страны, когда сошел с рельсов, перевернув вагоны.",
-   "r": "Африка",
+   "t": "Рубио говорит, что война Трампа против Ирана «не обязательно популярна», но необходима, чтобы остановить ядерную угрозу",
+   "x": "Главный дипломат Америки выступил в защиту продолжающейся более восьми месяцев войны, несмотря на то, что избиратели обвиняли политику Трампа в ударе по их кошельку, в том числе в повышении цен на энергоносители, вызванном перебоями в поставках в Ормузском проливе.",
+   "r": "Америка",
    "c": "Конфликты",
-   "imp": 81,
-   "ten": 73,
-   "ago": 124,
+   "imp": 70,
+   "ten": 95,
+   "ago": 48,
    "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "Dawn",
-    "The Hindu",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/7527078bbb41cf17b1a35718b70ebdceeada7492/206_271_4462_3569/master/4462.jpg?width=700&quality=85&auto=format&fit=max&s=9a7f650e6ba494d56a7a03998e168b5f",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 7,
-   "lat": 30.11,
-   "lon": 31.52,
-   "place": "Каир",
-   "place_en": "Cairo",
-   "id": 14,
-   "t_en": "Train crash kills seven, injures dozens near Egypt’s Cairo city",
-   "x_en": "The passenger train was travelling from Egypt's capital to Aswan in the south when it derailed, overturning carriages."
-  },
-  {
-   "t": "Лодка с мигрантами затонула у берегов Сенегала, погибли по меньшей мере 34 человека, сообщают власти",
-   "x": "Лодка, перевозившая мигрантов по опасному маршруту через Атлантический океан из Западной Африки в Европу, затонула у берегов Сенегала, погибли по меньшей мере 34 человека, сообщили власти в воскресенье. На данный момент найден только один выживший, а «неопределенное число» до сих пор не найдено.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 80,
-   "ten": 74,
-   "ago": 133,
-   "s": [
-    "France 24",
-    "Euronews",
-    "ABC News",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
-   "img": "https://s.france24.com/media/display/8db004c0-db6f-11f1-9c7c-a575454bc579/w:1024/p:16x9/c9e8d80cbfc13f8f43d3833c67fbf17f6e5ccb25.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": 14.36,
-   "lon": -13.2,
-   "place": "Сенегал",
-   "place_en": "Senegal",
-   "id": 15,
-   "t_en": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
-   "x_en": "A boat carrying migrants along the hazardous Atlantic Ocean route from West Africa to Europe sank off the coast of Senegal, killed at least 34 people, authorities said Sunday. Only one survivor has so far been found, and \"an indeterminate number\" are still mis"
-  },
-  {
-   "t": "Переговоры новозеландской избирательной коалиции, скорее всего, продлятся несколько недель – как это произошло",
-   "x": "Этот блог закрыт, вы можете прочитать наш отчет о выборах в Новой Зеландии здесь. Еще одно обновление здесь: подсчитано 8% голосов. Национальные - 31,2%, Лейбористы - 28,4%, Зеленые - 12,9%, Закон - 11,2%, NZ First - 9,6%, Возможности - 5,7% и Те Пати Маори - 0,4%. По этим номерам",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 29,
-   "ago": 1,
-   "s": [
-    "The Guardian",
-    "NPR",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
-   "img": "https://i.guim.co.uk/img/media/ca0da5faecb3c527577fc78ebfc856aa865bc8d6/1_0_4998_4000/master/4998.jpg?width=700&quality=85&auto=format&fit=max&s=3cc57e2df7b15ce3c153f61cbe77d785",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": -42.16,
-   "lon": 173.06,
-   "place": "Новая Зеландия",
-   "place_en": "New Zealand",
-   "id": 16,
-   "t_en": "New Zealand election coalition talks will likely take weeks – as it happened",
-   "x_en": "This blog is closed, you can read our report on the New Zealand election here Another update here with 8% of the vote counted . National on 31.2%, Labour 28.4%, the Greens 12.9%, Act 11.2%, NZ First 9.6%, Opportunity 5.7% and Te Pāti Māori 0.4%. On these numbe"
-  },
-  {
-   "t": "Атака дронов поразила газовое месторождение Хор Мор в иракском Курдистане",
-   "x": "По данным курдских сил безопасности, в воскресенье беспилотник атаковал газовое месторождение Хор Мор, одно из крупнейших в Курдистане. Источники в службах безопасности сообщили, что дым поднимался над полем, расположенным в иракской провинции Сулеймания. Аккорди",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 78,
-   "ten": 88,
-   "ago": 64,
-   "s": [
-    "Middle East Eye",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/drone-attack-hits-khor-mor-gas-field-iraqs-kurdistan-region",
-   "img": "https://th-i.thgim.com/public/incoming/tn7gjf/article71681224.ece/alternates/LANDSCAPE_1200/2026-11-08T204121Z_1782454012_RC2V4IAMOAUP_RTRMADP_3_IRAN-CRISIS-IRAQ-KHOR-MOR.JPG",
+   "u": "https://www.thehindu.com/news/international/rubio-says-trumps-war-against-iran-not-necessarily-popular-but-needed-to-stop-a-nuclear-threat/article71681264.ece",
+   "img": "https://th-i.thgim.com/public/incoming/8vyybh/article71681268.ece/alternates/LANDSCAPE_1200/2026-11-08T221548Z_927214633_RC2YJOAS8LEN_RTRMADP_3_USA-RUBIO.JPG",
    "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.7,
+   "lon": -98.21,
+   "place": "США",
+   "place_en": "United States",
+   "id": 13,
+   "t_en": "Rubio says Trump's war against Iran not 'necessarily popular' but needed to stop a nuclear threat",
+   "x_en": "America's top diplomat offered a robust defence of the more than eight-month-old war even as voters blamed Mr. Trump's policies for the hit to their pocketbooks, including higher energy prices that stemmed from disruptions to shipments in the Strait of Hormuz"
+  },
+  {
+   "t": "Башня Арамко пострадала в центре столицы Саудовской Аравии, когда хуситы начали новые удары",
+   "x": "На кадрах, подтвержденных BBC Verify, видны повреждения здания в центральном финансовом районе столицы.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 70,
+   "ago": 273,
+   "s": [
+    "BBC",
+    "NYT",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ea80/live/2b11cc30-dbbb-11f1-93e1-3b657b665bcf.png",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 3,
-   "lat": 32.17,
-   "lon": 42.99,
-   "place": "Ирак",
-   "place_en": "Iraq",
-   "id": 17,
-   "t_en": "Drone attack hits Khor Mor gas field in Iraq’s Kurdistan region",
-   "x_en": "A drone attack targeted the Khor Mor gas field, one of the largest in the Kurdistan region, on Sunday, according to Kurdish security forces. The security sources said that smoke was seen rising from the field located in Iraq’s Sulaymaniyah Governorate. Accordi"
+   "n": 4,
+   "lat": 15.53,
+   "lon": 44.31,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 14,
+   "t_en": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+   "x_en": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district."
   },
   {
    "t": "Сотрудник Astellas заключен в тюрьму в Китае по обвинению в шпионаже и будет освобожден в декабре",
@@ -650,59 +553,140 @@
    "lon": 103.78,
    "place": "Китай",
    "place_en": "China",
-   "id": 18,
+   "id": 15,
    "t_en": "Astellas employee jailed in China on spy charge set for December release",
    "x_en": "Beijing had accused the Japanese citizen of espionage by providing China-related information to an intelligence agency but had not provided further details."
   },
   {
-   "t": "Китай заблокировал сделку SoftBank с подразделением робототехники ABB на сумму 5,4 миллиарда долларов",
-   "x": "Компании ищут решение после того, как Китайское управление рабочего механизма по проверке безопасности иностранных инвестиций приостановило планы на сумму 5,4 миллиарда долларов.",
+   "t": "«Чувство вины»: повышение цен в Японии вызывает трудности, несмотря на инфляцию",
+   "x": "Беспокойство, с которым столкнулись Uniqlo и Saizeriya, когда они попытались поднять цены, подчеркивает борьбу, с которой сталкиваются японские фирмы, борющиеся с растущими затратами в стране, которая пережила десятилетия дефляции.",
    "r": "Азия",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 32,
-   "ago": 1,
+   "c": "Экономика",
+   "imp": 68,
+   "ten": 48,
+   "ago": 10,
    "s": [
-    "Nikkei Asia",
+    "CNA",
     "Japan Times"
    ],
-   "u": "https://asia.nikkei.com/business/business-deals/china-blocks-softbank-s-5.4bn-deal-for-abb-robotics-division",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/08/thumbs/400x400/572878.jpg",
-   "img_src": "Japan Times",
+   "u": "https://www.channelnewsasia.com/east-asia/japan-inflation-price-hikes-uniqlo-saizeriya-6533786",
+   "img": "https://dam.mediacorp.sg/image/upload/s--5PdVVJ9m--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-08T064006Z_1_LYNXMPEM970DZ_RTROPTP_3_JAPAN-COMPANY-UNIQLO.JPG?itok=WUqFk8Ux",
+   "img_src": "CNA",
    "fresh": true,
    "n": 2,
-   "lat": 35.31,
-   "lon": 103.21,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 19,
-   "t_en": "China blocks SoftBank's $5.4bn deal for ABB robotics division",
-   "x_en": "The companies seek a solution after China's Office of the Working Mechanism for Foreign Investment Security Review halted plans worth $5.4 billion."
+   "lat": 37.41,
+   "lon": 138.55,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 16,
+   "t_en": "'Feeling guilty': Price hikes a tough sell in Japan despite inflation",
+   "x_en": "The angst faced by Uniqlo and Saizeriya when they attempted to raise prices highlights the struggle Japanese firms face as they battle rising costs in a country that has experienced decades of deflation."
   },
   {
-   "t": "Поляки оплакивают редкие массовые убийства, поскольку власти заявляют, что нападавший придерживался крайне правых взглядов",
-   "x": "В Польше траур после того, как 24-летний мужчина крайне правых взглядов въехал на оживленную площадь Кракова и открыл огонь, убив шесть человек и ранив 15.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 88,
-   "ago": 69,
+   "t": "Сопернику Нетаньяху Айзенкоту будет поручено сформировать новое правительство после выборов в Израиле",
+   "x": "В Израиле у кандидата, которому поручено сформировать новое правительство, есть 28 дней на выполнение этой работы. Президент может продлить этот срок максимум на 14 дней, прежде чем передать мандат кому-то другому.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 46,
+   "ago": 103,
    "s": [
+    "Euronews",
+    "Washington Post",
+    "The Hindu"
+   ],
+   "u": "https://www.euronews.com/2026/11/08/netanyahu-rival-eisenkot-to-be-tasked-with-forming-new-government-following-israeli-electi",
+   "img": "https://images.euronews.com/articles/stories/09/98/42/77/696x392_cmsv2_cacaa2c9-8b72-54f0-8972-3f0359bbbcbf-9984277.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": 31.57,
+   "lon": 34.6,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 17,
+   "t_en": "Netanyahu rival Eisenkot to be tasked with forming new government following Israeli elections",
+   "x_en": "In Israel, a candidate tasked with forming a new government has 28 days to carry out the job. The president is able to extend this by a maximum of 14 days before giving the mandate to someone else."
+  },
+  {
+   "t": "На выборах в Новой Зеландии нет явного победителя, поскольку лидеры готовятся к неделям переговоров",
+   "x": "Премьер-министр Кристофер Люксон, который будет возглавлять временное правительство во время переговоров, сказал: «Я думаю, что все закончили с политикой, поэтому давайте сделаем небольшой перерыв на следующие три недели».",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 67,
+   "ten": 28,
+   "ago": 1,
+   "s": [
+    "NPR",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3555+0+0/resize/5333x3555!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8b%2F5f%2F9142e9fb4171b7967dc02de2a559%2Fap26311421156364.jpg",
+   "img_src": "NPR",
+   "fresh": true,
+   "n": 2,
+   "lat": -41.89,
+   "lon": 172.13,
+   "place": "Новая Зеландия",
+   "place_en": "New Zealand",
+   "id": 18,
+   "t_en": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+   "x_en": "Prime Minister Christopher Luxon, who will lead a caretaker government while negotiations take place, said: \"I think everyone's over politics so let's all have a bit of a break for the next three weeks\"."
+  },
+  {
+   "t": "Бывшему президенту Парагвая предъявлено обвинение после краха банка",
+   "x": "Сантьяго Пенья был свергнут из-за банковского кризиса, в результате которого миллионы людей лишились доступа к своим деньгам.",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 67,
+   "ten": 68,
+   "ago": 312,
+   "s": [
+    "BBC",
+    "CNBC",
     "ABC News",
+    "Reuters"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a65d/live/3fe15d20-da57-11f1-af22-a97b84c9ca63.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": -23.73,
+   "lon": -58.98,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 19,
+   "t_en": "Paraguay's former president charged after bank collapse",
+   "x_en": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money."
+  },
+  {
+   "t": "Лодка с мигрантами затонула у берегов Сенегала, погибли по меньшей мере 34 человека, сообщают власти",
+   "x": "Лодка, перевозившая мигрантов по опасному маршруту через Атлантический океан из Западной Африки в Европу, затонула у берегов Сенегала, погибли по меньшей мере 34 человека, сообщили власти в воскресенье. На данный момент найден только один выживший, а «неопределенное число» до сих пор не найдено.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 67,
+   "ten": 74,
+   "ago": 330,
+   "s": [
+    "France 24",
+    "Euronews",
+    "ABC News",
+    "The Hindu",
     "AP"
    ],
-   "u": "https://abcnews.com/International/wireStory/poles-mourn-rare-mass-killing-authorities-attacker-views-137951140",
-   "img": "https://s.abcnews.com/images/International/wirestory_69a65400657ffd0c8b3fa104bd472b97_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
+   "img": "https://s.france24.com/media/display/8db004c0-db6f-11f1-9c7c-a575454bc579/w:1024/p:16x9/c9e8d80cbfc13f8f43d3833c67fbf17f6e5ccb25.jpg",
+   "img_src": "France 24",
    "fresh": false,
-   "n": 2,
-   "lat": 53.01,
-   "lon": 18.29,
-   "place": "Польша",
-   "place_en": "Poland",
+   "n": 5,
+   "lat": 14.36,
+   "lon": -13.2,
+   "place": "Сенегал",
+   "place_en": "Senegal",
    "id": 20,
-   "t_en": "Poles mourn rare mass killing as authorities say attacker had far-right views",
-   "x_en": "Poland is in mourning after a 24-year-old man with far-right views drove into a busy square in Krakow and opened fire, killing six people and wounding 15"
+   "t_en": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+   "x_en": "A boat carrying migrants along the hazardous Atlantic Ocean route from West Africa to Europe sank off the coast of Senegal, killed at least 34 people, authorities said Sunday. Only one survivor has so far been found, and \"an indeterminate number\" are still mis"
   },
   {
    "t": "Европа примет участие в переговорах по Украине при посредничестве США в Абу-Даби, заявил глава МИД Франции",
@@ -711,13 +695,13 @@
    "c": "Политика",
    "imp": 66,
    "ten": 20,
-   "ago": 208,
+   "ago": 200,
    "s": [
     "France 24",
     "NPR",
     "Kyiv Independent",
-    "The Hindu",
-    "Politico EU"
+    "Politico EU",
+    "Reuters"
    ],
    "u": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
    "img": "https://s.france24.com/media/display/57d3784e-db7b-11f1-a752-a575454bc579/w:1024/p:16x9/2026-10-31T022255Z-1628715710-RC2ZDOAFTXRB-RTRMADP-3-G20-MINISTERS-1.jpg",
@@ -733,182 +717,109 @@
    "x_en": "France will participate in the upcoming Abu Dhabi peace talks on ending the Ukraine war, Foreign Minister Jean-Noël Barrot said Sunday, adding that Europeans will be represented at the summit. The talks will take place under US mediation on Tuesday and Wednesd"
   },
   {
-   "t": "Кремль надеется, что встряска выборов в США не повлияет на переговоры Трампа по Украине",
-   "x": "Г-н Песков проигнорировал вопрос журналистов о том, будет ли новый Конгресс оспаривать позицию г-на Трампа по России и Украине. Он назвал это «внутренним делом» США.",
-   "r": "Америка",
+   "t": "Лидер израильской оппозиции Айзенкот начинает тяжелую работу по созданию коалиционного правительства",
+   "x": "Экс-военный руководитель Израиля Гади Айзенкот был привлечен президентом Исааком Герцогом, чтобы попытаться сформировать правительство в воскресенье вечером. Но отсутствие у него явного большинства в парламенте сделает попытку создания коалиции наряду с разделенными второстепенными партиями страны невыполнимой задачей.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 66,
+   "ten": 40,
+   "ago": 262,
+   "s": [
+    "France 24",
+    "NPR",
+    "NYT",
+    "Washington Post",
+    "Fox News"
+   ],
+   "u": "https://www.france24.com/en/middle-east/20261108-israeli-opposition-leader-eisenkot-begins-the-hard-work-of-forging-a-coalition-government",
+   "img": "https://s.france24.com/media/display/be4c1c22-dbb5-11f1-bbd7-a575454bc579/w:1024/p:16x9/2026-11-08T152158Z-1569314181-RC2RJOASDUSW-RTRMADP-3-ISRAEL-POLITICS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 6,
+   "lat": 31.86,
+   "lon": 33.94,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 22,
+   "t_en": "Israeli opposition leader Eisenkot begins the hard work of forging a coalition government",
+   "x_en": "Israel's ex-military chief Gadi Eisenkot was tapped by President Isaac Herzog to try to form a government Sunday evening. But his lack of a clear majority in parliament will make trying to forge a coalition alongside the country's divided minor parties an uphi"
+  },
+  {
+   "t": "Путеводитель по климатическим переговорам COP31 в Анталье, Турция",
+   "x": "Переговорщики и лидеры собираются на ежегодные переговоры ООН по климату. Они происходят в тот момент, когда глобальная температура приближается к ключевому порогу.",
+   "r": "Ближний Восток",
    "c": "Политика",
    "imp": 65,
-   "ten": 32,
-   "ago": 15,
+   "ten": 19,
+   "ago": 1,
    "s": [
-    "The Hindu",
-    "AP"
+    "NYT",
+    "Nikkei Asia"
    ],
-   "u": "https://www.thehindu.com/news/international/kremlin-hopes-us-election-shake-up-wont-shift-trumps-negotiations-on-ukraine/article71680679.ece",
-   "img": "https://th-i.thgim.com/public/incoming/xvunou/article71680705.ece/alternates/LANDSCAPE_1200/Russia_Gas_Summit_92637.jpg",
-   "img_src": "The Hindu",
+   "u": "https://www.nytimes.com/2026/11/08/climate/what-is-cop31-climate.html",
+   "img": "https://static01.nyt.com/images/2026/11/08/multimedia/08CLI-COP31-FAQ-jqfw/08CLI-COP31-FAQ-jqfw-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
    "fresh": true,
    "n": 2,
-   "lat": 55.55,
-   "lon": 37.45,
-   "place": "Москва",
-   "place_en": "Moscow",
-   "id": 22,
-   "t_en": "Kremlin hopes U.S. election shake-up won't shift Trump's negotiations on Ukraine",
-   "x_en": "Mr. Peskov shrugged off a question from reporters on whether the new Congress would challenge Mr. Trump's stance on Russia and Ukraine. He called it an “internal matter” for the U.S."
+   "lat": 39.34,
+   "lon": 36.57,
+   "place": "Турция",
+   "place_en": "Turkey",
+   "id": 23,
+   "t_en": "A Guide to COP31 Climate Talks in Antalya, Turkey",
+   "x_en": "Negotiators and leaders are gathering for annual United Nations climate talks. They come as global temperatures are set to breach a key threshold."
+  },
+  {
+   "t": "Трамп обещает вернуться, поскольку партии сталкиваются из-за угроз судебного преследования со стороны демократов",
+   "x": "Президент Дональд Трамп пообещал вернуться в политику в воскресенье после того, как республиканцы потеряли контроль над Конгрессом на промежуточных выборах в прошлый вторник, поскольку новые лидеры Демократической партии пообещали привлечь его администрацию к ответственности, а генеральный прокурор пообещал защитить чиновников.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 57,
+   "ago": 58,
+   "s": [
+    "France 24",
+    "The Hindu"
+   ],
+   "u": "https://www.france24.com/en/americas/20261109-trump-comeback-democrats-prosecution-threats",
+   "img": "https://s.france24.com/media/display/796e5ff4-dafa-11f1-83cc-1beafce15fea/w:1024/p:16x9/aa618a3631bceeecb3b6ee36d3cb0b937c9f5f89.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.25,
+   "lon": -98.12,
+   "place": "США",
+   "place_en": "United States",
+   "id": 24,
+   "t_en": "Trump vows comeback as parties clash over Democrat prosecution threats",
+   "x_en": "President Donald Trump vowed a political comeback on Sunday after Republicans lost control of Congress in last Tuesday’s midterms, as incoming Democratic leaders pledged to hold his administration to account, and the attorney general promised to defend officia"
   },
   {
    "t": "Папа Лев XIV произнес проповедь перед тысячами жителей Уругвая",
    "x": "Десятки тысяч людей собрались на главной площади Флориды во время мессы под сияющим голубым небом, некоторые прошли несколько километров, чтобы добраться до места. Население города составляет около 40 000 человек, но, по оценкам Ватикана, на мероприятии присутствовало 50 000 человек.",
    "r": "Америка",
    "c": "Общее",
-   "imp": 65,
+   "imp": 63,
    "ten": 40,
-   "ago": 118,
+   "ago": 316,
    "s": [
     "Al Jazeera",
     "NPR",
-    "Euronews"
+    "Euronews",
+    "ABC News"
    ],
    "u": "https://www.aljazeera.com/video/newsfeed/2026/11/8/pope-leo-xiv-delivers-homily-to-thousands-in-uruguay?traffic_source=rss",
    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb6%2Fdc%2Fbfa72c634de2ac6fd5d3cbc6c94a%2Fap26312478472333.jpg",
    "img_src": "NPR",
    "fresh": false,
-   "n": 3,
+   "n": 4,
    "lat": -31.97,
    "lon": -56.85,
    "place": "Уругвай",
    "place_en": "Uruguay",
-   "id": 23,
+   "id": 25,
    "t_en": "Pope Leo XIV delivers homily to thousands in Uruguay",
    "x_en": "Tens of thousands of people packed Florida’s main square for the Mass under brilliant blue skies, some walking for several kilometers to reach the site. The city has a population of about 40,000 but the Vatican estimated 50,000 were attending."
-  },
-  {
-   "t": "Айзенкот открыт для вступления Нетаньяху в новое правительство Израиля",
-   "x": "Президент Израиля официально поручает лидеру оппозиции сформировать новое правительство.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 42,
-   "ago": 281,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Guardian",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/608ffe0e-db93-11f1-85ef-d18c5759e759/w:1024/p:16x9/EN-20261108-160801-161121-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": 32.0,
-   "lon": 34.32,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 24,
-   "t_en": "Eisenkot open to Netanyahu joining Israel’s next government",
-   "x_en": "Israel's president officially tasks the opposition leader with forming a new government."
-  },
-  {
-   "t": "Вооруженная группировка наносит ответный удар в Колумбии, преследуемая США",
-   "x": "Американские силы помогают Колумбии и Венесуэле охотиться на АНО. По словам официальных лиц, в эти выходные группа атаковала колумбийскую военную базу с помощью дронов.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 91,
-   "ago": 5,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/11/08/world/americas/colombia-drone-attack-eln.html",
-   "img": "https://static01.nyt.com/images/2026/11/08/multimedia/08int-colombia-attack-wzqk/08int-colombia-attack-wzqk-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": 4.79,
-   "lon": -75.21,
-   "place": "Колумбия",
-   "place_en": "Colombia",
-   "id": 25,
-   "t_en": "Targeted by U.S., Armed Group Strikes Back in Colombia",
-   "x_en": "American forces are helping Colombia and Venezuela hunt the ELN. This weekend, the group attacked a Colombian military base with drones, officials said."
-  },
-  {
-   "t": "Трамп приказал Министерству юстиции США проверить демократов за «угрозы» людям импичментом и другими наказаниями",
-   "x": "В субботу президент Дональд Трамп поручил Министерству юстиции США проверить действия демократов за «угрозы большому количеству людей» импичментом и другими формами наказания, заявив в сообщении в социальной сети, что их действия приравниваются к «преступному деянию», без",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 57,
-   "ago": 51,
-   "s": [
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.dawn.com/news/2043041/trump-orders-us-justice-department-to-look-into-democrats-for-threatening-people-with-impeachment-other-penalties",
-   "img": "https://i.dawn.com/large/2026/01/301244551fce73d.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.19,
-   "lon": -98.78,
-   "place": "США",
-   "place_en": "United States",
-   "id": 26,
-   "t_en": "Trump orders US Justice Department to look into Democrats for 'threatening' people with impeachment, other penalties",
-   "x_en": "President Donald Trump ordered the US Justice Department on Saturday to look into Democrats for “threatening a lot of people” with impeachment and other ​forms of punishment, saying in a social media post that their actions amount ‌to a “criminal act”, without"
-  },
-  {
-   "t": "Поляки, потрясенные редким массовым расстрелом, спрашивают, что спровоцировало молодого подозреваемого",
-   "x": "Официальные лица утверждают, что 24-летний мужчина убил свою семью, а затем еще шесть человек во время беспорядков в Кракове. Сейчас они пытаются определить мотив.",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 82,
-   "ago": 5,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/11/08/world/europe/poland-shooting-suspect-family.html",
-   "img": "https://static01.nyt.com/images/2026/11/08/multimedia/08int-poland-shooting-family-pjtb/08int-poland-shooting-family-pjtb-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 27,
-   "t_en": "Reeling From Rare Mass Shooting, Poles Ask What Set Off Young Suspect",
-   "x_en": "Officials say that a 24-year-old killed his family and then six people during a rampage in Krakow. Now they are trying to determine the motive."
-  },
-  {
-   "t": "Выборы в Южной Африке: АНК демонстрирует худшие результаты за всю историю",
-   "x": "Африканский национальный конгресс, партия покойного лауреата Нобелевской премии Нельсона Манделы, потерпела худший за всю историю результат на муниципальных выборах в Южной Африке. Избиратели обвиняют АНК в нехватке воды и электричества.",
-   "r": "Африка",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 318,
-   "s": [
-    "DW",
-    "ABC News",
-    "Africanews",
-    "The Hindu"
-   ],
-   "u": "https://www.dw.com/en/south-africa-elections-anc-marks-its-worst-ever-performance/a-79887482?maca=en-rss-en-world-4025-rdf",
-   "img": "https://s.abcnews.com/images/International/wirestory_35f673cfe16bee26a94f9810d221771f_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": -27.97,
-   "lon": 23.18,
-   "place": "ЮАР",
-   "place_en": "South Africa",
-   "id": 28,
-   "t_en": "South Africa elections: ANC marks its worst-ever performance",
-   "x_en": "The African National Congress, the party of late Nobel Prize winner Nelson Mandela, slumped to its worst-ever result in South Africa's municipal election. The voters blame the ANC for water and electricity shortages."
   },
   {
    "t": "Война США в Иране оставляет Шри-Ланку в неспокойных дипломатических водах",
@@ -930,7 +841,7 @@
    "lon": -99.81,
    "place": "США",
    "place_en": "United States",
-   "id": 29,
+   "id": 26,
    "t_en": "US war in Iran leaves Sri Lanka in troubled diplomatic waters",
    "x_en": ""
   },
@@ -954,7 +865,7 @@
    "lon": 113.83,
    "place": "Гонконг",
    "place_en": "Hong Kong",
-   "id": 30,
+   "id": 27,
    "t_en": "Hong Kong's Joshua Wong sentence sparks war of words with US, Europe",
    "x_en": ""
   },
@@ -978,7 +889,7 @@
    "lon": 104.39,
    "place": "Сингапур",
    "place_en": "Singapore",
-   "id": 31,
+   "id": 28,
    "t_en": "Singapore banks struggle with bond yield and interest rate tensions",
    "x_en": ""
   },
@@ -1002,7 +913,7 @@
    "lon": 137.94,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 32,
+   "id": 29,
    "t_en": "Japan's Takaichi pushes for tougher cybersecurity laws as attacks surge",
    "x_en": ""
   },
@@ -1026,59 +937,33 @@
    "lon": -98.27,
    "place": "США",
    "place_en": "United States",
-   "id": 33,
+   "id": 30,
    "t_en": "US slaps sanctions on Cambodia's Prince Group over online scams",
    "x_en": ""
   },
   {
-   "t": "«Джерузалем Дейли»: Айзенкот предпочел Нетаньяху сформировать правительство",
-   "x": "Президент Израиля выбирает Гади Айзенкота для формирования следующего правительства, оставив Биньямина Нетаньяху.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 63,
-   "ago": 248,
+   "t": "Министры G7 встретились, чтобы обсудить усилия по прекращению конфликта на Украине и прекращению новой войны с Ираном",
+   "x": "Министры ведущих промышленно развитых стран Великобритании, Канады, Франции, Германии, Италии, Японии и США соберутся вместе с озабоченностями, поразительно похожими на те, что были на последней такой встрече в марте.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 66,
+   "ago": 5,
    "s": [
-    "Al Jazeera",
-    "Dawn",
     "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/8/dnrbltn-261108-hegazyn-jerusalem_daily-081126?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/11/08224852380eecc.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 3,
-   "lat": 32.0,
-   "lon": 35.3,
-   "place": "Иерусалим",
-   "place_en": "Jerusalem",
-   "id": 34,
-   "t_en": "Jerusalem Daily: Eisenkot picked over Netanyahu to form government",
-   "x_en": "Israel's president picks Gadi Eisenkot to form the next government, passing over Benjamin Netanyahu."
-  },
-  {
-   "t": "Руководитель индийского ИТ-лобби предупреждает, что выпускникам будет сложно найти работу из-за ИИ",
-   "x": "",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 58,
-   "ten": 48,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/editor-s-picks/interview/india-s-it-lobby-chief-warns-grads-could-struggle-to-find-jobs-due-to-ai",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F8%2F2%2F5%2F13405280-1-eng-GB%2F6e4c759b0db5-GettyImages-2281719557-1-i.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.thehindu.com/news/international/g7-ministers-meeting-in-paris-russia-ukraine-conflict-us-israel-strikes-on-iran/article71681281.ece",
+   "img": "https://th-i.thgim.com/public/news/international/teghrv/article71681291.ece/alternates/LANDSCAPE_1200/MarcoRubio.jpg",
+   "img_src": "The Hindu",
    "fresh": true,
    "n": 1,
-   "lat": 21.78,
-   "lon": 79.92,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 35,
-   "t_en": "India's IT lobby chief warns grads could struggle to find jobs due to AI",
-   "x_en": ""
+   "lat": 49.82,
+   "lon": 31.6,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 31,
+   "t_en": "G7 Ministers meet on efforts to end Ukraine conflict, halt new Iran war",
+   "x_en": "Ministers from the leading industrialised nations of Britain, Canada, France, Germany, Italy, Japan and the United States will be gathering with preoccupations strikingly similar to those of the last such meeting in March"
   },
   {
    "t": "Что означает победа демократов для тарифов Трампа и искусственного интеллекта",
@@ -1100,33 +985,36 @@
    "lon": -98.61,
    "place": "США",
    "place_en": "United States",
-   "id": 36,
+   "id": 32,
    "t_en": "What the Democratic sweep means for Trump's tariffs and AI",
    "x_en": ""
   },
   {
-   "t": "16-летний подросток создал бесплатную систему проверки предупреждений о лесных пожарах и учит пожилых людей Калифорнии пользоваться ею после лесного пожара",
-   "x": "Ведант Таккер создал приложение Red Flag Check для оценки рисков лесных пожаров, используя данные Национальной метеорологической службы. Этот инновационный инструмент классифицирует жилые районы, находящиеся под красными флажками, на четыре конкретные категории риска, расширяя возможности местных",
-   "r": "Ближний Восток",
-   "c": "Природа",
+   "t": "Выборы в Южной Африке: АНК демонстрирует худшие результаты за всю историю",
+   "x": "Африканский национальный конгресс, партия покойного лауреата Нобелевской премии Нельсона Манделы, потерпела худший за всю историю результат на муниципальных выборах в Южной Африке. Избиратели обвиняют АНК в нехватке воды и электричества.",
+   "r": "Африка",
+   "c": "Политика",
    "imp": 58,
-   "ten": 74,
-   "ago": 26,
+   "ten": 40,
+   "ago": 463,
    "s": [
-    "Times of India"
+    "DW",
+    "ABC News",
+    "Africanews",
+    "The Hindu"
    ],
-   "u": "https://timesofindia.indiatimes.com/world/us/meet-vedant-thakker-the-16-year-old-california-student-who-built-a-free-wildfire-warning-checker-showing-four-location-categories-and-is-teaching-fremont-seniors-how-to-use-it-after-a-nearby-brush-fire/articleshow/135616807.cms",
-   "img": "https://static.toiimg.com/photo/msid-135617233,imgsize-80763.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 1,
-   "lat": 34.32,
-   "lon": -118.28,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 37,
-   "t_en": "16-year-old builds free wildfire warning checker, teaches California seniors to use it after brush fire",
-   "x_en": "Vedant Thakker created the Red Flag Check application to evaluate wildfire risks utilizing data from the National Weather Service. This innovative tool classifies residential locations under red flag warnings into four specific risk categories, empowering loca"
+   "u": "https://www.dw.com/en/south-africa-elections-anc-marks-its-worst-ever-performance/a-79887482?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.abcnews.com/images/International/wirestory_35f673cfe16bee26a94f9810d221771f_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 5,
+   "lat": -27.97,
+   "lon": 23.18,
+   "place": "ЮАР",
+   "place_en": "South Africa",
+   "id": 33,
+   "t_en": "South Africa elections: ANC marks its worst-ever performance",
+   "x_en": "The African National Congress, the party of late Nobel Prize winner Nelson Mandela, slumped to its worst-ever result in South Africa's municipal election. The voters blame the ANC for water and electricity shortages."
   },
   {
    "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
@@ -1148,7 +1036,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 38,
+   "id": 34,
    "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
    "x_en": ""
   },
@@ -1172,7 +1060,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 39,
+   "id": 35,
    "t_en": "Dream Big with a Home Equity Loan",
    "x_en": ""
   },
@@ -1196,16 +1084,108 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 40,
+   "id": 36,
    "t_en": "Experts: this is the best cash back card of 2022",
+   "x_en": ""
+  },
+  {
+   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 37,
+   "t_en": "It's official: now avoid credit card interest into 2024",
+   "x_en": ""
+  },
+  {
+   "t": "Начальная годовая процентная ставка 0% до 2024 года — это 100% безумие.",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 38,
+   "t_en": "0% intro APR until 2024 is 100% insane",
+   "x_en": ""
+  },
+  {
+   "t": "Япония требует от России отменить арест подразделений Japan Tobacco",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/japan-demands-russia-reverse-seizure-of-japan-tobacco-units",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F4%2F5%2F0%2F13410542-2-eng-GB%2Fa90dda5d9fde-2026-11-05T140412Z_885670886_RC2PHOAOH9YP_RTRMADP_3_RUSSIA-PUTIN.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 37.11,
+   "lon": 138.7,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 39,
+   "t_en": "Japan demands Russia reverse seizure of Japan Tobacco units",
+   "x_en": ""
+  },
+  {
+   "t": "Азиатская цепочка поставок ИИ и центры обработки данных США готовы выдержать «голубую волну»",
+   "x": "",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/technology/asia-s-ai-supply-chain-and-us-data-centers-set-to-weather-blue-wave",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F9%2F4%2F0%2F13410491-2-eng-GB%2Fa133fb3173fb-1bb2a.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 40.18,
+   "lon": -97.28,
+   "place": "США",
+   "place_en": "United States",
+   "id": 40,
+   "t_en": "Asia's AI supply chain and US data centers set to weather 'blue wave'",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794090416714,
-   "v": 52
-  },
   {
    "t": 1794102121195,
    "v": 51
@@ -1225,139 +1205,143 @@
   {
    "t": 1794178401149,
    "v": 50
+  },
+  {
+   "t": 1794190245188,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1794092001149,
-   "v": 57,
-   "n": 36
+   "t": 1794103845188,
+   "v": 42,
+   "n": 23
   },
   {
-   "t": 1794095601149,
-   "v": 50,
+   "t": 1794107445188,
+   "v": 41,
+   "n": 24
+  },
+  {
+   "t": 1794111045188,
+   "v": 40,
    "n": 26
   },
   {
-   "t": 1794099201149,
-   "v": 47,
-   "n": 21
-  },
-  {
-   "t": 1794102801149,
+   "t": 1794114645188,
    "v": 41,
-   "n": 28
+   "n": 24
   },
   {
-   "t": 1794106401149,
-   "v": 43,
-   "n": 27
-  },
-  {
-   "t": 1794110001149,
-   "v": 44,
+   "t": 1794118245188,
+   "v": 46,
    "n": 30
   },
   {
-   "t": 1794113601149,
+   "t": 1794121845188,
    "v": 46,
-   "n": 32
-  },
-  {
-   "t": 1794117201149,
-   "v": 45,
-   "n": 33
-  },
-  {
-   "t": 1794120801149,
-   "v": 46,
-   "n": 32
-  },
-  {
-   "t": 1794124401149,
-   "v": 47,
    "n": 29
   },
   {
-   "t": 1794128001149,
+   "t": 1794125445188,
+   "v": 48,
+   "n": 35
+  },
+  {
+   "t": 1794129045188,
+   "v": 48,
+   "n": 41
+  },
+  {
+   "t": 1794132645188,
+   "v": 50,
+   "n": 45
+  },
+  {
+   "t": 1794136245188,
+   "v": 49,
+   "n": 49
+  },
+  {
+   "t": 1794139845188,
    "v": 49,
    "n": 46
   },
   {
-   "t": 1794131601149,
-   "v": 49,
-   "n": 47
-  },
-  {
-   "t": 1794135201149,
-   "v": 50,
-   "n": 57
-  },
-  {
-   "t": 1794138801149,
-   "v": 49,
-   "n": 42
-  },
-  {
-   "t": 1794142401149,
-   "v": 51,
+   "t": 1794143445188,
+   "v": 53,
    "n": 61
   },
   {
-   "t": 1794146001149,
+   "t": 1794147045188,
+   "v": 53,
+   "n": 60
+  },
+  {
+   "t": 1794150645188,
+   "v": 52,
+   "n": 58
+  },
+  {
+   "t": 1794154245188,
+   "v": 51,
+   "n": 47
+  },
+  {
+   "t": 1794157845188,
+   "v": 53,
+   "n": 42
+  },
+  {
+   "t": 1794161445188,
    "v": 55,
-   "n": 59
+   "n": 54
   },
   {
-   "t": 1794149601149,
+   "t": 1794165045188,
    "v": 54,
-   "n": 75
+   "n": 60
   },
   {
-   "t": 1794153201149,
-   "v": 51,
-   "n": 77
+   "t": 1794168645188,
+   "v": 49,
+   "n": 78
   },
   {
-   "t": 1794156801149,
-   "v": 50,
-   "n": 86
+   "t": 1794172245188,
+   "v": 49,
+   "n": 98
   },
   {
-   "t": 1794160401149,
-   "v": 52,
-   "n": 104
+   "t": 1794175845188,
+   "v": 49,
+   "n": 103
   },
   {
-   "t": 1794164001149,
-   "v": 52,
-   "n": 100
-  },
-  {
-   "t": 1794167601149,
-   "v": 51,
-   "n": 104
-  },
-  {
-   "t": 1794171201149,
-   "v": 50,
-   "n": 104
-  },
-  {
-   "t": 1794174801149,
+   "t": 1794179445188,
    "v": 48,
-   "n": 139
+   "n": 111
   },
   {
-   "t": 1794178401149,
-   "v": 47,
-   "n": 106
+   "t": 1794183045188,
+   "v": 48,
+   "n": 98
+  },
+  {
+   "t": 1794186645188,
+   "v": 45,
+   "n": 130
+  },
+  {
+   "t": 1794190245188,
+   "v": 46,
+   "n": 92
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 17
+   "items": 16
   },
   {
    "n": "Al Jazeera",
@@ -1373,7 +1357,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 32
+   "items": 30
   },
   {
    "n": "Sky News",
@@ -1389,27 +1373,27 @@
   },
   {
    "n": "CNBC",
-   "items": 24
+   "items": 23
   },
   {
    "n": "Euronews",
-   "items": 25
-  },
-  {
-   "n": "NYT",
-   "items": 29
-  },
-  {
-   "n": "Washington Post",
-   "items": 7
-  },
-  {
-   "n": "CBS News",
    "items": 22
   },
   {
-   "n": "ABC News",
+   "n": "NYT",
+   "items": 27
+  },
+  {
+   "n": "Washington Post",
+   "items": 9
+  },
+  {
+   "n": "CBS News",
    "items": 24
+  },
+  {
+   "n": "ABC News",
+   "items": 18
   },
   {
    "n": "CNN",
@@ -1417,11 +1401,11 @@
   },
   {
    "n": "Fox News",
-   "items": 3
+   "items": 5
   },
   {
    "n": "ABC Australia",
-   "items": 19
+   "items": 20
   },
   {
    "n": "CNA",
@@ -1433,7 +1417,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 20
+   "items": 0
   },
   {
    "n": "Arab News",
@@ -1441,7 +1425,7 @@
   },
   {
    "n": "Africanews",
-   "items": 15
+   "items": 14
   },
   {
    "n": "Kyiv Independent",
@@ -1449,7 +1433,7 @@
   },
   {
    "n": "Yonhap",
-   "items": 34
+   "items": 40
   },
   {
    "n": "Nikkei Asia",
@@ -1477,7 +1461,7 @@
   },
   {
    "n": "Japan Times",
-   "items": 25
+   "items": 30
   },
   {
    "n": "Reuters",
@@ -1490,6 +1474,7 @@
  ],
  "failed": [
   "Times of Israel",
+  "Middle East Eye",
   "Arab News",
   "The Diplomat"
  ]

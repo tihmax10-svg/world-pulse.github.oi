@@ -1,18 +1,18 @@
 {
- "updated": 1794352322578,
+ "updated": 1794365179698,
  "demo": false,
- "total_articles": 719,
+ "total_articles": 720,
  "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 46
+   "v": 49
   },
   {
    "n": "Al Jazeera",
-   "v": 52
+   "v": 54
   },
   {
    "n": "DW",
@@ -20,15 +20,15 @@
   },
   {
    "n": "France 24",
-   "v": 50
+   "v": 52
   },
   {
    "n": "The Guardian",
-   "v": 53
+   "v": 50
   },
   {
    "n": "Sky News",
-   "v": 70
+   "v": 63
   },
   {
    "n": "NPR",
@@ -36,15 +36,15 @@
   },
   {
    "n": "UN News",
-   "v": 56
+   "v": 59
   },
   {
    "n": "CNBC",
-   "v": 45
+   "v": 42
   },
   {
    "n": "Euronews",
-   "v": 49
+   "v": 47
   },
   {
    "n": "NYT",
@@ -52,15 +52,15 @@
   },
   {
    "n": "Washington Post",
-   "v": 45
+   "v": 43
   },
   {
    "n": "CBS News",
-   "v": 54
+   "v": 52
   },
   {
    "n": "ABC News",
-   "v": 53
+   "v": 62
   },
   {
    "n": "CNN",
@@ -68,27 +68,31 @@
   },
   {
    "n": "Fox News",
-   "v": 58
+   "v": 63
   },
   {
    "n": "ABC Australia",
-   "v": 41
+   "v": 43
   },
   {
    "n": "CNA",
-   "v": 45
+   "v": 42
   },
   {
-   "n": "Africanews",
+   "n": "Middle East Eye",
    "v": 51
   },
   {
+   "n": "Africanews",
+   "v": 52
+  },
+  {
    "n": "Kyiv Independent",
-   "v": 50
+   "v": 54
   },
   {
    "n": "Yonhap",
-   "v": 45
+   "v": 43
   },
   {
    "n": "Nikkei Asia",
@@ -96,7 +100,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 41
+   "v": 39
   },
   {
    "n": "Dawn",
@@ -116,15 +120,15 @@
   },
   {
    "n": "Japan Times",
-   "v": 47
+   "v": 48
   },
   {
    "n": "Reuters",
-   "v": 43
+   "v": 44
   },
   {
    "n": "AP",
-   "v": 41
+   "v": 43
   }
  ],
  "regions": [
@@ -134,11 +138,11 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 55
+   "v": 56
   },
   {
    "n": "Азия",
-   "v": 44
+   "v": 42
   },
   {
    "n": "Африка",
@@ -146,66 +150,38 @@
   },
   {
    "n": "Америка",
-   "v": 46
+   "v": 47
   }
  ],
  "events": [
   {
-   "t": "Палата представителей США начала голосование по предложению об импичменте Питу Хегсету",
-   "x": "Министра обороны обвинили в развязывании войны с Ираном без необходимого одобрения Конгресса.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 93,
-   "ten": 56,
-   "ago": 5,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "CNBC",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/7e5c890c-dd28-11f1-a6c4-3f371022a770/w:1024/p:16x9/capture-e7e447f9.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 6,
-   "lat": 39.06,
-   "lon": -98.92,
-   "place": "США",
-   "place_en": "United States",
-   "id": 1,
-   "t_en": "US House begins vote on motion to advance impeachment of Pete Hegseth",
-   "x_en": "Defence Secretary has been accused of spearheading war on Iran without required congressional approval."
-  },
-  {
-   "t": "ФБР расследует дело генерального директора Nvidia о романе с предполагаемым китайским шпионом",
-   "x": "Дональд Трамп заявил, что ФБР расследует дело генерального директора Nvidia Дженсена Хуанга с предполагаемым китайским шпионом, но настаивал на том, что он \"очень благородный человек\".",
+   "t": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+   "x": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China.",
    "r": "Америка",
    "c": "Наука",
    "imp": 91,
    "ten": 40,
    "ago": 1,
    "s": [
-    "Sky News",
+    "BBC",
     "CNBC",
     "Washington Post",
     "CBS News",
     "Nikkei Asia",
-    "AP"
+    "Times of India"
    ],
-   "u": "https://news.sky.com/story/fbi-to-investigate-nvidia-ceo-over-affair-with-alleged-chinese-spy-trump-says-13610382",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343",
-   "img_src": "Sky News",
+   "u": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4d6c/live/e7ad5400-dd59-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
    "fresh": true,
-   "n": 7,
-   "lat": 34.1,
-   "lon": 102.65,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 2,
-   "t_en": "FBI investigating Nvidia CEO over affair with alleged Chinese spy",
-   "x_en": "Donald Trump has said the FBI is looking into Nvidia CEO Jensen Huang's affair with an alleged Chinese spy - but insisted he is a \"very honourable man\"."
+   "n": 6,
+   "lat": 40.36,
+   "lon": -97.65,
+   "place": "США",
+   "place_en": "United States",
+   "id": 1,
+   "t_en": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+   "x_en": "The appointment was made after it emerged Jensen Huang had an affair with a woman believed to be a spy for China."
   },
   {
    "t": "Профицит торгового баланса Китая рекордными темпами превысил 1 триллион долларов",
@@ -230,105 +206,18 @@
    "lon": 102.53,
    "place": "Китай",
    "place_en": "China",
-   "id": 3,
+   "id": 2,
    "t_en": "China’s Trade Surplus Passes $1 Trillion at Record Pace",
    "x_en": "China’s factories are finding eager buyers worldwide, but the export boom is raising concerns about its impact on trading partner nations."
-  },
-  {
-   "t": "Трамп заявил, что ФБР расследует дело босса Nvidia с предполагаемым китайским шпионом",
-   "x": "Президент США сказал, что разговаривал с Дженсеном Хуангом в понедельник и спросил его о романе с предполагаемым шпионом.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 90,
-   "ten": 40,
-   "ago": 5,
-   "s": [
-    "BBC",
-    "CNBC",
-    "Euronews",
-    "Washington Post",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/123a/live/434e87b0-dcd9-11f1-a701-fddedf244c16.png",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 6,
-   "lat": 38.6,
-   "lon": -97.31,
-   "place": "США",
-   "place_en": "United States",
-   "id": 4,
-   "t_en": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-   "x_en": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy."
-  },
-  {
-   "t": "Республиканцы избрали союзника Трампа Джима Джордана новым лидером меньшинства в Палате представителей США",
-   "x": "Конгрессмен из Огайо Джим Джордан сменит Майка Джонсона на посту лидера меньшинства Республиканской партии, обещая единство и мощную оппозицию.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 90,
-   "ten": 40,
-   "ago": 9,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Guardian",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/10/republicans-elect-trump-ally-jim-jordan-as-new-us-house-minority-leader?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/06f33884-dd55-11f1-8edc-29048b396e03/w:1024/p:16x9/AP26314801252851.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 6,
-   "lat": 40.32,
-   "lon": -97.22,
-   "place": "США",
-   "place_en": "United States",
-   "id": 5,
-   "t_en": "Republicans elect Trump ally Jim Jordan as new US House minority leader",
-   "x_en": "Ohio Congressman Jim Jordan to succeed Mike Johnson as GOP minority leader, promising unity and a robust opposition."
-  },
-  {
-   "t": "В Великобритании арестован американский солдат по подозрению в шпионаже в пользу России",
-   "x": "Столичная полиция Лондона заявляет, что ее «контртеррористические» силы тесно сотрудничали с ФБР и военными США, чтобы произвести арест.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 90,
-   "ten": 54,
-   "ago": 20,
-   "s": [
-    "Al Jazeera",
-    "NYT",
-    "Washington Post",
-    "CBS News",
-    "ABC News",
-    "Fox News",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/11/10/multimedia/10int-uk-soldier-1-qlpj/10int-uk-soldier-1-qlpj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 7,
-   "lat": 39.52,
-   "lon": -99.89,
-   "place": "США",
-   "place_en": "United States",
-   "id": 6,
-   "t_en": "US soldier arrested in UK on suspicion of spying for Russia",
-   "x_en": "London Metropolitan Police says its 'counterterror' forces worked closely with the FBI and US military to make arrest."
   },
   {
    "t": "Отец Меган Томас Маркл снова находится под стражей после того, как якобы снял монитор с лодыжки",
    "x": "82-летний мужчина был помещен под домашний арест во Флориде на прошлой неделе после того, как ему было предъявлено обвинение в хранении материалов о сексуальном насилии над детьми.",
    "r": "Америка",
    "c": "Общее",
-   "imp": 86,
+   "imp": 91,
    "ten": 42,
-   "ago": 35,
+   "ago": 5,
    "s": [
     "BBC",
     "The Guardian",
@@ -336,7 +225,7 @@
     "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2a13/live/1b8d2f10-dd47-11f1-9ac0-6b8f7fc58221.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5b0e/live/040fc640-dd79-11f1-93e1-3b657b665bcf.jpg",
    "img_src": "BBC",
    "fresh": true,
    "n": 4,
@@ -344,159 +233,172 @@
    "lon": -97.36,
    "place": "США",
    "place_en": "United States",
-   "id": 7,
+   "id": 3,
    "t_en": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
    "x_en": "The 82-year-old was placed under house detention in Florida last week after being charged over possession of child sex abuse material."
   },
   {
-   "t": "Австралия введет обязательную отчетность после взлома OpenAI для борьбы с искусственным интеллектом, который «стал мошенником»",
-   "x": "Правительство отмечает изменения в уголовном законодательстве, чтобы гарантировать, что компании не смогут в будущем утверждать, что «кто-то не знал, что компьютер загружен». Получайте нашу ежедневную политическую электронную почту, бесплатное приложение или ежедневный подкаст новостей OpenAI не будет подвергаться уголовному наказанию за данные Medicare.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 80,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "The Guardian",
-    "NYT",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
-   "img": "https://i.guim.co.uk/img/media/dffa89dc77a6bbaad44df383335bad241ee8e4ac/250_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=b42e389124df3290c58d0b8509c30061",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": -25.42,
-   "lon": 135.27,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 8,
-   "t_en": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
-   "x_en": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ Get our daily political email , free app or daily news podcast OpenAI will not face criminal penalties over the Medicare data bre"
-  },
-  {
-   "t": "Рубио заявил, что нет необходимости в крупных боевых операциях против Ирана",
-   "x": "Госсекретарь США Марко Рубио заявил, что в дальнейших крупных боевых операциях против Ирана «нет необходимости»",
+   "t": "Rubio Says ‘Major Combat Operations’ in Iran War Are No Longer Needed",
+   "x": "The U.S. secretary of state said that American economic pressure is doing sufficient damage to the leadership in Tehran.",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 79,
+   "imp": 91,
    "ten": 51,
-   "ago": 104,
+   "ago": 10,
    "s": [
-    "Al Jazeera",
     "NYT",
     "CBS News",
+    "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/10/rubio-says-no-need-for-major-combat-operations-against-iran?traffic_source=rss",
+   "u": "https://www.nytimes.com/2026/11/10/us/politics/rubio-iran-war.html",
    "img": "https://static01.nyt.com/images/2026/11/10/multimedia/10DC-RUBIO-bjgk/10DC-RUBIO-bjgk-mediumSquareAt3X.jpg",
    "img_src": "NYT",
-   "fresh": false,
+   "fresh": true,
    "n": 4,
-   "lat": 31.91,
-   "lon": 54.39,
+   "lat": 32.67,
+   "lon": 52.86,
    "place": "Иран",
    "place_en": "Iran",
-   "id": 9,
-   "t_en": "Rubio says no need for major combat operations against Iran",
-   "x_en": "US Secretary of State Marco Rubio says there is “no need” for further major combat operations against Iran"
+   "id": 4,
+   "t_en": "Rubio Says ‘Major Combat Operations’ in Iran War Are No Longer Needed",
+   "x_en": "The U.S. secretary of state said that American economic pressure is doing sufficient damage to the leadership in Tehran."
   },
   {
-   "t": "В Мексике убита 7-летняя американская девочка; власти расследуют причастность полиции",
-   "x": "В прошлом месяце ребенок был застрелен во время военной и полицейской операции по задержанию предполагаемого торговца наркотиками в приграничном городе Матаморос.",
+   "t": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+   "x": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
    "r": "Америка",
-   "c": "Конфликты",
-   "imp": 76,
-   "ten": 80,
-   "ago": 72,
-   "s": [
-    "Washington Post",
-    "CBS News",
-    "Fox News"
-   ],
-   "u": "https://www.washingtonpost.com/world/2026/11/09/7-year-old-american-girl-killed-mexico-authorities-probe-police-involvement/",
-   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/matamoros-mexico-rio-grande-border.jpg?ve=1&tl=1",
-   "img_src": "Fox News",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.36,
-   "lon": -97.6,
-   "place": "США",
-   "place_en": "United States",
-   "id": 10,
-   "t_en": "7-year-old American girl killed in Mexico; authorities probe police involvement",
-   "x_en": "The child was shot to death during a military and police operation last month to detain an alleged drug trafficker in the border city of Matamoros."
-  },
-  {
-   "t": "Первый день мирных переговоров по Украине конструктивен, заявил Зеленский",
-   "x": "Делегации из Киева, Вашингтона и Москвы находятся в Объединенных Арабских Эмиратах для первых трехсторонних переговоров с февраля.",
-   "r": "Европа",
    "c": "Политика",
-   "imp": 76,
-   "ten": 34,
-   "ago": 110,
-   "s": [
-    "BBC",
-    "NPR",
-    "Washington Post",
-    "Africanews",
-    "Kyiv Independent",
-    "The Hindu",
-    "Politico EU",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4d8b/live/22dad050-dd25-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 8,
-   "lat": 49.23,
-   "lon": 30.57,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 11,
-   "t_en": "First day of Ukraine peace talks constructive, Zelensky says",
-   "x_en": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first trilateral talks since February."
-  },
-  {
-   "t": "Израильские военные убили палестинского мальчика на Западном Берегу, сообщает министерство здравоохранения",
-   "x": "Израильские военные заявляют, что их солдаты открыли огонь по людям, «которые намеревались швырять камни» в дорогу, используемую израильтянами.",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 73,
-   "ten": 87,
-   "ago": 254,
+   "imp": 89,
+   "ten": 49,
+   "ago": 20,
    "s": [
     "BBC",
     "Al Jazeera",
+    "France 24",
+    "CNBC",
+    "Middle East Eye",
     "Dawn",
-    "The Hindu"
+    "The Hindu",
+    "Japan Times",
+    "Reuters",
+    "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cbd6/live/72504f00-dcf5-11f1-93e1-3b657b665bcf.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5391/live/eb55ba30-dd67-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
+   "fresh": true,
+   "n": 10,
+   "lat": 39.43,
+   "lon": -99.74,
+   "place": "США",
+   "place_en": "United States",
+   "id": 5,
+   "t_en": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+   "x_en": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year."
+  },
+  {
+   "t": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
+   "x": "The men, including one who is already in jail, face charges over alleged plot at UK air base used in US war on Iran.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 89,
+   "ten": 67,
+   "ago": 39,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Middle East Eye",
+    "The Hindu",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/171ed8f2-bbb4-11f1-8d96-8f3418d01115/w:1024/p:16x9/57dc9c551e76668bc449a277499265d5ddae0db3.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 6,
+   "lat": 39.99,
+   "lon": -98.46,
+   "place": "США",
+   "place_en": "United States",
+   "id": 6,
+   "t_en": "US charges 3 ‘Iranian-backed’ men over alleged plot at UK Fairford air base",
+   "x_en": "The men, including one who is already in jail, face charges over alleged plot at UK air base used in US war on Iran."
+  },
+  {
+   "t": "Reported Iran threat sees U.S. move planes from second U.K. base",
+   "x": "Сообщения о передвижении произошли чуть более чем через месяц после инцидента с безопасностью на отдельной авиабазе, где размещались американские самолеты, использовавшиеся в войне с Ираном.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 85,
+   "ten": 91,
+   "ago": 113,
+   "s": [
+    "CBS News",
+    "ABC News",
+    "Fox News",
+    "Japan Times"
+   ],
+   "u": "https://www.cbsnews.com/news/raf-mildenhall-us-tanker-relocation-iran-threat-military-aircraft-moved/",
+   "img": "https://s.abcnews.com/images/US/wirestory_18294a0abfe39c04c2e4f5b520ea8586_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": false,
    "n": 4,
-   "lat": 31.84,
-   "lon": 35.56,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 12,
-   "t_en": "Israeli forces kill Palestinian boy in West Bank, health ministry says",
-   "x_en": "The Israeli military says its soldiers opened fire at individuals “who intended to hurl stones” at a road used by Israelis."
+   "lat": 32.74,
+   "lon": 54.48,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 7,
+   "t_en": "Reported Iran threat sees U.S. move planes from second U.K. base",
+   "x_en": "The reported movement comes just over a month after a security incident at a separate air base hosting U.S. aircraft used in the war with Iran."
+  },
+  {
+   "t": "US Army soldier suspected of spying for Russia arrested in UK",
+   "x": "The 41-year-old senior soldier is accused of national security offences and is being questioned in London.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 84,
+   "ten": 56,
+   "ago": 73,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "NYT",
+    "Washington Post",
+    "CBS News",
+    "ABC News",
+    "Fox News",
+    "Times of India",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c66f/live/939c6190-dd44-11f1-9ac0-6b8f7fc58221.png",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 11,
+   "lat": 39.37,
+   "lon": -99.15,
+   "place": "США",
+   "place_en": "United States",
+   "id": 8,
+   "t_en": "US Army soldier suspected of spying for Russia arrested in UK",
+   "x_en": "The 41-year-old senior soldier is accused of national security offences and is being questioned in London."
   },
   {
    "t": "Аргентина: Папа Лев XIV служит мессу перед 650 000 человек в Кордове",
    "x": "Папа Лев XIV отслужил мессу перед примерно 650 000 человек в Кордове, Аргентина. Понтифик приветствовал толпу из своего папемобиля, а затем призвал верующих открыть свои сердца и принять свою веру.",
    "r": "Америка",
    "c": "Общее",
-   "imp": 71,
+   "imp": 82,
    "ten": 32,
-   "ago": 53,
+   "ago": 59,
    "s": [
     "Euronews",
+    "ABC News",
     "Africanews",
-    "Reuters"
+    "AP"
    ],
    "u": "https://www.euronews.com/video/2026/11/10/argentina-pope-leo-xiv-celebrates-mass-before-650000-in-cordoba",
    "img": "https://images.euronews.com/articles/stories/09/98/76/86/696x392_cmsv2_f259e251-91d1-59ad-b716-e00c2bab4146-9987686.jpg",
@@ -507,59 +409,223 @@
    "lon": -66.47,
    "place": "Аргентина",
    "place_en": "Argentina",
-   "id": 13,
+   "id": 9,
    "t_en": "Argentina: Pope Leo XIV celebrates Mass before 650,000 in Córdoba",
    "x_en": "Pope Leo XIV celebrated Mass before an estimated 650,000 people in Córdoba, Argentina. The pontiff greeted crowds from his popemobile before urging worshippers to open their hearts and embrace their faith."
   },
   {
-   "t": "Япония поставит Филиппинам береговые радары и дроны по сделке на 27 миллионов долларов",
-   "x": "Япония заявила, что предоставит Филиппинам береговую радиолокационную систему и беспилотные самолеты в рамках соглашения о помощи в области безопасности, поскольку обе страны сталкиваются с растущей напряженностью в отношениях с Китаем.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 70,
-   "ten": 48,
-   "ago": 1,
+   "t": "Spain holds state funeral for 69 victims of deadly train crash",
+   "x": "Spain’s King and Queen have joined families of the 69 victims from a deadly train collision at a state funeral.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 66,
+   "ago": 124,
    "s": [
+    "Al Jazeera",
+    "Euronews",
     "ABC News",
-    "Nikkei Asia"
+    "Africanews"
    ],
-   "u": "https://abcnews.com/International/wireStory/japan-provide-coastal-radar-drones-philippines-27m-deal-137975977",
-   "img": "https://s.abcnews.com/images/International/wirestory_fe32ef6b4c11bb348bb4d5df253a8378_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": 37.13,
-   "lon": 137.92,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 14,
-   "t_en": "Japan to provide coastal radar and drones to the Philippines under $27M deal",
-   "x_en": "Japan said it will provide a coastal radar system and unmanned aircraft to the Philippines under a security aid deal, as both countries face growing tensions with China"
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-holds-state-funeral-for-69-victims-of-deadly-train-crash?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/98/76/99/696x392_cmsv2_5995a6cf-cf5a-5dbd-9cac-e27ff30dec9f-9987699.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.57,
+   "lon": -4.92,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 10,
+   "t_en": "Spain holds state funeral for 69 victims of deadly train crash",
+   "x_en": "Spain’s King and Queen have joined families of the 69 victims from a deadly train collision at a state funeral."
   },
   {
-   "t": "Honda построит первый за два десятилетия автомобильный завод в США, поскольку спрос на гибриды растет",
-   "x": "В понедельник автопроизводитель объявил, что новый завод начнет производство в 2029 году и увеличит выпуск на 240 000 автомобилей в год.",
-   "r": "Америка",
+   "t": "Nine seriously injured in South Korea bus crash involving 32 vehicles",
+   "x": "SEONGNAM, South Korea, Nov. 11 (Yonhap) -- A bus plowed into more than 30 vehicl...",
+   "r": "Азия",
    "c": "Общее",
-   "imp": 68,
+   "imp": 78,
    "ten": 40,
-   "ago": 1,
+   "ago": 8,
    "s": [
-    "Nikkei Asia",
-    "Japan Times"
+    "CNA",
+    "Yonhap",
+    "Times of India"
    ],
-   "u": "https://asia.nikkei.com/business/automobiles/honda-to-build-first-us-auto-plant-in-2-decades-as-hybrid-demand-rises",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/10/thumbs/400x400/573103.jpg",
-   "img_src": "Japan Times",
+   "u": "https://www.channelnewsasia.com/east-asia/south-korea-bus-crash-bundang-6541546",
+   "img": "https://dam.mediacorp.sg/image/upload/s--MYf6ipVD--/c_crop,h_285,w_506,x_0,y_134/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-11T014733Z_1_LYNXNPEMAA03O_RTROPTP_3_SOUTHKOREA-CRASH.JPG?itok=gQkUdQ1e",
+   "img_src": "CNA",
    "fresh": true,
-   "n": 2,
-   "lat": 38.84,
-   "lon": -99.07,
+   "n": 3,
+   "lat": 36.37,
+   "lon": 126.57,
+   "place": "Южная Корея",
+   "place_en": "South Korea",
+   "id": 11,
+   "t_en": "Nine seriously injured in South Korea bus crash involving 32 vehicles",
+   "x_en": "SEONGNAM, South Korea, Nov. 11 (Yonhap) -- A bus plowed into more than 30 vehicl..."
+  },
+  {
+   "t": "US Treasury chief moved to military base after alleged Iranian threats: Report",
+   "x": "US Treasury Secretary Scott Bessent has been recently moved out of his home and onto a ​military base after alleged Iranian threats against his ‌life, according to a report by the the New York Times. In a memo seen by Reuters, a senior intelligence official in",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 76,
+   "ten": 68,
+   "ago": 60,
+   "s": [
+    "Middle East Eye",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-treasury-chief-moved-military-base-after-alleged-iranian-threats",
+   "img": "https://th-i.thgim.com/public/incoming/qejdoe/article71688106.ece/alternates/LANDSCAPE_1200/Fraud_Minnesota_14_74.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.72,
+   "lon": -98.82,
+   "place": "США",
+   "place_en": "United States",
+   "id": 12,
+   "t_en": "US Treasury chief moved to military base after alleged Iranian threats: Report",
+   "x_en": "US Treasury Secretary Scott Bessent has been recently moved out of his home and onto a ​military base after alleged Iranian threats against his ‌life, according to a report by the the New York Times. In a memo seen by Reuters, a senior intelligence official in"
+  },
+  {
+   "t": "Haiti PM praises Bukele after Salvadoran troops help destroy gang headquarters",
+   "x": "Haitian Prime Minister Alix Didier Fils-Aime praised Salvadoran President Nayib Bukele on Tuesday after Salvadoran troops destroyed a suspected gang leader’s home. Bukele’s deployment of more than 2,000 soldiers following four Salvadoran troops’ disappearance ",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 76,
+   "ten": 74,
+   "ago": 65,
+   "s": [
+    "France 24",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/americas/20261111-haiti-pm-bukele-salvadoran-troops-gang-headquarters",
+   "img": "https://s.france24.com/media/display/f1aee624-ca5f-11f1-9703-2d1c143cdef3/w:1024/p:16x9/0e11583f28144520743216b0a094429675ab8b18.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 18.26,
+   "lon": -72.7,
+   "place": "Гаити",
+   "place_en": "Haiti",
+   "id": 13,
+   "t_en": "Haiti PM praises Bukele after Salvadoran troops help destroy gang headquarters",
+   "x_en": "Haitian Prime Minister Alix Didier Fils-Aime praised Salvadoran President Nayib Bukele on Tuesday after Salvadoran troops destroyed a suspected gang leader’s home. Bukele’s deployment of more than 2,000 soldiers following four Salvadoran troops’ disappearance "
+  },
+  {
+   "t": "Pope Leo XIV visits Argentina in second leg of Latin American tour",
+   "x": "Pope Leo XIV visited Argentina on the second leg of his South American tour, following a stop in Uruguay. During his visit, he celebrated public Masses, met with the faithful and held talks with religious and government leaders. Peru is the final stop on the p",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 76,
+   "ten": 27,
+   "ago": 98,
+   "s": [
+    "France 24",
+    "Euronews",
+    "CBS News",
+    "Africanews"
+   ],
+   "u": "https://www.france24.com/en/video/20261110-pope-leo-xiv-visits-argentina-in-second-leg-of-latin-american-tour",
+   "img": "https://s.france24.com/media/display/8dffda2c-dd22-11f1-bed1-29048b396e03/w:1024/p:16x9/capture-f018111e.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": -34.32,
+   "lon": -64.11,
+   "place": "Аргентина",
+   "place_en": "Argentina",
+   "id": 14,
+   "t_en": "Pope Leo XIV visits Argentina in second leg of Latin American tour",
+   "x_en": "Pope Leo XIV visited Argentina on the second leg of his South American tour, following a stop in Uruguay. During his visit, he celebrated public Masses, met with the faithful and held talks with religious and government leaders. Peru is the final stop on the p"
+  },
+  {
+   "t": "Trump ally Jim Jordan elected House Republican leader after midterm defeat",
+   "x": "Jim Jordan, a hardline ally of President Donald Trump, was elected US House Republican leader on Tuesday, defeating Steve Scalise 106-73 in a secret ballot, US media reported. He replaces Mike Johnson after Republicans lost both chambers of Congress in last we",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 70,
+   "ten": 40,
+   "ago": 75,
+   "s": [
+    "France 24",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/americas/20261110-trump-jim-jordan-elected-house-republican-leader-midterm-defeat",
+   "img": "https://s.france24.com/media/display/06f33884-dd55-11f1-8edc-29048b396e03/w:1024/p:16x9/AP26314801252851.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.93,
+   "lon": -98.77,
    "place": "США",
    "place_en": "United States",
    "id": 15,
-   "t_en": "Honda to build first US auto plant in 2 decades as hybrid demand rises",
-   "x_en": "The automaker announced on Monday the new plant will start production in 2029 and expand its output by 240,000 vehicles a year."
+   "t_en": "Trump ally Jim Jordan elected House Republican leader after midterm defeat",
+   "x_en": "Jim Jordan, a hardline ally of President Donald Trump, was elected US House Republican leader on Tuesday, defeating Steve Scalise 106-73 in a secret ballot, US media reported. He replaces Mike Johnson after Republicans lost both chambers of Congress in last we"
+  },
+  {
+   "t": "Трамп заявил, что ФБР расследует дело босса Nvidia с предполагаемым китайским шпионом",
+   "x": "Президент США сказал, что разговаривал с Дженсеном Хуангом в понедельник и спросил его о романе с предполагаемым шпионом.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 70,
+   "ten": 40,
+   "ago": 194,
+   "s": [
+    "BBC",
+    "Sky News",
+    "Euronews",
+    "Washington Post",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/123a/live/434e87b0-dcd9-11f1-a701-fddedf244c16.png",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 6,
+   "lat": 38.6,
+   "lon": -97.31,
+   "place": "США",
+   "place_en": "United States",
+   "id": 16,
+   "t_en": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+   "x_en": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy."
+  },
+  {
+   "t": "Глава Пентагона Пит Хегсет назвал процедуру импичмента «фарсом»",
+   "x": "Министр обороны США Пит Хегсет во вторник, 10 ноября, назвал попытку привлечь его к ответственности за злоупотребление властью в иранской войне фарсом и саботажем, играющим на руку противникам. Обозреватель телеканала FRANCE 24 по международным делам Дуглас Герберт высказал больше",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 46,
+   "ago": 216,
+   "s": [
+    "France 24",
+    "Dawn",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/video/20261110-us-pentagon-chief-pete-hegseth-calls-impeachment-moves-a-farce",
+   "img": "https://s.france24.com/media/display/7e5c890c-dd28-11f1-a6c4-3f371022a770/w:1024/p:16x9/capture-e7e447f9.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.08,
+   "lon": -76.88,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 17,
+   "t_en": "US Pentagon chief Pete Hegseth calls impeachment moves 'a farce'",
+   "x_en": "US Defence Secretary Pete Hegseth on Tuesday, November 10, called an effort to impeach him over ​abuse of power in the Iran war a farce and sabotage that plays into the hands of adversaries. FRANCE 24's International Affairs Commentator Douglas Herbert has mor"
   },
   {
    "t": "Интеграция между АСЕАН, Китаем, Японией и Южной Кореей стимулируется бумом искусственного интеллекта",
@@ -582,192 +648,214 @@
    "lon": 128.28,
    "place": "Южная Корея",
    "place_en": "South Korea",
-   "id": 16,
+   "id": 18,
    "t_en": "Integration among ASEAN, China, Japan, South Korea boosted by AI boom",
    "x_en": "Washington's trust in the South Korean government on intelligence matters seems increasingly fragile."
   },
   {
-   "t": "FDA предупреждает о риске потери зрения, связанном с популярными препаратами GLP-1, такими как Wegovy, Zepbound",
-   "x": "Агентство обнаружило доказательства потенциального повышенного риска редкого заболевания глаз, связанного с использованием препаратов GLP-1, используемых для контроля веса и диабета.",
+   "t": "Australia Unveils New A.I. Regulator After OpenAI Breach",
+   "x": "The government is also considering changes to criminal law to penalize companies that develop models that “engage in harmful conduct.”",
    "r": "Мир",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "NYT",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.nytimes.com/2026/11/10/world/australia/ai-regulator-openai-hack-medicare.html",
+   "img": "https://static01.nyt.com/images/2026/11/10/multimedia/10int-oz-ai-kcbj/10int-oz-ai-kcbj-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": -24.58,
+   "lon": 134.45,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 19,
+   "t_en": "Australia Unveils New A.I. Regulator After OpenAI Breach",
+   "x_en": "The government is also considering changes to criminal law to penalize companies that develop models that “engage in harmful conduct.”"
+  },
+  {
+   "t": "Federal judge allows Trump’s $10bn defamation lawsuit against BBC to proceed",
+   "x": "Trump-appointed judge Jeffrey T Kuntz partially denies British broadcaster’s motion to dismiss over edit Federal judge Jeffrey T Kuntz ruled on Tuesday that Donald Trump’s lawsuit against the BBC can proceed, denying in part the British broadcaster’s motion to",
+   "r": "Америка",
    "c": "Общее",
    "imp": 68,
-   "ten": 48,
-   "ago": 9,
+   "ten": 40,
+   "ago": 87,
    "s": [
-    "CNBC",
-    "AP"
+    "The Guardian",
+    "The Hindu",
+    "Reuters"
    ],
-   "u": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108318105-1780924433940-gettyimages-2256411028-abnehmpille_heap3a.jpeg?v=1780924444&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 17,
-   "t_en": "FDA warns of vision loss risk linked to popular GLP-1 drugs like Wegovy, Zepbound",
-   "x_en": "The agency has found evidence of a potential increased risk of a rare eye condition linked to the use of GLP-1 drugs used for weight management and diabetes."
-  },
-  {
-   "t": "Мирные переговоры под руководством США для России и Украины будут посвящены гарантиям безопасности для обеих сторон",
-   "x": "Впервые с февраля российские, украинские и американские переговорщики проведут переговоры о прекращении полномасштабной войны, которая приближается к пятилетней отметке.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 68,
-   "ten": 18,
-   "ago": 63,
-   "s": [
-    "ABC News",
-    "Dawn",
-    "Politico EU"
-   ],
-   "u": "https://abcnews.com/International/wireStory/us-led-peace-talks-russia-ukraine-security-guarantees-137966016",
-   "img": "https://s.abcnews.com/images/International/wirestory_81537cce8daf84b24bf73a91addb6e9b_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.theguardian.com/us-news/2026/nov/10/trump-10bn-defamation-lawsuit-bbc-allowed",
+   "img": "https://i.guim.co.uk/img/media/456a998e975976898ff984ee0e99403b099a5195/238_0_2524_2020/master/2524.jpg?width=700&quality=85&auto=format&fit=max&s=ef0517a0d2cfb9ba604c29940d34eaad",
+   "img_src": "The Guardian",
    "fresh": false,
    "n": 3,
-   "lat": 38.6,
-   "lon": -98.26,
+   "lat": 39.61,
+   "lon": -99.67,
    "place": "США",
    "place_en": "United States",
-   "id": 18,
-   "t_en": "US-led peace talks for Russia and Ukraine will look at security guarantees for both sides",
-   "x_en": "For the first time since February, Russian, Ukrainian and U.S. negotiators are scheduled to hold talks on ending the full-scale war that is nearing its five-year mark"
+   "id": 20,
+   "t_en": "Federal judge allows Trump’s $10bn defamation lawsuit against BBC to proceed",
+   "x_en": "Trump-appointed judge Jeffrey T Kuntz partially denies British broadcaster’s motion to dismiss over edit Federal judge Jeffrey T Kuntz ruled on Tuesday that Donald Trump’s lawsuit against the BBC can proceed, denying in part the British broadcaster’s motion to"
   },
   {
-   "t": "Новый парламент Израиля приведен к присяге, поскольку лидеры конкурируют за формирование правительства",
-   "x": "Главный политический соперник Биньямина Нетаньяху, Гади Айзенкот, имеет первый шанс построить новое правительство и свергнуть премьер-министра.",
+   "t": "Former Iraqi lawmaker Ahmed al-Alwani found dead in Beirut",
+   "x": "Lebanese authorities launch a 'murder' investigation after al-Alwani's body is found in an apartment in Beirut.",
    "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 66,
-   "ten": 40,
-   "ago": 254,
+   "c": "Конфликты",
+   "imp": 67,
+   "ten": 66,
+   "ago": 39,
    "s": [
-    "BBC",
-    "Dawn",
-    "Reuters",
+    "Al Jazeera",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/36f9/live/603c9f80-dcf5-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 32.24,
-   "lon": 35.32,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 19,
-   "t_en": "Israel's new parliament sworn in as leaders compete to form government",
-   "x_en": "Benjamin Netanyahu's main political rival, Gadi Eisenkot, has first chance to build a new government and oust the prime minister."
+   "u": "https://www.aljazeera.com/news/2026/11/11/former-iraqi-awmaker-ahmed-al-alwani-found-dead-in-beirut?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20131228__Nic6279527__v3001__HighRes__IraqPoliticsUnrest-1794362793.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 33.99,
+   "lon": 35.66,
+   "place": "Бейрут",
+   "place_en": "Beirut",
+   "id": 21,
+   "t_en": "Former Iraqi lawmaker Ahmed al-Alwani found dead in Beirut",
+   "x_en": "Lebanese authorities launch a 'murder' investigation after al-Alwani's body is found in an apartment in Beirut."
   },
   {
    "t": "Франция обвинила Иран в массированной кибератаке на холодильники в супермаркетах",
    "x": "Франция обвинила Иран в причастности к массовой кибератаке на холодильники в супермаркетах в прошлом месяце.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 66,
-   "ten": 70,
-   "ago": 337,
+   "imp": 67,
+   "ten": 71,
+   "ago": 145,
    "s": [
     "Sky News",
-    "NYT",
-    "CBS News",
-    "The Hindu"
+    "Middle East Eye",
+    "Japan Times"
    ],
    "u": "https://news.sky.com/story/france-accuses-iran-of-being-behind-massive-cyber-attack-on-supermarket-fridges-13610319",
    "img": "https://e3.365dm.com/26/11/1920x1080/skynews-cyber-attack-freezer_7394827.jpg?20261109172457",
    "img_src": "Sky News",
    "fresh": false,
-   "n": 4,
+   "n": 3,
    "lat": 46.25,
    "lon": 2.26,
    "place": "Франция",
    "place_en": "France",
-   "id": 20,
+   "id": 22,
    "t_en": "France blames Iran for massive cyber attack on supermarket fridges",
    "x_en": "France has accused Iran of being behind the massive cyber attack on supermarket fridges last month."
   },
   {
-   "t": "Судью, вынесшего приговор Расселу Брэнду, похвалили за развенчание мифов об изнасиловании",
-   "x": "Коллегия адвокатов по уголовным делам и участники кампании приветствуют судью Беннатана за его высказывания с «пронзительной ясностью». Судья, вынесший приговор Расселу Брэнду, получил высокую оценку за развенчание мифов об изнасиловании с «пронзительной ясностью». Замечание судьи Беннатана о приговоре",
+   "t": "US calls for new Europe security framework as Russia, Ukraine hold first peace talks in 9 months",
+   "x": "A first day of US-led talks between Ukraine and Russia in Abu Dhabi ended on Tuesday, with Washington calling for a “new” security framework, as Europe fears US President Donald Trump plans a deal with Moscow on the continent’s future. Trump’s envoys Jared Kus",
    "r": "Европа",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 40,
-   "ago": 301,
+   "c": "Политика",
+   "imp": 66,
+   "ten": 18,
+   "ago": 77,
    "s": [
-    "The Guardian",
-    "NPR",
-    "Euronews",
-    "CBS News"
+    "Dawn",
+    "Politico EU",
+    "Japan Times"
    ],
-   "u": "https://www.theguardian.com/news/2026/nov/10/judge-sentenced-russell-brand-praised-rape-myths-justice-bennathan",
-   "img": "https://i.guim.co.uk/img/media/46eb2c81c0567f4915361e41a0acbe1de7ce177e/197_0_2027_1622/master/2027.jpg?width=700&quality=85&auto=format&fit=max&s=1e66d1420697e00dc18282faeb7a7eb2",
-   "img_src": "The Guardian",
+   "u": "https://www.dawn.com/news/2043580/us-calls-for-new-europe-security-framework-as-russia-ukraine-hold-first-peace-talks-in-9-months",
+   "img": "https://i.dawn.com/large/2026/11/1100434052b144c.webp",
+   "img_src": "Dawn",
    "fresh": false,
-   "n": 5,
-   "lat": 54.09,
-   "lon": -0.72,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 21,
-   "t_en": "Judge who sentenced Russell Brand praised for dispelling rape myths",
-   "x_en": "Criminal Bar Association and campaigners hail Mr Justice Bennathan for delivering remarks with ‘piercing clarity’ The judge who sentenced Russell Brand has been praised for dispelling rape myths with “piercing clarity”. Mr Justice Bennathan’s sentencing remark"
+   "n": 3,
+   "lat": 40.11,
+   "lon": -99.3,
+   "place": "США",
+   "place_en": "United States",
+   "id": 23,
+   "t_en": "US calls for new Europe security framework as Russia, Ukraine hold first peace talks in 9 months",
+   "x_en": "A first day of US-led talks between Ukraine and Russia in Abu Dhabi ended on Tuesday, with Washington calling for a “new” security framework, as Europe fears US President Donald Trump plans a deal with Moscow on the continent’s future. Trump’s envoys Jared Kus"
   },
   {
-   "t": "Берни Сандерс заявил, что не поддержит Шумера на посту лидера демократов в Сенате",
-   "x": "Прогрессивный сенатор говорит: «Мне нравится Чак… но настало время перемен», поскольку призывы к новому руководству Демократической партии растут. Берни Сандерс, прогрессивный сенатор от Вермонта, заявил во вторник, что не поддержит предложение Чака Шумера стать лидером Демократической партии.",
-   "r": "Мир",
+   "t": "Meghan Markle Makes First Public Appearance Since Her Father’s Arrest",
+   "x": "The Duchess of Sussex accompanied her husband, Prince Harry, in Brussels at an event about online safety for children.",
+   "r": "Европа",
    "c": "Общее",
-   "imp": 61,
+   "imp": 66,
+   "ten": 52,
+   "ago": 126,
+   "s": [
+    "NYT",
+    "CBS News",
+    "AP"
+   ],
+   "u": "https://www.nytimes.com/2026/11/10/world/europe/meghan-markle-brussels-speech-canceled-prince-harry.html",
+   "img": "https://static01.nyt.com/images/2026/11/10/multimedia/10meghan-promo-wpgm/10meghan-promo-wpgm-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 4,
+   "lat": 50.81,
+   "lon": 4.56,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 24,
+   "t_en": "Meghan Markle Makes First Public Appearance Since Her Father’s Arrest",
+   "x_en": "The Duchess of Sussex accompanied her husband, Prince Harry, in Brussels at an event about online safety for children."
+  },
+  {
+   "t": "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+   "x": "The US actor died in Poland on Tuesday, ‘after a long and difficult battle with a serious heart condition and heart failure’, his wife said Stacy Keach, one of America’s finest stage actors who became best known for playing scruffy private eye Mike Hammer on T",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 65,
    "ten": 40,
-   "ago": 56,
+   "ago": 23,
    "s": [
     "The Guardian",
     "AP"
    ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/10/bernie-sanders-chuck-schumer-senate-democrats",
-   "img": "https://i.guim.co.uk/img/media/3507584bfe24a03503e256b6bb28e002f6c8885c/300_0_3000_2401/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=e4d41292768e73f3d2e012c5abf9b148",
+   "u": "https://www.theguardian.com/tv-and-radio/2026/nov/11/stacy-keach-mike-hammer-actor-death-aged-85",
+   "img": "https://i.guim.co.uk/img/media/9944430fc40844dea8d893fac5b110b8145ff556/181_0_2639_2111/master/2639.jpg?width=700&quality=85&auto=format&fit=max&s=2728e1d11cbe831b75ddf7c4c9fdd852",
    "img_src": "The Guardian",
    "fresh": true,
    "n": 2,
-   "lat": 39.15,
-   "lon": -99.28,
+   "lat": 40.17,
+   "lon": -99.66,
    "place": "США",
    "place_en": "United States",
-   "id": 22,
-   "t_en": "Bernie Sanders says he will not back Schumer for Senate Democratic leader",
-   "x_en": "Progressive senator says ‘I like Chuck … but the time is now for change’ as calls grow for new Democratic leadership Bernie Sanders, a progressive senator from Vermont, said on Tuesday he would not support Chuck Schumer ’s bid to serve as the Democratic leader"
+   "id": 25,
+   "t_en": "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85",
+   "x_en": "The US actor died in Poland on Tuesday, ‘after a long and difficult battle with a serious heart condition and heart failure’, his wife said Stacy Keach, one of America’s finest stage actors who became best known for playing scruffy private eye Mike Hammer on T"
   },
   {
-   "t": "Подозреваемый в массовой стрельбе в Кракове, Польша, скончался в больнице. Вот что нужно знать.",
-   "x": "Девять человек погибли в результате стрельбы в Кракове и другом городе. Стрелявший скончался в больнице, его мотивы остаются неясными.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 84,
-   "ago": 253,
+   "t": "Eisenkot pushes October 7 inquiry as Netanyahu targets Arab parties in tense new parliament",
+   "x": "Gadi Eisenkot, the politician tasked with forming a new Israeli government, pledged on Tuesday to launch an official inquiry into Hamas's October 7, 2023 attacks and reverse many of Prime Minister Benjamin Netanyahu's policies as the new parliament was sworn i",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 64,
+   "ten": 46,
+   "ago": 145,
    "s": [
+    "France 24",
     "NYT",
-    "Washington Post",
-    "CBS News"
+    "Japan Times"
    ],
-   "u": "https://www.nytimes.com/2026/11/08/world/europe/poland-krakow-mass-shooting.html",
-   "img": "https://static01.nyt.com/images/2026/11/10/multimedia/10int-poland-new-lkct/10int-poland-new-lkct-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
+   "u": "https://www.france24.com/en/middle-east/20261110-eisenkot-pushes-october-7-inquiry-as-netanyahu-targets-arab-parties-in-tense-new-parliament",
+   "img": "https://s.france24.com/media/display/c3264e3e-dd4f-11f1-a6a1-3f371022a770/w:1024/p:16x9/AP26314586138425.jpg",
+   "img_src": "France 24",
    "fresh": false,
-   "n": 4,
-   "lat": 52.26,
-   "lon": 20.79,
-   "place": "Польша",
-   "place_en": "Poland",
-   "id": 23,
-   "t_en": "Suspect in Mass Shooting in Krakow, Poland, Dies in Hospital. Here’s What to Know.",
-   "x_en": "Nine people were dead after shootings in Krakow and another town. The gunman died in the hospital and his motive remains unclear."
+   "n": 3,
+   "lat": 31.02,
+   "lon": 36.14,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 26,
+   "t_en": "Eisenkot pushes October 7 inquiry as Netanyahu targets Arab parties in tense new parliament",
+   "x_en": "Gadi Eisenkot, the politician tasked with forming a new Israeli government, pledged on Tuesday to launch an official inquiry into Hamas's October 7, 2023 attacks and reverse many of Prime Minister Benjamin Netanyahu's policies as the new parliament was sworn i"
   },
   {
    "t": "Угроза ограничения торговли привела к тому, что экспорт стали из Японии упал до минимума за три десятилетия",
@@ -789,258 +877,208 @@
    "lon": 137.7,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 24,
+   "id": 27,
    "t_en": "Threat of trade curbs pushes Japan steel exports to three-decade low",
    "x_en": ""
   },
   {
-   "t": "Южная Корея добавила 139 000 рабочих мест в октябре, что превышает 100 000 за четвертый месяц",
-   "x": "СЕУЛ, 11 ноября (Рёнхап) – Южная Корея добавила 139 000 рабочих мест в октябре по сравнению с аналогичным периодом прошлого года...",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 60,
-   "ten": 40,
-   "ago": 12,
-   "s": [
-    "Yonhap"
-   ],
-   "u": "https://en.yna.co.kr/view/AEN20261111001200320",
-   "img": "https://img.yna.co.kr/photo/yna/YH/2026/11/10/PYH2026111013540005100_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": true,
-   "n": 2,
-   "lat": 37.83,
-   "lon": 126.79,
-   "place": "Сеул",
-   "place_en": "Seoul",
-   "id": 25,
-   "t_en": "S. Korea adds 139,000 jobs in October, above 100,000 for 4th month",
-   "x_en": "SEOUL, Nov. 11 (Yonhap) -- South Korea added 139,000 jobs in October from a year..."
-  },
-  {
-   "t": "Эммануэль и Бриджит Макрон подали новый иск о клевете против Кэндис Оуэнс",
-   "x": "Судебная тяжба обостряется, поскольку крайне правый американский подкастер продолжает распространять ложные утверждения о том, что первая леди Франции родилась мужчиной Эммануэль, а Бриджит Макрон подали новый иск о клевете против Кэндис Оуэнс в ее родном штате Теннесси, в результате эскалации.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 60,
-   "ten": 66,
-   "ago": 96,
-   "s": [
-    "The Guardian",
-    "Reuters"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/10/emmanuel-brigitte-macron-defamation-lawsuit-candace-owens",
-   "img": "https://i.guim.co.uk/img/media/7a8e989e327a3c3e7fb7035d5e8a018e93b44081/418_0_4164_3331/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=0becf900aa5ebd9b66d250207a2d15aa",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 2,
-   "lat": 46.76,
-   "lon": 1.01,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 26,
-   "t_en": "Emmanuel and Brigitte Macron file new defamation lawsuit against Candace Owens",
-   "x_en": "Legal battle escalates as far-right US podcaster continues to spread false claims that France’s first lady was born a man Emmanuel and Brigitte Macron have brought a fresh defamation lawsuit against Candace Owens in her home state of Tennessee, in an escalatio"
-  },
-  {
-   "t": "Российско-украинские переговоры «очень продуктивны», говорит Рубио из США – как это было",
-   "x": "Переговоры под руководством США в Абу-Даби прерываются через четыре часа, но, как ожидается, возобновятся завтра, поскольку Зеленский говорит, что обсуждались гуманитарные вопросы. Чиновники США стремятся к «окончательному прекращению» российско-украинской войны в начале переговоров. ЕС заявил, что готов «прийти с быстрым шагом».",
+   "t": "Первый день мирных переговоров по Украине конструктивен, заявил Зеленский",
+   "x": "Делегации из Киева, Вашингтона и Москвы находятся в Объединенных Арабских Эмиратах для первых трехсторонних переговоров с февраля.",
    "r": "Европа",
    "c": "Политика",
    "imp": 60,
-   "ten": 36,
-   "ago": 367,
+   "ten": 25,
+   "ago": 324,
    "s": [
-    "The Guardian",
-    "CBS News",
-    "ABC News",
-    "The Hindu"
+    "BBC",
+    "CNBC",
+    "Washington Post",
+    "Africanews",
+    "Kyiv Independent",
+    "Politico EU"
    ],
-   "u": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
-   "img": "https://i.guim.co.uk/img/media/774a5dca29c43ddae2d2e6ed0635d0a715d82ac7/1079_0_6831_5465/master/6831.jpg?width=700&quality=85&auto=format&fit=max&s=a18cee74683922bb27c08cbf2f9a87b0",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4d8b/live/22dad050-dd25-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 4,
-   "lat": 62.16,
-   "lon": 97.25,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 27,
-   "t_en": "Russia-Ukraine talks ‘very productive,’ says US’s Rubio – as it happened",
-   "x_en": "US-led talks in Abu Dhabi break up after four hours but are expected to resume tomorrow as Zelenskyy says humanitarian issues were discussed US officials seek ‘final end’ to Russia-Ukraine war as talks begin The EU has said it stands ready “to come with a swif"
-  },
-  {
-   "t": "Новые трехсторонние переговоры по войне на Украине в Абу-Даби: чего ожидать?",
-   "x": "Представители Украины и России в последний раз встречались в феврале для переговоров о прекращении войны, но каменные точки остаются теми же. Украина продолжает требовать гарантий безопасности, а это невыгодно для России.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 39,
-   "ago": 373,
-   "s": [
-    "DW",
-    "The Guardian",
-    "NPR",
-    "NYT",
-    "Washington Post"
-   ],
-   "u": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-world-4025-rdf",
-   "img": "https://i.guim.co.uk/img/media/83dc5bf0e0260881e9cd595c706a20cd0b0a8604/761_0_4167_3333/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=b3a33a0f0aaa3cba0f144d0eb19b234b",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 5,
-   "lat": 48.92,
-   "lon": 32.12,
+   "n": 6,
+   "lat": 49.23,
+   "lon": 30.57,
    "place": "Украина",
    "place_en": "Ukraine",
    "id": 28,
-   "t_en": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
-   "x_en": "Ukrainian and Russian representatives last met in February for talks on ending the war, but the same sticking points remain. Ukraine continues to demand security guarantees, which is a non-starter for Russia."
+   "t_en": "First day of Ukraine peace talks constructive, Zelensky says",
+   "x_en": "Delegations from Kyiv, Washington and Moscow are in the United Arab Emirates for the first trilateral talks since February."
   },
   {
-   "t": "Испания: в соборе Толедо зажгли 69 свечей в память о жертвах крушения поезда",
-   "x": "Король Испании Фелипе VI и королева Летиция во вторник, 10 ноября, присутствовали на государственных похоронах в соборе Толедо 69 человек, погибших в результате разрушительного столкновения высокоскоростных поездов недалеко от Урды 28 октября.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 66,
-   "ago": 19,
-   "s": [
-    "Euronews"
-   ],
-   "u": "https://www.euronews.com/video/2026/11/10/spain-69-candles-lit-at-toledo-cathedral-for-train-crash-victims",
-   "img": "https://images.euronews.com/articles/stories/09/98/76/99/696x392_cmsv2_5995a6cf-cf5a-5dbd-9cac-e27ff30dec9f-9987699.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.99,
-   "lon": -3.34,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 29,
-   "t_en": "Spain: 69 candles lit at Toledo Cathedral for train crash victims",
-   "x_en": "Spain's King Felipe VI and Queen Letizia attended a state funeral at Toledo Cathedral on Tuesday 10 November for the 69 people killed in a devastating high-speed train collision near Urda on 28 October."
-  },
-  {
-   "t": "США предъявили обвинения трем «иранским боевикам» в террористическом заговоре ВВС Великобритании в Фэрфорде",
-   "x": "Министерство юстиции США во вторник обвинило троих мужчин, которых оно назвало иранскими боевиками, в предполагаемом сентябрьском террористическом заговоре на британской авиабазе ВВС Фэрфорд в Англии. Прокуроры заявили, что один подозреваемый заставлял людей водить фургоны, некоторые из которых перевозили топливо.",
+   "t": "U.S. House Oversight Committee criticises Trump administration over release of Epstein records",
+   "x": "The 137-page report, released by the GOP-controlled committee, comes nearly a year after Congress passed and President Trump signed the Epstein Files Transparency Act",
    "r": "Америка",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 91,
-   "ago": 45,
+   "c": "Политика",
+   "imp": 59,
+   "ten": 36,
+   "ago": 65,
    "s": [
-    "France 24"
-   ],
-   "u": "https://www.france24.com/en/americas/20261110-us-iranian-operatives-raf-fairford-terror-plot",
-   "img": "https://s.france24.com/media/display/171ed8f2-bbb4-11f1-8d96-8f3418d01115/w:1024/p:16x9/57dc9c551e76668bc449a277499265d5ddae0db3.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 1,
-   "lat": 39.36,
-   "lon": -98.14,
-   "place": "США",
-   "place_en": "United States",
-   "id": 30,
-   "t_en": "US charges three 'Iranian operatives' over RAF Fairford terror plot",
-   "x_en": "The US Justice Department on Tuesday charged three men it described as Iranian operatives over an alleged September terrorist plot at Britain's RAF Fairford airbase in England. Prosecutors said one suspect directed individuals to drive vans, some carrying fuel"
-  },
-  {
-   "t": "Льюис Хэмилтон посетил египетский контрольно-пропускной пункт Рафах и пункты оказания помощи в секторе Газа",
-   "x": "Семикратный чемпион мира Формулы-1 совершил поездку по приграничной зоне и логистическим складам, управляемым Египетским Красным Полумесяцем. Льюис Хэмилтон посетил пограничный переход Египта Рафах с сектором Газа, чтобы встретиться с организациями, отправляющими гуманитарную помощь на эту территорию. Семи-ти",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 37,
-   "ago": 196,
-   "s": [
-    "The Guardian",
-    "Africanews",
+    "The Hindu",
     "AP"
    ],
-   "u": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
-   "img": "https://i.guim.co.uk/img/media/27bf2d45265593f1960114929744b613770ef7b3/140_0_5118_4095/master/5118.jpg?width=700&quality=85&auto=format&fit=max&s=c389b8a22769db72b2914303d2ea6d5d",
-   "img_src": "The Guardian",
+   "u": "https://www.thehindu.com/news/international/us-house-oversight-committee-criticises-trump-administration-over-release-of-epstein-records/article71688114.ece",
+   "img": "https://th-i.thgim.com/public/incoming/4d8owr/article71688118.ece/alternates/LANDSCAPE_1200/New_Mexico_Epstein_Ranch_91848.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 2,
+   "lat": 38.54,
+   "lon": -98.81,
+   "place": "США",
+   "place_en": "United States",
+   "id": 29,
+   "t_en": "U.S. House Oversight Committee criticises Trump administration over release of Epstein records",
+   "x_en": "The 137-page report, released by the GOP-controlled committee, comes nearly a year after Congress passed and President Trump signed the Epstein Files Transparency Act"
+  },
+  {
+   "t": "Fire contained on platform in Iran’s South Pars gas field",
+   "x": "Officials are considering a gas leak or an operational mishap as possible causes of the fire, Fars news agency said.",
+   "r": "Ближний Восток",
+   "c": "Экономика",
+   "imp": 59,
+   "ten": 40,
+   "ago": 188,
+   "s": [
+    "Al Jazeera",
+    "Middle East Eye",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/03/afp_69bae61f9014-1773856287.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
    "fresh": false,
    "n": 3,
-   "lat": 31.29,
-   "lon": 34.51,
-   "place": "Газа",
-   "place_en": "Gaza",
+   "lat": 31.75,
+   "lon": 52.57,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 30,
+   "t_en": "Fire contained on platform in Iran’s South Pars gas field",
+   "x_en": "Officials are considering a gas leak or an operational mishap as possible causes of the fire, Fars news agency said."
+  },
+  {
+   "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 31,
-   "t_en": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
-   "x_en": "Seven-time F1 world champion tours border area and logistics warehouses operated by Egyptian Red Crescent Lewis Hamilton has visited Egypt’s Rafah border crossing with the Gaza Strip to meet organisations sending humanitarian aid to the territory. The seven-ti"
+   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
+   "x_en": ""
   },
   {
-   "t": "Sakana AI готовится к одному из крупнейших IPO стартапов в Японии",
+   "t": "Мечтайте о большем с кредитом под залог собственного капитала",
    "x": "",
-   "r": "Азия",
-   "c": "Наука",
+   "r": "Мир",
+   "c": "Общее",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "Nikkei Asia"
+    "CNN"
    ],
-   "u": "https://asia.nikkei.com/business/markets/ipo/sakana-ai-gears-up-for-one-of-japan-s-biggest-startup-ipos",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F9%2F5%2F8%2F13418595-1-eng-GB%2F9dccff48c1ec-photo_SXM2026110600010307.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": 37.06,
-   "lon": 137.99,
-   "place": "Япония",
-   "place_en": "Japan",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 32,
-   "t_en": "Sakana AI gears up for one of Japan's biggest startup IPOs",
+   "t_en": "Dream Big with a Home Equity Loan",
    "x_en": ""
   },
   {
-   "t": "Япония и Вьетнам подписывают энергетические соглашения на фоне резкого роста потребностей Ханоя в электроэнергии",
+   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
    "x": "",
-   "r": "Азия",
+   "r": "Мир",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "Nikkei Asia"
+    "CNN"
    ],
-   "u": "https://asia.nikkei.com/politics/international-relations/japan-and-vietnam-sign-energy-deals-as-hanoi-s-power-needs-surge",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F0%2F8%2F9%2F13419802-1-eng-GB%2Fe707387e839f-Tolamtokoy.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
    "fresh": true,
    "n": 1,
-   "lat": 36.55,
-   "lon": 138.67,
-   "place": "Япония",
-   "place_en": "Japan",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 33,
-   "t_en": "Japan and Vietnam sign energy deals as Hanoi's power needs surge",
+   "t_en": "Experts: this is the best cash back card of 2022",
    "x_en": ""
   },
   {
-   "t": "Towa Pharmaceutical будет поставлять японские дженерики в США: генеральный директор",
+   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
    "x": "",
-   "r": "Азия",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CNN"
+   ],
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 34,
+   "t_en": "It's official: now avoid credit card interest into 2024",
+   "x_en": ""
+  },
+  {
+   "t": "Начальная годовая процентная ставка 0% до 2024 года — это 100% безумие.",
+   "x": "",
+   "r": "Мир",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
-    "Nikkei Asia"
+    "CNN"
    ],
-   "u": "https://asia.nikkei.com/business/pharmaceuticals/towa-pharmaceutical-to-ship-japan-made-generics-to-us-ceo",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F9%2F0%2F0%2F13420090-2-eng-GB%2F4c5e8425e901-photo_SXM2026102100005045.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
+   "img_src": "CNN",
    "fresh": true,
    "n": 1,
-   "lat": 37.44,
-   "lon": 138.43,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 34,
-   "t_en": "Towa Pharmaceutical to ship Japan-made generics to US: CEO",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 35,
+   "t_en": "0% intro APR until 2024 is 100% insane",
    "x_en": ""
   },
   {
@@ -1063,7 +1101,7 @@
    "lon": 137.92,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 35,
+   "id": 36,
    "t_en": "Japan to create defense research hubs at universities for AI, space tech",
    "x_en": ""
   },
@@ -1087,7 +1125,7 @@
    "lon": 138.9,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 36,
+   "id": 37,
    "t_en": "Toyota set to bring Camry back to Japan with reverse imports from US",
    "x_en": ""
   },
@@ -1111,7 +1149,7 @@
    "lon": 139.79,
    "place": "Токио",
    "place_en": "Tokyo",
-   "id": 37,
+   "id": 38,
    "t_en": "Tokyo office rents surge 20%, sharpest rise in 35 years",
    "x_en": ""
   },
@@ -1135,7 +1173,7 @@
    "lon": 137.79,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 38,
+   "id": 39,
    "t_en": "Japan's Mitsui Chemicals to buy chip materials maker JSR for $11.6bn",
    "x_en": ""
   },
@@ -1159,32 +1197,8 @@
    "lon": 103.61,
    "place": "Китай",
    "place_en": "China",
-   "id": 39,
-   "t_en": "Nvidia emerges as early test of Democrats' tougher China tech policy",
-   "x_en": ""
-  },
-  {
-   "t": "Японский стартап, поддерживаемый LG, планирует массовое производство нового OLED-материала",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/electronics/lg-backed-japanese-startup-eyes-mass-production-of-new-oled-material",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F0%2F0%2F2%2F13422008-2-eng-GB%2Febb6319dd6ae-photo_SXM2026110600008646.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.91,
-   "lon": 137.17,
-   "place": "Япония",
-   "place_en": "Japan",
    "id": 40,
-   "t_en": "LG-backed Japanese startup eyes mass production of new OLED material",
+   "t_en": "Nvidia emerges as early test of Democrats' tougher China tech policy",
    "x_en": ""
   }
  ],
@@ -1204,139 +1218,143 @@
   {
    "t": 1794352322578,
    "v": 48
+  },
+  {
+   "t": 1794365179698,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1794265922578,
-   "v": 52,
+   "t": 1794278779698,
+   "v": 39,
+   "n": 11
+  },
+  {
+   "t": 1794282379698,
+   "v": 42,
+   "n": 6
+  },
+  {
+   "t": 1794285979698,
+   "v": 46,
    "n": 20
   },
   {
-   "t": 1794269522578,
-   "v": 48,
-   "n": 15
+   "t": 1794289579698,
+   "v": 46,
+   "n": 25
   },
   {
-   "t": 1794273122578,
-   "v": 43,
-   "n": 16
-  },
-  {
-   "t": 1794276722578,
-   "v": 40,
-   "n": 13
-  },
-  {
-   "t": 1794280322578,
-   "v": 42,
-   "n": 24
-  },
-  {
-   "t": 1794283922578,
-   "v": 47,
-   "n": 37
-  },
-  {
-   "t": 1794287522578,
+   "t": 1794293179698,
    "v": 45,
-   "n": 56
+   "n": 35
   },
   {
-   "t": 1794291122578,
-   "v": 47,
-   "n": 65
-  },
-  {
-   "t": 1794294722578,
+   "t": 1794296779698,
    "v": 44,
-   "n": 77
+   "n": 41
   },
   {
-   "t": 1794298322578,
+   "t": 1794300379698,
    "v": 46,
-   "n": 70
+   "n": 54
   },
   {
-   "t": 1794301922578,
-   "v": 46,
-   "n": 70
+   "t": 1794303979698,
+   "v": 49,
+   "n": 60
   },
   {
-   "t": 1794305522578,
-   "v": 51,
-   "n": 61
-  },
-  {
-   "t": 1794309122578,
+   "t": 1794307579698,
    "v": 52,
-   "n": 63
+   "n": 68
   },
   {
-   "t": 1794312722578,
+   "t": 1794311179698,
+   "v": 54,
+   "n": 59
+  },
+  {
+   "t": 1794314779698,
+   "v": 53,
+   "n": 71
+  },
+  {
+   "t": 1794318379698,
    "v": 51,
-   "n": 62
+   "n": 59
   },
   {
-   "t": 1794316322578,
+   "t": 1794321979698,
    "v": 50,
-   "n": 65
-  },
-  {
-   "t": 1794319922578,
-   "v": 47,
    "n": 69
   },
   {
-   "t": 1794323522578,
+   "t": 1794325579698,
    "v": 47,
-   "n": 84
+   "n": 73
   },
   {
-   "t": 1794327122578,
+   "t": 1794329179698,
    "v": 46,
-   "n": 93
+   "n": 88
   },
   {
-   "t": 1794330722578,
-   "v": 47,
-   "n": 116
-  },
-  {
-   "t": 1794334322578,
-   "v": 47,
-   "n": 116
-  },
-  {
-   "t": 1794337922578,
-   "v": 47,
-   "n": 130
-  },
-  {
-   "t": 1794341522578,
-   "v": 47,
-   "n": 128
-  },
-  {
-   "t": 1794345122578,
+   "t": 1794332779698,
    "v": 48,
-   "n": 134
+   "n": 95
   },
   {
-   "t": 1794348722578,
-   "v": 45,
-   "n": 146
+   "t": 1794336379698,
+   "v": 48,
+   "n": 99
   },
   {
-   "t": 1794352322578,
-   "v": 45,
-   "n": 102
+   "t": 1794339979698,
+   "v": 49,
+   "n": 108
+  },
+  {
+   "t": 1794343579698,
+   "v": 47,
+   "n": 126
+  },
+  {
+   "t": 1794347179698,
+   "v": 46,
+   "n": 126
+  },
+  {
+   "t": 1794350779698,
+   "v": 46,
+   "n": 127
+  },
+  {
+   "t": 1794354379698,
+   "v": 47,
+   "n": 119
+  },
+  {
+   "t": 1794357979698,
+   "v": 48,
+   "n": 122
+  },
+  {
+   "t": 1794361579698,
+   "v": 46,
+   "n": 140
+  },
+  {
+   "t": 1794365179698,
+   "v": 44,
+   "n": 99
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 35
+   "items": 38
   },
   {
    "n": "Al Jazeera",
@@ -1360,11 +1378,11 @@
   },
   {
    "n": "NPR",
-   "items": 10
+   "items": 9
   },
   {
    "n": "UN News",
-   "items": 15
+   "items": 9
   },
   {
    "n": "CNBC",
@@ -1372,7 +1390,7 @@
   },
   {
    "n": "Euronews",
-   "items": 32
+   "items": 31
   },
   {
    "n": "NYT",
@@ -1380,15 +1398,15 @@
   },
   {
    "n": "Washington Post",
-   "items": 14
+   "items": 12
   },
   {
    "n": "CBS News",
-   "items": 25
+   "items": 23
   },
   {
    "n": "ABC News",
-   "items": 24
+   "items": 20
   },
   {
    "n": "CNN",
@@ -1396,11 +1414,11 @@
   },
   {
    "n": "Fox News",
-   "items": 6
+   "items": 7
   },
   {
    "n": "ABC Australia",
-   "items": 17
+   "items": 20
   },
   {
    "n": "CNA",
@@ -1412,7 +1430,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1420,7 +1438,7 @@
   },
   {
    "n": "Africanews",
-   "items": 38
+   "items": 32
   },
   {
    "n": "Kyiv Independent",
@@ -1436,11 +1454,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 21
+   "items": 17
   },
   {
    "n": "Dawn",
-   "items": 28
+   "items": 29
   },
   {
    "n": "Times of India",
@@ -1469,7 +1487,6 @@
  ],
  "failed": [
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

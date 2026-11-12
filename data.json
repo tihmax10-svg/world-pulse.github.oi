@@ -1,30 +1,30 @@
 {
- "updated": 1794440347783,
+ "updated": 1794456845795,
  "demo": false,
- "total_articles": 690,
- "second_delta": -1,
+ "total_articles": 687,
+ "second_delta": -2,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 57
-  },
-  {
-   "n": "Al Jazeera",
    "v": 56
   },
   {
+   "n": "Al Jazeera",
+   "v": 58
+  },
+  {
    "n": "DW",
-   "v": 57
+   "v": 59
   },
   {
    "n": "France 24",
-   "v": 55
+   "v": 54
   },
   {
    "n": "The Guardian",
-   "v": 52
+   "v": 57
   },
   {
    "n": "Sky News",
@@ -32,35 +32,35 @@
   },
   {
    "n": "NPR",
-   "v": 55
+   "v": 62
   },
   {
    "n": "UN News",
-   "v": 52
+   "v": 34
   },
   {
    "n": "CNBC",
-   "v": 47
+   "v": 42
   },
   {
    "n": "Euronews",
-   "v": 44
+   "v": 47
   },
   {
    "n": "NYT",
-   "v": 53
+   "v": 57
   },
   {
    "n": "Washington Post",
-   "v": 44
+   "v": 45
   },
   {
    "n": "CBS News",
-   "v": 60
+   "v": 59
   },
   {
    "n": "ABC News",
-   "v": 63
+   "v": 55
   },
   {
    "n": "CNN",
@@ -68,15 +68,19 @@
   },
   {
    "n": "Fox News",
-   "v": 64
+   "v": 63
   },
   {
    "n": "ABC Australia",
-   "v": 43
+   "v": 42
   },
   {
    "n": "CNA",
-   "v": 42
+   "v": 41
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 78
   },
   {
    "n": "Africanews",
@@ -88,7 +92,7 @@
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 39
   },
   {
    "n": "Nikkei Asia",
@@ -96,31 +100,31 @@
   },
   {
    "n": "The Diplomat",
-   "v": 47
+   "v": 52
   },
   {
    "n": "Dawn",
-   "v": 55
+   "v": 52
   },
   {
    "n": "Times of India",
-   "v": 38
+   "v": 44
   },
   {
    "n": "The Hindu",
-   "v": 49
+   "v": 52
   },
   {
    "n": "Politico EU",
-   "v": 42
+   "v": 49
   },
   {
    "n": "Japan Times",
-   "v": 45
+   "v": 43
   },
   {
    "n": "Reuters",
-   "v": 43
+   "v": 44
   },
   {
    "n": "AP",
@@ -130,120 +134,592 @@
  "regions": [
   {
    "n": "Европа",
-   "v": 54
+   "v": 56
   },
   {
    "n": "Ближний Восток",
-   "v": 58
+   "v": 62
   },
   {
    "n": "Азия",
-   "v": 44
+   "v": 42
   },
   {
    "n": "Африка",
-   "v": 54
+   "v": 50
   },
   {
    "n": "Америка",
-   "v": 49
+   "v": 52
   }
  ],
  "events": [
+  {
+   "t": "В результате обрушения здания в Бруклине погибли по меньшей мере два человека, а остальные оказались под обломками",
+   "x": "Четверо в критическом состоянии находятся в больнице, пока пожарные раскапывают завалы во Флэтбуше после обрушения здания рядом со строительной площадкой Пожарные раскапывали завалы трехэтажного здания в Бруклине в среду после того, как оно обрушилось на краю конструкции",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 98,
+   "ten": 92,
+   "ago": 6,
+   "s": [
+    "The Guardian",
+    "Euronews",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+   "img": "https://i.guim.co.uk/img/media/a2b6a41d40ff2f77ee60bd0b7ed4dada6826bd87/485_0_4853_3882/master/4853.jpg?width=700&quality=85&auto=format&fit=max&s=10523f21faaf9987caffc4b86f7df15c",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 4,
+   "lat": 40.75,
+   "lon": -73.61,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
+   "id": 1,
+   "t_en": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+   "x_en": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction "
+  },
+  {
+   "t": "Совет директоров Nvidia примет решение о том, увольнять ли Дженсена Хуанга, бывшего генерального директора",
+   "x": "Совет директоров Nvidia собирается поздно вечером в среду, чтобы рассмотреть возможность отстранения генерального директора Дженсена Хуанга, поскольку сообщения о двух внебрачных связях и расследовании предполагаемых связей с китайским шпионом способствуют распродаже рынка и поднимают вопросы о лидерах производителя чипов.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 90,
+   "ten": 43,
+   "ago": 9,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "CNBC",
+    "CBS News",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/technology/20261112-nvidia-board-to-decide-whether-to-oust-longtime-ceo-jensen-huang",
+   "img": "https://s.france24.com/media/display/adc9839a-de43-11f1-b3fb-3f371022a770/w:1024/p:16x9/8ddea3d92713a356312bc00778a8eceba072dea5.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 6,
+   "lat": 35.08,
+   "lon": 102.37,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 2,
+   "t_en": "Nvidia board to decide whether to oust longtime CEO Jensen Huang",
+   "x_en": "Nvidia's board is meeting late Wednesday to consider removing chief executive Jensen Huang, as reports of two extramarital affairs and an investigation into alleged links to a Chinese spy fuel a market sell-off and raise questions about the chipmaker's leaders"
+  },
+  {
+   "t": "Демократ Скотт Колом одержал историческую победу на выборах в Сенат штата Миссисипи",
+   "x": "Колом — первый чернокожий представитель южного штата, избранный в Сенат США за более чем 140 лет.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 89,
+   "ten": 36,
+   "ago": 6,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/884a/live/97210150-de3d-11f1-a9ed-658311f31da9.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 9,
+   "lat": 40.15,
+   "lon": -98.05,
+   "place": "США",
+   "place_en": "United States",
+   "id": 3,
+   "t_en": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+   "x_en": "Colom is the first black person from the southern state elected to the US Senate in over 140 years."
+  },
+  {
+   "t": "Папа Лев XIV возвращается на вторую родину в Перу, встречая всенародный прием",
+   "x": "Папа Лев XIV прибыл в Перу в среду на заключительный этап своего турне по Южной Америке, вернувшись в страну, где он провел более двух десятилетий в качестве миссионера и епископа. Тысячи людей собрались, чтобы поприветствовать его дома как «падре Роберта», и многие надеялись, что его визит",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 85,
+   "ten": 34,
+   "ago": 38,
+   "s": [
+    "France 24",
+    "CBS News",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/americas/20261111-pope-leo-xiv-returns-to-second-homeland-peru-to-a-nationwide-welcome",
+   "img": "https://s.france24.com/media/display/0c7939ee-de21-11f1-adfe-29048b396e03/w:1024/p:16x9/2026-11-11T224025Z-451595732-RC2YLOAKZZON-RTRMADP-3-POPE-LATAM-PERU.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 4,
+   "lat": -9.24,
+   "lon": -74.26,
+   "place": "Перу",
+   "place_en": "Peru",
+   "id": 4,
+   "t_en": "Pope Leo XIV returns to second homeland Peru to a nationwide welcome",
+   "x_en": "Pope Leo XIV arrived in Peru on Wednesday for the final leg of his South American tour, returning to the country where he spent more than two decades as a missionary and bishop. Thousands gathered to welcome him home as “Padre Robert”, with many hoping his vis"
+  },
+  {
+   "t": "Американский солдат арестован по подозрению в шпионаже в пользу России",
+   "x": "41-летний мужчина содержится под стражей в Лондоне в соответствии с Законом о национальной безопасности Великобритании.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 85,
+   "ten": 58,
+   "ago": 67,
+   "s": [
+    "CNBC",
+    "Euronews",
+    "NYT",
+    "Washington Post",
+    "CBS News",
+    "ABC News",
+    "Fox News",
+    "Dawn"
+   ],
+   "u": "https://www.cnbc.com/2026/11/11/us-army-soldier-russia-espionage-arrest.html",
+   "img": "https://images.euronews.com/articles/stories/09/98/80/09/696x392_cmsv2_007eeb32-89ef-5444-85e3-a7a78a1eea46-9988009.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 10,
+   "lat": 40.45,
+   "lon": -98.54,
+   "place": "США",
+   "place_en": "United States",
+   "id": 5,
+   "t_en": "American soldier arrested on suspicion of spying for Russia",
+   "x_en": "The 41-year-old man is being detained in London under the U.K.'s National Security Act."
+  },
+  {
+   "t": "В результате обрушения здания в Бруклине двое погибли, более десятка получили ранения",
+   "x": "Спасательные бригады ищут пострадавших, поскольку мэр Мамдани говорит, что сотрудники службы экстренной помощи прибыли через минуту после вызова службы экстренной помощи.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 84,
+   "ago": 43,
+   "s": [
+    "Al Jazeera",
+    "Kyiv Independent",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+   "img": "https://assets.kyivindependent.com/content/images/2026/11/photo_2026-11-11-15_00_55_20261111-130101_20261111-130319.jpeg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 3,
+   "lat": 46.55,
+   "lon": 30.29,
+   "place": "Одесса",
+   "place_en": "Odesa",
+   "id": 6,
+   "t_en": "Building collapse in Brooklyn kills two, injures more than a dozen",
+   "x_en": "Rescue crews search for victims as Mayor Mamdani says first responders arrived one minute after emergency call."
+  },
+  {
+   "t": "Прямой эфир: Послы США встретятся с Путиным и Зеленским после переговоров в Абу-Даби",
+   "x": "Посланники США Стив Виткофф и Джаред Кушнер встретятся в четверг с президентом России Владимиром Путиным в Москве и украинским лидером Владимиром Зеленским в Дублине, стремясь закрепить результаты двухдневных переговоров в Абу-Даби. Зеленский заявил, что может появиться окно возможностей",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 80,
+   "ten": 55,
+   "ago": 102,
+   "s": [
+    "France 24",
+    "Kyiv Independent",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+   "img": "https://s.france24.com/media/display/9ee76ba2-de3f-11f1-879b-3f371022a770/w:1024/p:16x9/AP26315756326943.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.52,
+   "lon": -97.92,
+   "place": "США",
+   "place_en": "United States",
+   "id": 7,
+   "t_en": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+   "x_en": "US envoys Steve Witkoff and Jared Kushner will meet Russian President Vladimir Putin in Moscow and Ukrainian leader Volodymyr Zelensky in Dublin on Thursday, seeking to build on two days of talks in Abu Dhabi. Zelensky said a window of opportunity could emerge"
+  },
+  {
+   "t": "G7 предупреждает о действиях Китая: министры говорят, что действия Тайваня угрожают стабильности; вызывает опасения по поводу блокады",
+   "x": "Министры иностранных дел стран «Большой семерки» коллективно обратились к растущей напористости Китая в водах у восточного побережья Тайваня. Они подчеркнули острую необходимость поддержания мира и стабильности в Тайваньском проливе. Были высказаны опасения по поводу возможных военных действий.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 74,
+   "ten": 54,
+   "ago": 54,
+   "s": [
+    "Times of India",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://timesofindia.indiatimes.com/world/rest-of-world/g7-members-raise-alarm-over-chinas-activities-near-taiwan/articleshow/135753356.cms",
+   "img": "https://static.toiimg.com/photo/msid-135753575,imgsize-143154.cms",
+   "img_src": "Times of India",
+   "fresh": true,
+   "n": 3,
+   "lat": 34.9,
+   "lon": 102.29,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 8,
+   "t_en": "G7 Warns Over China Moves: ministers say Taiwan actions threaten stability; raises blockade fears",
+   "x_en": "The G7 foreign ministers have collectively addressed China's growing assertiveness in the waters off Taiwan's eastern coast. They emphasized the critical need to sustain both peace and stability in the Taiwan Strait. Concerns were raised over possible militari"
+  },
+  {
+   "t": "Трамп заявил, что война с Ираном закончится, «когда мы захотим ее закончить»",
+   "x": "Президент Трамп рассказал о войне в Иране во время выступления в честь Дня ветеранов в среду на Арлингтонском национальном кладбище.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 92,
+   "ago": 111,
+   "s": [
+    "CBS News",
+    "Middle East Eye",
+    "The Hindu"
+   ],
+   "u": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
+   "img": "https://th-i.thgim.com/public/incoming/j434q7/article71691408.ece/alternates/LANDSCAPE_1200/2304648085.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.51,
+   "lon": -97.45,
+   "place": "США",
+   "place_en": "United States",
+   "id": 9,
+   "t_en": "Trump says Iran war will be over \"when we want to end it\"",
+   "x_en": "President Trump spoke about the Iran war during a Veterans Day address on Wednesday at Arlington National Cemetery."
+  },
+  {
+   "t": "По всей Испании вспыхивает огненный хаос: протестующие сталкиваются с полицией во время массовой общенациональной забастовки",
+   "x": "Первая всеобщая забастовка в Испании за 14 лет переросла в насильственные действия в Барселоне, когда протестующие подожгли и запустили фейерверки в отряд полиции по охране общественного порядка на Пасео-де-Грасиа.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 73,
+   "ten": 80,
+   "ago": 9,
+   "s": [
+    "Fox News",
+    "The Hindu"
+   ],
+   "u": "https://www.foxnews.com/world/fiery-chaos-erupts-spain-protesters-clash-police-massive-nationwide-strike",
+   "img": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/spain-riots-police-protest.gif",
+   "img_src": "Fox News",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.97,
+   "lon": -4.28,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 10,
+   "t_en": "Fiery chaos erupts across Spain as protesters clash with police during massive nationwide strike",
+   "x_en": "Spain's first general strike in 14 years turned violent in Barcelona as protesters set fires and launched fireworks at riot police on Paseo de Gracia."
+  },
+  {
+   "t": "Nvidia готовится уволить генерального директора на фоне сообщений о втором романе",
+   "x": "Сообщается, что Nvidia готовится сместить своего генерального директора - после того, как американские СМИ заявили, что у Дженсена Хуанга был второй внебрачный роман.",
+   "r": "Америка",
+   "c": "Природа",
+   "imp": 73,
+   "ten": 40,
+   "ago": 49,
+   "s": [
+    "Sky News",
+    "CNBC",
+    "The Hindu"
+   ],
+   "u": "https://news.sky.com/story/nvidia-shares-hit-52-week-low-amid-claims-ceo-jensen-huang-had-second-affair-13611255",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-jensen-huang-nvidia_7402606.jpg?20261110022343",
+   "img_src": "Sky News",
+   "fresh": true,
+   "n": 4,
+   "lat": 39.0,
+   "lon": -77.31,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 11,
+   "t_en": "Nvidia preparing to oust CEO amid reports of a second affair",
+   "x_en": "Nvidia is reportedly preparing to oust its CEO - after US media outlets claimed that Jensen Huang has had a second extramarital affair."
+  },
+  {
+   "t": "«Миру, который мы знаем, пришел конец» без срочных мер по борьбе с изменением климата, говорят лидеры Cop31",
+   "x": "Президент Маршалловых Островов предупреждает об усилении наводнений, поскольку глава ООН призывает ввести налог на непредвиденные доходы для нефтегазовых компаний. Неспособность обеспечить решительный ответ на климатический кризис означает, что «миру, который мы знаем, пришел конец», - президент Маршалловых Островов, находящихся в боевой готовности",
+   "r": "Ближний Восток",
+   "c": "Природа",
+   "imp": 73,
+   "ten": 54,
+   "ago": 115,
+   "s": [
+    "The Guardian",
+    "Africanews",
+    "Japan Times"
+   ],
+   "u": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
+   "img": "https://i.guim.co.uk/img/media/e8fccf9b5435bc3b341f2de6392ce34e6cc2cb45/152_0_4331_3466/master/4331.jpg?width=700&quality=85&auto=format&fit=max&s=613377641a62eaaa8b5d63835c2cbebe",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.69,
+   "lon": 35.98,
+   "place": "Турция",
+   "place_en": "Turkey",
+   "id": 12,
+   "t_en": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
+   "x_en": "Marshall Islands president warns of worsening floods as UN chief calls for a windfall tax on oil and gas firms Failure to provide an overwhelming response to the climate crisis means “the world we know is over”, the president of the embattled Marshall Islands "
+  },
+  {
+   "t": "Смотреть: По меньшей мере шесть палестинцев убиты в результате нападения Израиля на больницу Насера",
+   "x": "На кадрах показаны последствия авиаудара Израиля по больнице Насера ​​в Хан-Юнисе на юге сектора Газа рано утром в четверг. По данным гражданской обороны Газы, в результате нападения по меньшей мере шесть палестинцев были убиты, еще более 20 получили ранения. Израильтянин",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 91,
+   "ago": 35,
+   "s": [
+    "Middle East Eye",
+    "Reuters"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-least-six-palestinians-killed-israeli-attack-nasser-hospital",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-11/Cop31%20Erdogan.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 3,
+   "lat": 31.79,
+   "lon": 35.6,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 13,
+   "t_en": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital",
+   "x_en": "Footage shows the aftermath of Israeli air strike on the Nasser Hospital in southern Gaza’s Khan Younis early on Thursday. According to Gaza’s civil defence, at least six Palestinians were killed in the attack, leaving more than 20 others wounded. An Israeli a"
+  },
+  {
+   "t": "Мать воссоединяется с сыновьями, захваченными режимом Пиночета 40 лет назад",
+   "x": "Чилийская мать наконец-то обняла своих сыновей впервые за 40 лет с тех пор, как их забрали под власть Пиночета.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 71,
+   "ten": 40,
+   "ago": 61,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/12/aje-onl-nf_mother-reunites-with-sons-taken-under-pinochet-111126?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_235cb13f3ed4a02d7247c0621ffb75f9_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": -33.33,
+   "lon": -69.85,
+   "place": "Чили",
+   "place_en": "Chile",
+   "id": 14,
+   "t_en": "Mother reunites with sons taken under Pinochet regime 40 years ago",
+   "x_en": "A Chilean mother has finally embraced her sons for the first time in 40 years since they were taken under Pinochet."
+  },
   {
    "t": "В Барселоне вспыхнули столкновения после того, как тысячи людей присоединились к всеобщей забастовке в Испании",
    "x": "Десятки тысяч человек приняли участие в забастовке, вызванной основными профсоюзами страны из-за жилищного строительства и высокой стоимости жизни.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 91,
-   "ten": 81,
-   "ago": 45,
+   "imp": 71,
+   "ten": 80,
+   "ago": 264,
    "s": [
     "BBC",
+    "Al Jazeera",
     "France 24",
-    "The Guardian",
-    "NPR",
-    "Euronews"
+    "Euronews",
+    "Africanews",
+    "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
-   "fresh": true,
+   "fresh": false,
    "n": 7,
    "lat": 41.43,
    "lon": -3.56,
    "place": "Испания",
    "place_en": "Spain",
-   "id": 1,
+   "id": 15,
    "t_en": "Clashes erupt in Barcelona after thousands join Spain general strike",
    "x_en": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living."
   },
   {
-   "t": "Россия и Украина договорились об обмене пленными после завершения мирных переговоров",
-   "x": "Киев и Москва в среду договорились о крупномасштабном обмене пленными, поскольку последний день мирных переговоров в Абу-Даби подошел к концу, хотя ни одна из сторон не назвала конкретную цифру. Посланники США Стив Уиткофф и Джаред Кушнер встретятся отдельно с президентом России",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 89,
-   "ten": 39,
-   "ago": 12,
+   "t": "Япония включит защиту от отрицания в пересмотренные документы по безопасности",
+   "x": "Ожидается, что в пересмотренных документах будут также рассмотрены «новые способы ведения войны» с использованием искусственного интеллекта и дронов.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 70,
+   "ten": 48,
+   "ago": 1,
    "s": [
-    "France 24",
-    "NPR",
-    "Washington Post",
-    "Africanews",
-    "Kyiv Independent",
-    "The Hindu",
-    "Reuters",
-    "AP"
+    "Nikkei Asia",
+    "Japan Times"
    ],
-   "u": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end",
-   "img": "https://s.france24.com/media/display/ac4aeb04-de15-11f1-876f-3f371022a770/w:1024/p:16x9/2026-11-11T121539Z-1035325634-RC2OLOA6XBUN-RTRMADP-3-UKRAINE-CRISIS-TALKS.jpg",
-   "img_src": "France 24",
+   "u": "https://asia.nikkei.com/politics/defense/japan-to-include-denial-defense-in-revised-security-documents",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/12/thumbs/400x400/573535.jpg",
+   "img_src": "Japan Times",
    "fresh": true,
-   "n": 8,
-   "lat": 61.09,
-   "lon": 96.49,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 2,
-   "t_en": "Russia and Ukraine agree to major prisoner swap as peace talks end",
-   "x_en": "Kyiv and Moscow on Wednesday agreed to a large-scale prisoner exchange as the final day of peace talks in Abu Dhabi came to an end, though neither side gave a concrete figure. US envoys Steve Witkoff and Jared Kushner will meet separately with Russian Presiden"
+   "n": 2,
+   "lat": 36.8,
+   "lon": 138.61,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 16,
+   "t_en": "Japan to include denial defense in revised security documents",
+   "x_en": "The revised documents are also expected to address \"new ways of warfare\" involving artificial intelligence and drones."
   },
   {
-   "t": "Демократ Скотт Колом выиграл выборы в Сенате штата Миссисипи, одержав неожиданную победу для партии",
-   "x": "Победа Колома делает его первым чернокожим жителем Миссисипи, избранным в Сенат США за более чем 140 лет.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 32,
-   "ago": 15,
+   "t": "Nissan заявляет, что спад продаж в Китае «усилился» в октябре",
+   "x": "Японский производитель в настоящее время прогнозирует поставку не более 3 миллионов автомобилей в этом году по сравнению с 3,15 миллионами ранее.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia",
+    "Japan Times"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/nissan-says-china-sales-slump-intensified-through-october",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/11/thumbs/400x400/573504.jpg",
+   "img_src": "Japan Times",
+   "fresh": true,
+   "n": 2,
+   "lat": 34.82,
+   "lon": 103.78,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 17,
+   "t_en": "Nissan says China sales slump 'intensified' through October",
+   "x_en": "The Japanese manufacturer now projects at most 3 million vehicle deliveries this year, from 3.15 million previously."
+  },
+  {
+   "t": "Украина захватила первого индонезийского военнопленного на фоне резкого увеличения числа вербовщиков из России",
+   "x": "Захват человека с Явы последовал за сообщениями о том, что сотни людей вербуются из этой страны Юго-Восточной Азии, поскольку Москва стремится активизировать свои военные усилия. Украина заявляет, что захватила своего первого индонезийского военнопленного, на фоне, по ее словам, резкого роста вербовки.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 91,
+   "ago": 174,
+   "s": [
+    "The Guardian",
+    "Kyiv Independent",
+    "Japan Times"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
+   "img": "https://i.guim.co.uk/img/media/65096d4645f0ba893acee8e385a8a46095fb0391/1113_504_4209_3367/master/4209.jpg?width=700&quality=85&auto=format&fit=max&s=b376aecd7ef2ed0f0cc65b346eb8ce16",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 47.99,
+   "lon": 30.42,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 18,
+   "t_en": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
+   "x_en": "Capture of man from Java follows reports that hundreds are being recruited from the south-east Asian country as Moscow seeks to boost its war effort Ukraine says it has captured its first Indonesian prisoner of war, amid what it says is a spike in recruitment "
+  },
+  {
+   "t": "Миллионы людей присоединились к первой всеобщей забастовке в Испании за 14 лет в знак протеста против стоимости жилья",
+   "x": "Двадцатичетырехчасовая забастовка привлекает большое количество людей за несколько недель до выборов, на которых ультраправые могут прийти к власти. Миллионы людей по всей Испании присоединились к первой всеобщей забастовке в стране за 14 лет, выстроив пикеты в знак протеста против стремительного роста жилищного строительства.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 82,
+   "ago": 352,
+   "s": [
+    "The Guardian",
+    "NPR",
+    "NYT",
+    "Japan Times"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+   "img": "https://i.guim.co.uk/img/media/670f7b1292952fbdbf85579bbc17110a0b1e8a16/499_0_4522_3617/master/4522.jpg?width=700&quality=85&auto=format&fit=max&s=731cbff294c6df6cd77cdece9edbe52a",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": 40.36,
+   "lon": -2.22,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 19,
+   "t_en": "Millions join Spain’s first general strike in 14 years in protest at housing costs",
+   "x_en": "Twenty-four-hour stoppage draws high participation weeks before election in which far right could gain power Millions of people across Spain have joined the country’s first general strike in 14 years, setting up picket lines to protest against soaring housing "
+  },
+  {
+   "t": "Знаменитый корабль SS United States затонул у берегов Флориды",
+   "x": "Активисты безуспешно боролись за сохранение и превращение исторического лайнера в музей, но теперь он станет крупнейшим в мире искусственным океанским рифом.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 67,
+   "ten": 40,
+   "ago": 11,
    "s": [
     "BBC",
-    "Al Jazeera",
-    "Reuters",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc59/live/150d2fe0-ddde-11f1-b465-b9821c2582d4.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5661/live/7c6e9130-ddeb-11f1-9204-cdcddf7d901c.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 4,
-   "lat": 40.23,
-   "lon": -99.77,
+   "n": 2,
+   "lat": 39.82,
+   "lon": -98.81,
    "place": "США",
    "place_en": "United States",
-   "id": 3,
-   "t_en": "Democrat Scott Colom wins Mississippi Senate race in surprise victory for party",
-   "x_en": "Colom's victory makes him the first black person from Mississippi to be elected to the US Senate in more than 140 years."
+   "id": 20,
+   "t_en": "Famed ship SS United States sunk off coast of Florida",
+   "x_en": "Activists unsuccessfully fought for the historic liner to be preserved and turned into a museum, but it will now become the world's largest artificial ocean reef."
+  },
+  {
+   "t": "По словам спасателей, в результате удара по больнице в Газе не менее 6 человек погибли и 20 получили ранения",
+   "x": "Больница Насера ​​в Хан-Юнисе подверглась нападению, несмотря на прекращение огня в 2025 году. По словам свидетеля, среди жертв были хирург, чиновник и пациент-инвалид.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 67,
+   "ten": 78,
+   "ago": 48,
+   "s": [
+    "NYT",
+    "The Hindu"
+   ],
+   "u": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+   "img": "https://static01.nyt.com/images/2026/12/11/multimedia/11int-Gaza-Hospital-fpct/11int-Gaza-Hospital-fpct-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": 31.33,
+   "lon": 34.49,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 21,
+   "t_en": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
+   "x_en": "Nasser Hospital in Khan Younis was attacked despite the 2025 cease-fire. A surgeon, an official and a disabled patient were among the victims, a witness said."
   },
   {
    "t": "Тайный совет Великобритании отменил закон Тринидада и Тобаго о гей-сексе",
    "x": "Лондонский суд отменил закон Тринидада и Тобаго, устанавливающий уголовную ответственность за сексуальные отношения по обоюдному согласию между однополыми парами мужчин. В результате колониального наследия это последний апелляционный суд независимой страны.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 87,
+   "imp": 66,
    "ten": 38,
-   "ago": 22,
+   "ago": 246,
    "s": [
     "DW",
     "Sky News",
@@ -254,13 +730,13 @@
    "u": "https://www.dw.com/en/uk-privy-council-overrules-trinidad-and-tobago-gay-sex-law/a-79912163?maca=en-rss-en-world-4025-rdf",
    "img": "https://e3.365dm.com/26/11/1920x1080/skynews-privy-london_7403280.jpg?20261110163945",
    "img_src": "Sky News",
-   "fresh": true,
+   "fresh": false,
    "n": 5,
    "lat": 53.92,
    "lon": -1.22,
    "place": "Великобритания",
    "place_en": "United Kingdom",
-   "id": 4,
+   "id": 22,
    "t_en": "UK Privy Council overrules Trinidad and Tobago gay sex law",
    "x_en": "A London court has overturned a Trinidad and Tobago law criminalizing consensual sexual relations between male same-sex couples. As a result of the colonial legacy, it is the independent country's last court of appeal."
   },
@@ -269,66 +745,40 @@
    "x": "Угрозу получили более 6000 итальянских школ. Власти всех трех стран заявляют, что риска для населения, похоже, нет.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 82,
-   "ten": 93,
-   "ago": 140,
+   "imp": 66,
+   "ten": 91,
+   "ago": 432,
    "s": [
     "BBC",
+    "Al Jazeera",
     "France 24",
-    "CNBC",
     "ABC News",
+    "Dawn",
     "The Hindu",
     "Politico EU",
-    "AP"
+    "Reuters"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/80c9/live/fc093bd0-ddc7-11f1-9053-236ccb99630c.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 7,
+   "n": 8,
    "lat": 41.77,
    "lon": 11.76,
    "place": "Италия",
    "place_en": "Italy",
-   "id": 5,
+   "id": 23,
    "t_en": "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
    "x_en": "More than 6,000 Italian schools received a threat. Authorities in all three countries say there appears to be no risk to the public."
-  },
-  {
-   "t": "Ложные угрозы о взрыве нацелены на школы в Италии, Великобритании и Ирландии",
-   "x": "Тысячи школ по всей Италии, Великобритании и Ирландии получили электронные письма с ложными угрозами взрыва.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 80,
-   "ten": 88,
-   "ago": 157,
-   "s": [
-    "Al Jazeera",
-    "CBS News",
-    "Dawn",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/11/111808026052a17.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 4,
-   "lat": 42.47,
-   "lon": 12.6,
-   "place": "Италия",
-   "place_en": "Italy",
-   "id": 6,
-   "t_en": "Hoax bomb threats target schools across Italy, UK and Ireland",
-   "x_en": "Thousands of schools across Italy, the UK and Ireland received hoax bomb threat emails."
   },
   {
    "t": "Четыре медведя гризли убиты в Канаде после смертельного нападения на мать и дочь",
    "x": "Свиноматка и трое ее детенышей несут ответственность за убийство 48-летней Дженнифер Балкаррас и ее 20-летней дочери Села Рид в начале этого месяца.",
    "r": "Америка",
    "c": "Конфликты",
-   "imp": 80,
+   "imp": 66,
    "ten": 90,
-   "ago": 160,
+   "ago": 435,
    "s": [
     "BBC",
     "Sky News",
@@ -345,418 +795,103 @@
    "lon": -97.44,
    "place": "Канада",
    "place_en": "Canada",
-   "id": 7,
+   "id": 24,
    "t_en": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
    "x_en": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month."
   },
   {
-   "t": "Судья постановил, что иск Трампа о клевете на BBC на 10 миллиардов долларов может быть продолжен",
-   "x": "BBC отвергает обвинения в клевете, поскольку Трамп празднует «огромную победу» в судебном решении.",
-   "r": "Америка",
+   "t": "Россия и Украина договорились об обмене пленными после завершения мирных переговоров",
+   "x": "Киев и Москва в среду договорились о крупномасштабном обмене пленными, поскольку последний день мирных переговоров в Абу-Даби подошел к концу, хотя ни одна из сторон не назвала конкретную цифру. Посланники США Стив Уиткофф и Джаред Кушнер встретятся отдельно с президентом России",
+   "r": "Европа",
    "c": "Политика",
-   "imp": 79,
-   "ten": 39,
-   "ago": 89,
+   "imp": 65,
+   "ten": 20,
+   "ago": 228,
    "s": [
-    "Al Jazeera",
-    "Euronews",
-    "NYT",
-    "CBS News",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/11/judge-rules-trumps-10bn-bbc-defamation-suit-can-proceed?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/98/82/32/696x392_cmsv2_daf2b10f-e135-528d-878e-c4281e6a4be8-9988232.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 6,
-   "lat": 39.4,
-   "lon": -97.0,
-   "place": "США",
-   "place_en": "United States",
-   "id": 8,
-   "t_en": "Judge rules Trump’s $10bn BBC defamation suit can proceed",
-   "x_en": "The BBC denies defamation charge as Trump celebrates “huge victory” in court decision."
-  },
-  {
-   "t": "Демократ Скотт Колом станет первым чернокожим сенатором, избранным в Миссисипи с 1875 года после незначительной победы – политика США в прямом эфире",
-   "x": "Колом победил республиканку Синди Хайд-Смит после того, как гонка была объявлена ​​через восемь дней после дня промежуточных выборов Демократ Скотт Колом выигрывает гонку за пост в Сенате США в Миссисипи Как Колом выиграл темно-красный Миссисипи с небольшой помощью демократов Подпишитесь на последние новости США e",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 38,
-   "ago": 7,
-   "s": [
-    "The Guardian",
-    "CNBC",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
-   "img": "https://i.guim.co.uk/img/media/94dc17433aba4186d1d5c3aeaa90b0a28a0a1ded/865_0_4664_3732/master/4664.jpg?width=700&quality=85&auto=format&fit=max&s=1179a62f4866e28ecd1889d9731dbcbd",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 4,
-   "lat": 39.74,
-   "lon": -99.67,
-   "place": "США",
-   "place_en": "United States",
-   "id": 9,
-   "t_en": "Democrat Scott Colom to be first Black senator elected in Mississippi since 1875 after narrow win – US politics live",
-   "x_en": "Colom beat Republican Cindy Hyde-Smith after race was called eight days after midterm election day Democrat Scott Colom wins race for US Senate in Mississippi How Colom won deep-red Mississippi with little help from Democrats Sign up for the US Breaking News e"
-  },
-  {
-   "t": "Иран объявил ВМС и ВВС Аргентины «террористическими организациями»",
-   "x": "Этот шаг был предпринят через несколько месяцев после того, как правительство Хавьера Милея объявило иранский КСИР «террористической организацией».",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 77,
-   "ten": 83,
-   "ago": 64,
-   "s": [
-    "Al Jazeera",
-    "DW",
-    "CNA"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-   "img": "https://dam.mediacorp.sg/image/upload/s--Fo-7WYH_--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-11T061817Z_2_LYNXNPEMAA0DQ_RTROPTP_3_ARGENTINA-MILEI.JPG?itok=5-5Uo-hm",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 3,
-   "lat": 32.69,
-   "lon": 53.81,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 10,
-   "t_en": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
-   "x_en": "The move comes months after the government of Javier Milei designated Iran's IRGC as a 'terrorist organisation'."
-  },
-  {
-   "t": "Папа Лев возвращается в Перу, на свою приемную родину",
-   "x": "Проведя десятилетия в Перу в качестве миссионера и епископа, первый американский Папа вернулся в свой второй дом.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 75,
-   "ten": 40,
-   "ago": 35,
-   "s": [
+    "France 24",
+    "NPR",
     "Washington Post",
-    "ABC News",
+    "CBS News",
+    "Japan Times",
     "Reuters"
    ],
-   "u": "https://www.washingtonpost.com/world/2026/11/11/pope-leo-returns-peru-his-adopted-homeland/",
-   "img": "https://s.abcnews.com/images/International/wirestory_b9af06396479341b5d000499f04a9fcd_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 3,
-   "lat": -9.18,
-   "lon": -73.87,
-   "place": "Перу",
-   "place_en": "Peru",
-   "id": 11,
-   "t_en": "Pope Leo returns to Peru, his adopted homeland",
-   "x_en": "After spending decades in Peru as a missionary and bishop, the first American pope is back in his second home."
-  },
-  {
-   "t": "Посол России в США Александр Дарчиев скончался в возрасте 66 лет",
-   "x": "Москва сообщает о внезапной кончине ветерана-дипломата, не раскрывая подробностей.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 75,
-   "ten": 40,
-   "ago": 129,
-   "s": [
-    "Al Jazeera",
-    "Euronews",
-    "Washington Post",
-    "Fox News"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/11/russias-ambassador-to-the-us-alexander-darchiev-dies-at-66?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/98/89/20/696x392_cmsv2_781f1458-98a6-5c64-9f8d-f2d53d1cf35b-9988920.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end",
+   "img": "https://s.france24.com/media/display/ac4aeb04-de15-11f1-876f-3f371022a770/w:1024/p:16x9/2026-11-11T121539Z-1035325634-RC2OLOA6XBUN-RTRMADP-3-UKRAINE-CRISIS-TALKS.jpg",
+   "img_src": "France 24",
    "fresh": false,
-   "n": 4,
-   "lat": 60.26,
-   "lon": 95.44,
+   "n": 6,
+   "lat": 61.09,
+   "lon": 96.49,
    "place": "Россия",
    "place_en": "Russia",
-   "id": 12,
-   "t_en": "Russia’s ambassador to US, Alexander Darchiev, dies at 66",
-   "x_en": "Moscow announces the veteran diplomat's sudden passing without further details."
+   "id": 25,
+   "t_en": "Russia and Ukraine agree to major prisoner swap as peace talks end",
+   "x_en": "Kyiv and Moscow on Wednesday agreed to a large-scale prisoner exchange as the final day of peace talks in Abu Dhabi came to an end, though neither side gave a concrete figure. US envoys Steve Witkoff and Jared Kushner will meet separately with Russian Presiden"
+  },
+  {
+   "t": "Война в Иране в прямом эфире: Иран предупреждает Европу о возмездии, Израиль атакует сектор Газа",
+   "x": "Израиль приказывает военным активизировать подготовку к возможному нападению на Иран, поскольку Тегеран заявляет, что примет ответные меры в случае нападения.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 95,
+   "ago": 253,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Middle East Eye"
+   ],
+   "u": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/f8c593d6-ddec-11f1-8f0b-3f371022a770/w:1024/p:16x9/AP26234800648076.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 32.33,
+   "lon": 52.82,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 26,
+   "t_en": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
+   "x_en": "Israel orders military to step up preparations for possible attack on Iran as Tehran says it will retaliate if attacked."
   },
   {
    "t": "Погибли в медовой ловушке? Дженсен Хуанг из Nvidia оказался в центре шпионского скандала в Китае",
    "x": "Оказывается, новые хозяева вселенной — люди, слишком люди. Китай обвиняется в использовании уязвимости в сердце гиганта Кремниевой долины, который господствует над двумя третями производства вычислительной мощности искусственного интеллекта на планете, соучредитель Nvidia",
    "r": "Азия",
    "c": "Наука",
-   "imp": 72,
+   "imp": 61,
    "ten": 40,
-   "ago": 53,
+   "ago": 158,
    "s": [
     "France 24",
-    "CNBC",
+    "The Hindu",
     "Reuters"
    ],
    "u": "https://www.france24.com/en/tv-shows/the-debate/20261111-undone-by-a-honey-trap-nvidia-s-jensen-huang-at-heart-of-china-spy-scandal",
    "img": "https://s.france24.com/media/display/72346862-de03-11f1-b9d6-3f371022a770/w:1024/p:16x9/2026-11-10T025315Z-781474958-RC2BKOASZBEJ-RTRMADP-3-NVIDIA-PROBE-CEO.jpg",
    "img_src": "France 24",
-   "fresh": true,
+   "fresh": false,
    "n": 4,
    "lat": 35.41,
    "lon": 102.88,
    "place": "Китай",
    "place_en": "China",
-   "id": 13,
+   "id": 27,
    "t_en": "Undone by a honey trap? Nvidia's Jensen Huang at heart of China spy scandal",
    "x_en": "Turns out that the new masters of the universe are human, all too human. China accused of exploiting a vulnerability at the heart of the Silicon Valley giant that reigns supreme over two-thirds of the planet’s AI computing power production, the Nvidia co-found"
-  },
-  {
-   "t": "Рабочие Испании объявили всеобщую забастовку впервые за 14 лет",
-   "x": "Работники самых разных отраслей уволились с работы в знак протеста против повышения арендной платы и стагнации заработной платы, которые стали центральными вопросами кампании.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 71,
-   "ten": 71,
-   "ago": 106,
-   "s": [
-    "NYT",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
-   "img": "https://static01.nyt.com/images/2026/11/11/multimedia/11int-spain-strike-bplz/11int-spain-strike-bplz-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.09,
-   "lon": -4.33,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 14,
-   "t_en": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
-   "x_en": "Workers in a wide range of industries walked off the job to protest rising rents and stagnant wages, which have become central issues in the campaign."
-  },
-  {
-   "t": "Британская контртеррористическая полиция арестовала американского солдата, обвиненного в шпионаже в пользу России",
-   "x": "Военнослужащий армии США был арестован недалеко от Глостера в Англии. Полиция заявила, что его подозревают в шпионской деятельности в связи с Россией. К расследованию привлечены следователи из США и Великобритании.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 70,
-   "ten": 56,
-   "ago": 231,
-   "s": [
-    "DW",
-    "CNBC",
-    "Euronews",
-    "NYT",
-    "CBS News",
-    "ABC News",
-    "Fox News",
-    "Dawn"
-   ],
-   "u": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-world-4025-rdf",
-   "img": "https://images.euronews.com/articles/stories/09/98/80/09/696x392_cmsv2_007eeb32-89ef-5444-85e3-a7a78a1eea46-9988009.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 9,
-   "lat": 54.69,
-   "lon": -2.65,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 15,
-   "t_en": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
-   "x_en": "A member of the US Army has been arrested near Gloucester in England. Police said he was suspected of espionage activity in connection with Russia. Investigators from the US and UK are involved in the probe."
-  },
-  {
-   "t": "Избирательный суд Бразилии оштрафовал Мету и не увидел преднамеренной предвзятости на выборах",
-   "x": "Штраф был наложен после того, как коалиция президента Лулы подала жалобу. Суд заявил, что нет никаких доказательств намерения повлиять на выборы. Мета заявила, что будет защищаться от «ложных обвинений».",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 69,
-   "ten": 40,
-   "ago": 204,
-   "s": [
-    "DW",
-    "France 24",
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.dw.com/en/brazil-electoral-court-fines-meta-sees-no-deliberate-election-bias/a-79920780?maca=en-rss-en-world-4025-rdf",
-   "img": "https://s.france24.com/media/display/c4a5b334-dde6-11f1-9c6b-695cb59fade5/w:1024/p:16x9/EN-20261111-161101-161439-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": -11.11,
-   "lon": -51.84,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 16,
-   "t_en": "Brazil electoral court fines Meta, sees no deliberate election bias",
-   "x_en": "The fine came after President Lula's coalition filed a complaint. The court said there was no evidence of intent to influence the election. Meta said it will defend itself against \"false allegations.\""
-  },
-  {
-   "t": "Трамп заявил, что война с Ираном закончится, «когда мы захотим ее закончить»",
-   "x": "Президент Трамп рассказал о войне в Иране во время выступления в честь Дня ветеранов в среду на Арлингтонском национальном кладбище.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 68,
-   "ten": 91,
-   "ago": 62,
-   "s": [
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
-   "img": "https://th-i.thgim.com/public/incoming/j434q7/article71691408.ece/alternates/LANDSCAPE_1200/2304648085.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 2,
-   "lat": 39.51,
-   "lon": -97.45,
-   "place": "США",
-   "place_en": "United States",
-   "id": 17,
-   "t_en": "Trump says Iran war will be over \"when we want to end it\"",
-   "x_en": "President Trump spoke about the Iran war during a Veterans Day address on Wednesday at Arlington National Cemetery."
-  },
-  {
-   "t": "Россия и Украина начинают при поддержке США мирные переговоры в Абу-Даби",
-   "x": "Ожидается, что переговоры будут включать в себя широкое обсуждение вопросов европейской безопасности. Наблюдатели назвали этот шаг рискованным намеком на ключевую цель России – иметь большее влияние на безопасность Европы.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 67,
-   "ten": 18,
-   "ago": 71,
-   "s": [
-    "Washington Post",
-    "CBS News",
-    "Reuters"
-   ],
-   "u": "https://www.washingtonpost.com/world/2026/11/10/russia-ukraine-begin-us-backed-peace-talks-abu-dhabi/",
-   "img": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/WWKC4VKPKNY2HXRTGRT7FNI7JE.JPG&w=1440",
-   "img_src": "Washington Post (og)",
-   "fresh": false,
-   "n": 3,
-   "lat": 61.27,
-   "lon": 94.25,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 18,
-   "t_en": "Russia and Ukraine begin U.S.-backed peace talks in Abu Dhabi",
-   "x_en": "The talks are expected to include a broad discussion of European security, a move observers described as a risky nod to a key Russian goal of having a greater say in Europe’s security."
-  },
-  {
-   "t": "Nvidia готовится свергнуть Дженсена Хуанга после дел, сообщает WSJ",
-   "x": "Правление готовилось встретиться уже в среду, чтобы решить судьбу Хуана.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 40,
-   "ago": 15,
-   "s": [
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.japantimes.co.jp/business/2026/11/12/tech/nvidia-jensen-huang-affairs/",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/12/thumbs/400x400/573508.jpg",
-   "img_src": "Japan Times",
-   "fresh": true,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 19,
-   "t_en": "Nvidia preparing to oust Jensen Huang after affairs, WSJ says",
-   "x_en": "The board was preparing to meet as soon as Wednesday to decide Huang's fate."
-  },
-  {
-   "t": "Испания: 120 000 храбрых дождей требуют доступного жилья и повышения заработной платы",
-   "x": "По данным властей, около 120 000 демонстрантов прошли маршем по центру Мадрида в среду, 11 ноября, поскольку первая общенациональная всеобщая забастовка в Испании с 2012 года вывела толпы людей на улицы в знак протеста против растущих цен на жилье и растущего давления.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 66,
-   "ago": 62,
-   "s": [
-    "Euronews",
-    "Africanews"
-   ],
-   "u": "https://www.euronews.com/video/2026/11/11/spain-120000-brave-rain-to-demand-affordable-housing-and-better-wages",
-   "img": "https://images.euronews.com/articles/stories/09/98/90/20/696x392_cmsv2_5a20112a-17f3-59d6-bd53-0c618aa3ab6b-9989020.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 2,
-   "lat": 40.44,
-   "lon": -4.09,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 20,
-   "t_en": "Spain: 120,000 brave rain to demand affordable housing and better wages",
-   "x_en": "Around 120,000 demonstrators marched through central Madrid on Wednesday 11 November, according to authorities, as Spain's first nationwide general strike since 2012 brought crowds onto the streets to protest against soaring housing costs and mounting pressure"
-  },
-  {
-   "t": "Пропавший 11-месячный ребенок спасен после того, как его заживо похоронили в ящике в Южной Каролине",
-   "x": "Официальные лица сообщают, что ребенок был найден недалеко от дома своего отца во вторник, на следующий день после того, как его забрали, и сейчас он находится в больнице.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 63,
-   "ten": 36,
-   "ago": 32,
-   "s": [
-    "BBC",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/eed5/live/f16d2a80-ddf7-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 21,
-   "t_en": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
-   "x_en": "Officials say the child was found close to his father's home on Tuesday, a day after he was taken, and is being cared for in hospital."
-  },
-  {
-   "t": "Охранник отругал Хегсета и его помощников за смех над Могилой Неизвестного солдата",
-   "x": "Часовой армии США, охранявший могилу Неизвестного солдата, сделал громкий выговор находящемуся в боевой готовности министру обороны США Питу Хегсету и его высшему руководству.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 40,
-   "ago": 39,
-   "s": [
-    "The Guardian",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/11/hegseth-scolded-tomb-unknown-soldier",
-   "img": "https://i.guim.co.uk/img/media/5efa54ecba8b171d268ca64c61356ebc43f46fce/405_0_4031_3227/master/4031.jpg?width=700&quality=85&auto=format&fit=max&s=ffaf568a3c7557386ee0c469a63bde55",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.02,
-   "lon": -97.38,
-   "place": "США",
-   "place_en": "United States",
-   "id": 22,
-   "t_en": "Hegseth and aides scolded by guard for laughing at Tomb of the Unknown Soldier",
-   "x_en": "Group attending Veterans Day ceremony sharply reminded by sentinel to maintain ‘silence and respect’ at sacred site A US army sentinel guarding the Tomb of the Unknown Soldier loudly reprimanded the embattled US defense secretary, Pete Hegseth, and his top sta"
   },
   {
    "t": "74-летний похититель сбежал из-под домашнего ареста в Аргентине, спустившись с балкона",
    "x": "Леонардо Бертулацци, бывшего члена марксистской партизанской группировки «Красные бригады», собирались экстрадировать в его родную страну, Италию.",
    "r": "Америка",
    "c": "Общее",
-   "imp": 63,
+   "imp": 61,
    "ten": 51,
-   "ago": 162,
+   "ago": 190,
    "s": [
     "BBC",
-    "The Guardian",
-    "AP"
+    "Al Jazeera",
+    "The Guardian"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a91e/live/b13e3560-ddd6-11f1-b865-d17d8611efca.jpg",
@@ -767,87 +902,36 @@
    "lon": -64.93,
    "place": "Аргентина",
    "place_en": "Argentina",
-   "id": 23,
+   "id": 28,
    "t_en": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
    "x_en": "Leonardo Bertulazzi, a former member of the Marxist guerrilla group the Red Brigades, was about to be extradited to his home country of Italy."
   },
   {
-   "t": "Эбола превысила 11 000 случаев в самой смертоносной вспышке в Конго",
-   "x": "Вспышка Эболы в Конго превысила 11 000 случаев, сообщило правительство в среду, и это суровая цифра, которая подчеркивает серьезность ситуации, поскольку страна борется с неустанным распространением болезни.",
-   "r": "Африка",
+   "t": "Судья постановил, что иск Трампа о клевете на BBC на 10 миллиардов долларов может быть продолжен",
+   "x": "BBC отвергает обвинения в клевете, поскольку Трамп празднует «огромную победу» в судебном решении.",
+   "r": "Америка",
    "c": "Политика",
-   "imp": 62,
-   "ten": 48,
-   "ago": 163,
+   "imp": 61,
+   "ten": 38,
+   "ago": 364,
    "s": [
-    "NPR",
-    "The Hindu",
-    "AP"
+    "Al Jazeera",
+    "Euronews",
+    "NYT",
+    "CBS News"
    ],
-   "u": "https://www.npr.org/2026/11/11/nx-s1-6037304/ebola-congo-outbreak",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5760x3840+0+0/resize/5760x3840!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7b%2Fa1%2Fcf45518d4850a897eda36ba25615%2Fap26306677630425.jpg",
-   "img_src": "NPR",
+   "u": "https://www.aljazeera.com/news/2026/11/11/judge-rules-trumps-10bn-bbc-defamation-suit-can-proceed?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/98/82/32/696x392_cmsv2_daf2b10f-e135-528d-878e-c4281e6a4be8-9988232.jpg",
+   "img_src": "Euronews",
    "fresh": false,
    "n": 4,
-   "lat": -2.91,
-   "lon": 23.14,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 24,
-   "t_en": "Ebola tops 11,000 cases in Congo's deadliest outbreak",
-   "x_en": "Congo's Ebola outbreak has topped 11,000 cases, the government said Wednesday, a stark figure that underscores the severity of the situation as the country grapples with the relentless spread of the disease."
-  },
-  {
-   "t": "Бессент перебрался на военную базу на фоне «растущих угроз» со стороны Ирана",
-   "x": "Роль Бессента в руководстве операцией «Экономический изгой» сделала его одной из главных мишеней иранских угроз администрации Трампа, сообщает The New York Times.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 68,
-   "ago": 207,
-   "s": [
-    "CNBC",
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html",
-   "img": "https://th-i.thgim.com/public/incoming/qejdoe/article71688106.ece/alternates/LANDSCAPE_1200/Fraud_Minnesota_14_74.jpg",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 32.81,
-   "lon": 53.08,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 25,
-   "t_en": "Bessent moved to military base amid 'growing threats' from Iran",
-   "x_en": "Bessent's role leading Operation Economic Outcast has made him one of the Trump administration's top targets of Iranian threats, The New York Times reported."
-  },
-  {
-   "t": "«Миру, который мы знаем, пришел конец» без срочных мер по борьбе с изменением климата, говорят лидеры Cop31",
-   "x": "Президент Маршалловых Островов предупреждает об усилении наводнений, поскольку глава ООН призывает ввести налог на непредвиденные доходы для нефтегазовых компаний. Неспособность обеспечить решительный ответ на климатический кризис означает, что «миру, который мы знаем, пришел конец», - президент Маршалловых Островов, находящихся в боевой готовности",
-   "r": "Ближний Восток",
-   "c": "Природа",
-   "imp": 61,
-   "ten": 40,
-   "ago": 236,
-   "s": [
-    "The Guardian",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
-   "img": "https://i.guim.co.uk/img/media/e8fccf9b5435bc3b341f2de6392ce34e6cc2cb45/152_0_4331_3466/master/4331.jpg?width=700&quality=85&auto=format&fit=max&s=613377641a62eaaa8b5d63835c2cbebe",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.69,
-   "lon": 35.98,
-   "place": "Турция",
-   "place_en": "Turkey",
-   "id": 26,
-   "t_en": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
-   "x_en": "Marshall Islands president warns of worsening floods as UN chief calls for a windfall tax on oil and gas firms Failure to provide an overwhelming response to the climate crisis means “the world we know is over”, the president of the embattled Marshall Islands "
+   "lat": 39.4,
+   "lon": -97.0,
+   "place": "США",
+   "place_en": "United States",
+   "id": 29,
+   "t_en": "Judge rules Trump’s $10bn BBC defamation suit can proceed",
+   "x_en": "The BBC denies defamation charge as Trump celebrates “huge victory” in court decision."
   },
   {
    "t": "Разрыв в оплате труда в сфере искусственного интеллекта: бум чипов порождает зависть и трудовые волнения в Азии",
@@ -869,179 +953,85 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 27,
+   "id": 30,
    "t_en": "The AI pay gap: A chip boom breeds jealousy and labor unrest in Asia",
    "x_en": ""
   },
   {
-   "t": "Боевики устроили засаду на полицейские машины на северо-западе Пакистана, убив по меньшей мере 10 офицеров",
-   "x": "Полиция сообщает, что боевики устроили засаду на автомобили с полицейскими на северо-западе Пакистана, что спровоцировало перестрелку, в которой погибли по меньшей мере 10 полицейских.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 83,
-   "ago": 272,
-   "s": [
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/militants-ambush-police-vehicles-northwestern-pakistan-killing-10-138040033",
-   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 29.48,
-   "lon": 70.36,
-   "place": "Пакистан",
-   "place_en": "Pakistan",
-   "id": 28,
-   "t_en": "Militants ambush police vehicles in northwestern Pakistan, killing at least 10 officers",
-   "x_en": "Police say militants have ambushed vehicles carrying police officers in northwestern Pakistan, triggering a gunbattle that killed at least 10 officers"
-  },
-  {
-   "t": "Иран обостряет ситуацию в Ормузе и заявляет, что нанес удар по оманскому острову, который, по его словам, «враг» использует для военных операций США",
-   "x": "Иран утверждает, что его Революционная гвардия нанесла удар по навигационному оборудованию на оманском острове Дидамар в Ормузском проливе, но официальные лица Омана оспаривают ущерб.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 91,
-   "ago": 51,
-   "s": [
-    "Fox News"
-   ],
-   "u": "https://www.foxnews.com/world/iran-escalates-hormuz-claims-strike-omani-island-enemy-uses-us-military-ops",
-   "img": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/iran-boat.gif",
-   "img_src": "Fox News",
-   "fresh": true,
-   "n": 1,
-   "lat": 26.51,
-   "lon": 56.12,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 29,
-   "t_en": "Iran escalates in Hormuz, claims strike on Omani island it says 'enemy' uses for US military ops",
-   "x_en": "Iran claims its Revolutionary Guard struck navigation equipment on Oman's Didamar Island in the Strait of Hormuz, but Omani officials dispute damage."
-  },
-  {
-   "t": "Индийские производители электроники сталкиваются с проблемой дефицита печатных плат, поскольку спрос на ИИ приводит к росту затрат",
-   "x": "",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/electronics/india-s-electronics-firms-face-pcb-squeeze-as-ai-demand-drives-up-costs",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F8%2F8%2F2%2F13412886-1-eng-GB%2F6e6bf430e02b-pcbboard.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 22.52,
-   "lon": 78.9,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 30,
-   "t_en": "India's electronics firms face PCB squeeze as AI demand drives up costs",
-   "x_en": ""
-  },
-  {
-   "t": "Индия формирует отряды коммандос для ближнего боя вдоль границы с Китаем",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/politics/defense/india-forms-commando-units-for-close-combat-along-china-border",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F5%2F8%2F9%2F13419850-1-eng-GB%2F0c55edcb83d9-2026-02-21T153207Z_1727387167_RC2CQJAJ150P_RTRMADP_3_INDIA-CRPF.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 22.23,
-   "lon": 80.33,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 31,
-   "t_en": "India forms commando units for close combat along China border",
-   "x_en": ""
-  },
-  {
-   "t": "Как Япония прокладывает свой собственный путь к Марсу",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/podcasts/podcast-tech-latest/how-japan-is-charting-its-own-path-to-mars",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F3%2F6%2F1%2F13421630-1-eng-GB%2Fb257a8870459-TL20261110_denshiban.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 37.18,
-   "lon": 137.43,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 32,
-   "t_en": "How Japan is charting its own path to Mars",
-   "x_en": ""
-  },
-  {
-   "t": "Австралия планирует создать нового регулятора искусственного интеллекта после взлома OpenAI",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/australia-plans-new-regulator-for-artificial-intelligence-after-openai-hack",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F8%2F5%2F3%2F13423581-1-eng-GB%2Fcf947ba82249-20261110135333092200-originalbc.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": -25.04,
-   "lon": 135.4,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 33,
-   "t_en": "Australia plans new regulator for artificial intelligence after OpenAI hack",
-   "x_en": ""
-  },
-  {
-   "t": "Акции WuXi AppTec подскочили после исключения из списка Пентагона",
-   "x": "",
+   "t": "Выжившего извлекли из-под завалов обрушившегося здания в Нью-Йорке",
+   "x": "Два человека погибли и еще несколько получили ранения, когда спасатели разбирают завалы в Бруклине.",
    "r": "Америка",
    "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
+   "imp": 60,
+   "ten": 66,
+   "ago": 101,
    "s": [
-    "Nikkei Asia"
+    "BBC",
+    "AP"
    ],
-   "u": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/wuxi-apptec-shares-jump-following-pentagon-list-removal",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F7%2F6%2F3%2F13423679-1-eng-GB%2Fdb080a7743cf-2026-06-18T163708Z_1839415764_RC22XIA473TT_RTRMADP_3_WUXI-APPTEC.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 38.93,
-   "lon": -77.24,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 34,
-   "t_en": "WuXi AppTec shares jump following Pentagon list removal",
-   "x_en": ""
+   "u": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8114/live/d10cd710-de22-11f1-a006-f3a783cdc303.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 2,
+   "lat": 40.74,
+   "lon": -73.49,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
+   "id": 31,
+   "t_en": "Survivor pulled from rubble of deadly building collapse in New York",
+   "x_en": "Two people are dead and several others injured as rescuers scour the debris in Brooklyn."
+  },
+  {
+   "t": "Огромные толпы приветствуют Папу Льва по возвращении в Перу, на его приемную родину",
+   "x": "Проведя десятилетия в Перу в качестве миссионера и епископа, первый американский Папа вернулся в свой второй дом.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 40,
+   "ago": 69,
+   "s": [
+    "Washington Post",
+    "Times of India"
+   ],
+   "u": "https://www.washingtonpost.com/world/2026/11/11/pope-leo-returns-peru-his-adopted-homeland/",
+   "img": "https://static.toiimg.com/photo/msid-135753310,imgsize-96647.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 2,
+   "lat": -8.17,
+   "lon": -75.49,
+   "place": "Перу",
+   "place_en": "Peru",
+   "id": 32,
+   "t_en": "Mammoth crowds greet Pope Leo on return to Peru, his adopted homeland",
+   "x_en": "After spending decades in Peru as a missionary and bishop, the first American pope is back in his second home."
+  },
+  {
+   "t": "Вице-президент Индонезии подал в отставку на фоне признаков того, что правящий альянс ослабевает",
+   "x": "Эта новость пришла в неспокойное время для Прабово, который сталкивается с растущим разногласием со своим предшественником Джоко Видодо.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 35,
+   "ago": 195,
+   "s": [
+    "BBC",
+    "CNA",
+    "Japan Times"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0e5a/live/8d137e10-dcf1-11f1-9ef0-4b5930e2f80e.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": -1.98,
+   "lon": 118.36,
+   "place": "Индонезия",
+   "place_en": "Indonesia",
+   "id": 33,
+   "t_en": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+   "x_en": "The news comes at a turbulent time for Prabowo, who faces a growing rift with his predecessor Joko Widodo."
   },
   {
    "t": "Победа демократов на промежуточных выборах ставит под сомнение будущее комитета Палаты представителей по Китаю",
@@ -1063,7 +1053,7 @@
    "lon": 102.45,
    "place": "Китай",
    "place_en": "China",
-   "id": 35,
+   "id": 34,
    "t_en": "Democrats' midterm victory puts future of House China committee in doubt",
    "x_en": ""
   },
@@ -1087,7 +1077,7 @@
    "lon": 103.08,
    "place": "Китай",
    "place_en": "China",
-   "id": 36,
+   "id": 35,
    "t_en": "China exports stay brisk as annual trade surplus tops $1tn",
    "x_en": ""
   },
@@ -1111,7 +1101,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 37,
+   "id": 36,
    "t_en": "AI won't take jobs, but those who can use it will: Siemens CEO",
    "x_en": ""
   },
@@ -1135,7 +1125,7 @@
    "lon": 105.31,
    "place": "Вьетнам",
    "place_en": "Vietnam",
-   "id": 38,
+   "id": 37,
    "t_en": "Vietnam's FPT sees rising demand for AI adoption in Japan",
    "x_en": ""
   },
@@ -1159,7 +1149,7 @@
    "lon": 102.0,
    "place": "Малайзия",
    "place_en": "Malaysia",
-   "id": 39,
+   "id": 38,
    "t_en": "Grab, SoftBank to invest $1.85bn in Malaysia AI infrastructure",
    "x_en": ""
   },
@@ -1183,16 +1173,36 @@
    "lon": -98.64,
    "place": "США",
    "place_en": "United States",
-   "id": 40,
+   "id": 39,
    "t_en": "US midterms expose costs of East Asia's Trump diplomacy",
+   "x_en": ""
+  },
+  {
+   "t": "Honda делает ставку на гибриды как на основу электрификации США в начале 2030-х годов",
+   "x": "",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/honda-bets-on-hybrids-as-mainstay-of-us-electrification-into-early-2030s",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F6%2F8%2F2%2F13422863-1-eng-GB%2F02fddfb4609e-photo_SXM2026051400008033.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 38.68,
+   "lon": -99.59,
+   "place": "США",
+   "place_en": "United States",
+   "id": 40,
+   "t_en": "Honda bets on hybrids as mainstay of US electrification into early 2030s",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794352322578,
-   "v": 48
-  },
   {
    "t": 1794365179698,
    "v": 48
@@ -1208,139 +1218,143 @@
   {
    "t": 1794440347783,
    "v": 50
+  },
+  {
+   "t": 1794456845795,
+   "v": 51
   }
  ],
  "timeline": [
   {
-   "t": 1794353947783,
-   "v": 54,
-   "n": 19
+   "t": 1794370445795,
+   "v": 51,
+   "n": 18
   },
   {
-   "t": 1794357547783,
-   "v": 55,
-   "n": 19
-  },
-  {
-   "t": 1794361147783,
-   "v": 53,
+   "t": 1794374045795,
+   "v": 49,
    "n": 25
   },
   {
-   "t": 1794364747783,
-   "v": 47,
-   "n": 24
+   "t": 1794377645795,
+   "v": 48,
+   "n": 26
   },
   {
-   "t": 1794368347783,
-   "v": 47,
+   "t": 1794381245795,
+   "v": 45,
    "n": 32
   },
   {
-   "t": 1794371947783,
+   "t": 1794384845795,
    "v": 46,
-   "n": 41
+   "n": 43
   },
   {
-   "t": 1794375547783,
-   "v": 46,
-   "n": 54
+   "t": 1794388445795,
+   "v": 50,
+   "n": 50
   },
   {
-   "t": 1794379147783,
-   "v": 46,
-   "n": 64
-  },
-  {
-   "t": 1794382747783,
-   "v": 45,
-   "n": 66
-  },
-  {
-   "t": 1794386347783,
-   "v": 49,
-   "n": 67
-  },
-  {
-   "t": 1794389947783,
-   "v": 49,
-   "n": 53
-  },
-  {
-   "t": 1794393547783,
-   "v": 52,
-   "n": 52
-  },
-  {
-   "t": 1794397147783,
+   "t": 1794392045795,
    "v": 51,
+   "n": 51
+  },
+  {
+   "t": 1794395645795,
+   "v": 53,
+   "n": 47
+  },
+  {
+   "t": 1794399245795,
+   "v": 55,
+   "n": 50
+  },
+  {
+   "t": 1794402845795,
+   "v": 56,
+   "n": 48
+  },
+  {
+   "t": 1794406445795,
+   "v": 54,
+   "n": 44
+  },
+  {
+   "t": 1794410045795,
+   "v": 50,
    "n": 45
   },
   {
-   "t": 1794400747783,
-   "v": 56,
-   "n": 59
+   "t": 1794413645795,
+   "v": 52,
+   "n": 58
   },
   {
-   "t": 1794404347783,
-   "v": 55,
-   "n": 56
+   "t": 1794417245795,
+   "v": 52,
+   "n": 58
   },
   {
-   "t": 1794407947783,
-   "v": 51,
-   "n": 65
+   "t": 1794420845795,
+   "v": 54,
+   "n": 63
   },
   {
-   "t": 1794411547783,
-   "v": 47,
-   "n": 77
-  },
-  {
-   "t": 1794415147783,
-   "v": 48,
-   "n": 94
-  },
-  {
-   "t": 1794418747783,
+   "t": 1794424445795,
    "v": 50,
+   "n": 52
+  },
+  {
+   "t": 1794428045795,
+   "v": 50,
+   "n": 81
+  },
+  {
+   "t": 1794431645795,
+   "v": 52,
    "n": 105
   },
   {
-   "t": 1794422347783,
-   "v": 49,
-   "n": 101
+   "t": 1794435245795,
+   "v": 53,
+   "n": 123
   },
   {
-   "t": 1794425947783,
-   "v": 49,
-   "n": 102
+   "t": 1794438845795,
+   "v": 52,
+   "n": 121
   },
   {
-   "t": 1794429547783,
-   "v": 49,
-   "n": 107
+   "t": 1794442445795,
+   "v": 48,
+   "n": 106
   },
   {
-   "t": 1794433147783,
-   "v": 50,
-   "n": 111
-  },
-  {
-   "t": 1794436747783,
+   "t": 1794446045795,
    "v": 46,
+   "n": 127
+  },
+  {
+   "t": 1794449645795,
+   "v": 48,
    "n": 135
   },
   {
-   "t": 1794440347783,
-   "v": 44,
-   "n": 94
+   "t": 1794453245795,
+   "v": 45,
+   "n": 161
+  },
+  {
+   "t": 1794456845795,
+   "v": 45,
+   "n": 107
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 25
+   "items": 29
   },
   {
    "n": "Al Jazeera",
@@ -1348,7 +1362,7 @@
   },
   {
    "n": "DW",
-   "items": 11
+   "items": 9
   },
   {
    "n": "France 24",
@@ -1356,19 +1370,19 @@
   },
   {
    "n": "The Guardian",
-   "items": 33
+   "items": 31
   },
   {
    "n": "Sky News",
-   "items": 6
+   "items": 5
   },
   {
    "n": "NPR",
-   "items": 10
+   "items": 7
   },
   {
    "n": "UN News",
-   "items": 13
+   "items": 4
   },
   {
    "n": "CNBC",
@@ -1376,15 +1390,15 @@
   },
   {
    "n": "Euronews",
-   "items": 28
+   "items": 25
   },
   {
    "n": "NYT",
-   "items": 39
+   "items": 34
   },
   {
    "n": "Washington Post",
-   "items": 12
+   "items": 11
   },
   {
    "n": "CBS News",
@@ -1392,7 +1406,7 @@
   },
   {
    "n": "ABC News",
-   "items": 21
+   "items": 25
   },
   {
    "n": "CNN",
@@ -1400,15 +1414,15 @@
   },
   {
    "n": "Fox News",
-   "items": 12
+   "items": 13
   },
   {
    "n": "ABC Australia",
-   "items": 14
+   "items": 18
   },
   {
    "n": "CNA",
-   "items": 18
+   "items": 20
   },
   {
    "n": "Times of Israel",
@@ -1416,7 +1430,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1424,7 +1438,7 @@
   },
   {
    "n": "Africanews",
-   "items": 34
+   "items": 26
   },
   {
    "n": "Kyiv Independent",
@@ -1440,11 +1454,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 17
+   "items": 8
   },
   {
    "n": "Dawn",
-   "items": 26
+   "items": 29
   },
   {
    "n": "Times of India",
@@ -1473,7 +1487,6 @@
  ],
  "failed": [
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

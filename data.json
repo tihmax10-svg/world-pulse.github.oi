@@ -1,34 +1,34 @@
 {
- "updated": 1794557543347,
+ "updated": 1794586983354,
  "demo": false,
- "total_articles": 664,
- "second_delta": -1,
+ "total_articles": 673,
+ "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 53
+   "v": 49
   },
   {
    "n": "Al Jazeera",
-   "v": 50
+   "v": 53
   },
   {
    "n": "DW",
-   "v": 50
+   "v": 48
   },
   {
    "n": "France 24",
-   "v": 56
+   "v": 54
   },
   {
    "n": "The Guardian",
-   "v": 51
+   "v": 50
   },
   {
    "n": "Sky News",
-   "v": 93
+   "v": 92
   },
   {
    "n": "NPR",
@@ -36,31 +36,31 @@
   },
   {
    "n": "UN News",
-   "v": 68
+   "v": 63
   },
   {
    "n": "CNBC",
-   "v": 40
+   "v": 42
   },
   {
    "n": "Euronews",
-   "v": 55
+   "v": 50
   },
   {
    "n": "NYT",
-   "v": 49
+   "v": 48
   },
   {
    "n": "Washington Post",
-   "v": 50
+   "v": 52
   },
   {
    "n": "CBS News",
-   "v": 50
+   "v": 52
   },
   {
    "n": "ABC News",
-   "v": 54
+   "v": 60
   },
   {
    "n": "CNN",
@@ -68,27 +68,27 @@
   },
   {
    "n": "Fox News",
-   "v": 77
+   "v": 66
   },
   {
    "n": "ABC Australia",
-   "v": 45
+   "v": 47
   },
   {
    "n": "CNA",
-   "v": 40
+   "v": 39
   },
   {
    "n": "Africanews",
-   "v": 58
+   "v": 53
   },
   {
    "n": "Kyiv Independent",
-   "v": 61
+   "v": 58
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 41
   },
   {
    "n": "Nikkei Asia",
@@ -96,27 +96,27 @@
   },
   {
    "n": "The Diplomat",
-   "v": 50
+   "v": 52
   },
   {
    "n": "Dawn",
-   "v": 53
-  },
-  {
-   "n": "Times of India",
-   "v": 49
-  },
-  {
-   "n": "The Hindu",
    "v": 50
   },
   {
+   "n": "Times of India",
+   "v": 45
+  },
+  {
+   "n": "The Hindu",
+   "v": 53
+  },
+  {
    "n": "Politico EU",
-   "v": 34
+   "v": 41
   },
   {
    "n": "Japan Times",
-   "v": 42
+   "v": 39
   },
   {
    "n": "Reuters",
@@ -134,90 +134,88 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 68
+   "v": 67
   },
   {
    "n": "Азия",
-   "v": 43
+   "v": 45
   },
   {
    "n": "Африка",
-   "v": 48
+   "v": 52
   },
   {
    "n": "Америка",
-   "v": 49
+   "v": 48
   }
  ],
  "events": [
   {
-   "t": "Jensen Huang resigns as Nvidia CEO after mounting scandals",
-   "x": "Jensen Huang, long considered the face of the AI revolution, has resigned as Nvidia's President, CEO and board member as sandals over his romantic affairs wiped hundreds of billions of dollars from the company's market value in a matter of days. US lawmakers s",
+   "t": "Iran targeted US radar system in Bahrain",
+   "x": "Iran claimed it struck US radar systems in Bahrain, while the US said it had intercepted the attacks. Clashes continue in the Strait of Hormuz, as the war remains in a state of de-escalation.",
    "r": "Америка",
+   "c": "Конфликты",
+   "imp": 93,
+   "ten": 82,
+   "ago": 32,
+   "s": [
+    "DW",
+    "The Guardian",
+    "Africanews",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-world-4025-rdf",
+   "img": "https://i.guim.co.uk/img/media/f76fa0a8488f1c05bc755c935f60793cc0caee3d/448_0_4480_3584/master/4480.jpg?width=700&quality=85&auto=format&fit=max&s=ebed40767ce71ed098a16a5c8113d385",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 5,
+   "lat": 33.39,
+   "lon": 53.72,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 1,
+   "t_en": "Iran targeted US radar system in Bahrain",
+   "x_en": "Iran claimed it struck US radar systems in Bahrain, while the US said it had intercepted the attacks. Clashes continue in the Strait of Hormuz, as the war remains in a state of de-escalation."
+  },
+  {
+   "t": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
+   "x": "Colette Kress joined Nvidia in 2013 after nearly 25 years in finance roles at Cisco, Microsoft and other tech companies.",
+   "r": "Мир",
    "c": "Наука",
    "imp": 91,
    "ten": 40,
    "ago": 1,
    "s": [
-    "France 24",
-    "The Guardian",
+    "CNBC",
     "Nikkei Asia",
     "The Hindu",
-    "Reuters",
     "AP"
    ],
-   "u": "https://www.france24.com/en/tv-shows/business/20261112-jensen-huang-resigns-as-nvidia-ceo-after-mounting-scandals",
-   "img": "https://s.france24.com/media/display/531ee640-dee5-11f1-a2c0-5f54d898a954/w:1024/p:16x9/XX-NW-HDL-JENSEN-HUANG-RESIGNS-22H-AN-Meiqi-transfer.png",
-   "img_src": "France 24",
+   "u": "https://www.cnbc.com/2026/11/12/colette-kress-nvidia-cfo-interim-ceo-candidate.html",
+   "img": "https://th-i.thgim.com/public/incoming/bvjadl/article71681951.ece/alternates/LANDSCAPE_1200/2026-10-19T181225Z_1947160221_RC2H6OA4B07J_RTRMADP_3_GERMANY-POLITICS-MERZ-NVIDIA.JPG",
+   "img_src": "The Hindu",
    "fresh": true,
-   "n": 7,
-   "lat": 39.83,
-   "lon": -97.96,
-   "place": "США",
-   "place_en": "United States",
-   "id": 1,
-   "t_en": "Jensen Huang resigns as Nvidia CEO after mounting scandals",
-   "x_en": "Jensen Huang, long considered the face of the AI revolution, has resigned as Nvidia's President, CEO and board member as sandals over his romantic affairs wiped hundreds of billions of dollars from the company's market value in a matter of days. US lawmakers s"
+   "n": 6,
+   "lat": 35.11,
+   "lon": 103.35,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 2,
+   "t_en": "Who is Colette Kress? Nvidia's finance chief steps in as interim CEO after Huang exit",
+   "x_en": "Colette Kress joined Nvidia in 2013 after nearly 25 years in finance roles at Cisco, Microsoft and other tech companies."
   },
   {
-   "t": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-   "x": "Chief Financial Officer Colette Kress will serve as interim CEO until a new leader is appointed.",
-   "r": "Мир",
+   "t": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+   "x": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+   "r": "Азия",
    "c": "Общее",
    "imp": 91,
    "ten": 40,
    "ago": 1,
    "s": [
-    "CNBC",
-    "CBS News",
-    "Nikkei Asia",
-    "Japan Times"
-   ],
-   "u": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/13/thumbs/400x400/573860.jpg",
-   "img_src": "Japan Times",
-   "fresh": true,
-   "n": 5,
-   "lat": 35.76,
-   "lon": 103.61,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 2,
-   "t_en": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-   "x_en": "Chief Financial Officer Colette Kress will serve as interim CEO until a new leader is appointed."
-  },
-  {
-   "t": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-   "x": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 91,
-   "ten": 40,
-   "ago": 1,
-   "s": [
     "BBC",
-    "DW",
-    "CNBC",
+    "France 24",
     "Euronews",
     "Nikkei Asia"
    ],
@@ -225,7 +223,7 @@
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f66c/live/4f0358a0-def1-11f1-bb80-c5cef03337ce.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 5,
+   "n": 4,
    "lat": 33.76,
    "lon": 103.16,
    "place": "Китай",
@@ -235,286 +233,243 @@
    "x_en": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs."
   },
   {
-   "t": "Widespread Microsoft outage takes down Outlook and other 365 services",
-   "x": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 90,
-   "ten": 40,
-   "ago": 7,
-   "s": [
-    "CNBC",
-    "Dawn",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-   "img": "https://i.dawn.com/large/2026/11/13124409bb44140.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 4,
-   "lat": 22.25,
-   "lon": 79.24,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 4,
-   "t_en": "Widespread Microsoft outage takes down Outlook and other 365 services",
-   "x_en": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365."
-  },
-  {
-   "t": "Pope Leo XIV meets abuse victims in Peru, says Church must make 'amends'",
-   "x": "Pope Leo XIV met six victims of clerical abuse in Peru on Thursday, including people linked to the disbanded Sodalitium Christianae Vitae. The US-born pontiff also urged the Catholic Church to make amends to survivors and strengthen protections against abuse a",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 88,
-   "ten": 38,
-   "ago": 18,
-   "s": [
-    "France 24",
-    "Euronews",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/americas/20261113-pope-leo-xiv-meets-abuse-victims-in-peru-says-church-must-make-amends",
-   "img": "https://s.france24.com/media/display/74ed1b6a-ded2-11f1-a1e7-695cb59fade5/w:1024/p:16x9/e508fb7b23659b4d2a2f46189ca72db15c5d2dbc.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 4,
-   "lat": -9.89,
-   "lon": -74.35,
-   "place": "Перу",
-   "place_en": "Peru",
-   "id": 5,
-   "t_en": "Pope Leo XIV meets abuse victims in Peru, says Church must make 'amends'",
-   "x_en": "Pope Leo XIV met six victims of clerical abuse in Peru on Thursday, including people linked to the disbanded Sodalitium Christianae Vitae. The US-born pontiff also urged the Catholic Church to make amends to survivors and strengthen protections against abuse a"
-  },
-  {
-   "t": "Trump says ‘we don’t need a deal with Iran’",
-   "x": "Trump directed Vice President JD Vance to instead focus his attention on corruption and crime in Democratic cities and states.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 86,
-   "ten": 36,
-   "ago": 33,
-   "s": [
-    "CNBC",
-    "Washington Post",
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
-   "img": "https://th-i.thgim.com/public/incoming/yw3lr/article71663803.ece/alternates/LANDSCAPE_1200/Trump_Dodging_Responsibility__6321%201.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 4,
-   "lat": 40.65,
-   "lon": -98.69,
-   "place": "США",
-   "place_en": "United States",
-   "id": 6,
-   "t_en": "Trump says ‘we don’t need a deal with Iran’",
-   "x_en": "Trump directed Vice President JD Vance to instead focus his attention on corruption and crime in Democratic cities and states."
-  },
-  {
-   "t": "Live: Zelensky and Kushner confirm that Europe will join next round of Russia-Ukraine talks",
-   "x": "US envoy and President ​Donald Trump's son-in-law Jared Kushner said on Thursday Russia and ​Ukraine ‌agreed ⁠to expand the next ‌round of talks to include ⁠European nations, who will debate whether their envoy should be one individual or more and who should r",
+   "t": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
+   "x": "The first trilateral talks between Ukraine, the US and Russia in nine months have ended with an agreement on exchanging prisoners. Does this mark a genuine breakthrough and a step toward peace?",
    "r": "Европа",
    "c": "Политика",
-   "imp": 83,
-   "ten": 19,
-   "ago": 31,
+   "imp": 88,
+   "ten": 22,
+   "ago": 4,
    "s": [
+    "DW",
     "France 24",
-    "Euronews",
     "ABC News",
     "The Hindu",
-    "Japan Times",
-    "AP"
+    "Politico EU"
    ],
-   "u": "https://www.france24.com/en/europe/20261113-live-zelensky-and-kushner-confirm-that-europe-will-join-next-round-of-russia-ukraine-talks",
-   "img": "https://s.france24.com/media/display/3f454e78-de83-11f1-a0a8-5f54d898a954/w:1024/p:16x9/2026-11-11T190604Z-1479843933-RC2VLOAJ8US1-RTRMADP-3-UKRAINE-CRISIS-IRELAND.jpg",
+   "u": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.france24.com/media/display/da448e3a-df4f-11f1-9d2a-f71d22e7fea9/w:1024/p:16x9/capture-4c0c2d8a.jpg",
    "img_src": "France 24",
    "fresh": true,
-   "n": 7,
-   "lat": 49.14,
-   "lon": 30.09,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 7,
-   "t_en": "Live: Zelensky and Kushner confirm that Europe will join next round of Russia-Ukraine talks",
-   "x_en": "US envoy and President ​Donald Trump's son-in-law Jared Kushner said on Thursday Russia and ​Ukraine ‌agreed ⁠to expand the next ‌round of talks to include ⁠European nations, who will debate whether their envoy should be one individual or more and who should r"
+   "n": 6,
+   "lat": 61.52,
+   "lon": 97.2,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 4,
+   "t_en": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
+   "x_en": "The first trilateral talks between Ukraine, the US and Russia in nine months have ended with an agreement on exchanging prisoners. Does this mark a genuine breakthrough and a step toward peace?"
   },
   {
-   "t": "Chris Van Hollen launches bid to lead Democrats in US Senate",
-   "x": "Van Hollen's leadership drive follows Democratic sweeps in elections and challenges veteran leader Schumer.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 82,
-   "ten": 40,
-   "ago": 70,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "CNBC",
-    "Euronews",
-    "Dawn",
-    "Times of India",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/13/chris-van-hollen-to-run-for-us-senate-majority-leader?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/d151820dd96f644a510e876cd48686056cafc4e2/689_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=fbec931e8442f26a03eae42e9606a03f",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 10,
-   "lat": 40.42,
-   "lon": -97.37,
-   "place": "США",
-   "place_en": "United States",
-   "id": 8,
-   "t_en": "Chris Van Hollen launches bid to lead Democrats in US Senate",
-   "x_en": "Van Hollen's leadership drive follows Democratic sweeps in elections and challenges veteran leader Schumer."
-  },
-  {
-   "t": "В результате удара Израиля по больнице в секторе Газа погибли шесть палестинцев, сообщает министерство здравоохранения",
-   "x": "По словам очевидцев, ракета попала в здание, в котором расположены хирургические отделения и отделения интенсивной терапии больницы Насера, крупнейшей на юге Газы.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 71,
-   "ten": 85,
-   "ago": 284,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "France 24",
-    "Sky News",
-    "NPR",
-    "CBS News",
-    "Japan Times",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d247/live/940d6f30-de7e-11f1-b88b-3f1671ea859d.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 8,
-   "lat": 31.48,
-   "lon": 34.09,
-   "place": "Газа",
-   "place_en": "Gaza",
-   "id": 9,
-   "t_en": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-   "x_en": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza."
-  },
-  {
-   "t": "Jensen Huang has resigned, what's next for Nvidia?",
-   "x": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 70,
-   "ten": 34,
-   "ago": 65,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2742/live/64baf7c0-dece-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 41.04,
-   "lon": -74.09,
-   "place": "Нью-Йорк",
-   "place_en": "New York",
-   "id": 10,
-   "t_en": "Jensen Huang has resigned, what's next for Nvidia?",
-   "x_en": "The BBC's Samira Hussain reports from Wall Street on what the fall of the tech superstar means for the company and AI."
-  },
-  {
-   "t": "11 killed, 2 injured as passenger van plunges into river in GB's Ghizer: police",
-   "x": "GILGIT: Eleven people were killed and two injured when a passenger vehicle plunged into a river in Gilgit-Baltistan’s Ghizer district on Thursday. According to local police, a passenger van was en route to Ghizer’s Yasin Valley from Gilgit on Thursday evening ",
+   "t": "Jensen Huang quits Nvidia after 33 years amid alleged Chinese spy scandal",
+   "x": "Shareholders are suing the AI chip giant, and US lawmakers want answers about his links to Beijing.",
    "r": "Азия",
-   "c": "Конфликты",
-   "imp": 70,
-   "ten": 83,
-   "ago": 140,
-   "s": [
-    "Dawn",
-    "Times of India",
-    "The Hindu"
-   ],
-   "u": "https://www.dawn.com/news/2044089/11-killed-2-injured-as-passenger-van-plunges-into-river-in-gbs-ghizer-police",
-   "img": "https://i.dawn.com/large/2026/11/1300165791c6287.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 3,
-   "lat": 33.84,
-   "lon": 74.95,
-   "place": "Кашмир",
-   "place_en": "Kashmir",
-   "id": 11,
-   "t_en": "11 killed, 2 injured as passenger van plunges into river in GB's Ghizer: police",
-   "x_en": "GILGIT: Eleven people were killed and two injured when a passenger vehicle plunged into a river in Gilgit-Baltistan’s Ghizer district on Thursday. According to local police, a passenger van was en route to Ghizer’s Yasin Valley from Gilgit on Thursday evening "
-  },
-  {
-   "t": "Ukraine: Russian drone attack sparks major fire in Kyiv residential building",
-   "x": "A Russian drone strike sparked a major fire at an apartment building in Kyiv, Ukraine, early on Thursday. Residents fled to safety as firefighters battled the flames and rescue workers helped people at the scene.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 70,
-   "ten": 95,
-   "ago": 157,
+   "c": "Наука",
+   "imp": 80,
+   "ten": 40,
+   "ago": 1,
    "s": [
     "Euronews",
     "Africanews",
-    "Kyiv Independent"
+    "Nikkei Asia"
    ],
-   "u": "https://www.euronews.com/video/2026/11/12/ukraine-russian-drone-attack-sparks-major-fire-in-kyiv-residential-building",
-   "img": "https://images.euronews.com/articles/stories/09/99/02/34/696x392_cmsv2_4fa14bf5-d556-5a27-bc12-f0efe118cec5-9990234.jpg",
+   "u": "https://www.euronews.com/2026/11/12/nvidias-jensen-huang-resigns-over-relationship-with-suspected-chinese-spy",
+   "img": "https://images.euronews.com/articles/stories/09/99/02/30/696x392_cmsv2_17aa5440-d8c7-52f2-b9a0-6e773749dd14-9990230.jpg",
    "img_src": "Euronews",
-   "fresh": false,
+   "fresh": true,
    "n": 3,
-   "lat": 50.46,
-   "lon": 30.66,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 12,
-   "t_en": "Ukraine: Russian drone attack sparks major fire in Kyiv residential building",
-   "x_en": "A Russian drone strike sparked a major fire at an apartment building in Kyiv, Ukraine, early on Thursday. Residents fled to safety as firefighters battled the flames and rescue workers helped people at the scene."
+   "lat": 35.85,
+   "lon": 102.96,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 5,
+   "t_en": "Jensen Huang quits Nvidia after 33 years amid alleged Chinese spy scandal",
+   "x_en": "Shareholders are suing the AI chip giant, and US lawmakers want answers about his links to Beijing."
   },
   {
-   "t": "Jessica Pegula wins thrilling contest at WTA Finals, Coco Gauff eliminated",
-   "x": "Pegula's win, in the final group one round-robin match, meant Gauff was knocked out of the season-ending championships.",
+   "t": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+   "x": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
    "r": "Европа",
-   "c": "Общее",
-   "imp": 69,
-   "ten": 35,
-   "ago": 74,
+   "c": "Политика",
+   "imp": 76,
+   "ten": 21,
+   "ago": 3,
    "s": [
-    "Al Jazeera",
-    "Japan Times",
-    "Reuters"
+    "BBC",
+    "DW",
+    "Washington Post"
    ],
-   "u": "https://www.aljazeera.com/sports/2026/11/13/jessica-pegula-coco-gauff-united-states-wta-finals-tennis?traffic_source=rss",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/13/thumbs/400x400/573833.jpg",
-   "img_src": "Japan Times",
-   "fresh": false,
+   "u": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9462/live/a60e9f80-df2b-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": true,
    "n": 3,
-   "lat": 49.0,
-   "lon": 33.0,
+   "lat": 49.53,
+   "lon": 31.27,
    "place": "Украина",
    "place_en": "Ukraine",
-   "id": 13,
-   "t_en": "Jessica Pegula wins thrilling contest at WTA Finals, Coco Gauff eliminated",
-   "x_en": "Pegula's win, in the final group one round-robin match, meant Gauff was knocked out of the season-ending championships."
+   "id": 6,
+   "t_en": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+   "x_en": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU."
   },
   {
-   "t": "Президент Индонезии Прабово назвал отставку вице-президента «ради большего блага»",
-   "x": "Споры связаны с растущим расколом между президентом Прабово Субианто и его предшественником Джоко «Джокови» Видодо.",
-   "r": "Мир",
+   "t": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
+   "x": "WASHINGTON: Pakistan called for the “immediate and unconditional” cessation of Houthi attacks on Saudi Arabia on Thursday, as the United Nations Security Council adopted a resolution renewing sanctions against individuals and entities threatening peace and sta",
+   "r": "Ближний Восток",
    "c": "Политика",
+   "imp": 75,
+   "ten": 93,
+   "ago": 11,
+   "s": [
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.dawn.com/news/2044254/pakistan-calls-for-immediate-end-to-houthi-attacks-on-saudi-arabia-as-unsc-renews-yemen-sanctions",
+   "img": "https://i.dawn.com/large/2026/11/13090303017bf9a.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 2,
+   "lat": 15.19,
+   "lon": 44.53,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 7,
+   "t_en": "Pakistan calls for ‘immediate’ end to Houthi attacks on Saudi Arabia as UNSC renews Yemen sanctions",
+   "x_en": "WASHINGTON: Pakistan called for the “immediate and unconditional” cessation of Houthi attacks on Saudi Arabia on Thursday, as the United Nations Security Council adopted a resolution renewing sanctions against individuals and entities threatening peace and sta"
+  },
+  {
+   "t": "Truck and bus crash in India’s Assam state kills at least 24 people",
+   "x": "Several children and the bus driver were among those killed, officials said, with the death toll expected to rise.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 73,
+   "ten": 93,
+   "ago": 21,
+   "s": [
+    "Al Jazeera",
+    "ABC News"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/13/truck-and-bus-crash-in-indias-assam-state-kills-at-least-24-people?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_a7e5efd120b97b1fe2cc030dd77f08ba_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 2,
+   "lat": 23.55,
+   "lon": 79.37,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 8,
+   "t_en": "Truck and bus crash in India’s Assam state kills at least 24 people",
+   "x_en": "Several children and the bus driver were among those killed, officials said, with the death toll expected to rise."
+  },
+  {
+   "t": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+   "x": "Tech firm says it is making progress in attempts to restore services and there is no indication problem was caused by cyber-attack Microsoft outage hits UK hospitals, GPs, schools and police Microsoft outage – live updates Tell us: have you been affected by th",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 73,
+   "ten": 40,
+   "ago": 52,
+   "s": [
+    "The Guardian",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+   "img": "https://i.guim.co.uk/img/media/f39d9eba31016399e4c01fd145c5dd223dd145d6/334_0_3332_2666/master/3332.jpg?width=700&quality=85&auto=format&fit=max&s=f86bcf26627caab861838e2b4cacf338",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 4,
+   "lat": 54.75,
+   "lon": -1.59,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 9,
+   "t_en": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+   "x_en": "Tech firm says it is making progress in attempts to restore services and there is no indication problem was caused by cyber-attack Microsoft outage hits UK hospitals, GPs, schools and police Microsoft outage – live updates Tell us: have you been affected by th"
+  },
+  {
+   "t": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+   "x": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 72,
+   "ten": 76,
+   "ago": 12,
+   "s": [
+    "BBC",
+    "CBS News"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d06a/live/954609a0-df57-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 2,
+   "lat": 32.38,
+   "lon": 54.77,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 10,
+   "t_en": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+   "x_en": "It says it has never been able to visit a uranium enrichment plant at Isfahan which Iran announced over a year ago."
+  },
+  {
+   "t": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+   "x": "Russian strikes hit targets across Ukraine on Thursday, with one attack damaging a hospital. Ukraine meanwhile fired almost 1,200 drones at Russian targets overnight in one of its biggest aerial attacks since Moscow’s full-scale invasion nearly five years ago.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 72,
+   "ten": 95,
+   "ago": 36,
+   "s": [
+    "France 24",
+    "ABC News"
+   ],
+   "u": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
+   "img": "https://s.france24.com/media/display/ac93ac9c-df76-11f1-8215-695cb59fade5/w:1024/p:16x9/capture-8765e4ad.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 50.36,
+   "lon": 30.73,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 11,
+   "t_en": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+   "x_en": "Russian strikes hit targets across Ukraine on Thursday, with one attack damaging a hospital. Ukraine meanwhile fired almost 1,200 drones at Russian targets overnight in one of its biggest aerial attacks since Moscow’s full-scale invasion nearly five years ago."
+  },
+  {
+   "t": "Pakistan military reports it killed 74 ‘terrorists’ during raids",
+   "x": "Increased attacks on the border with Afghanistan have caused tensions between the neighbours.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 72,
+   "ten": 86,
+   "ago": 263,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_71c4b95a908b89e25a2c45408b150489_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 30.74,
+   "lon": 69.27,
+   "place": "Пакистан",
+   "place_en": "Pakistan",
+   "id": 12,
+   "t_en": "Pakistan military reports it killed 74 ‘terrorists’ during raids",
+   "x_en": "Increased attacks on the border with Afghanistan have caused tensions between the neighbours."
+  },
+  {
+   "t": "Indonesia, Thailand, Philippines to set up shared oil reserves",
+   "x": "The Japan-backed scheme will create a ticket system for emergency fuel reserves similar to that used in the European Union.",
+   "r": "Азия",
+   "c": "Экономика",
    "imp": 68,
    "ten": 40,
    "ago": 1,
@@ -522,59 +477,135 @@
     "Nikkei Asia",
     "The Diplomat"
    ],
-   "u": "https://asia.nikkei.com/politics/indonesian-president-prabowo-says-vp-resignation-for-greater-good",
-   "img": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-12-105635.jpg",
+   "u": "https://asia.nikkei.com/business/energy/indonesia-thailand-philippines-to-set-up-shared-oil-reserves",
+   "img": "https://images.thediplomat.com/v1/td-list-l-2/2026/04/thediplomat_2026-04-02-103435.jpg",
    "img_src": "The Diplomat",
    "fresh": true,
    "n": 2,
-   "lat": -2.93,
-   "lon": 118.12,
+   "lat": -2.0,
+   "lon": 118.0,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 14,
-   "t_en": "Indonesian President Prabowo says VP resignation 'for greater good'",
-   "x_en": "The controversy is connected to the widening rift between President Prabowo Subianto and his predecessor Joko \"Jokowi\" Widodo."
+   "id": 13,
+   "t_en": "Indonesia, Thailand, Philippines to set up shared oil reserves",
+   "x_en": "The Japan-backed scheme will create a ticket system for emergency fuel reserves similar to that used in the European Union."
   },
   {
-   "t": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
-   "x": "Nvidia CEO Jensen Huang has been a singular figure in the development of the AI industry, which suddenly has to survive without him.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 67,
+   "t": "Chris Van Hollen announces run for U.S. Senate majority leader, challenging Schumer",
+   "x": "Democratic U.S. Senator Chris Van Hollen said on Thursday he would run to be the Senate majority leader, challenging Senator Chuck Schumer.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 68,
    "ten": 40,
-   "ago": 104,
+   "ago": 221,
    "s": [
     "CNBC",
     "Euronews",
-    "Japan Times"
+    "Dawn",
+    "AP"
    ],
-   "u": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
-   "img": "https://images.euronews.com/articles/stories/09/98/91/57/696x392_cmsv2_1c5a129c-a002-577a-9b1d-f5331675bcea-9989157.jpg",
+   "u": "https://www.cnbc.com/2026/11/13/van-hollen-schumer-us-senate-majority-leader.html",
+   "img": "https://images.euronews.com/articles/stories/09/99/07/55/696x392_cmsv2_6e149067-786f-5157-875c-09c9137416da-9990755.jpg",
    "img_src": "Euronews",
    "fresh": false,
-   "n": 3,
-   "lat": 1.59,
-   "lon": 102.67,
-   "place": "Сингапур",
-   "place_en": "Singapore",
-   "id": 15,
-   "t_en": "Jensen Huang's exit from Nvidia raises critical questions about the future of AI",
-   "x_en": "Nvidia CEO Jensen Huang has been a singular figure in the development of the AI industry, which suddenly has to survive without him."
+   "n": 4,
+   "lat": 39.78,
+   "lon": -97.92,
+   "place": "США",
+   "place_en": "United States",
+   "id": 14,
+   "t_en": "Chris Van Hollen announces run for U.S. Senate majority leader, challenging Schumer",
+   "x_en": "Democratic U.S. Senator Chris Van Hollen said on Thursday he would run to be the Senate majority leader, challenging Senator Chuck Schumer."
   },
   {
-   "t": "Microsoft struggles to repair global Outlook outage, says no sign of 'malicious activity'",
-   "x": "Microsoft's Outlook email service has been disrupted since late Thursday as the tech giant struggles to fix issues with its servers, hitting businesses and government agencies that use the popular work platforms in 74 countries and territories. The company sai",
-   "r": "Мир",
-   "c": "Политика",
+   "t": "Trump falsely claims ‘nobody’s been killed’ in Iran war ‘in the last five months’",
+   "x": "In July, three soldiers died in an enemy attack on an air base in Jordan, another died at an air base in Iraq and a Navy captain died during an emergency landing in the Arabian Sea.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
    "imp": 66,
-   "ten": 40,
-   "ago": 20,
+   "ten": 93,
+   "ago": 83,
    "s": [
-    "France 24",
+    "Washington Post",
     "The Hindu"
    ],
-   "u": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
-   "img": "https://s.france24.com/media/display/f7e0b76a-df37-11f1-a593-f71d22e7fea9/w:1024/p:16x9/063-2304840770.jpg",
+   "u": "https://www.washingtonpost.com/politics/2026/11/13/trump-falsely-claims-nobodys-been-killed-iran-war-last-five-months/",
+   "img": "https://th-i.thgim.com/public/incoming/buaa13/article71692802.ece/alternates/LANDSCAPE_1200/AP11_12_2026_000012A.jpg",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 2,
+   "lat": 40.25,
+   "lon": -98.47,
+   "place": "США",
+   "place_en": "United States",
+   "id": 15,
+   "t_en": "Trump falsely claims ‘nobody’s been killed’ in Iran war ‘in the last five months’",
+   "x_en": "In July, three soldiers died in an enemy attack on an air base in Jordan, another died at an air base in Iraq and a Navy captain died during an emergency landing in the Arabian Sea."
+  },
+  {
+   "t": "Europe should not walk into Russia’s ‘traps’ on Ukraine talks, EU’s foreign policy chief Kallas says – Europe live",
+   "x": "Kaja Kallas warns against agreeing to Russia’s proposed sequence of events on talks on Ukraine Hungary’s Péter Magyar is also here, looking very elegant as always… … but it looks like he took a slight detour on the way back to hotel last night to try and pour ",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 37,
+   "ago": 19,
+   "s": [
+    "The Guardian",
+    "The Hindu"
+   ],
+   "u": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+   "img": "https://i.guim.co.uk/img/media/e308c3f7bef8218a6a291d8a4a13b3ac9c676166/1128_254_3855_3084/master/3855.jpg?width=700&quality=85&auto=format&fit=max&s=91c000d8e320f21d165dccb1cf8b3803",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 51.0,
+   "lon": 4.05,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 16,
+   "t_en": "Europe should not walk into Russia’s ‘traps’ on Ukraine talks, EU’s foreign policy chief Kallas says – Europe live",
+   "x_en": "Kaja Kallas warns against agreeing to Russia’s proposed sequence of events on talks on Ukraine Hungary’s Péter Magyar is also here, looking very elegant as always… … but it looks like he took a slight detour on the way back to hotel last night to try and pour "
+  },
+  {
+   "t": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
+   "x": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 37,
+   "ago": 19,
+   "s": [
+    "CNBC",
+    "The Hindu"
+   ],
+   "u": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+   "img": "https://th-i.thgim.com/public/incoming/v1hmra/article71696571.ece/alternates/LANDSCAPE_1200/Trump__5661.jpg",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 3,
+   "lat": 34.75,
+   "lon": 104.54,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 17,
+   "t_en": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
+   "x_en": "Jensen Huang resigned as Nvidia CEO days after admitting to an affair following scrutiny of his relationship with a woman reportedly deemed a Chinese spy."
+  },
+  {
+   "t": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
+   "x": "Microsoft said \"malicious\" activity was not to blame for an Outlook outage that left users around the world without its crucial services on Friday, November 13, but reported making headway in fixing the massive disruption. Businesses, governments and likely mi",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 64,
+   "ten": 44,
+   "ago": 35,
+   "s": [
+    "France 24",
+    "CBS News"
+   ],
+   "u": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
+   "img": "https://s.france24.com/media/display/7c263c00-df4e-11f1-af3b-3f371022a770/w:1024/p:16x9/capture-748626c0.jpg",
    "img_src": "France 24",
    "fresh": true,
    "n": 2,
@@ -582,236 +613,110 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 16,
-   "t_en": "Microsoft struggles to repair global Outlook outage, says no sign of 'malicious activity'",
-   "x_en": "Microsoft's Outlook email service has been disrupted since late Thursday as the tech giant struggles to fix issues with its servers, hitting businesses and government agencies that use the popular work platforms in 74 countries and territories. The company sai"
-  },
-  {
-   "t": "Australia captain Pat Cummins denies involvement in ‘Sandpapergate’ scandal",
-   "x": "Cummins says Khawaja was '100 percent wrong' in claiming the whole team knew about the 2018 ball-tampering scandal.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 46,
-   "ago": 119,
-   "s": [
-    "Al Jazeera",
-    "ABC Australia",
-    "Dawn"
-   ],
-   "u": "https://www.aljazeera.com/sports/2026/11/13/pat-cummins-australia-usman-khawaja-sandpapergate-test-south-africa?traffic_source=rss",
-   "img": "https://live-production.wcms.abc-cdn.net.au/f1fcb43f6184f1a74f87bb54f407773a?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=121&width=862&height=485",
-   "img_src": "ABC Australia",
-   "fresh": false,
-   "n": 3,
-   "lat": -25.47,
-   "lon": 134.51,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 17,
-   "t_en": "Australia captain Pat Cummins denies involvement in ‘Sandpapergate’ scandal",
-   "x_en": "Cummins says Khawaja was '100 percent wrong' in claiming the whole team knew about the 2018 ball-tampering scandal."
-  },
-  {
-   "t": "Tanker carrying LNG hit mine, suffered explosion in Hormuz: Iran",
-   "x": "Tankers are still facing attacks across the strait, ⁠despite a rebound in traffic and expectations of a de-escalation ‌in the US-Israeli war on Iran, that have been reflected in falling oil prices",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 64,
-   "ten": 95,
-   "ago": 11,
-   "s": [
-    "The Hindu"
-   ],
-   "u": "https://www.thehindu.com/news/international/tanker-carrying-lng-hit-mine-suffered-explosion-in-hormuz-iran/article71696996.ece",
-   "img": "https://th-i.thgim.com/public/incoming/qb2yum/article71697001.ece/alternates/LANDSCAPE_1200/2026-11-12T154751Z_1358427386_RC2E1OA746MN_RTRMADP_3_IRAN-CRISIS.JPG",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 1,
-   "lat": 26.49,
-   "lon": 56.49,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
    "id": 18,
-   "t_en": "Tanker carrying LNG hit mine, suffered explosion in Hormuz: Iran",
-   "x_en": "Tankers are still facing attacks across the strait, ⁠despite a rebound in traffic and expectations of a de-escalation ‌in the US-Israeli war on Iran, that have been reflected in falling oil prices"
+   "t_en": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
+   "x_en": "Microsoft said \"malicious\" activity was not to blame for an Outlook outage that left users around the world without its crucial services on Friday, November 13, but reported making headway in fixing the massive disruption. Businesses, governments and likely mi"
   },
   {
-   "t": "As election nears, Spain's Sanchez struggles to rally disillusioned left",
-   "x": "Interviews and ‌polls suggest that many potential supporters are too furious about the status quo and the perceived failings of Pedro Sanchez incumbent government to oblige",
-   "r": "Европа",
+   "t": "Nvidia scandal: How close was ex-CEO to Trump?",
+   "x": "US lawmakers have called Jensen Huang to face their questions in December after the Nvidia ex-CEO quit over extramarital affairs, including one with a suspected Chinese spy. The Taiwanese-born businessman was a close informal adviser to President Donald Trump ",
+   "r": "Америка",
    "c": "Политика",
-   "imp": 64,
-   "ten": 40,
-   "ago": 34,
+   "imp": 63,
+   "ten": 32,
+   "ago": 32,
    "s": [
-    "The Hindu",
-    "Reuters"
+    "France 24",
+    "CNA"
    ],
-   "u": "https://www.thehindu.com/news/international/as-election-nears-spains-sanchez-struggles-to-rally-disillusioned-left/article71696797.ece",
-   "img": "https://th-i.thgim.com/public/incoming/1wjaob/article71696850.ece/alternates/LANDSCAPE_1200/2026-11-13T035558Z_2025722311_RC2OMOAC7KTK_RTRMADP_3_SPAIN-ELECTION.JPG",
-   "img_src": "The Hindu",
+   "u": "https://www.france24.com/en/video/20261113-nvidia-scandal-how-close-was-ex-ceo-to-trump",
+   "img": "https://s.france24.com/media/display/5fefb702-df79-11f1-8db1-695cb59fade5/w:1024/p:16x9/EN-20261113-160704-161114-CS.jpg",
+   "img_src": "France 24",
    "fresh": true,
    "n": 2,
-   "lat": 40.85,
-   "lon": -4.62,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 19,
-   "t_en": "As election nears, Spain's Sanchez struggles to rally disillusioned left",
-   "x_en": "Interviews and ‌polls suggest that many potential supporters are too furious about the status quo and the perceived failings of Pedro Sanchez incumbent government to oblige"
-  },
-  {
-   "t": "US envoys shuttle between Putin and Zelenskyy",
-   "x": "US envoys Witkoff and Kushner have shuttled between Dublin and Moscow in efforts to broker a Russia-Ukraine peace deal.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 23,
-   "ago": 240,
-   "s": [
-    "Al Jazeera",
-    "NPR",
-    "Washington Post",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4300x2867+0+0/resize/4300x2867!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2F97%2F6f0afe7d4fec85c8bfe4b77d0164%2Fap26316483363429.jpg",
-   "img_src": "NPR",
-   "fresh": false,
-   "n": 5,
-   "lat": 40.09,
-   "lon": -99.52,
+   "lat": 39.24,
+   "lon": -98.3,
    "place": "США",
    "place_en": "United States",
-   "id": 20,
-   "t_en": "US envoys shuttle between Putin and Zelenskyy",
-   "x_en": "US envoys Witkoff and Kushner have shuttled between Dublin and Moscow in efforts to broker a Russia-Ukraine peace deal."
+   "id": 19,
+   "t_en": "Nvidia scandal: How close was ex-CEO to Trump?",
+   "x_en": "US lawmakers have called Jensen Huang to face their questions in December after the Nvidia ex-CEO quit over extramarital affairs, including one with a suspected Chinese spy. The Taiwanese-born businessman was a close informal adviser to President Donald Trump "
   },
   {
-   "t": "US terror case sheds light on RAF Fairford arrests mystery",
-   "x": "Suspect held in New York jail has been linked to handler behind Iran-linked operations in Britain When the US took custody of Mohammad Baqer Saad Dawood al-Saadi in May, investigators hoped the string of terror and arson attacks he was accused of promoting and",
-   "r": "Америка",
+   "t": "UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution'",
+   "x": "In an interview with FRANCE 24, UN refugee chief Barham Salih called the war in Sudan \"shameful\" and urged the world to end it. With forced displacement at a record high, he warned that funding cuts are hurting people \"in dire need\". \"Efficiency has its limits",
+   "r": "Африка",
    "c": "Конфликты",
-   "imp": 63,
+   "imp": 62,
    "ten": 95,
-   "ago": 16,
+   "ago": 27,
    "s": [
-    "The Guardian"
+    "France 24"
    ],
-   "u": "https://www.theguardian.com/uk-news/2026/nov/13/us-terror-case-raf-fairford-arrests",
-   "img": "https://i.guim.co.uk/img/media/d1735b4a44ef062b46112fa9ecc27587ab34641c/528_0_2778_2222/master/2778.jpg?width=700&quality=85&auto=format&fit=max&s=dfd74930d05de6eb983c71e82940673d",
-   "img_src": "The Guardian",
+   "u": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261113-un-refugee-chief-barham-salih-slams-shameful-war-in-sudan-urges-political-solution",
+   "img": "https://s.france24.com/media/display/02c9f834-dea3-11f1-84f2-695cb59fade5/w:1024/p:16x9/TaT-BARHAM-SALIH-pour-mix-V2-MIX-OK.jpg",
+   "img_src": "France 24",
    "fresh": true,
    "n": 1,
-   "lat": 40.72,
-   "lon": -98.13,
+   "lat": 16.02,
+   "lon": 31.07,
+   "place": "Судан",
+   "place_en": "Sudan",
+   "id": 20,
+   "t_en": "UN refugee chief Barham Salih slams 'shameful' war in Sudan, urges 'political solution'",
+   "x_en": "In an interview with FRANCE 24, UN refugee chief Barham Salih called the war in Sudan \"shameful\" and urged the world to end it. With forced displacement at a record high, he warned that funding cuts are hurting people \"in dire need\". \"Efficiency has its limits"
+  },
+  {
+   "t": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
+   "x": "The US-Iran war is trapped in an ongoing 'no war, no peace' situation, analysts say.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 47,
+   "ago": 357,
+   "s": [
+    "Al Jazeera",
+    "CNBC",
+    "Washington Post",
+    "CBS News"
+   ],
+   "u": "https://www.aljazeera.com/features/2026/11/13/why-is-trump-saying-no-deal-necessary-with-iran-as-he-sidelines-jd-vance?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-10-20T183134Z_99037278_RC267OA0Z53B_RTRMADP_3_USA-TRUMP-1794560172_c635cd-1794565751.jpg?resize=1200%2C630&quality=80",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 4,
+   "lat": 38.54,
+   "lon": -98.83,
    "place": "США",
    "place_en": "United States",
    "id": 21,
-   "t_en": "US terror case sheds light on RAF Fairford arrests mystery",
-   "x_en": "Suspect held in New York jail has been linked to handler behind Iran-linked operations in Britain When the US took custody of Mohammad Baqer Saad Dawood al-Saadi in May, investigators hoped the string of terror and arson attacks he was accused of promoting and"
+   "t_en": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
+   "x_en": "The US-Iran war is trapped in an ongoing 'no war, no peace' situation, analysts say."
   },
   {
-   "t": "Delhi overtakes Lahore as world's most polluted major city as air quality deteriorates",
-   "x": "India’s capital, Delhi, overtook Lahore to become the world’s most polluted city on Friday, with air quality reaching hazardous levels and visibility dropping as smog blanketed the city of 20 million people. Earlier, Delhi’s air quality index (AQI) stood at 33",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 62,
-   "ten": 40,
-   "ago": 45,
-   "s": [
-    "Dawn",
-    "Reuters"
-   ],
-   "u": "https://www.dawn.com/news/2044265/delhi-overtakes-lahore-as-worlds-most-polluted-major-city-as-air-quality-deteriorates",
-   "img": "https://i.dawn.com/large/2026/11/131153219a267b8.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": 28.24,
-   "lon": 77.08,
-   "place": "Нью-Дели",
-   "place_en": "New Delhi",
-   "id": 22,
-   "t_en": "Delhi overtakes Lahore as world's most polluted major city as air quality deteriorates",
-   "x_en": "India’s capital, Delhi, overtook Lahore to become the world’s most polluted city on Friday, with air quality reaching hazardous levels and visibility dropping as smog blanketed the city of 20 million people. Earlier, Delhi’s air quality index (AQI) stood at 33"
-  },
-  {
-   "t": "Великобритания назначает посланника по климатической безопасности, поскольку Тунберг критикует лидеров COP31",
-   "x": "Великобритания назначила специального посланника по противодействию угрозам безопасности, связанным с изменением климата.",
-   "r": "Европа",
-   "c": "Природа",
-   "imp": 62,
-   "ten": 57,
-   "ago": 65,
-   "s": [
-    "ABC News",
-    "Africanews"
-   ],
-   "u": "https://abcnews.com/International/wireStory/uk-names-climate-security-envoy-island-leaders-warn-138066951",
-   "img": "https://s.abcnews.com/images/International/wirestory_f3e3326d07ab4fbff40c37b605ecd66c_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 2,
-   "lat": 53.31,
-   "lon": -0.85,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 23,
-   "t_en": "UK appoints climate security envoy as Thunberg criticizes COP31 leaders",
-   "x_en": "The United Kingdom has appointed a special envoy to address climate change security threats"
-  },
-  {
-   "t": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
-   "x": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
+   "t": "US Treasury chief blames Commerce Dept for failure in Nvidia scandal",
+   "x": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department for failing to blacklist Megaspeed, the Singapore company at the centre of a scandal that prompted Nvidia chief executive Jensen Huang to resign . Speaking on CNBC , Bessent said Trea",
    "r": "Америка",
-   "c": "Наука",
+   "c": "Общее",
    "imp": 61,
    "ten": 40,
    "ago": 57,
    "s": [
-    "CNBC",
-    "Japan Times"
-   ],
-   "u": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/13/thumbs/400x400/573859.jpg",
-   "img_src": "Japan Times",
-   "fresh": true,
-   "n": 2,
-   "lat": 35.07,
-   "lon": 103.38,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 24,
-   "t_en": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
-   "x_en": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations."
-  },
-  {
-   "t": "Iran says it targeted US radar site in Bahrain",
-   "x": "IRGC says it hit radar in retaliation for an 'enemy' air attack on a telecom tower in Iran's Hormozgan province.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 54,
-   "ago": 193,
-   "s": [
-    "Al Jazeera",
-    "The Hindu",
+    "Dawn",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/d845dx/article71696582.ece/alternates/LANDSCAPE_1200/2026-11-08T175031Z_603691181_RC2PJOACU6TK_RTRMADP_3_IRAN-CRISIS.JPG",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 33.07,
-   "lon": 54.93,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 25,
-   "t_en": "Iran says it targeted US radar site in Bahrain",
-   "x_en": "IRGC says it hit radar in retaliation for an 'enemy' air attack on a telecom tower in Iran's Hormozgan province."
+   "u": "https://www.dawn.com/news/2044316/us-treasury-chief-blames-commerce-dept-for-failure-in-nvidia-scandal",
+   "img": "https://i.dawn.com/large/2026/11/13201142fa5d8b1.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.07,
+   "lon": -99.39,
+   "place": "США",
+   "place_en": "United States",
+   "id": 22,
+   "t_en": "US Treasury chief blames Commerce Dept for failure in Nvidia scandal",
+   "x_en": "US Treasury Secretary Scott Bessent on Friday blamed the Commerce Department for failing to blacklist Megaspeed, the Singapore company at the centre of a scandal that prompted Nvidia chief executive Jensen Huang to resign . Speaking on CNBC , Bessent said Trea"
   },
   {
    "t": "План отставки вице-президента Индонезии и угроза импичмента: 5 вещей, которые нужно знать",
@@ -833,7 +738,7 @@
    "lon": 119.18,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 26,
+   "id": 23,
    "t_en": "Indonesian VP's resignation plan and impeachment threat: 5 things to know",
    "x_en": ""
   },
@@ -857,33 +762,112 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 27,
+   "id": 24,
    "t_en": "Nvidia crisis exposes downside of rockstar founders",
    "x_en": ""
   },
   {
-   "t": "74 terrorists killed in multiple operations: Pakistani Army",
-   "x": "The operations were carried out from November 3 onwards in the Kurram area of Quetta district in Balochistan, as well as in Mir Ali and Orakzai areas of Khyber Pakhtunkhwa, says military’s media wing",
-   "r": "Мир",
+   "t": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
+   "x": "Russian overnight attacks on Ukraine killed at least two person in Odesa and injured another at a hospital in Kyiv. Rescuers evacuated patients, including people using wheelchairs and crutches, as firefighters battled the flames.",
+   "r": "Европа",
    "c": "Конфликты",
    "imp": 60,
-   "ten": 91,
-   "ago": 34,
+   "ten": 95,
+   "ago": 323,
    "s": [
-    "The Hindu"
+    "Euronews",
+    "Africanews",
+    "Kyiv Independent"
    ],
-   "u": "https://www.thehindu.com/news/international/74-terrorists-killed-in-multiple-operations-pakistani-army/article71696886.ece",
-   "img": "https://www.thehindu.com/theme/images/og-image.png",
-   "img_src": "The Hindu (og)",
+   "u": "https://www.euronews.com/video/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa",
+   "img": "https://images.euronews.com/articles/stories/09/99/11/77/696x392_cmsv2_d1631cbc-bac7-541e-bc8c-2eb33d4d27b1-9991177.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 5,
+   "lat": 50.17,
+   "lon": 30.76,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 25,
+   "t_en": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
+   "x_en": "Russian overnight attacks on Ukraine killed at least two person in Odesa and injured another at a hospital in Kyiv. Rescuers evacuated patients, including people using wheelchairs and crutches, as firefighters battled the flames."
+  },
+  {
+   "t": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
+   "x": "EU leaders believe a US-backed process will allow Moscow and Washington to decide the fate of a conflict.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 15,
+   "ago": 39,
+   "s": [
+    "Al Jazeera",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af72b2c48-1794583340.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
    "fresh": true,
-   "n": 1,
-   "lat": 30.19,
-   "lon": 70.55,
-   "place": "Пакистан",
-   "place_en": "Pakistan",
+   "n": 2,
+   "lat": 48.16,
+   "lon": 32.35,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 26,
+   "t_en": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
+   "x_en": "EU leaders believe a US-backed process will allow Moscow and Washington to decide the fate of a conflict."
+  },
+  {
+   "t": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+   "x": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations.",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 59,
+   "ten": 40,
+   "ago": 68,
+   "s": [
+    "CNBC",
+    "CBS News"
+   ],
+   "u": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-alice-spy-megaspeed-.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108547468-1794318020652-gettyimages-2303986898-AFP_D6ZC9G6.jpeg?v=1794530723&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": false,
+   "n": 2,
+   "lat": 35.07,
+   "lon": 103.38,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 27,
+   "t_en": "Why Singapore keeps turning up in the fight over Nvidia chips and China",
+   "x_en": "Singapore said it had barred Alice Huang from re-entering the country and that U.S. authorities had provided limited help with its yearlong investigations."
+  },
+  {
+   "t": "Israeli strike on Gaza hospital kills six, health ministry says",
+   "x": "An Israeli airstrike on a Palestinian hospital has killed at least six and wounded 28, Gaza's Health Ministry said.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 95,
+   "ago": 1365,
+   "s": [
+    "Sky News",
+    "NPR",
+    "NYT",
+    "CBS News"
+   ],
+   "u": "https://news.sky.com/story/israeli-strike-on-gaza-hospital-kills-six-including-doctor-health-ministry-says-13611456",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-israel-palestine_7404900.jpg?20261112114527",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 4,
+   "lat": 31.35,
+   "lon": 34.32,
+   "place": "Газа",
+   "place_en": "Gaza",
    "id": 28,
-   "t_en": "74 terrorists killed in multiple operations: Pakistani Army",
-   "x_en": "The operations were carried out from November 3 onwards in the Kurram area of Quetta district in Balochistan, as well as in Mir Ali and Orakzai areas of Khyber Pakhtunkhwa, says military’s media wing"
+   "t_en": "Israeli strike on Gaza hospital kills six, health ministry says",
+   "x_en": "An Israeli airstrike on a Palestinian hospital has killed at least six and wounded 28, Gaza's Health Ministry said."
   },
   {
    "t": "Аресты руководителей госактивов в Казахстане ставят под сомнение IPO железной дороги в Гонконге",
@@ -910,56 +894,52 @@
    "x_en": ""
   },
   {
-   "t": "COP31: Himalayan flash floods should push all to act ‘faster and fairer’ on climate change: UN climate chief",
-   "x": "“The glacial collapse and flash floods in the Himalayas this year are a devastating reminder of how fragile these mountain environments can be, particularly the Hindu Kush Himalayas,” UNFCCC Executive Secretary Simon Stiell said",
-   "r": "Мир",
-   "c": "Природа",
+   "t": "Caught Between Killers: Ebola on One Side, Islamic State on the Other",
+   "x": "The new epicenter of Congo’s fast-spreading outbreak is a region scarred by rebel violence. Responders are struggling to help it.",
+   "r": "Африка",
+   "c": "Общее",
    "imp": 58,
-   "ten": 74,
-   "ago": 27,
+   "ten": 66,
+   "ago": 20,
    "s": [
-    "The Hindu"
+    "NYT"
    ],
-   "u": "https://www.thehindu.com/news/international/cop31-himalayan-flash-floods-should-push-all-to-act-faster-and-fairer-on-climate-change-un-climate-chief/article71696870.ece",
-   "img": "https://th-i.thgim.com/public/incoming/nmwa1i/article71696918.ece/alternates/LANDSCAPE_1200/Climate_COP31_Turkey_48_16.jpg",
-   "img_src": "The Hindu",
+   "u": "https://www.nytimes.com/2026/11/13/world/africa/ebola-congo-isis.html",
+   "img": "https://static01.nyt.com/images/2026/11/13/multimedia/13int-ebola-biakato-promo-mzqw/13int-ebola-biakato-promo-mzqw-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "lat": -2.54,
+   "lon": 24.78,
+   "place": "ДР Конго",
+   "place_en": "DR Congo",
    "id": 30,
-   "t_en": "COP31: Himalayan flash floods should push all to act ‘faster and fairer’ on climate change: UN climate chief",
-   "x_en": "“The glacial collapse and flash floods in the Himalayas this year are a devastating reminder of how fragile these mountain environments can be, particularly the Hindu Kush Himalayas,” UNFCCC Executive Secretary Simon Stiell said"
+   "t_en": "Caught Between Killers: Ebola on One Side, Islamic State on the Other",
+   "x_en": "The new epicenter of Congo’s fast-spreading outbreak is a region scarred by rebel violence. Responders are struggling to help it."
   },
   {
-   "t": "В Барселоне вспыхнули столкновения после того, как тысячи людей присоединились к всеобщей забастовке в Испании",
-   "x": "Десятки тысяч человек приняли участие в забастовке, вызванной основными профсоюзами страны из-за жилищного строительства и высокой стоимости жизни.",
-   "r": "Европа",
+   "t": "Doctor named as DC gym shooting suspect confessed, noting dispute over living conditions, building manager says",
+   "x": "Gunman killed one person and injured at least four others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residentia",
+   "r": "Америка",
    "c": "Конфликты",
    "imp": 58,
-   "ten": 83,
-   "ago": 1482,
+   "ten": 95,
+   "ago": 58,
    "s": [
-    "BBC",
-    "Sky News",
-    "Euronews",
-    "NYT",
-    "Africanews"
+    "The Guardian"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c8f2/live/d0df2010-de11-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 41.43,
-   "lon": -3.56,
-   "place": "Испания",
-   "place_en": "Spain",
+   "u": "https://www.theguardian.com/us-news/2026/nov/13/washington-dc-gym-shooter-confession",
+   "img": "https://i.guim.co.uk/img/media/213c7a3b1bea4b9ac7668613d39560ede8f97c8b/445_0_2259_1808/master/2259.jpg?width=700&quality=85&auto=format&fit=max&s=d5c4815af2af3782d3bb00f84285c33a",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 1,
+   "lat": 38.81,
+   "lon": -76.71,
+   "place": "Вашингтон",
+   "place_en": "Washington",
    "id": 31,
-   "t_en": "Clashes erupt in Barcelona after thousands join Spain general strike",
-   "x_en": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living."
+   "t_en": "Doctor named as DC gym shooting suspect confessed, noting dispute over living conditions, building manager says",
+   "x_en": "Gunman killed one person and injured at least four others in and around condo building not far from the White House More details were emerging on Friday about the previous morning’s shooting in north-west Washington DC, as a manager at the shooter’s residentia"
   },
   {
    "t": "Want Cash Out of Your Home? Here Are Your Best Options",
@@ -1082,78 +1062,6 @@
    "x_en": ""
   },
   {
-   "t": "Muted Singles Day campaign winds down as China's shoppers hunt for value",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/consumer/muted-singles-day-campaign-winds-down-as-china-s-shoppers-hunt-for-value",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F9%2F6%2F0%2F13430694-2-eng-GB%2F35ee077a28aa-photo_SXM2026111100003088.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.25,
-   "lon": 103.39,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 37,
-   "t_en": "Muted Singles Day campaign winds down as China's shoppers hunt for value",
-   "x_en": ""
-  },
-  {
-   "t": "Rule change to ease Japan life insurers' government bond purchases",
-   "x": "",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/bonds/rule-change-to-ease-japan-life-insurers-government-bond-purchases",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F3%2F5%2F0%2F13430539-2-eng-GB%2Fdefca69a519e-photo_SXM2024100100004278.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.96,
-   "lon": 138.13,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 38,
-   "t_en": "Rule change to ease Japan life insurers' government bond purchases",
-   "x_en": ""
-  },
-  {
-   "t": "Analysis: Xi Jinping's 'New Yalta' moment takes shape in Shenzhen",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/editor-s-picks/china-up-close/analysis-xi-jinping-s-new-yalta-moment-takes-shape-in-shenzhen",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F2%2F0%2F7%2F13427024-1-eng-GB%2F55828aa5decd-20261112-CUC-img.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 34.78,
-   "lon": 103.41,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 39,
-   "t_en": "Analysis: Xi Jinping's 'New Yalta' moment takes shape in Shenzhen",
-   "x_en": ""
-  },
-  {
    "t": "Rare earth yttrium soars 9-fold in a year amid China curbs",
    "x": "",
    "r": "Азия",
@@ -1173,16 +1081,84 @@
    "lon": 103.46,
    "place": "Китай",
    "place_en": "China",
-   "id": 40,
+   "id": 37,
    "t_en": "Rare earth yttrium soars 9-fold in a year amid China curbs",
+   "x_en": ""
+  },
+  {
+   "t": "Is China encircling Vietnam?",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/opinion/is-china-encircling-vietnam",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F7%2F9%2F3%2F13423978-2-eng-GB%2F93f8080e3819-cambo.png?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 34.01,
+   "lon": 102.85,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 38,
+   "t_en": "Is China encircling Vietnam?",
+   "x_en": ""
+  },
+  {
+   "t": "Russian crude oil prices jump on China, India demand",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/commodities/russian-crude-oil-prices-jump-on-china-india-demand",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F5%2F8%2F0%2F13430854-2-eng-GB%2Fde592594bca0-photo_SXM2026111100005080.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 62.31,
+   "lon": 93.31,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 39,
+   "t_en": "Russian crude oil prices jump on China, India demand",
+   "x_en": ""
+  },
+  {
+   "t": "Cambodia's military recruitment drive tops target by 50%",
+   "x": "",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/cambodia-s-military-recruitment-drive-tops-target-by-50",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F4%2F9%2F3%2F12943945-1-eng-GB%2F4895440bf009-20260722-DJI_20260722131026_0369_e.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 12.35,
+   "lon": 103.87,
+   "place": "Камбоджа",
+   "place_en": "Cambodia",
+   "id": 40,
+   "t_en": "Cambodia's military recruitment drive tops target by 50%",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794487500168,
-   "v": 49
-  },
   {
    "t": 1794515348443,
    "v": 50
@@ -1194,139 +1170,143 @@
   {
    "t": 1794557543347,
    "v": 51
+  },
+  {
+   "t": 1794586983354,
+   "v": 50
   }
  ],
  "timeline": [
   {
-   "t": 1794471143347,
-   "v": 45,
-   "n": 41
+   "t": 1794500583354,
+   "v": 59,
+   "n": 29
   },
   {
-   "t": 1794474743347,
-   "v": 48,
-   "n": 38
-  },
-  {
-   "t": 1794478343347,
-   "v": 52,
-   "n": 45
-  },
-  {
-   "t": 1794481943347,
-   "v": 57,
-   "n": 42
-  },
-  {
-   "t": 1794485543347,
-   "v": 58,
-   "n": 45
-  },
-  {
-   "t": 1794489143347,
-   "v": 58,
-   "n": 43
-  },
-  {
-   "t": 1794492743347,
-   "v": 57,
-   "n": 46
-  },
-  {
-   "t": 1794496343347,
+   "t": 1794504183354,
    "v": 56,
-   "n": 43
+   "n": 29
   },
   {
-   "t": 1794499943347,
-   "v": 56,
-   "n": 51
+   "t": 1794507783354,
+   "v": 53,
+   "n": 25
   },
   {
-   "t": 1794503543347,
+   "t": 1794511383354,
    "v": 55,
-   "n": 45
+   "n": 16
   },
   {
-   "t": 1794507143347,
-   "v": 56,
-   "n": 49
+   "t": 1794514983354,
+   "v": 53,
+   "n": 12
   },
   {
-   "t": 1794510743347,
-   "v": 57,
-   "n": 37
+   "t": 1794518583354,
+   "v": 47,
+   "n": 20
   },
   {
-   "t": 1794514343347,
-   "v": 57,
-   "n": 44
+   "t": 1794522183354,
+   "v": 44,
+   "n": 23
   },
   {
-   "t": 1794517943347,
-   "v": 51,
-   "n": 56
+   "t": 1794525783354,
+   "v": 41,
+   "n": 27
   },
   {
-   "t": 1794521543347,
-   "v": 48,
-   "n": 68
-  },
-  {
-   "t": 1794525143347,
+   "t": 1794529383354,
    "v": 46,
-   "n": 73
+   "n": 20
   },
   {
-   "t": 1794528743347,
+   "t": 1794532983354,
+   "v": 47,
+   "n": 30
+  },
+  {
+   "t": 1794536583354,
    "v": 45,
-   "n": 64
+   "n": 39
   },
   {
-   "t": 1794532343347,
-   "v": 48,
+   "t": 1794540183354,
+   "v": 45,
+   "n": 52
+  },
+  {
+   "t": 1794543783354,
+   "v": 45,
+   "n": 59
+  },
+  {
+   "t": 1794547383354,
+   "v": 46,
+   "n": 63
+  },
+  {
+   "t": 1794550983354,
+   "v": 45,
    "n": 83
   },
   {
-   "t": 1794535943347,
+   "t": 1794554583354,
+   "v": 46,
+   "n": 86
+  },
+  {
+   "t": 1794558183354,
+   "v": 46,
+   "n": 88
+  },
+  {
+   "t": 1794561783354,
+   "v": 50,
+   "n": 89
+  },
+  {
+   "t": 1794565383354,
+   "v": 51,
+   "n": 95
+  },
+  {
+   "t": 1794568983354,
+   "v": 49,
+   "n": 116
+  },
+  {
+   "t": 1794572583354,
+   "v": 49,
+   "n": 116
+  },
+  {
+   "t": 1794576183354,
+   "v": 48,
+   "n": 135
+  },
+  {
+   "t": 1794579783354,
+   "v": 48,
+   "n": 138
+  },
+  {
+   "t": 1794583383354,
    "v": 45,
-   "n": 106
+   "n": 164
   },
   {
-   "t": 1794539543347,
-   "v": 45,
-   "n": 121
-  },
-  {
-   "t": 1794543143347,
-   "v": 43,
-   "n": 128
-  },
-  {
-   "t": 1794546743347,
-   "v": 45,
-   "n": 112
-  },
-  {
-   "t": 1794550343347,
-   "v": 45,
-   "n": 125
-  },
-  {
-   "t": 1794553943347,
+   "t": 1794586983354,
    "v": 44,
-   "n": 140
-  },
-  {
-   "t": 1794557543347,
-   "v": 44,
-   "n": 108
+   "n": 111
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 25
+   "items": 20
   },
   {
    "n": "Al Jazeera",
@@ -1334,7 +1314,7 @@
   },
   {
    "n": "DW",
-   "items": 11
+   "items": 13
   },
   {
    "n": "France 24",
@@ -1346,31 +1326,31 @@
   },
   {
    "n": "Sky News",
-   "items": 4
+   "items": 3
   },
   {
    "n": "NPR",
-   "items": 9
+   "items": 10
   },
   {
    "n": "UN News",
-   "items": 6
+   "items": 9
   },
   {
    "n": "CNBC",
-   "items": 30
+   "items": 29
   },
   {
    "n": "Euronews",
-   "items": 31
+   "items": 39
   },
   {
    "n": "NYT",
-   "items": 28
+   "items": 29
   },
   {
    "n": "Washington Post",
-   "items": 9
+   "items": 11
   },
   {
    "n": "CBS News",
@@ -1386,11 +1366,11 @@
   },
   {
    "n": "Fox News",
-   "items": 5
+   "items": 1
   },
   {
    "n": "ABC Australia",
-   "items": 19
+   "items": 14
   },
   {
    "n": "CNA",
@@ -1410,7 +1390,7 @@
   },
   {
    "n": "Africanews",
-   "items": 30
+   "items": 40
   },
   {
    "n": "Kyiv Independent",
@@ -1434,7 +1414,7 @@
   },
   {
    "n": "Times of India",
-   "items": 20
+   "items": 19
   },
   {
    "n": "The Hindu",

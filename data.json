@@ -1,14 +1,14 @@
 {
- "updated": 1794670941121,
+ "updated": 1794686725383,
  "demo": false,
- "total_articles": 652,
- "second_delta": 0,
+ "total_articles": 624,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 48
+   "v": 44
   },
   {
    "n": "Al Jazeera",
@@ -16,11 +16,11 @@
   },
   {
    "n": "DW",
-   "v": 54
+   "v": 53
   },
   {
    "n": "France 24",
-   "v": 47
+   "v": 45
   },
   {
    "n": "The Guardian",
@@ -28,15 +28,15 @@
   },
   {
    "n": "Sky News",
-   "v": 29
+   "v": 35
   },
   {
    "n": "NPR",
-   "v": 58
+   "v": 66
   },
   {
    "n": "UN News",
-   "v": 58
+   "v": 55
   },
   {
    "n": "CNBC",
@@ -44,11 +44,11 @@
   },
   {
    "n": "Euronews",
-   "v": 44
+   "v": 45
   },
   {
    "n": "NYT",
-   "v": 46
+   "v": 47
   },
   {
    "n": "Washington Post",
@@ -60,7 +60,7 @@
   },
   {
    "n": "ABC News",
-   "v": 53
+   "v": 57
   },
   {
    "n": "CNN",
@@ -68,11 +68,11 @@
   },
   {
    "n": "Fox News",
-   "v": 95
+   "v": 72
   },
   {
    "n": "ABC Australia",
-   "v": 47
+   "v": 42
   },
   {
    "n": "CNA",
@@ -80,15 +80,15 @@
   },
   {
    "n": "Middle East Eye",
-   "v": 63
+   "v": 65
   },
   {
    "n": "Africanews",
-   "v": 52
+   "v": 51
   },
   {
    "n": "Kyiv Independent",
-   "v": 63
+   "v": 56
   },
   {
    "n": "Yonhap",
@@ -100,7 +100,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 45
+   "v": 44
   },
   {
    "n": "Dawn",
@@ -108,7 +108,7 @@
   },
   {
    "n": "Times of India",
-   "v": 42
+   "v": 43
   },
   {
    "n": "The Hindu",
@@ -120,11 +120,11 @@
   },
   {
    "n": "Japan Times",
-   "v": 44
+   "v": 45
   },
   {
    "n": "Reuters",
-   "v": 42
+   "v": 41
   },
   {
    "n": "AP",
@@ -134,34 +134,61 @@
  "regions": [
   {
    "n": "Европа",
-   "v": 48
+   "v": 47
   },
   {
    "n": "Ближний Восток",
-   "v": 57
+   "v": 56
   },
   {
    "n": "Азия",
-   "v": 44
+   "v": 45
   },
   {
    "n": "Африка",
-   "v": 58
+   "v": 56
   },
   {
    "n": "Америка",
-   "v": 47
+   "v": 48
   }
  ],
  "events": [
+  {
+   "t": "Can Nvidia survive without tech titan Jensen Huang?",
+   "x": "The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy. Meanwhile some employees are clamo",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 91,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "France 24",
+    "Nikkei Asia",
+    "Dawn",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/can-nvidia-survive-without-tech-titan-jensen-huang",
+   "img": "https://s.france24.com/media/display/289dfed6-e013-11f1-a54f-3f371022a770/w:1024/p:16x9/EN-20261114-100838-101020-CS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 4,
+   "lat": 35.39,
+   "lon": 102.68,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 1,
+   "t_en": "Can Nvidia survive without tech titan Jensen Huang?",
+   "x_en": "The Financial Times says computing giant Nvidia has approached Rene Haas, CEO of British chip designer Arm, in its search for a potential successor to Jensen Huang. Huang resigned after his affair with an alleged Chinese spy. Meanwhile some employees are clamo"
+  },
   {
    "t": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
    "x": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 88,
-   "ten": 46,
-   "ago": 26,
+   "imp": 85,
+   "ten": 43,
+   "ago": 44,
    "s": [
     "BBC",
     "Al Jazeera",
@@ -181,106 +208,108 @@
    "lon": 37.46,
    "place": "Донбасс",
    "place_en": "Donbas",
-   "id": 1,
+   "id": 2,
    "t_en": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
    "x_en": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia."
   },
   {
-   "t": "3 oil tankers hit mines in Strait of Hormuz, Iran says",
-   "x": "Fires had broken out on a total of three oil tankers that struck mines in the Strait of Hormuz overnight and into the morning, Iran's military said Saturday.",
-   "r": "Ближний Восток",
+   "t": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+   "x": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
+   "r": "Америка",
    "c": "Экономика",
-   "imp": 84,
-   "ten": 43,
-   "ago": 57,
+   "imp": 83,
+   "ten": 35,
+   "ago": 51,
    "s": [
-    "CBS News",
-    "Middle East Eye",
-    "Times of India",
-    "Reuters"
+    "BBC",
+    "DW",
+    "France 24",
+    "CNBC",
+    "Euronews",
+    "The Hindu"
    ],
-   "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
-   "img": "https://static.toiimg.com/photo/msid-135830455,imgsize-147100.cms",
-   "img_src": "Times of India",
+   "u": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3089/live/3bf0cfe0-e027-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
    "fresh": true,
-   "n": 5,
-   "lat": 26.36,
-   "lon": 56.4,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 2,
-   "t_en": "3 oil tankers hit mines in Strait of Hormuz, Iran says",
-   "x_en": "Fires had broken out on a total of three oil tankers that struck mines in the Strait of Hormuz overnight and into the morning, Iran's military said Saturday."
+   "n": 7,
+   "lat": 39.83,
+   "lon": -99.09,
+   "place": "США",
+   "place_en": "United States",
+   "id": 3,
+   "t_en": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+   "x_en": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday."
   },
   {
-   "t": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-   "x": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 84,
-   "ten": 61,
-   "ago": 72,
+   "t": "Italy fines Meta €805m over accessing users' photos",
+   "x": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 81,
+   "ten": 40,
+   "ago": 76,
+   "s": [
+    "BBC",
+    "CNBC",
+    "CBS News",
+    "Reuters"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 42.01,
+   "lon": 13.45,
+   "place": "Италия",
+   "place_en": "Italy",
+   "id": 4,
+   "t_en": "Italy fines Meta €805m over accessing users' photos",
+   "x_en": "The social media giant is accused of not informing 20 million users it had access to their photos."
+  },
+  {
+   "t": "Second catch attempt for SpaceX Starship rocket",
+   "x": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 78,
+   "ten": 55,
+   "ago": 122,
    "s": [
     "BBC",
     "France 24",
-    "CNA",
-    "Kyiv Independent",
-    "Times of India",
+    "CNBC",
     "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0e6d/live/64bc2ef0-e03c-11f1-b441-2b33b063138f.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 6,
-   "lat": 38.89,
-   "lon": -77.17,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 3,
-   "t_en": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-   "x_en": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says."
-  },
-  {
-   "t": "US flights resume after nationwide ground stop lifted",
-   "x": "The United States on Friday lifted an hours-long ground stop at the nation's airports, with top officials explaining that the disruption was not due to a cyberattack or a sweeping Microsoft outage. Transportation Secretary Sean Duffy said that US airspace was ",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 81,
-   "ten": 52,
-   "ago": 6,
-   "s": [
-    "France 24",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/americas/20261114-us-flights-resume-after-nationwide-ground-stop-lifted-aviation",
-   "img": "https://s.france24.com/media/display/de33210e-dfd2-11f1-8675-29048b396e03/w:1024/p:16x9/AP26317844187470.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 5,
-   "lat": 39.71,
-   "lon": -98.17,
-   "place": "США",
-   "place_en": "United States",
-   "id": 4,
-   "t_en": "US flights resume after nationwide ground stop lifted",
-   "x_en": "The United States on Friday lifted an hours-long ground stop at the nation's airports, with top officials explaining that the disruption was not due to a cyberattack or a sweeping Microsoft outage. Transportation Secretary Sean Duffy said that US airspace was "
+   "n": 4,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 5,
+   "t_en": "Second catch attempt for SpaceX Starship rocket",
+   "x_en": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean."
   },
   {
    "t": "Microsoft says services fully restored after day-long global outage",
    "x": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
-   "r": "Мир",
+   "r": "Европа",
    "c": "Политика",
-   "imp": 80,
-   "ten": 31,
-   "ago": 68,
+   "imp": 72,
+   "ten": 32,
+   "ago": 157,
    "s": [
     "BBC",
-    "France 24",
-    "The Guardian",
+    "Sky News",
     "NYT",
+    "CBS News",
     "Africanews",
+    "Dawn",
     "The Hindu",
     "Japan Times",
     "AP"
@@ -289,413 +318,236 @@
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 8,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 5,
+   "n": 9,
+   "lat": 54.08,
+   "lon": -4.34,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 6,
    "t_en": "Microsoft says services fully restored after day-long global outage",
    "x_en": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says."
   },
   {
-   "t": "US air travel slowly recovers from nationwide flight ground stop as chaos continues",
-   "x": "Thousands of flights still canceled as officials blamed ageing air control system for nationwide grounding Travel chaos continued across the US on Saturday morning as airlines scrambled to recover from a four-hour nationwide Federal Aviation Administration (FA",
+   "t": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+   "x": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
    "r": "Америка",
-   "c": "Общее",
-   "imp": 75,
+   "c": "Политика",
+   "imp": 72,
    "ten": 48,
-   "ago": 39,
+   "ago": 181,
    "s": [
-    "The Guardian",
-    "Middle East Eye",
-    "Kyiv Independent"
+    "BBC",
+    "Sky News",
+    "Euronews",
+    "CNA",
+    "Kyiv Independent",
+    "Yonhap",
+    "Dawn",
+    "The Hindu",
+    "AP"
    ],
-   "u": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
-   "img": "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=a125393b14593469d2900c6fc981ac6b",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.45,
-   "lon": -97.31,
-   "place": "США",
-   "place_en": "United States",
-   "id": 6,
-   "t_en": "US air travel slowly recovers from nationwide flight ground stop as chaos continues",
-   "x_en": "Thousands of flights still canceled as officials blamed ageing air control system for nationwide grounding Travel chaos continued across the US on Saturday morning as airlines scrambled to recover from a four-hour nationwide Federal Aviation Administration (FA"
+   "u": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/172e/live/be162960-dfc9-11f1-81be-1f9bcd2a4214.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 10,
+   "lat": 38.89,
+   "lon": -77.17,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 7,
+   "t_en": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+   "x_en": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says."
   },
   {
-   "t": "South Sudan postpones first-ever national elections until February",
-   "x": "The vote, first expected in 2022, will now be held on February 11, according to the country's election commission.",
+   "t": "South Sudan’s National Election, Its First, Will Be Delayed",
+   "x": "Analysts had warned that the vote, originally set for December, faced a legitimacy crisis. South Sudan has not held a national election since gaining independence in 2011.",
    "r": "Африка",
    "c": "Политика",
-   "imp": 75,
-   "ten": 42,
-   "ago": 134,
+   "imp": 71,
+   "ten": 47,
+   "ago": 194,
    "s": [
-    "Al Jazeera",
+    "NYT",
     "ABC News",
     "Africanews",
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_c62033bb79a606ef8ce7e335cfc8478b_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.nytimes.com/2026/11/14/world/africa/south-sudan-election.html",
+   "img": "https://static01.nyt.com/images/2026/11/14/multimedia/14int-southsudan-election-cptk/14int-southsudan-election-cptk-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
    "fresh": false,
    "n": 5,
-   "lat": 8.07,
-   "lon": 30.68,
+   "lat": 6.19,
+   "lon": 29.75,
    "place": "Южный Судан",
    "place_en": "South Sudan",
-   "id": 7,
-   "t_en": "South Sudan postpones first-ever national elections until February",
-   "x_en": "The vote, first expected in 2022, will now be held on February 11, according to the country's election commission."
-  },
-  {
-   "t": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
-   "x": "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney told reporters.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 73,
-   "ten": 29,
-   "ago": 33,
-   "s": [
-    "Euronews",
-    "CNA",
-    "Reuters"
-   ],
-   "u": "https://www.euronews.com/2026/11/14/canada-and-the-philippines-conclude-talks-on-free-trade-deal-mark-carney-says",
-   "img": "https://images.euronews.com/articles/stories/09/99/27/56/696x392_cmsv2_4046b8e7-6f94-5877-8078-c543e193759a-9992756.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 3,
-   "lat": 58.39,
-   "lon": -95.88,
-   "place": "Канада",
-   "place_en": "Canada",
    "id": 8,
-   "t_en": "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
-   "x_en": "\"This is good news for Canadians in the agriculture sector, in the aerospace sector, even in AI, and our businesses working across forest products, mining, energy, services and beyond,\" Carney told reporters."
+   "t_en": "South Sudan’s National Election, Its First, Will Be Delayed",
+   "x_en": "Analysts had warned that the vote, originally set for December, faced a legitimacy crisis. South Sudan has not held a national election since gaining independence in 2011."
   },
   {
-   "t": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-   "x": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 73,
+   "t": "Philippines wins first Eurovision Song Contest Asia",
+   "x": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 70,
    "ten": 35,
-   "ago": 147,
+   "ago": 64,
    "s": [
     "BBC",
-    "DW",
+    "The Guardian",
+    "CNA"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/965c/live/69643890-e04f-11f1-8d5a-49633fbae59d.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 12.44,
+   "lon": 122.83,
+   "place": "Филиппины",
+   "place_en": "Philippines",
+   "id": 9,
+   "t_en": "Philippines wins first Eurovision Song Contest Asia",
+   "x_en": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra."
+  },
+  {
+   "t": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+   "x": "Sean Duffy, the country's transportation secretary, said his agency is 'going to hold people accountable'.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 69,
+   "ten": 46,
+   "ago": 93,
+   "s": [
+    "Al Jazeera",
     "France 24",
-    "Euronews",
+    "CNBC"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/24754d74-e049-11f1-92be-5f54d898a954/w:1024/p:16x9/2026-11-14T154753Z-749061195-RC2ONOA67Q43-RTRMADP-3-USA-FAA-GROUND-STOP.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.24,
+   "lon": -99.04,
+   "place": "США",
+   "place_en": "United States",
+   "id": 10,
+   "t_en": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+   "x_en": "Sean Duffy, the country's transportation secretary, said his agency is 'going to hold people accountable'."
+  },
+  {
+   "t": "Bessent upset Lutnick didn't ban Nvidia chip exports to China-linked firm",
+   "x": "Treasury Secretary Scott Bessent is blaming Commerce Secretary Howard Lutnick for allowing Megaspeed, the firm once led by alleged Chinese spy Alice Huang, to circumvent U.S. restrictions by funneling Nvidia chips to China, CBS News has learned. Megaspeed deni",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "CBS News",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.cbsnews.com/video/bessent-upset-lutnick-didnt-ban-nvidia-chip-exports-to-china-linked-firm/",
+   "img": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/14/c66e1923-924c-432b-991e-221664706dc4/thumbnail/1200x630/465348248013852def383b2f729d0d36/cbsn-fusion-bessent-upset-lutnick-didnt-ban-nvidia-chip-exports-to-china-linked-firm-thumbnail.jpg",
+   "img_src": "CBS News (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 35.65,
+   "lon": 103.52,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 11,
+   "t_en": "Bessent upset Lutnick didn't ban Nvidia chip exports to China-linked firm",
+   "x_en": "Treasury Secretary Scott Bessent is blaming Commerce Secretary Howard Lutnick for allowing Megaspeed, the firm once led by alleged Chinese spy Alice Huang, to circumvent U.S. restrictions by funneling Nvidia chips to China, CBS News has learned. Megaspeed deni"
+  },
+  {
+   "t": "Can being ‘non-Western’ cost you your home in Denmark?",
+   "x": "Denmark’s Supreme Court is set to rule on whether families can be forced from their homes under a law.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Al Jazeera",
+    "CNN"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/14/adlern-can_non-westren_cost_home_denmark-141126?traffic_source=rss",
+   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
+   "img_src": "CNN",
+   "fresh": true,
+   "n": 3,
+   "lat": 55.16,
+   "lon": 10.69,
+   "place": "Дания",
+   "place_en": "Denmark",
+   "id": 12,
+   "t_en": "Can being ‘non-Western’ cost you your home in Denmark?",
+   "x_en": "Denmark’s Supreme Court is set to rule on whether families can be forced from their homes under a law."
+  },
+  {
+   "t": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
+   "x": "On Friday, the Federal Aviation Administration issued a rare nationwide ground stop. More than 8,200 flights, or over 31% of those scheduled in the United States, were canceled. The ground stop lasted nearly five hours and was the longest in the country since ",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 47,
+   "ago": 132,
+   "s": [
+    "France 24",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3089/live/3bf0cfe0-e027-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
+   "u": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data",
+   "img": "https://s.france24.com/media/display/a3b36d9c-e011-11f1-b125-f71d22e7fea9/w:1024/p:16x9/EN-20261114-100114-100358-CS-01.jpg",
+   "img_src": "France 24",
    "fresh": false,
-   "n": 7,
-   "lat": 35.33,
-   "lon": 102.44,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 9,
-   "t_en": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-   "x_en": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday."
-  },
-  {
-   "t": "Second catch attempt for SpaceX Starship rocket",
-   "x": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 71,
-   "ten": 54,
-   "ago": 84,
-   "s": [
-    "BBC",
-    "DW",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0e6d/live/64bc2ef0-e03c-11f1-b441-2b33b063138f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 24.44,
-   "lon": -102.48,
-   "place": "Мексика",
-   "place_en": "Mexico",
-   "id": 10,
-   "t_en": "Second catch attempt for SpaceX Starship rocket",
-   "x_en": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean."
-  },
-  {
-   "t": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
-   "x": "A nuclear treaty and the US's war on Iran are among priority topics for China, Russia and US leaders.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 70,
-   "ten": 47,
-   "ago": 208,
-   "s": [
-    "Al Jazeera",
-    "Sky News",
-    "Euronews",
-    "CBS News",
-    "Dawn",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect?traffic_source=rss",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-donald-trump-xi-jinping_7406284.jpg?20261114085215",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 6,
-   "lat": 38.74,
-   "lon": -97.2,
+   "n": 5,
+   "lat": 39.04,
+   "lon": -98.87,
    "place": "США",
    "place_en": "United States",
-   "id": 11,
-   "t_en": "Trump-Xi-Putin trilateral meeting at APEC: What to expect",
-   "x_en": "A nuclear treaty and the US's war on Iran are among priority topics for China, Russia and US leaders."
-  },
-  {
-   "t": "Three Israelis emerge as possible successors to Nvidia chief Jensen Huang, local media says",
-   "x": "Submitted by MEE staff on Sat, 11/14/2026 - 11:36 Michael Kagan, Eyal Waldman and Johny Srouji are among the names being discussed after Huang’s immediate departure Greenpeace activists hold a banner protesting against Nvidia’s environmental impact as chief ex",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 69,
-   "ten": 44,
-   "ago": 1,
-   "s": [
-    "Middle East Eye",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.middleeasteye.net/news/three-israelis-emerge-possible-successors-nvidia-chief-jensen-huang-local-media-says",
-   "img": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Greenpeace%20activists%20hold%20a%20banner%20protesting%20Nvidia%E2%80%99s%20environmental%20impact%20as%20CEO%20Jensen%20Huang%20delivers%20a%20keynote%20speech%20at%20the%20GTC%20Berlin%20AI%20conference%2C%2021%20October%202026%20%28John%20MacDougall%20AFP%29.jpg.jpg?itok=jAWwjEJn",
-   "img_src": "Middle East Eye",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 12,
-   "t_en": "Three Israelis emerge as possible successors to Nvidia chief Jensen Huang, local media says",
-   "x_en": "Submitted by MEE staff on Sat, 11/14/2026 - 11:36 Michael Kagan, Eyal Waldman and Johny Srouji are among the names being discussed after Huang’s immediate departure Greenpeace activists hold a banner protesting against Nvidia’s environmental impact as chief ex"
-  },
-  {
-   "t": "Президент Индонезии Прабово назвал отставку вице-президента «ради большего блага»",
-   "x": "Рейтер",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "u": "https://asia.nikkei.com/politics/indonesian-president-prabowo-says-vp-resignation-for-greater-good",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F2%2F0%2F5%2F13435025-1-eng-GB%2F6070ccfda57d-GettyImages-2304202145d.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": -2.93,
-   "lon": 118.12,
-   "place": "Индонезия",
-   "place_en": "Indonesia",
    "id": 13,
-   "t_en": "Indonesian President Prabowo says VP resignation 'for greater good'",
-   "x_en": "Reuters"
+   "t_en": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
+   "x_en": "On Friday, the Federal Aviation Administration issued a rare nationwide ground stop. More than 8,200 flights, or over 31% of those scheduled in the United States, were canceled. The ground stop lasted nearly five hours and was the longest in the country since "
   },
   {
-   "t": "ASEAN, Quad leaders meet at Manila summits: 5 things to watch",
-   "x": "Рейтер",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/asean-quad-leaders-meet-at-manila-summits-5-things-to-watch",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F7%2F3%2F3%2F13433370-1-eng-GB%2F3067dc60a69c-2025-01-17T095749Z_1422439639_RC2KBCA1SS14_RTRMADP_3_ASEAN-MALAYSIA-t.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": 14.49,
-   "lon": 121.06,
-   "place": "Манила",
-   "place_en": "Manila",
-   "id": 14,
-   "t_en": "ASEAN, Quad leaders meet at Manila summits: 5 things to watch",
-   "x_en": "Reuters"
-  },
-  {
-   "t": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-   "x": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 40,
-   "ago": 6,
-   "s": [
-    "CNBC",
-    "The Hindu"
-   ],
-   "u": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
-   "img": "https://th-i.thgim.com/public/incoming/vpye4h/article71700721.ece/alternates/LANDSCAPE_1200/Trump_Xi_Putin_Summit__2388.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 38.63,
-   "lon": -98.54,
-   "place": "США",
-   "place_en": "United States",
-   "id": 15,
-   "t_en": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-   "x_en": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang."
-  },
-  {
-   "t": "Bomb found at Illinois ethanol plant, prompting evacuations",
-   "x": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and",
+   "t": "Tens of thousands march in latest Portugal housing protests",
+   "x": "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago.",
    "r": "Мир",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 88,
-   "ago": 60,
-   "s": [
-    "The Guardian",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-   "img": "https://i.guim.co.uk/img/media/c959bae56a786ff95913cb67d9c97a8fced81672/437_0_4680_3744/master/4680.jpg?width=700&quality=85&auto=format&fit=max&s=b3bdd3ee8306da505dd6ca91857bd316",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 16,
-   "t_en": "Bomb found at Illinois ethanol plant, prompting evacuations",
-   "x_en": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and"
-  },
-  {
-   "t": "Meet the Fans Who Traveled to Bangkok for Eurovision Asia",
-   "x": "Some were Asia-based Europeans chasing nostalgia. Others were Americans eager to experience their first edition of the song contest.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 40,
-   "ago": 15,
-   "s": [
-    "NYT",
-    "CNA"
-   ],
-   "u": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-fans.html",
-   "img": "https://static01.nyt.com/images/2026/11/14/multimedia/14asia-eurovision-fans-001-plbm/14asia-eurovision-fans-001-plbm-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 13.4,
-   "lon": 100.54,
-   "place": "Бангкок",
-   "place_en": "Bangkok",
-   "id": 17,
-   "t_en": "Meet the Fans Who Traveled to Bangkok for Eurovision Asia",
-   "x_en": "Some were Asia-based Europeans chasing nostalgia. Others were Americans eager to experience their first edition of the song contest."
-  },
-  {
-   "t": "NASA’s Voyager 1 to hit new space distance record of one light-day",
-   "x": "The probe was launched in 1977 but it continues to relay space-related data back to a team of NASA scientists daily.",
-   "r": "Мир",
-   "c": "Наука",
+   "c": "Экономика",
    "imp": 64,
-   "ten": 40,
-   "ago": 27,
+   "ten": 48,
+   "ago": 38,
    "s": [
     "Al Jazeera",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/nasas-voyager-1-to-hit-new-space-distance-record-of-one-light-day?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/2013-09-12T120000Z_2135594600_GM1E99D08R201_RTRMADP_3_SPACE-VOYAGER-1794666602.jpg?resize=1920%2C1440",
+   "u": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8a8f765ab-1794681079.jpg?resize=1920%2C1440",
    "img_src": "Al Jazeera (og)",
    "fresh": true,
    "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 18,
-   "t_en": "NASA’s Voyager 1 to hit new space distance record of one light-day",
-   "x_en": "The probe was launched in 1977 but it continues to relay space-related data back to a team of NASA scientists daily."
-  },
-  {
-   "t": "Nearly $20m found in Hungary’s forests, buildings amid corruption probe",
-   "x": "An ex-minister faces a bribery probe as Hungary's new government investigates alleged corruption during Orban's rule.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 146,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "Politico EU"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/6461a8e9e85b3a0f988ecc183b0798b784a32524/512_0_2566_2052/master/2566.jpg?width=700&quality=85&auto=format&fit=max&s=2682fe132af002aa768cc8b6b617216e",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 46.25,
-   "lon": 19.88,
-   "place": "Венгрия",
-   "place_en": "Hungary",
-   "id": 19,
-   "t_en": "Nearly $20m found in Hungary’s forests, buildings amid corruption probe",
-   "x_en": "An ex-minister faces a bribery probe as Hungary's new government investigates alleged corruption during Orban's rule."
-  },
-  {
-   "t": "'Poisoned chalice': Judo star and presidential hopeful Riner rebuffs Macron's backing",
-   "x": "French judo champion Teddy Riner on Saturday publicly distanced himself from President Emmanuel Macron, calling his endorsement a \"poisoned chalice\". The presidential hopeful seeks to position himself as an alternative to France's political extremes.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 40,
-   "ago": 45,
-   "s": [
-    "France 24",
-    "ABC News"
-   ],
-   "u": "https://www.france24.com/en/france/20261114-judo-star-and-presidential-hopeful-riner-calls-macron",
-   "img": "https://s.france24.com/media/display/b1f14a76-e03b-11f1-b5fb-5f54d898a954/w:1024/p:16x9/f5ae5d1a011da330950d95ba29881fd4f63077cb.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 2,
-   "lat": 47.5,
-   "lon": 1.6,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 20,
-   "t_en": "'Poisoned chalice': Judo star and presidential hopeful Riner rebuffs Macron's backing",
-   "x_en": "French judo champion Teddy Riner on Saturday publicly distanced himself from President Emmanuel Macron, calling his endorsement a \"poisoned chalice\". The presidential hopeful seeks to position himself as an alternative to France's political extremes."
+   "lat": 39.3,
+   "lon": -6.63,
+   "place": "Португалия",
+   "place_en": "Portugal",
+   "id": 14,
+   "t_en": "Tens of thousands march in latest Portugal housing protests",
+   "x_en": "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago."
   },
   {
    "t": "Pakistan, 16 other countries, condemn Israeli strike on southern Gaza hospital",
    "x": "Pakistan and 16 other countries,on Saturday condemned the Israeli airstrike on the Nasser Hospital in southern Gaza, calling on Tel Aviv to protect civilians and medical facilities and ensure the sustained and unimpeded delivery of humanitarian aid to the Pale",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 61,
+   "imp": 64,
    "ten": 80,
-   "ago": 109,
+   "ago": 79,
    "s": [
     "Dawn",
     "AP"
@@ -709,35 +561,110 @@
    "lon": 34.52,
    "place": "Газа",
    "place_en": "Gaza",
-   "id": 21,
+   "id": 15,
    "t_en": "Pakistan, 16 other countries, condemn Israeli strike on southern Gaza hospital",
    "x_en": "Pakistan and 16 other countries,on Saturday condemned the Israeli airstrike on the Nasser Hospital in southern Gaza, calling on Tel Aviv to protect civilians and medical facilities and ensure the sustained and unimpeded delivery of humanitarian aid to the Pale"
   },
   {
-   "t": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
-   "x": "Russian overnight attacks on Ukraine killed at least two person in Odesa and injured another at a hospital in Kyiv. Rescuers evacuated patients, including people using wheelchairs and crutches, as firefighters battled the flames.",
-   "r": "Европа",
+   "t": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+   "x": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people.",
+   "r": "Азия",
    "c": "Конфликты",
-   "imp": 61,
-   "ten": 95,
-   "ago": 299,
+   "imp": 64,
+   "ten": 94,
+   "ago": 232,
    "s": [
-    "Euronews",
-    "Africanews",
-    "Kyiv Independent"
+    "Al Jazeera",
+    "CNA",
+    "The Hindu"
    ],
-   "u": "https://www.euronews.com/video/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa",
-   "img": "https://images.euronews.com/articles/stories/09/99/11/77/696x392_cmsv2_d1631cbc-bac7-541e-bc8c-2eb33d4d27b1-9991177.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--q_YW3Ldg--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/14/000_d7fx8dw_mod.jpg?itok=QqcE7kWK",
+   "img_src": "CNA",
    "fresh": false,
    "n": 3,
-   "lat": 50.17,
-   "lon": 30.76,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 22,
-   "t_en": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
-   "x_en": "Russian overnight attacks on Ukraine killed at least two person in Odesa and injured another at a hospital in Kyiv. Rescuers evacuated patients, including people using wheelchairs and crutches, as firefighters battled the flames."
+   "lat": 21.38,
+   "lon": 95.67,
+   "place": "Мьянма",
+   "place_en": "Myanmar",
+   "id": 16,
+   "t_en": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+   "x_en": "A Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people."
+  },
+  {
+   "t": "Deadly car bomb blast kills two near Syria’s capital",
+   "x": "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria's capital Damascus.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 95,
+   "ago": 19,
+   "s": [
+    "Al Jazeera"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794685590.jpg?resize=1918%2C1080&quality=80",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.04,
+   "lon": 37.07,
+   "place": "Сирия",
+   "place_en": "Syria",
+   "id": 17,
+   "t_en": "Deadly car bomb blast kills two near Syria’s capital",
+   "x_en": "At least two people, a man and a girl, have been killed in a car bomb blast in Jaramana, near Syria's capital Damascus."
+  },
+  {
+   "t": "Bomb found at Illinois ethanol plant, prompting evacuations",
+   "x": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 86,
+   "ago": 226,
+   "s": [
+    "The Guardian",
+    "Times of India",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+   "img": "https://i.guim.co.uk/img/media/c959bae56a786ff95913cb67d9c97a8fced81672/437_0_4680_3744/master/4680.jpg?width=700&quality=85&auto=format&fit=max&s=b3bdd3ee8306da505dd6ca91857bd316",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 18,
+   "t_en": "Bomb found at Illinois ethanol plant, prompting evacuations",
+   "x_en": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and"
+  },
+  {
+   "t": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+   "x": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 48,
+   "ago": 53,
+   "s": [
+    "BBC",
+    "France 24"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ea11/live/3adfb390-e05f-11f1-9e26-b3b65586122f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.13,
+   "lon": -97.81,
+   "place": "США",
+   "place_en": "United States",
+   "id": 19,
+   "t_en": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+   "x_en": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment."
   },
   {
    "t": "Кризис Nvidia обнажил недостатки основателей рок-звезд",
@@ -759,7 +686,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 23,
+   "id": 20,
    "t_en": "Nvidia crisis exposes downside of rockstar founders",
    "x_en": ""
   },
@@ -783,7 +710,7 @@
    "lon": 118.39,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 24,
+   "id": 21,
    "t_en": "MSCI downgrade threat exposes Indonesia's patronage problem",
    "x_en": ""
   },
@@ -807,7 +734,7 @@
    "lon": -97.57,
    "place": "США",
    "place_en": "United States",
-   "id": 25,
+   "id": 22,
    "t_en": "US wants Japan to nearly triple budget for hosting American troops",
    "x_en": ""
   },
@@ -831,58 +758,105 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 26,
+   "id": 23,
    "t_en": "Uranium price hits record as AI demand prompts nuclear comeback",
    "x_en": ""
   },
   {
-   "t": "Major among 4 troops martyred, 24 terrorists killed during operations in KP and Balochistan: ISPR",
-   "x": "Four troops, including a major, were martyred while 24 terrorists were killed in multiple intelligence-based operations (IBOs) in Balochistan and Khyber Pakhtunkhwa’s North Waziristan, the military’s media wing said on Saturday. In a statement , Inter-Services",
+   "t": "How telecoms upgrade work sparked US flight chaos",
+   "x": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 57,
+   "ago": 2,
+   "s": [
+    "BBC"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/14ef/live/f4aae840-dfd7-11f1-b441-2b33b063138f.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.76,
+   "lon": -98.75,
+   "place": "США",
+   "place_en": "United States",
+   "id": 24,
+   "t_en": "How telecoms upgrade work sparked US flight chaos",
+   "x_en": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack."
+  },
+  {
+   "t": "Bomb rips through Damascus suburb killing 2 including a child",
+   "x": "The device placed inside a car in a suburb of the Syrian capital.",
    "r": "Мир",
    "c": "Конфликты",
    "imp": 60,
-   "ten": 95,
-   "ago": 38,
+   "ten": 91,
+   "ago": 35,
    "s": [
-    "Dawn"
+    "ABC News"
    ],
-   "u": "https://www.dawn.com/news/2044488/major-among-4-troops-martyred-24-terrorists-killed-during-operations-in-kp-and-balochistan-ispr",
-   "img": "https://i.dawn.com/large/2026/11/14200150bdaf7ec.webp",
-   "img_src": "Dawn",
+   "u": "https://abcnews.com/International/wireStory/bomb-rips-damascus-suburb-killing-2-including-child-138145860",
+   "img": "https://s.abcnews.com/images/International/wirestory_5d37a9bb4c4176986ff198c0766151b3_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 27,
-   "t_en": "Major among 4 troops martyred, 24 terrorists killed during operations in KP and Balochistan: ISPR",
-   "x_en": "Four troops, including a major, were martyred while 24 terrorists were killed in multiple intelligence-based operations (IBOs) in Balochistan and Khyber Pakhtunkhwa’s North Waziristan, the military’s media wing said on Saturday. In a statement , Inter-Services"
+   "lat": 33.39,
+   "lon": 36.46,
+   "place": "Дамаск",
+   "place_en": "Damascus",
+   "id": 25,
+   "t_en": "Bomb rips through Damascus suburb killing 2 including a child",
+   "x_en": "The device placed inside a car in a suburb of the Syrian capital."
   },
   {
-   "t": "Who is Jonathan Kreiss-Tomkins? Democrat wins Alaska governor's race",
-   "x": "АП Новости",
-   "r": "Мир",
-   "c": "Общее",
+   "t": "John Fetterman threatens to quit Democratic Party if next Senate leader is critical of Israel",
+   "x": "Submitted by Elis Gjevori on Sat, 11/14/2026 - 19:14 The Pennsylvania senator took aim at Van Hollen, who has accused Israel of using food as a weapon of war in Gaza US Senator John Fetterman speaks to reporters at the US Capitol in Washington, DC, on January ",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
    "imp": 59,
-   "ten": 36,
-   "ago": 68,
+   "ten": 82,
+   "ago": 32,
    "s": [
-    "Times of India",
-    "AP"
+    "Middle East Eye"
    ],
-   "u": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/who-is-jonathan-kreiss-tomkins-democrat-wins-alaska-governors-race-for-first-time-since-1998/articleshow/135835288.cms",
-   "img": "https://static.toiimg.com/photo/msid-135835476,imgsize-179705.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 28,
-   "t_en": "Who is Jonathan Kreiss-Tomkins? Democrat wins Alaska governor's race",
-   "x_en": "AP News"
+   "u": "https://www.middleeasteye.net/news/john-fetterman-puts-israel-first-threatens-quit-democrats-over-leader-who-criticises-israel",
+   "img": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_36TD8N9.jpg.jpg?itok=eaHSVlyy",
+   "img_src": "Middle East Eye",
+   "fresh": true,
+   "n": 1,
+   "lat": 40.58,
+   "lon": -98.04,
+   "place": "США",
+   "place_en": "United States",
+   "id": 26,
+   "t_en": "John Fetterman threatens to quit Democratic Party if next Senate leader is critical of Israel",
+   "x_en": "Submitted by Elis Gjevori on Sat, 11/14/2026 - 19:14 The Pennsylvania senator took aim at Van Hollen, who has accused Israel of using food as a weapon of war in Gaza US Senator John Fetterman speaks to reporters at the US Capitol in Washington, DC, on January "
+  },
+  {
+   "t": "At least 6 killed and 11 injured when bus overturns in southwestern Colombia",
+   "x": "Police report that at least six people are dead and 11 injured after a bus overturned on a highway in southwestern Colombia",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 91,
+   "ago": 43,
+   "s": [
+    "ABC News"
+   ],
+   "u": "https://abcnews.com/International/wireStory/6-killed-11-injured-bus-overturns-southwestern-colombia-138145996",
+   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 1,
+   "lat": 5.31,
+   "lon": -74.64,
+   "place": "Колумбия",
+   "place_en": "Colombia",
+   "id": 27,
+   "t_en": "At least 6 killed and 11 injured when bus overturns in southwestern Colombia",
+   "x_en": "Police report that at least six people are dead and 11 injured after a bus overturned on a highway in southwestern Colombia"
   },
   {
    "t": "Аресты руководителей госактивов в Казахстане ставят под сомнение IPO железной дороги в Гонконге",
@@ -904,202 +878,33 @@
    "lon": 113.67,
    "place": "Гонконг",
    "place_en": "Hong Kong",
-   "id": 29,
+   "id": 28,
    "t_en": "Kazakh arrests of state asset heads raise doubt on railway IPO in Hong Kong",
    "x_en": ""
   },
   {
-   "t": "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise",
-   "x": "DR Congo and Rwanda clashed Saturday over the leadership of the Francophonie, as tensions between the neighbouring countries spilled into the race to head the 53-member organisation. French President Emmanuel Macron urged Rwanda to withdraw its candidate in fa",
-   "r": "Африка",
+   "t": "Methane blast kills 2 at Colombian mine, search continues for 2 missing",
+   "x": "A methane explosion at a mine in central Colombia killed two workers and left two others missing, mining officials said",
+   "r": "Америка",
    "c": "Конфликты",
    "imp": 58,
-   "ten": 91,
-   "ago": 48,
+   "ten": 95,
+   "ago": 53,
    "s": [
-    "France 24"
+    "ABC News"
    ],
-   "u": "https://www.france24.com/en/africa/20261114-dr-congo-rwanda-clash-over-francophonie-leadership-as-macron-seeks-compromise",
-   "img": "https://s.france24.com/media/display/1dfdc724-e039-11f1-b629-29048b396e03/w:1024/p:16x9/000-36JD2YF.jpg",
-   "img_src": "France 24",
+   "u": "https://abcnews.com/International/wireStory/methane-blast-kills-2-colombian-mine-search-continues-138145217",
+   "img": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": true,
    "n": 1,
-   "lat": -3.05,
-   "lon": 22.85,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 30,
-   "t_en": "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise",
-   "x_en": "DR Congo and Rwanda clashed Saturday over the leadership of the Francophonie, as tensions between the neighbouring countries spilled into the race to head the 53-member organisation. French President Emmanuel Macron urged Rwanda to withdraw its candidate in fa"
-  },
-  {
-   "t": "Myanmar airstrike on displaced persons camp kills 12",
-   "x": "Myanmar has been consumed by civil war since the military staged a coup five years ago, provoking armed resistance from democracy activists and ethnic minority factions",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 93,
-   "ago": 161,
-   "s": [
-    "CNA",
-    "The Hindu"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/myanmar-airstrike-displaced-persons-camp-6551681",
-   "img": "https://dam.mediacorp.sg/image/upload/s--q_YW3Ldg--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/14/000_d7fx8dw_mod.jpg?itok=QqcE7kWK",
-   "img_src": "CNA",
-   "fresh": false,
-   "n": 2,
-   "lat": 21.77,
-   "lon": 95.49,
-   "place": "Мьянма",
-   "place_en": "Myanmar",
-   "id": 31,
-   "t_en": "Myanmar airstrike on displaced persons camp kills 12",
-   "x_en": "Myanmar has been consumed by civil war since the military staged a coup five years ago, provoking armed resistance from democracy activists and ethnic minority factions"
-  },
-  {
-   "t": "Want Cash Out of Your Home? Here Are Your Best Options",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 32,
-   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
-   "x_en": ""
-  },
-  {
-   "t": "Dream Big with a Home Equity Loan",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 33,
-   "t_en": "Dream Big with a Home Equity Loan",
-   "x_en": ""
-  },
-  {
-   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 34,
-   "t_en": "Experts: this is the best cash back card of 2022",
-   "x_en": ""
-  },
-  {
-   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
-   "x": "",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 35,
-   "t_en": "It's official: now avoid credit card interest into 2024",
-   "x_en": ""
-  },
-  {
-   "t": "0% intro APR until 2024 is 100% insane",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 36,
-   "t_en": "0% intro APR until 2024 is 100% insane",
-   "x_en": ""
-  },
-  {
-   "t": "Subway, TGI Fridays Japan partner Watami aims to go private under founder",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/business-deals/subway-tgi-fridays-japan-partner-watami-aims-to-go-private-under-founder",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F7%2F8%2F9%2F13439877-2-eng-GB%2F91e72b69fcac-88c6c1ce-1154-4e99-91a2-7208a3df1536.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.0,
-   "lon": 138.9,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 37,
-   "t_en": "Subway, TGI Fridays Japan partner Watami aims to go private under founder",
-   "x_en": ""
+   "lat": 4.32,
+   "lon": -74.28,
+   "place": "Колумбия",
+   "place_en": "Colombia",
+   "id": 29,
+   "t_en": "Methane blast kills 2 at Colombian mine, search continues for 2 missing",
+   "x_en": "A methane explosion at a mine in central Colombia killed two workers and left two others missing, mining officials said"
   },
   {
    "t": "Takaichi looks to meet with Trump to head off defense spending demands",
@@ -1121,7 +926,7 @@
    "lon": -97.98,
    "place": "США",
    "place_en": "United States",
-   "id": 38,
+   "id": 30,
    "t_en": "Takaichi looks to meet with Trump to head off defense spending demands",
    "x_en": ""
   },
@@ -1145,7 +950,7 @@
    "lon": 138.79,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 39,
+   "id": 31,
    "t_en": "Japan eyes state takeover of aging plants making critical materials",
    "x_en": ""
   },
@@ -1161,24 +966,212 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/editor-s-picks/interview/asean-needs-oil-reserve-for-energy-security-secretary-general2",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F8%2F1%2F5%2F13425183-1-eng-GB%2F432cfd1e4899-photo_SXM2026110200009369.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 40,
+   "id": 32,
    "t_en": "ASEAN needs oil reserve for energy security: secretary-general",
+   "x_en": ""
+  },
+  {
+   "t": "Japan Tobacco seizure by Russia clouds Tokyo's investment plans",
+   "x": "",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 57,
+   "ten": 36,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/japan-tobacco-seizure-by-russia-clouds-tokyo-s-investment-plans",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F2%2F6%2F9%2F13439626-2-eng-GB%2F28588ce7b54c-photo_SXM2026101300007891.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 35.84,
+   "lon": 139.43,
+   "place": "Токио",
+   "place_en": "Tokyo",
+   "id": 33,
+   "t_en": "Japan Tobacco seizure by Russia clouds Tokyo's investment plans",
+   "x_en": ""
+  },
+  {
+   "t": "'Used in Japan' reseller to make US debut in New York's SoHo",
+   "x": "",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/consumer/used-in-japan-reseller-to-make-us-debut-in-new-york-s-soho",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F3%2F1%2F0%2F13440134-2-eng-GB%2Ff7eed364cbe4-photo_SXM2026111200007314.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 40.94,
+   "lon": -74.11,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
+   "id": 34,
+   "t_en": "'Used in Japan' reseller to make US debut in New York's SoHo",
+   "x_en": ""
+  },
+  {
+   "t": "Japan oil companies keep profits growing despite Hormuz closure",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/energy/japan-oil-companies-keep-profits-growing-despite-hormuz-closure",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F5%2F9%2F9%2F13439957-2-eng-GB%2F003b65bdbbc1-photo_SXM2026111100006467.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 26.84,
+   "lon": 56.26,
+   "place": "Ормузский пролив",
+   "place_en": "Strait of Hormuz",
+   "id": 35,
+   "t_en": "Japan oil companies keep profits growing despite Hormuz closure",
+   "x_en": ""
+  },
+  {
+   "t": "Australia miner Tivan teams with Sumitomo on tungsten, other key minerals",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/materials/australia-miner-tivan-teams-with-sumitomo-on-tungsten-other-key-minerals",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": -25.15,
+   "lon": 132.95,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 36,
+   "t_en": "Australia miner Tivan teams with Sumitomo on tungsten, other key minerals",
+   "x_en": ""
+  },
+  {
+   "t": "Thai developer WHA plans efficient data center parks ahead of new rules",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/companies/thai-developer-wha-plans-efficient-data-center-parks-ahead-of-new-rules",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 14.95,
+   "lon": 99.88,
+   "place": "Таиланд",
+   "place_en": "Thailand",
+   "id": 37,
+   "t_en": "Thai developer WHA plans efficient data center parks ahead of new rules",
+   "x_en": ""
+  },
+  {
+   "t": "Pfizer offshoot Zoetis lines up 'potential blockbuster' pet meds for Japan",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/pharmaceuticals/pfizer-offshoot-zoetis-lines-up-potential-blockbuster-pet-meds-for-japan",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 37.1,
+   "lon": 139.07,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 38,
+   "t_en": "Pfizer offshoot Zoetis lines up 'potential blockbuster' pet meds for Japan",
+   "x_en": ""
+  },
+  {
+   "t": "Buffer or crutch? Nepal clings to 'least developed country' perks",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/policy-asia/buffer-or-crutch-nepal-clings-to-least-developed-country-perks",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 28.05,
+   "lon": 84.79,
+   "place": "Непал",
+   "place_en": "Nepal",
+   "id": 39,
+   "t_en": "Buffer or crutch? Nepal clings to 'least developed country' perks",
+   "x_en": ""
+  },
+  {
+   "t": "Meta, chat app Line help Taiwan combat online fraud",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/society/crime/meta-chat-app-line-help-taiwan-combat-online-fraud",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 24.75,
+   "lon": 120.56,
+   "place": "Тайвань",
+   "place_en": "Taiwan",
+   "id": 40,
+   "t_en": "Meta, chat app Line help Taiwan combat online fraud",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794586983354,
-   "v": 50
-  },
   {
    "t": 1794607345022,
    "v": 48
@@ -1194,139 +1187,143 @@
   {
    "t": 1794670941121,
    "v": 48
+  },
+  {
+   "t": 1794686725383,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1794584541121,
-   "v": 48,
-   "n": 39
+   "t": 1794600325383,
+   "v": 44,
+   "n": 25
   },
   {
-   "t": 1794588141121,
-   "v": 48,
-   "n": 48
-  },
-  {
-   "t": 1794591741121,
-   "v": 45,
-   "n": 49
-  },
-  {
-   "t": 1794595341121,
-   "v": 47,
-   "n": 43
-  },
-  {
-   "t": 1794598941121,
-   "v": 45,
+   "t": 1794603925383,
+   "v": 46,
    "n": 32
   },
   {
-   "t": 1794602541121,
-   "v": 48,
-   "n": 34
-  },
-  {
-   "t": 1794606141121,
+   "t": 1794607525383,
    "v": 46,
-   "n": 34
+   "n": 35
   },
   {
-   "t": 1794609741121,
+   "t": 1794611125383,
    "v": 48,
-   "n": 42
+   "n": 31
   },
   {
-   "t": 1794613341121,
-   "v": 47,
-   "n": 44
+   "t": 1794614725383,
+   "v": 49,
+   "n": 29
   },
   {
-   "t": 1794616941121,
-   "v": 50,
-   "n": 49
+   "t": 1794618325383,
+   "v": 51,
+   "n": 28
   },
   {
-   "t": 1794620541121,
-   "v": 50,
+   "t": 1794621925383,
+   "v": 52,
+   "n": 24
+  },
+  {
+   "t": 1794625525383,
+   "v": 51,
+   "n": 23
+  },
+  {
+   "t": 1794629125383,
+   "v": 48,
+   "n": 30
+  },
+  {
+   "t": 1794632725383,
+   "v": 46,
+   "n": 37
+  },
+  {
+   "t": 1794636325383,
+   "v": 44,
+   "n": 46
+  },
+  {
+   "t": 1794639925383,
+   "v": 45,
    "n": 47
   },
   {
-   "t": 1794624141121,
-   "v": 52,
-   "n": 39
+   "t": 1794643525383,
+   "v": 44,
+   "n": 50
   },
   {
-   "t": 1794627741121,
+   "t": 1794647125383,
+   "v": 43,
+   "n": 52
+  },
+  {
+   "t": 1794650725383,
+   "v": 43,
+   "n": 60
+  },
+  {
+   "t": 1794654325383,
    "v": 47,
-   "n": 44
+   "n": 66
   },
   {
-   "t": 1794631341121,
-   "v": 46,
-   "n": 53
-  },
-  {
-   "t": 1794634941121,
-   "v": 43,
-   "n": 62
-  },
-  {
-   "t": 1794638541121,
-   "v": 45,
-   "n": 65
-  },
-  {
-   "t": 1794642141121,
-   "v": 43,
-   "n": 63
-  },
-  {
-   "t": 1794645741121,
-   "v": 44,
-   "n": 63
-  },
-  {
-   "t": 1794649341121,
-   "v": 44,
+   "t": 1794657925383,
+   "v": 50,
    "n": 77
   },
   {
-   "t": 1794652941121,
+   "t": 1794661525383,
+   "v": 51,
+   "n": 75
+  },
+  {
+   "t": 1794665125383,
+   "v": 47,
+   "n": 79
+  },
+  {
+   "t": 1794668725383,
    "v": 46,
-   "n": 76
+   "n": 78
   },
   {
-   "t": 1794656541121,
-   "v": 48,
-   "n": 94
-  },
-  {
-   "t": 1794660141121,
-   "v": 49,
-   "n": 92
-  },
-  {
-   "t": 1794663741121,
-   "v": 49,
-   "n": 104
-  },
-  {
-   "t": 1794667341121,
-   "v": 45,
-   "n": 123
-  },
-  {
-   "t": 1794670941121,
+   "t": 1794672325383,
    "v": 44,
-   "n": 87
+   "n": 91
+  },
+  {
+   "t": 1794675925383,
+   "v": 45,
+   "n": 93
+  },
+  {
+   "t": 1794679525383,
+   "v": 46,
+   "n": 96
+  },
+  {
+   "t": 1794683125383,
+   "v": 46,
+   "n": 113
+  },
+  {
+   "t": 1794686725383,
+   "v": 46,
+   "n": 86
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 24
+   "items": 20
   },
   {
    "n": "Al Jazeera",
@@ -1334,7 +1331,7 @@
   },
   {
    "n": "DW",
-   "items": 12
+   "items": 13
   },
   {
    "n": "France 24",
@@ -1346,15 +1343,15 @@
   },
   {
    "n": "Sky News",
-   "items": 4
+   "items": 6
   },
   {
    "n": "NPR",
-   "items": 3
+   "items": 4
   },
   {
    "n": "UN News",
-   "items": 6
+   "items": 7
   },
   {
    "n": "CNBC",
@@ -1362,11 +1359,11 @@
   },
   {
    "n": "Euronews",
-   "items": 29
+   "items": 27
   },
   {
    "n": "NYT",
-   "items": 33
+   "items": 30
   },
   {
    "n": "Washington Post",
@@ -1374,7 +1371,7 @@
   },
   {
    "n": "CBS News",
-   "items": 15
+   "items": 18
   },
   {
    "n": "ABC News",
@@ -1386,11 +1383,11 @@
   },
   {
    "n": "Fox News",
-   "items": 1
+   "items": 2
   },
   {
    "n": "ABC Australia",
-   "items": 18
+   "items": 14
   },
   {
    "n": "CNA",
@@ -1410,7 +1407,7 @@
   },
   {
    "n": "Africanews",
-   "items": 35
+   "items": 33
   },
   {
    "n": "Kyiv Independent",
@@ -1418,7 +1415,7 @@
   },
   {
    "n": "Yonhap",
-   "items": 40
+   "items": 24
   },
   {
    "n": "Nikkei Asia",
@@ -1426,7 +1423,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 14
+   "items": 12
   },
   {
    "n": "Dawn",
@@ -1446,7 +1443,7 @@
   },
   {
    "n": "Japan Times",
-   "items": 30
+   "items": 25
   },
   {
    "n": "Reuters",

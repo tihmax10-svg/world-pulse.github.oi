@@ -1,22 +1,22 @@
 {
- "updated": 1794607345022,
+ "updated": 1794622480767,
  "demo": false,
- "total_articles": 675,
+ "total_articles": 670,
  "second_delta": 2,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 48
+   "v": 47
   },
   {
    "n": "Al Jazeera",
-   "v": 51
+   "v": 44
   },
   {
    "n": "DW",
-   "v": 47
+   "v": 48
   },
   {
    "n": "France 24",
@@ -24,43 +24,39 @@
   },
   {
    "n": "The Guardian",
-   "v": 45
+   "v": 46
   },
   {
    "n": "Sky News",
-   "v": 67
+   "v": 15
   },
   {
    "n": "NPR",
    "v": 46
   },
   {
-   "n": "UN News",
-   "v": 63
-  },
-  {
    "n": "CNBC",
-   "v": 43
+   "v": 44
   },
   {
    "n": "Euronews",
-   "v": 52
+   "v": 51
   },
   {
    "n": "NYT",
-   "v": 49
+   "v": 48
   },
   {
    "n": "Washington Post",
-   "v": 51
+   "v": 49
   },
   {
    "n": "CBS News",
-   "v": 51
+   "v": 50
   },
   {
    "n": "ABC News",
-   "v": 59
+   "v": 56
   },
   {
    "n": "CNN",
@@ -76,15 +72,19 @@
   },
   {
    "n": "CNA",
-   "v": 40
+   "v": 43
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 67
   },
   {
    "n": "Africanews",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Kyiv Independent",
-   "v": 57
+   "v": 56
   },
   {
    "n": "Yonhap",
@@ -96,7 +96,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 49
+   "v": 48
   },
   {
    "n": "Dawn",
@@ -116,15 +116,15 @@
   },
   {
    "n": "Japan Times",
-   "v": 39
+   "v": 45
   },
   {
    "n": "Reuters",
-   "v": 41
+   "v": 42
   },
   {
    "n": "AP",
-   "v": 44
+   "v": 45
   }
  ],
  "regions": [
@@ -134,27 +134,54 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 60
+   "v": 62
   },
   {
    "n": "Азия",
-   "v": 46
+   "v": 45
   },
   {
    "n": "Африка",
-   "v": 55
+   "v": 53
   },
   {
    "n": "Америка",
-   "v": 48
+   "v": 49
   }
  ],
  "events": [
   {
+   "t": "Trump, Xi, Putin to hold historic meeting in China: White House",
+   "x": "US officials say President Donald Trump plans to discuss nuclear arms reductions and the war in Iran with his Chinese and Russian counterparts, in what would be an unprecedented trilateral meeting.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 94,
+   "ten": 73,
+   "ago": 10,
+   "s": [
+    "CNA",
+    "Kyiv Independent",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.channelnewsasia.com/east-asia/trump-xi-putin-trilateral-summit-apec-6551001",
+   "img": "https://dam.mediacorp.sg/image/upload/s--PKhxD_Ib--/c_crop,h_437,w_777,x_54,y_94/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/us_ukraine_china_30908.jpg?itok=wBIKa53d",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 4,
+   "lat": 38.77,
+   "lon": -77.36,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 1,
+   "t_en": "Trump, Xi, Putin to hold historic meeting in China: White House",
+   "x_en": "US officials say President Donald Trump plans to discuss nuclear arms reductions and the war in Iran with his Chinese and Russian counterparts, in what would be an unprecedented trilateral meeting."
+  },
+  {
    "t": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
    "x": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
    "r": "Америка",
-   "c": "Наука",
+   "c": "Общее",
    "imp": 91,
    "ten": 40,
    "ago": 1,
@@ -168,159 +195,239 @@
    "img": "https://images.euronews.com/articles/stories/09/98/51/78/696x392_cmsv2_4b436e92-f851-501f-a082-0f5859812f6d-9985178.jpg",
    "img_src": "Euronews",
    "fresh": true,
-   "n": 5,
+   "n": 4,
    "lat": 39.09,
    "lon": -76.95,
    "place": "Вашингтон",
    "place_en": "Washington",
-   "id": 1,
+   "id": 2,
    "t_en": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
    "x_en": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January."
   },
   {
-   "t": "Tanker collides with cruise ship on Mississippi near New Orleans",
-   "x": "A freighter collided with a cruise ship carrying around 130 people near New Orleans, causing the paddlewheel vessel to capsize. Rescue operations are underway.",
+   "t": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+   "x": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of",
    "r": "Америка",
    "c": "Общее",
-   "imp": 88,
-   "ten": 32,
-   "ago": 13,
+   "imp": 87,
+   "ten": 38,
+   "ago": 28,
    "s": [
-    "DW",
     "The Guardian",
-    "Euronews",
-    "The Hindu"
+    "CNBC",
+    "CBS News",
+    "AP"
    ],
-   "u": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-near-new-orleans/a-79945080?maca=en-rss-en-world-4025-rdf",
-   "img": "https://i.guim.co.uk/img/media/54322b24c0f84724cb4c55f9da0018b45d3e3946/870_0_4342_3474/master/4342.jpg?width=700&quality=85&auto=format&fit=max&s=7e50eaac6eff8413d0d98caad8d2dd49",
+   "u": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+   "img": "https://i.guim.co.uk/img/media/5534caea091e39afe776168281e50dd327c8be8e/563_0_3334_2668/master/3334.jpg?width=700&quality=85&auto=format&fit=max&s=d37605075250f78266914b0061ace318",
    "img_src": "The Guardian",
    "fresh": true,
-   "n": 5,
-   "lat": 40.08,
-   "lon": -99.37,
+   "n": 4,
+   "lat": 38.53,
+   "lon": -97.49,
    "place": "США",
    "place_en": "United States",
-   "id": 2,
-   "t_en": "Tanker collides with cruise ship on Mississippi near New Orleans",
-   "x_en": "A freighter collided with a cruise ship carrying around 130 people near New Orleans, causing the paddlewheel vessel to capsize. Rescue operations are underway."
-  },
-  {
-   "t": "EU agrees on five countries to represent Europe in Ukraine peace talks",
-   "x": "European leaders believe a US-backed process will allow Moscow and Washington to decide the fate of the conflict.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 85,
-   "ten": 21,
-   "ago": 24,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "ABC News",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/b484b08c-dfa7-11f1-aaa1-f71d22e7fea9/w:1024/p:16x9/2026-10-16T084030Z-885766991-RC274OADTRVQ-RTRMADP-3-UKRAINE-CRISIS-EU.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 4,
-   "lat": 51.16,
-   "lon": 4.24,
-   "place": "Брюссель",
-   "place_en": "Brussels",
    "id": 3,
-   "t_en": "EU agrees on five countries to represent Europe in Ukraine peace talks",
-   "x_en": "European leaders believe a US-backed process will allow Moscow and Washington to decide the fate of the conflict."
+   "t_en": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
+   "x_en": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of"
   },
   {
-   "t": "Iran targeted US radar system in Bahrain",
-   "x": "Iran claimed it struck US radar systems in Bahrain, while the US said it had intercepted the attacks. Clashes continue in the Strait of Hormuz, as the war remains in a state of de-escalation.",
+   "t": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+   "x": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
    "r": "Америка",
    "c": "Конфликты",
-   "imp": 80,
-   "ten": 82,
-   "ago": 152,
+   "imp": 85,
+   "ten": 40,
+   "ago": 45,
    "s": [
-    "DW",
+    "BBC",
+    "Al Jazeera",
     "The Guardian",
-    "Africanews",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-world-4025-rdf",
+   "u": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0a5e/live/65a2f270-dfad-11f1-be1f-9dae57fabf82.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 38.77,
+   "lon": -97.53,
+   "place": "США",
+   "place_en": "United States",
+   "id": 4,
+   "t_en": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+   "x_en": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for."
+  },
+  {
+   "t": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+   "x": "First direct attack on US military installations for months was in response to US airstrike on communications tower Iran’s Islamic Revolutionary Guard Corps says it has targeted and destroyed a US early-warning radar in Bahrain in response to a US airstrike on",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 85,
+   "ten": 84,
+   "ago": 102,
+   "s": [
+    "The Guardian",
+    "Middle East Eye",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
    "img": "https://i.guim.co.uk/img/media/f76fa0a8488f1c05bc755c935f60793cc0caee3d/448_0_4480_3584/master/4480.jpg?width=700&quality=85&auto=format&fit=max&s=ebed40767ce71ed098a16a5c8113d385",
    "img_src": "The Guardian",
    "fresh": false,
-   "n": 5,
-   "lat": 33.39,
-   "lon": 53.72,
+   "n": 4,
+   "lat": 32.87,
+   "lon": 54.75,
    "place": "Иран",
    "place_en": "Iran",
-   "id": 4,
-   "t_en": "Iran targeted US radar system in Bahrain",
-   "x_en": "Iran claimed it struck US radar systems in Bahrain, while the US said it had intercepted the attacks. Clashes continue in the Strait of Hormuz, as the war remains in a state of de-escalation."
+   "id": 5,
+   "t_en": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+   "x_en": "First direct attack on US military installations for months was in response to US airstrike on communications tower Iran’s Islamic Revolutionary Guard Corps says it has targeted and destroyed a US early-warning radar in Bahrain in response to a US airstrike on"
   },
   {
-   "t": "US flight authority orders national ground stop over air traffic control 'communication issue'",
-   "x": "The US flight authority on Friday halted flights across the nation due to what US Transportation Secretary Sean Duffy said was a communication issue affecting the country's air traffic control centres.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 79,
-   "ten": 40,
-   "ago": 7,
+   "t": "Watch: How a server outage took down Microsoft Teams and Outlook",
+   "x": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
+   "r": "Европа",
+   "c": "Наука",
+   "imp": 84,
+   "ten": 34,
+   "ago": 43,
    "s": [
-    "France 24",
+    "BBC",
     "The Guardian",
-    "CNBC"
+    "The Hindu",
+    "Japan Times"
    ],
-   "u": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
-   "img": "https://s.france24.com/media/display/0b9ef0bc-dfa8-11f1-84a6-3f371022a770/w:1024/p:16x9/2026-10-20T235835Z-122091610-RC297OANDGMD-RTRMADP-3-BOEING-737-MAX.jpg",
-   "img_src": "France 24",
+   "u": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
    "fresh": true,
    "n": 4,
-   "lat": 39.43,
-   "lon": -97.25,
-   "place": "США",
-   "place_en": "United States",
-   "id": 5,
-   "t_en": "US flight authority orders national ground stop over air traffic control 'communication issue'",
-   "x_en": "The US flight authority on Friday halted flights across the nation due to what US Transportation Secretary Sean Duffy said was a communication issue affecting the country's air traffic control centres."
+   "lat": 53.68,
+   "lon": -2.74,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 6,
+   "t_en": "Watch: How a server outage took down Microsoft Teams and Outlook",
+   "x_en": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot."
   },
   {
-   "t": "Turkiye and Qatar sign mutual defence agreement",
-   "x": "The pact was signed after ​the President met Qatari Emir Sheikh Tamim ‌‌bin Hamad ​Al Thani in Istanbul on ⁠⁠Friday.",
-   "r": "Ближний Восток",
-   "c": "Политика",
+   "t": "US flight outage live updates: FAA lifts nationwide ground stop as Trump officials holds press briefing",
+   "x": "Sean Duffy says ‘it’s going to take us some time to unwind what’s happened’ but also points finger at Congress, claiming lack of funding for systems upgrades Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 80,
+   "ten": 46,
+   "ago": 6,
+   "s": [
+    "The Guardian",
+    "CNBC",
+    "The Hindu"
+   ],
+   "u": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+   "img": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=700&quality=85&auto=format&fit=max&s=11f48d3a170fee791c19f53d3db29cc4",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 38.59,
+   "lon": -97.52,
+   "place": "США",
+   "place_en": "United States",
+   "id": 7,
+   "t_en": "US flight outage live updates: FAA lifts nationwide ground stop as Trump officials holds press briefing",
+   "x_en": "Sean Duffy says ‘it’s going to take us some time to unwind what’s happened’ but also points finger at Congress, claiming lack of funding for systems upgrades Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going"
+  },
+  {
+   "t": "US Air Force responds to suspected drone activity at RAF Lakenheath",
+   "x": "No personnel, aircraft or infrastructure at Suffolk site affected, says US military The US Air Force has said it responded to “suspected unauthorised drone activity” on Friday night at an RAF airbase in the east of England. No personnel, aircraft or infrastruc",
+   "r": "Америка",
+   "c": "Конфликты",
    "imp": 79,
-   "ten": 29,
-   "ago": 74,
+   "ten": 67,
+   "ago": 137,
+   "s": [
+    "The Guardian",
+    "Middle East Eye",
+    "Kyiv Independent",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
+   "img": "https://i.guim.co.uk/img/media/a48343859349310a22c156f4bd8b222fbebabbf3/970_0_4879_3903/master/4879.jpg?width=700&quality=85&auto=format&fit=max&s=2c2e249a8d043e62711d40b4044d9e18",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 5,
+   "lat": 39.14,
+   "lon": -97.62,
+   "place": "США",
+   "place_en": "United States",
+   "id": 8,
+   "t_en": "US Air Force responds to suspected drone activity at RAF Lakenheath",
+   "x_en": "No personnel, aircraft or infrastructure at Suffolk site affected, says US military The US Air Force has said it responded to “suspected unauthorised drone activity” on Friday night at an RAF airbase in the east of England. No personnel, aircraft or infrastruc"
+  },
+  {
+   "t": "Setback for SpaceX Starship rocket's double-catch test",
+   "x": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 75,
+   "ten": 57,
+   "ago": 56,
+   "s": [
+    "BBC",
+    "CNBC",
+    "Reuters"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1b1a/live/3f2ee680-dfbc-11f1-9e98-11d1980367a2.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 9,
+   "t_en": "Setback for SpaceX Starship rocket's double-catch test",
+   "x_en": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean."
+  },
+  {
+   "t": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
+   "x": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 32,
+   "ago": 134,
    "s": [
     "Al Jazeera",
-    "France 24",
     "Dawn",
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/2e18af32-df9b-11f1-903b-3f371022a770/w:1024/p:16x9/2026-11-13T145055Z-1247391648-RC22NOA8HWLE-RTRMADP-3-TURKEY-QATAR.jpg",
-   "img_src": "France 24",
+   "u": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+   "img": "https://i.dawn.com/large/2026/11/132203320ab4e71.webp",
+   "img_src": "Dawn",
    "fresh": false,
-   "n": 6,
-   "lat": 39.19,
-   "lon": 36.16,
-   "place": "Турция",
-   "place_en": "Turkey",
-   "id": 6,
-   "t_en": "Turkiye and Qatar sign mutual defence agreement",
-   "x_en": "The pact was signed after ​the President met Qatari Emir Sheikh Tamim ‌‌bin Hamad ​Al Thani in Istanbul on ⁠⁠Friday."
+   "n": 4,
+   "lat": 26.19,
+   "lon": 50.39,
+   "place": "Катар",
+   "place_en": "Qatar",
+   "id": 10,
+   "t_en": "Iran war live: Fighting grips Yemen as Qatar, Turkiye sign defence deal",
+   "x_en": "Doha, Ankara agreement pledges joint action against external attacks as fighting in Yemen displaces civilians."
   },
   {
    "t": "Nvidia's interim CEO inherits risky AI bets and a legal mess",
    "x": "AI expert Gary Marcus breaks down what's at stake for Nvidia and the mess its new CEO has inherited.",
    "r": "Мир",
    "c": "Наука",
-   "imp": 79,
+   "imp": 72,
    "ten": 40,
-   "ago": 97,
+   "ago": 161,
    "s": [
     "NPR",
     "CNBC",
@@ -336,219 +443,113 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 7,
+   "id": 11,
    "t_en": "Nvidia's interim CEO inherits risky AI bets and a legal mess",
    "x_en": "AI expert Gary Marcus breaks down what's at stake for Nvidia and the mess its new CEO has inherited."
   },
   {
-   "t": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
-   "x": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 76,
-   "ago": 47,
-   "s": [
-    "BBC",
-    "Washington Post",
-    "Kyiv Independent"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4cda/live/d40d3460-df57-11f1-9172-871e44a840d8.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 3,
-   "lat": 55.51,
-   "lon": 37.48,
-   "place": "Москва",
-   "place_en": "Moscow",
-   "id": 8,
-   "t_en": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
-   "x_en": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov."
-  },
-  {
-   "t": "As Van Hollen wages a challenge, Senate Democrats are torn on whom to elect as their leader",
-   "x": "Maryland senator’s bid against Chuck Schumer for leadership could decide direction of the Democratic party US politics live – latest updates Ever since Donald Trump returned to the White House, Democratic officeholders and voters alike have been divided over w",
+   "t": "FAA lifts nationwide groundstop affecting more than 11,000 flights",
+   "x": "Sean Duffy, the transportation secretary said the airspace was now open and the problem had been identified FAA grounds thousands of flights – live The Federal Aviation Administration (FAA) has lifted a nationwide ground stop that was declared Friday afternoon",
    "r": "Америка",
-   "c": "Общее",
-   "imp": 76,
-   "ten": 40,
-   "ago": 28,
-   "s": [
-    "The Guardian",
-    "Euronews",
-    "Dawn"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/13/democrats-midterms-senate-leader",
-   "img": "https://i.guim.co.uk/img/media/48fa66a20eacc798793f8c3b942b6715a99fe639/394_0_3929_3145/master/3929.jpg?width=700&quality=85&auto=format&fit=max&s=ab49394fc2d9f2a59c393f9c4079c026",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 40.12,
-   "lon": -98.66,
-   "place": "США",
-   "place_en": "United States",
-   "id": 9,
-   "t_en": "As Van Hollen wages a challenge, Senate Democrats are torn on whom to elect as their leader",
-   "x_en": "Maryland senator’s bid against Chuck Schumer for leadership could decide direction of the Democratic party US politics live – latest updates Ever since Donald Trump returned to the White House, Democratic officeholders and voters alike have been divided over w"
-  },
-  {
-   "t": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
-   "x": "Russian strikes hit targets across Ukraine on Thursday, with one attack damaging a hospital. Ukraine meanwhile fired almost 1,200 drones at Russian targets overnight in one of its biggest aerial attacks since Moscow’s full-scale invasion nearly five years ago.",
-   "r": "Европа",
    "c": "Конфликты",
-   "imp": 76,
-   "ten": 67,
-   "ago": 168,
-   "s": [
-    "France 24",
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/video/20261113-russian-airstrikes-continue-ukraine-launches-nearly-1-200-drones",
-   "img": "https://s.france24.com/media/display/ac93ac9c-df76-11f1-8215-695cb59fade5/w:1024/p:16x9/capture-8765e4ad.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": 50.36,
-   "lon": 30.73,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 10,
-   "t_en": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
-   "x_en": "Russian strikes hit targets across Ukraine on Thursday, with one attack damaging a hospital. Ukraine meanwhile fired almost 1,200 drones at Russian targets overnight in one of its biggest aerial attacks since Moscow’s full-scale invasion nearly five years ago."
-  },
-  {
-   "t": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
-   "x": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 74,
-   "ten": 40,
-   "ago": 38,
+   "imp": 71,
+   "ten": 46,
+   "ago": 73,
    "s": [
     "The Guardian",
-    "Reuters",
-    "AP"
+    "Middle East Eye",
+    "Japan Times"
    ],
-   "u": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-   "img": "https://i.guim.co.uk/img/media/5534caea091e39afe776168281e50dd327c8be8e/563_0_3334_2668/master/3334.jpg?width=700&quality=85&auto=format&fit=max&s=d37605075250f78266914b0061ace318",
+   "u": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+   "img": "https://i.guim.co.uk/img/media/81eae192052ffa6405a52ee2ee448552f4d92481/683_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=64f96d22aca31182e54d2c536d85a6c2",
    "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 38.53,
-   "lon": -97.49,
-   "place": "США",
-   "place_en": "United States",
-   "id": 11,
-   "t_en": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
-   "x_en": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of"
-  },
-  {
-   "t": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-   "x": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 73,
-   "ten": 37,
-   "ago": 48,
-   "s": [
-    "BBC",
-    "NYT",
-    "Dawn"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 12,
-   "t_en": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-   "x_en": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers."
-  },
-  {
-   "t": "African Miss Universe beauty queens in limbo as US visa restrictions bite",
-   "x": "Hall has been seeking a US visa in South Africa as other African beauty queens face similar hurdles.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 72,
-   "ten": 46,
-   "ago": 61,
-   "s": [
-    "BBC",
-    "NYT",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cklyw3neqg2wo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0c93/live/2288e9c0-df28-11f1-b396-2b394d1b806d.jpg",
-   "img_src": "BBC",
    "fresh": false,
    "n": 3,
-   "lat": 39.55,
-   "lon": -98.02,
+   "lat": 39.98,
+   "lon": -97.4,
+   "place": "США",
+   "place_en": "United States",
+   "id": 12,
+   "t_en": "FAA lifts nationwide groundstop affecting more than 11,000 flights",
+   "x_en": "Sean Duffy, the transportation secretary said the airspace was now open and the problem had been identified FAA grounds thousands of flights – live The Federal Aviation Administration (FAA) has lifted a nationwide ground stop that was declared Friday afternoon"
+  },
+  {
+   "t": "FAA orders nationwide ground stop for all US flight departures",
+   "x": "The grounding was the first nationwide flight stoppage since January 2023, when an FAA computer system malfunctioned. Before that, the last nationwide grounding followed the terrorist attacks of Sept. 11, 2001.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 70,
+   "ten": 61,
+   "ago": 12,
+   "s": [
+    "Kyiv Independent",
+    "AP"
+   ],
+   "u": "https://kyivindependent.com/faa-orders-nationwide-ground-stop-for-all-us-flight-departures/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2192210465_20261113-222110_20261113-222156.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.78,
+   "lon": -99.26,
    "place": "США",
    "place_en": "United States",
    "id": 13,
-   "t_en": "African Miss Universe beauty queens in limbo as US visa restrictions bite",
-   "x_en": "Hall has been seeking a US visa in South Africa as other African beauty queens face similar hurdles."
+   "t_en": "FAA orders nationwide ground stop for all US flight departures",
+   "x_en": "The grounding was the first nationwide flight stoppage since January 2023, when an FAA computer system malfunctioned. Before that, the last nationwide grounding followed the terrorist attacks of Sept. 11, 2001."
   },
   {
-   "t": "Pope Leo cheered on return to Peru city where he served as bishop",
-   "x": "An estimated 1.5 million people have welcomed Pope Leo XIV back to the city in Peru where he once served as bishop.",
-   "r": "Америка",
-   "c": "Общее",
+   "t": "Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+   "x": "The Israeli authorities said that Hamas had established a command center at the hospital complex. Hamas said the attack was “a heinous crime targeting a civilian medical facility.”",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
    "imp": 69,
-   "ten": 34,
-   "ago": 70,
+   "ten": 95,
+   "ago": 167,
    "s": [
-    "Al Jazeera",
-    "Washington Post",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794603121.jpg?resize=1920%2C1080&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 4,
-   "lat": -8.64,
-   "lon": -75.9,
-   "place": "Перу",
-   "place_en": "Peru",
-   "id": 14,
-   "t_en": "Pope Leo cheered on return to Peru city where he served as bishop",
-   "x_en": "An estimated 1.5 million people have welcomed Pope Leo XIV back to the city in Peru where he once served as bishop."
-  },
-  {
-   "t": "EU leaders tussle over whom to send to Ukraine, Russia peace talks",
-   "x": "A seat at the table for Europe now appears likely following comments by a US envoy who just held talks with Putin. But who will take that seat remains unclear.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 69,
-   "ten": 30,
-   "ago": 190,
-   "s": [
-    "DW",
     "NYT",
-    "The Hindu",
-    "AP"
+    "CBS News",
+    "Middle East Eye"
    ],
-   "u": "https://www.dw.com/en/eu-leaders-tussle-over-whom-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-world-4025-rdf",
-   "img": "https://static01.nyt.com/images/2026/11/13/multimedia/13int-europe-ukraine-01-jlht/13int-europe-ukraine-01-jlht-mediumSquareAt3X.jpg",
+   "u": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+   "img": "https://static01.nyt.com/images/2026/12/11/multimedia/11int-Gaza-Hospital-ktgm/11int-Gaza-Hospital-ktgm-mediumSquareAt3X.jpg",
    "img_src": "NYT",
    "fresh": false,
+   "n": 3,
+   "lat": 31.64,
+   "lon": 34.41,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 14,
+   "t_en": "Israeli Strikes on Gaza Hospital Kill 6 and Injure Dozens, Health Officials Say",
+   "x_en": "The Israeli authorities said that Hamas had established a command center at the hospital complex. Hamas said the attack was “a heinous crime targeting a civilian medical facility.”"
+  },
+  {
+   "t": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
+   "x": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 69,
+   "ten": 48,
+   "ago": 218,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "NYT",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/13/eisenkot-slams-netanyahus-racist-campaign-against-palestinian-israelis?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/caafae25c0bca6314b12439ac03f6e61770f8341/308_0_3083_2466/master/3083.jpg?width=700&quality=85&auto=format&fit=max&s=5fd49fdc7d95d7fc81dfa75a7d810f1e",
+   "img_src": "The Guardian",
+   "fresh": false,
    "n": 4,
-   "lat": 51.07,
-   "lon": 4.37,
-   "place": "Брюссель",
-   "place_en": "Brussels",
+   "lat": 32.27,
+   "lon": 35.24,
+   "place": "Западный берег",
+   "place_en": "West Bank",
    "id": 15,
-   "t_en": "EU leaders tussle over whom to send to Ukraine, Russia peace talks",
-   "x_en": "A seat at the table for Europe now appears likely following comments by a US envoy who just held talks with Putin. But who will take that seat remains unclear."
+   "t_en": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
+   "x_en": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'."
   },
   {
    "t": "Президент Индонезии Прабово назвал отставку вице-президента «ради большего блага»",
@@ -576,63 +577,164 @@
    "x_en": "\"This isn't an easy decision, but it is the best decision,\" Gibran Rakabuming Raka said yesterday. \"The unity and the future of the nation are above everything.\""
   },
   {
-   "t": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
-   "x": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 68,
-   "ten": 48,
-   "ago": 12,
-   "s": [
-    "Al Jazeera",
-    "NYT"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/13/eisenkot-slams-netanyahus-racist-campaign-against-palestinian-israelis?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/11/13/multimedia/13-eisenkot-arab-citizens-gjqv/13-eisenkot-arab-citizens-gjqv-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.27,
-   "lon": 35.24,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 17,
-   "t_en": "Eisenkot slams Netanyahu’s ‘racist’ campaign against Palestinian Israelis",
-   "x_en": "Prime ministerial hopeful calls attempts to marginalise and smear Palestinian citizens of Israel 'an anti-state act'."
-  },
-  {
-   "t": "Flights grounded at all US airports due to air traffic control ‘communication issue’, transport secretary says – live",
-   "x": "Sean Duffy says technicians from Federal Aviation Administration are investigating the issue Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are coverin",
+   "t": "US-bound flights out of Australia grounded as telecommunications outage affects American travel",
+   "x": "Sydney and Melbourne airports say grounding of planes from US airports led to delays for some flights US flight outage – live updates Get our breaking news email , free app or daily news podcast Some US bound flights from Sydney Airport have been grounded in r",
    "r": "Америка",
    "c": "Общее",
-   "imp": 66,
-   "ten": 40,
-   "ago": 18,
+   "imp": 68,
+   "ten": 57,
+   "ago": 20,
    "s": [
     "The Guardian",
-    "AP"
+    "The Hindu"
    ],
-   "u": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-   "img": "https://i.guim.co.uk/img/media/83ccb1e6582aa694e45d643abd29d837c8f217a2/451_0_4510_3608/master/4510.jpg?width=700&quality=85&auto=format&fit=max&s=11f48d3a170fee791c19f53d3db29cc4",
+   "u": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
+   "img": "https://i.guim.co.uk/img/media/0f73a43c7adabdff5e4709c7319a3e2dd6459d4d/2337_146_6560_5249/master/6560.jpg?width=700&quality=85&auto=format&fit=max&s=18e6e49321c60fa895c3f624b34de71a",
    "img_src": "The Guardian",
    "fresh": true,
    "n": 2,
-   "lat": 38.93,
-   "lon": -97.86,
+   "lat": 39.21,
+   "lon": -99.12,
    "place": "США",
    "place_en": "United States",
+   "id": 17,
+   "t_en": "US-bound flights out of Australia grounded as telecommunications outage affects American travel",
+   "x_en": "Sydney and Melbourne airports say grounding of planes from US airports led to delays for some flights US flight outage – live updates Get our breaking news email , free app or daily news podcast Some US bound flights from Sydney Airport have been grounded in r"
+  },
+  {
+   "t": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+   "x": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 68,
+   "ten": 35,
+   "ago": 82,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Dawn"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": -24.83,
+   "lon": 134.86,
+   "place": "Австралия",
+   "place_en": "Australia",
    "id": 18,
-   "t_en": "Flights grounded at all US airports due to air traffic control ‘communication issue’, transport secretary says – live",
-   "x_en": "Sean Duffy says technicians from Federal Aviation Administration are investigating the issue Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going. The longest in the company’s history. My colleagues are coverin"
+   "t_en": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+   "x_en": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers."
+  },
+  {
+   "t": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+   "x": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 40,
+   "ago": 27,
+   "s": [
+    "CNBC",
+    "The Hindu"
+   ],
+   "u": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+   "img": "https://th-i.thgim.com/public/incoming/vpye4h/article71700721.ece/alternates/LANDSCAPE_1200/Trump_Xi_Putin_Summit__2388.jpg",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": 38.63,
+   "lon": -98.54,
+   "place": "США",
+   "place_en": "United States",
+   "id": 19,
+   "t_en": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+   "x_en": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang."
+  },
+  {
+   "t": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
+   "x": "The Chicago-born pope was welcomed by huge crowds in the coastal city, on the final leg of his South America tour.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 62,
+   "ten": 32,
+   "ago": 135,
+   "s": [
+    "Al Jazeera",
+    "Washington Post",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af76c6baabc-1794600043.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 3,
+   "lat": -9.55,
+   "lon": -75.7,
+   "place": "Перу",
+   "place_en": "Peru",
+   "id": 20,
+   "t_en": "Pope thanks crowds on emotional return to ‘second home’ in Peru’s Chiclayo",
+   "x_en": "The Chicago-born pope was welcomed by huge crowds in the coastal city, on the final leg of his South America tour."
+  },
+  {
+   "t": "Iran's navy claims US MQ-I drone shot down off southern coast",
+   "x": "Iranian navy has said it shot down a US MQ-1 drone near the coastal area of Kuhestak in the country’s southern Hormozgan Province, Iran's Islamic Republic News Agency (Irna) reported. The navy said in a statement the drone was intercepted and destroyed by its ",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 91,
+   "ago": 30,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-navy-claims-us-mq-i-drone-shot-down-southern-coast",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 32.17,
+   "lon": 55.09,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 21,
+   "t_en": "Iran's navy claims US MQ-I drone shot down off southern coast",
+   "x_en": "Iranian navy has said it shot down a US MQ-1 drone near the coastal area of Kuhestak in the country’s southern Hormozgan Province, Iran's Islamic Republic News Agency (Irna) reported. The navy said in a statement the drone was intercepted and destroyed by its "
+  },
+  {
+   "t": "Democratic Senate leader Schumer set to face leadership challenge",
+   "x": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 66,
+   "ago": 85,
+   "s": [
+    "BBC",
+    "Japan Times"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8015/live/4a0196d0-df4d-11f1-b441-2b33b063138f.png",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 2,
+   "lat": 39.74,
+   "lon": -99.13,
+   "place": "США",
+   "place_en": "United States",
+   "id": 22,
+   "t_en": "Democratic Senate leader Schumer set to face leadership challenge",
+   "x_en": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes."
   },
   {
    "t": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports",
    "x": "Nvidia’s board has approached British chipmaker Arm Holdings CEO Rene Haas in its search for a potential successor to Jensen Huang, the Financial Times reported on Friday, citing people familiar with the matter. Huang stepped down on Thursday after revelations",
    "r": "Мир",
    "c": "Общее",
-   "imp": 66,
+   "imp": 61,
    "ten": 40,
-   "ago": 107,
+   "ago": 165,
    "s": [
     "Dawn",
     "Japan Times",
@@ -647,84 +749,9 @@
    "lon": -1.81,
    "place": "Великобритания",
    "place_en": "United Kingdom",
-   "id": 19,
+   "id": 23,
    "t_en": "Nvidia approached Arm CEO Haas to succeed Huang, FT reports",
    "x_en": "Nvidia’s board has approached British chipmaker Arm Holdings CEO Rene Haas in its search for a potential successor to Jensen Huang, the Financial Times reported on Friday, citing people familiar with the matter. Huang stepped down on Thursday after revelations"
-  },
-  {
-   "t": "How Does a 74-Year-Old in Argentina Escape House Arrest on the Fifth Floor?",
-   "x": "The answer involves a heating pad, a bomb scare and animal fats. Police are still searching for an Italian man facing extradition on terrorism charges from the 1970s.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 95,
-   "ago": 6,
-   "s": [
-    "NYT"
-   ],
-   "u": "https://www.nytimes.com/2026/11/13/world/americas/74-year-old-in-argentina-escapes-house-arrest.html",
-   "img": "https://static01.nyt.com/images/2026/11/13/multimedia/13int-Argentina-fugitive-fzvg/13int-Argentina-fugitive-fzvg-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 1,
-   "lat": -35.77,
-   "lon": -65.17,
-   "place": "Аргентина",
-   "place_en": "Argentina",
-   "id": 20,
-   "t_en": "How Does a 74-Year-Old in Argentina Escape House Arrest on the Fifth Floor?",
-   "x_en": "The answer involves a heating pad, a bomb scare and animal fats. Police are still searching for an Italian man facing extradition on terrorism charges from the 1970s."
-  },
-  {
-   "t": "EU leaders choose team for Ukraine peace talks after months of wavering",
-   "x": "British representatives will be part of a team representing Europe in Ukraine peace talks.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 15,
-   "ago": 82,
-   "s": [
-    "Sky News",
-    "Kyiv Independent",
-    "Japan Times"
-   ],
-   "u": "https://news.sky.com/story/eu-leaders-choose-team-for-ukraine-peace-talks-after-months-of-wavering-13612008",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-ukraine-russia_7405617.jpg?20261113082724",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 3,
-   "lat": 50.67,
-   "lon": 4.39,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 21,
-   "t_en": "EU leaders choose team for Ukraine peace talks after months of wavering",
-   "x_en": "British representatives will be part of a team representing Europe in Ukraine peace talks."
-  },
-  {
-   "t": "U.N. watchdog agency pushes for access to key Iran nuclear site",
-   "x": "As Trump signals he may let the Iran war fester, the U.N. nuclear agency is \"increasingly concerned\" about access to a key uranium facility, according to a leaked report.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 95,
-   "ago": 134,
-   "s": [
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/",
-   "img": "https://th-i.thgim.com/public/incoming/5b4xi/article71697628.ece/alternates/LANDSCAPE_1200/2026-06-02T174432Z_1509046445_RC2TLLA5THDW_RTRMADP_3_IRAN-CRISIS-NUCLEAR-GROSSI.JPG",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 2,
-   "lat": 32.07,
-   "lon": 53.48,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 22,
-   "t_en": "U.N. watchdog agency pushes for access to key Iran nuclear site",
-   "x_en": "As Trump signals he may let the Iran war fester, the U.N. nuclear agency is \"increasingly concerned\" about access to a key uranium facility, according to a leaked report."
   },
   {
    "t": "Кризис Nvidia обнажил недостатки основателей рок-звезд",
@@ -746,7 +773,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 23,
+   "id": 24,
    "t_en": "Nvidia crisis exposes downside of rockstar founders",
    "x_en": ""
   },
@@ -770,42 +797,90 @@
    "lon": 118.39,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 24,
+   "id": 25,
    "t_en": "MSCI downgrade threat exposes Indonesia's patronage problem",
    "x_en": ""
   },
   {
-   "t": "Urgent climate finance pleas at COP31 face a non-urgent response",
-   "x": "Climate action has slipped down the political agenda for Western governments as U.S. President Donald Trump has withdrawn international funding, while wars in Ukraine and West Asia have added to inflationary ‌pressures and the need to spend on security",
+   "t": "US wants Japan to nearly triple budget for hosting American troops",
+   "x": "",
    "r": "Америка",
-   "c": "Природа",
+   "c": "Конфликты",
    "imp": 60,
-   "ten": 66,
-   "ago": 46,
+   "ten": 57,
+   "ago": 1,
    "s": [
-    "The Hindu"
+    "Nikkei Asia"
    ],
-   "u": "https://www.thehindu.com/sci-tech/energy-and-environment/urgent-climate-finance-pleas-at-cop31-face-a-non-urgent-response/article71699520.ece",
-   "img": "https://th-i.thgim.com/public/incoming/g8he2w/article71699615.ece/alternates/LANDSCAPE_1200/Climate_COP31_Turkey_47865.jpg",
-   "img_src": "The Hindu",
+   "u": "https://asia.nikkei.com/politics/international-relations/us-wants-japan-to-nearly-triple-budget-for-hosting-american-troops",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F7%2F4%2F3%2F13443471-1-eng-GB%2F4396d3fe139a-20261113N-Balikatan-exercise.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 38.49,
-   "lon": -97.95,
+   "lat": 39.5,
+   "lon": -97.57,
    "place": "США",
    "place_en": "United States",
-   "id": 25,
-   "t_en": "Urgent climate finance pleas at COP31 face a non-urgent response",
-   "x_en": "Climate action has slipped down the political agenda for Western governments as U.S. President Donald Trump has withdrawn international funding, while wars in Ukraine and West Asia have added to inflationary ‌pressures and the need to spend on security"
+   "id": 26,
+   "t_en": "US wants Japan to nearly triple budget for hosting American troops",
+   "x_en": ""
+  },
+  {
+   "t": "Uranium price hits record as AI demand prompts nuclear comeback",
+   "x": "",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 60,
+   "ten": 57,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/commodities/uranium-price-hits-record-as-ai-demand-prompts-nuclear-comeback",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F0%2F5%2F3%2F13443505-1-eng-GB%2F84839fbb00e0-20261113N-Oi-nuclear-plant.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 27,
+   "t_en": "Uranium price hits record as AI demand prompts nuclear comeback",
+   "x_en": ""
+  },
+  {
+   "t": "Iran warns of 'immediate response' to any US-Israeli attack, slams Gulf nations",
+   "x": "Iran has said that any renewed US-Israeli attacks on its territory would trigger an immediate response, while accusing Bahrain and other Gulf countries of facilitating Washington’s military operations against Tehran. “Any renewed war of aggression by the Unite",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 95,
+   "ago": 42,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-warns-immediate-response-any-us-israeli-attack-slams-gulf-nations",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-11/000_D7BB6XL%20%281%29.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 31.44,
+   "lon": 54.52,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 28,
+   "t_en": "Iran warns of 'immediate response' to any US-Israeli attack, slams Gulf nations",
+   "x_en": "Iran has said that any renewed US-Israeli attacks on its territory would trigger an immediate response, while accusing Bahrain and other Gulf countries of facilitating Washington’s military operations against Tehran. “Any renewed war of aggression by the Unite"
   },
   {
    "t": "Microsoft seeing \"continued recovery\" amid major worldwide outage",
-   "x": "A Microsoft outage involving services like Outlook and Teams has dragged on for hours and impacted many users, companies and government services",
+   "x": "A Microsoft outage involving services like Outlook and Teams has impacted many users, companies and government services.",
    "r": "Европа",
    "c": "Политика",
    "imp": 59,
    "ten": 32,
-   "ago": 63,
+   "ago": 56,
    "s": [
     "CBS News",
     "The Hindu"
@@ -813,40 +888,40 @@
    "u": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
    "img": "https://th-i.thgim.com/public/incoming/f9ghv5/article71696458.ece/alternates/LANDSCAPE_1200/Microsoft-Outage__9733.jpg",
    "img_src": "The Hindu",
-   "fresh": false,
+   "fresh": true,
    "n": 3,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 26,
+   "id": 29,
    "t_en": "Microsoft seeing \"continued recovery\" amid major worldwide outage",
-   "x_en": "A Microsoft outage involving services like Outlook and Teams has dragged on for hours and impacted many users, companies and government services"
+   "x_en": "A Microsoft outage involving services like Outlook and Teams has impacted many users, companies and government services."
   },
   {
-   "t": "Supreme Court will weigh Trump's asylum restrictions at US-Mexico border",
-   "x": "Рейтер",
-   "r": "Америка",
-   "c": "Политика",
+   "t": "Asean faces Myanmar dilemma as some members pursue closer ties",
+   "x": "Asean is under increasing pressure at its upcoming summit to ease a five-year ban on Myanmar’s military-backed leaders attending high-level meetings, after Thailand and several other members stepped up engagement despite the country’s ongoing civil war . Leade",
+   "r": "Азия",
+   "c": "Конфликты",
    "imp": 59,
-   "ten": 40,
-   "ago": 66,
+   "ten": 48,
+   "ago": 84,
    "s": [
-    "Reuters",
-    "AP"
+    "Dawn",
+    "Japan Times"
    ],
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaHNWeFYxTlNOZElZQ1BSdDNZSXhJM3RtVWNhRXJ4SkcxVU5MU3ZIdW1Oc1gxa2Y3eXJ4NFc3b21Bb3lKT2pwZVNxMUtSa2NDS3JYSTI5ZzJzRkU4Z3ptRDlhVlBvWXNHdjh3MGNBLVg1bjRRV2poamg2eHo0Sl84ZGFPaS02RjhJMVo5RWtWMC1rc1pFNkE3UkUwS3VuUjJnejl2NHZIWGdrM3psTUZR?oc=5",
-   "img": "",
-   "img_src": "",
+   "u": "https://www.dawn.com/news/2044277/asean-faces-myanmar-dilemma-as-some-members-pursue-closer-ties",
+   "img": "https://i.dawn.com/large/2026/11/131323250c4d7b8.webp",
+   "img_src": "Dawn",
    "fresh": false,
    "n": 2,
-   "lat": 38.81,
-   "lon": -98.7,
-   "place": "США",
-   "place_en": "United States",
-   "id": 27,
-   "t_en": "Supreme Court will weigh Trump's asylum restrictions at US-Mexico border",
-   "x_en": "Reuters"
+   "lat": 21.02,
+   "lon": 96.98,
+   "place": "Мьянма",
+   "place_en": "Myanmar",
+   "id": 30,
+   "t_en": "Asean faces Myanmar dilemma as some members pursue closer ties",
+   "x_en": "Asean is under increasing pressure at its upcoming summit to ease a five-year ban on Myanmar’s military-backed leaders attending high-level meetings, after Thailand and several other members stepped up engagement despite the country’s ongoing civil war . Leade"
   },
   {
    "t": "Аресты руководителей госактивов в Казахстане ставят под сомнение IPO железной дороги в Гонконге",
@@ -868,129 +943,35 @@
    "lon": 113.67,
    "place": "Гонконг",
    "place_en": "Hong Kong",
-   "id": 28,
+   "id": 31,
    "t_en": "Kazakh arrests of state asset heads raise doubt on railway IPO in Hong Kong",
    "x_en": ""
   },
   {
-   "t": "Ukraine defense tech unicorn cultivates Taiwan and Japan supply chain ties",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
+   "t": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
+   "x": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 76,
+   "ago": 300,
    "s": [
-    "Nikkei Asia"
+    "BBC",
+    "Washington Post",
+    "Kyiv Independent"
    ],
-   "u": "https://asia.nikkei.com/business/aerospace-defense-industries/ukraine-defense-tech-unicorn-cultivates-taiwan-and-japan-supply-chain-ties",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F7%2F9%2F2%2F13422972-1-eng-GB%2F4d434e456052-original-83D752B1-1AC5-4A52-98DF-BA584438935D.jpeg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 49.57,
-   "lon": 30.64,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 29,
-   "t_en": "Ukraine defense tech unicorn cultivates Taiwan and Japan supply chain ties",
-   "x_en": ""
-  },
-  {
-   "t": "Astana Motors, poster child of Kazakh diversification, faces growing pains",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/electric-vehicles/astana-motors-poster-child-of-kazakh-diversification-faces-growing-pains",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F7%2F0%2F7%2F13407077-1-eng-GB%2Ffe90a22d1bdb-IMG_8487.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 48.39,
-   "lon": 67.37,
-   "place": "Казахстан",
-   "place_en": "Kazakhstan",
-   "id": 30,
-   "t_en": "Astana Motors, poster child of Kazakh diversification, faces growing pains",
-   "x_en": ""
-  },
-  {
-   "t": "Taiwan emphasizes APEC China presence as it walks diplomatic tightrope",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/apec/taiwan-emphasizes-apec-china-presence-as-it-walks-diplomatic-tightrope",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F9%2F9%2F1%2F13431991-1-eng-GB%2Fbdd56d5799a2-GettyImages-2304404813.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 23.3,
-   "lon": 120.87,
-   "place": "Тайвань",
-   "place_en": "Taiwan",
-   "id": 31,
-   "t_en": "Taiwan emphasizes APEC China presence as it walks diplomatic tightrope",
-   "x_en": ""
-  },
-  {
-   "t": "Malaysia seeks Taiwan meeting restart as Anwar defends China stance",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/malaysia-seeks-taiwan-meeting-restart-as-anwar-defends-china-stance",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F0%2F0%2F2%2F13432008-2-eng-GB%2Fe52b47dfa1d8-2025-10-28T090521Z_508374885_RC2WKHA8YVBO_RTRMADP_3_ASEAN-SUMMIT-1-.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 4.45,
-   "lon": 101.52,
-   "place": "Малайзия",
-   "place_en": "Malaysia",
+   "u": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4cda/live/d40d3460-df57-11f1-9172-871e44a840d8.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 55.51,
+   "lon": 37.48,
+   "place": "Москва",
+   "place_en": "Moscow",
    "id": 32,
-   "t_en": "Malaysia seeks Taiwan meeting restart as Anwar defends China stance",
-   "x_en": ""
-  },
-  {
-   "t": "Fed hike 'certainty' pushes Asian currencies lower with yen down near 160",
-   "x": "",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/currencies/fed-hike-certainty-pushes-asian-currencies-lower-with-yen-down-near-160",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F9%2F1%2F3%2F13433198-1-eng-GB%2Fd861efcd79d2-2023-03-10T155700Z_1041723817_RC21RZ98ZB6Z_RTRMADP_3_SVB-FINANCIAL-GROUP-STOCK.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 33,
-   "t_en": "Fed hike 'certainty' pushes Asian currencies lower with yen down near 160",
-   "x_en": ""
+   "t_en": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
+   "x_en": "Sergei Zavorotny, now a journalist and commentator, was previously an adviser to Ukrainian ex-prime minister Mykola Azarov."
   },
   {
    "t": "Baidu CEO Robin Li says commercial AI adoption is only starting",
@@ -1012,7 +993,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 34,
+   "id": 33,
    "t_en": "Baidu CEO Robin Li says commercial AI adoption is only starting",
    "x_en": ""
   },
@@ -1036,7 +1017,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 35,
+   "id": 34,
    "t_en": "Sex, spies and salaries shake up AI chipmakers",
    "x_en": ""
   },
@@ -1060,7 +1041,7 @@
    "lon": 121.25,
    "place": "Тайвань",
    "place_en": "Taiwan",
-   "id": 36,
+   "id": 35,
    "t_en": "Taiwan's Foxconn has 'strong confidence' in 2027 due to AI demand",
    "x_en": ""
   },
@@ -1084,7 +1065,7 @@
    "lon": 138.9,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 37,
+   "id": 36,
    "t_en": "Subway, TGI Fridays Japan partner Watami aims to go private under founder",
    "x_en": ""
   },
@@ -1100,15 +1081,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/politics/international-relations/takaichi-looks-to-meet-with-trump-to-head-off-defense-spending-demands",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F7%2F4%2F9%2F13439478-2-eng-GB%2F0ceefc862f59-photo_SXM2026111200008097.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 40.71,
    "lon": -97.98,
    "place": "США",
    "place_en": "United States",
-   "id": 38,
+   "id": 37,
    "t_en": "Takaichi looks to meet with Trump to head off defense spending demands",
    "x_en": ""
   },
@@ -1124,15 +1105,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/spotlight/supply-chain/japan-eyes-state-takeover-of-aging-plants-making-critical-materials",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F4%2F9%2F9%2F13439940-2-eng-GB%2Ff0c1050b3c8f-photo_SXM2022041200007774.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 36.2,
    "lon": 138.79,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 39,
+   "id": 38,
    "t_en": "Japan eyes state takeover of aging plants making critical materials",
    "x_en": ""
   },
@@ -1156,16 +1137,36 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 40,
+   "id": 39,
    "t_en": "ASEAN needs oil reserve for energy security: secretary-general",
+   "x_en": ""
+  },
+  {
+   "t": "Japan Tobacco seizure by Russia clouds Tokyo's investment plans",
+   "x": "",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 57,
+   "ten": 36,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/japan-tobacco-seizure-by-russia-clouds-tokyo-s-investment-plans",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 2,
+   "lat": 35.84,
+   "lon": 139.43,
+   "place": "Токио",
+   "place_en": "Tokyo",
+   "id": 40,
+   "t_en": "Japan Tobacco seizure by Russia clouds Tokyo's investment plans",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794515348443,
-   "v": 50
-  },
   {
    "t": 1794532969532,
    "v": 49
@@ -1181,133 +1182,137 @@
   {
    "t": 1794607345022,
    "v": 48
+  },
+  {
+   "t": 1794622480767,
+   "v": 47
   }
  ],
  "timeline": [
   {
-   "t": 1794520945022,
-   "v": 44,
-   "n": 20
+   "t": 1794536080767,
+   "v": 53,
+   "n": 8
   },
   {
-   "t": 1794524545022,
-   "v": 44,
-   "n": 23
+   "t": 1794539680767,
+   "v": 56,
+   "n": 14
   },
   {
-   "t": 1794528145022,
-   "v": 42,
+   "t": 1794543280767,
+   "v": 48,
    "n": 18
   },
   {
-   "t": 1794531745022,
+   "t": 1794546880767,
    "v": 48,
-   "n": 16
-  },
-  {
-   "t": 1794535345022,
-   "v": 43,
-   "n": 20
-  },
-  {
-   "t": 1794538945022,
-   "v": 47,
-   "n": 27
-  },
-  {
-   "t": 1794542545022,
-   "v": 43,
    "n": 34
   },
   {
-   "t": 1794546145022,
-   "v": 47,
-   "n": 43
-  },
-  {
-   "t": 1794549745022,
+   "t": 1794550480767,
    "v": 44,
-   "n": 58
+   "n": 57
   },
   {
-   "t": 1794553345022,
+   "t": 1794554080767,
    "v": 45,
-   "n": 66
+   "n": 65
   },
   {
-   "t": 1794556945022,
-   "v": 43,
-   "n": 67
-  },
-  {
-   "t": 1794560545022,
-   "v": 45,
-   "n": 63
-  },
-  {
-   "t": 1794564145022,
-   "v": 49,
-   "n": 59
-  },
-  {
-   "t": 1794567745022,
-   "v": 51,
+   "t": 1794557680767,
+   "v": 44,
    "n": 64
   },
   {
-   "t": 1794571345022,
-   "v": 52,
+   "t": 1794561280767,
+   "v": 47,
+   "n": 59
+  },
+  {
+   "t": 1794564880767,
+   "v": 49,
+   "n": 57
+  },
+  {
+   "t": 1794568480767,
+   "v": 50,
    "n": 56
   },
   {
-   "t": 1794574945022,
+   "t": 1794572080767,
    "v": 50,
-   "n": 68
+   "n": 54
   },
   {
-   "t": 1794578545022,
+   "t": 1794575680767,
+   "v": 49,
+   "n": 55
+  },
+  {
+   "t": 1794579280767,
+   "v": 49,
+   "n": 65
+  },
+  {
+   "t": 1794582880767,
    "v": 48,
-   "n": 72
+   "n": 67
   },
   {
-   "t": 1794582145022,
+   "t": 1794586480767,
+   "v": 48,
+   "n": 79
+  },
+  {
+   "t": 1794590080767,
    "v": 47,
-   "n": 100
+   "n": 88
   },
   {
-   "t": 1794585745022,
-   "v": 47,
-   "n": 113
+   "t": 1794593680767,
+   "v": 48,
+   "n": 94
   },
   {
-   "t": 1794589345022,
-   "v": 47,
-   "n": 120
+   "t": 1794597280767,
+   "v": 45,
+   "n": 97
   },
   {
-   "t": 1794592945022,
+   "t": 1794600880767,
    "v": 46,
-   "n": 120
+   "n": 104
   },
   {
-   "t": 1794596545022,
+   "t": 1794604480767,
+   "v": 46,
+   "n": 110
+  },
+  {
+   "t": 1794608080767,
+   "v": 46,
+   "n": 107
+  },
+  {
+   "t": 1794611680767,
+   "v": 47,
+   "n": 96
+  },
+  {
+   "t": 1794615280767,
+   "v": 47,
+   "n": 81
+  },
+  {
+   "t": 1794618880767,
+   "v": 46,
+   "n": 114
+  },
+  {
+   "t": 1794622480767,
    "v": 44,
-   "n": 115
-  },
-  {
-   "t": 1794600145022,
-   "v": 43,
-   "n": 115
-  },
-  {
-   "t": 1794603745022,
-   "v": 43,
-   "n": 139
-  },
-  {
-   "t": 1794607345022,
-   "v": 42,
-   "n": 103
+   "n": 83
   }
  ],
  "feeds": [
@@ -1329,19 +1334,19 @@
   },
   {
    "n": "The Guardian",
-   "items": 30
+   "items": 29
   },
   {
    "n": "Sky News",
-   "items": 3
+   "items": 1
   },
   {
    "n": "NPR",
-   "items": 6
+   "items": 5
   },
   {
    "n": "UN News",
-   "items": 11
+   "items": 0
   },
   {
    "n": "CNBC",
@@ -1349,11 +1354,11 @@
   },
   {
    "n": "Euronews",
-   "items": 35
+   "items": 28
   },
   {
    "n": "NYT",
-   "items": 30
+   "items": 31
   },
   {
    "n": "Washington Post",
@@ -1361,11 +1366,11 @@
   },
   {
    "n": "CBS News",
-   "items": 22
+   "items": 23
   },
   {
    "n": "ABC News",
-   "items": 20
+   "items": 17
   },
   {
    "n": "CNN",
@@ -1377,11 +1382,11 @@
   },
   {
    "n": "ABC Australia",
-   "items": 14
+   "items": 18
   },
   {
    "n": "CNA",
-   "items": 15
+   "items": 18
   },
   {
    "n": "Times of Israel",
@@ -1389,7 +1394,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1413,7 +1418,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 24
+   "items": 21
   },
   {
    "n": "Dawn",
@@ -1445,8 +1450,8 @@
   }
  ],
  "failed": [
+  "UN News",
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

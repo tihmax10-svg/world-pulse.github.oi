@@ -1,14 +1,14 @@
 {
- "updated": 1794712408521,
+ "updated": 1794740135708,
  "demo": false,
- "total_articles": 544,
- "second_delta": 0,
+ "total_articles": 524,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 43
+   "v": 45
   },
   {
    "n": "Al Jazeera",
@@ -16,51 +16,47 @@
   },
   {
    "n": "DW",
-   "v": 48
+   "v": 45
   },
   {
    "n": "France 24",
-   "v": 43
+   "v": 52
   },
   {
    "n": "The Guardian",
-   "v": 44
+   "v": 46
   },
   {
    "n": "Sky News",
-   "v": 35
+   "v": 48
   },
   {
    "n": "NPR",
-   "v": 93
-  },
-  {
-   "n": "UN News",
-   "v": 40
+   "v": 91
   },
   {
    "n": "CNBC",
-   "v": 42
+   "v": 44
   },
   {
    "n": "Euronews",
-   "v": 42
+   "v": 41
   },
   {
    "n": "NYT",
-   "v": 49
+   "v": 52
   },
   {
    "n": "Washington Post",
-   "v": 37
+   "v": 38
   },
   {
    "n": "CBS News",
-   "v": 42
+   "v": 45
   },
   {
    "n": "ABC News",
-   "v": 55
+   "v": 50
   },
   {
    "n": "CNN",
@@ -72,19 +68,19 @@
   },
   {
    "n": "ABC Australia",
-   "v": 40
+   "v": 42
   },
   {
    "n": "CNA",
-   "v": 44
+   "v": 40
   },
   {
    "n": "Africanews",
-   "v": 57
+   "v": 55
   },
   {
    "n": "Kyiv Independent",
-   "v": 56
+   "v": 59
   },
   {
    "n": "Yonhap",
@@ -95,28 +91,24 @@
    "v": 41
   },
   {
-   "n": "The Diplomat",
-   "v": 54
-  },
-  {
    "n": "Dawn",
-   "v": 46
-  },
-  {
-   "n": "Times of India",
    "v": 42
   },
   {
+   "n": "Times of India",
+   "v": 44
+  },
+  {
    "n": "The Hindu",
-   "v": 48
+   "v": 53
   },
   {
    "n": "Politico EU",
-   "v": 32
+   "v": 48
   },
   {
    "n": "Japan Times",
-   "v": 43
+   "v": 44
   },
   {
    "n": "Reuters",
@@ -124,17 +116,17 @@
   },
   {
    "n": "AP",
-   "v": 44
+   "v": 42
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 44
+   "v": 46
   },
   {
    "n": "Ближний Восток",
-   "v": 57
+   "v": 61
   },
   {
    "n": "Азия",
@@ -142,70 +134,205 @@
   },
   {
    "n": "Африка",
-   "v": 57
+   "v": 55
   },
   {
    "n": "Америка",
-   "v": 48
+   "v": 47
   }
  ],
  "events": [
   {
-   "t": "США обвиняют модернизацию системы в самой продолжительной общенациональной остановке ФАУ после 11 сентября",
-   "x": "Шон Даффи, министр транспорта страны, заявил, что его агентство «собирается привлечь людей к ответственности».",
-   "r": "Америка",
-   "c": "Общее",
+   "t": "Джордан приговорил троих мужчин к смертной казни через повешение после смертельного нападения на церковь",
+   "x": "Трое мужчин были осуждены за нападение на церковь в провинции Карак, в результате которого погибли девять человек.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
    "imp": 89,
-   "ten": 40,
-   "ago": 11,
+   "ten": 95,
+   "ago": 78,
    "s": [
     "Al Jazeera",
-    "CNBC",
-    "Africanews",
+    "France 24",
+    "Times of India",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/eb10e528-e0d1-11f1-ba89-695cb59fade5/w:1024/p:16x9/AP26299487770405.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 30.4,
+   "lon": 36.8,
+   "place": "Иордания",
+   "place_en": "Jordan",
+   "id": 1,
+   "t_en": "Jordan sentences three men to death by hanging after deadly church attack",
+   "x_en": "Three men have been convicted of carrying out an attack on a church in the Karak governorate that killed nine people."
+  },
+  {
+   "t": "Кабо-Верде может войти в историю выборов с первой женщиной-президентом",
+   "x": "В воскресенье Кабо-Верде пойдет на выборы, на которых африканское островное государство может назначить свою первую женщину-лидера. Министр юстиции Жоана Роза бросает вызов действующему президенту Хосе Марии Невесу, который является пятым президентом страны с момента ее обретения независимости.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 86,
+   "ten": 40,
+   "ago": 32,
+   "s": [
+    "France 24",
+    "Euronews",
+    "ABC News",
+    "Times of India",
+    "The Hindu",
+    "Reuters",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/09/99/24/34/640x360_cmsv2_bd64c28f-871e-5fa6-93d2-65f06a2bd899-9992434.jpg?1794636165",
-   "img_src": "Africanews",
+   "u": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
+   "img": "https://s.france24.com/media/display/59c62c6c-e0d2-11f1-93d1-695cb59fade5/w:1024/p:16x9/2026-11-13T064451Z-244678143-RC2WLOAZ7WLR-RTRMADP-3-CAPEVERDE-ELECTION-PREVIEW.jpg",
+   "img_src": "France 24",
    "fresh": true,
+   "n": 7,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 2,
+   "t_en": "Cape Verde could make election history with first female president",
+   "x_en": "Cape Verde goes to the polls on Sunday in an election that could see the African island nation appoint its first ever female leader. Justice Minister Joana Rosa challenges incumbent Jose Maria Neves, who is the country's fifth president since it became indepen"
+  },
+  {
+   "t": "Бахрейн перехватывает иранские воздушные атаки, поскольку Тегеран заявляет, что атаковал базу США",
+   "x": "Военные Бахрейна заявили, что их противовоздушная оборона отразила несколько иранских воздушных атак, прежде чем они достигли своих целей.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 79,
+   "ten": 85,
+   "ago": 55,
+   "s": [
+    "CNBC",
+    "CBS News",
+    "Reuters"
+   ],
+   "u": "https://www.cnbc.com/2026/11/15/bahrain-iran-drone-attacks-tehran-us-base.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108317815-1780744058944-gettyimages-2278861839-AFP_B4UX6TB.jpeg?v=1780744097&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": true,
+   "n": 3,
+   "lat": 35.92,
+   "lon": 51.37,
+   "place": "Тегеран",
+   "place_en": "Tehran",
+   "id": 3,
+   "t_en": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base",
+   "x_en": "The Bahraini military said its air defences had intercepted several Iranian aerial attacks before they reached their targets."
+  },
+  {
+   "t": "Израиль убил командира ХАМАС в результате удара по лагерю Газы, заявляют официальные лица",
+   "x": "Представители ХАМАСа и ЦАХАЛ подтверждают смерть Самира Абу Юниса, командира бригады Рафах.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 77,
+   "ten": 85,
+   "ago": 72,
+   "s": [
+    "BBC",
+    "Politico EU",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4c19/live/fcdf6660-e0ce-11f1-a701-fddedf244c16.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 31.35,
+   "lon": 34.28,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 4,
+   "t_en": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+   "x_en": "Both Hamas and IDF officials confirm the death of Samir Abu Younis, commander of the Rafah Brigade."
+  },
+  {
+   "t": "160 вопросов, только один неверный: лучший бомбардир налогового экзамена в Южной Корее признал мошенничество ИИ",
+   "x": "Опасения перед вступительным экзаменом в национальный колледж на следующей неделе, поскольку испытуемый признает, что отправлял фотографии вопросов в инструмент искусственного интеллекта. Оценки, полученные лучшим бомбардиром национального экзамена Южной Кореи для начинающих бухгалтеров по налогам в этом году, казались слишком хорошими, чтобы быть правдой. В воскресенье, СК",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 77,
+   "ten": 40,
+   "ago": 109,
+   "s": [
+    "The Guardian",
+    "Yonhap",
+    "Dawn",
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+   "img": "https://i.guim.co.uk/img/media/a5f3ffab9cd63da939e5c4cfbd21bff5a434ce93/747_0_4581_3664/master/4581.jpg?width=700&quality=85&auto=format&fit=max&s=d17d98bdde203d4863a937796ff2be8c",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 8,
+   "lat": 35.86,
+   "lon": 127.55,
+   "place": "Южная Корея",
+   "place_en": "South Korea",
+   "id": 5,
+   "t_en": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+   "x_en": "Fears for national college entrance exam next week as test taker admits sending photos of questions to AI tool The marks attained by the top scorer ⁠on South Korea’s national exam for aspiring tax accountants this year seemed too good to be true. On Sunday, sc"
+  },
+  {
+   "t": "Первые национальные выборы в Южном Судане будут отложены",
+   "x": "Аналитики предупреждали, что голосование, первоначально назначенное на декабрь, столкнулось с кризисом легитимности. Южный Судан не проводил национальных выборов с момента обретения независимости в 2011 году.",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 77,
+   "ten": 48,
+   "ago": 121,
+   "s": [
+    "NYT",
+    "ABC News",
+    "Africanews",
+    "The Hindu"
+   ],
+   "u": "https://www.nytimes.com/2026/11/14/world/africa/south-sudan-election.html",
+   "img": "https://static01.nyt.com/images/2026/11/14/multimedia/14int-southsudan-election-cptk/14int-southsudan-election-cptk-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
    "n": 4,
-   "lat": 39.24,
-   "lon": -99.04,
-   "place": "США",
-   "place_en": "United States",
-   "id": 1,
-   "t_en": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
-   "x_en": "Sean Duffy, the country's transportation secretary, said his agency is 'going to hold people accountable'."
+   "lat": 6.19,
+   "lon": 29.75,
+   "place": "Южный Судан",
+   "place_en": "South Sudan",
+   "id": 6,
+   "t_en": "South Sudan’s National Election, Its First, Will Be Delayed",
+   "x_en": "Analysts had warned that the vote, originally set for December, faced a legitimacy crisis. South Sudan has not held a national election since gaining independence in 2011."
   },
   {
    "t": "США предложили Украине передать Донбасс в НАТО, заявил Зеленский",
    "x": "США не подтвердили комментарии украинского президента - американский чиновник сообщил Би-би-си, что \"многие идеи продолжают обсуждаться\".",
    "r": "Европа",
    "c": "Политика",
-   "imp": 79,
-   "ten": 39,
-   "ago": 93,
+   "imp": 76,
+   "ten": 40,
+   "ago": 124,
    "s": [
     "BBC",
     "Sky News",
     "CNBC",
     "Euronews",
-    "Washington Post",
-    "Times of India",
-    "Politico EU",
-    "Japan Times",
-    "Reuters"
+    "CBS News",
+    "Kyiv Independent",
+    "Politico EU"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fc82/live/f8afbeb0-e087-11f1-b780-31cc9daf154a.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 9,
+   "n": 7,
    "lat": 48.23,
    "lon": 37.46,
    "place": "Донбасс",
    "place_en": "Donbas",
-   "id": 2,
+   "id": 7,
    "t_en": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
    "x_en": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\"."
   },
@@ -214,147 +341,17 @@
    "x": "SpaceX осуществила историческую ловлю, используя механические руки, прозванные «палочками для еды».",
    "r": "Мир",
    "c": "Наука",
-   "imp": 78,
-   "ten": 49,
-   "ago": 111,
+   "imp": 75,
+   "ten": 54,
+   "ago": 50,
    "s": [
     "BBC",
-    "Al Jazeera",
-    "France 24",
-    "CNBC"
+    "CNBC",
+    "Euronews"
    ],
    "u": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/aeb5/live/e1baf430-e074-11f1-a701-fddedf244c16.jpg",
    "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 3,
-   "t_en": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
-   "x_en": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\"."
-  },
-  {
-   "t": "Israeli air strike kills senior Hamas commander in Gaza",
-   "x": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 77,
-   "ten": 91,
-   "ago": 79,
-   "s": [
-    "Al Jazeera",
-    "Times of India",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
-   "img": "https://static.toiimg.com/photo/msid-135845432,imgsize-76526.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 3,
-   "lat": 31.54,
-   "lon": 34.42,
-   "place": "Газа",
-   "place_en": "Gaza",
-   "id": 4,
-   "t_en": "Israeli air strike kills senior Hamas commander in Gaza",
-   "x_en": "Hamas confirms the death of Rafah brigade commander Samir Abu Younis in an attack on Khan Younis on Saturday."
-  },
-  {
-   "t": "Saudi-led coalition intercepts two missiles, two drones in Riyadh",
-   "x": "Fighting escalates in Yemen's Marib and al-Jawf, as UN agency says more than 340,000 Yemenis displaced since August.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 74,
-   "ten": 91,
-   "ago": 14,
-   "s": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af7a35f-1794614111.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": 23.53,
-   "lon": 45.48,
-   "place": "Саудовская Аравия",
-   "place_en": "Saudi Arabia",
-   "id": 5,
-   "t_en": "Saudi-led coalition intercepts two missiles, two drones in Riyadh",
-   "x_en": "Fighting escalates in Yemen's Marib and al-Jawf, as UN agency says more than 340,000 Yemenis displaced since August."
-  },
-  {
-   "t": "Netanyahu sends plea to Eisenkot for unity government",
-   "x": "Benjamin Netanyahu has issued a public plea to opposition leader Gadi Eisenkot to form a unity government.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 35,
-   "ago": 44,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/15/netanyahu-sends-plea-to-eisenkot-for-unity-government?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/e9d87c1e-e06a-11f1-b45a-f71d22e7fea9/w:1024/p:16x9/eb428c66bf6978a929203d6ac1afd3964fb560b1.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 3,
-   "lat": 31.2,
-   "lon": 34.2,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 6,
-   "t_en": "Netanyahu sends plea to Eisenkot for unity government",
-   "x_en": "Benjamin Netanyahu has issued a public plea to opposition leader Gadi Eisenkot to form a unity government."
-  },
-  {
-   "t": "Hundreds of men march in Switzerland to protest violence against women",
-   "x": "Organisers say men must speak out, as Swiss study finds half of men aged 18 to 24 hold restrictive view of masculinity.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 72,
-   "ten": 48,
-   "ago": 62,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "Times of India"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/15/hundreds-of-men-march-in-switzerland-to-protest-violence-against-women?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_087b8fe50020fa6909e488c0048cb4af_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 47.24,
-   "lon": 6.86,
-   "place": "Швейцария",
-   "place_en": "Switzerland",
-   "id": 7,
-   "t_en": "Hundreds of men march in Switzerland to protest violence against women",
-   "x_en": "Organisers say men must speak out, as Swiss study finds half of men aged 18 to 24 hold restrictive view of masculinity."
-  },
-  {
-   "t": "Microsoft says it \"restored service\" after major worldwide outage",
-   "x": "A Microsoft outage involving services like Outlook and Teams impacted many users, companies and government services.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 71,
-   "ten": 32,
-   "ago": 53,
-   "s": [
-    "CBS News",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
-   "img": "https://th-i.thgim.com/public/incoming/31c78c/article71696610.ece/alternates/LANDSCAPE_1200/Microsoft_14689.jpg",
-   "img_src": "The Hindu",
    "fresh": true,
    "n": 3,
    "lat": null,
@@ -362,61 +359,33 @@
    "place": "",
    "place_en": "",
    "id": 8,
-   "t_en": "Microsoft says it \"restored service\" after major worldwide outage",
-   "x_en": "A Microsoft outage involving services like Outlook and Teams impacted many users, companies and government services."
+   "t_en": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+   "x_en": "SpaceX has performed the historic catch using mechanical arms nicknamed \"chopsticks\"."
   },
   {
-   "t": "SpaceX’s Starship captured by launchpad arms in dramatic first",
-   "x": "SpaceX officials say catch by mechanical arms shows Starship's full reusability, crucial for rapid, low-cost recycling.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 71,
-   "ten": 42,
-   "ago": 179,
+   "t": "Иран заявил об атаке на военную авиабазу США в Бахрейне",
+   "x": "Иранские военные подтвердили в воскресенье нападение на военную базу США в Бахрейне, второе нападение на эту ближневосточную страну за три дня. Военные Бахрейна заявили, что перехватили несколько иранских атак, что подтвердило министерство иностранных дел",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 91,
+   "ago": 13,
    "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "The Hindu",
-    "Reuters",
-    "AP"
+    "France 24",
+    "The Guardian"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/8d43d90555e696b8b0c519ba0b4fd459453f0aab/304_0_3038_2430/master/3038.jpg?width=700&quality=85&auto=format&fit=max&s=3f4fcffd1a8ba8409afd12b189054ca8",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 5,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 9,
-   "t_en": "SpaceX’s Starship captured by launchpad arms in dramatic first",
-   "x_en": "SpaceX officials say catch by mechanical arms shows Starship's full reusability, crucial for rapid, low-cost recycling."
-  },
-  {
-   "t": "Jensen Huang resigns as Nvidia chief after alleged second affair",
-   "x": "Elon Musk said on Saturday that chipmaker Nvidia would lose “critical” deals without its now-ousted chief executive officer (CEO) Jensen Huang. Huang stepped down on Thursday after revelations of extramarital affairs, including one involving a suspected Chines",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "Dawn"
-   ],
-   "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/jensen-huang-resigns-as-nvidia-chief-after-alleged-second-affair",
-   "img": "https://i.dawn.com/large/2026/11/142227255caddca.webp",
-   "img_src": "Dawn",
+   "u": "https://www.france24.com/en/middle-east/20261115-iran-claims-attack-on-us-military-airbase-in-bahrain",
+   "img": "https://s.france24.com/media/display/3bb0cb5a-e0d8-11f1-a866-3f371022a770/w:1024/p:16x9/000-99GY7E6-1.jpg",
+   "img_src": "France 24",
    "fresh": true,
    "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 10,
-   "t_en": "Jensen Huang resigns as Nvidia chief after alleged second affair",
-   "x_en": "Elon Musk said on Saturday that chipmaker Nvidia would lose “critical” deals without its now-ousted chief executive officer (CEO) Jensen Huang. Huang stepped down on Thursday after revelations of extramarital affairs, including one involving a suspected Chines"
+   "lat": 32.15,
+   "lon": 53.43,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 9,
+   "t_en": "Iran claims attack on US military airbase in Bahrain",
+   "x_en": "Iranian military confirmed on Sunday an attack on a US military base in Bahrain, in its second targeting the Middle Eastern country in the space of three days. Bahrain's military said it had intercepted several Iranian attacks, with the foreign ministry confir"
   },
   {
    "t": "Бессент расстроен тем, что Лютник не запретил экспорт чипов Nvidia фирме, связанной с Китаем",
@@ -439,219 +408,188 @@
    "lon": 103.52,
    "place": "Китай",
    "place_en": "China",
-   "id": 11,
+   "id": 10,
    "t_en": "Bessent upset Lutnick didn't ban Nvidia chip exports to China-linked firm",
    "x_en": "Treasury Secretary Scott Bessent is blaming Commerce Secretary Howard Lutnick for allowing Megaspeed, the firm once led by alleged Chinese spy Alice Huang, to circumvent U.S. restrictions by funneling Nvidia chips to China, CBS News has learned. Megaspeed deni"
   },
   {
-   "t": "Может ли быть «незападным» человеком стоить вам дома в Дании?",
-   "x": "Верховный суд Дании должен вынести решение о том, могут ли семьи быть вынуждены покинуть свои дома в соответствии с законом.",
-   "r": "Мир",
-   "c": "Политика",
+   "t": "Папа Лев XIV продолжает поездку по Южной Америке, а органы здравоохранения следят за ситуацией",
+   "x": "Огромные толпы людей, пришедшие увидеть 71-летнего понтифика, вызвали усиление опасений среди органов здравоохранения в Латинской Америке, где в этом году произошел всплеск случаев заболевания корью.",
+   "r": "Америка",
+   "c": "Общее",
    "imp": 68,
    "ten": 40,
-   "ago": 1,
+   "ago": 4,
    "s": [
-    "Al Jazeera",
-    "CNN"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/14/adlern-can_non-westren_cost_home_denmark-141126?traffic_source=rss",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 3,
-   "lat": 55.16,
-   "lon": 10.69,
-   "place": "Дания",
-   "place_en": "Denmark",
-   "id": 12,
-   "t_en": "Can being ‘non-Western’ cost you your home in Denmark?",
-   "x_en": "Denmark’s Supreme Court is set to rule on whether families can be forced from their homes under a law."
-  },
-  {
-   "t": "Смотрите: Круизный лайнер перевернулся после столкновения с танкером в Новом Орлеане",
-   "x": "Около 130 человек были спасены с круизного лайнера после того, как он был сбит танкером во время стоянки в Новом Орлеане, штат Луизиана, в пятницу.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 68,
-   "ten": 35,
-   "ago": 207,
-   "s": [
-    "BBC",
-    "France 24",
-    "CNBC",
     "Euronews",
-    "The Hindu",
-    "Reuters",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3089/live/3bf0cfe0-e027-11f1-a701-fddedf244c16.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 8,
-   "lat": 39.83,
-   "lon": -99.09,
-   "place": "США",
-   "place_en": "United States",
-   "id": 13,
-   "t_en": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-   "x_en": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday."
-  },
-  {
-   "t": "U.S. air travel should recover from ground stop by end of November 15, FAA says",
-   "x": "New technology being added to the nation's air traffic control system overloaded antiquated equipment and caused “intermittent” communications and radar gaps, leading to the flight shutdown of more than four hours, Trump administration officials said",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 65,
-   "ten": 36,
-   "ago": 17,
-   "s": [
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.thehindu.com/news/international/us-air-travel-should-recover-from-ground-stop-by-end-of-november-15-faa-says/article71703985.ece",
-   "img": "https://th-i.thgim.com/public/incoming/aobtxp/article71703998.ece/alternates/LANDSCAPE_1200/2026-11-14T154335Z_775010430_RC2ONOAU1BYX_RTRMADP_3_USA-FAA-GROUND-STOP.JPG",
-   "img_src": "The Hindu",
+   "u": "https://www.euronews.com/2026/11/14/pope-leo-xiv-continues-trip-through-south-america-as-health-authorities-keep-watch",
+   "img": "https://images.euronews.com/articles/stories/09/99/25/01/696x392_cmsv2_d46c7d6d-c033-5e59-89c6-1199d766ec3a-9992501.jpg",
+   "img_src": "Euronews",
    "fresh": true,
    "n": 2,
-   "lat": 38.72,
-   "lon": -97.77,
+   "lat": 40.01,
+   "lon": -99.64,
    "place": "США",
    "place_en": "United States",
-   "id": 14,
-   "t_en": "U.S. air travel should recover from ground stop by end of November 15, FAA says",
-   "x_en": "New technology being added to the nation's air traffic control system overloaded antiquated equipment and caused “intermittent” communications and radar gaps, leading to the flight shutdown of more than four hours, Trump administration officials said"
+   "id": 11,
+   "t_en": "Pope Leo XIV continues trip through South America as health authorities keep watch",
+   "x_en": "The huge crowds turning out to see the 71-year-old pontiff have prompted heightened fears among health authorities in Latin America, which has seen a surge in measles cases this year."
   },
   {
-   "t": "US flight chaos caused by repair of old copper wiring: Trump admin",
-   "x": "Weary travellers endured more flight disruptions as service resumed at US airports after an hours-long total stoppage, with officials saying the situation should return to normal on Sunday. The Trump administration blamed the mess that began Friday on a botche",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 65,
-   "ten": 40,
-   "ago": 21,
-   "s": [
-    "Dawn",
-    "Japan Times"
-   ],
-   "u": "https://www.dawn.com/news/2044632/us-flight-chaos-caused-by-repair-of-old-copper-wiring-trump-admin",
-   "img": "https://i.dawn.com/large/2026/11/15073826c8aa6f6.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.09,
-   "lon": -98.18,
-   "place": "США",
-   "place_en": "United States",
-   "id": 15,
-   "t_en": "US flight chaos caused by repair of old copper wiring: Trump admin",
-   "x_en": "Weary travellers endured more flight disruptions as service resumed at US airports after an hours-long total stoppage, with officials saying the situation should return to normal on Sunday. The Trump administration blamed the mess that began Friday on a botche"
-  },
-  {
-   "t": "More than 100,000 rally across France in new Yellow Vest protests",
-   "x": "Protesters chant against declining affordability, the Macron government, police violence, and poor school conditions.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 54,
-   "ago": 138,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "Times of India"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/a840c416-e072-11f1-b800-f71d22e7fea9/w:1024/p:16x9/2026-11-14T161721Z-1217346689-RC2SNOASVFNM-RTRMADP-3-FRANCE-PROTEST.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 45.84,
-   "lon": 3.13,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 16,
-   "t_en": "More than 100,000 rally across France in new Yellow Vest protests",
-   "x_en": "Protesters chant against declining affordability, the Macron government, police violence, and poor school conditions."
-  },
-  {
-   "t": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
-   "x": "In Santa Cruz de Succhabamba, the pope told people not to respond to injustice with brutality.",
-   "r": "Америка",
+   "t": "Коалиция под руководством Саудовской Аравии перехватила предполагаемые ракеты и беспилотники хуситов",
+   "x": "Боевые действия обостряются в йеменских Марибе и Аль-Джауфе, поскольку агентство ООН сообщает, что с августа более 340 000 йеменцев были перемещены.",
+   "r": "Ближний Восток",
    "c": "Экономика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 146,
+   "imp": 67,
+   "ten": 91,
+   "ago": 181,
    "s": [
     "Al Jazeera",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_b8ffccb8ddb63afaa45cdd0bfd69cea8_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": -8.86,
-   "lon": -76.19,
-   "place": "Перу",
-   "place_en": "Peru",
-   "id": 17,
-   "t_en": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
-   "x_en": "In Santa Cruz de Succhabamba, the pope told people not to respond to injustice with brutality."
-  },
-  {
-   "t": "Трамп, Си Цзиньпин и Путин проведут беспрецедентную встречу, заявил Белый дом",
-   "x": "Лидеры США, Китая и России проведут беспрецедентную встречу на полях крупного экономического саммита, сообщил Белый дом.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 53,
-   "ago": 410,
-   "s": [
-    "Sky News",
-    "CNA",
-    "Kyiv Independent",
-    "Dawn",
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-donald-trump-xi-jinping_7406284.jpg?20261114085215",
-   "img_src": "Sky News",
+   "u": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
+   "img": "https://th-i.thgim.com/public/incoming/dicf6a/article71704346.ece/alternates/LANDSCAPE_1200/2026-09-19T111356Z_210063619_RC28MNAXZ2HR_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN.JPG",
+   "img_src": "The Hindu",
    "fresh": false,
-   "n": 6,
-   "lat": 38.79,
-   "lon": -76.94,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 18,
-   "t_en": "Trump, Xi and Putin to hold unprecedented meeting, White House says",
-   "x_en": "The leaders of the US, China and Russia will hold an unprecedented meeting on the sidelines of a major economic summit, the White House has said."
+   "n": 3,
+   "lat": 15.13,
+   "lon": 44.33,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 12,
+   "t_en": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+   "x_en": "Fighting escalates in Yemen's Marib and al-Jawf, as UN agency says more than 340,000 Yemenis displaced since August."
   },
   {
-   "t": "Кризис Nvidia обнажил недостатки основателей рок-звезд",
-   "x": "",
+   "t": "Нетаньяху обратился к Айзенкоту с призывом создать правительство единства",
+   "x": "Биньямин Нетаньяху обратился к лидеру оппозиции Гади Айзенкоту с публичным призывом сформировать правительство единства.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 67,
+   "ten": 34,
+   "ago": 225,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/15/netanyahu-sends-plea-to-eisenkot-for-unity-government?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/e9d87c1e-e06a-11f1-b45a-f71d22e7fea9/w:1024/p:16x9/eb428c66bf6978a929203d6ac1afd3964fb560b1.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 31.2,
+   "lon": 34.2,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 13,
+   "t_en": "Netanyahu sends plea to Eisenkot for unity government",
+   "x_en": "Benjamin Netanyahu has issued a public plea to opposition leader Gadi Eisenkot to form a unity government."
+  },
+  {
+   "t": "Megaspeed сообщает, что Алиса Хуанг ушла в 2025 году, поскольку она начинает внутреннее расследование отчетов о своем бизнесе",
+   "x": "Сингапурская компания облачных вычислений столкнулась с повышенным вниманием после того, как появились сообщения о связи Дженсена Хуанга из Nvidia с бывшим руководителем Megaspeed Элис Хуанг.",
    "r": "Мир",
    "c": "Общее",
-   "imp": 60,
-   "ten": 57,
+   "imp": 64,
+   "ten": 40,
+   "ago": 30,
+   "s": [
+    "CNBC",
+    "Reuters"
+   ],
+   "u": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108547469-1794318020972-gettyimages-2303987004-AFP_D6ZC9G8.jpeg?v=1794318066&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 1.01,
+   "lon": 103.65,
+   "place": "Сингапур",
+   "place_en": "Singapore",
+   "id": 14,
+   "t_en": "Megaspeed says Alice Huang left in 2025 as it launches internal probe into reports about its business",
+   "x_en": "The Singapore-based cloud computing company has faced heightened scrutiny since reports linked Nvidia's Jensen Huang to former Megaspeed executive Alice Huang."
+  },
+  {
+   "t": "Саммит франкоязычных стран открывается в Камбодже на фоне разлада между Руандой и ДР Конго",
+   "x": "Демократическая Республика Конго и Руанда спорят о том, кто должен возглавить организацию франкоязычных стран.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 62,
+   "ago": 181,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Japan Times"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/15/francophone-summit-opens-in-cambodia-amid-rwanda-dr-congo-rift?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/1dfdc724-e039-11f1-b629-29048b396e03/w:1024/p:16x9/000-36JD2YF.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": -2.04,
+   "lon": 30.21,
+   "place": "Руанда",
+   "place_en": "Rwanda",
+   "id": 15,
+   "t_en": "Francophone summit opens in Cambodia amid Rwanda-DR Congo rift",
+   "x_en": "Democratic Republic of the Congo and Rwanda clash over who should lead the organisation of French-speaking nations."
+  },
+  {
+   "t": "Как у Трампа может возникнуть соблазн организовать «окончание Корейской войны»",
+   "x": "",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 66,
    "ago": 1,
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/technology/nvidia-crisis-exposes-downside-of-rockstar-founders",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F2%2F4%2F0%2F13440425-1-eng-GB%2F093516eb8fe1-2026-10-19T181225Z_1947160221_RC2H6OA4B07J_RTRMADP_3_GERMANY-POLITICS-MERZ-NVIDIA.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/spotlight/comment/how-trump-might-be-tempted-to-orchestrate-an-end-to-the-korean-war",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F9%2F3%2F9%2F13419394-1-eng-GB%2Fcf3dd237a543-illust_SXM2026110400002959-2-t.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 19,
-   "t_en": "Nvidia crisis exposes downside of rockstar founders",
+   "lat": 39.22,
+   "lon": -98.63,
+   "place": "США",
+   "place_en": "United States",
+   "id": 16,
+   "t_en": "How Trump might be tempted to orchestrate an 'end to the Korean War'",
    "x_en": ""
+  },
+  {
+   "t": "АСЕАН подтверждает взаимодействие с Мьянмой и стремится продвигать мирный план",
+   "x": "Лидеры АСЕАН продолжают оказывать давление на Мьянму, чтобы она положила конец насилию, одновременно подтверждая участие в рамках мирного плана блока из пяти пунктов, говорит Фердинанд Маркос-младший.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 18,
+   "ago": 123,
+   "s": [
+    "CNA",
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.channelnewsasia.com/asia/asean-reaffirms-engagement-myanmar-seeks-advance-peace-plan-6552716",
+   "img": "https://dam.mediacorp.sg/image/upload/s--sqB-4JgT--/c_crop,h_1125,w_2000,x_0,y_103/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/15/2026-11-15t014809z_798909546_rc20ooa8m7uy_rtrmadp_3_asean-summit.jpg?itok=2yoqhNYV",
+   "img_src": "CNA",
+   "fresh": false,
+   "n": 3,
+   "lat": 21.06,
+   "lon": 95.6,
+   "place": "Мьянма",
+   "place_en": "Myanmar",
+   "id": 17,
+   "t_en": "ASEAN reaffirms engagement with Myanmar, seeks to advance peace plan",
+   "x_en": "ASEAN leaders keep pressure on Myanmar to end violence, while reaffirming engagement under the bloc’s five-point peace plan, Ferdinand Marcos Jr says."
   },
   {
    "t": "Угроза понижения рейтинга MSCI обнажает проблему покровительства Индонезии",
@@ -673,7 +611,7 @@
    "lon": 118.39,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 20,
+   "id": 18,
    "t_en": "MSCI downgrade threat exposes Indonesia's patronage problem",
    "x_en": ""
   },
@@ -697,7 +635,7 @@
    "lon": -97.57,
    "place": "США",
    "place_en": "United States",
-   "id": 21,
+   "id": 19,
    "t_en": "US wants Japan to nearly triple budget for hosting American troops",
    "x_en": ""
   },
@@ -721,60 +659,234 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 22,
+   "id": 20,
    "t_en": "Uranium price hits record as AI demand prompts nuclear comeback",
    "x_en": ""
   },
   {
-   "t": "Tens of thousands march in latest Portugal housing protests",
-   "x": "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago.",
-   "r": "Мир",
-   "c": "Экономика",
+   "t": "Йеменские войска выводятся из Баб-эль-Мандеба, поскольку хуситы укрепляют плацдарм",
+   "x": "Важным событием стало то, что поддерживаемые Саудовской Аравией йеменские силы объявили о своем выводе войск из критического района Баб-эль-Мандеб, уступив контроль хуситам. Этот маневр направлен на усиление безопасности в Адене и прилегающих районах. С нарастанием активности хуситов",
+   "r": "Ближний Восток",
+   "c": "Политика",
    "imp": 60,
-   "ten": 48,
-   "ago": 68,
+   "ten": 40,
+   "ago": 62,
    "s": [
-    "Al Jazeera",
-    "AP"
+    "Times of India",
+    "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8a8f765ab-1794681079.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
+   "u": "https://timesofindia.indiatimes.com/world/middle-east/addressing-existing-threats-yemeni-forces-withdraw-from-bab-el-mandeb-as-houthis-cement-foothold/articleshow/135852506.cms",
+   "img": "https://static.toiimg.com/photo/msid-135852579,imgsize-1922593.cms",
+   "img_src": "Times of India",
    "fresh": false,
    "n": 2,
-   "lat": 39.3,
-   "lon": -6.63,
-   "place": "Португалия",
-   "place_en": "Portugal",
-   "id": 23,
-   "t_en": "Tens of thousands march in latest Portugal housing protests",
-   "x_en": "These were the biggest protests against rising housing costs in Portugal since the social movement began weeks ago."
+   "lat": 20.29,
+   "lon": 38.65,
+   "place": "Красное море",
+   "place_en": "Red Sea",
+   "id": 21,
+   "t_en": "Yemeni forces withdraw from Bab el-Mandeb as Houthis cement foothold",
+   "x_en": "In a significant development, Saudi backed Yemeni forces have declared their withdrawal from the critical Bab el-Mandeb area, ceding control to the Houthis. This manoeuvre is aimed at bolstering security in Aden and surrounding areas. With the Houthis ramping "
   },
   {
-   "t": "US loses measles-free status after continued spread of the disease: Report",
-   "x": "The reported decision by the Americas branch of the World Health Organization comes as the US battles the highest number of measles cases it has seen in more than three decades.",
-   "r": "Америка",
+   "t": "Вспышка Эболы в Конго по-прежнему выходит из-под контроля спустя 6 месяцев после начала ответных мер",
+   "x": "Вспышка Эболы в Конго по-прежнему выходит из-под контроля спустя шесть месяцев после объявления: зарегистрировано более 11 000 случаев, почти половина из которых закончилась смертельным исходом.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 54,
+   "ago": 212,
+   "s": [
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/ebola-outbreak-remains-control-congo-6-months-response-138153553",
+   "img": "https://s.abcnews.com/images/International/wirestory_0bbf5ac7d0d5262a146f68f8143ffe7b_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": -3.19,
+   "lon": 24.85,
+   "place": "ДР Конго",
+   "place_en": "DR Congo",
+   "id": 22,
+   "t_en": "Ebola outbreak remains out of control in Congo 6 months into response",
+   "x_en": "Congo’s Ebola outbreak remains out of control six months after it was announced, with more than 11,000 cases recorded and nearly half proving fatal"
+  },
+  {
+   "t": "Споры о Sandpapergate усугубляются, поскольку бывший боулер из Австралии Чадд Сэйерс также утверждает, что «все знали»",
+   "x": "Бывший боулер Australian Test Чадд Сэйерс в воскресенье поддержал Усмана Хаваджу в его заявлениях о «Sandpapergate», что противоречит утверждениям Пэта Камминса о том, что он ничего не знал о заговоре с подделкой мяча. Сэйерс был в туре по Южной Африке, но не играл в турнире.",
+   "r": "Африка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 40,
+   "ago": 74,
+   "s": [
+    "Dawn",
+    "Reuters"
+   ],
+   "u": "https://www.dawn.com/news/2044703/sandpapergate-controversy-deepens-as-ex-australia-bowler-chadd-sayers-also-claims-everyone-knew",
+   "img": "https://i.dawn.com/large/2026/11/1513484616b64e8.webp",
+   "img_src": "Dawn",
+   "fresh": false,
+   "n": 2,
+   "lat": -24.86,
+   "lon": 134.47,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 23,
+   "t_en": "Sandpapergate controversy deepens as ex-Australia bowler Chadd Sayers also claims ‘everyone knew’",
+   "x_en": "Former Australian Test bowler Chadd Sayers backed Usman Khawaja over his “ Sandpapergate ” claims on Sunday, contradicting Pat Cummins’ denials that he knew nothing about the ball-tampering plot. Sayers was on the tour of South Africa but did not play in the t"
+  },
+  {
+   "t": "В пригороде Дамаска взорвалась бомба, погибли двое, включая ребенка",
+   "x": "Устройство разместили внутри автомобиля в пригороде сирийской столицы.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 92,
+   "ago": 323,
+   "s": [
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/bomb-rips-damascus-suburb-killing-2-including-child-138145860",
+   "img": "https://s.abcnews.com/images/International/wirestory_5d37a9bb4c4176986ff198c0766151b3_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": 33.39,
+   "lon": 36.46,
+   "place": "Дамаск",
+   "place_en": "Damascus",
+   "id": 24,
+   "t_en": "Bomb rips through Damascus suburb killing 2 including a child",
+   "x_en": "The device placed inside a car in a suburb of the Syrian capital."
+  },
+  {
+   "t": "Оперативная группа Сингапура и Индонезии по вопросам дымки должна стать платформой для всей АСЕАН: премьер-министр Вонг",
+   "x": "Он также призвал к сдержанности в отношении напряженности на границе между Таиландом и Камбоджей и заявил, что Мьянма должна продемонстрировать «конкретные действия», прежде чем полностью вернуться в региональный блок.",
+   "r": "Азия",
    "c": "Общее",
    "imp": 58,
-   "ten": 40,
-   "ago": 199,
+   "ten": 57,
+   "ago": 11,
    "s": [
-    "CNA",
+    "CNA"
+   ],
+   "u": "https://www.channelnewsasia.com/singapore/lawrence-wong-asean-summit-manila-haze-indonesia-6552421",
+   "img": "https://dam.mediacorp.sg/image/upload/s--4cxW8V80--/c_crop,h_1125,w_2000,x_0,y_149/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/15/mddi_photo_1_1.jpg?itok=pJdGI3nx",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 1,
+   "lat": 0.59,
+   "lon": 103.04,
+   "place": "Сингапур",
+   "place_en": "Singapore",
+   "id": 25,
+   "t_en": "Singapore-Indonesia haze task force should become ASEAN-wide platform: PM Wong",
+   "x_en": "He also urged restraint over Thailand-Cambodia border tensions and said Myanmar must show \"concrete actions\" before returning fully to the regional bloc."
+  },
+  {
+   "t": "Сообщается, что Украина нанесла удар по российскому военному аэродрому в Астраханской области, слышно не менее 30 взрывов",
+   "x": "По данным Telegram-канала Exilenova Plus, украинский удар был нанесен по военному аэродрому Ахтубинск, включая стоянки самолетов, склады боеприпасов и другие объекты.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 58,
+   "ten": 91,
+   "ago": 51,
+   "s": [
+    "Kyiv Independent"
+   ],
+   "u": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-military-airfield-in-astrakhan-oblast-at-least-30-explosions-heard/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/11/photo_2026-11-15-11_23_23_20261115-092931_20261115-092935.jpeg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 1,
+   "lat": 48.03,
+   "lon": 30.72,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 26,
+   "t_en": "Ukraine reportedly strikes Russian military airfield in Astrakhan Oblast, at least 30 explosions heard",
+   "x_en": "According to the Telegram channel Exilenova Plus, the Ukrainian strike targeted the Akhtubinsk military airfield, including its aircraft parking areas, ammunition depots, and other facilities."
+  },
+  {
+   "t": "Атаки дронов на электростанции погрузили города Судана во тьму",
+   "x": "Суданские электростанции подвергаются волнам атак беспилотников, что приводит к отключениям электроэнергии.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 58,
+   "ten": 95,
+   "ago": 56,
+   "s": [
+    "Al Jazeera"
+   ],
+   "u": "https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261028__D4NZ2G3__v1__HighRes__SudanConflict-1794722729.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 15.91,
+   "lon": 30.03,
+   "place": "Судан",
+   "place_en": "Sudan",
+   "id": 27,
+   "t_en": "Drone attacks on power stations plunge Sudan’s cities into darkness",
+   "x_en": "Sudan's power stations are being targeted in waves of drone attacks, resulting in power outages."
+  },
+  {
+   "t": "Протестующие осуждают политику США после начала саммита АСЕАН в Маниле",
+   "x": "Лидеры Юго-Восточной Азии, прибывающие на Филиппины на саммит АСЕАН, были встречены протестами.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 58,
+   "ten": 32,
+   "ago": 66,
+   "s": [
+    "Al Jazeera",
+    "CNA"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/15/protesters-condemn-us-policies-as-asean-summit-begins-in-manila?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--fd6llP8H--/c_crop,h_900,w_1600,x_0,y_127/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/08/mddi_photo_01.jpeg?itok=6x2dk_5H",
+   "img_src": "CNA",
+   "fresh": false,
+   "n": 2,
+   "lat": 14.59,
+   "lon": 120.88,
+   "place": "Манила",
+   "place_en": "Manila",
+   "id": 28,
+   "t_en": "Protesters condemn US policies as ASEAN summit begins in Manila",
+   "x_en": "Southeast Asian leaders arriving in the Philippines for the ASEAN summit have been met with protests."
+  },
+  {
+   "t": "Starship SpaceX совершил первый в истории полет после возвращения с орбиты",
+   "x": "Космический корабль SpaceX Starship успешно вернулся на Землю в субботу, завершив свой первый захват в воздухе гигантскими роботами-манипуляторами в Техасе после прерванной попытки восстановления.",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 58,
+   "ten": 43,
+   "ago": 211,
+   "s": [
+    "France 24",
     "The Hindu",
     "Japan Times"
    ],
-   "u": "https://www.channelnewsasia.com/world/us-lose-measles-free-status-disease-transmission-6550971",
-   "img": "https://dam.mediacorp.sg/image/upload/s--Q4hC8W2X--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-14T005522Z_2_LYNXNPEMAD01N_RTROPTP_3_HEALTH-MEASLES-USA-ELIMINATION.JPG?itok=P_2d4ksx",
-   "img_src": "CNA",
+   "u": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+   "img": "https://s.france24.com/media/display/db6b6746-e073-11f1-8695-695cb59fade5/w:1024/p:16x9/000-D7H72W2.jpg",
+   "img_src": "France 24",
    "fresh": false,
    "n": 3,
-   "lat": 39.89,
-   "lon": -98.58,
-   "place": "США",
-   "place_en": "United States",
-   "id": 24,
-   "t_en": "US loses measles-free status after continued spread of the disease: Report",
-   "x_en": "The reported decision by the Americas branch of the World Health Organization comes as the US battles the highest number of measles cases it has seen in more than three decades."
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 29,
+   "t_en": "SpaceX's Starship completes first-ever mid-air catch after return from orbit",
+   "x_en": "SpaceX's Starship spacecraft made a successful return to Earth on Saturday, completing its first mid-air catch by giant robot arms in Texas, after an aborted recovery attempt."
   },
   {
    "t": "Реселлер «Использовано в Японии» дебютирует в США в Сохо в Нью-Йорке",
@@ -796,7 +908,7 @@
    "lon": -74.11,
    "place": "Нью-Йорк",
    "place_en": "New York",
-   "id": 25,
+   "id": 30,
    "t_en": "'Used in Japan' reseller to make US debut in New York's SoHo",
    "x_en": ""
   },
@@ -820,7 +932,7 @@
    "lon": 56.26,
    "place": "Ормузский пролив",
    "place_en": "Strait of Hormuz",
-   "id": 26,
+   "id": 31,
    "t_en": "Japan oil companies keep profits growing despite Hormuz closure",
    "x_en": ""
   },
@@ -844,7 +956,7 @@
    "lon": 132.95,
    "place": "Австралия",
    "place_en": "Australia",
-   "id": 27,
+   "id": 32,
    "t_en": "Australia miner Tivan teams with Sumitomo on tungsten, other key minerals",
    "x_en": ""
   },
@@ -868,7 +980,7 @@
    "lon": 99.88,
    "place": "Таиланд",
    "place_en": "Thailand",
-   "id": 28,
+   "id": 33,
    "t_en": "Thai developer WHA plans efficient data center parks ahead of new rules",
    "x_en": ""
   },
@@ -892,7 +1004,7 @@
    "lon": 139.07,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 29,
+   "id": 34,
    "t_en": "Pfizer offshoot Zoetis lines up 'potential blockbuster' pet meds for Japan",
    "x_en": ""
   },
@@ -916,7 +1028,7 @@
    "lon": 84.79,
    "place": "Непал",
    "place_en": "Nepal",
-   "id": 30,
+   "id": 35,
    "t_en": "Buffer or crutch? Nepal clings to 'least developed country' perks",
    "x_en": ""
   },
@@ -932,15 +1044,15 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/spotlight/society/crime/meta-chat-app-line-help-taiwan-combat-online-fraud",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F0%2F6%2F0%2F13440602-2-eng-GB%2F9a35b2428205-2026-09-22T054715Z_1276623788_RC23ONABW44T_RTRMADP_3_USA-CHINA-TAIWAN.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
    "lat": 24.75,
    "lon": 120.56,
    "place": "Тайвань",
    "place_en": "Taiwan",
-   "id": 31,
+   "id": 36,
    "t_en": "Meta, chat app Line help Taiwan combat online fraud",
    "x_en": ""
   },
@@ -964,7 +1076,7 @@
    "lon": 137.08,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 32,
+   "id": 37,
    "t_en": "Roblox uses Japan playbook to grow in Asia-Pacific gaming market",
    "x_en": ""
   },
@@ -988,7 +1100,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 33,
+   "id": 38,
    "t_en": "Nvidia's Jensen problem set to become one for AI supply chain",
    "x_en": ""
   },
@@ -1012,12 +1124,12 @@
    "lon": 106.16,
    "place": "Вьетнам",
    "place_en": "Vietnam",
-   "id": 34,
+   "id": 39,
    "t_en": "Vietnam pushes for homegrown chips in semiconductor drive",
    "x_en": ""
   },
   {
-   "t": "Through the Lens: China’s Singles Day shopping festival",
+   "t": "Сквозь объектив: китайский торговый фестиваль в честь Дня холостяков",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1036,136 +1148,12 @@
    "lon": 102.93,
    "place": "Китай",
    "place_en": "China",
-   "id": 35,
-   "t_en": "Through the Lens: China’s Singles Day shopping festival",
-   "x_en": ""
-  },
-  {
-   "t": "TSMC seeks to back next chip titan with new investment arm",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/editor-s-picks/interview/tsmc-seeks-to-back-next-chip-titan-with-new-investment-arm",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 36,
-   "t_en": "TSMC seeks to back next chip titan with new investment arm",
-   "x_en": ""
-  },
-  {
-   "t": "Nvidia case puts Singapore, Malaysia companies in spotlight",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/technology/nvidia-case-puts-singapore-malaysia-companies-in-spotlight",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 2.15,
-   "lon": 103.94,
-   "place": "Сингапур",
-   "place_en": "Singapore",
-   "id": 37,
-   "t_en": "Nvidia case puts Singapore, Malaysia companies in spotlight",
-   "x_en": ""
-  },
-  {
-   "t": "Chinese shares lead Asia chip rally amid Jensen Huang turmoil",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/equities/chinese-shares-lead-asia-chip-rally-amid-jensen-huang-turmoil",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.91,
-   "lon": 102.86,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 38,
-   "t_en": "Chinese shares lead Asia chip rally amid Jensen Huang turmoil",
-   "x_en": ""
-  },
-  {
-   "t": "Toyota rewires China supply chain to fight back in EV race",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/toyota-rewires-china-supply-chain-to-fight-back-in-ev-race",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 34.51,
-   "lon": 102.87,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 39,
-   "t_en": "Toyota rewires China supply chain to fight back in EV race",
-   "x_en": ""
-  },
-  {
-   "t": "Sam Rainsy urges Japan to be 'realistic' on Cambodia-China ties",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/sam-rainsy-urges-japan-to-be-realistic-on-cambodia-china-ties",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 37.58,
-   "lon": 138.63,
-   "place": "Япония",
-   "place_en": "Japan",
    "id": 40,
-   "t_en": "Sam Rainsy urges Japan to be 'realistic' on Cambodia-China ties",
+   "t_en": "Through the Lens: China’s Singles Day shopping festival",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794622480767,
-   "v": 47
-  },
   {
    "t": 1794646819760,
    "v": 46
@@ -1185,139 +1173,143 @@
   {
    "t": 1794712408521,
    "v": 47
+  },
+  {
+   "t": 1794740135708,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1794626008521,
-   "v": 48,
-   "n": 20
-  },
-  {
-   "t": 1794629608521,
-   "v": 43,
-   "n": 22
-  },
-  {
-   "t": 1794633208521,
-   "v": 41,
-   "n": 27
-  },
-  {
-   "t": 1794636808521,
-   "v": 44,
+   "t": 1794653735708,
+   "v": 49,
    "n": 33
   },
   {
-   "t": 1794640408521,
-   "v": 44,
-   "n": 33
+   "t": 1794657335708,
+   "v": 49,
+   "n": 38
   },
   {
-   "t": 1794644008521,
-   "v": 47,
+   "t": 1794660935708,
+   "v": 50,
+   "n": 34
+  },
+  {
+   "t": 1794664535708,
+   "v": 44,
+   "n": 34
+  },
+  {
+   "t": 1794668135708,
+   "v": 45,
+   "n": 28
+  },
+  {
+   "t": 1794671735708,
+   "v": 45,
    "n": 36
   },
   {
-   "t": 1794647608521,
-   "v": 44,
-   "n": 38
-  },
-  {
-   "t": 1794651208521,
-   "v": 45,
-   "n": 42
-  },
-  {
-   "t": 1794654808521,
+   "t": 1794675335708,
    "v": 46,
-   "n": 45
+   "n": 34
   },
   {
-   "t": 1794658408521,
+   "t": 1794678935708,
    "v": 48,
-   "n": 47
+   "n": 40
   },
   {
-   "t": 1794662008521,
-   "v": 49,
-   "n": 43
+   "t": 1794682535708,
+   "v": 52,
+   "n": 28
   },
   {
-   "t": 1794665608521,
-   "v": 45,
-   "n": 42
+   "t": 1794686135708,
+   "v": 50,
+   "n": 28
   },
   {
-   "t": 1794669208521,
+   "t": 1794689735708,
    "v": 46,
+   "n": 22
+  },
+  {
+   "t": 1794693335708,
+   "v": 44,
+   "n": 25
+  },
+  {
+   "t": 1794696935708,
+   "v": 43,
    "n": 38
   },
   {
-   "t": 1794672808521,
-   "v": 43,
+   "t": 1794700535708,
+   "v": 44,
+   "n": 40
+  },
+  {
+   "t": 1794704135708,
+   "v": 42,
+   "n": 42
+  },
+  {
+   "t": 1794707735708,
+   "v": 46,
    "n": 46
   },
   {
-   "t": 1794676408521,
+   "t": 1794711335708,
    "v": 45,
-   "n": 52
+   "n": 60
   },
   {
-   "t": 1794680008521,
-   "v": 46,
-   "n": 58
+   "t": 1794714935708,
+   "v": 47,
+   "n": 72
   },
   {
-   "t": 1794683608521,
-   "v": 49,
-   "n": 56
-  },
-  {
-   "t": 1794687208521,
-   "v": 48,
-   "n": 53
-  },
-  {
-   "t": 1794690808521,
-   "v": 46,
-   "n": 59
-  },
-  {
-   "t": 1794694408521,
-   "v": 44,
+   "t": 1794718535708,
+   "v": 47,
    "n": 70
   },
   {
-   "t": 1794698008521,
-   "v": 44,
-   "n": 95
+   "t": 1794722135708,
+   "v": 47,
+   "n": 76
   },
   {
-   "t": 1794701608521,
-   "v": 44,
-   "n": 90
-  },
-  {
-   "t": 1794705208521,
-   "v": 44,
-   "n": 83
-  },
-  {
-   "t": 1794708808521,
-   "v": 44,
-   "n": 99
-  },
-  {
-   "t": 1794712408521,
-   "v": 43,
+   "t": 1794725735708,
+   "v": 47,
    "n": 79
+  },
+  {
+   "t": 1794729335708,
+   "v": 46,
+   "n": 89
+  },
+  {
+   "t": 1794732935708,
+   "v": 49,
+   "n": 103
+  },
+  {
+   "t": 1794736535708,
+   "v": 46,
+   "n": 132
+  },
+  {
+   "t": 1794740135708,
+   "v": 46,
+   "n": 100
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 19
+   "items": 20
   },
   {
    "n": "Al Jazeera",
@@ -1325,7 +1317,7 @@
   },
   {
    "n": "DW",
-   "items": 13
+   "items": 11
   },
   {
    "n": "France 24",
@@ -1333,43 +1325,43 @@
   },
   {
    "n": "The Guardian",
-   "items": 24
-  },
-  {
-   "n": "Sky News",
-   "items": 6
-  },
-  {
-   "n": "NPR",
-   "items": 2
-  },
-  {
-   "n": "UN News",
-   "items": 1
-  },
-  {
-   "n": "CNBC",
    "items": 25
   },
   {
+   "n": "Sky News",
+   "items": 5
+  },
+  {
+   "n": "NPR",
+   "items": 1
+  },
+  {
+   "n": "UN News",
+   "items": 0
+  },
+  {
+   "n": "CNBC",
+   "items": 23
+  },
+  {
    "n": "Euronews",
-   "items": 18
+   "items": 15
   },
   {
    "n": "NYT",
-   "items": 24
+   "items": 22
   },
   {
    "n": "Washington Post",
-   "items": 9
+   "items": 5
   },
   {
    "n": "CBS News",
-   "items": 17
+   "items": 11
   },
   {
    "n": "ABC News",
-   "items": 15
+   "items": 20
   },
   {
    "n": "CNN",
@@ -1381,11 +1373,11 @@
   },
   {
    "n": "ABC Australia",
-   "items": 18
+   "items": 19
   },
   {
    "n": "CNA",
-   "items": 18
+   "items": 20
   },
   {
    "n": "Times of Israel",
@@ -1401,11 +1393,11 @@
   },
   {
    "n": "Africanews",
-   "items": 12
+   "items": 8
   },
   {
    "n": "Kyiv Independent",
-   "items": 14
+   "items": 15
   },
   {
    "n": "Yonhap",
@@ -1417,11 +1409,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 3
+   "items": 0
   },
   {
    "n": "Dawn",
-   "items": 28
+   "items": 29
   },
   {
    "n": "Times of India",
@@ -1433,7 +1425,7 @@
   },
   {
    "n": "Politico EU",
-   "items": 10
+   "items": 8
   },
   {
    "n": "Japan Times",
@@ -1449,8 +1441,10 @@
   }
  ],
  "failed": [
+  "UN News",
   "Times of Israel",
   "Middle East Eye",
-  "Arab News"
+  "Arab News",
+  "The Diplomat"
  ]
 }

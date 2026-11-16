@@ -1,54 +1,50 @@
 {
- "updated": 1794793781249,
+ "updated": 1794818337866,
  "demo": false,
- "total_articles": 537,
- "second_delta": -1,
+ "total_articles": 554,
+ "second_delta": 2,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Al Jazeera",
-   "v": 50
-  },
-  {
-   "n": "DW",
-   "v": 38
-  },
-  {
-   "n": "France 24",
-   "v": 52
-  },
-  {
-   "n": "The Guardian",
-   "v": 57
-  },
-  {
-   "n": "Sky News",
-   "v": 53
-  },
-  {
-   "n": "NPR",
-   "v": 49
-  },
-  {
-   "n": "UN News",
    "v": 48
   },
   {
+   "n": "DW",
+   "v": 40
+  },
+  {
+   "n": "France 24",
+   "v": 50
+  },
+  {
+   "n": "The Guardian",
+   "v": 58
+  },
+  {
+   "n": "Sky News",
+   "v": 58
+  },
+  {
+   "n": "NPR",
+   "v": 28
+  },
+  {
    "n": "CNBC",
-   "v": 46
+   "v": 50
   },
   {
    "n": "Euronews",
-   "v": 42
+   "v": 43
   },
   {
    "n": "NYT",
-   "v": 53
+   "v": 47
   },
   {
    "n": "Washington Post",
@@ -56,11 +52,11 @@
   },
   {
    "n": "CBS News",
-   "v": 46
+   "v": 48
   },
   {
    "n": "ABC News",
-   "v": 55
+   "v": 52
   },
   {
    "n": "CNN",
@@ -68,51 +64,55 @@
   },
   {
    "n": "Fox News",
-   "v": 69
+   "v": 72
   },
   {
    "n": "ABC Australia",
-   "v": 47
+   "v": 48
   },
   {
    "n": "CNA",
-   "v": 33
+   "v": 43
   },
   {
    "n": "Africanews",
-   "v": 49
+   "v": 51
   },
   {
    "n": "Kyiv Independent",
-   "v": 69
+   "v": 63
   },
   {
    "n": "Yonhap",
-   "v": 39
+   "v": 41
   },
   {
    "n": "Nikkei Asia",
    "v": 42
   },
   {
+   "n": "The Diplomat",
+   "v": 28
+  },
+  {
    "n": "Dawn",
-   "v": 47
+   "v": 42
   },
   {
    "n": "Times of India",
-   "v": 52
+   "v": 47
   },
   {
    "n": "The Hindu",
-   "v": 54
+   "v": 55
   },
   {
    "n": "Politico EU",
-   "v": 62
+   "v": 41
   },
   {
    "n": "Japan Times",
-   "v": 47
+   "v": 44
   },
   {
    "n": "Reuters",
@@ -120,544 +120,516 @@
   },
   {
    "n": "AP",
-   "v": 44
+   "v": 42
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 52
+   "v": 49
   },
   {
    "n": "Ближний Восток",
-   "v": 64
+   "v": 66
   },
   {
    "n": "Азия",
-   "v": 42
+   "v": 43
   },
   {
    "n": "Африка",
-   "v": 51
+   "v": 58
   },
   {
    "n": "Америка",
-   "v": 48
+   "v": 46
   }
  ],
  "events": [
   {
-   "t": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
-   "x": "Spokesman for the Southern Armed Forces says group is repositioning from Dhubab airport and areas around Bab al-Mandeb.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 92,
-   "ten": 57,
-   "ago": 7,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "Times of India",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/15/yemeni-government-forces-redeploy-from-bab-al-mandeb-to-defend-aden?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/92e0513c-e12a-11f1-8ab7-3f371022a770/w:1024/p:16x9/2026-11-15T135302Z-1473180222-RC26OOADAAUR-RTRMADP-3-IRAN-CRISIS-YEMEN-DETAINEES.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 4,
-   "lat": 16.24,
-   "lon": 48.32,
-   "place": "Йемен",
-   "place_en": "Yemen",
-   "id": 1,
-   "t_en": "Yemeni government forces redeploy from Bab al-Mandeb to defend Aden",
-   "x_en": "Spokesman for the Southern Armed Forces says group is repositioning from Dhubab airport and areas around Bab al-Mandeb."
-  },
-  {
-   "t": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "x": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+   "t": "Shophouse fire kills at least 11 in Phuket",
+   "x": "Fire engulfed buildings in Thailand’s popular tourist town of Patong, killing several people and injuring many others.",
    "r": "Азия",
-   "c": "Наука",
-   "imp": 91,
-   "ten": 40,
-   "ago": 2,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "CBS News",
-    "Dawn",
-    "The Hindu",
-    "Japan Times",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 7,
-   "lat": 34.16,
-   "lon": 103.2,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 2,
-   "t_en": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-   "x_en": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions."
-  },
-  {
-   "t": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
-   "x": "'If we don't stop this outbreak now, it would be the worst Ebola outbreak,' Africa ​CDC director says.",
-   "r": "Африка",
    "c": "Конфликты",
-   "imp": 87,
-   "ten": 55,
-   "ago": 45,
+   "imp": 90,
+   "ten": 72,
+   "ago": 42,
    "s": [
     "Al Jazeera",
-    "ABC News",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/15/africa-cdc-says-ebola-outbreak-in-dr-congo-still-not-under-control?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_0bbf5ac7d0d5262a146f68f8143ffe7b_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 4,
-   "lat": -1.95,
-   "lon": 23.16,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 3,
-   "t_en": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
-   "x_en": "'If we don't stop this outbreak now, it would be the worst Ebola outbreak,' Africa ​CDC director says."
-  },
-  {
-   "t": "Czechs rally against plan to switch funding of public media",
-   "x": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 81,
-   "ten": 48,
-   "ago": 83,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "The Guardian",
-    "ABC News",
+    "CNA",
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 6,
-   "lat": 49.38,
-   "lon": 15.99,
-   "place": "Чехия",
-   "place_en": "Czech Republic",
-   "id": 4,
-   "t_en": "Czechs rally against plan to switch funding of public media",
-   "x_en": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs."
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--U81y_m1a--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/16/hxoa4uuasaakzyl.jpg?itok=Gj4aG5Ot",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 4,
+   "lat": 14.57,
+   "lon": 101.14,
+   "place": "Таиланд",
+   "place_en": "Thailand",
+   "id": 1,
+   "t_en": "Shophouse fire kills at least 11 in Phuket",
+   "x_en": "Fire engulfed buildings in Thailand’s popular tourist town of Patong, killing several people and injuring many others."
   },
   {
-   "t": "Three men sentenced to death in Jordan over fatal church mass shooting",
-   "x": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month.",
-   "r": "Ближний Восток",
+   "t": "Canada bars Russia from Junior World Championships",
+   "x": "Canada says it will not allow Russian athletes to compete in the Junior Ice Hockey World Championships because of the war in Ukraine.",
+   "r": "Европа",
    "c": "Конфликты",
-   "imp": 79,
-   "ten": 88,
-   "ago": 167,
+   "imp": 89,
+   "ten": 46,
+   "ago": 19,
    "s": [
     "BBC",
     "Al Jazeera",
-    "NYT",
+    "Kyiv Independent",
+    "Japan Times"
+   ],
+   "u": "https://www.bbc.co.uk/sport/ice-hockey/articles/cqkgm0jgv4mdo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3f27/live/38d2f5c0-e132-11f1-a204-d95dd4dbb76b.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 4,
+   "lat": 57.59,
+   "lon": -96.01,
+   "place": "Канада",
+   "place_en": "Canada",
+   "id": 2,
+   "t_en": "Canada bars Russia from Junior World Championships",
+   "x_en": "Canada says it will not allow Russian athletes to compete in the Junior Ice Hockey World Championships because of the war in Ukraine."
+  },
+  {
+   "t": "Over 2,000 people cross over from Senegal into Spain’s Canary Islands",
+   "x": "Around 2,000 migrants have crossed into Spain’s Canary Islands from Senegal in two days.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 37,
+   "ago": 16,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Euronews",
+    "ABC News"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/16/over-2000-people-cross-over-from-senegal-into-spains-canary-islands?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/dfa79f7e-e112-11f1-89dc-695cb59fade5/w:1024/p:16x9/2026-11-12T193226Z-188193535-RC2HMOAF3FWG-RTRMADP-3-MIGRATION-EUROPE-SPAIN-CANARY-ISLANDS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 5,
+   "lat": 39.98,
+   "lon": -3.98,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 3,
+   "t_en": "Over 2,000 people cross over from Senegal into Spain’s Canary Islands",
+   "x_en": "Around 2,000 migrants have crossed into Spain’s Canary Islands from Senegal in two days."
+  },
+  {
+   "t": "Five EU nations set to announce migrant deportation centre deal with Rwanda",
+   "x": "Five EU countries on Monday are set to announce a deal to establish a migrant deportation centre in Rwanda – the first such facility outside the bloc. The move comes after the EU toughened its migration rules in late 2025.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 84,
+   "ten": 30,
+   "ago": 37,
+   "s": [
+    "France 24",
     "The Hindu",
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+   "img": "https://s.france24.com/media/display/fc6e005a-e183-11f1-946e-f71d22e7fea9/w:1024/p:16x9/9521062135528b281502a69403234cbad4e4369f.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 4,
+   "lat": 50.68,
+   "lon": 4.51,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 4,
+   "t_en": "Five EU nations set to announce migrant deportation centre deal with Rwanda",
+   "x_en": "Five EU countries on Monday are set to announce a deal to establish a migrant deportation centre in Rwanda – the first such facility outside the bloc. The move comes after the EU toughened its migration rules in late 2025."
+  },
+  {
+   "t": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+   "x": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 83,
+   "ten": 75,
+   "ago": 101,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Euronews",
+    "ABC News",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0fb0/live/ed275c50-e0dd-11f1-a701-fddedf244c16.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/083d/live/b9880d40-e15f-11f1-a6b7-c136ad7bd6e3.jpg",
    "img_src": "BBC",
    "fresh": false,
    "n": 5,
-   "lat": 30.72,
-   "lon": 36.34,
-   "place": "Иордания",
-   "place_en": "Jordan",
+   "lat": -25.36,
+   "lon": 133.67,
+   "place": "Австралия",
+   "place_en": "Australia",
    "id": 5,
-   "t_en": "Three men sentenced to death in Jordan over fatal church mass shooting",
-   "x_en": "The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month."
+   "t_en": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+   "x_en": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago."
   },
   {
-   "t": "Prince Harry salutes wounded Ukrainian veterans as 'role models' on surprise Ukraine visit",
-   "x": "Prince Harry has hailed wounded Ukrainian veterans as role models, emphasizing the need for continued support from Kyiv",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 78,
-   "ten": 51,
-   "ago": 119,
+   "t": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+   "x": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 49,
+   "ago": 1,
    "s": [
-    "ABC News",
-    "Kyiv Independent",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/prince-harry-salutes-wounded-ukrainian-veterans-role-models-138164402",
-   "img": "https://s.abcnews.com/images/International/wirestory_ea4373cfbc0aaad3d1f32895d587013a_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": 49.15,
-   "lon": 29.81,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 6,
-   "t_en": "Prince Harry salutes wounded Ukrainian veterans as 'role models' on surprise Ukraine visit",
-   "x_en": "Prince Harry has hailed wounded Ukrainian veterans as role models, emphasizing the need for continued support from Kyiv"
-  },
-  {
-   "t": "Estonia to close border crossings with Russia after attack on drone maker",
-   "x": "Eight arrests made in connection with an attempted arson, which Tallinn says was ordered by Russian intelligence.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 74,
-   "ten": 79,
-   "ago": 213,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "The Guardian",
-    "Kyiv Independent",
-    "Politico EU",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/13c60f24-e114-11f1-9b5e-29048b396e03/w:1024/p:16x9/AP25285374646326.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 7,
-   "lat": 58.71,
-   "lon": 26.75,
-   "place": "Эстония",
-   "place_en": "Estonia",
-   "id": 7,
-   "t_en": "Estonia to close border crossings with Russia after attack on drone maker",
-   "x_en": "Eight arrests made in connection with an attempted arson, which Tallinn says was ordered by Russian intelligence."
-  },
-  {
-   "t": "After a nationwide ground stop, US faces aviation infrastructure questions",
-   "x": "Trump has requested $50bn for upgrades, but Democratic lawmakers are asking for transparency before spending more.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 71,
-   "ten": 40,
-   "ago": 64,
-   "s": [
-    "Al Jazeera",
     "CNBC",
-    "AP"
+    "The Hindu",
+    "Japan Times"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/16/after-a-nationwide-ground-stop-us-faces-aviation-infrastructure-questions?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afa0cdb-1794772187.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
+   "u": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+   "img": "https://th-i.thgim.com/public/news/international/lbdo51/article71706626.ece/alternates/LANDSCAPE_1200/Trump-Putin-Xi.jpg",
+   "img_src": "The Hindu",
+   "fresh": true,
    "n": 3,
-   "lat": 39.44,
-   "lon": -99.66,
-   "place": "США",
-   "place_en": "United States",
-   "id": 8,
-   "t_en": "After a nationwide ground stop, US faces aviation infrastructure questions",
-   "x_en": "Trump has requested $50bn for upgrades, but Democratic lawmakers are asking for transparency before spending more."
+   "lat": 34.74,
+   "lon": 103.41,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 6,
+   "t_en": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+   "x_en": "The talks are expected to focus on issues including nuclear non-proliferation, the Middle East war, trade policies and, possibly, the Ukraine war."
   },
   {
    "t": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
-   "x": "Pontiff delivers forceful speech on final day in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lan",
+   "x": "Pontiff delivers forceful speech in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being",
    "r": "Америка",
    "c": "Конфликты",
-   "imp": 69,
-   "ten": 78,
-   "ago": 36,
+   "imp": 80,
+   "ten": 57,
+   "ago": 12,
    "s": [
     "The Guardian",
+    "Euronews",
     "AP"
    ],
    "u": "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
    "img": "https://i.guim.co.uk/img/media/5656d136eaed416d7dd76ab2932c283b5ce64f39/373_0_3525_2820/master/3525.jpg?width=700&quality=85&auto=format&fit=max&s=5189324eb6af5c695f5fddf60a5c6ca7",
    "img_src": "The Guardian",
    "fresh": true,
-   "n": 2,
+   "n": 3,
    "lat": -9.35,
    "lon": -73.76,
    "place": "Перу",
    "place_en": "Peru",
-   "id": 9,
+   "id": 7,
    "t_en": "‘The blood of these brothers cries out’: Pope Leo demands justice for people killed protecting the Amazon",
-   "x_en": "Pontiff delivers forceful speech on final day in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lan"
+   "x_en": "Pontiff delivers forceful speech in Peru as he travels from high in the Andes into the Amazon Pope Leo XIV has demanded justice for environmental defenders killed for protecting the Amazon and backed efforts by Indigenous peoples to stop their lands from being"
   },
   {
-   "t": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-   "x": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 69,
-   "ten": 40,
-   "ago": 78,
+   "t": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+   "x": "Estonia will close all its border crossing points with Russia from December 1, its ​foreign minister ‌said on Sunday, following a suspected ⁠sabotage attack on an Estonian defence company that Tallinn blamed on ‌Moscow.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 80,
+   "ten": 90,
+   "ago": 167,
    "s": [
-    "CNBC",
+    "France 24",
+    "The Guardian",
+    "Kyiv Independent",
     "The Hindu",
     "Japan Times"
    ],
-   "u": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-   "img": "https://th-i.thgim.com/public/incoming/lzmqrz/article71705970.ece/alternates/LANDSCAPE_1200/2026-11-11T014218Z_1139623673_RC2DLOAHZWQ0_RTRMADP_3_USA-CHINA-BESSENT.JPG",
-   "img_src": "The Hindu",
+   "u": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
+   "img": "https://s.france24.com/media/display/13c60f24-e114-11f1-9b5e-29048b396e03/w:1024/p:16x9/AP25285374646326.jpg",
+   "img_src": "France 24",
    "fresh": false,
-   "n": 3,
-   "lat": 38.88,
-   "lon": -98.22,
-   "place": "США",
-   "place_en": "United States",
-   "id": 10,
-   "t_en": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-   "x_en": "Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter."
+   "n": 5,
+   "lat": 59.34,
+   "lon": 25.52,
+   "place": "Эстония",
+   "place_en": "Estonia",
+   "id": 8,
+   "t_en": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+   "x_en": "Estonia will close all its border crossing points with Russia from December 1, its ​foreign minister ‌said on Sunday, following a suspected ⁠sabotage attack on an Estonian defence company that Tallinn blamed on ‌Moscow."
   },
   {
-   "t": "Amazon loses 40 Leo satellites as ULA's Vulcan rocket fails minutes after launch",
-   "x": "Amazon's planned launch of 40 satellites for its Leo internet network failed after the Vulcan rocket malfunctioned. The Vulcan rocket, operated by United Launch Alliance, experienced an anomaly 10 minutes after liftoff. This failure poses a setback for Amazon'",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 70,
-   "ago": 44,
-   "s": [
-    "Times of India",
-    "Reuters"
-   ],
-   "u": "https://timesofindia.indiatimes.com/world/us/suffered-an-anomaly-amazon-loses-40-leo-satellites-as-ulas-vulcan-rocket-fails-minutes-after-launch/articleshow/135869099.cms",
-   "img": "https://static.toiimg.com/photo/msid-135869155,imgsize-99214.cms",
-   "img_src": "Times of India",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 11,
-   "t_en": "Amazon loses 40 Leo satellites as ULA's Vulcan rocket fails minutes after launch",
-   "x_en": "Amazon's planned launch of 40 satellites for its Leo internet network failed after the Vulcan rocket malfunctioned. The Vulcan rocket, operated by United Launch Alliance, experienced an anomaly 10 minutes after liftoff. This failure poses a setback for Amazon'"
-  },
-  {
-   "t": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates",
-   "x": "The Dow, S&P 500 and Nasdaq posted their biggest weekly gains since August, rising more than 2% each.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 40,
-   "ago": 15,
-   "s": [
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108548216-1794329432695-Traders-Photo-20261110-KK-PRESS-006.jpg?v=1794329596&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 12,
-   "t_en": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates",
-   "x_en": "The Dow, S&P 500 and Nasdaq posted their biggest weekly gains since August, rising more than 2% each."
-  },
-  {
-   "t": "Huge waves pummel California coast, forcing closure of popular piers",
-   "x": "Large waves up to 50ft flooded southern California streets and prompted evacuation warning near coastal city The California coast was pummeled again on Sunday by huge waves that inundated beaches, flooded local streets and forced the closure of popular piers. ",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 65,
-   "ten": 61,
-   "ago": 49,
-   "s": [
-    "The Guardian",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/15/california-coast-waves-piers-closed",
-   "img": "https://i.guim.co.uk/img/media/1a1e5e3fbb5f413df3cb62b0cb50831adc5a0734/597_0_2985_2388/master/2985.jpg?width=700&quality=85&auto=format&fit=max&s=327024aa0db20c0f26d45b250f01aee3",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": 34.14,
-   "lon": -118.51,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 13,
-   "t_en": "Huge waves pummel California coast, forcing closure of popular piers",
-   "x_en": "Large waves up to 50ft flooded southern California streets and prompted evacuation warning near coastal city The California coast was pummeled again on Sunday by huge waves that inundated beaches, flooded local streets and forced the closure of popular piers. "
-  },
-  {
-   "t": "Iran war live: Tehran warns it may strike first before another US attack",
-   "x": "Yemeni army says it is 'repositioning' troops away from the Bab al-Mandeb strait and other key coastal areas.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 76,
-   "ago": 68,
+   "t": "ASEAN, China fall short of agreeing on South China Sea code",
+   "x": "Southeast Asian leaders also denounce violence in Myanmar and extend ban on country's leader attending bloc's summits.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 79,
+   "ten": 37,
+   "ago": 1,
    "s": [
     "Al Jazeera",
-    "Times of India"
+    "CNA",
+    "Nikkei Asia"
    ],
-   "u": "https://www.aljazeera.com/news/liveblog/2026/11/16/iran-war-live-tehran-warns-it-may-strike-first-before-another-us-attack?traffic_source=rss",
-   "img": "https://static.toiimg.com/photo/msid-135868885,imgsize-92336.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 2,
-   "lat": 35.7,
-   "lon": 51.68,
-   "place": "Тегеран",
-   "place_en": "Tehran",
-   "id": 14,
-   "t_en": "Iran war live: Tehran warns it may strike first before another US attack",
-   "x_en": "Yemeni army says it is 'repositioning' troops away from the Bab al-Mandeb strait and other key coastal areas."
+   "u": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--CXYJ9_MC--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/15/asean_leaders_summit_maria_theresa_lazaro-3.jpg?itok=AsBM442y",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 3,
+   "lat": 12.09,
+   "lon": 113.62,
+   "place": "Южно-Китайское море",
+   "place_en": "South China Sea",
+   "id": 9,
+   "t_en": "ASEAN, China fall short of agreeing on South China Sea code",
+   "x_en": "Southeast Asian leaders also denounce violence in Myanmar and extend ban on country's leader attending bloc's summits."
   },
   {
-   "t": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
-   "x": "Energy subsidies for households had reportedly expired in September, exposing the economy to the higher energy prices brought about by the Iran war.",
+   "t": "South Korea's top scorer in tax accountancy exam admits cheating",
+   "x": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
    "r": "Азия",
-   "c": "Экономика",
-   "imp": 64,
-   "ten": 53,
-   "ago": 47,
+   "c": "Наука",
+   "imp": 78,
+   "ten": 40,
+   "ago": 104,
    "s": [
-    "CNBC",
+    "BBC",
+    "The Guardian",
+    "CNA",
     "Reuters"
    ],
-   "u": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108551661-1794785886757-gettyimages-2288262163-Stanislav-Kogiku-1440900.jpeg?v=1794787901&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 35.62,
-   "lon": 139.15,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 15,
-   "t_en": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
-   "x_en": "Energy subsidies for households had reportedly expired in September, exposing the economy to the higher energy prices brought about by the Iran war."
-  },
-  {
-   "t": "Cape Verde heads to the polls in presidential election",
-   "x": "Incumbent President José Maria Neves, who won the 2021 presidential election, is favoured to win a second term in office.",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 40,
-   "ago": 315,
-   "s": [
-    "Euronews",
-    "ABC News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
-   "img": "https://images.euronews.com/articles/stories/09/99/30/00/696x392_cmsv2_8aabba93-2a7d-5eff-bf48-ab8adab54cf1-9993000.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
+   "img_src": "BBC",
    "fresh": false,
    "n": 4,
+   "lat": 36.88,
+   "lon": 127.88,
+   "place": "Южная Корея",
+   "place_en": "South Korea",
+   "id": 10,
+   "t_en": "South Korea's top scorer in tax accountancy exam admits cheating",
+   "x_en": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test."
+  },
+  {
+   "t": "Ethiopia and Sudan accusations of backing armed fighters as fears of conflict grow",
+   "x": "Tensions between Sudan and Ethiopia have escalated, with each country accusing the other of supporting armed groups that wage war within its borders",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 77,
+   "ten": 77,
+   "ago": 58,
+   "s": [
+    "ABC News",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/ethiopia-sudan-accuse-backing-armed-fighters-fears-wider-138170200",
+   "img": "https://s.abcnews.com/images/International/wirestory_649640494d674bfffcdc4418205b7485_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 3,
+   "lat": 9.2,
+   "lon": 39.86,
+   "place": "Эфиопия",
+   "place_en": "Ethiopia",
+   "id": 11,
+   "t_en": "Ethiopia and Sudan accusations of backing armed fighters as fears of conflict grow",
+   "x_en": "Tensions between Sudan and Ethiopia have escalated, with each country accusing the other of supporting armed groups that wage war within its borders"
+  },
+  {
+   "t": "South Africa police probe two weekend shootings that left 17 dead",
+   "x": "The ​motive for the shooting has not ⁠yet been established, and no arrests have been ‌made",
+   "r": "Африка",
+   "c": "Общее",
+   "imp": 74,
+   "ten": 88,
+   "ago": 12,
+   "s": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.thehindu.com/news/international/south-africa-police-probe-two-weekend-shootings-that-left-17-dead/article71707200.ece",
+   "img": "https://www.thehindu.com/theme/images/og-image.png",
+   "img_src": "The Hindu (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": -28.82,
+   "lon": 25.44,
+   "place": "ЮАР",
+   "place_en": "South Africa",
+   "id": 12,
+   "t_en": "South Africa police probe two weekend shootings that left 17 dead",
+   "x_en": "The ​motive for the shooting has not ⁠yet been established, and no arrests have been ‌made"
+  },
+  {
+   "t": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+   "x": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to defend the interim capital Aden.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 68,
+   "ago": 76,
+   "s": [
+    "BBC",
+    "NYT",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e0bf/live/84ae2db0-e165-11f1-9e72-69608c7a1547.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 15.27,
+   "lon": 44.15,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 13,
+   "t_en": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
+   "x_en": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to defend the interim capital Aden."
+  },
+  {
+   "t": "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East",
+   "x": "Iran's embassy in South Africa posted a \"We will find you\" threat targeting two USS Spruance officers as the destroyer returned to San Diego.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 76,
+   "ago": 30,
+   "s": [
+    "Fox News",
+    "Times of India"
+   ],
+   "u": "https://www.foxnews.com/world/iran-vows-we-find-you-2-us-navy-officers-day-warship-returns-from-middle-east",
+   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/spruance-san-diego.jpg?ve=1&tl=1",
+   "img_src": "Fox News",
+   "fresh": true,
+   "n": 2,
+   "lat": 33.25,
+   "lon": 53.35,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 14,
+   "t_en": "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East",
+   "x_en": "Iran's embassy in South Africa posted a \"We will find you\" threat targeting two USS Spruance officers as the destroyer returned to San Diego."
+  },
+  {
+   "t": "Ex-Bangladesh PM Hasina to return home despite 'threat of death'",
+   "x": "“No threat of death will keep me away from my own country,” says former Bangladesh prime minister Sheikh Hasina as she plans a December return.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 70,
+   "ten": 95,
+   "ago": 50,
+   "s": [
+    "CNA",
+    "The Hindu"
+   ],
+   "u": "https://www.channelnewsasia.com/asia/ex-bangladesh-pm-hasina-return-home-despite-death-threat-6554771",
+   "img": "https://dam.mediacorp.sg/image/upload/s--54nxaue6--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/16/000_d6vy9zr.jpg?itok=jUdpON22",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 2,
+   "lat": 22.75,
+   "lon": 89.99,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 15,
+   "t_en": "Ex-Bangladesh PM Hasina to return home despite 'threat of death'",
+   "x_en": "“No threat of death will keep me away from my own country,” says former Bangladesh prime minister Sheikh Hasina as she plans a December return."
+  },
+  {
+   "t": "Asian investors chase indirect access to Anthropic shares amid IPO fever",
+   "x": "Рейтер",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia",
+    "Reuters"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/trading-asia/asian-investors-chase-indirect-access-to-anthropic-shares-amid-ipo-fever",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F0%2F1%2F3%2F13443109-1-eng-GB%2Ffb3600ff7d53-2026-10-26T203636Z_989578273_RC28BOANVZ07_RTRMADP_3_ANTHROPIC-IPO.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 2,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
    "id": 16,
-   "t_en": "Cape Verde heads to the polls in presidential election",
-   "x_en": "Incumbent President José Maria Neves, who won the 2021 presidential election, is favoured to win a second term in office."
+   "t_en": "Asian investors chase indirect access to Anthropic shares amid IPO fever",
+   "x_en": "Reuters"
   },
   {
-   "t": "Iran claims drone attack on US military base in Bahrain",
-   "x": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September as blasts rocked the capital, Manama. It comes after Iran targeted an airbase in the US-allied island state, ending a long lull in strikes during the Middle East ",
-   "r": "Ближний Восток",
+   "t": "Вспышка Эболы в Конго по-прежнему выходит из-под контроля спустя 6 месяцев после начала ответных мер",
+   "x": "Вспышка Эболы в Конго по-прежнему выходит из-под контроля спустя шесть месяцев после объявления: зарегистрировано более 11 000 случаев, почти половина из которых закончилась смертельным исходом.",
+   "r": "Африка",
    "c": "Конфликты",
-   "imp": 63,
-   "ten": 78,
-   "ago": 466,
+   "imp": 67,
+   "ten": 60,
+   "ago": 128,
    "s": [
-    "France 24",
-    "The Guardian",
-    "NYT",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
-   "img": "https://s.france24.com/media/display/dc1d38c8-e108-11f1-8b7b-5f54d898a954/w:1024/p:16x9/EN-20261115-160212-160405-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": 31.85,
-   "lon": 54.63,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 17,
-   "t_en": "Iran claims drone attack on US military base in Bahrain",
-   "x_en": "Bahrain issued two alerts of potential threats on Sunday, its first such warnings since September as blasts rocked the capital, Manama. It comes after Iran targeted an airbase in the US-allied island state, ending a long lull in strikes during the Middle East "
-  },
-  {
-   "t": "Israel kills senior member of Hamas's military wing in Gaza strike",
-   "x": "The Israeli military said on Sunday its forces had killed a senior member of Hamas's military wing in Gaza. The militant group confirmed the death of Samir Abu Younis, the commander of its Rafah brigade, adding that he played a prominent role in planning the O",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 63,
-   "ten": 86,
-   "ago": 548,
-   "s": [
-    "France 24",
-    "Sky News",
+    "ABC News",
     "The Hindu",
-    "Politico EU"
-   ],
-   "u": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
-   "img": "https://s.france24.com/media/display/b8bd9500-e110-11f1-96bd-695cb59fade5/w:1024/p:16x9/2026-11-15T084533Z-1916440832-RC27OOA15A2T-RTRMADP-3-ISRAEL-PALESTINIANS-HAMAS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 4,
-   "lat": 31.54,
-   "lon": 34.84,
-   "place": "Газа",
-   "place_en": "Gaza",
-   "id": 18,
-   "t_en": "Israel kills senior member of Hamas's military wing in Gaza strike",
-   "x_en": "The Israeli military said on Sunday its forces had killed a senior member of Hamas's military wing in Gaza. The militant group confirmed the death of Samir Abu Younis, the commander of its Rafah brigade, adding that he played a prominent role in planning the O"
-  },
-  {
-   "t": "Riots in France: How anti-government protests spiraled out of control",
-   "x": "A movement that began in September with small protests over conditions in state schools turned into some of the worst civil unrest in years.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 62,
-   "ten": 91,
-   "ago": 22,
-   "s": [
     "Japan Times"
    ],
-   "u": "https://www.japantimes.co.jp/news/2026/11/16/world/riots-france-anti-government-protests/",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/16/thumbs/400x400/574130.jpg",
-   "img_src": "Japan Times",
-   "fresh": true,
-   "n": 1,
-   "lat": 45.74,
-   "lon": 2.48,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 19,
-   "t_en": "Riots in France: How anti-government protests spiraled out of control",
-   "x_en": "A movement that began in September with small protests over conditions in state schools turned into some of the worst civil unrest in years."
+   "u": "https://abcnews.com/International/wireStory/ebola-outbreak-remains-control-congo-6-months-response-138153553",
+   "img": "https://s.abcnews.com/images/International/wirestory_0bbf5ac7d0d5262a146f68f8143ffe7b_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": -3.19,
+   "lon": 24.85,
+   "place": "ДР Конго",
+   "place_en": "DR Congo",
+   "id": 17,
+   "t_en": "Ebola outbreak remains out of control in Congo 6 months into response",
+   "x_en": "Congo’s Ebola outbreak remains out of control six months after it was announced, with more than 11,000 cases recorded and nearly half proving fatal"
+  },
+  {
+   "t": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "x": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 67,
+   "ten": 40,
+   "ago": 232,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "The Guardian",
+    "CBS News",
+    "Times of India",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 6,
+   "lat": 34.16,
+   "lon": 103.2,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 18,
+   "t_en": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "x_en": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions."
   },
   {
    "t": "Elon Musk, Uber co-founder join calls to reinstate Jensen Huang as Nvidia chief",
    "x": "Elon Musk and an Uber co-founder were among more than 158,000 signatories by Sunday demanding Jensen Huang’s reinstatement as Nvidia chief pending an independent investigation. Huang resigned Thursday after revelations of two extramarital affairs, one with a s",
    "r": "Америка",
    "c": "Общее",
-   "imp": 62,
+   "imp": 65,
    "ten": 40,
-   "ago": 49,
+   "ago": 21,
    "s": [
     "France 24",
     "The Guardian"
@@ -671,9 +643,112 @@
    "lon": 102.82,
    "place": "Китай",
    "place_en": "China",
-   "id": 20,
+   "id": 19,
    "t_en": "Elon Musk, Uber co-founder join calls to reinstate Jensen Huang as Nvidia chief",
    "x_en": "Elon Musk and an Uber co-founder were among more than 158,000 signatories by Sunday demanding Jensen Huang’s reinstatement as Nvidia chief pending an independent investigation. Huang resigned Thursday after revelations of two extramarital affairs, one with a s"
+  },
+  {
+   "t": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+   "x": "Ahead of Apec summit, PM says ‘Canada is going to move forward either way’ when asked if Chinese investment was leverage in US negotiations The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with ",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 26,
+   "ago": 240,
+   "s": [
+    "The Guardian",
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks",
+   "img": "https://i.guim.co.uk/img/media/2e7e78e8ef011abb9ba52ca72738b8f88e4616f9/14_0_3840_3072/master/3840.jpg?width=700&quality=85&auto=format&fit=max&s=a3fc2d2190c565a2c43b9c5e5dfca7b3",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": 58.28,
+   "lon": -96.21,
+   "place": "Канада",
+   "place_en": "Canada",
+   "id": 20,
+   "t_en": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+   "x_en": "Ahead of Apec summit, PM says ‘Canada is going to move forward either way’ when asked if Chinese investment was leverage in US negotiations The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with "
+  },
+  {
+   "t": "Czechs rally against plan to switch funding of public media",
+   "x": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 50,
+   "ago": 309,
+   "s": [
+    "BBC",
+    "France 24",
+    "ABC News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 5,
+   "lat": 49.38,
+   "lon": 15.99,
+   "place": "Чехия",
+   "place_en": "Czech Republic",
+   "id": 21,
+   "t_en": "Czechs rally against plan to switch funding of public media",
+   "x_en": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs."
+  },
+  {
+   "t": "War and unrest",
+   "x": "АП Новости",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 82,
+   "ago": 12,
+   "s": [
+    "AP"
+   ],
+   "u": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94eVJmcTBnSmc5NTlBQzFob1I2a1lOS0RNWU1lbmo5UllLMUh5eFBxdEJ1Z1ltbnFHdEtjLVNEUjNZazllTTFIeUdWcDlxZw?oc=5",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 22,
+   "t_en": "War and unrest",
+   "x_en": "AP News"
+  },
+  {
+   "t": "UN ready to support any denuclearisation effort from US, China, Russia talks",
+   "x": "The UN has long advocated nuclear disarmament, warning that rising geopolitical tension and growing rivalry among major powers have fuelled global nuclear risks.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 91,
+   "ago": 20,
+   "s": [
+    "CNA"
+   ],
+   "u": "https://www.channelnewsasia.com/world/un-ready-support-denuclearisation-effort-us-china-russia-talks-6554806",
+   "img": "https://dam.mediacorp.sg/image/upload/s--mRkLhsvU--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-16T074633Z_1_LYNXNPEMAF0LL_RTROPTP_3_CLIMATE-COP31.JPG?itok=EORzR_dg",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.97,
+   "lon": -97.93,
+   "place": "США",
+   "place_en": "United States",
+   "id": 23,
+   "t_en": "UN ready to support any denuclearisation effort from US, China, Russia talks",
+   "x_en": "The UN has long advocated nuclear disarmament, warning that rising geopolitical tension and growing rivalry among major powers have fuelled global nuclear risks."
   },
   {
    "t": "Как у Трампа может возникнуть соблазн организовать «окончание Корейской войны»",
@@ -695,9 +770,35 @@
    "lon": -98.63,
    "place": "США",
    "place_en": "United States",
-   "id": 21,
+   "id": 24,
    "t_en": "How Trump might be tempted to orchestrate an 'end to the Korean War'",
    "x_en": ""
+  },
+  {
+   "t": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
+   "x": "Unlike several of its West African neighbours where presidential elections have been tense in recent years, Cape Verde is known for its political stability and good governance.",
+   "r": "Мир",
+   "c": "Политика",
+   "imp": 61,
+   "ten": 37,
+   "ago": 161,
+   "s": [
+    "Euronews",
+    "Africanews",
+    "Reuters"
+   ],
+   "u": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
+   "img": "https://images.euronews.com/articles/stories/09/99/30/52/696x392_cmsv2_fa1c0b34-ff2f-5a48-8e09-a146897deaca-9993052.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 25,
+   "t_en": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
+   "x_en": "Unlike several of its West African neighbours where presidential elections have been tense in recent years, Cape Verde is known for its political stability and good governance."
   },
   {
    "t": "Угроза понижения рейтинга MSCI обнажает проблему покровительства Индонезии",
@@ -719,7 +820,7 @@
    "lon": 118.39,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 22,
+   "id": 26,
    "t_en": "MSCI downgrade threat exposes Indonesia's patronage problem",
    "x_en": ""
   },
@@ -743,7 +844,7 @@
    "lon": -97.57,
    "place": "США",
    "place_en": "United States",
-   "id": 23,
+   "id": 27,
    "t_en": "US wants Japan to nearly triple budget for hosting American troops",
    "x_en": ""
   },
@@ -767,170 +868,72 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 24,
+   "id": 28,
    "t_en": "Uranium price hits record as AI demand prompts nuclear comeback",
    "x_en": ""
   },
   {
-   "t": "Helen Haines leaves hospital four weeks after alleged attack and double leg amputation",
-   "x": "The Alfred hospital in Melbourne confirmed on Monday the independent MP had been discharged Independent Australian MP Helen Haines has been discharged from hospital, four weeks after she was allegedly attacked by a man outside her electorate office in regional",
+   "t": "13-year-old girl's murder case: Islamabad court grants police 4-day physical remand suspects",
+   "x": "ISLAMABAD: A judicial magistrate in Islamabad granted police four-day physical remand of two suspects — a woman and a seminary teacher — arrested over the death of a 13-year-old girl, who was allegedly subjected to violence at the residence of a Federal Invest",
    "r": "Мир",
-   "c": "Конфликты",
+   "c": "Политика",
    "imp": 60,
-   "ten": 74,
-   "ago": 13,
+   "ten": 66,
+   "ago": 6,
    "s": [
-    "The Guardian"
+    "Dawn"
    ],
-   "u": "https://www.theguardian.com/australia-news/2026/nov/16/mp-helen-haines-out-of-hospital-after-attack-leg-amputation-ntwnfb",
-   "img": "https://i.guim.co.uk/img/media/e095e9628412d9e77ce67e0af0ba05d71fc9eca9/698_0_5541_4435/master/5541.jpg?width=700&quality=85&auto=format&fit=max&s=776536298ce0b0c0b48796a779d997e7",
-   "img_src": "The Guardian",
+   "u": "https://www.dawn.com/news/2044915/13-year-old-girls-murder-case-islamabad-court-grants-police-4-day-physical-remand-suspects",
+   "img": "https://i.dawn.com/large/2026/02/0610293056d2635.webp",
+   "img_src": "Dawn",
    "fresh": true,
    "n": 1,
-   "lat": -25.54,
-   "lon": 134.03,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 25,
-   "t_en": "Helen Haines leaves hospital four weeks after alleged attack and double leg amputation",
-   "x_en": "The Alfred hospital in Melbourne confirmed on Monday the independent MP had been discharged Independent Australian MP Helen Haines has been discharged from hospital, four weeks after she was allegedly attacked by a man outside her electorate office in regional"
+   "lat": 33.43,
+   "lon": 72.85,
+   "place": "Исламабад",
+   "place_en": "Islamabad",
+   "id": 29,
+   "t_en": "13-year-old girl's murder case: Islamabad court grants police 4-day physical remand suspects",
+   "x_en": "ISLAMABAD: A judicial magistrate in Islamabad granted police four-day physical remand of two suspects — a woman and a seminary teacher — arrested over the death of a 13-year-old girl, who was allegedly subjected to violence at the residence of a Federal Invest"
   },
   {
-   "t": "Founder of Guadalajara cartel dies in hospital after decades in prison",
-   "x": "Miguel Angel Felix Gallardo was convicted of the 1985 murder of a US drug enforcement agent and a Mexican pilot.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 60,
-   "ten": 40,
-   "ago": 58,
-   "s": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6afa53127f28-1794790162.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 23.35,
-   "lon": -102.15,
-   "place": "Мексика",
-   "place_en": "Mexico",
-   "id": 26,
-   "t_en": "Founder of Guadalajara cartel dies in hospital after decades in prison",
-   "x_en": "Miguel Angel Felix Gallardo was convicted of the 1985 murder of a US drug enforcement agent and a Mexican pilot."
-  },
-  {
-   "t": "Supreme Court to rule on ex-PM Han's insurrection case Thursday, day before planned release",
-   "x": "SEOUL, Nov. 16 (Yonhap) -- The Supreme Court said Monday it will rule on former ...",
+   "t": "(LEAD) (News Focus) N. Korean nuclear issue unlikely to feature prominently at Trump-Xi-Putin summit: experts",
+   "x": "MANILA, Nov. 16 (Yonhap) -- North Korea's nuclear weapons program is unlikely to...",
    "r": "Азия",
    "c": "Политика",
-   "imp": 59,
-   "ten": 40,
-   "ago": 21,
+   "imp": 60,
+   "ten": 66,
+   "ago": 10,
    "s": [
     "Yonhap"
    ],
-   "u": "https://en.yna.co.kr/view/AEN20261116002900315",
-   "img": "https://img.yna.co.kr/photo/yna/YH/2025/09/30/PYH2025093006330031500_P2.jpg",
+   "u": "https://en.yna.co.kr/view/AEN20261116008451315",
+   "img": "https://img.yna.co.kr/etc/inner/EN/2026/11/16/AEN20261116008451315_01_i_P2.jpg",
    "img_src": "Yonhap",
    "fresh": true,
    "n": 2,
-   "lat": 37.42,
-   "lon": 126.73,
-   "place": "Сеул",
-   "place_en": "Seoul",
-   "id": 27,
-   "t_en": "Supreme Court to rule on ex-PM Han's insurrection case Thursday, day before planned release",
-   "x_en": "SEOUL, Nov. 16 (Yonhap) -- The Supreme Court said Monday it will rule on former ..."
+   "lat": 40.41,
+   "lon": -99.65,
+   "place": "США",
+   "place_en": "United States",
+   "id": 30,
+   "t_en": "(LEAD) (News Focus) N. Korean nuclear issue unlikely to feature prominently at Trump-Xi-Putin summit: experts",
+   "x_en": "MANILA, Nov. 16 (Yonhap) -- North Korea's nuclear weapons program is unlikely to..."
   },
   {
-   "t": "Southeast Asian leaders denounce violence in Myanmar and extend ban on its leader",
-   "x": "Southeast Asian leaders say Myanmar has failed to comply with a 2021 peace plan and its military and armed groups continue to attack civilians",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 59,
-   "ten": 40,
-   "ago": 67,
-   "s": [
-    "ABC News",
-    "The Hindu"
-   ],
-   "u": "https://abcnews.com/International/wireStory/southeast-asian-leaders-denounce-violence-myanmar-extend-ban-138155822",
-   "img": "https://s.abcnews.com/images/International/wirestory_660b4a8df06082f79b673912b2f3e655_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 2,
-   "lat": 20.56,
-   "lon": 96.24,
-   "place": "Мьянма",
-   "place_en": "Myanmar",
-   "id": 28,
-   "t_en": "Southeast Asian leaders denounce violence in Myanmar and extend ban on its leader",
-   "x_en": "Southeast Asian leaders say Myanmar has failed to comply with a 2021 peace plan and its military and armed groups continue to attack civilians"
-  },
-  {
-   "t": "Fresh labour unrest hits Bangladesh garment sector",
-   "x": "",
-   "r": "Азия",
+   "t": "NYC landlord seeks $550K from tenant accused of harassing 3 families",
+   "x": "A Manhattan landlord has filed a $550,000 lawsuit against a 72-year-old tenant accused of harassing three families who lived in the apartment above hers. The latest family, with three children, alleged repeated threats, abusive shouting and police calls. A jud",
+   "r": "Мир",
    "c": "Общее",
-   "imp": 58,
+   "imp": 59,
    "ten": 57,
-   "ago": 14,
+   "ago": 7,
    "s": [
     "Times of India"
    ],
-   "u": "https://timesofindia.indiatimes.com/world/south-asia/fresh-labour-unrest-hits-bdesh-garment-sector/articleshow/135869416.cms",
-   "img": "https://static.toiimg.com/photo/msid-135869415,imgsize-1993035.cms",
+   "u": "https://timesofindia.indiatimes.com/world/us/a-new-york-couple-with-three-children-say-a-downstairs-neighbour-screamed-threats-and-repeatedly-called-police-a-judge-issued-a-temporary-order-as-their-landlord-sought-at-least-550000-in-a-lawsuit/articleshow/135832848.cms",
+   "img": "https://static.toiimg.com/photo/msid-135833168,imgsize-213774.cms",
    "img_src": "Times of India",
-   "fresh": true,
-   "n": 1,
-   "lat": 23.15,
-   "lon": 91.42,
-   "place": "Бангладеш",
-   "place_en": "Bangladesh",
-   "id": 29,
-   "t_en": "Fresh labour unrest hits Bangladesh garment sector",
-   "x_en": ""
-  },
-  {
-   "t": "Want Cash Out of Your Home? Here Are Your Best Options",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 30,
-   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
-   "x_en": ""
-  },
-  {
-   "t": "Dream Big with a Home Equity Loan",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "",
-   "img_src": "",
    "fresh": true,
    "n": 1,
    "lat": null,
@@ -938,107 +941,11 @@
    "place": "",
    "place_en": "",
    "id": 31,
-   "t_en": "Dream Big with a Home Equity Loan",
-   "x_en": ""
+   "t_en": "NYC landlord seeks $550K from tenant accused of harassing 3 families",
+   "x_en": "A Manhattan landlord has filed a $550,000 lawsuit against a 72-year-old tenant accused of harassing three families who lived in the apartment above hers. The latest family, with three children, alleged repeated threats, abusive shouting and police calls. A jud"
   },
   {
-   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 32,
-   "t_en": "Experts: this is the best cash back card of 2022",
-   "x_en": ""
-  },
-  {
-   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
-   "x": "",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 33,
-   "t_en": "It's official: now avoid credit card interest into 2024",
-   "x_en": ""
-  },
-  {
-   "t": "0% intro APR until 2024 is 100% insane",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-reflect-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welref2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/220722105849-theascent-blackcard722-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 34,
-   "t_en": "0% intro APR until 2024 is 100% insane",
-   "x_en": ""
-  },
-  {
-   "t": "Roblox использует японскую стратегию для роста на игровом рынке Азиатско-Тихоокеанского региона",
-   "x": "",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/global-management-dialogue/global-management-dialogue-2026/roblox-uses-japan-playbook-to-grow-in-asia-pacific-gaming-market",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F8%2F2%2F7%2F13427281-1-eng-GB%2F885a56956a5d-photo_SXM2026111000009714d.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 37.25,
-   "lon": 137.08,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 35,
-   "t_en": "Roblox uses Japan playbook to grow in Asia-Pacific gaming market",
-   "x_en": ""
-  },
-  {
-   "t": "Проблема Дженсена от Nvidia может стать проблемой для цепочки поставок ИИ",
+   "t": "Editor's Choice: Nvidia's AI empire stumbles over Huang's human error",
    "x": "",
    "r": "Мир",
    "c": "Наука",
@@ -1048,7 +955,7 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-s-jensen-problem-set-to-become-one-for-ai-supply-chain",
+   "u": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-nvidia-s-ai-empire-stumbles-over-huang-s-human-error",
    "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F6%2F6%2F0%2F13440665-1-eng-GB%2Fdafc4ddccffb-AP26294360582603.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
@@ -1057,36 +964,36 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 36,
-   "t_en": "Nvidia's Jensen problem set to become one for AI supply chain",
+   "id": 32,
+   "t_en": "Editor's Choice: Nvidia's AI empire stumbles over Huang's human error",
    "x_en": ""
   },
   {
-   "t": "Вьетнам продвигает отечественные чипы для полупроводниковых приводов",
+   "t": "El Nino, biofuel regulations squeeze Indonesian palm oil producers",
    "x": "",
-   "r": "Азия",
-   "c": "Общее",
+   "r": "Мир",
+   "c": "Экономика",
    "imp": 57,
    "ten": 40,
    "ago": 1,
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/tech/semiconductors/vietnam-pushes-for-homegrown-chips-in-semiconductor-drive",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F8%2F6%2F1%2F13431682-1-eng-GB%2F77ab48c26799-KYD_EOI20261109X00004355_20261109212732c.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/business/markets/commodities/el-nino-biofuel-regulations-squeeze-indonesian-palm-oil-producers",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F0%2F7%2F1%2F13441708-1-eng-GB%2Fc83f51050676-IMG_0634-1-a.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 16.34,
-   "lon": 106.16,
-   "place": "Вьетнам",
-   "place_en": "Vietnam",
-   "id": 37,
-   "t_en": "Vietnam pushes for homegrown chips in semiconductor drive",
+   "lat": -2.81,
+   "lon": 117.24,
+   "place": "Индонезия",
+   "place_en": "Indonesia",
+   "id": 33,
+   "t_en": "El Nino, biofuel regulations squeeze Indonesian palm oil producers",
    "x_en": ""
   },
   {
-   "t": "Through the Lens: China's Singles Day shopping festival",
+   "t": "Pakistan to link Reko Diq mine to Karachi port by rail 'in 3 years'",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1096,23 +1003,23 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/photos/through-the-lens-china-s-singles-day-shopping-festival",
-   "img": "",
-   "img_src": "",
+   "u": "https://asia.nikkei.com/editor-s-picks/interview/pakistan-to-link-reko-diq-mine-to-karachi-port-by-rail-in-3-years",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F2%2F5%2F2%2F13442520-3-eng-GB%2Fae55b7578e00-Aa1.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 35.2,
-   "lon": 104.26,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 38,
-   "t_en": "Through the Lens: China's Singles Day shopping festival",
+   "lat": 29.61,
+   "lon": 69.12,
+   "place": "Пакистан",
+   "place_en": "Pakistan",
+   "id": 34,
+   "t_en": "Pakistan to link Reko Diq mine to Karachi port by rail 'in 3 years'",
    "x_en": ""
   },
   {
-   "t": "TSMC seeks to back next chip titan with new investment arm",
+   "t": "ASEAN, Quad leaders meet at Manila summits: 5 things to watch",
    "x": "",
-   "r": "Мир",
+   "r": "Азия",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
@@ -1120,7 +1027,31 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/editor-s-picks/interview/tsmc-seeks-to-back-next-chip-titan-with-new-investment-arm",
+   "u": "https://asia.nikkei.com/politics/international-relations/asean-quad-leaders-meet-at-manila-summits-5-things-to-watch",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F7%2F3%2F3%2F13433370-1-eng-GB%2F3067dc60a69c-2025-01-17T095749Z_1422439639_RC2KBCA1SS14_RTRMADP_3_ASEAN-MALAYSIA-t.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 14.49,
+   "lon": 121.06,
+   "place": "Манила",
+   "place_en": "Manila",
+   "id": 35,
+   "t_en": "ASEAN, Quad leaders meet at Manila summits: 5 things to watch",
+   "x_en": ""
+  },
+  {
+   "t": "Microsoft outage wreaks havoc in Asia, exposing dependence risk",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/technology/microsoft-outage-wreaks-havoc-in-asia-exposing-dependence-risk",
    "img": "",
    "img_src": "",
    "fresh": true,
@@ -1129,14 +1060,14 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 39,
-   "t_en": "TSMC seeks to back next chip titan with new investment arm",
+   "id": 36,
+   "t_en": "Microsoft outage wreaks havoc in Asia, exposing dependence risk",
    "x_en": ""
   },
   {
-   "t": "Nvidia case puts Singapore, Malaysia companies in spotlight",
+   "t": "China's JD.com completes $1.5bn takeover of German appliance retailer",
    "x": "",
-   "r": "Мир",
+   "r": "Азия",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
@@ -1144,29 +1075,93 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/technology/nvidia-case-puts-singapore-malaysia-companies-in-spotlight",
+   "u": "https://asia.nikkei.com/business/business-deals/china-s-jd.com-completes-1.5bn-takeover-of-german-appliance-retailer",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F7%2F7%2F3%2F13443778-2-eng-GB%2F79e635a88b79-20261113N-Ceconomy-Saturn.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 34.72,
+   "lon": 103.73,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 37,
+   "t_en": "China's JD.com completes $1.5bn takeover of German appliance retailer",
+   "x_en": ""
+  },
+  {
+   "t": "Honda supplier Topre to invest $140mn in US for new plant, upgrades",
+   "x": "",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/honda-supplier-topre-to-invest-140mn-in-us-for-new-plant-upgrades",
    "img": "",
    "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": 2.15,
-   "lon": 103.94,
-   "place": "Сингапур",
-   "place_en": "Singapore",
+   "lat": 39.87,
+   "lon": -97.78,
+   "place": "США",
+   "place_en": "United States",
+   "id": 38,
+   "t_en": "Honda supplier Topre to invest $140mn in US for new plant, upgrades",
+   "x_en": ""
+  },
+  {
+   "t": "US-China truce masks rising tensions ahead of Xi-Trump redux at APEC",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/big-in-asia/us-china-truce-masks-rising-tensions-ahead-of-xi-trump-redux-at-apec",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 40.57,
+   "lon": -97.69,
+   "place": "США",
+   "place_en": "United States",
+   "id": 39,
+   "t_en": "US-China truce masks rising tensions ahead of Xi-Trump redux at APEC",
+   "x_en": ""
+  },
+  {
+   "t": "US Treasury bought nearly $500mn in yen during joint July forex intervention",
+   "x": "",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/currencies/us-treasury-bought-nearly-500mn-in-yen-during-joint-july-forex-intervention",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.67,
+   "lon": -99.54,
+   "place": "США",
+   "place_en": "United States",
    "id": 40,
-   "t_en": "Nvidia case puts Singapore, Malaysia companies in spotlight",
+   "t_en": "US Treasury bought nearly $500mn in yen during joint July forex intervention",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794700298034,
-   "v": 47
-  },
-  {
-   "t": 1794712408521,
-   "v": 47
-  },
   {
    "t": 1794740135708,
    "v": 48
@@ -1182,139 +1177,143 @@
   {
    "t": 1794793781249,
    "v": 49
+  },
+  {
+   "t": 1794818337866,
+   "v": 47
   }
  ],
  "timeline": [
   {
-   "t": 1794707381249,
-   "v": 45,
-   "n": 19
+   "t": 1794731937866,
+   "v": 50,
+   "n": 16
   },
   {
-   "t": 1794710981249,
-   "v": 44,
+   "t": 1794735537866,
+   "v": 50,
+   "n": 13
+  },
+  {
+   "t": 1794739137866,
+   "v": 46,
+   "n": 12
+  },
+  {
+   "t": 1794742737866,
+   "v": 47,
+   "n": 13
+  },
+  {
+   "t": 1794746337866,
+   "v": 46,
+   "n": 21
+  },
+  {
+   "t": 1794749937866,
+   "v": 47,
    "n": 29
   },
   {
-   "t": 1794714581249,
-   "v": 46,
+   "t": 1794753537866,
+   "v": 48,
    "n": 35
   },
   {
-   "t": 1794718181249,
-   "v": 50,
+   "t": 1794757137866,
+   "v": 52,
+   "n": 36
+  },
+  {
+   "t": 1794760737866,
+   "v": 56,
    "n": 33
   },
   {
-   "t": 1794721781249,
-   "v": 48,
-   "n": 38
+   "t": 1794764337866,
+   "v": 56,
+   "n": 29
   },
   {
-   "t": 1794725381249,
+   "t": 1794767937866,
+   "v": 52,
+   "n": 26
+  },
+  {
+   "t": 1794771537866,
    "v": 50,
-   "n": 41
+   "n": 25
   },
   {
-   "t": 1794728981249,
-   "v": 46,
-   "n": 39
-  },
-  {
-   "t": 1794732581249,
-   "v": 54,
-   "n": 31
-  },
-  {
-   "t": 1794736181249,
-   "v": 55,
-   "n": 27
-  },
-  {
-   "t": 1794739781249,
+   "t": 1794775137866,
    "v": 54,
    "n": 28
   },
   {
-   "t": 1794743381249,
-   "v": 51,
-   "n": 30
+   "t": 1794778737866,
+   "v": 55,
+   "n": 26
   },
   {
-   "t": 1794746981249,
-   "v": 51,
-   "n": 43
+   "t": 1794782337866,
+   "v": 57,
+   "n": 32
   },
   {
-   "t": 1794750581249,
+   "t": 1794785937866,
    "v": 54,
-   "n": 41
+   "n": 38
   },
   {
-   "t": 1794754181249,
-   "v": 52,
-   "n": 42
-  },
-  {
-   "t": 1794757781249,
-   "v": 52,
-   "n": 42
-  },
-  {
-   "t": 1794761381249,
-   "v": 52,
+   "t": 1794789537866,
+   "v": 51,
    "n": 51
   },
   {
-   "t": 1794764981249,
-   "v": 52,
-   "n": 61
-  },
-  {
-   "t": 1794768581249,
-   "v": 50,
-   "n": 63
-  },
-  {
-   "t": 1794772181249,
-   "v": 48,
-   "n": 65
-  },
-  {
-   "t": 1794775781249,
+   "t": 1794793137866,
    "v": 46,
-   "n": 79
+   "n": 85
   },
   {
-   "t": 1794779381249,
-   "v": 45,
-   "n": 82
+   "t": 1794796737866,
+   "v": 46,
+   "n": 98
   },
   {
-   "t": 1794782981249,
+   "t": 1794800337866,
+   "v": 44,
+   "n": 127
+  },
+  {
+   "t": 1794803937866,
+   "v": 42,
+   "n": 109
+  },
+  {
+   "t": 1794807537866,
+   "v": 44,
+   "n": 145
+  },
+  {
+   "t": 1794811137866,
+   "v": 46,
+   "n": 134
+  },
+  {
+   "t": 1794814737866,
    "v": 47,
-   "n": 106
+   "n": 179
   },
   {
-   "t": 1794786581249,
-   "v": 48,
-   "n": 108
-  },
-  {
-   "t": 1794790181249,
-   "v": 46,
-   "n": 140
-  },
-  {
-   "t": 1794793781249,
-   "v": 45,
-   "n": 95
+   "t": 1794818337866,
+   "v": 47,
+   "n": 114
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 18
+   "items": 22
   },
   {
    "n": "Al Jazeera",
@@ -1330,7 +1329,7 @@
   },
   {
    "n": "The Guardian",
-   "items": 27
+   "items": 28
   },
   {
    "n": "Sky News",
@@ -1338,23 +1337,23 @@
   },
   {
    "n": "NPR",
-   "items": 3
+   "items": 2
   },
   {
    "n": "UN News",
-   "items": 1
+   "items": 0
   },
   {
    "n": "CNBC",
-   "items": 18
+   "items": 17
   },
   {
    "n": "Euronews",
-   "items": 14
+   "items": 18
   },
   {
    "n": "NYT",
-   "items": 22
+   "items": 17
   },
   {
    "n": "Washington Post",
@@ -1366,7 +1365,7 @@
   },
   {
    "n": "ABC News",
-   "items": 18
+   "items": 22
   },
   {
    "n": "CNN",
@@ -1382,7 +1381,7 @@
   },
   {
    "n": "CNA",
-   "items": 10
+   "items": 20
   },
   {
    "n": "Times of Israel",
@@ -1402,11 +1401,11 @@
   },
   {
    "n": "Kyiv Independent",
-   "items": 15
+   "items": 14
   },
   {
    "n": "Yonhap",
-   "items": 38
+   "items": 40
   },
   {
    "n": "Nikkei Asia",
@@ -1414,11 +1413,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 0
+   "items": 2
   },
   {
    "n": "Dawn",
-   "items": 29
+   "items": 26
   },
   {
    "n": "Times of India",
@@ -1430,7 +1429,7 @@
   },
   {
    "n": "Politico EU",
-   "items": 7
+   "items": 10
   },
   {
    "n": "Japan Times",
@@ -1446,9 +1445,9 @@
   }
  ],
  "failed": [
+  "UN News",
   "Times of Israel",
   "Middle East Eye",
-  "Arab News",
-  "The Diplomat"
+  "Arab News"
  ]
 }

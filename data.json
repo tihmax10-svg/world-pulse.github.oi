@@ -1,14 +1,14 @@
 {
- "updated": 1794855259682,
+ "updated": 1794881598311,
  "demo": false,
- "total_articles": 610,
- "second_delta": 1,
+ "total_articles": 645,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 54
+   "v": 50
   },
   {
    "n": "Al Jazeera",
@@ -16,27 +16,23 @@
   },
   {
    "n": "DW",
-   "v": 46
+   "v": 51
   },
   {
    "n": "France 24",
-   "v": 47
+   "v": 50
   },
   {
    "n": "The Guardian",
-   "v": 48
+   "v": 49
   },
   {
    "n": "Sky News",
-   "v": 68
+   "v": 63
   },
   {
    "n": "NPR",
    "v": 40
-  },
-  {
-   "n": "UN News",
-   "v": 50
   },
   {
    "n": "CNBC",
@@ -44,7 +40,7 @@
   },
   {
    "n": "Euronews",
-   "v": 48
+   "v": 50
   },
   {
    "n": "NYT",
@@ -52,15 +48,15 @@
   },
   {
    "n": "Washington Post",
-   "v": 52
+   "v": 50
   },
   {
    "n": "CBS News",
-   "v": 51
+   "v": 50
   },
   {
    "n": "ABC News",
-   "v": 49
+   "v": 55
   },
   {
    "n": "CNN",
@@ -68,27 +64,31 @@
   },
   {
    "n": "Fox News",
-   "v": 75
+   "v": 64
   },
   {
    "n": "ABC Australia",
-   "v": 49
+   "v": 48
   },
   {
    "n": "CNA",
-   "v": 44
+   "v": 43
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 70
   },
   {
    "n": "Africanews",
-   "v": 57
+   "v": 61
   },
   {
    "n": "Kyiv Independent",
-   "v": 54
+   "v": 68
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 38
   },
   {
    "n": "Nikkei Asia",
@@ -96,7 +96,7 @@
   },
   {
    "n": "The Diplomat",
-   "v": 39
+   "v": 41
   },
   {
    "n": "Dawn",
@@ -104,15 +104,15 @@
   },
   {
    "n": "Times of India",
-   "v": 44
+   "v": 40
   },
   {
    "n": "The Hindu",
-   "v": 58
+   "v": 59
   },
   {
    "n": "Politico EU",
-   "v": 42
+   "v": 44
   },
   {
    "n": "Japan Times",
@@ -120,7 +120,7 @@
   },
   {
    "n": "Reuters",
-   "v": 40
+   "v": 39
   },
   {
    "n": "AP",
@@ -130,19 +130,19 @@
  "regions": [
   {
    "n": "Европа",
-   "v": 48
+   "v": 49
   },
   {
    "n": "Ближний Восток",
-   "v": 60
+   "v": 66
   },
   {
    "n": "Азия",
-   "v": 43
+   "v": 42
   },
   {
    "n": "Африка",
-   "v": 64
+   "v": 68
   },
   {
    "n": "Америка",
@@ -151,236 +151,417 @@
  ],
  "events": [
   {
-   "t": "Судья назначила на март повторное рассмотрение дела Линдси Клэнси по делу об убийстве троих ее детей",
-   "x": "Первый судебный процесс над Клэнси по обвинению в убийстве первой степени закончился ошибочным судебным разбирательством после того, как присяжные не смогли прийти к единогласному вердикту. Судья штата Массачусетс в понедельник назначил второй судебный процесс над Линдси Клэнси по делу об убийстве троих ее маленьких детей на конец марта.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 93,
-   "ten": 78,
-   "ago": 22,
-   "s": [
-    "The Guardian",
-    "Sky News",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/16/lindsay-clancy-retrial-march",
-   "img": "https://i.guim.co.uk/img/media/48612869f527ad64a47895bf8b003e95eece7943/219_0_2690_2152/master/2690.jpg?width=700&quality=85&auto=format&fit=max&s=60f9732fc1b1f499cc0b2b67d98e97d8",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 4,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 1,
-   "t_en": "Judge sets Lindsay Clancy retrial for March in killings of her three children",
-   "x_en": "Clancy’s first trial on charges of first-degree murder ended in mistrial after jurors couldn’t reach unanimous verdict A Massachusetts judge on Monday scheduled Lindsay Clancy ’s second trial in the killings of her three young children for late March, over the"
-  },
-  {
-   "t": "Трамп поддержал возвращение бывшего руководителя NVIDIA после запуска кампании «Верните Дженсена»",
-   "x": "Ряд технических деятелей хотят, чтобы совет директоров гиганта по производству ИИ-чипов вернул Дженсену Хуангу его работу.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 88,
-   "ten": 40,
-   "ago": 23,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 4,
-   "lat": 39.74,
-   "lon": -98.81,
-   "place": "США",
-   "place_en": "United States",
-   "id": 2,
-   "t_en": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-   "x_en": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back."
-  },
-  {
-   "t": "Xi, Trump and Putin to discuss ‘world peace’ at trilateral, says China",
-   "x": "Пекин воздерживается от подтверждения конкретной повестки дня, но Трамп говорит, что среди тем будут денуклеаризация, война с Ираном, торговля и Украина.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 86,
-   "ten": 38,
-   "ago": 31,
-   "s": [
-    "The Guardian",
-    "CNBC",
-    "CNA",
-    "Dawn",
-    "The Hindu",
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/16/xi-jinping-donald-trump-vladimir-putin-world-peace-trilateral-says-china",
-   "img": "https://i.guim.co.uk/img/media/1314ca56ea87a76eb19c89d8d928610638be91b9/258_0_1247_998/master/1247.jpg?width=700&quality=85&auto=format&fit=max&s=7fc6d88c282050b160a8efd0660515b9",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 7,
-   "lat": 39.19,
-   "lon": -98.32,
-   "place": "США",
-   "place_en": "United States",
-   "id": 3,
-   "t_en": "Xi, Trump and Putin to discuss ‘world peace’ at trilateral, says China",
-   "x_en": "Beijing stops short of confirming specific agenda, but Trump says denuclearisation, Iran war, trade and Ukraine will be among topics The meeting of Xi Jinping, Donald Trump and Vladimir Putin in Shenzhen this week will cover topics of “groundbreaking significa"
-  },
-  {
-   "t": "Находящийся в тюрьме экс-премьер-министр Пакистана Имран Хан пишет судьям и просит жизненно важную медицинскую помощь",
-   "x": "Основатель партии «Пакистан Техрик-и-Инсаф» говорит, что постановления суда о его уходе были проигнорированы, и он «может не вернуться живым».",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 86,
-   "ten": 42,
-   "ago": 81,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "Times of India",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/16/jailed-pakistan-ex-pm-imran-khan-writes-to-judges-seeks-vital-medical-care?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_32745adff76f43e0c5ee531cbcd63052_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 5,
-   "lat": 29.93,
-   "lon": 70.47,
-   "place": "Пакистан",
-   "place_en": "Pakistan",
-   "id": 4,
-   "t_en": "Jailed Pakistan ex-PM Imran Khan writes to judges, seeks vital medical care",
-   "x_en": "The Pakistan Tehreek-e-Insaf party founder says court orders on his care were ignored and he ‘may not return alive’."
-  },
-  {
-   "t": "Британский актер Роберт Паттинсон назван новым Джеймсом Бондом",
-   "x": "Актер назвал решение студии «сбывшейся мечтой».",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 85,
-   "ten": 40,
-   "ago": 41,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "CNBC",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/1fa3829e-e1dd-11f1-a575-5f54d898a954/w:1024/p:16x9/EN-Pattison-tikTok-00-00-02-16-Still011.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 7,
-   "lat": 53.45,
-   "lon": -3.68,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 5,
-   "t_en": "British actor Robert Pattinson named as new James Bond",
-   "x_en": "The actor called the studio's decision a 'dream come true'."
-  },
-  {
    "t": "Трамп заявил, что мог бы встретиться с лидером Северной Кореи Ким Чен Ыном в Китае",
    "x": "Трамп планирует обсудить ядерное разоружение во время встречи с президентом России Владимиром Путиным и президентом Китая Си Цзиньпином в Шэньчжэне, Китай, на этой неделе.",
    "r": "Азия",
    "c": "Политика",
-   "imp": 84,
+   "imp": 95,
    "ten": 42,
-   "ago": 99,
+   "ago": 7,
    "s": [
     "Euronews",
     "CBS News",
+    "CNA",
     "Yonhap",
     "Dawn",
-    "Times of India",
+    "Japan Times",
     "Reuters"
    ],
    "u": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
    "img": "https://images.euronews.com/articles/stories/09/99/47/85/696x392_cmsv2_cd76b49a-e5e1-5304-9d6b-20bd2d6d7f62-9994785.jpg",
    "img_src": "Euronews",
-   "fresh": false,
-   "n": 7,
+   "fresh": true,
+   "n": 8,
    "lat": 40.03,
    "lon": -97.14,
    "place": "США",
    "place_en": "United States",
-   "id": 6,
+   "id": 1,
    "t_en": "Trump says he could meet with North Korean leader Kim Jong-un in China",
    "x_en": "Trump is planning to discuss nuclear disarmament when he meets with Russian President Vladimir Putin and Chinese President Xi Jinping in Shenzhen, China this week."
+  },
+  {
+   "t": "Поездка Трампа в Азию приведет его к столу переговоров с Си Цзиньпином и Путиным: что нужно знать",
+   "x": "Президент Трамп также встретится с региональными лидерами, включая премьер-министра Австралии, который заявил, что «мы хотим увидеть деэскалацию конфликтов».",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 91,
+   "ten": 53,
+   "ago": 11,
+   "s": [
+    "NYT",
+    "CBS News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html",
+   "img": "https://static01.nyt.com/images/2026/11/16/multimedia/16int-trump-summit-wtk-qjkm/16int-trump-summit-wtk-qjkm-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 4,
+   "lat": 38.37,
+   "lon": -97.76,
+   "place": "США",
+   "place_en": "United States",
+   "id": 2,
+   "t_en": "Trump’s Asia Trip Will Bring Him to the Table With Xi and Putin: What to Know",
+   "x_en": "President Trump will also meet with regional leaders, including Australia’s prime minister, who said “we want to see a de-escalation in the conflicts.”"
+  },
+  {
+   "t": "Israeli opposition accuses Netanyahu of attempted ‘coup’",
+   "x": "Rivals call for investigation into reports that PM's office tried to frame Arab parties.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 86,
+   "ten": 71,
+   "ago": 76,
+   "s": [
+    "Al Jazeera",
+    "Euronews",
+    "Middle East Eye",
+    "Africanews",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/99/39/15/696x392_cmsv2_9ee94799-8dd1-5d63-9fec-8904a610fa79-9993915.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 5,
+   "lat": 32.04,
+   "lon": 35.13,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 3,
+   "t_en": "Israeli opposition accuses Netanyahu of attempted ‘coup’",
+   "x_en": "Rivals call for investigation into reports that PM's office tried to frame Arab parties."
   },
   {
    "t": "Пять стран ЕС объявили о создании центра депортации мигрантов в Руанде",
    "x": "Германия, Дания, Австрия, Греция и Нидерланды объявили о создании «центра возвращения» для просителей убежища.",
    "r": "Европа",
-   "c": "Политика",
-   "imp": 80,
-   "ten": 38,
-   "ago": 78,
+   "c": "Экономика",
+   "imp": 82,
+   "ten": 37,
+   "ago": 61,
    "s": [
     "BBC",
+    "Al Jazeera",
     "NYT",
-    "Politico EU",
-    "Reuters"
+    "Washington Post",
+    "Politico EU"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7397/live/2ac14ca0-e1d9-11f1-b8c8-67fa35f5afdb.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 4,
+   "n": 6,
    "lat": 50.52,
    "lon": 4.11,
    "place": "Брюссель",
    "place_en": "Brussels",
-   "id": 7,
+   "id": 4,
    "t_en": "Five EU countries announce migrant deportation centre in Rwanda",
    "x_en": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers."
   },
   {
-   "t": "Мексиканский наркобарон Мигель Анхель Феликс Галлардо умер в возрасте 80 лет",
-   "x": "Известный как «Босс боссов», он был главой всемогущего картеля Гвадалахары в 1980-х годах, прежде чем его арест разогнал его наркоорганизацию.",
-   "r": "Америка",
+   "t": "United Airlines says ‘widespread’ system outage resolved",
+   "x": "Airline acknowledges ‘technology issue that delayed flight departures’ in latest high-profile outage to affect Americans United ⁠Airlines said on ⁠Monday ⁠that it had resolved ⁠a widespread system ⁠outage, just three days after the Federal ⁠Aviation Administra",
+   "r": "Мир",
    "c": "Общее",
-   "imp": 79,
-   "ten": 42,
-   "ago": 100,
+   "imp": 81,
+   "ten": 44,
+   "ago": 80,
    "s": [
-    "BBC",
-    "NYT",
+    "The Guardian",
+    "CNBC",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
+   "img": "https://i.guim.co.uk/img/media/eb6b6150bca60af4894ce9e3f598b0ea8d74e90c/500_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=3418b1f01c5c63eabe4f7f7cb7957ad7",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 5,
+   "t_en": "United Airlines says ‘widespread’ system outage resolved",
+   "x_en": "Airline acknowledges ‘technology issue that delayed flight departures’ in latest high-profile outage to affect Americans United ⁠Airlines said on ⁠Monday ⁠that it had resolved ⁠a widespread system ⁠outage, just three days after the Federal ⁠Aviation Administra"
+  },
+  {
+   "t": "АСЕАН не справляется с кризисом в Мьянме и пактом по Южно-Китайскому морю на саммите в Маниле",
+   "x": "АП Новости",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 80,
+   "ten": 43,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/asean-falls-short-on-myanmar-crisis-south-china-sea-pact-at-manila-summit",
+   "img": "https://th-i.thgim.com/public/incoming/pn7i3c/article71707607.ece/alternates/LANDSCAPE_1200/Thailand_China_29335.jpg",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 3,
+   "lat": 11.88,
+   "lon": 114.15,
+   "place": "Южно-Китайское море",
+   "place_en": "South China Sea",
+   "id": 6,
+   "t_en": "ASEAN falls short on Myanmar crisis, South China Sea pact at Manila summit",
+   "x_en": "AP News"
+  },
+  {
+   "t": "Robert Pattinson: British actor will be the next James Bond",
+   "x": "British actor Robert Pattinson is set to become the next James Bond in the long-running 007 spy franchise. Discussions over the casting of the new James Bond had been going on for months, with Pattinson emerging as one of the frontrunners from the outset.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 80,
+   "ten": 40,
+   "ago": 80,
+   "s": [
+    "France 24",
+    "CNBC",
+    "CBS News",
+    "Japan Times",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/video/20261116-robert-pattinson-british-actor-will-be-the-next-james-bond",
+   "img": "https://s.france24.com/media/display/1fa3829e-e1dd-11f1-a575-5f54d898a954/w:1024/p:16x9/EN-Pattison-tikTok-00-00-02-16-Still011.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 8,
+   "lat": 55.25,
+   "lon": -2.73,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 7,
+   "t_en": "Robert Pattinson: British actor will be the next James Bond",
+   "x_en": "British actor Robert Pattinson is set to become the next James Bond in the long-running 007 spy franchise. Discussions over the casting of the new James Bond had been going on for months, with Pattinson emerging as one of the frontrunners from the outset."
+  },
+  {
+   "t": "Trump departs for ASEAN on summit with Xi and Putin",
+   "x": "Donald Trump is heading to the Philippines where he’s scheduled to speak at a meeting of ASEAN leaders in Manila.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 73,
+   "ten": 35,
+   "ago": 151,
+   "s": [
+    "Al Jazeera",
+    "CNBC",
+    "CNA",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-departs-for-asean-on-summit-with-xi-and-putin?traffic_source=rss",
+   "img": "https://dam.mediacorp.sg/image/upload/s--kL8XjYvV--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/15/lan_shenzhen_apec_2026_3.jpg?itok=xhLPOHAS",
+   "img_src": "CNA",
+   "fresh": false,
+   "n": 6,
+   "lat": 40.15,
+   "lon": -99.33,
+   "place": "США",
+   "place_en": "United States",
+   "id": 8,
+   "t_en": "Trump departs for ASEAN on summit with Xi and Putin",
+   "x_en": "Donald Trump is heading to the Philippines where he’s scheduled to speak at a meeting of ASEAN leaders in Manila."
+  },
+  {
+   "t": "Rogue AI: California sues OpenAI over \"Hugging Face\" and other cyberattacks",
+   "x": "The US state of California has filed a lawsuit against OpenAI over the \"Hugging Face\" and other cyberattacks, accusing the ChatGPT maker of knowingly testing dangerous advanced AI models without adequate safeguard. Meanwhile, the US Commerce Department has tig",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 73,
+   "ten": 53,
+   "ago": 178,
+   "s": [
+    "France 24",
+    "CNBC",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/tv-shows/business/20261116-rogue-ai-california-sues-openai-over-hugging-face-and-other-cyberattacks",
+   "img": "https://s.france24.com/media/display/6ceddd6e-e201-11f1-a43b-695cb59fade5/w:1024/p:16x9/EN-NW-IVS-ECO-CALIFORNIA-STATEMENT-OPENAI-LAWSUIT-ROYER-Yuka-transfer.png",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 4,
+   "lat": 34.14,
+   "lon": -118.47,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
+   "id": 9,
+   "t_en": "Rogue AI: California sues OpenAI over \"Hugging Face\" and other cyberattacks",
+   "x_en": "The US state of California has filed a lawsuit against OpenAI over the \"Hugging Face\" and other cyberattacks, accusing the ChatGPT maker of knowingly testing dangerous advanced AI models without adequate safeguard. Meanwhile, the US Commerce Department has tig"
+  },
+  {
+   "t": "US to further curb China's access to Nvidia chips",
+   "x": "The US government is set to further restrict China's access to the most powerful AI chips, such as the ones provided by tech giant Nvidia.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 72,
+   "ten": 40,
+   "ago": 173,
+   "s": [
+    "Sky News",
+    "Japan Times",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://news.sky.com/story/us-to-further-curb-chinas-access-to-ai-chips-from-companies-like-nvidia-13612884",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-taiwan-nvidia-taipei_7404808.jpg?20261112101611",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 4,
+   "lat": 40.08,
+   "lon": -99.86,
+   "place": "США",
+   "place_en": "United States",
+   "id": 10,
+   "t_en": "US to further curb China's access to Nvidia chips",
+   "x_en": "The US government is set to further restrict China's access to the most powerful AI chips, such as the ones provided by tech giant Nvidia."
+  },
+  {
+   "t": "Mozambique's justice under scrutiny as Venancio Mondlane faces trial",
+   "x": "The trial of opposition politician Venancio Mondlane begins in Mozambique on Tuesday. The former presidential candidate is facing five charges, including incitement to terrorism.",
+   "r": "Африка",
+   "c": "Политика",
+   "imp": 70,
+   "ten": 74,
+   "ago": 24,
+   "s": [
+    "DW",
+    "ABC News"
+   ],
+   "u": "https://www.dw.com/en/mozambique-s-justice-under-scrutiny-as-venancio-mondlane-faces-trial/a-79949795?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.abcnews.com/images/International/wirestory_ff6a8fd627eb559f961704ec43517131_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 2,
+   "lat": -19.06,
+   "lon": 34.27,
+   "place": "Мозамбик",
+   "place_en": "Mozambique",
+   "id": 11,
+   "t_en": "Mozambique's justice under scrutiny as Venancio Mondlane faces trial",
+   "x_en": "The trial of opposition politician Venancio Mondlane begins in Mozambique on Tuesday. The former presidential candidate is facing five charges, including incitement to terrorism."
+  },
+  {
+   "t": "Paraguay ex-president moved to military jail amid special treatment reports",
+   "x": "Santiago Pena has been accused of corruption following the collapse of Ueno Bank earlier this month.",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 67,
+   "ten": 51,
+   "ago": 111,
+   "s": [
+    "Al Jazeera",
     "ABC News",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9e63/live/e166e240-e19c-11f1-93e1-3b657b665bcf.jpg",
-   "img_src": "BBC",
+   "u": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_6c2cf9358f220f0bcdd03bb136ca45c7_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": false,
-   "n": 4,
-   "lat": 23.99,
-   "lon": -102.71,
-   "place": "Мексика",
-   "place_en": "Mexico",
-   "id": 8,
-   "t_en": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
-   "x_en": "Known as the 'Boss of Bosses', he was the head of all-powerful Guadalajara Cartel in the 1980s before his arrest broke up his drug organisation."
+   "n": 3,
+   "lat": -22.46,
+   "lon": -57.83,
+   "place": "Парагвай",
+   "place_en": "Paraguay",
+   "id": 12,
+   "t_en": "Paraguay ex-president moved to military jail amid special treatment reports",
+   "x_en": "Santiago Pena has been accused of corruption following the collapse of Ueno Bank earlier this month."
+  },
+  {
+   "t": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+   "x": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 65,
+   "ten": 40,
+   "ago": 24,
+   "s": [
+    "BBC",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.05,
+   "lon": -99.36,
+   "place": "США",
+   "place_en": "United States",
+   "id": 13,
+   "t_en": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+   "x_en": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back."
+  },
+  {
+   "t": "Seoul deploys fighter jets after Russian aircraft enters air defence zone",
+   "x": "The Joint Chiefs of Staff in Seoul said an unspecified number of Russian aircraft entered and later exited the Korea Air Defence Identification Zone over the East Sea, also known as the Sea of Japan, in the early hours of Tuesday.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 65,
+   "ten": 40,
+   "ago": 59,
+   "s": [
+    "CNA",
+    "Yonhap"
+   ],
+   "u": "https://www.channelnewsasia.com/east-asia/seoul-deploys-fighter-jets-russian-aircraft-enters-air-defence-zone-6557236",
+   "img": "https://dam.mediacorp.sg/image/upload/s--tHZW0dNC--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/17/000_34kx8tp.jpg?itok=uz85bHat",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 3,
+   "lat": 37.67,
+   "lon": 126.9,
+   "place": "Сеул",
+   "place_en": "Seoul",
+   "id": 14,
+   "t_en": "Seoul deploys fighter jets after Russian aircraft enters air defence zone",
+   "x_en": "The Joint Chiefs of Staff in Seoul said an unspecified number of Russian aircraft entered and later exited the Korea Air Defence Identification Zone over the East Sea, also known as the Sea of Japan, in the early hours of Tuesday."
+  },
+  {
+   "t": "Ukraine hits key Crimea bridge with drones",
+   "x": "\"I think the Ukrainians are trying to send a message to the Russians with this - 'If you hit our bridges we can hit yours,'\" reports Gulliver Cragg from Kyiv.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 63,
+   "ago": 180,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "The Hindu"
+   ],
+   "u": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
+   "img": "https://s.france24.com/media/display/3b52c1ca-e210-11f1-ae4f-695cb59fade5/w:1024/p:16x9/EN-20261116-230143-230237-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 45.06,
+   "lon": 33.77,
+   "place": "Крым",
+   "place_en": "Crimea",
+   "id": 15,
+   "t_en": "Ukraine hits key Crimea bridge with drones",
+   "x_en": "\"I think the Ukrainians are trying to send a message to the Russians with this - 'If you hit our bridges we can hit yours,'\" reports Gulliver Cragg from Kyiv."
   },
   {
    "t": "Канада может сотрудничать с китайскими автопроизводителями, если торговые переговоры с США провалятся, говорит Карни",
    "x": "В преддверии саммита АТЭС премьер-министр сказал, что «Канада будет двигаться вперед в любом случае», когда его спросили, являются ли китайские инвестиции рычагом в переговорах с США. Премьер-министр Канады Марк Карни заявил, что страна может обратиться к китайским автопроизводителям, если торговые переговоры с",
    "r": "Америка",
    "c": "Политика",
-   "imp": 77,
+   "imp": 62,
    "ten": 26,
-   "ago": 96,
+   "ago": 292,
    "s": [
     "The Guardian",
     "ABC News",
@@ -396,707 +577,211 @@
    "lon": -96.21,
    "place": "Канада",
    "place_en": "Canada",
-   "id": 9,
+   "id": 16,
    "t_en": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
    "x_en": "Ahead of Apec summit, PM says ‘Canada is going to move forward either way’ when asked if Chinese investment was leverage in US negotiations The prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with "
   },
   {
-   "t": "В результате двух массовых расстрелов в ЮАР погибли 17 человек",
-   "x": "Стрельба в Квазулу-Натале и Гаутенге подчеркивает борьбу Южной Африки с борьбой с насильственными преступлениями.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 77,
-   "ten": 95,
-   "ago": 208,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "Sky News",
-    "Africanews"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e2e5/live/66487e80-e1a0-11f1-902c-ad301cbf1208.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": -28.92,
-   "lon": 24.55,
-   "place": "ЮАР",
-   "place_en": "South Africa",
-   "id": 10,
-   "t_en": "Two mass shootings in South Africa leave 17 dead",
-   "x_en": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime."
-  },
-  {
-   "t": "Аэропорты США медленно возвращаются к нормальной жизни после трех дней сбоев, вызванных запретом на взлет",
-   "x": "В течение выходных застрявшие пассажиры бродили по хаотичным аэропортам и сидели на полу, ожидая обновлений или перебронирования.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 75,
-   "ten": 44,
-   "ago": 137,
-   "s": [
-    "Euronews",
-    "Africanews",
-    "Dawn",
-    "Japan Times"
-   ],
-   "u": "https://www.euronews.com/2026/11/16/us-airports-slowly-return-to-normal-after-three-days-of-disruption-caused-by-take-off-ban",
-   "img": "https://images.euronews.com/articles/stories/09/99/43/53/696x392_cmsv2_bc7bc0ed-e3d7-5220-8e0f-666e7193fcce-9994353.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 4,
-   "lat": 39.13,
-   "lon": -99.11,
-   "place": "США",
-   "place_en": "United States",
-   "id": 11,
-   "t_en": "US airports slowly return to normal after three days of disruption caused by take-off ban",
-   "x_en": "Throughout the weekend, stranded passengers wandered through chaotic airports and sat on floors, waiting for updates or to be rebooked."
-  },
-  {
-   "t": "Поездка Трампа в Азию приведет его к столу переговоров с Си Цзиньпином и Путиным: что нужно знать",
-   "x": "Президент Трамп также встретится с региональными лидерами, включая премьер-министра Австралии, который заявил, что «мы хотим увидеть деэскалацию конфликтов».",
+   "t": "(LEAD) Seoul stocks open lower amid AI concerns ahead of Nvidia earnings, Anthropic IPO",
+   "x": "SEOUL, Nov. 17 (Yonhap) -- South Korean stocks opened lower Tuesday, tracking ov...",
    "r": "Азия",
-   "c": "Политика",
-   "imp": 74,
-   "ten": 63,
-   "ago": 68,
-   "s": [
-    "NYT",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html",
-   "img": "https://static01.nyt.com/images/2026/11/16/multimedia/16int-trump-summit-wtk-qjkm/16int-trump-summit-wtk-qjkm-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": 38.37,
-   "lon": -97.76,
-   "place": "США",
-   "place_en": "United States",
-   "id": 12,
-   "t_en": "Trump’s Asia Trip Will Bring Him to the Table With Xi and Putin: What to Know",
-   "x_en": "President Trump will also meet with regional leaders, including Australia’s prime minister, who said “we want to see a de-escalation in the conflicts.”"
-  },
-  {
-   "t": "Грузовой корабль перевернулся у побережья Черного моря в Болгарии",
-   "x": "Министерство транспорта Болгарии сообщает, что все 12 членов экипажа судна были спасены в ходе спасательной операции.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 49,
-   "ago": 60,
-   "s": [
-    "Al Jazeera",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/16/cargo-ship-capsizes-off-bulgarias-black-sea-coast?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26320546823827-1794851994.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": 43.48,
-   "lon": 34.68,
-   "place": "Чёрное море",
-   "place_en": "Black Sea",
-   "id": 13,
-   "t_en": "Cargo ship capsizes off Bulgaria’s Black Sea coast",
-   "x_en": "Bulgaria's Transport Ministry says that all 12 of the ship's crew members were saved in a rescue operation."
-  },
-  {
-   "t": "Трамп направляется в Азию, чтобы встретиться с Си и Путиным на фоне последствий Nvidia",
-   "x": "Поездка Трампа в Китай знаменует собой второй визит Трампа в этом году и происходит в тот момент, когда президент и его партия столкнулись с широкой негативной реакцией со стороны избирателей на недавних промежуточных выборах.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 72,
-   "ten": 34,
-   "ago": 45,
-   "s": [
-    "NPR",
-    "CBS News",
-    "Reuters"
-   ],
-   "u": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1903+0+0/resize/3000x1903!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F2a%2F43%2Fa1078a164917808b90cb7d9ece17%2Fgettyimages-2304645424.jpg",
-   "img_src": "NPR",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.75,
-   "lon": -97.91,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
-   "x_en": "The trip to China marks Trump's second time this year, and comes as the president and his party faced widespread backlash from voters in the recent midterm elections."
-  },
-  {
-   "t": "Украина врезалась в ценный мост Путина в ходе рекордного удара дронов, а Кремль приказал законодателям готовиться к «победе»",
-   "x": "Украина нанесла удар по ценному Крымскому мосту Владимира Путина, что Россия назвала крупнейшей за всю войну атакой беспилотников, в результате чего были подожжены промышленные объекты.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 70,
-   "ten": 84,
-   "ago": 38,
-   "s": [
-    "Fox News",
-    "The Hindu"
-   ],
-   "u": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory",
-   "img": "https://static.foxnews.com/foxnews.com/content/uploads/2026/11/ukraine-russia-crisis-fire.gif",
-   "img_src": "Fox News",
-   "fresh": true,
-   "n": 2,
-   "lat": 48.13,
-   "lon": 30.95,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 15,
-   "t_en": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'",
-   "x_en": "Ukraine struck Vladimir Putin's prized Crimea bridge in what Russia called the war's largest drone attack, setting industrial facilities ablaze."
-  },
-  {
-   "t": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
-   "x": "После пожертвований почетный председатель Berkshire по-прежнему владеет 182 140 акциями класса А — примерно на 162 миллиарда долларов.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 70,
+   "c": "Экономика",
+   "imp": 60,
    "ten": 40,
-   "ago": 75,
-   "s": [
-    "CNBC",
-    "Times of India",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html",
-   "img": "https://static.toiimg.com/photo/msid-135894120,imgsize-990988.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 16,
-   "t_en": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
-   "x_en": "Following the donations, the chairman emeritus of Berkshire still owns 182,140 Class A shares -- roughly $162 billion."
-  },
-  {
-   "t": "АСЕАН не справляется с кризисом в Мьянме и пактом по Южно-Китайскому морю на саммите в Маниле",
-   "x": "Китай, Тайвань и четыре государства АСЕАН — Бруней, Малайзия, Филиппины и Вьетнам — были вовлечены в многолетнее территориальное противостояние на оживленном водном пути, ключевом глобальном торговом маршруте.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 69,
-   "ten": 44,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "The Hindu"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/asean-falls-short-on-myanmar-crisis-south-china-sea-pact-at-manila-summit",
-   "img": "https://th-i.thgim.com/public/incoming/pn7i3c/article71707607.ece/alternates/LANDSCAPE_1200/Thailand_China_29335.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 11.88,
-   "lon": 114.15,
-   "place": "Южно-Китайское море",
-   "place_en": "South China Sea",
-   "id": 17,
-   "t_en": "ASEAN falls short on Myanmar crisis, South China Sea pact at Manila summit",
-   "x_en": "China, Taiwan and four ASEAN states — Brunei, Malaysia, the Philippines and Vietnam — have been involved in the decades-long territorial standoffs in the busy waterway, a key global trade route"
-  },
-  {
-   "t": "Иран блокирует посещение ядерных объектов ООН до окончания войны",
-   "x": "Министерство иностранных дел Ирана в понедельник заявило, что заблокирует доступ Международного агентства по атомной энергии к своим поврежденным ядерным объектам до тех пор, пока США не выполнят заявленные условия для окончательного прекращения войны. Заявление министерства последовало за призывами",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 95,
-   "ago": 56,
-   "s": [
-    "France 24",
-    "CBS News"
-   ],
-   "u": "https://www.france24.com/en/asia-pacific/20261116-iran-blocks-un-nuclear-site-visits-until-war-ends",
-   "img": "https://s.france24.com/media/display/10f9a716-e1c2-11f1-b72e-3f371022a770/w:1024/p:16x9/000-B8V38KJ.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 2,
-   "lat": 33.08,
-   "lon": 54.43,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 18,
-   "t_en": "Iran blocks UN nuclear site visits until war ends",
-   "x_en": "Iran's foreign ministry on Monday said that it would block the International Atomic Energy Agency's access to its damaged nuclear facilities until stated conditions for permanently ending the war have been met by the US. The ministry's statement follows calls "
-  },
-  {
-   "t": "New World Development предлагает выпустить права на сумму 3,2 миллиарда долларов США",
-   "x": "",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNA",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.channelnewsasia.com/business/new-world-development-rights-issue-hong-kong-property-6553051",
-   "img": "https://dam.mediacorp.sg/image/upload/s--15LNp0ps--/c_crop,h_449,w_799,x_1,y_1/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-15T133316Z_1_LYNXNPEMAE087_RTROPTP_3_NEW-WORLD-DEV-DISPOSAL.JPG?itok=uFp3n8mB",
-   "img_src": "CNA",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.27,
-   "lon": -97.55,
-   "place": "США",
-   "place_en": "United States",
-   "id": 19,
-   "t_en": "New World Development proposes US$3.2 billion rights issue",
-   "x_en": ""
-  },
-  {
-   "t": "Переговоры в ООН направлены на то, чтобы обуздать «роботов-убийц» на фоне роста опасений по поводу оружия искусственного интеллекта",
-   "x": "Страны встречаются в Женеве, чтобы обсудить правила в отношении оружия, которое может выбирать и поражать цели без вмешательства человека. Но поскольку США, Россия и Израиль сопротивляются юридически обязывающим мерам контроля, участники кампании опасаются, что возможность действовать закрывается.",
-   "r": "Европа",
-   "c": "Наука",
-   "imp": 68,
-   "ten": 82,
-   "ago": 49,
-   "s": [
-    "NPR",
-    "Dawn"
-   ],
-   "u": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F47%2Fdc%2Fbe428cfe43728dcf909ce499cadf%2Fgettyimages-2273123489.jpg",
-   "img_src": "NPR",
-   "fresh": true,
-   "n": 2,
-   "lat": 46.16,
-   "lon": 5.83,
-   "place": "Женева",
-   "place_en": "Geneva",
-   "id": 20,
-   "t_en": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
-   "x_en": "Countries are meeting in Geneva to negotiate rules on weapons that can select and kill targets without human intervention. But with the U.S., Russia and Israel resisting legally binding controls, campaigners fear the window to act is closing."
-  },
-  {
-   "t": "Маск и инсайдеры из Кремниевой долины призывают Nvidia восстановить Дженсена Хуана на посту генерального директора",
-   "x": "Аналитики рынка говорят, что Nvidia столкнется с потенциальной потерей стоимости на 30 процентов без Дженсена Хуанга на фоне спада акций.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 68,
-   "ten": 37,
-   "ago": 90,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/fcd1abf0-e1c4-11f1-86b7-695cb59fade5/w:1024/p:16x9/EN-20261116-141729-141916-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 34.98,
-   "lon": 101.9,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 21,
-   "t_en": "Musk, Silicon Valley insiders urge Nvidia to restore Jensen Huang as CEO",
-   "x_en": "Nvidia faces a potential 30 percent value loss in value without Jensen Huang, market analysts say, amid a stock downturn."
-  },
-  {
-   "t": "Лидеры израильской оппозиции осуждают Нетаньяху за «попытку государственного переворота»",
-   "x": "Главный соперник Нетаньяху, бывший начальник штаба армии Гади Айзенкот, написал в воскресенье, что исполняющий обязанности премьер-министра \"не может оставаться во главе правительства ни на минуту дольше\".",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 67,
-   "ten": 66,
-   "ago": 139,
-   "s": [
-    "Euronews",
-    "Africanews",
-    "The Hindu"
-   ],
-   "u": "https://www.euronews.com/2026/11/16/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup",
-   "img": "https://images.euronews.com/articles/stories/09/99/39/15/696x392_cmsv2_9ee94799-8dd1-5d63-9fec-8904a610fa79-9993915.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": 31.07,
-   "lon": 34.24,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 22,
-   "t_en": "Israeli opposition chiefs denounce Netanyahu over 'attempted coup'",
-   "x_en": "Netanyahu's main rival, former army chief of staff Gadi Eisenkot, wrote on Sunday that the caretaker prime minister \"cannot remain at the head of the government for a minute longer\"."
-  },
-  {
-   "t": "Австралийский депутат «полон благодарности» после выписки из больницы после предполагаемого автомобильного нападения",
-   "x": "Депутат потеряла обе ноги после предполагаемого нападения возле ее избирательного округа четыре недели назад.",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 67,
-   "ten": 84,
-   "ago": 388,
-   "s": [
-    "BBC",
-    "Sky News",
-    "Euronews",
-    "ABC News"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/083d/live/b9880d40-e15f-11f1-a6b7-c136ad7bd6e3.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": -25.36,
-   "lon": 133.67,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 23,
-   "t_en": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
-   "x_en": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago."
-  },
-  {
-   "t": "Трамп отрицает ответственность за наземную остановку ФАУ по всей стране",
-   "x": "Министр транспорта США Шон Даффи заявил, что ситуация может вернуться в нормальное русло в конце понедельника после того, как наземная остановка ФАУ прервала полеты. И Трамп направляется в Азию на громкий трехсторонний саммит.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 66,
-   "ten": 37,
-   "ago": 106,
-   "s": [
-    "Al Jazeera",
-    "NPR",
-    "CNBC"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-denies-responsibility-for-faa-nationwide-ground-stop?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794848876.jpg?resize=1615%2C1080&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.15,
-   "lon": -98.71,
-   "place": "США",
-   "place_en": "United States",
-   "id": 24,
-   "t_en": "Trump denies responsibility for FAA nationwide ground stop",
-   "x_en": "U.S. Transportation Secretary Sean Duffy said that things could be back to normal at the end of Monday after an FAA ground stop disrupted flights. And, Trump heads to Asia for a high-profile trilateral summit."
-  },
-  {
-   "t": "Французские войска в Украине «не станут сюрпризом»",
-   "x": "Французские солдаты действуют в Украине уже несколько месяцев, обучая украинские войска и помогая обслуживать военную технику, сообщила в понедельник дочерняя радиостанция France 24 Radio France Internationale (RFI). Пока развертывание не было подтверждено",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 66,
-   "ten": 63,
-   "ago": 143,
-   "s": [
-    "France 24",
-    "Kyiv Independent",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/video/20261116-french-troops-in-ukraine-wouldn-t-be-a-surprise",
-   "img": "https://s.france24.com/media/display/d2585b3c-e1d1-11f1-8438-5f54d898a954/w:1024/p:16x9/EN-20261116-150424-150818-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 47.23,
-   "lon": 4.11,
-   "place": "Франция",
-   "place_en": "France",
-   "id": 25,
-   "t_en": "French troops in Ukraine 'wouldn't be a surprise'",
-   "x_en": "French soldiers have been operating in Ukraine for several months, training Ukrainian troops and helping maintain military equipment, France 24's sister radio network Radio France Internationale (RFI) reported on Monday. While the deployment has not been confi"
-  },
-  {
-   "t": "Ле Пен хочет прекратить финансовую помощь Украине в случае своего избрания",
-   "x": "Ле Пен лидирует по опросам на президентских выборах во Франции в апреле 2027 года, и ее позиция по Украине и России уже стала ключевым вопросом предвыборной кампании для нее и ее конкурентов.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 32,
-   "ago": 18,
-   "s": [
-    "Kyiv Independent",
-    "Reuters"
-   ],
-   "u": "https://kyivindependent.com/le-pen-wants-to-end-ukraine-financial-aid-if-elected/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2304485680_20261116-182449.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 2,
-   "lat": 49.48,
-   "lon": 30.73,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 26,
-   "t_en": "Le Pen wants to end Ukraine financial aid if elected",
-   "x_en": "Le Pen is leading the polls for France's April 2027 presidential election, and her stance on Ukraine and Russia has already become a key campaign issue for her and her competitors."
-  },
-  {
-   "t": "Саудовская Аравия уволила командующего антихуситской коалицией на фоне наступления повстанцев",
-   "x": "Саудовская Аравия отстранила командующего возглавляемой Саудовской Аравией коалицией в Йемене, сообщили государственные СМИ в понедельник, когда поддерживаемые Ираном повстанцы продвигались к временной столице Адене. Встряска произошла после того, как силы хуситов захватили территорию на южном побережье Йемена и Саудовской Аравии.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 49,
-   "ago": 129,
-   "s": [
-    "France 24",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.france24.com/en/yemen/20261116-saudi-arabia-dismisses-commander-of-anti-houthi-coalition-as-rebels-advance",
-   "img": "https://s.france24.com/media/display/6b41e21e-e1c8-11f1-9bf2-5f54d898a954/w:1024/p:16x9/AP24318399053564.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 15.55,
-   "lon": 44.4,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 27,
-   "t_en": "Saudi Arabia dismisses commander of anti-Houthi coalition as rebels advance",
-   "x_en": "Saudi Arabia has removed the commander of the Saudi-led coalition in Yemen, state media said Monday, as the Iran-backed rebels advanced on the temporary capital of Aden. The shake up comes after Houthi forces took territory on Yemen's southern coast and Saudi-"
-  },
-  {
-   "t": "Конго изо всех сил пытается обуздать вспышку Эболы спустя шесть месяцев после начала ответных мер",
-   "x": "По данным правительства, зарегистрировано более 11 000 случаев, и почти половина инфицированных умерла. Это самая смертоносная из 17 вспышек в Конго, и она находится на пути к тому, чтобы превзойти число погибших от вспышки в Западной Африке, в результате которой погибло 11 000 человек.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 82,
-   "ago": 208,
-   "s": [
-    "Africanews",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "http://www.africanews.com/2026/11/16/congo-struggles-to-tame-ebola-outbreak-six-months-into-response/",
-   "img": "https://images.euronews.com/articles/stories/09/99/41/82/640x360_cmsv2_d68c77bb-87fe-5983-9474-411ad6099b83-9994182.jpg?1794825507",
-   "img_src": "Africanews",
-   "fresh": false,
-   "n": 3,
-   "lat": -2.98,
-   "lon": 24.57,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 28,
-   "t_en": "Congo struggles to tame ebola outbreak six months into response",
-   "x_en": "More than 11,000 cases have been recorded, and nearly half of those infected have died, according to government data. It is the deadliest of Congo’s 17 outbreaks and is on track to surpass the death toll from the West African outbreak that killed 11,000 people"
-  },
-  {
-   "t": "ЕС обвиняет Россию в остановке мирных переговоров на Украине из-за приближающейся зимы по электростанциям",
-   "x": "Блок ввел санкции почти в отношении 50 российских банков и финансовых учреждений.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 21,
    "ago": 112,
    "s": [
-    "ABC News",
-    "The Hindu",
-    "AP"
+    "Yonhap",
+    "Reuters"
    ],
-   "u": "https://abcnews.com/International/wireStory/eu-accuses-russia-stalling-ukraine-peace-talks-target-138172402",
-   "img": "https://s.abcnews.com/images/International/wirestory_cde686fba0e452b10ca613b3517e884e_16x9_1600.jpg",
+   "u": "https://en.yna.co.kr/view/AEN20261117001551320",
+   "img": "https://img.yna.co.kr/photo/yna/YH/2026/11/16/PYH2026111615380001300_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": false,
+   "n": 4,
+   "lat": 37.57,
+   "lon": 127.46,
+   "place": "Сеул",
+   "place_en": "Seoul",
+   "id": 17,
+   "t_en": "(LEAD) Seoul stocks open lower amid AI concerns ahead of Nvidia earnings, Anthropic IPO",
+   "x_en": "SEOUL, Nov. 17 (Yonhap) -- South Korean stocks opened lower Tuesday, tracking ov..."
+  },
+  {
+   "t": "French troops secretly deployed inside Ukraine as ex-NATO chief praises Macron's 'guts'",
+   "x": "President Emmanuel Macron's France reportedly runs covert \"Volia\" mission training Ukrainian troops as Zelenskyy holds fresh peace talks with the US.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 54,
+   "ago": 209,
+   "s": [
+    "Fox News",
+    "Kyiv Independent",
+    "The Hindu"
+   ],
+   "u": "https://www.foxnews.com/world/french-troops-secretly-deployed-ukraine-ex-nato-chief-praises-macrons-guts",
+   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/11/931/523/france-emmanuel-macron-ukraine-volodymyr-zelenskyy-fox-news.jpg?ve=1&tl=1",
+   "img_src": "Fox News",
+   "fresh": false,
+   "n": 3,
+   "lat": 46.97,
+   "lon": 3.3,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 18,
+   "t_en": "French troops secretly deployed inside Ukraine as ex-NATO chief praises Macron's 'guts'",
+   "x_en": "President Emmanuel Macron's France reportedly runs covert \"Volia\" mission training Ukrainian troops as Zelenskyy holds fresh peace talks with the US."
+  },
+  {
+   "t": "Sudanese army air attack kills 13 in western Sudan: Rights group",
+   "x": "'Preliminary monitoring' shows women and children killed, homes destroyed in West Kordofan, says Emergency Lawyers.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 95,
+   "ago": 307,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/16/sudanese-army-air-attack-kills-13-in-western-sudan-rights-group?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_64fecf743ea8c55ae9dc4a72d0acd2a7_16x9_1600.jpg",
    "img_src": "ABC News",
    "fresh": false,
    "n": 3,
-   "lat": 50.69,
-   "lon": 4.42,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 29,
-   "t_en": "EU accuses Russia of stalling Ukraine peace talks to target power plants as winter nears",
-   "x_en": "The bloc imposed sanctions on nearly 50 Russian banks, financial institutions."
+   "lat": 16.07,
+   "lon": 30.18,
+   "place": "Судан",
+   "place_en": "Sudan",
+   "id": 19,
+   "t_en": "Sudanese army air attack kills 13 in western Sudan: Rights group",
+   "x_en": "'Preliminary monitoring' shows women and children killed, homes destroyed in West Kordofan, says Emergency Lawyers."
   },
   {
-   "t": "Как у Трампа может возникнуть соблазн организовать «окончание Корейской войны»",
+   "t": "Live: Russian attacks target bridges in Kyiv, knocking out heating and water",
+   "x": "Russian strikes hit two major bridges in Kyiv late Monday, part of an overnight attack that damaged critical infrastructure and disrupted heating and water in parts of the capital, its mayor said. Ukraine's President Volodymyr Zelensky had warned of an attack ",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 84,
+   "ago": 35,
+   "s": [
+    "France 24"
+   ],
+   "u": "https://www.france24.com/en/europe/20261117-live-russian-attacks-target-bridges-in-kyiv-knocking-out-heating-and-water-ukraine",
+   "img": "https://s.france24.com/media/display/3999d8f4-e21b-11f1-8b8b-f71d22e7fea9/w:1024/p:16x9/AP26316805802362.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 50.28,
+   "lon": 30.39,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 20,
+   "t_en": "Live: Russian attacks target bridges in Kyiv, knocking out heating and water",
+   "x_en": "Russian strikes hit two major bridges in Kyiv late Monday, part of an overnight attack that damaged critical infrastructure and disrupted heating and water in parts of the capital, its mayor said. Ukraine's President Volodymyr Zelensky had warned of an attack "
+  },
+  {
+   "t": "US toy sellers pin tariff hopes on third Trump-Xi meeting this year",
    "x": "",
    "r": "Америка",
-   "c": "Конфликты",
-   "imp": 61,
-   "ten": 66,
+   "c": "Экономика",
+   "imp": 58,
+   "ten": 48,
    "ago": 1,
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/spotlight/comment/how-trump-might-be-tempted-to-orchestrate-an-end-to-the-korean-war",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F9%2F3%2F9%2F13419394-1-eng-GB%2Fcf3dd237a543-illust_SXM2026110400002959-2-t.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-toy-sellers-pin-tariff-hopes-on-third-trump-xi-meeting-this-year",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F9%2F1%2F4%2F13444195-1-eng-GB%2F98118e6f367b-2016-10-26T120000Z_1007705705_D1BEUJFPTMAA_RTRMADP_3_USA-HOLIDAYSHOPPING-WALMART.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 39.22,
-   "lon": -98.63,
+   "lat": 39.84,
+   "lon": -99.31,
    "place": "США",
    "place_en": "United States",
-   "id": 30,
-   "t_en": "How Trump might be tempted to orchestrate an 'end to the Korean War'",
+   "id": 21,
+   "t_en": "US toy sellers pin tariff hopes on third Trump-Xi meeting this year",
    "x_en": ""
   },
   {
-   "t": "Американский баскетболист арестован с 75 фунтами марихуаны в аэропорту Нигерии, сообщили власти",
-   "x": "Подозреваемый по имени Грин Да’монте Хири За контрабанду наркотиков в Нигерии грозит пожизненное заключение Американский баскетболист был арестован в Нигерии по подозрению в попытке переправить в страну 33,95 кг (75 фунтов) марихуаны. Национальный закон Нигерии о наркотиках Enf",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 61,
-   "ten": 52,
-   "ago": 67,
-   "s": [
-    "The Guardian",
-    "Times of India"
-   ],
-   "u": "https://www.theguardian.com/sport/2026/nov/16/us-basketball-player-arrested-with-75lb-of-marijuana-at-nigerian-airport-say-authorities",
-   "img": "https://i.guim.co.uk/img/media/f8ab1096511b7369e43e30e2c53a8576e6387f0a/388_0_1349_1080/master/1349.jpg?width=700&quality=85&auto=format&fit=max&s=d14bc777cf9f282e23b000741f58d160",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 2,
-   "lat": 39.68,
-   "lon": -97.38,
-   "place": "США",
-   "place_en": "United States",
-   "id": 31,
-   "t_en": "US basketball player arrested with 75lb of marijuana at Nigerian airport, say authorities",
-   "x_en": "Suspect named as Greene Da’monte Khiree Drug smuggling carries life sentence in Nigeria An American basketball player has been arrested in Nigeria for allegedly attempting to smuggle 33.95kg (75lb) of marijuana into the country. Nigeria’s National Drug Law Enf"
-  },
-  {
-   "t": "Why Starshield limits are hurting Ukraine against jet-powered drones",
-   "x": "Украинские военные используют интернет-сервис с декабря 2024 года для перехвата российских дронов.",
-   "r": "Европа",
+   "t": "Yemen army reports 661 attacks on Houthis amid Houthi push towards Aden",
+   "x": "Yemen's army reports 173 Houthi fighters killed or wounded as government forces reposition to defend Aden.",
+   "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 61,
+   "imp": 58,
    "ten": 82,
-   "ago": 111,
+   "ago": 35,
    "s": [
-    "Al Jazeera",
-    "Kyiv Independent"
+    "Al Jazeera"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/16/why-starshield-limits-are-hurting-ukraine-against-jet-powered-drones?traffic_source=rss",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2294896178_20261116-163715_20261116-164305.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": false,
-   "n": 2,
-   "lat": 50.0,
-   "lon": 31.37,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 32,
-   "t_en": "Why Starshield limits are hurting Ukraine against jet-powered drones",
-   "x_en": "Ukraine's military has been relying on the internet service since December 2024 to intercept Russian drones."
+   "u": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261026__D4GV6KE__v1__HighRes__YemenSaudiIsranUsIsraelWar-1794853871.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 15.17,
+   "lon": 44.08,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 22,
+   "t_en": "Yemen army reports 661 attacks on Houthis amid Houthi push towards Aden",
+   "x_en": "Yemen's army reports 173 Houthi fighters killed or wounded as government forces reposition to defend Aden."
   },
   {
-   "t": "Президент Кабо-Верде Невес выиграл второй срок",
-   "x": "Президент Кабо-Верде Хосе Мария Невес победил на второй пятилетний срок, согласно предварительным результатам воскресных выборов, опередив пять претендентов, включая «первую женщину-кандидата от архипелага», после кампании, сосредоточенной на необходимости создать больше ⁠j",
-   "r": "Мир",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 38,
-   "ago": 342,
+   "t": "Casualties in Israeli settler attack rises",
+   "x": "Israeli settlers opened fire on Palestinians in the village of al-Duyuk al-Tahta, near Jericho in the occupied West Bank, killing a 60 year-old woman. Meanwhile, more people have been reported as wounded, including a 65 year-old man among the 10 injured.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 58,
+   "ten": 95,
+   "ago": 52,
    "s": [
-    "France 24",
-    "Euronews",
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/casualties-israeli-settler-attack-rises",
+   "img": "https://www.middleeasteye.net/sites/default/files/2026-11/IranFM_PakistanPM_Eco.jpg",
+   "img_src": "Middle East Eye (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 31.03,
+   "lon": 35.1,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 23,
+   "t_en": "Casualties in Israeli settler attack rises",
+   "x_en": "Israeli settlers opened fire on Palestinians in the village of al-Duyuk al-Tahta, near Jericho in the occupied West Bank, killing a 60 year-old woman. Meanwhile, more people have been reported as wounded, including a 65 year-old man among the 10 injured."
+  },
+  {
+   "t": "At least 17 people killed in two separate shootings in South Africa",
+   "x": "At least 17 people have been killed in two separate shootings in South Africa, police said on Monday.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 58,
+   "ten": 95,
+   "ago": 373,
+   "s": [
+    "Sky News",
     "ABC News",
     "Africanews"
    ],
-   "u": "https://www.france24.com/en/video/20261116-cape-verde-president-neves-wins-second-term",
-   "img": "https://s.france24.com/media/display/00ce694e-e1b8-11f1-9399-5f54d898a954/w:1024/p:16x9/EN-20261116-111124-111306-CS.jpg",
-   "img_src": "France 24",
+   "u": "https://news.sky.com/story/at-least-17-people-killed-in-two-separate-shootings-in-south-africa-13612711",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-jeffsville-forensic_7407791.jpg?20261116140353",
+   "img_src": "Sky News",
    "fresh": false,
    "n": 4,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 33,
-   "t_en": "Cape Verde President Neves wins second term",
-   "x_en": "Cape Verde President José Maria Neves has won a second five-year term, according to provisional results from Sunday's election, besting five challengers ​including the archipelago's ‌first female candidate after a campaign focused on the need to create more ⁠j"
+   "lat": -28.13,
+   "lon": 24.09,
+   "place": "ЮАР",
+   "place_en": "South Africa",
+   "id": 24,
+   "t_en": "At least 17 people killed in two separate shootings in South Africa",
+   "x_en": "At least 17 people have been killed in two separate shootings in South Africa, police said on Monday."
   },
   {
-   "t": "Жерар Депардье отказался от апелляции на приговор о сексуальном насилии",
-   "x": "Французская кинозвезда должна была подать апелляцию после того, как была признана виновной в сексуальном насилии над двумя женщинами на съемочной площадке в Париже.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 60,
-   "ten": 40,
-   "ago": 183,
-   "s": [
-    "BBC",
-    "France 24",
-    "The Guardian"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6e5e/live/d9ec2540-e1b8-11f1-99a1-253766e7ad8b.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 48.87,
-   "lon": 2.18,
-   "place": "Париж",
-   "place_en": "Paris",
-   "id": 34,
-   "t_en": "Gérard Depardieu drops appeal against sexual assault conviction",
-   "x_en": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set."
-  },
-  {
-   "t": "Эстония закроет пограничные переходы с Россией после попытки поджога завода по производству дронов",
-   "x": "Правительство Эстонии утверждает, что за попыткой диверсии стояла Россия, но Кремль это отрицает.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 80,
-   "ago": 272,
-   "s": [
-    "BBC",
-    "CNBC",
-    "The Hindu"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/775e/live/126ac8e0-e1be-11f1-a339-49d4d3ed4c86.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 58.8,
-   "lon": 24.32,
-   "place": "Эстония",
-   "place_en": "Estonia",
-   "id": 35,
-   "t_en": "Estonia to close Russia border crossings after attempted drone factory arson attack",
-   "x_en": "The Estonian government says Russia was behind the attempted sabotage, which the Kremlin denies."
-  },
-  {
-   "t": "Трамп заявил, что «не против» восстановления Хуана в Nvidia",
-   "x": "Президент США Дональд Трамп в понедельник дал понять, что он будет приветствовать восстановление Дженсена Хуана на посту главы гиганта по производству чипов искусственного интеллекта Nvidia после того, как Хуан подал в отставку на прошлой неделе из-за шпионского скандала. «Я бы, конечно, не прочь это увидеть», — заявил Трамп журналистам.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 59,
-   "ten": 36,
-   "ago": 61,
-   "s": [
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.dawn.com/news/2044968/trump-says-would-not-mind-huang-being-reinstated-at-nvidia",
-   "img": "https://i.dawn.com/large/2026/11/101346387848b4f.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 2,
-   "lat": 39.14,
-   "lon": -97.88,
-   "place": "США",
-   "place_en": "United States",
-   "id": 36,
-   "t_en": "Trump says 'would not mind' Huang being reinstated at Nvidia",
-   "x_en": "United States President Donald Trump on Monday signalled that he would welcome Jensen Huang being reinstated as chief of the AI chip giant Nvidia, after Huang resigned last week amid a spy scandal. “I would certainly not mind seeing that,” Trump told reporters"
-  },
-  {
-   "t": "Китайская JD.com завершила поглощение немецкого ритейлера бытовой техники за 1,5 миллиарда долларов",
+   "t": "Digital Realty Trust to spend $10bn more on Japan data centers: CEO",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1106,23 +791,23 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/business-deals/china-s-jd.com-completes-1.5bn-takeover-of-german-appliance-retailer",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F7%2F7%2F3%2F13443778-2-eng-GB%2F79e635a88b79-20261113N-Ceconomy-Saturn.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/digital-realty-trust-to-spend-10bn-more-on-japan-data-centers-ceo",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F5%2F0%2F5%2F13445057-2-eng-GB%2Fbe55d5518c15-photo_SXM2026111300007358.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 34.72,
-   "lon": 103.73,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 37,
-   "t_en": "China's JD.com completes $1.5bn takeover of German appliance retailer",
+   "lat": 36.17,
+   "lon": 137.48,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 25,
+   "t_en": "Digital Realty Trust to spend $10bn more on Japan data centers: CEO",
    "x_en": ""
   },
   {
-   "t": "Поставщик Honda Topre инвестирует $140 млн в США в новый завод и модернизацию",
+   "t": "Japan to require online authorization for some transit passengers",
    "x": "",
-   "r": "Америка",
+   "r": "Азия",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
@@ -1130,21 +815,309 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/automobiles/honda-supplier-topre-to-invest-140mn-in-us-for-new-plant-upgrades",
+   "u": "https://asia.nikkei.com/spotlight/japan-immigration/japan-to-require-online-authorization-for-some-transit-passengers",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F2%2F1%2F5%2F13445120-2-eng-GB%2F03bc001e0fda-photo_SXM2026110700004398.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.26,
+   "lon": 137.56,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 26,
+   "t_en": "Japan to require online authorization for some transit passengers",
+   "x_en": ""
+  },
+  {
+   "t": "Footloose in Vientiane: A capital in no great hurry",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/life-arts/life/destinations/footloose-in-vientiane-a-capital-in-no-great-hurry",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F7%2F8%2F1%2F13411870-3-eng-GB%2F399202201f8b-VT001.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 27,
+   "t_en": "Footloose in Vientiane: A capital in no great hurry",
+   "x_en": ""
+  },
+  {
+   "t": "Subaru retools boxer engine for fuel economy, with eye on hybrids",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/subaru-retools-boxer-engine-for-fuel-economy-with-eye-on-hybrids",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F1%2F8%2F2%2F13402810-2-eng-GB%2Fb8ead425473f-2ea39155-82c4-4b8b-a28b-71e329217672.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 28,
+   "t_en": "Subaru retools boxer engine for fuel economy, with eye on hybrids",
+   "x_en": ""
+  },
+  {
+   "t": "China's century-old 'porcelain capital' eyes global luxury",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/life-arts/arts/china-s-century-old-porcelain-capital-eyes-global-luxury",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F8%2F7%2F4%2F13404788-1-eng-GB%2F3839e3fe112d-photo_SXM2026102400004897.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.54,
+   "lon": 103.88,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 29,
+   "t_en": "China's century-old 'porcelain capital' eyes global luxury",
+   "x_en": ""
+  },
+  {
+   "t": "Sri Lanka reality contrasts with new World Bank upper-middle-income status",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/sri-lanka-reality-contrasts-with-new-world-bank-upper-middle-income-status",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F1%2F0%2F9%2F13429016-1-eng-GB%2Fe5d6ff51cead-sample-1000217616.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 8.94,
+   "lon": 80.48,
+   "place": "Шри-Ланка",
+   "place_en": "Sri Lanka",
+   "id": 30,
+   "t_en": "Sri Lanka reality contrasts with new World Bank upper-middle-income status",
+   "x_en": ""
+  },
+  {
+   "t": "Gaming emerges as a new corporate networking tool in Japan",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/business-trends/gaming-emerges-as-a-new-corporate-networking-tool-in-japan",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F5%2F8%2F1%2F13441854-1-eng-GB%2Fe628d1c150d0-photo_SXM2026110700002580.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.24,
+   "lon": 139.51,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 31,
+   "t_en": "Gaming emerges as a new corporate networking tool in Japan",
+   "x_en": ""
+  },
+  {
+   "t": "How Japan's defense bases are exposed by smartphone data",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/defense/how-japan-s-defense-bases-are-exposed-by-smartphone-data",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F5%2F9%2F5%2F13445958-1-eng-GB%2Fd1f66f147494-OGimage-na-1-.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 37.12,
+   "lon": 137.79,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 32,
+   "t_en": "How Japan's defense bases are exposed by smartphone data",
+   "x_en": ""
+  },
+  {
+   "t": "Japan shipping group ONE transits Red Sea choke point for 1st time in 3 years",
+   "x": "",
+   "r": "Ближний Восток",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/transportation/japan-shipping-group-one-transits-red-sea-choke-point-for-1st-time-in-3-years",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F6%2F0%2F6%2F13446067-1-eng-GB%2F39425d5f4e2a-20261115N-ONE-container-ship.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 19.67,
+   "lon": 38.38,
+   "place": "Красное море",
+   "place_en": "Red Sea",
+   "id": 33,
+   "t_en": "Japan shipping group ONE transits Red Sea choke point for 1st time in 3 years",
+   "x_en": ""
+  },
+  {
+   "t": "Toward a stronger and more prosperous Indo-Pacific, together",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/opinion/toward-a-stronger-and-more-prosperous-indo-pacific-together",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F3%2F6%2F3%2F13423631-2-eng-GB%2F991d7bfa02fe-2025-10-26T092426Z_505811860_RC2JJHAIVTET_RTRMADP_3_ASEAN-SUMMIT.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 34,
+   "t_en": "Toward a stronger and more prosperous Indo-Pacific, together",
+   "x_en": ""
+  },
+  {
+   "t": "Asian investors chase indirect access to Anthropic shares amid IPO fever",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/trading-asia/asian-investors-chase-indirect-access-to-anthropic-shares-amid-ipo-fever",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F0%2F1%2F3%2F13443109-1-eng-GB%2Ffb3600ff7d53-2026-10-26T203636Z_989578273_RC28BOANVZ07_RTRMADP_3_ANTHROPIC-IPO.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 35,
+   "t_en": "Asian investors chase indirect access to Anthropic shares amid IPO fever",
+   "x_en": ""
+  },
+  {
+   "t": "China central bank hikes foreign reserve requirement for 1st time in 5 years",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/china-central-bank-hikes-foreign-reserve-requirement-for-1st-time-in-5-years",
    "img": "",
    "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": 39.87,
-   "lon": -97.78,
-   "place": "США",
-   "place_en": "United States",
-   "id": 38,
-   "t_en": "Honda supplier Topre to invest $140mn in US for new plant, upgrades",
+   "lat": 35.67,
+   "lon": 102.85,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 36,
+   "t_en": "China central bank hikes foreign reserve requirement for 1st time in 5 years",
    "x_en": ""
   },
   {
-   "t": "Перемирие между США и Китаем маскирует рост напряженности в преддверии встречи Си и Трампа в АТЭС",
+   "t": "What an Anthropic index says about Japan's AI challenges",
+   "x": "",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/comment/what-an-anthropic-index-says-about-japan-s-ai-challenges",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.27,
+   "lon": 139.21,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 37,
+   "t_en": "What an Anthropic index says about Japan's AI challenges",
+   "x_en": ""
+  },
+  {
+   "t": "Japan's Q3 GDP drops an annualized 0.1%, below market expectations",
+   "x": "",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/economy/japan-s-q3-gdp-drops-an-annualized-0.1-below-market-expectations",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.92,
+   "lon": 138.39,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 38,
+   "t_en": "Japan's Q3 GDP drops an annualized 0.1%, below market expectations",
+   "x_en": ""
+  },
+  {
+   "t": "Singapore's One Championship aims to revive combat sports in Japan",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1154,23 +1127,23 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/spotlight/big-in-asia/us-china-truce-masks-rising-tensions-ahead-of-xi-trump-redux-at-apec",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F2%2F2%2F2%2F13432228-1-eng-GB%2F86fae0ddaca2-2026-09-26T154348Z_1288751429_RC2BQNA3DD0F_RTRMADP_3_USA-CHINA-j.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://asia.nikkei.com/spotlight/sports/singapore-s-one-championship-aims-to-revive-combat-sports-in-japan2",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": 40.57,
-   "lon": -97.69,
-   "place": "США",
-   "place_en": "United States",
+   "lat": 2.07,
+   "lon": 104.19,
+   "place": "Сингапур",
+   "place_en": "Singapore",
    "id": 39,
-   "t_en": "US-China truce masks rising tensions ahead of Xi-Trump redux at APEC",
+   "t_en": "Singapore's One Championship aims to revive combat sports in Japan",
    "x_en": ""
   },
   {
-   "t": "Казначейство США купило иену на сумму почти $500 млн в ходе совместной июльской валютной интервенции",
+   "t": "New World stock plunges to new low after it plans $3.2bn rights issue",
    "x": "",
-   "r": "Америка",
+   "r": "Мир",
    "c": "Общее",
    "imp": 57,
    "ten": 40,
@@ -1178,29 +1151,21 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/markets/currencies/us-treasury-bought-nearly-500mn-in-yen-during-joint-july-forex-intervention",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F7%2F3%2F4%2F13444371-2-eng-GB%2F3ae2aaaa9ba5-1428d0e1-a88b-401e-99f6-ee489738fec7.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://asia.nikkei.com/business/markets/property/new-world-stock-plunges-to-new-low-after-it-plans-3.2bn-rights-issue",
+   "img": "",
+   "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": 39.67,
-   "lon": -99.54,
-   "place": "США",
-   "place_en": "United States",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 40,
-   "t_en": "US Treasury bought nearly $500mn in yen during joint July forex intervention",
+   "t_en": "New World stock plunges to new low after it plans $3.2bn rights issue",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794763921740,
-   "v": 49
-  },
-  {
-   "t": 1794780101202,
-   "v": 50
-  },
   {
    "t": 1794793781249,
    "v": 49
@@ -1212,139 +1177,143 @@
   {
    "t": 1794855259682,
    "v": 48
+  },
+  {
+   "t": 1794881598311,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1794768859682,
-   "v": 54,
-   "n": 9
-  },
-  {
-   "t": 1794772459682,
-   "v": 44,
-   "n": 10
-  },
-  {
-   "t": 1794776059682,
-   "v": 47,
+   "t": 1794795198311,
+   "v": 50,
    "n": 13
   },
   {
-   "t": 1794779659682,
+   "t": 1794798798311,
    "v": 45,
-   "n": 14
-  },
-  {
-   "t": 1794783259682,
-   "v": 52,
-   "n": 17
-  },
-  {
-   "t": 1794786859682,
-   "v": 53,
    "n": 19
   },
   {
-   "t": 1794790459682,
-   "v": 52,
-   "n": 20
-  },
-  {
-   "t": 1794794059682,
-   "v": 52,
-   "n": 20
-  },
-  {
-   "t": 1794797659682,
-   "v": 46,
-   "n": 23
-  },
-  {
-   "t": 1794801259682,
+   "t": 1794802398311,
    "v": 45,
-   "n": 37
+   "n": 26
   },
   {
-   "t": 1794804859682,
-   "v": 42,
-   "n": 37
-  },
-  {
-   "t": 1794808459682,
+   "t": 1794805998311,
    "v": 45,
-   "n": 62
+   "n": 31
   },
   {
-   "t": 1794812059682,
-   "v": 49,
-   "n": 64
+   "t": 1794809598311,
+   "v": 50,
+   "n": 40
   },
   {
-   "t": 1794815659682,
+   "t": 1794813198311,
    "v": 52,
-   "n": 78
+   "n": 41
   },
   {
-   "t": 1794819259682,
+   "t": 1794816798311,
    "v": 56,
-   "n": 64
+   "n": 49
   },
   {
-   "t": 1794822859682,
-   "v": 54,
-   "n": 63
+   "t": 1794820398311,
+   "v": 58,
+   "n": 48
   },
   {
-   "t": 1794826459682,
-   "v": 49,
-   "n": 69
+   "t": 1794823998311,
+   "v": 55,
+   "n": 55
   },
   {
-   "t": 1794830059682,
+   "t": 1794827598311,
+   "v": 50,
+   "n": 61
+  },
+  {
+   "t": 1794831198311,
    "v": 47,
+   "n": 57
+  },
+  {
+   "t": 1794834798311,
+   "v": 48,
+   "n": 55
+  },
+  {
+   "t": 1794838398311,
+   "v": 51,
+   "n": 54
+  },
+  {
+   "t": 1794841998311,
+   "v": 52,
+   "n": 59
+  },
+  {
+   "t": 1794845598311,
+   "v": 52,
    "n": 70
   },
   {
-   "t": 1794833659682,
+   "t": 1794849198311,
+   "v": 50,
+   "n": 72
+  },
+  {
+   "t": 1794852798311,
+   "v": 51,
+   "n": 80
+  },
+  {
+   "t": 1794856398311,
    "v": 49,
-   "n": 84
+   "n": 92
   },
   {
-   "t": 1794837259682,
-   "v": 48,
-   "n": 94
+   "t": 1794859998311,
+   "v": 50,
+   "n": 111
   },
   {
-   "t": 1794840859682,
-   "v": 48,
-   "n": 124
-  },
-  {
-   "t": 1794844459682,
+   "t": 1794863598311,
    "v": 46,
-   "n": 158
+   "n": 127
   },
   {
-   "t": 1794848059682,
+   "t": 1794867198311,
+   "v": 45,
+   "n": 126
+  },
+  {
+   "t": 1794870798311,
+   "v": 43,
+   "n": 120
+  },
+  {
+   "t": 1794874398311,
    "v": 46,
-   "n": 167
+   "n": 108
   },
   {
-   "t": 1794851659682,
-   "v": 43,
-   "n": 179
+   "t": 1794877998311,
+   "v": 44,
+   "n": 125
   },
   {
-   "t": 1794855259682,
-   "v": 43,
-   "n": 112
+   "t": 1794881598311,
+   "v": 44,
+   "n": 89
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 18
+   "items": 20
   },
   {
    "n": "Al Jazeera",
@@ -1352,7 +1321,7 @@
   },
   {
    "n": "DW",
-   "items": 8
+   "items": 7
   },
   {
    "n": "France 24",
@@ -1360,19 +1329,19 @@
   },
   {
    "n": "The Guardian",
-   "items": 34
+   "items": 35
   },
   {
    "n": "Sky News",
-   "items": 6
+   "items": 7
   },
   {
    "n": "NPR",
-   "items": 6
+   "items": 7
   },
   {
    "n": "UN News",
-   "items": 8
+   "items": 0
   },
   {
    "n": "CNBC",
@@ -1380,11 +1349,11 @@
   },
   {
    "n": "Euronews",
-   "items": 28
+   "items": 25
   },
   {
    "n": "NYT",
-   "items": 22
+   "items": 25
   },
   {
    "n": "Washington Post",
@@ -1396,7 +1365,7 @@
   },
   {
    "n": "ABC News",
-   "items": 22
+   "items": 23
   },
   {
    "n": "CNN",
@@ -1404,11 +1373,11 @@
   },
   {
    "n": "Fox News",
-   "items": 7
+   "items": 9
   },
   {
    "n": "ABC Australia",
-   "items": 13
+   "items": 12
   },
   {
    "n": "CNA",
@@ -1420,7 +1389,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1428,7 +1397,7 @@
   },
   {
    "n": "Africanews",
-   "items": 24
+   "items": 21
   },
   {
    "n": "Kyiv Independent",
@@ -1444,7 +1413,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 6
+   "items": 17
   },
   {
    "n": "Dawn",
@@ -1476,8 +1445,8 @@
   }
  ],
  "failed": [
+  "UN News",
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

@@ -1,66 +1,62 @@
 {
- "updated": 1794993177365,
+ "updated": 1795025064023,
  "demo": false,
- "total_articles": 696,
- "second_delta": 0,
+ "total_articles": 711,
+ "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 54
+   "v": 53
   },
   {
    "n": "Al Jazeera",
-   "v": 48
+   "v": 55
   },
   {
    "n": "DW",
-   "v": 59
-  },
-  {
-   "n": "France 24",
-   "v": 49
-  },
-  {
-   "n": "The Guardian",
-   "v": 51
-  },
-  {
-   "n": "Sky News",
-   "v": 45
-  },
-  {
-   "n": "NPR",
-   "v": 48
-  },
-  {
-   "n": "UN News",
-   "v": 59
-  },
-  {
-   "n": "CNBC",
-   "v": 48
-  },
-  {
-   "n": "Euronews",
-   "v": 52
-  },
-  {
-   "n": "NYT",
-   "v": 47
-  },
-  {
-   "n": "Washington Post",
    "v": 50
   },
   {
+   "n": "France 24",
+   "v": 44
+  },
+  {
+   "n": "The Guardian",
+   "v": 52
+  },
+  {
+   "n": "Sky News",
+   "v": 44
+  },
+  {
+   "n": "NPR",
+   "v": 44
+  },
+  {
+   "n": "CNBC",
+   "v": 44
+  },
+  {
+   "n": "Euronews",
+   "v": 48
+  },
+  {
+   "n": "NYT",
+   "v": 48
+  },
+  {
+   "n": "Washington Post",
+   "v": 48
+  },
+  {
    "n": "CBS News",
-   "v": 65
+   "v": 62
   },
   {
    "n": "ABC News",
-   "v": 52
+   "v": 60
   },
   {
    "n": "CNN",
@@ -68,27 +64,23 @@
   },
   {
    "n": "Fox News",
-   "v": 59
+   "v": 68
   },
   {
    "n": "ABC Australia",
-   "v": 45
+   "v": 46
   },
   {
    "n": "CNA",
-   "v": 38
-  },
-  {
-   "n": "Middle East Eye",
-   "v": 74
+   "v": 34
   },
   {
    "n": "Africanews",
-   "v": 54
+   "v": 49
   },
   {
    "n": "Kyiv Independent",
-   "v": 68
+   "v": 66
   },
   {
    "n": "Yonhap",
@@ -100,15 +92,15 @@
   },
   {
    "n": "The Diplomat",
-   "v": 42
+   "v": 37
   },
   {
    "n": "Dawn",
-   "v": 44
+   "v": 49
   },
   {
    "n": "Times of India",
-   "v": 39
+   "v": 43
   },
   {
    "n": "The Hindu",
@@ -116,11 +108,11 @@
   },
   {
    "n": "Politico EU",
-   "v": 40
+   "v": 43
   },
   {
    "n": "Japan Times",
-   "v": 47
+   "v": 46
   },
   {
    "n": "Reuters",
@@ -128,17 +120,17 @@
   },
   {
    "n": "AP",
-   "v": 43
+   "v": 45
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Ближний Восток",
-   "v": 66
+   "v": 62
   },
   {
    "n": "Азия",
@@ -146,206 +138,244 @@
   },
   {
    "n": "Африка",
-   "v": 55
+   "v": 51
   },
   {
    "n": "Америка",
-   "v": 49
+   "v": 48
   }
  ],
  "events": [
   {
-   "t": "Haitians rally in celebration of El Salvador’s anti-gang troop deployment",
-   "x": "Hundreds of Haitians have taken to the streets, celebrating El Salvador’s anti-gang military troops.",
+   "t": "Iran says army targets U.S. drone and missile sites in Kuwait as Gulf attacks mount",
+   "x": "Iran said its army targeted U.S. drone and missile installations at Kuwait's Ali Al Salem air base, extending a run of attacks on Gulf states.",
    "r": "Америка",
    "c": "Конфликты",
-   "imp": 92,
-   "ten": 65,
-   "ago": 20,
+   "imp": 94,
+   "ten": 86,
+   "ago": 27,
    "s": [
-    "Al Jazeera",
-    "France 24",
-    "ABC News",
-    "Africanews",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/18/haitians-rally-in-celebration-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/5f68d9ac-e2f4-11f1-88c9-c5c0357b2a0c/w:1024/p:16x9/AP26321814589361.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 5,
-   "lat": 14.06,
-   "lon": -88.78,
-   "place": "Сальвадор",
-   "place_en": "El Salvador",
-   "id": 1,
-   "t_en": "Haitians rally in celebration of El Salvador’s anti-gang troop deployment",
-   "x_en": "Hundreds of Haitians have taken to the streets, celebrating El Salvador’s anti-gang military troops."
-  },
-  {
-   "t": "Nvidia dismisses calls to reinstate Jensen Huang amid blockbuster earnings",
-   "x": "Nvidia board chair says chip giant 'does not intend' to reinstate Huang as it projects revenues of $130bn in Q4.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 91,
-   "ten": 38,
-   "ago": 1,
-   "s": [
-    "Al Jazeera",
-    "France 24",
-    "Nikkei Asia",
+    "CNBC",
+    "CBS News",
+    "Fox News",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/e899ca7c-e2b0-11f1-9dea-1ba7ddfab527/w:1024/p:16x9/2026-11-16T182243Z-119858112-RC2O2LA29X51-RTRMADP-3-NVIDIA-CEO.jpg",
-   "img_src": "France 24",
+   "u": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
+   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/kuwait-iran-us-air-force-jets.jpg?ve=1&tl=1",
+   "img_src": "Fox News",
    "fresh": true,
    "n": 5,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 2,
-   "t_en": "Nvidia dismisses calls to reinstate Jensen Huang amid blockbuster earnings",
-   "x_en": "Nvidia board chair says chip giant 'does not intend' to reinstate Huang as it projects revenues of $130bn in Q4."
-  },
-  {
-   "t": "Trump to raise Ukraine war in talks with Xi and Putin at APEC",
-   "x": "The Chinese city of Shenzhen is preparing to host the Asia-Pacific Economic Cooperation summit, with an unprecedented diplomatic encounter expected to take place between the leaders of China, the US and Russia.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 90,
-   "ten": 42,
-   "ago": 6,
-   "s": [
-    "Africanews",
-    "Times of India",
-    "Politico EU",
-    "Reuters"
-   ],
-   "u": "http://www.africanews.com/2026/11/17/trump-to-raise-ukraine-war-in-talks-with-xi-and-putin-at-apec/",
-   "img": "https://images.euronews.com/articles/stories/09/99/53/87/640x360_cmsv2_b78fb9b1-0bd9-5f36-b795-6ab9447d985c-9995387.jpg?1794895215",
-   "img_src": "Africanews",
-   "fresh": true,
-   "n": 4,
-   "lat": 39.78,
-   "lon": -98.78,
-   "place": "США",
-   "place_en": "United States",
-   "id": 3,
-   "t_en": "Trump to raise Ukraine war in talks with Xi and Putin at APEC",
-   "x_en": "The Chinese city of Shenzhen is preparing to host the Asia-Pacific Economic Cooperation summit, with an unprecedented diplomatic encounter expected to take place between the leaders of China, the US and Russia."
-  },
-  {
-   "t": "Trump arrives in China ahead of historic three-way summit with Putin, Xi",
-   "x": "US President Donald Trump arrived in China on Wednesday ahead of a high-stakes trilateral summit with Russian President Vladimir Putin and China's leader Xi Pinging on Thursday. The meeting has sparked fears that the three men could decide the fate of Ukraine ",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 23,
-   "ago": 1,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "Euronews",
-    "CBS News",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.france24.com/en/asia-pacific/20261118-xi-putin-meet-ahead-of-historic-trump-trilateral-summit",
-   "img": "https://s.france24.com/media/display/aa91e2d0-e32f-11f1-b30f-c5c0357b2a0c/w:1024/p:16x9/2026-11-18T090704Z-1427120531-RC29QOAJQWRT-RTRMADP-3-APEC-SUMMIT-TRUMP-ARRIVAL.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 6,
-   "lat": 39.83,
-   "lon": -99.23,
-   "place": "США",
-   "place_en": "United States",
-   "id": 4,
-   "t_en": "Trump arrives in China ahead of historic three-way summit with Putin, Xi",
-   "x_en": "US President Donald Trump arrived in China on Wednesday ahead of a high-stakes trilateral summit with Russian President Vladimir Putin and China's leader Xi Pinging on Thursday. The meeting has sparked fears that the three men could decide the fate of Ukraine "
-  },
-  {
-   "t": "APEC summit: What Trump, Xi and Putin want",
-   "x": "Trump, Xi and Putin will hold their first trilateral meeting on the sidelines of APEC. With different priorities on trade, Ukraine, Iran and arms control, what does each leader hope to gain?",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 86,
-   "ten": 30,
-   "ago": 23,
-   "s": [
-    "DW",
-    "NPR",
-    "Euronews",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-rdf",
-   "img": "https://images.euronews.com/articles/stories/09/99/73/93/696x392_cmsv2_a1c8f66b-0382-527e-a799-6eb39efaef33-9997393.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 6,
-   "lat": 39.13,
-   "lon": -97.48,
-   "place": "США",
-   "place_en": "United States",
-   "id": 5,
-   "t_en": "APEC summit: What Trump, Xi and Putin want",
-   "x_en": "Trump, Xi and Putin will hold their first trilateral meeting on the sidelines of APEC. With different priorities on trade, Ukraine, Iran and arms control, what does each leader hope to gain?"
-  },
-  {
-   "t": "Israeli parliament elects Eisenkot ally Matan Kahana as speaker in blow for Netanyahu",
-   "x": "The Israeli parliament on Tuesday elected as new speaker an ally of Gadi Eisenkot, the party leader currently working to form the next government and replace current Israeli Prime Minister Benjamin Netanyahu. Matan Kahana, a former special forces soldier, is e",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 85,
-   "ten": 40,
-   "ago": 42,
-   "s": [
-    "France 24",
-    "The Guardian",
-    "Middle East Eye",
-    "Africanews",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/middle-east/20261117-%F0%9F%94%B4-israeli-parliament-elects-eisenkot-ally-matan-kahana-as-speaker",
-   "img": "https://s.france24.com/media/display/855e62f8-e290-11f1-bec3-6d75ed565170/w:1024/p:16x9/AP26321467242182.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 6,
-   "lat": 31.75,
-   "lon": 35.42,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 6,
-   "t_en": "Israeli parliament elects Eisenkot ally Matan Kahana as speaker in blow for Netanyahu",
-   "x_en": "The Israeli parliament on Tuesday elected as new speaker an ally of Gadi Eisenkot, the party leader currently working to form the next government and replace current Israeli Prime Minister Benjamin Netanyahu. Matan Kahana, a former special forces soldier, is e"
-  },
-  {
-   "t": "Iran says army targets U.S. drone and missile sites in Kuwait as Gulf attacks mount",
-   "x": "Iran said its army targeted U.S. drone and missile installations at Kuwait's Ali Al Salem air base, extending a run of attacks on Gulf states.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 82,
-   "ten": 91,
-   "ago": 41,
-   "s": [
-    "CNBC",
-    "Middle East Eye",
-    "The Hindu"
-   ],
-   "u": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html",
-   "img": "https://th-i.thgim.com/public/incoming/vxcdcx/article71715064.ece/alternates/LANDSCAPE_1200/US_Bases_Struck_77413.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 3,
    "lat": 32.84,
    "lon": 52.9,
    "place": "Иран",
    "place_en": "Iran",
-   "id": 7,
+   "id": 1,
    "t_en": "Iran says army targets U.S. drone and missile sites in Kuwait as Gulf attacks mount",
    "x_en": "Iran said its army targeted U.S. drone and missile installations at Kuwait's Ali Al Salem air base, extending a run of attacks on Gulf states."
+  },
+  {
+   "t": "What has happened to the $18bn pledged to Trump’s Board of Peace for Gaza?",
+   "x": "Billions have been pledged for Gaza since a 2025 'ceasefire', but rebuilding hasn’t begun and Israeli attacks continue.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 89,
+   "ten": 48,
+   "ago": 19,
+   "s": [
+    "Al Jazeera",
+    "Dawn",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss",
+   "img": "https://i.dawn.com/large/2026/11/181900391414053.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 4,
+   "lat": 31.66,
+   "lon": 34.43,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 2,
+   "t_en": "What has happened to the $18bn pledged to Trump’s Board of Peace for Gaza?",
+   "x_en": "Billions have been pledged for Gaza since a 2025 'ceasefire', but rebuilding hasn’t begun and Israeli attacks continue."
+  },
+  {
+   "t": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+   "x": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 32,
+   "ago": 12,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "NPR",
+    "CNBC",
+    "Euronews",
+    "NYT",
+    "CBS News",
+    "CNA",
+    "Africanews",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a9fb/live/b2707bf0-e349-11f1-99aa-0f40b013ad11.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 13,
+   "lat": 39.21,
+   "lon": -98.11,
+   "place": "США",
+   "place_en": "United States",
+   "id": 3,
+   "t_en": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+   "x_en": "The three leaders will meet together for the first time on Thursday during a closely-watched summit."
+  },
+  {
+   "t": "Xi and Putin meet ahead of planned summit with Trump",
+   "x": "Xi Jinping and Vladimir Putin meet in Shenzhen ahead of a rare trilateral summit with Donald Trump, focusing on energy, finance and global security.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 34,
+   "ago": 12,
+   "s": [
+    "Euronews",
+    "NYT",
+    "CBS News",
+    "Yonhap",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.euronews.com/video/2026/11/18/xi-and-putin-meet-ahead-of-planned-summit-with-trump",
+   "img": "https://images.euronews.com/articles/stories/09/99/73/93/696x392_cmsv2_a1c8f66b-0382-527e-a799-6eb39efaef33-9997393.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 6,
+   "lat": 61.28,
+   "lon": 93.99,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 4,
+   "t_en": "Xi and Putin meet ahead of planned summit with Trump",
+   "x_en": "Xi Jinping and Vladimir Putin meet in Shenzhen ahead of a rare trilateral summit with Donald Trump, focusing on energy, finance and global security."
+  },
+  {
+   "t": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+   "x": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 88,
+   "ten": 40,
+   "ago": 18,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "Euronews",
+    "Dawn",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/128f/live/04ac0df0-e366-11f1-9f51-4bfc31543510.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 10,
+   "lat": 38.44,
+   "lon": -97.9,
+   "place": "США",
+   "place_en": "United States",
+   "id": 5,
+   "t_en": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+   "x_en": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January."
+  },
+  {
+   "t": "Xi welcomes Trump to China ahead of high-stakes Putin meeting",
+   "x": "President Xi Jinping personally greeted US counterpart Donald Trump on the tarmac at a Chinese airport on Wednesday, with the two leaders briefly hugging ahead of their highly anticipated meeting with Russia's Vladimir Putin. Beijing has indicated the war in U",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 87,
+   "ten": 32,
+   "ago": 16,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "CNBC",
+    "Politico EU"
+   ],
+   "u": "https://www.france24.com/en/video/20261118-xi-welcomes-trump-to-china-ahead-of-high-stakes-putin-meeting",
+   "img": "https://s.france24.com/media/display/3a938192-e35b-11f1-9d9c-1ba7ddfab527/w:1024/p:16x9/EN-20261118-143132-143324-CS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 4,
+   "lat": 40.05,
+   "lon": -99.73,
+   "place": "США",
+   "place_en": "United States",
+   "id": 6,
+   "t_en": "Xi welcomes Trump to China ahead of high-stakes Putin meeting",
+   "x_en": "President Xi Jinping personally greeted US counterpart Donald Trump on the tarmac at a Chinese airport on Wednesday, with the two leaders briefly hugging ahead of their highly anticipated meeting with Russia's Vladimir Putin. Beijing has indicated the war in U"
+  },
+  {
+   "t": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+   "x": "Iranian attacks on the Gulf countries draw condemnation from across the region.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 87,
+   "ten": 82,
+   "ago": 77,
+   "s": [
+    "Al Jazeera",
+    "Euronews",
+    "CBS News",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/09/99/68/65/696x392_cmsv2_46e3b43f-b36f-5ed7-a24f-e48ad47709b4-9996865.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 4,
+   "lat": 26.36,
+   "lon": 49.9,
+   "place": "Бахрейн",
+   "place_en": "Bahrain",
+   "id": 7,
+   "t_en": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
+   "x_en": "Iranian attacks on the Gulf countries draw condemnation from across the region."
+  },
+  {
+   "t": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+   "x": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 83,
+   "ten": 87,
+   "ago": 124,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "Fox News",
+    "Kyiv Independent"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 61.86,
+   "lon": 93.46,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 8,
+   "t_en": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+   "x_en": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan."
   },
   {
    "t": "South Korea’s high-stakes university exams upended by AI cheating scandal",
@@ -369,329 +399,193 @@
    "lon": 129.12,
    "place": "Южная Корея",
    "place_en": "South Korea",
-   "id": 8,
+   "id": 9,
    "t_en": "South Korea’s high-stakes university exams upended by AI cheating scandal",
    "x_en": "South Korea has been gripped by revelations of AI-aided cheating, just days before more than half a million students are to sit high-stakes entrance exams The integrity of South Korea’s career-defining university entrance exam has been thrown into doubt after "
   },
   {
-   "t": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
-   "x": "Asif Merchant, allegedly linked to Iran, found by court to have sought retribution over Qassem Suleimani death A Pakistani man was sentenced to more than 27 years in prison on Tuesday for plotting to assassinate Donald Trump in retaliation for the US killing o",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 80,
-   "ten": 92,
-   "ago": 54,
-   "s": [
-    "The Guardian",
-    "Dawn",
-    "The Hindu"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
-   "img": "https://i.guim.co.uk/img/media/470133f77dd96a905faa69a723f46914cdfdc04a/94_0_2813_2250/master/2813.jpg?width=700&quality=85&auto=format&fit=max&s=bdb6e2381c46bb9c1409d99316e77351",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 30.32,
-   "lon": 70.35,
-   "place": "Пакистан",
-   "place_en": "Pakistan",
-   "id": 9,
-   "t_en": "Pakistani man sentenced to 27 years in US prison over Trump murder plot",
-   "x_en": "Asif Merchant, allegedly linked to Iran, found by court to have sought retribution over Qassem Suleimani death A Pakistani man was sentenced to more than 27 years in prison on Tuesday for plotting to assassinate Donald Trump in retaliation for the US killing o"
-  },
-  {
-   "t": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
-   "x": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main rationale for launching the Iran war.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 79,
-   "ten": 78,
-   "ago": 150,
-   "s": [
-    "CNBC",
-    "Euronews",
-    "CNA",
-    "Middle East Eye"
-   ],
-   "u": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html",
-   "img": "https://images.euronews.com/articles/stories/09/99/53/41/696x392_cmsv2_ba07d66a-d293-5dec-9f91-6ede92843417-9995341.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 4,
-   "lat": 38.9,
-   "lon": -99.22,
-   "place": "США",
-   "place_en": "United States",
-   "id": 10,
-   "t_en": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
-   "x_en": "\"This is why they can't have a nuclear weapon,\" Trump added, reiterating his main rationale for launching the Iran war."
-  },
-  {
-   "t": "Trump seeks diplomatic gains on Asia tour as Putin arrives in China",
-   "x": "US President Donald Trump said he was eyeing one-on-one talks with Russian President Vladimir Putin and North Korean leader Kim Jong Un at the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 76,
-   "ten": 29,
-   "ago": 15,
-   "s": [
-    "CNA",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/donald-trump-asia-tour-vladimir-putin-china-6560741",
-   "img": "https://dam.mediacorp.sg/image/upload/s--6NFvXlsn--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/18/000_d7qh7uw_0.jpg?itok=VXcpP5nq",
-   "img_src": "CNA",
-   "fresh": true,
-   "n": 3,
-   "lat": 38.95,
-   "lon": -99.44,
-   "place": "США",
-   "place_en": "United States",
-   "id": 11,
-   "t_en": "Trump seeks diplomatic gains on Asia tour as Putin arrives in China",
-   "x_en": "US President Donald Trump said he was eyeing one-on-one talks with Russian President Vladimir Putin and North Korean leader Kim Jong Un at the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen."
-  },
-  {
-   "t": "Democrats win Alaska Senate race two weeks after midterms counting began",
-   "x": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 75,
-   "ten": 39,
-   "ago": 133,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "France 24",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8202/live/39cdb760-dc7a-11f1-b23d-9526db010e6c.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 6,
-   "lat": 39.46,
-   "lon": -99.12,
-   "place": "США",
-   "place_en": "United States",
-   "id": 12,
-   "t_en": "Democrats win Alaska Senate race two weeks after midterms counting began",
-   "x_en": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election."
-  },
-  {
-   "t": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
-   "x": "The US secretary of state was speaking after Microsoft, major banks, and the National Security Agency were all affected by technical failures in recent days US secretary of state Marco Rubio has sought to assure Americans that there’s “zero” information that t",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 74,
-   "ten": 40,
-   "ago": 44,
-   "s": [
-    "The Guardian",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
-   "img": "https://i.guim.co.uk/img/media/d8053b9038ce3a18aaa3b2cbcffef1cb0d77b18b/475_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=4c8d3c89763413fdafc3e95f4e662516",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 39.03,
-   "lon": -99.93,
-   "place": "США",
-   "place_en": "United States",
-   "id": 13,
-   "t_en": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
-   "x_en": "The US secretary of state was speaking after Microsoft, major banks, and the National Security Agency were all affected by technical failures in recent days US secretary of state Marco Rubio has sought to assure Americans that there’s “zero” information that t"
-  },
-  {
-   "t": "Bahrain intercepts Iranian drones targeting US radar after 2-month lull in Gulf strikes",
-   "x": "Iran's IRGC claims it struck a U.S. radar system at the Sheikh Isa base in Bahrain, home to the Fifth Fleet, the third attack in five days after a lull.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 74,
-   "ten": 82,
-   "ago": 97,
-   "s": [
-    "Fox News",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.foxnews.com/world/bahrain-intercepts-iranian-drones-targeting-us-radar-after-2-month-lull-gulf-strikes",
-   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/11/931/523/iranian-drone.jpg?ve=1&tl=1",
-   "img_src": "Fox News",
-   "fresh": false,
-   "n": 3,
-   "lat": 25.04,
-   "lon": 49.84,
-   "place": "Бахрейн",
-   "place_en": "Bahrain",
-   "id": 14,
-   "t_en": "Bahrain intercepts Iranian drones targeting US radar after 2-month lull in Gulf strikes",
-   "x_en": "Iran's IRGC claims it struck a U.S. radar system at the Sheikh Isa base in Bahrain, home to the Fifth Fleet, the third attack in five days after a lull."
-  },
-  {
-   "t": "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia",
-   "x": "Ukraine struck the Kerch Bridge linking Russia to annexed Crimea for a second consecutive night, forcing its closure. Ukrainian President Volodymyr Zelenskyy described the operation as unprecedented, saying it had been prepared over several weeks.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 72,
-   "ten": 57,
-   "ago": 79,
-   "s": [
-    "Euronews",
-    "NYT",
-    "The Hindu"
-   ],
-   "u": "https://www.euronews.com/2026/11/17/moment-ukrainian-drones-strike-the-kerch-bridge-linking-crimea-to-russia",
-   "img": "https://images.euronews.com/articles/stories/09/99/60/27/696x392_cmsv2_cf2f6abd-53c7-5672-88b9-8aeb3dfad54d-9996027.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": 45.07,
-   "lon": 34.13,
-   "place": "Крым",
-   "place_en": "Crimea",
-   "id": 15,
-   "t_en": "Moment Ukrainian drones strike the Kerch Bridge linking Crimea to Russia",
-   "x_en": "Ukraine struck the Kerch Bridge linking Russia to annexed Crimea for a second consecutive night, forcing its closure. Ukrainian President Volodymyr Zelenskyy described the operation as unprecedented, saying it had been prepared over several weeks."
-  },
-  {
-   "t": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
-   "x": "Republican incumbent beaten in race dominated by controversy over second candidate named Dan Sullivan Democrat Mary Peltola will be Alaska’s next senator after beating the Republican incumbent Dan Sullivan, with the result called two weeks on from midterm elec",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 72,
-   "ten": 35,
-   "ago": 154,
-   "s": [
-    "The Guardian",
-    "CNBC",
-    "Euronews",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
-   "img": "https://i.guim.co.uk/img/media/26047ac7aaea06d3566acb1692bec5cbc39658e1/96_0_2846_2278/master/2846.jpg?width=700&quality=85&auto=format&fit=max&s=340660d575fe7b9f47fad5fa2a88c513",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 5,
-   "lat": 39.95,
-   "lon": -99.75,
-   "place": "США",
-   "place_en": "United States",
-   "id": 16,
-   "t_en": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
-   "x_en": "Republican incumbent beaten in race dominated by controversy over second candidate named Dan Sullivan Democrat Mary Peltola will be Alaska’s next senator after beating the Republican incumbent Dan Sullivan, with the result called two weeks on from midterm elec"
-  },
-  {
-   "t": "‘We want to go back’: Rohingya refugees pin hopes on ICJ genocide verdict",
-   "x": "After almost a decade in exile, they're hoping the ICJ rules in their favour. But will that help them get back home?",
+   "t": "Grand Theft Auto 6 is a masterpiece, say critics",
+   "x": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype.",
    "r": "Мир",
    "c": "Общее",
-   "imp": 70,
-   "ten": 70,
-   "ago": 17,
-   "s": [
-    "Al Jazeera",
-    "The Diplomat"
-   ],
-   "u": "https://www.aljazeera.com/features/2026/11/18/we-want-to-go-back-rohingya-refugees-pin-hopes-on-icj-genocide-verdict?traffic_source=rss",
-   "img": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-17-110708.jpg",
-   "img_src": "The Diplomat",
-   "fresh": true,
-   "n": 2,
-   "lat": 52.34,
-   "lon": 4.37,
-   "place": "Гаага",
-   "place_en": "The Hague",
-   "id": 17,
-   "t_en": "‘We want to go back’: Rohingya refugees pin hopes on ICJ genocide verdict",
-   "x_en": "After almost a decade in exile, they're hoping the ICJ rules in their favour. But will that help them get back home?"
-  },
-  {
-   "t": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-   "x": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 70,
-   "ten": 80,
-   "ago": 301,
+   "imp": 80,
+   "ten": 40,
+   "ago": 1,
    "s": [
     "BBC",
-    "Al Jazeera",
-    "The Guardian",
+    "Nikkei Asia",
     "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d277/live/17a72100-e286-11f1-a094-5fdc692f3e33.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/29a1/live/fdfec1e0-e2b7-11f1-a094-5fdc692f3e33.jpg",
    "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 32.04,
-   "lon": 35.16,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 18,
-   "t_en": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-   "x_en": "Palestinians say there was an attack by settlers in al-Duyuk al-Tahta, while the Israeli military says the settlers fired after being attacked."
+   "fresh": true,
+   "n": 3,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 10,
+   "t_en": "Grand Theft Auto 6 is a masterpiece, say critics",
+   "x_en": "Critics have their say as to whether GTA 6, the most anticipated video game of all time, lives up to the hype."
   },
   {
-   "t": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-   "x": "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 69,
-   "ten": 43,
+   "t": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+   "x": "Nvidia's interim CEO Colette Kress calmed investors. Now she has to calm employees.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 79,
+   "ten": 37,
    "ago": 1,
    "s": [
     "CNBC",
-    "Japan Times"
+    "Nikkei Asia",
+    "The Hindu"
    ],
-   "u": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/18/thumbs/400x400/574754.jpg",
-   "img_src": "Japan Times",
+   "u": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html",
+   "img": "https://th-i.thgim.com/public/incoming/3kou7l/article71714334.ece/alternates/LANDSCAPE_1200/2026-11-17T191624Z_384802040_RC2ER4AT06N3_RTRMADP_3_NVIDIA-CEO-INSURANCE-LIABILITY.JPG",
+   "img_src": "The Hindu",
    "fresh": true,
    "n": 3,
-   "lat": 61.03,
-   "lon": 96.34,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 19,
-   "t_en": "Putin says EU is losing industry, falling behind competition, ahead of meeting with Trump and Xi",
-   "x_en": "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country."
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 11,
+   "t_en": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+   "x_en": "Nvidia's interim CEO Colette Kress calmed investors. Now she has to calm employees."
   },
   {
-   "t": "Trump says US is expanding defence cooperation with Philippines",
-   "x": "President Donald Trump said the US alliance with the Philippines has never been better.",
-   "r": "Америка",
+   "t": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+   "x": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones.",
+   "r": "Европа",
    "c": "Конфликты",
-   "imp": 69,
-   "ten": 20,
-   "ago": 55,
+   "imp": 77,
+   "ten": 80,
+   "ago": 64,
    "s": [
-    "CNA",
-    "Dawn",
+    "BBC",
+    "France 24",
+    "CBS News"
+   ],
+   "u": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7a52/live/a0e1e280-e36b-11f1-99b6-a35a62fa4264.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 48.5,
+   "lon": 32.18,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 12,
+   "t_en": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+   "x_en": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones."
+  },
+  {
+   "t": "Israel begins new military operation in Gaza",
+   "x": "Israeli tanks advanced in an area of the central Gaza Strip on Wednesday, witnesses said, and the Israeli military said its ​forces were targeting ‌Hamas infrastructure outside the \"Yellow Line\" that sets the boundary of the part of the enclave controlled by I",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 72,
+   "ten": 30,
+   "ago": 44,
+   "s": [
+    "France 24",
+    "Euronews",
     "Reuters"
    ],
-   "u": "https://www.channelnewsasia.com/asia/trump-us-expanding-defence-cooperation-philippines-6561271",
-   "img": "https://dam.mediacorp.sg/image/upload/s---aQKuPlN--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-18T034518Z_1_LYNXNPEMAH09C_RTROPTP_3_PHILIPPINES-USA-TRUMP.JPG?itok=YFwblEwR",
-   "img_src": "CNA",
+   "u": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza",
+   "img": "https://s.france24.com/media/display/8f0f71fe-e36a-11f1-82d9-1ba7ddfab527/w:1024/p:16x9/EN-20261118-170112-170442-CS.jpg",
+   "img_src": "France 24",
    "fresh": true,
+   "n": 4,
+   "lat": 31.53,
+   "lon": 34.32,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 13,
+   "t_en": "Israel begins new military operation in Gaza",
+   "x_en": "Israeli tanks advanced in an area of the central Gaza Strip on Wednesday, witnesses said, and the Israeli military said its ​forces were targeting ‌Hamas infrastructure outside the \"Yellow Line\" that sets the boundary of the part of the enclave controlled by I"
+  },
+  {
+   "t": "EU proposes fresh $49 billion loan for Ukraine as war costs mount",
+   "x": "The European Commission wants to raise a 45 billion euro loan for Ukraine to support its economy and war effort in 2027",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 66,
+   "ago": 98,
+   "s": [
+    "ABC News",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/eu-proposes-fresh-49-billion-loan-ukraine-war-138249084",
+   "img": "https://s.abcnews.com/images/International/wirestory_8c1baf00b55973a3534096aae2cc73a2_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
    "n": 3,
-   "lat": 39.1,
-   "lon": -99.36,
+   "lat": 50.72,
+   "lon": 3.92,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 14,
+   "t_en": "EU proposes fresh $49 billion loan for Ukraine as war costs mount",
+   "x_en": "The European Commission wants to raise a 45 billion euro loan for Ukraine to support its economy and war effort in 2027"
+  },
+  {
+   "t": "Bangladesh deploys paramilitary as unrest grows over Hasina's return",
+   "x": "Police have recorded dozens of crude bomb blasts and incidents of vehicles ​being torched in at least ‌28 districts over the last 10 days, with several police personnel and civilians injured, local media has reported",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 70,
+   "ago": 21,
+   "s": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.thehindu.com/news/international/bangladesh-deploys-paramilitary-as-unrest-grows-overhasinas-return/article71717353.ece",
+   "img": "https://th-i.thgim.com/public/incoming/efm0t6/article71717368.ece/alternates/LANDSCAPE_1200/TH14-PTI-BanglaG9DGQ3RS3.3.jpg.jpg",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": 23.79,
+   "lon": 90.7,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 15,
+   "t_en": "Bangladesh deploys paramilitary as unrest grows over Hasina's return",
+   "x_en": "Police have recorded dozens of crude bomb blasts and incidents of vehicles ​being torched in at least ‌28 districts over the last 10 days, with several police personnel and civilians injured, local media has reported"
+  },
+  {
+   "t": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration",
+   "x": "The first lawsuit by strike survivors targets a secretive U.S. military campaign that has killed more than 240 people.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 93,
+   "ago": 43,
+   "s": [
+    "NYT",
+    "Washington Post"
+   ],
+   "u": "https://www.nytimes.com/2026/11/17/world/americas/trump-us-boat-strikes-lawsuit-ecuador-fishermen.html",
+   "img": "https://static01.nyt.com/images/2026/11/17/multimedia/17int-boat-srikes-lawsuit-jvkc/17int-boat-srikes-lawsuit-jvkc-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.17,
+   "lon": -98.95,
    "place": "США",
    "place_en": "United States",
-   "id": 20,
-   "t_en": "Trump says US is expanding defence cooperation with Philippines",
-   "x_en": "President Donald Trump said the US alliance with the Philippines has never been better."
+   "id": 16,
+   "t_en": "Ecuadorean Fishermen Who Survived U.S. Boat Strike Sue Trump Administration",
+   "x_en": "The first lawsuit by strike survivors targets a secretive U.S. military campaign that has killed more than 240 people."
   },
   {
    "t": "US moves to curb China's remote access to AI chips after Nvidia scandal",
-   "x": "Nvidia’s provision of chips to companies running data centres in Southeast Asia has come under the spotlight amid questions surrounding founder Jensen Huang’s relationship with Alice Huang, the CEO of one such Singapore-based company, Megaspeed",
+   "x": "Рейтер",
    "r": "Азия",
    "c": "Наука",
    "imp": 68,
@@ -699,198 +593,303 @@
    "ago": 1,
    "s": [
     "Nikkei Asia",
-    "The Hindu"
-   ],
-   "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
-   "img": "https://th-i.thgim.com/public/incoming/rb94e2/article71711937.ece/alternates/LANDSCAPE_1200/iStock-2258598400.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 35.08,
-   "lon": 102.4,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 21,
-   "t_en": "US moves to curb China's remote access to AI chips after Nvidia scandal",
-   "x_en": "Nvidia’s provision of chips to companies running data centres in Southeast Asia has come under the spotlight amid questions surrounding founder Jensen Huang’s relationship with Alice Huang, the CEO of one such Singapore-based company, Megaspeed"
-  },
-  {
-   "t": "Iran ramps up retaliation on Gulf countries after U.S. strikes",
-   "x": "Iran appears to be ramping up retaliatory attacks against U.S. allies in the Gulf, as Bahrain and Kuwait claimed that they intercepted strikes.",
-   "r": "Ближний Восток",
-   "c": "Общее",
-   "imp": 68,
-   "ten": 74,
-   "ago": 40,
-   "s": [
-    "CBS News",
     "Reuters"
    ],
-   "u": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/",
-   "img": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/11/18/edfd483c-3de9-4d0e-bc5d-fde9c05be0e7/thumbnail/1200x630/b879f62e2e23efebf0b288761f8fbcdd/gettyimages-1701828933.jpg",
-   "img_src": "CBS News (og)",
+   "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F1%2F2%2F0%2F13450216-3-eng-GB%2Ff13d97836b39-photo_SXM2026100900005919.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 2,
-   "lat": 32.65,
-   "lon": 53.23,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 22,
-   "t_en": "Iran ramps up retaliation on Gulf countries after U.S. strikes",
-   "x_en": "Iran appears to be ramping up retaliatory attacks against U.S. allies in the Gulf, as Bahrain and Kuwait claimed that they intercepted strikes."
+   "lat": 39.58,
+   "lon": -99.14,
+   "place": "США",
+   "place_en": "United States",
+   "id": 17,
+   "t_en": "US moves to curb China's remote access to AI chips after Nvidia scandal",
+   "x_en": "Reuters"
   },
   {
-   "t": "Italy approves anti-semitism law despite concerns over freedom of expression",
-   "x": "Italy's ​parliament on Tuesday approved a new bill aimed at combating anti-semitism – which lists some forms of criticism of ⁠Israel as examples of anti-semitic conduct – despite concerns that it could limit freedom of expression and advocacy for Palestinian r",
-   "r": "Европа",
-   "c": "Политика",
+   "t": "Ethiopia, Eritrea amass forces along border, heightening war fears: Sources",
+   "x": "The fighting in Tigray has stoked fears of a ​wider conflagration in the Horn of Africa, with Ethiopia’s government also accusing Sudan, which is in the midst of its own civil war, and Egypt of backing the rebels; Eritrea, Sudan, Egypt ⁠all deny doing so",
+   "r": "Африка",
+   "c": "Конфликты",
    "imp": 68,
-   "ten": 43,
-   "ago": 95,
+   "ten": 78,
+   "ago": 41,
    "s": [
-    "France 24",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.france24.com/en/europe/20261118-italy-approves-anti-semitism-law-despite-concerns-over-freedom-of-expression",
-   "img": "https://s.france24.com/media/display/8ca81bd0-e321-11f1-98b5-6d75ed565170/w:1024/p:16x9/AP26321718278404.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 43.08,
-   "lon": 11.82,
-   "place": "Италия",
-   "place_en": "Italy",
-   "id": 23,
-   "t_en": "Italy approves anti-semitism law despite concerns over freedom of expression",
-   "x_en": "Italy's ​parliament on Tuesday approved a new bill aimed at combating anti-semitism – which lists some forms of criticism of ⁠Israel as examples of anti-semitic conduct – despite concerns that it could limit freedom of expression and advocacy for Palestinian r"
-  },
-  {
-   "t": "UAE company says 11 wounded, one missing after vessel attacked in Hormuz Strait",
-   "x": "The Abu Dhabi National Oil Company (ADNOC) said that one of its vessels was attacked while transiting the Strait of Hormuz late on Tuesday. According to the UAE-based company, 11 crew members have been wounded, while another person remains missing. ADNOC said ",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 66,
-   "ten": 74,
-   "ago": 57,
-   "s": [
-    "Middle East Eye",
-    "The Hindu"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/uae-company-says-11-wounded-one-missing-after-vessel-attacked-hormuz",
-   "img": "https://th-i.thgim.com/public/incoming/xfjn7j/article71714333.ece/alternates/LANDSCAPE_1200/20261110278L.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 26.52,
-   "lon": 56.22,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 24,
-   "t_en": "UAE company says 11 wounded, one missing after vessel attacked in Hormuz Strait",
-   "x_en": "The Abu Dhabi National Oil Company (ADNOC) said that one of its vessels was attacked while transiting the Strait of Hormuz late on Tuesday. According to the UAE-based company, 11 crew members have been wounded, while another person remains missing. ADNOC said "
-  },
-  {
-   "t": "Trump’s ‘trade deal’ with Thailand is not a done deal.",
-   "x": "A factory in Rayong, Thailand, earlier this year. Thailand was initially hit with a 36 percent tariff by the Trump administration last year.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 66,
-   "ten": 32,
-   "ago": 94,
-   "s": [
-    "NYT",
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit/trumps-trade-deal-with-thailand-is-not-a-done-deal",
-   "img": "https://static01.nyt.com/images/2026/11/17/multimedia/17trump-summits-thailand-trade-vzqk/17trump-summits-thailand-trade-vzqk-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.53,
-   "lon": -98.09,
-   "place": "США",
-   "place_en": "United States",
-   "id": 25,
-   "t_en": "Trump’s ‘trade deal’ with Thailand is not a done deal.",
-   "x_en": "A factory in Rayong, Thailand, earlier this year. Thailand was initially hit with a 36 percent tariff by the Trump administration last year."
+   "u": "https://www.thehindu.com/news/international/ethiopia-eritrea-amass-forces-along-border-heightening-war-fears-sources/article71717229.ece",
+   "img": "https://th-i.thgim.com/public/incoming/4rfxjx/article71717299.ece/alternates/LANDSCAPE_1200/2026-11-06T145536Z_438832642_RC28IOA268UD_RTRMADP_3_ETHIOPIA-SECURITY.JPG",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": 9.79,
+   "lon": 39.49,
+   "place": "Эфиопия",
+   "place_en": "Ethiopia",
+   "id": 18,
+   "t_en": "Ethiopia, Eritrea amass forces along border, heightening war fears: Sources",
+   "x_en": "The fighting in Tigray has stoked fears of a ​wider conflagration in the Horn of Africa, with Ethiopia’s government also accusing Sudan, which is in the midst of its own civil war, and Egypt of backing the rebels; Eritrea, Sudan, Egypt ⁠all deny doing so"
   },
   {
-   "t": "What is Trump hoping to achieve at APEC meeting in China?",
-   "x": "US president expected to meet with Chinese leader for third time this year; hold trilateral summit with Putin.",
+   "t": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "x": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 68,
+   "ten": 50,
+   "ago": 246,
+   "s": [
+    "BBC",
+    "CNBC",
+    "CBS News",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/42be/live/81981920-e2db-11f1-950d-ffe0c8f51f90.png",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.0,
+   "lon": -99.77,
+   "place": "США",
+   "place_en": "United States",
+   "id": 19,
+   "t_en": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "x_en": "The Metropolitan Police say he has been taken into custody by the US Military over suspected national security and espionage allegations."
+  },
+  {
+   "t": "Saudis prepare for Houthi war to last well into 2027",
+   "x": "Saudi and Yemeni forces are ​now reorganising, with plans to protect Aden from the Houthi advances and potentially shift their offensive to eastern fronts where they have made some advances or have at least held their lines",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 61,
+   "ago": 39,
+   "s": [
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.thehindu.com/news/international/saudis-prepare-for-houthi-war-to-last-well-into-2027/article71717227.ece",
+   "img": "https://th-i.thgim.com/public/incoming/bo4x2x/article71717318.ece/alternates/LANDSCAPE_1200/2026-11-16T054025Z_1530056383_RC2TOOAXD9QD_RTRMADP_3_IRAN-CRISIS-YEMEN.JPG",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": 15.46,
+   "lon": 44.58,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 20,
+   "t_en": "Saudis prepare for Houthi war to last well into 2027",
+   "x_en": "Saudi and Yemeni forces are ​now reorganising, with plans to protect Aden from the Houthi advances and potentially shift their offensive to eastern fronts where they have made some advances or have at least held their lines"
+  },
+  {
+   "t": "Democrat Mary Peltola wins Alaska Senate race in historic victory",
+   "x": "Democrat Mary Peltola won Alaska's US Senate race on Tuesday, projections from US media showed, defeating Republican incumbent Dan Sullivan and becoming the first Democrat to win a US ‌Senate seat in the state in nearly 20 years and the first Alaska Native eve",
    "r": "Америка",
    "c": "Политика",
    "imp": 66,
-   "ten": 49,
-   "ago": 128,
+   "ten": 35,
+   "ago": 244,
    "s": [
-    "Al Jazeera",
-    "Japan Times",
-    "Reuters"
+    "France 24",
+    "NPR",
+    "Euronews",
+    "The Hindu",
+    "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/18/what-is-trump-hoping-to-achieve-at-apec-meeting-in-china?traffic_source=rss",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/18/thumbs/400x400/574781.jpg",
-   "img_src": "Japan Times",
+   "u": "https://www.france24.com/en/video/20261118-democrat-mary-peltola-wins-alaska-senate-race-in-historic-victory",
+   "img": "https://s.france24.com/media/display/95341488-e354-11f1-996b-1ba7ddfab527/w:1024/p:16x9/EN-20261118-131131-131319-CS.jpg",
+   "img_src": "France 24",
    "fresh": false,
-   "n": 3,
-   "lat": 40.39,
-   "lon": -98.5,
+   "n": 5,
+   "lat": 38.35,
+   "lon": -98.22,
    "place": "США",
    "place_en": "United States",
-   "id": 26,
-   "t_en": "What is Trump hoping to achieve at APEC meeting in China?",
-   "x_en": "US president expected to meet with Chinese leader for third time this year; hold trilateral summit with Putin."
+   "id": 21,
+   "t_en": "Democrat Mary Peltola wins Alaska Senate race in historic victory",
+   "x_en": "Democrat Mary Peltola won Alaska's US Senate race on Tuesday, projections from US media showed, defeating Republican incumbent Dan Sullivan and becoming the first Democrat to win a US ‌Senate seat in the state in nearly 20 years and the first Alaska Native eve"
   },
   {
-   "t": "Multiple tech systems have been crashing. Here is how to protect yourself",
-   "x": "A string of high-profile tech outages has dominated headlines in recent days after causing major travel delays, global work outages, reports of inaccessible bank accounts, and even the NSA saying Tuesday it “experienced temporary degradation” during scheduled ",
-   "r": "Мир",
-   "c": "Экономика",
+   "t": "ICJ to rule on Rohingya genocide case against Myanmar: What to know",
+   "x": "The ICJ is set to decide whether Myanmar's military operations in Rakhine State a decade ago were carried out with the intent to destroy the country's Rohingya minority, in whole or in part.",
+   "r": "Азия",
+   "c": "Политика",
    "imp": 64,
-   "ten": 40,
-   "ago": 33,
+   "ten": 83,
+   "ago": 217,
    "s": [
-    "Dawn",
-    "Reuters"
+    "DW",
+    "NYT",
+    "ABC News"
    ],
-   "u": "https://www.dawn.com/news/2045401/multiple-tech-systems-have-been-crashing-here-is-how-to-protect-yourself",
-   "img": "https://i.dawn.com/large/2026/11/18132438b1531ad.webp",
-   "img_src": "Dawn",
+   "u": "https://www.dw.com/en/icj-to-rule-on-rohingya-genocide-case-against-myanmar-what-to-know/a-79981434?maca=en-rss-en-world-4025-rdf",
+   "img": "https://static01.nyt.com/images/2026/11/18/multimedia/18int-myanmar-icj-wtk-mtwg/18int-myanmar-icj-wtk-mtwg-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 3,
+   "lat": 52.06,
+   "lon": 4.09,
+   "place": "Гаага",
+   "place_en": "The Hague",
+   "id": 22,
+   "t_en": "ICJ to rule on Rohingya genocide case against Myanmar: What to know",
+   "x_en": "The ICJ is set to decide whether Myanmar's military operations in Rakhine State a decade ago were carried out with the intent to destroy the country's Rohingya minority, in whole or in part."
+  },
+  {
+   "t": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
+   "x": "Asif Merchant was found guilty in March of trying to hire undercover FBI agents as hitmen to assassinate US officials, including the president.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 63,
+   "ten": 92,
+   "ago": 585,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Dawn",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4eb6/live/fc391e70-e2f6-11f1-99a1-253766e7ad8b.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 30.39,
+   "lon": 68.87,
+   "place": "Пакистан",
+   "place_en": "Pakistan",
+   "id": 23,
+   "t_en": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
+   "x_en": "Asif Merchant was found guilty in March of trying to hire undercover FBI agents as hitmen to assassinate US officials, including the president."
+  },
+  {
+   "t": "Man charged in connection to bomb threat at Illinois ethanol plant",
+   "x": "Andrew M Kozak, 41, pleaded not guilty to two charges in federal court after an explosive device was found at facility A 41-year-old man has been charged in connection to last week’s bomb threat at an ethanol plant in Peoria, Illinois. On Tuesday, the justice ",
+   "r": "Мир",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 95,
+   "ago": 27,
+   "s": [
+    "The Guardian"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/nov/18/illinois-ethanol-plant-bomb-threat-charges",
+   "img": "https://i.guim.co.uk/img/media/331ca93396a5c80784133ac7c3dfbd182ea9ca68/650_0_4618_3695/master/4618.jpg?width=700&quality=85&auto=format&fit=max&s=3a5cf7f36f6f2633ecc5458a900dce14",
+   "img_src": "The Guardian",
    "fresh": true,
-   "n": 2,
+   "n": 1,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 27,
-   "t_en": "Multiple tech systems have been crashing. Here is how to protect yourself",
-   "x_en": "A string of high-profile tech outages has dominated headlines in recent days after causing major travel delays, global work outages, reports of inaccessible bank accounts, and even the NSA saying Tuesday it “experienced temporary degradation” during scheduled "
+   "id": 24,
+   "t_en": "Man charged in connection to bomb threat at Illinois ethanol plant",
+   "x_en": "Andrew M Kozak, 41, pleaded not guilty to two charges in federal court after an explosive device was found at facility A 41-year-old man has been charged in connection to last week’s bomb threat at an ethanol plant in Peoria, Illinois. On Tuesday, the justice "
   },
   {
-   "t": "UK inflation rises to 3.6% after petrol and diesel prices hit record high",
-   "x": "Increase in October piles pressure on households as Iran war pushes up oil cost and rattles global economy Energy bills in Great Britain forecast to rise by 26% to £2,166 from January Business live – latest updates Inflation in the UK rose to 3.6% in October a",
-   "r": "Европа",
-   "c": "Экономика",
-   "imp": 63,
-   "ten": 70,
-   "ago": 75,
+   "t": "UN nuclear watchdog says US-Saudi nuclear agreement 'satisfactory'",
+   "x": "UN nuclear watchdog head Rafael Grossi on Wednesday welcomed a deal between the United States and Saudi Arabia on equipping the kingdom with a civilian nuclear programme. The deal announced in July has provoked questions about the risks of nuclear proliferatio",
+   "r": "Ближний Восток",
+   "c": "Общее",
+   "imp": 62,
+   "ten": 61,
+   "ago": 68,
    "s": [
-    "The Guardian",
-    "CNBC"
+    "Dawn",
+    "The Hindu"
    ],
-   "u": "https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil",
-   "img": "https://i.guim.co.uk/img/media/8ae5d123fc8871ebf2d020abb219f5c9483c3014/969_14_6501_5202/master/6501.jpg?width=700&quality=85&auto=format&fit=max&s=f5d2e12ce8d93c328a70837b7aac1a8c",
-   "img_src": "The Guardian",
+   "u": "https://www.dawn.com/news/2045429/un-nuclear-watchdog-says-us-saudi-nuclear-agreement-satisfactory",
+   "img": "https://i.dawn.com/large/2026/11/181811533ebc4b6.webp",
+   "img_src": "Dawn",
    "fresh": false,
    "n": 2,
-   "lat": 54.63,
-   "lon": -3.03,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
+   "lat": 39.82,
+   "lon": -97.66,
+   "place": "США",
+   "place_en": "United States",
+   "id": 25,
+   "t_en": "UN nuclear watchdog says US-Saudi nuclear agreement 'satisfactory'",
+   "x_en": "UN nuclear watchdog head Rafael Grossi on Wednesday welcomed a deal between the United States and Saudi Arabia on equipping the kingdom with a civilian nuclear programme. The deal announced in July has provoked questions about the risks of nuclear proliferatio"
+  },
+  {
+   "t": "New anti-regime protests erupt in flashpoint Iranian city",
+   "x": "A protest sparked by a deadly bus crash in a western Iranian city turned into a new anti-regime protest with hundreds chanting \"Death to the dictator.\"",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 88,
+   "ago": 104,
+   "s": [
+    "Euronews",
+    "Fox News"
+   ],
+   "u": "https://www.euronews.com/2026/11/17/new-anti-regime-protests-erupt-in-flashpoint-iranian-city",
+   "img": "https://images.euronews.com/articles/stories/09/99/66/87/696x392_cmsv2_42b8d24c-d5d0-5fd6-a1b0-034c970a150f-9996687.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 2,
+   "lat": 31.63,
+   "lon": 54.46,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 26,
+   "t_en": "New anti-regime protests erupt in flashpoint Iranian city",
+   "x_en": "A protest sparked by a deadly bus crash in a western Iranian city turned into a new anti-regime protest with hundreds chanting \"Death to the dictator.\""
+  },
+  {
+   "t": "Protesters call for regime change in Iran following deadly crash that killed 13 oil and gas workers",
+   "x": "Hundreds take to the streets in western Iran after 13 oil workers are killed, with demonstrations escalating into political protests against Tehran's leadership.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 84,
+   "ago": 106,
+   "s": [
+    "Fox News",
+    "AP"
+   ],
+   "u": "https://www.foxnews.com/world/protesters-call-regime-change-iran-following-deadly-crash-killed-13-oil-gas-workers",
+   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/iranians-block-street.jpg?ve=1&tl=1",
+   "img_src": "Fox News",
+   "fresh": false,
+   "n": 2,
+   "lat": 32.36,
+   "lon": 54.67,
+   "place": "Иран",
+   "place_en": "Iran",
+   "id": 27,
+   "t_en": "Protesters call for regime change in Iran following deadly crash that killed 13 oil and gas workers",
+   "x_en": "Hundreds take to the streets in western Iran after 13 oil workers are killed, with demonstrations escalating into political protests against Tehran's leadership."
+  },
+  {
+   "t": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+   "x": "Workers are demanding a minimum monthly wage of 30,000 takas (€215), up from 12,500 takas (€89) and say rising living costs have eroded their purchasing power.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 63,
+   "ago": 199,
+   "s": [
+    "Euronews",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.euronews.com/2026/11/18/police-in-bangladesh-clash-with-garment-workers-demanding-higher-minimum-wages",
+   "img": "https://images.euronews.com/articles/stories/09/99/79/04/696x392_cmsv2_e830c484-b9df-5c62-860a-fc8eb9a0f491-9997904.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": 24.04,
+   "lon": 89.98,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
    "id": 28,
-   "t_en": "UK inflation rises to 3.6% after petrol and diesel prices hit record high",
-   "x_en": "Increase in October piles pressure on households as Iran war pushes up oil cost and rattles global economy Energy bills in Great Britain forecast to rise by 26% to £2,166 from January Business live – latest updates Inflation in the UK rose to 3.6% in October a"
+   "t_en": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+   "x_en": "Workers are demanding a minimum monthly wage of 30,000 takas (€215), up from 12,500 takas (€89) and say rising living costs have eroded their purchasing power."
   },
   {
    "t": "Godzilla director Yamazaki brings Hiroshima atomic bombing to screen",
@@ -917,6 +916,57 @@
    "x_en": ""
   },
   {
+   "t": "Five EU nations to deport migrants to Rwanda",
+   "x": "Five European countries are looking to Rwanda to host rejected asylum seekers.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 61,
+   "ten": 28,
+   "ago": 40,
+   "s": [
+    "Al Jazeera",
+    "CBS News"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/18/five-eu-nations-to-deport-migrants-to-rwanda?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795017927.jpg?resize=1920%2C1080&quality=80",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 50.52,
+   "lon": 4.51,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 30,
+   "t_en": "Five EU nations to deport migrants to Rwanda",
+   "x_en": "Five European countries are looking to Rwanda to host rejected asylum seekers."
+  },
+  {
+   "t": "North Korea expanded uranium enrichment plant, says IAEA head",
+   "x": "IAEA chief Rafael Grossi has said the ongoing expansion of North Korea's uranium enrichment program remains \"a cause for serious concern.\"",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 61,
+   "ten": 46,
+   "ago": 169,
+   "s": [
+    "DW",
+    "France 24",
+    "Reuters"
+   ],
+   "u": "https://www.dw.com/en/north-korea-expanded-uranium-enrichment-plant-says-iaea-head/a-79982758?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.france24.com/media/display/7f75f314-e354-11f1-b7f3-c5c0357b2a0c/w:1024/p:16x9/000-B4XF9KF.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.91,
+   "lon": 127.42,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 31,
+   "t_en": "North Korea expanded uranium enrichment plant, says IAEA head",
+   "x_en": "IAEA chief Rafael Grossi has said the ongoing expansion of North Korea's uranium enrichment program remains \"a cause for serious concern.\""
+  },
+  {
    "t": "Japan eyes state-backed plants to lift drone, ammunition output in crises",
    "x": "",
    "r": "Азия",
@@ -936,85 +986,111 @@
    "lon": 139.63,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 30,
+   "id": 32,
    "t_en": "Japan eyes state-backed plants to lift drone, ammunition output in crises",
    "x_en": ""
   },
   {
-   "t": "Russian military plane crashes, killing all 19 on board",
-   "x": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region.",
+   "t": "Latest news bulletin | November 18th, 2026 – Evening",
+   "x": "Catch up with the most important stories from around Europe and beyond this November 18th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
    "r": "Европа",
-   "c": "Конфликты",
+   "c": "Общее",
    "imp": 60,
-   "ten": 66,
-   "ago": 99,
+   "ten": 40,
+   "ago": 64,
    "s": [
-    "BBC",
+    "Euronews",
+    "Africanews"
+   ],
+   "u": "https://www.euronews.com/video/2026/11/18/latest-news-bulletin-november-18th-2026-evening",
+   "img": "https://images.euronews.com/articles/stories/09/99/84/63/696x392_cmsv2_465b51fa-5f3f-5eb2-9239-af74566672fd-9998463.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 5,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 33,
+   "t_en": "Latest news bulletin | November 18th, 2026 – Evening",
+   "x_en": "Catch up with the most important stories from around Europe and beyond this November 18th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel."
+  },
+  {
+   "t": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
+   "x": "President Trump plans to discuss Ukraine with the leaders of Russia and China. He has halted some sanctions on Russia and announced that the United States will buy Russian diesel.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 60,
+   "ten": 54,
+   "ago": 201,
+   "s": [
+    "NYT",
+    "Africanews",
+    "Times of India"
+   ],
+   "u": "https://www.nytimes.com/2026/11/18/us/politics/trump-putin-ukraine-war.html",
+   "img": "https://static01.nyt.com/images/2026/10/28/multimedia/18dc-trump-putin/28int-ukraine-pipes-grid-hp-02-mgvl-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 3,
+   "lat": 60.39,
+   "lon": 95.04,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 34,
+   "t_en": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
+   "x_en": "President Trump plans to discuss Ukraine with the leaders of Russia and China. He has halted some sanctions on Russia and announced that the United States will buy Russian diesel."
+  },
+  {
+   "t": "Israel delays building contracts for West Bank settlement after UK sanctions",
+   "x": "Attorney general says E1 settlement decision should not be taken by caretaker government led by Netanyahu Israel has postponed issuing contracts for the construction of a large settlement on the West Bank seen as likely to render a two-state solution unviable,",
+   "r": "Ближний Восток",
+   "c": "Экономика",
+   "imp": 60,
+   "ten": 68,
+   "ago": 239,
+   "s": [
+    "The Guardian",
+    "Sky News",
     "The Hindu"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3ead/live/4d71a050-e2bb-11f1-b083-69f1e69220f8.jpg",
+   "u": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+   "img": "https://i.guim.co.uk/img/media/3b267577fe18325ce20cce7e2fbe3114054210c2/0_0_4583_3667/master/4583.jpg?width=700&quality=85&auto=format&fit=max&s=1e59a94e9ed6014afe3d6dec5f181ed3",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 31.99,
+   "lon": 35.49,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 35,
+   "t_en": "Israel delays building contracts for West Bank settlement after UK sanctions",
+   "x_en": "Attorney general says E1 settlement decision should not be taken by caretaker government led by Netanyahu Israel has postponed issuing contracts for the construction of a large settlement on the West Bank seen as likely to render a two-state solution unviable,"
+  },
+  {
+   "t": "Waymo pulls driverless taxis from all US freeways",
+   "x": "The decision comes after California banned Waymo's driverless vehicles from operating on the state's highways following a series of traffic incidents.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 40,
+   "ago": 69,
+   "s": [
+    "BBC",
+    "Euronews"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/80ea/live/d55939e0-e31c-11f1-99a1-253766e7ad8b.jpg",
    "img_src": "BBC",
    "fresh": false,
    "n": 2,
-   "lat": 61.25,
-   "lon": 94.27,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 31,
-   "t_en": "Russian military plane crashes, killing all 19 on board",
-   "x_en": "Russia's defence ministry says it preliminarily believes a technical malfunction was the cause of the crash in the Kemerovo region."
-  },
-  {
-   "t": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
-   "x": "Ukrainian drones and missiles struck the Kerch Bridge linking Russia to occupied Crimean, Ukrainian President Volodymyr Zelenskyy said, as Russia reported its forces downed Ukrainian drones.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 95,
-   "ago": 316,
-   "s": [
-    "NPR",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5159x3439+0+0/resize/5159x3439!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F8b%2F74%2F39dd43ac4231836e0610c7161cfb%2Fap26320380275705.jpg",
-   "img_src": "NPR",
-   "fresh": false,
-   "n": 3,
-   "lat": 49.37,
-   "lon": 30.95,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 32,
-   "t_en": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
-   "x_en": "Ukrainian drones and missiles struck the Kerch Bridge linking Russia to occupied Crimean, Ukrainian President Volodymyr Zelenskyy said, as Russia reported its forces downed Ukrainian drones."
-  },
-  {
-   "t": "US, Mexico and Bolivia lose measles-free status as deaths mount",
-   "x": "The US has lost its measles-free status, international health officials said Tuesday, as the highly contagious virus has spread at the fastest rate in more than 30 years, while Mexico and Bolivia also lost their measles-elimination status. Vaccination rates ha",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 59,
-   "ten": 44,
-   "ago": 72,
-   "s": [
-    "France 24",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/americas/20261117-us-mexico-and-bolivia-lose-measles-free-status-as-deaths-mount",
-   "img": "https://s.france24.com/media/display/74a1392a-3f8b-11f1-af77-005056bf30b7/w:1024/p:16x9/AP26096555305099.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 2,
-   "lat": 39.72,
-   "lon": -98.8,
+   "lat": 39.65,
+   "lon": -99.91,
    "place": "США",
    "place_en": "United States",
-   "id": 33,
-   "t_en": "US, Mexico and Bolivia lose measles-free status as deaths mount",
-   "x_en": "The US has lost its measles-free status, international health officials said Tuesday, as the highly contagious virus has spread at the fastest rate in more than 30 years, while Mexico and Bolivia also lost their measles-elimination status. Vaccination rates ha"
+   "id": 36,
+   "t_en": "Waymo pulls driverless taxis from all US freeways",
+   "x_en": "The decision comes after California banned Waymo's driverless vehicles from operating on the state's highways following a series of traffic incidents."
   },
   {
    "t": "Japan logs trade deficit for 6th straight month in October",
@@ -1036,111 +1112,60 @@
    "lon": 139.22,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 34,
+   "id": 37,
    "t_en": "Japan logs trade deficit for 6th straight month in October",
    "x_en": ""
   },
   {
-   "t": "China’s Xi pitches free trade at APEC amid Trump’s global trade disruptions",
-   "x": "The president says Beijing seeks to provide a 'stable, predictable and beneficial environment for global enterprises'.",
+   "t": "Trump cites military aid, nuclear power in Manila meeting with Marcos",
+   "x": "",
    "r": "Азия",
-   "c": "Экономика",
+   "c": "Конфликты",
    "imp": 58,
-   "ten": 28,
-   "ago": 68,
-   "s": [
-    "Al Jazeera",
-    "France 24"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/18/xis-pitch-for-free-trade-amid-trumps-global-trade-disruptions?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/6c27aea8-e2f8-11f1-acc5-ff16da94d1fe/w:1024/p:16x9/b8a39c56a6822b99f0824e38b60014e799bb99fe.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 2,
-   "lat": 34.48,
-   "lon": 101.98,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 35,
-   "t_en": "China’s Xi pitches free trade at APEC amid Trump’s global trade disruptions",
-   "x_en": "The president says Beijing seeks to provide a 'stable, predictable and beneficial environment for global enterprises'."
-  },
-  {
-   "t": "White House pulls nomination of Heidi Overton to lead Food and Drug Administration – as it happened",
-   "x": "This live blog is now closed. White House withdraws nomination of Heidi Overton to lead FDA Sign up for US Breaking News email Abdul El-Sayed , the Democratic-Senator elect from Michigan, said today that he would be happy to work with the Trump administration ",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 40,
-   "ago": 204,
-   "s": [
-    "The Guardian",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
-   "img": "https://i.guim.co.uk/img/media/959d5fcd8e2a8580b1a2bf0b86946895bbf3daf4/335_0_4499_3601/master/4499.jpg?width=700&quality=85&auto=format&fit=max&s=1c84d8bb5448e61f00fe9c6d23e66400",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 38.99,
-   "lon": -76.68,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 36,
-   "t_en": "White House pulls nomination of Heidi Overton to lead Food and Drug Administration – as it happened",
-   "x_en": "This live blog is now closed. White House withdraws nomination of Heidi Overton to lead FDA Sign up for US Breaking News email Abdul El-Sayed , the Democratic-Senator elect from Michigan, said today that he would be happy to work with the Trump administration "
-  },
-  {
-   "t": "Want Cash Out of Your Home? Here Are Your Best Options",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
+   "ten": 48,
    "ago": 1,
    "s": [
-    "CNN"
+    "Nikkei Asia"
    ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=cashoutoptions_housemoneystack&placement_name=sectionfronts&ad_headline=cashoutoptions&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "https://cdn.cnn.com/cnnnext/dam/assets/221020124036-lendingtree-housemoneystack-super-169.jpg",
-   "img_src": "CNN",
-   "fresh": true,
-   "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 37,
-   "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
-   "x_en": ""
-  },
-  {
-   "t": "Dream Big with a Home Equity Loan",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.lendingtree.com/?splitterid=home-equity&cproduct=he&cchannel=content&csource=cnn&cmethod=heform&ccreative=dreambighomeequity_housemoneystack&placement_name=sectionfronts&ad_headline=dreambighomeequity&ad_image_name=housemoneystack&ctype=sectionfronts&bdst=revshare&mtaid=AC53E&esourceid=6348616",
-   "img": "",
-   "img_src": "",
+   "u": "https://asia.nikkei.com/politics/international-relations/trump-cites-military-aid-nuclear-power-in-manila-meeting-with-marcos",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F3%2F3%2F7%2F13457332-1-eng-GB%2F42f21be0aa5b-2026-11-18T035837Z_724742781_RC23QOAL7TOL_RTRMADP_3_PHILIPPINES-USA-TRUMP.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "lat": 14.65,
+   "lon": 120.82,
+   "place": "Манила",
+   "place_en": "Manila",
    "id": 38,
-   "t_en": "Dream Big with a Home Equity Loan",
+   "t_en": "Trump cites military aid, nuclear power in Manila meeting with Marcos",
    "x_en": ""
   },
   {
-   "t": "Эксперты: это лучшая карта с кэшбэком 2022 года",
+   "t": "AI forces Vietnam's FPT Software to shift from hourly billing model",
+   "x": "",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/spotlight/global-management-dialogue/global-management-dialogue-2026/ai-forces-vietnam-s-fpt-software-to-shift-from-hourly-billing-model2",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F0%2F4%2F7%2F13427400-1-eng-GB%2F4f004f8e6d64-photo_SXM2026111000008963d.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 15.77,
+   "lon": 106.61,
+   "place": "Вьетнам",
+   "place_en": "Vietnam",
+   "id": 39,
+   "t_en": "AI forces Vietnam's FPT Software to shift from hourly billing model",
+   "x_en": ""
+  },
+  {
+   "t": "Sri Lanka's Dissanayake weighs fresh IMF financial arrangement",
    "x": "",
    "r": "Мир",
    "c": "Общее",
@@ -1148,51 +1173,23 @@
    "ten": 40,
    "ago": 1,
    "s": [
-    "CNN"
+    "Nikkei Asia"
    ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/wells-fargo-active-cash-card-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-welac2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
+   "u": "https://asia.nikkei.com/economy/sri-lanka-s-dissanayake-weighs-fresh-imf-financial-arrangement",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F1%2F7%2F8%2F13448710-1-eng-GB%2F91fa9747f7ab-2026-11-12T100450Z_851926716_RC28MOANVT7N_RTRMADP_3_SRILANKA-ECONOMY-BUDGET.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 39,
-   "t_en": "Experts: this is the best cash back card of 2022",
-   "x_en": ""
-  },
-  {
-   "t": "Это официально: теперь избегайте процентов по кредитным картам в 2024 году",
-   "x": "",
-   "r": "Мир",
-   "c": "Экономика",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "CNN"
-   ],
-   "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
-   "img_src": "CNN (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "lat": 7.36,
+   "lon": 80.15,
+   "place": "Шри-Ланка",
+   "place_en": "Sri Lanka",
    "id": 40,
-   "t_en": "It's official: now avoid credit card interest into 2024",
+   "t_en": "Sri Lanka's Dissanayake weighs fresh IMF financial arrangement",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1794912285199,
-   "v": 49
-  },
   {
    "t": 1794943549055,
    "v": 49
@@ -1204,131 +1201,135 @@
   {
    "t": 1794993177365,
    "v": 49
+  },
+  {
+   "t": 1795025064023,
+   "v": 48
   }
  ],
  "timeline": [
   {
-   "t": 1794906777365,
-   "v": 50,
+   "t": 1794938664023,
+   "v": 58,
+   "n": 21
+  },
+  {
+   "t": 1794942264023,
+   "v": 59,
+   "n": 21
+  },
+  {
+   "t": 1794945864023,
+   "v": 58,
+   "n": 26
+  },
+  {
+   "t": 1794949464023,
+   "v": 58,
    "n": 30
   },
   {
-   "t": 1794910377365,
-   "v": 50,
-   "n": 43
+   "t": 1794953064023,
+   "v": 51,
+   "n": 30
   },
   {
-   "t": 1794913977365,
-   "v": 53,
-   "n": 56
-  },
-  {
-   "t": 1794917577365,
-   "v": 52,
-   "n": 54
-  },
-  {
-   "t": 1794921177365,
-   "v": 53,
-   "n": 50
-  },
-  {
-   "t": 1794924777365,
-   "v": 49,
-   "n": 40
-  },
-  {
-   "t": 1794928377365,
+   "t": 1794956664023,
    "v": 54,
-   "n": 35
+   "n": 25
   },
   {
-   "t": 1794931977365,
-   "v": 57,
-   "n": 46
+   "t": 1794960264023,
+   "v": 51,
+   "n": 20
   },
   {
-   "t": 1794935577365,
-   "v": 59,
-   "n": 56
+   "t": 1794963864023,
+   "v": 53,
+   "n": 19
   },
   {
-   "t": 1794939177365,
-   "v": 58,
-   "n": 56
+   "t": 1794967464023,
+   "v": 47,
+   "n": 23
   },
   {
-   "t": 1794942777365,
-   "v": 59,
-   "n": 48
+   "t": 1794971064023,
+   "v": 48,
+   "n": 36
   },
   {
-   "t": 1794946377365,
-   "v": 58,
-   "n": 49
+   "t": 1794974664023,
+   "v": 45,
+   "n": 63
   },
   {
-   "t": 1794949977365,
-   "v": 58,
-   "n": 58
-  },
-  {
-   "t": 1794953577365,
-   "v": 50,
+   "t": 1794978264023,
+   "v": 44,
    "n": 70
   },
   {
-   "t": 1794957177365,
+   "t": 1794981864023,
+   "v": 44,
+   "n": 83
+  },
+  {
+   "t": 1794985464023,
+   "v": 44,
+   "n": 79
+  },
+  {
+   "t": 1794989064023,
+   "v": 45,
+   "n": 81
+  },
+  {
+   "t": 1794992664023,
+   "v": 48,
+   "n": 79
+  },
+  {
+   "t": 1794996264023,
    "v": 50,
-   "n": 73
-  },
-  {
-   "t": 1794960777365,
-   "v": 46,
-   "n": 71
-  },
-  {
-   "t": 1794964377365,
-   "v": 46,
    "n": 74
   },
   {
-   "t": 1794967977365,
-   "v": 44,
-   "n": 85
+   "t": 1794999864023,
+   "v": 48,
+   "n": 92
   },
   {
-   "t": 1794971577365,
-   "v": 46,
-   "n": 105
+   "t": 1795003464023,
+   "v": 47,
+   "n": 98
   },
   {
-   "t": 1794975177365,
-   "v": 45,
+   "t": 1795007064023,
+   "v": 47,
    "n": 123
   },
   {
-   "t": 1794978777365,
-   "v": 45,
-   "n": 127
-  },
-  {
-   "t": 1794982377365,
-   "v": 45,
+   "t": 1795010664023,
+   "v": 48,
    "n": 138
   },
   {
-   "t": 1794985977365,
+   "t": 1795014264023,
+   "v": 49,
+   "n": 170
+  },
+  {
+   "t": 1795017864023,
+   "v": 49,
+   "n": 166
+  },
+  {
+   "t": 1795021464023,
    "v": 46,
-   "n": 145
+   "n": 186
   },
   {
-   "t": 1794989577365,
-   "v": 45,
-   "n": 169
-  },
-  {
-   "t": 1794993177365,
+   "t": 1795025064023,
    "v": 44,
    "n": 120
   }
@@ -1336,7 +1337,7 @@
  "feeds": [
   {
    "n": "BBC",
-   "items": 25
+   "items": 33
   },
   {
    "n": "Al Jazeera",
@@ -1344,7 +1345,7 @@
   },
   {
    "n": "DW",
-   "items": 11
+   "items": 10
   },
   {
    "n": "France 24",
@@ -1352,19 +1353,19 @@
   },
   {
    "n": "The Guardian",
-   "items": 38
+   "items": 37
   },
   {
    "n": "Sky News",
-   "items": 5
+   "items": 6
   },
   {
    "n": "NPR",
-   "items": 7
+   "items": 10
   },
   {
    "n": "UN News",
-   "items": 6
+   "items": 0
   },
   {
    "n": "CNBC",
@@ -1372,7 +1373,7 @@
   },
   {
    "n": "Euronews",
-   "items": 32
+   "items": 40
   },
   {
    "n": "NYT",
@@ -1380,15 +1381,15 @@
   },
   {
    "n": "Washington Post",
-   "items": 8
+   "items": 13
   },
   {
    "n": "CBS News",
-   "items": 19
+   "items": 25
   },
   {
    "n": "ABC News",
-   "items": 23
+   "items": 25
   },
   {
    "n": "CNN",
@@ -1396,11 +1397,11 @@
   },
   {
    "n": "Fox News",
-   "items": 13
+   "items": 14
   },
   {
    "n": "ABC Australia",
-   "items": 19
+   "items": 16
   },
   {
    "n": "CNA",
@@ -1412,7 +1413,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 20
+   "items": 0
   },
   {
    "n": "Arab News",
@@ -1420,7 +1421,7 @@
   },
   {
    "n": "Africanews",
-   "items": 21
+   "items": 32
   },
   {
    "n": "Kyiv Independent",
@@ -1436,11 +1437,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 13
+   "items": 12
   },
   {
    "n": "Dawn",
-   "items": 26
+   "items": 28
   },
   {
    "n": "Times of India",
@@ -1468,7 +1469,9 @@
   }
  ],
  "failed": [
+  "UN News",
   "Times of Israel",
+  "Middle East Eye",
   "Arab News"
  ]
 }

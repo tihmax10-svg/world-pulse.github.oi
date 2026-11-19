@@ -1,38 +1,42 @@
 {
- "updated": 1795073509154,
+ "updated": 1795106723682,
  "demo": false,
- "total_articles": 711,
- "second_delta": 2,
+ "total_articles": 748,
+ "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 53
+   "v": 48
   },
   {
    "n": "Al Jazeera",
-   "v": 47
+   "v": 52
   },
   {
    "n": "DW",
-   "v": 46
+   "v": 47
   },
   {
    "n": "France 24",
-   "v": 50
+   "v": 46
   },
   {
    "n": "The Guardian",
-   "v": 53
+   "v": 47
   },
   {
    "n": "Sky News",
-   "v": 38
+   "v": 47
   },
   {
    "n": "NPR",
-   "v": 46
+   "v": 51
+  },
+  {
+   "n": "UN News",
+   "v": 66
   },
   {
    "n": "CNBC",
@@ -44,19 +48,19 @@
   },
   {
    "n": "NYT",
-   "v": 46
-  },
-  {
-   "n": "Washington Post",
-   "v": 52
-  },
-  {
-   "n": "CBS News",
    "v": 55
   },
   {
+   "n": "Washington Post",
+   "v": 54
+  },
+  {
+   "n": "CBS News",
+   "v": 51
+  },
+  {
    "n": "ABC News",
-   "v": 56
+   "v": 57
   },
   {
    "n": "CNN",
@@ -64,27 +68,31 @@
   },
   {
    "n": "Fox News",
-   "v": 68
+   "v": 72
   },
   {
    "n": "ABC Australia",
-   "v": 46
+   "v": 43
   },
   {
    "n": "CNA",
-   "v": 42
+   "v": 50
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 71
   },
   {
    "n": "Africanews",
-   "v": 46
+   "v": 49
   },
   {
    "n": "Kyiv Independent",
-   "v": 54
+   "v": 60
   },
   {
    "n": "Yonhap",
-   "v": 39
+   "v": 43
   },
   {
    "n": "Nikkei Asia",
@@ -96,49 +104,49 @@
   },
   {
    "n": "Dawn",
-   "v": 47
+   "v": 43
   },
   {
    "n": "Times of India",
-   "v": 39
-  },
-  {
-   "n": "The Hindu",
-   "v": 50
-  },
-  {
-   "n": "Politico EU",
-   "v": 33
-  },
-  {
-   "n": "Japan Times",
    "v": 45
   },
   {
-   "n": "Reuters",
+   "n": "The Hindu",
+   "v": 51
+  },
+  {
+   "n": "Politico EU",
    "v": 41
   },
   {
-   "n": "AP",
+   "n": "Japan Times",
+   "v": 42
+  },
+  {
+   "n": "Reuters",
    "v": 44
+  },
+  {
+   "n": "AP",
+   "v": 46
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 49
+   "v": 47
   },
   {
    "n": "Ближний Восток",
-   "v": 59
+   "v": 66
   },
   {
    "n": "Азия",
-   "v": 43
+   "v": 50
   },
   {
    "n": "Африка",
-   "v": 49
+   "v": 46
   },
   {
    "n": "Америка",
@@ -147,524 +155,619 @@
  ],
  "events": [
   {
-   "t": "Grand Theft Auto VI launches to rave reviews after 13-year wait",
-   "x": "Critics hail GTA 6 as a 'masterpiece', 'spectacular', and an 'astonishing American epic'.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 91,
-   "ten": 40,
-   "ago": 1,
+   "t": "Верховный суд ООН признал Мьянму виновной в геноциде рохинджа",
+   "x": "Это постановление знаменует собой первый случай, когда Международный Суд признал государство ответственным за геноцид.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 97,
+   "ten": 87,
+   "ago": 7,
    "s": [
     "Al Jazeera",
-    "Nikkei Asia",
+    "DW",
+    "France 24",
+    "NPR",
+    "UN News",
+    "Euronews",
+    "CBS News",
+    "ABC News",
+    "CNA",
     "Dawn",
+    "The Hindu",
     "Japan Times",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait?traffic_source=rss",
-   "img": "https://i.dawn.com/large/2026/11/1911300913dd0be.webp",
-   "img_src": "Dawn",
+   "u": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide?traffic_source=rss",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7626x5084+0+0/resize/7626x5084!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F36%2F3b%2F65170ca542b4b8f2a8692418a464%2Fgettyimages-2305284448.jpg",
+   "img_src": "NPR",
    "fresh": true,
-   "n": 5,
-   "lat": 39.58,
-   "lon": -98.99,
-   "place": "США",
-   "place_en": "United States",
+   "n": 15,
+   "lat": 20.73,
+   "lon": 95.68,
+   "place": "Мьянма",
+   "place_en": "Myanmar",
    "id": 1,
-   "t_en": "Grand Theft Auto VI launches to rave reviews after 13-year wait",
-   "x_en": "Critics hail GTA 6 as a 'masterpiece', 'spectacular', and an 'astonishing American epic'."
+   "t_en": "UN’s top court finds Myanmar guilty of genocide against Rohingya",
+   "x_en": "The ruling marks the first time a state has been found responsible for genocide by the International Court of Justice."
   },
   {
-   "t": "Democrats win Alaska Senate race two weeks after midterms counting began",
-   "x": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election.",
-   "r": "Америка",
+   "t": "What the ICJ genocide ruling means for the Rohingya people",
+   "x": "Это первый случай, когда суд постановил, что государство совершило геноцид.",
+   "r": "Азия",
    "c": "Политика",
-   "imp": 91,
-   "ten": 40,
-   "ago": 1,
+   "imp": 95,
+   "ten": 83,
+   "ago": 13,
+   "s": [
+    "Al Jazeera",
+    "DW",
+    "France 24",
+    "NYT",
+    "Middle East Eye"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/92ec7f8c-e406-11f1-8385-6d75ed565170/w:1024/p:16x9/EN-20261119-111234-111441-CS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 5,
+   "lat": 52.11,
+   "lon": 4.81,
+   "place": "Гаага",
+   "place_en": "The Hague",
+   "id": 2,
+   "t_en": "What the ICJ genocide ruling means for the Rohingya people",
+   "x_en": "This is the first time the court has ruled that a state committed genocide."
+  },
+  {
+   "t": "Мьянма совершила геноцид против меньшинства рохинджа, постановил высший суд ООН",
+   "x": "Беспрецедентный вердикт Международного суда касается военных репрессий 2017 года, в результате которых погибли тысячи людей.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 94,
+   "ten": 85,
+   "ago": 26,
    "s": [
     "BBC",
-    "Sky News",
-    "Euronews",
-    "Nikkei Asia"
+    "Al Jazeera",
+    "France 24",
+    "The Guardian",
+    "NYT",
+    "Washington Post",
+    "Africanews",
+    "The Hindu",
+    "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4f32/live/4c690550-e33c-11f1-99b6-a35a62fa4264.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d789/live/7c1a8b30-e435-11f1-99b6-a35a62fa4264.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 4,
-   "lat": 39.46,
-   "lon": -99.12,
-   "place": "США",
-   "place_en": "United States",
-   "id": 2,
-   "t_en": "Democrats win Alaska Senate race two weeks after midterms counting began",
-   "x_en": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election."
-  },
-  {
-   "t": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
-   "x": "Xi opened the APEC summit in Shenzhen by calling for lower trade and investment barriers, pledging broader access to China’s market and manufacturing sector.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 89,
-   "ten": 25,
-   "ago": 1,
-   "s": [
-    "CNBC",
-    "Euronews",
-    "CNA",
-    "Africanews",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
-   "img": "https://images.euronews.com/articles/stories/09/99/73/93/696x392_cmsv2_a1c8f66b-0382-527e-a799-6eb39efaef33-9997393.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 5,
-   "lat": 34.31,
-   "lon": 103.89,
-   "place": "Китай",
-   "place_en": "China",
+   "n": 11,
+   "lat": 20.39,
+   "lon": 96.86,
+   "place": "Мьянма",
+   "place_en": "Myanmar",
    "id": 3,
-   "t_en": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
-   "x_en": "Xi opened the APEC summit in Shenzhen by calling for lower trade and investment barriers, pledging broader access to China’s market and manufacturing sector."
+   "t_en": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "x_en": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands."
   },
   {
-   "t": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
-   "x": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting.",
-   "r": "Азия",
+   "t": "Саммит Трампа, Си Цзиньпина и Путина: в чем суть?",
+   "x": "Дональд Трамп покинул Китай после исторической первой встречи с Си Цзиньпином и Владимиром Путиным на полях саммита АТЭС. Украина обсуждалась без участия Киева или европейских лидеров, что вызвало удивление, хотя Трамп защищал диалог с Рио.",
+   "r": "Европа",
    "c": "Политика",
-   "imp": 89,
-   "ten": 39,
-   "ago": 15,
+   "imp": 93,
+   "ten": 27,
+   "ago": 7,
    "s": [
-    "NPR",
-    "CNBC",
+    "France 24",
     "Euronews",
-    "CBS News",
+    "NYT",
     "Africanews",
     "Yonhap",
-    "Dawn",
-    "The Hindu"
+    "Politico EU"
    ],
-   "u": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
-   "img": "https://images.euronews.com/articles/stories/09/99/88/61/696x392_cmsv2_239623f0-8413-5ff1-b3f9-48f104f76e41-9998861.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.france24.com/en/trump-xi-putin-summit-what-was-it-all-about",
+   "img": "https://s.france24.com/media/display/97e2df72-e429-11f1-807c-13439ca2fe89/w:1024/p:16x9/EN-20261119-151641-151854-CS.jpg",
+   "img_src": "France 24",
    "fresh": true,
-   "n": 11,
-   "lat": 39.92,
-   "lon": -98.2,
+   "n": 7,
+   "lat": 38.63,
+   "lon": -97.6,
    "place": "США",
    "place_en": "United States",
    "id": 4,
-   "t_en": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
-   "x_en": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting."
+   "t_en": "Trump, Xi, Putin summit: What was it all about?",
+   "x_en": "Donald Trump has left China after a historic first meeting with Xi Jinping and Vladimir Putin on the sidelines of the APEC summit. Ukraine was discussed without Kyiv or European leaders in the room, which raised eyebrows, though Trump defended dialogue with ri"
   },
   {
-   "t": "Iran ramps up attacks on Gulf countries after U.S. strikes",
-   "x": "America's Persian Gulf allies and oil tankers are under fire as Iran appears to lash out following U.S. strikes on a key island in the Strait of Hormuz.",
-   "r": "Америка",
-   "c": "Конфликты",
+   "t": "What to know about Xi, Putin and Trump's historic trilateral summit",
+   "x": "Председатель КНР Си Цзиньпин, президент России Владимир Путин и его американский коллега Дональд Трамп встретились в четверг на историческом саммите в Шэньчжэне, Китай, где они согласовали «мирную декларацию». Тройка лидеров пообещала реформировать ООН, увеличить поставки нефти",
+   "r": "Азия",
+   "c": "Политика",
    "imp": 87,
-   "ten": 92,
-   "ago": 6,
+   "ten": 37,
+   "ago": 26,
    "s": [
-    "CBS News",
-    "Fox News",
-    "The Hindu"
+    "France 24",
+    "CNBC",
+    "CNA",
+    "Africanews"
    ],
-   "u": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/",
-   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/kuwait-iran-us-air-force-jets.jpg?ve=1&tl=1",
-   "img_src": "Fox News",
+   "u": "https://www.france24.com/en/asia-pacific/20261119-what-to-know-about-xi-putin-and-trump-s-historic-trilateral-summit",
+   "img": "https://s.france24.com/media/display/1625fff6-e35b-11f1-9206-ff16da94d1fe/w:1024/p:16x9/2026-11-18T132731Z-1890202118-RC2BQOA4C91Q-RTRMADP-3-APEC-SUMMIT.jpg",
+   "img_src": "France 24",
    "fresh": true,
-   "n": 3,
-   "lat": 31.92,
-   "lon": 53.22,
-   "place": "Иран",
-   "place_en": "Iran",
+   "n": 5,
+   "lat": 60.57,
+   "lon": 95.16,
+   "place": "Россия",
+   "place_en": "Russia",
    "id": 5,
-   "t_en": "Iran ramps up attacks on Gulf countries after U.S. strikes",
-   "x_en": "America's Persian Gulf allies and oil tankers are under fire as Iran appears to lash out following U.S. strikes on a key island in the Strait of Hormuz."
+   "t_en": "What to know about Xi, Putin and Trump's historic trilateral summit",
+   "x_en": "China's Xi Jinping, Russian President Vladimir Putin and his US counterpart Donald Trump met for a historic summit in Shenzhen, China, on Thursday, where they agreed on a \"peace declaration\". The three leaders pledged to reform the UN, increase supplies of ref"
   },
   {
-   "t": "The Xi-Putin-Trump summit will not be a ‘new Yalta’",
-   "x": "The three leaders have divergent geopolitical goals and visions for the world order.",
+   "t": "Трамп, Путин и Си опубликовали «мирную декларацию» после исторической встречи",
+   "x": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 86,
-   "ten": 38,
-   "ago": 33,
+   "imp": 84,
+   "ten": 37,
+   "ago": 45,
    "s": [
-    "Al Jazeera",
-    "The Diplomat",
+    "BBC",
+    "The Guardian",
+    "CBS News",
+    "Fox News",
+    "Middle East Eye",
+    "Dawn"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1107/live/91612f50-e42e-11f1-99a1-253766e7ad8b.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 7,
+   "lat": 39.69,
+   "lon": -99.47,
+   "place": "США",
+   "place_en": "United States",
+   "id": 6,
+   "t_en": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+   "x_en": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion."
+  },
+  {
+   "t": "Саудовская Аравия осудила нападение хуситов на Эр-Рияд",
+   "x": "Министерство иностранных дел Саудовской Аравии заявило в четверг, что оно «не потерпит никакой агрессии, направленной против ее территории или активов» после ударов хуситов по финансовому району Эр-Рияда. В своем заявлении министерство осудило нападения как «целевые».",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 83,
+   "ten": 80,
+   "ago": 19,
+   "s": [
+    "Middle East Eye",
     "The Hindu",
     "Japan Times"
    ],
-   "u": "https://www.aljazeera.com/opinions/2026/11/19/the-xi-putin-trump-summit-will-not-be-a-new-yalta?traffic_source=rss",
-   "img": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-18-224658.jpg",
-   "img_src": "The Diplomat",
-   "fresh": true,
-   "n": 4,
-   "lat": 62.02,
-   "lon": 95.96,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 6,
-   "t_en": "The Xi-Putin-Trump summit will not be a ‘new Yalta’",
-   "x_en": "The three leaders have divergent geopolitical goals and visions for the world order."
-  },
-  {
-   "t": "Trump arrives in China for historic meeting with Xi, Putin",
-   "x": "President Donald Trump in Shenzhen for historic trilateral talks with Chinese leader Xi Jinping and Russia's Vladimir Putin.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 85,
-   "ten": 57,
-   "ago": 59,
-   "s": [
-    "CNBC",
-    "Euronews",
-    "CBS News",
-    "Fox News"
-   ],
-   "u": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
-   "img": "https://images.euronews.com/articles/stories/09/99/89/11/696x392_cmsv2_ff191d15-053d-56a7-a3cd-f84a78b15b00-9998911.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 4,
-   "lat": 39.26,
-   "lon": -98.17,
-   "place": "США",
-   "place_en": "United States",
-   "id": 7,
-   "t_en": "Trump arrives in China for historic meeting with Xi, Putin",
-   "x_en": "President Donald Trump in Shenzhen for historic trilateral talks with Chinese leader Xi Jinping and Russia's Vladimir Putin."
-  },
-  {
-   "t": "North Korea expanded uranium enrichment plant, says IAEA head",
-   "x": "IAEA chief Rafael Grossi has said the ongoing expansion of North Korea's uranium enrichment program remains \"a cause for serious concern.\"",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 83,
-   "ten": 63,
-   "ago": 2,
-   "s": [
-    "DW",
-    "Euronews",
-    "ABC News"
-   ],
-   "u": "https://www.dw.com/en/north-korea-expanded-uranium-enrichment-plant-says-iaea-head/a-79982758?maca=en-rss-en-world-4025-rdf",
-   "img": "https://images.euronews.com/articles/stories/09/99/90/87/696x392_cmsv2_8b9d877d-a644-50e4-935f-5f85e4689166-9999087.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-condemns-houthi-attacks-riyadh",
+   "img": "https://th-i.thgim.com/public/incoming/f390hc/article71721471.ece/alternates/LANDSCAPE_1200/2026-11-10T055023Z_2108993026_RC2RKOAD4OXA_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-RIYADH.JPG",
+   "img_src": "The Hindu",
    "fresh": true,
    "n": 3,
-   "lat": 39.91,
-   "lon": 127.42,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 8,
-   "t_en": "North Korea expanded uranium enrichment plant, says IAEA head",
-   "x_en": "IAEA chief Rafael Grossi has said the ongoing expansion of North Korea's uranium enrichment program remains \"a cause for serious concern.\""
+   "lat": 15.6,
+   "lon": 44.47,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 7,
+   "t_en": "Saudi Arabia condemns Houthi attacks on Riyadh",
+   "x_en": "Saudi Arabia's foreign ministry said on Thursday that it “will not tolerate any aggression directed against its territory or assets”, following Houthi strikes on Riyadh’s financial district. In a statement, the ministry condemned the attacks as having “targete"
   },
   {
-   "t": "China’s Xi greets Putin and Trump at APEC before historic summit",
-   "x": "Chinese President Xi Jinping greeted Donald Trump and Vladimir Putin at APEC summit.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 83,
-   "ten": 30,
-   "ago": 47,
-   "s": [
-    "Al Jazeera",
-    "NYT",
-    "CBS News",
-    "CNA",
-    "Kyiv Independent",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit?traffic_source=rss",
-   "img": "https://static01.nyt.com/images/2026/11/18/multimedia/18trump-summits-carousel-zzz-qglk/18trump-summits-carousel-zzz-qglk-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 8,
-   "lat": 34.09,
-   "lon": 103.04,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 9,
-   "t_en": "China’s Xi greets Putin and Trump at APEC before historic summit",
-   "x_en": "Chinese President Xi Jinping greeted Donald Trump and Vladimir Putin at APEC summit."
-  },
-  {
-   "t": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
-   "x": "Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.",
+   "t": "Ислам станет крупнейшей религией в мире к 2035 году, поскольку христианство также растет, говорится в исследовании",
+   "x": "Исследовательский центр Pew прогнозирует, что в период с 2020 по 2070 год число мусульман вырастет более чем на 80% и превысит 3,6 миллиарда, а количество христиан — на 30% и приблизится к 3 миллиардам.",
    "r": "Мир",
-   "c": "Экономика",
+   "c": "Наука",
    "imp": 83,
    "ten": 40,
-   "ago": 105,
+   "ago": 55,
    "s": [
-    "CNBC",
+    "Euronews",
+    "Africanews",
     "Dawn",
-    "Japan Times",
-    "Reuters"
+    "AP"
    ],
-   "u": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-   "img": "https://i.dawn.com/large/2026/11/191045238f213eb.webp",
-   "img_src": "Dawn",
-   "fresh": false,
+   "u": "https://www.euronews.com/2026/11/19/islam-to-become-worlds-largest-religion-by-2035-as-christianity-also-grows-study-says",
+   "img": "https://images.euronews.com/articles/stories/09/99/95/04/696x392_cmsv2_8e228187-1110-5009-ad39-c203df98f3ea-9999504.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
    "n": 4,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 10,
-   "t_en": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
-   "x_en": "Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday."
+   "id": 8,
+   "t_en": "Islam to become world's largest religion by 2035 as Christianity also grows, study says",
+   "x_en": "Pew Research Center has projected that both Islam and Christianity will grow between 2020 and 2070, with Muslims rising by more than 80% to over 3.6 billion and Christians by 30% to close to 3 billion."
   },
   {
-   "t": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-   "x": "No state has ever been found guilty by an international court of committing genocide.",
-   "r": "Азия",
+   "t": "Новая страница в истории? Саммит Си, Трампа и Путина был скорее сноской",
+   "x": "Вдали от грандиозных амбиций, провозглашенных в Ялте в 1945 году, Шэньчжэнь ощущался как встреча в поисках повестки дня. Возможно, это правда, учитывая, что это была первая подобная встреча лидеров Китая, России и США, что встреча в Шэньчжэне в четверг заслужила",
+   "r": "Европа",
    "c": "Политика",
-   "imp": 81,
-   "ten": 86,
-   "ago": 139,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "DW",
-    "ABC News",
-    "CNA",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/67fc/live/b89f41e0-e336-11f1-9479-d17d3e98c29d.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 7,
-   "lat": 22.14,
-   "lon": 96.05,
-   "place": "Мьянма",
-   "place_en": "Myanmar",
-   "id": 11,
-   "t_en": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-   "x_en": "No state has ever been found guilty by an international court of committing genocide."
-  },
-  {
-   "t": "South Korea’s high-stakes university exams upended by AI cheating scandal",
-   "x": "South Korea has been gripped by revelations of AI-aided cheating, just days before more than half a million students are to sit high-stakes entrance exams The integrity of South Korea’s career-defining university entrance exam has been thrown into doubt after ",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 80,
-   "ten": 40,
-   "ago": 1,
+   "imp": 83,
+   "ten": 49,
+   "ago": 70,
    "s": [
     "The Guardian",
-    "CNBC",
-    "Nikkei Asia"
+    "Euronews",
+    "CBS News",
+    "Africanews",
+    "Kyiv Independent"
    ],
-   "u": "https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures",
-   "img": "https://i.guim.co.uk/img/media/291cc6ecd5e65b702c8158243baa0233602cba73/501_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=e894d9bc510f6e4336e0e1e97d5ac095",
+   "u": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
+   "img": "https://i.guim.co.uk/img/media/82a515f04bc247c4248d7219eb825c2d67060618/1173_38_6573_5258/master/6573.jpg?width=700&quality=85&auto=format&fit=max&s=4df309ecc7781e6c8f1542fa405dc57e",
    "img_src": "The Guardian",
-   "fresh": true,
-   "n": 3,
-   "lat": 35.83,
-   "lon": 129.12,
-   "place": "Южная Корея",
-   "place_en": "South Korea",
-   "id": 12,
-   "t_en": "South Korea’s high-stakes university exams upended by AI cheating scandal",
-   "x_en": "South Korea has been gripped by revelations of AI-aided cheating, just days before more than half a million students are to sit high-stakes entrance exams The integrity of South Korea’s career-defining university entrance exam has been thrown into doubt after "
-  },
-  {
-   "t": "Parts of Bangladesh shut down in protests by Hasina's party, Yunus' home set ablaze",
-   "x": "Newspaper reports said rival activists, presumably belonging to Prime Minister Tarique Rahman's Bangladesh Nationalist Party (BNP), overnight attacked or set ablaze the residences of two Awami League leaders in Dhaka.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 80,
-   "ten": 54,
-   "ago": 12,
-   "s": [
-    "CNA",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/bangladesh-protets-sheikh-hasina-yunus-home-fire-6565011",
-   "img": "https://dam.mediacorp.sg/image/upload/s--qPacCoFS--/c_crop,h_449,w_799,x_1,y_56/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-19T055840Z_1_LYNXNPEMAI0GO_RTROPTP_3_BANGLADESH-POLITICS.JPG?itok=8BuvhP1r",
-   "img_src": "CNA",
-   "fresh": true,
-   "n": 3,
-   "lat": 24.69,
-   "lon": 89.99,
-   "place": "Бангладеш",
-   "place_en": "Bangladesh",
-   "id": 13,
-   "t_en": "Parts of Bangladesh shut down in protests by Hasina's party, Yunus' home set ablaze",
-   "x_en": "Newspaper reports said rival activists, presumably belonging to Prime Minister Tarique Rahman's Bangladesh Nationalist Party (BNP), overnight attacked or set ablaze the residences of two Awami League leaders in Dhaka."
-  },
-  {
-   "t": "Was China Sending a Musical Message to Japan’s Takaichi During APEC Welcome?",
-   "x": "A song chosen to welcome Sanae Takaichi at the APEC summit in Shenzhen grew out of protests against the American military presence in Japan.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 29,
-   "ago": 1,
-   "s": [
-    "NYT",
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "u": "https://www.nytimes.com/2026/11/18/world/asia/japan-china-takaichi-song-sukiyaki-apec.html",
-   "img": "https://static01.nyt.com/images/2026/11/19/19visualUploader-43868-cover/19visualUploader-43868-cover-mediumSquareAt3X-v2.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 3,
-   "lat": 34.57,
-   "lon": 102.4,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 14,
-   "t_en": "Was China Sending a Musical Message to Japan’s Takaichi During APEC Welcome?",
-   "x_en": "A song chosen to welcome Sanae Takaichi at the APEC summit in Shenzhen grew out of protests against the American military presence in Japan."
-  },
-  {
-   "t": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-   "x": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 75,
-   "ten": 40,
-   "ago": 134,
-   "s": [
-    "BBC",
-    "Al Jazeera",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3333/live/c9ef87a0-e3b5-11f1-ac8e-bf9cbaf16b78.jpg",
-   "img_src": "BBC",
    "fresh": false,
-   "n": 4,
-   "lat": 39.45,
-   "lon": -99.49,
+   "n": 5,
+   "lat": 39.54,
+   "lon": -98.89,
    "place": "США",
    "place_en": "United States",
-   "id": 15,
-   "t_en": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-   "x_en": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump."
+   "id": 9,
+   "t_en": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+   "x_en": "Far from the grand ambitions declared in Yalta in 1945, Shenzhen felt like a meeting in search of an agenda It is arguably true, given it was the first such meeting of the leaders of China, Russia and the US, that Thursday’s gathering in Shenzhen deserved the "
   },
   {
-   "t": "Miami court convicts US-Haitian pastor over 2021 assassination of president",
-   "x": "Prosecutors accused Christian Emmanuel Sanon of seeking to replace then-Haitian President Moise.",
+   "t": "Комиссия ЕС подтверждает, что на нее была совершена кибератака с использованием инструментов искусственного интеллекта",
+   "x": "Европейская комиссия стала объектом «киберкампании, созданной искусственным интеллектом», заявил представитель. Это первый раз, когда блок публично сообщил о кибератаке с использованием искусственного интеллекта.",
+   "r": "Европа",
+   "c": "Наука",
+   "imp": 81,
+   "ten": 66,
+   "ago": 107,
+   "s": [
+    "DW",
+    "ABC News",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.abcnews.com/images/International/wirestory_79705095e8141cd650196dbff1cf3c70_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 50.96,
+   "lon": 4.26,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 10,
+   "t_en": "EU Commission confirms it was targeted in cyberattack using AI tools",
+   "x_en": "The European Commission was targeted by an \"AI-generated cybercampaign,\" a spokesperson has said. This is the first time the bloc has publicly reported an AI-based cyberattack."
+  },
+  {
+   "t": "Парламент Дании одобрил соглашение о безопасности с Гренландией и США",
+   "x": "Все 109 присутствовавших датских законодателей одобрили сделку, ослабив напряженность вокруг желания Трампа аннексировать арктический остров.",
    "r": "Америка",
    "c": "Политика",
-   "imp": 75,
-   "ten": 80,
-   "ago": 214,
+   "imp": 77,
+   "ten": 46,
+   "ago": 123,
    "s": [
     "Al Jazeera",
+    "CNBC",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/19/denmark-parliament-approves-security-deal-with-greenland-and-us?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/US/wirestory_a392abbba5c2f1bccbbb372e3d38769d_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 55.01,
+   "lon": 11.21,
+   "place": "Дания",
+   "place_en": "Denmark",
+   "id": 11,
+   "t_en": "Denmark parliament approves security deal with Greenland and US",
+   "x_en": "All 109 Danish lawmakers present approved the deal, easing tensions over Trump's desire to annex the Arctic island."
+  },
+  {
+   "t": "Демократы выдвинули Хакима Джеффриса на пост спикера Палаты представителей США",
+   "x": "Эта номинация ставит его на путь того, чтобы стать первым чернокожим депутатом, который возглавит палату, когда в январе демократы возьмут под свой контроль Палату представителей.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 76,
+   "ten": 40,
+   "ago": 29,
+   "s": [
+    "BBC",
     "The Guardian",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/128f/live/04ac0df0-e366-11f1-9f51-4bfc31543510.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": 38.44,
+   "lon": -97.9,
+   "place": "США",
+   "place_en": "United States",
+   "id": 12,
+   "t_en": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+   "x_en": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January."
+  },
+  {
+   "t": "Путин обещает «гораздо более болезненный» ответ на удары Украины по Крымскому мосту",
+   "x": "Мост – символ российской оккупации Крымского полуострова – серьезно пострадал в результате комбинированного нападения Украины в начале этой недели.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 75,
+   "ten": 57,
+   "ago": 51,
+   "s": [
+    "BBC",
+    "NYT",
+    "Reuters"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4dc7/live/1a9ba6c0-e424-11f1-b782-6bf340d7e154.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": 60.57,
+   "lon": 93.58,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 13,
+   "t_en": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+   "x_en": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week."
+  },
+  {
+   "t": "Десятки человек пропали без вести после того, как лодка с мигрантами затонула у берегов Сенегала",
+   "x": "Из лодки, на которой, как сообщается, находилось от 50 до 100 человек, были извлечены по меньшей мере четыре тела.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 75,
+   "ten": 60,
+   "ago": 53,
+   "s": [
+    "BBC",
+    "ABC News",
+    "Africanews"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9aab/live/c39b82a0-e419-11f1-b37c-b3a71d7200af.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": 14.4,
+   "lon": -15.5,
+   "place": "Сенегал",
+   "place_en": "Senegal",
+   "id": 14,
+   "t_en": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+   "x_en": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people."
+  },
+  {
+   "t": "Подожжен дом бывшего лидера Бангладеш Мухаммеда Юнуса",
+   "x": "Пожар вспыхнул во время обострения насилия перед запланированным возвращением премьер-министра Шейх Хасины.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 74,
+   "ten": 53,
+   "ago": 163,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "CNA",
+    "Dawn",
+    "The Hindu",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/19/home-of-bangladeshs-former-leader-muhammad-yunus-set-on-fire?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_5443b2f2af4558eeaa3f64493d3d4fbe_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 7,
+   "lat": 23.97,
+   "lon": 90.92,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 15,
+   "t_en": "Home of Bangladesh’s former leader Muhammad Yunus set on fire",
+   "x_en": "The blaze broke out during heightened violence before ousted Prime Minister Sheikh Hasina's planned return."
+  },
+  {
+   "t": "Южнокорейский суд назначил повторное рассмотрение дела экс-премьера Хана за попытку введения военного положения",
+   "x": "Высокий суд нижней инстанции Сеула теперь будет повторно рассматривать дело на основании юридической интерпретации восстания Верховным судом.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 74,
+   "ten": 40,
+   "ago": 203,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "CNA",
+    "Yonhap",
+    "Japan Times",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/19/south-korean-court-orders-retrial-for-ex-pm-han-over-martial-law-attempt?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/International/wirestory_0ff1cf97bb94f61dde3c010c4faac589_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 8,
+   "lat": 36.37,
+   "lon": 129.38,
+   "place": "Южная Корея",
+   "place_en": "South Korea",
+   "id": 16,
+   "t_en": "South Korean court orders retrial for ex-PM Han over martial law attempt",
+   "x_en": "The lower Seoul High Court will now retry the case based on the Supreme Court's legal interpretation of insurrection."
+  },
+  {
+   "t": "(2-е место) Акции Сеула выросли в преддверии дебюта Anthropic на фондовом рынке",
+   "x": "СЕУЛ, 19 ноября (Рёнхап) – Акции Сеула в четверг завершили торги ростом, чему способствовал рост...",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 73,
+   "ten": 40,
+   "ago": 6,
+   "s": [
+    "Yonhap",
+    "Reuters"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261119006552320",
+   "img": "https://img.yna.co.kr/photo/yna/YH/2026/11/19/PYH2026111920790001300_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 5,
+   "lat": 37.46,
+   "lon": 127.23,
+   "place": "Сеул",
+   "place_en": "Seoul",
+   "id": 17,
+   "t_en": "(2nd LD) Seoul shares end higher ahead of Anthropic's stock market debut",
+   "x_en": "SEOUL, Nov. 19 (Yonhap) -- Seoul shares ended higher Thursday, led by gains in m..."
+  },
+  {
+   "t": "Трамп, Си Цзиньпин и Путин проводят редкие трехсторонние переговоры по ядерным рискам, но заканчиваются без серьезных прорывов",
+   "x": "Три лидера, считающие свои страны мировыми сверхдержавами, впервые сели за стол, чтобы поговорить о снижении ядерных рисков и разрешении конфликтов.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 72,
+   "ten": 52,
+   "ago": 74,
+   "s": [
+    "ABC News",
+    "Yonhap",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/china-russia-us-agree-reforms-boosting-fuel-supplies-138269362",
+   "img": "https://s.abcnews.com/images/International/wirestory_a04dc76ed8e786b087e2c1ea9598783a_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.23,
+   "lon": -97.88,
+   "place": "США",
+   "place_en": "United States",
+   "id": 18,
+   "t_en": "Trump, Xi and Putin hold rare 3-way talks on nuclear risks but emerge with no major breakthroughs",
+   "x_en": "Three leaders who view their nations as the world’s superpowers have sat around a table together for the first time to talk about reducing nuclear risks and resolving conflicts"
+  },
+  {
+   "t": "Дрон врезался в комплекс посольства Нидерландов в Киеве, заявляют украинские чиновники",
+   "x": "Голландские официальные лица заявили, что снаряд попал прямо за зданием посольства, и что никто не пострадал. В четверг Россия запустила волну атак на столицу Украины.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 82,
+   "ago": 24,
+   "s": [
+    "NYT",
+    "Kyiv Independent"
+   ],
+   "u": "https://www.nytimes.com/2026/11/19/world/europe/ukraine-dutch-embassy.html",
+   "img": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-ukraine-embassy-tpvf/19int-ukraine-embassy-tpvf-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": 50.16,
+   "lon": 30.6,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 19,
+   "t_en": "Drone Hits Dutch Embassy Compound in Kyiv, Ukrainian Officials Say",
+   "x_en": "Dutch officials said a projectile hit just behind the embassy compound, and that no one was harmed. Russia launched a wave of attacks into Ukraine’s capital on Thursday."
+  },
+  {
+   "t": "Башня суверенного фонда благосостояния Саудовской Аравии повреждена в результате нападения хуситов на Эр-Рияд",
+   "x": "По данным властей Саудовской Аравии, в результате воздушной атаки йеменских ополченцев пострадало несколько этажей небоскреба, в котором находится Государственный инвестиционный фонд, но при этом никто не пострадал.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 71,
+   "ten": 82,
+   "ago": 27,
+   "s": [
+    "NYT",
+    "Middle East Eye"
+   ],
+   "u": "https://www.nytimes.com/2026/11/19/world/middleeast/saudi-pif-riyadh-tower-houthis-attack.html",
+   "img": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-saudi-pif-attack-wpcj/19int-saudi-pif-attack-wpcj-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 2,
+   "lat": 15.3,
+   "lon": 44.36,
+   "place": "Сана",
+   "place_en": "Sanaa",
+   "id": 20,
+   "t_en": "Saudi Sovereign Wealth Fund Tower Damaged as Houthis Attack Riyadh",
+   "x_en": "An aerial attack by the Yemeni militia affected several floors of a skyscraper that is home to the Public Investment Fund, without causing injuries, according to Saudi authorities."
+  },
+  {
+   "t": "Трамп встретится с российским Путиным и китайским Си Цзиньпином для исторической совместной встречи",
+   "x": "Президент Трамп встретится с президентом России Владимиром Путиным и президентом Китая Си в четверг для исторической трёхсторонней встречи.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 71,
+   "ten": 40,
+   "ago": 186,
+   "s": [
+    "NPR",
+    "CNBC",
+    "NYT",
+    "CBS News"
+   ],
+   "u": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+   "img": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-xi-putin-kzfw/19int-xi-putin-kzfw-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.92,
+   "lon": -98.2,
+   "place": "США",
+   "place_en": "United States",
+   "id": 21,
+   "t_en": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+   "x_en": "President Trump will meet with Russian President Vladimir Putin and Chinese President Xi on Thursday for a historic three-way meeting."
+  },
+  {
+   "t": "Пастор из Флориды признан виновным в убийстве президента Гаити",
+   "x": "Кристиан Эммануэль Санон признан виновным в участии в заговоре, в результате которого был убит Жовенель Мойзе.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 71,
+   "ten": 87,
+   "ago": 300,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "NYT",
     "CBS News",
     "The Hindu"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/1b3676280555bff070a1c0a0c2173ff8053370ab/250_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=1915e73954ef84df93e2d298a09f5e9c",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 4,
-   "lat": 39.64,
-   "lon": -98.88,
-   "place": "США",
-   "place_en": "United States",
-   "id": 16,
-   "t_en": "Miami court convicts US-Haitian pastor over 2021 assassination of president",
-   "x_en": "Prosecutors accused Christian Emmanuel Sanon of seeking to replace then-Haitian President Moise."
-  },
-  {
-   "t": "Crimean Bridge attacked again, Russian official says",
-   "x": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 72,
-   "ten": 74,
-   "ago": 100,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "Japan Times"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e29a/live/4b7210d0-e3ad-11f1-b942-5da5bfac5a5a.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e31d/live/a9425010-e409-11f1-ab35-e1af93fa5cce.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 3,
-   "lat": 62.67,
-   "lon": 94.96,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 17,
-   "t_en": "Crimean Bridge attacked again, Russian official says",
-   "x_en": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory."
+   "n": 5,
+   "lat": 19.32,
+   "lon": -73.67,
+   "place": "Гаити",
+   "place_en": "Haiti",
+   "id": 22,
+   "t_en": "Florida pastor found guilty over role in assassination of Haitian president",
+   "x_en": "Christian Emmanuel Sanon is convicted of involvement in the plot that resulted in the killing of Jovenel Moïse."
   },
   {
-   "t": "‘Remarkable luck’: wreck of first Australian-built warship discovered exactly 128 years after sinking",
-   "x": "HMCS Spitfire was commissioned by colonial government to protect against Russian warships during the Crimean war The wreck of Australia’s first locally built warship has been discovered 128 years after sinking off the coast of far north Queensland. Marine arch",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 44,
-   "ago": 2,
-   "s": [
-    "The Guardian",
-    "ABC News"
-   ],
-   "u": "https://www.theguardian.com/environment/2026/nov/19/first-australian-built-warship-wreck-discovered",
-   "img": "https://i.guim.co.uk/img/media/9734e9d44f73179fe8d05ffbe6249bf97bea3d45/0_41_1284_1027/master/1284.jpg?width=700&quality=85&auto=format&fit=max&s=e52b0a512012d40939e7c82be58b2d88",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 2,
-   "lat": -24.92,
-   "lon": 134.59,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 18,
-   "t_en": "‘Remarkable luck’: wreck of first Australian-built warship discovered exactly 128 years after sinking",
-   "x_en": "HMCS Spitfire was commissioned by colonial government to protect against Russian warships during the Crimean war The wreck of Australia’s first locally built warship has been discovered 128 years after sinking off the coast of far north Queensland. Marine arch"
-  },
-  {
-   "t": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
-   "x": "The International Energy Agency said on Thursday that the Middle East crisis triggered by US and Israeli strikes on Iran in February posed the “largest threat” to energy security in history. It warned that consumers were bearing more of the costs as Iran’s blo",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 69,
-   "ten": 84,
-   "ago": 41,
-   "s": [
-    "France 24",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/middle-east/20261119-middle-east-crisis-energy-security-iea",
-   "img": "https://s.france24.com/media/display/bfcf9412-e37f-11f1-92da-1ba7ddfab527/w:1024/p:16x9/AP26318617092767.jpg",
-   "img_src": "France 24",
-   "fresh": true,
-   "n": 2,
-   "lat": 32.34,
-   "lon": 52.29,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 19,
-   "t_en": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
-   "x_en": "The International Energy Agency said on Thursday that the Middle East crisis triggered by US and Israeli strikes on Iran in February posed the “largest threat” to energy security in history. It warned that consumers were bearing more of the costs as Iran’s blo"
-  },
-  {
-   "t": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
-   "x": "Nvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit.",
-   "r": "Мир",
-   "c": "Общее",
+   "t": "Экстренные оповещения и вознаграждение в размере 75 000 долларов: Южная Корея борется с мошенничеством на экзаменах в сфере высоких технологий",
+   "x": "Южная Корея пытается бороться с мошенничеством на экзаменах с помощью экстренных оповещений и вознаграждений в размере 75 000 долларов.",
+   "r": "Азия",
+   "c": "Наука",
    "imp": 68,
    "ten": 40,
    "ago": 1,
@@ -672,221 +775,301 @@
     "CNBC",
     "Nikkei Asia"
    ],
-   "u": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108554444-1795034841037-108554444-1795025697370-image-1_1024.jpg?v=1795034856&w=1920&h=1080",
+   "u": "https://www.cnbc.com/2026/11/18/south-korea-exam-cheating-.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108553810-1794973269290-gettyimages-1353902820-csj01317_2021111885924442.jpeg?v=1794973306&w=1920&h=1080",
    "img_src": "CNBC (og)",
    "fresh": true,
    "n": 2,
+   "lat": 37.41,
+   "lon": 129.04,
+   "place": "Южная Корея",
+   "place_en": "South Korea",
+   "id": 23,
+   "t_en": "Emergency alerts and $75,000 rewards: South Korea fights high-tech exam cheating",
+   "x_en": "South Korea moves to crack down on exam cheating with emergency alerts and $75,000 rewards."
+  },
+  {
+   "t": "«Grand Theft Auto VI», «шедевр», работавший 13 лет",
+   "x": "ОБЗОР ПРЕССЫ – Четверг, 19 ноября: В Шэньчжэне проходит исторический трехсторонний саммит между Си Цзиньпином, Дональдом Трампом и Владимиром Путиным. Но является ли это скорее оптикой, чем содержанием? Кроме того, долгожданное решение Международного Суда может",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 36,
+   "ago": 1,
+   "s": [
+    "France 24",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.france24.com/en/tv-shows/press-review/20261119-grand-theft-auto-vi-a-masterpiece-13-years-in-the-making",
+   "img": "https://s.france24.com/media/display/47d4f970-e3e8-11f1-9b46-6d75ed565170/w:1024/p:16x9/Anglais-2026-11-19T06-26-17-269Z.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 2,
+   "lat": 34.31,
+   "lon": 103.93,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 24,
+   "t_en": "'Grand Theft Auto VI', a 'masterpiece' 13 years in the making",
+   "x_en": "PRESS REVIEW – Thursday, November 19: An historic trilateral summit takes place in Shenzhen between Xi Jinping, Donald Trump and Vladimir Putin. But is it more optics than substance? Also, a highly awaited decision from the International Court of Justice could"
+  },
+  {
+   "t": "Демократы выиграли выборы в Сенате Аляски через две недели после начала подсчета промежуточных выборов",
+   "x": "Подтверждение победы Мэри Пелтолы является причиной разгрома партии республиканцев на промежуточных выборах в Сенат.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "BBC",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4f32/live/4c690550-e33c-11f1-99b6-a35a62fa4264.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 2,
+   "lat": 39.46,
+   "lon": -99.12,
+   "place": "США",
+   "place_en": "United States",
+   "id": 25,
+   "t_en": "Democrats win Alaska Senate race two weeks after midterms counting began",
+   "x_en": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election."
+  },
+  {
+   "t": "Anthropic повышает IPO до $83 из-за высокого спроса; Возможна оценка в $1,5 трлн.",
+   "x": "Рейтер",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia",
+    "Reuters"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/ipo/anthropic-hikes-ipo-to-83-on-strong-demand-1.5tn-valuation-possible",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F2%2F0%2F2%2F13462021-1-eng-GB%2Fb2422596ef1c-2026-11-10T113026Z_158740158_RC2UOJA6QBI4_RTRMADP_3_ANTHROPIC-IPO.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 2,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 20,
-   "t_en": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
-   "x_en": "Nvidia's interim CEO Colette Kress urges staff forward and offers pay raises after Jensen Huang exit."
+   "id": 26,
+   "t_en": "Anthropic hikes IPO to $83 on strong demand; $1.5tn valuation possible",
+   "x_en": "Reuters"
   },
   {
-   "t": "For Putin, sharing a spotlight with Trump and Xi boosts his profile on the global stage",
-   "x": "For Russian President Vladimir Putin, the three-way meeting with Donald Trump and Xi Jinping offers a much-coveted chance for the Kremlin leader to demonstrate that he heads a superpower on a par with the United States and China",
+   "t": "Израиль откладывает строительство контрактов на строительство поселений на Западном Берегу после санкций Великобритании",
+   "x": "Генеральный прокурор заявил, что решение об урегулировании Е1 не должно приниматься временным правительством во главе с Нетаньяху.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 71,
+   "ago": 38,
+   "s": [
+    "The Guardian",
+    "Middle East Eye"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+   "img": "https://i.guim.co.uk/img/media/3b267577fe18325ce20cce7e2fbe3114054210c2/0_0_4583_3667/master/4583.jpg?width=700&quality=85&auto=format&fit=max&s=1e59a94e9ed6014afe3d6dec5f181ed3",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 31.99,
+   "lon": 35.49,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 27,
+   "t_en": "Israel delays building contracts for West Bank settlement after UK sanctions",
+   "x_en": "Attorney general says E1 settlement decision should not be taken by caretaker government led by Netanyahu Israel has postponed issuing contracts for the construction of a large settlement on the West Bank seen as likely to render a two-state solution unviable,"
+  },
+  {
+   "t": "Переговорщики COP31 опубликовали пересмотренный проект соглашения без упоминания ископаемого топлива",
+   "x": "Пересмотренное соглашение, которое, как ожидается, не станет окончательной версией, было слабее по некоторым центральным темам конференции — ископаемому топливу, электрификации и финансированию адаптации — по сравнению с первым проектом, опубликованным 16 ноября.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 68,
+   "ten": 18,
+   "ago": 62,
+   "s": [
+    "The Hindu",
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.thehindu.com/news/international/cop31-negotiators-publish-revised-deal-draft-with-no-mention-of-fossil-fuels/article71721240.ece",
+   "img": "https://th-i.thgim.com/public/incoming/su9tn0/article71721295.ece/alternates/LANDSCAPE_1200/2026-11-19T105447Z_1620255703_RC2XQOAG608G_RTRMADP_3_CLIMATE-COP31.JPG",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 28,
+   "t_en": "COP31 negotiators publish revised deal draft with no mention of fossil fuels",
+   "x_en": "The revised deal, ‌which is not expected to be the final version, was weaker on some of the conference's central topics — fossil fuels, electrification and adaptation finance — compared to a first draft ‌published on November 16"
+  },
+  {
+   "t": "Xi and Putin meet at APEC summit ahead of trilateral talks with Trump",
+   "x": "Председатель Китая Си Цзиньпин и президент России Владимир Путин встретились в среду в Шэньчжэне, Китай, на полях саммита АТЭС.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 66,
+   "ten": 24,
+   "ago": 1,
+   "s": [
+    "Africanews",
+    "Nikkei Asia"
+   ],
+   "u": "http://www.africanews.com/2026/11/18/xi-and-putin-meet-at-apec-summit-ahead-of-trilateral-talks-with-trump/",
+   "img": "https://images.euronews.com/articles/stories/09/99/72/84/640x360_cmsv2_40fca85c-a79f-5126-8bed-17a8370605a7-9997284.jpg?1794984959",
+   "img_src": "Africanews",
+   "fresh": true,
+   "n": 2,
+   "lat": 60.52,
+   "lon": 96.5,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 29,
+   "t_en": "Xi and Putin meet at APEC summit ahead of trilateral talks with Trump",
+   "x_en": "Chinese President Xi Jinping and Russian President Vladimir Putin met on Wednesday in Shenzhen, China, on the sidelines of the APEC summit."
+  },
+  {
+   "t": "Voyager 1 sets distance record of 1 \"light day\" from Earth",
+   "x": "Voyager 1 and its sister ship Voyager 2 are still beaming back data from interstellar space as they near their 50th anniversary next year.",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 66,
+   "ten": 40,
+   "ago": 108,
+   "s": [
+    "CBS News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.cbsnews.com/news/voyager-1-probe-light-day-earth-father-than-anything/",
+   "img": "https://th-i.thgim.com/public/incoming/tygq8n/article71715546.ece/alternates/LANDSCAPE_1200/2026-11-14T110009Z_732948873_RC2EMOATM05A_RTRMADP_3_SPACE-VOYAGER.JPG",
+   "img_src": "The Hindu",
+   "fresh": false,
+   "n": 3,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 30,
+   "t_en": "Voyager 1 sets distance record of 1 \"light day\" from Earth",
+   "x_en": "Voyager 1 and its sister ship Voyager 2 are still beaming back data from interstellar space as they near their 50th anniversary next year."
+  },
+  {
+   "t": "Трамп, Си Цзиньпин и Путин встречаются, поскольку глобальные альянсы висят на волоске",
+   "x": "Президент Трамп, Си Цзиньпин (Китай) и Владимир Путин (Россия) собрались в Шэньчжэне, Китай, на историческую трехстороннюю встречу, на повестке дня которой стоят Украина, Иран и ядерное разоружение.",
    "r": "Европа",
    "c": "Политика",
-   "imp": 67,
-   "ten": 32,
-   "ago": 2,
+   "imp": 65,
+   "ten": 40,
+   "ago": 122,
    "s": [
+    "NPR",
     "ABC News",
     "AP"
    ],
-   "u": "https://abcnews.com/International/wireStory/putin-sharing-spotlight-trump-xi-boosts-profile-global-138265640",
-   "img": "https://s.abcnews.com/images/International/wirestory_6d85b5f8b96c1f8b7b12db605070e79e_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 2,
-   "lat": 61.69,
-   "lon": 92.67,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 21,
-   "t_en": "For Putin, sharing a spotlight with Trump and Xi boosts his profile on the global stage",
-   "x_en": "For Russian President Vladimir Putin, the three-way meeting with Donald Trump and Xi Jinping offers a much-coveted chance for the Kremlin leader to demonstrate that he heads a superpower on a par with the United States and China"
-  },
-  {
-   "t": "Could Trump, Putin and Xi end the nuclear age?",
-   "x": "Their meeting could revive the dream of nuclear disarmament that Reagan and Gorbachev nearly realised 40 years ago.",
-   "r": "Европа",
-   "c": "Наука",
-   "imp": 66,
-   "ten": 57,
-   "ago": 35,
-   "s": [
-    "Al Jazeera",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/opinions/2026/11/19/could-trump-putin-and-xi-end-the-nuclear-age?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/14454178-1795065558.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 4,
-   "lat": 40.07,
-   "lon": -100.02,
-   "place": "США",
-   "place_en": "United States",
-   "id": 22,
-   "t_en": "Could Trump, Putin and Xi end the nuclear age?",
-   "x_en": "Their meeting could revive the dream of nuclear disarmament that Reagan and Gorbachev nearly realised 40 years ago."
-  },
-  {
-   "t": "Myanmar's army-backed leader says he is reconsidering ASEAN relationship",
-   "x": "ASEAN leaders have said they may consider gradually restoring Myanmar's full political representation in the regional bloc, if the country makes progress on their longstanding plan to resolve its crisis.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 45,
-   "ago": 127,
-   "s": [
-    "CNA",
-    "The Diplomat",
-    "Japan Times"
-   ],
-   "u": "https://www.channelnewsasia.com/asia/myanmar-min-aung-hlaing-says-reconsidering-asean-relationship-6561771",
-   "img": "https://dam.mediacorp.sg/image/upload/s--4msDsjL_--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-18T070111Z_1_LYNXNPEMAH0J6_RTROPTP_3_MYANMAR-FINANCE-JAPAN.JPG?itok=8MYZnkub",
-   "img_src": "CNA",
+   "u": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4147x2765+0+0/resize/4147x2765!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F42%2F55%2Fab53a66d41cea788e3772c0daf20%2Fap26323327946792.jpg",
+   "img_src": "NPR",
    "fresh": false,
    "n": 3,
-   "lat": 22.02,
-   "lon": 95.88,
-   "place": "Мьянма",
-   "place_en": "Myanmar",
-   "id": 23,
-   "t_en": "Myanmar's army-backed leader says he is reconsidering ASEAN relationship",
-   "x_en": "ASEAN leaders have said they may consider gradually restoring Myanmar's full political representation in the regional bloc, if the country makes progress on their longstanding plan to resolve its crisis."
+   "lat": 39.73,
+   "lon": -99.14,
+   "place": "США",
+   "place_en": "United States",
+   "id": 31,
+   "t_en": "Trump, Xi and Putin meet as global alliances hang in the balance",
+   "x_en": "President Trump, China's Xi Jinping and Russia's Vladimir Putin have gathered in Shenzhen, China, for a historic trilateral meeting, with Ukraine, Iran and nuclear disarmament on the agenda."
   },
   {
-   "t": "2 men sentenced to prison terms over killing of film director",
-   "x": "SEOUL, Nov. 19 (Yonhap) -- Two men indicted on charges of assaulting and killing...",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 64,
-   "ten": 91,
-   "ago": 5,
-   "s": [
-    "Yonhap"
-   ],
-   "u": "https://en.yna.co.kr/view/AEN20261119007300315",
-   "img": "https://img.yna.co.kr/etc/inner/EN/2026/11/19/AEN20261119007300315_01_i_P2.jpg",
-   "img_src": "Yonhap",
-   "fresh": true,
-   "n": 1,
-   "lat": 37.33,
-   "lon": 127.36,
-   "place": "Сеул",
-   "place_en": "Seoul",
-   "id": 24,
-   "t_en": "2 men sentenced to prison terms over killing of film director",
-   "x_en": "SEOUL, Nov. 19 (Yonhap) -- Two men indicted on charges of assaulting and killing..."
-  },
-  {
-   "t": "Villa Where Trump, Xi and Putin Will Meet Once Hosted Kim Jong-il",
-   "x": "The secluded Kylin Villa resort in the Chinese city of Shenzhen once hosted the North Korean dictator, Xi Jinping’s father and envoys of the Dalai Lama.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 48,
-   "ago": 38,
-   "s": [
-    "NYT",
-    "Fox News"
-   ],
-   "u": "https://www.nytimes.com/2026/11/19/world/asia/trump-xi-putin-kylin-villa.html",
-   "img": "https://static01.nyt.com/images/2026/11/19/multimedia/19trump-summits-villa/19trump-summits-villa-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 2,
-   "lat": 40.17,
-   "lon": 126.35,
-   "place": "КНДР",
-   "place_en": "North Korea",
-   "id": 25,
-   "t_en": "Villa Where Trump, Xi and Putin Will Meet Once Hosted Kim Jong-il",
-   "x_en": "The secluded Kylin Villa resort in the Chinese city of Shenzhen once hosted the North Korean dictator, Xi Jinping’s father and envoys of the Dalai Lama."
-  },
-  {
-   "t": "General Staff: Russia has lost 1,630,980 troops in Ukraine since Feb. 24, 2022",
-   "x": "The number includes 1,970 casualties that Russian forces suffered over the past day.",
-   "r": "Европа",
+   "t": "Израильские военные завершают наземную операцию в секторе Газа за «желтой линией»",
+   "x": "ХАМАС осудил вторжение, которое, по словам израильских военных, было направлено на демонтаж «террористического туннеля», как «вопиющее» нарушение режима прекращения огня.",
+   "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 63,
-   "ten": 82,
-   "ago": 4,
+   "imp": 65,
+   "ten": 30,
+   "ago": 245,
    "s": [
-    "Kyiv Independent"
+    "BBC",
+    "The Guardian",
+    "Sky News",
+    "Euronews"
    ],
-   "u": "https://kyivindependent.com/general-staff-russia-has-lost-1-630-980-troops-in-ukraine-since-feb-24-2022/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2253771539_20261119-072653.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 1,
-   "lat": 62.32,
-   "lon": 94.39,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 26,
-   "t_en": "General Staff: Russia has lost 1,630,980 troops in Ukraine since Feb. 24, 2022",
-   "x_en": "The number includes 1,970 casualties that Russian forces suffered over the past day."
+   "u": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ee79/live/56061990-e382-11f1-a094-5fdc692f3e33.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 31.44,
+   "lon": 34.26,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 32,
+   "t_en": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+   "x_en": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation."
   },
   {
-   "t": "Islam forecast to soon exceed Christianity as world's biggest religion by middle of next decade",
-   "x": "Islam is expected to surpass Christianity as the world’s biggest religion by the middle of the next decade, the Pew Research Centre projected on Wednesday. While Christianity has ranked as humanity’s largest religion for centuries, the global Muslim population",
+   "t": "Сьюзен Смит снова добивается условно-досрочного освобождения спустя 32 года после того, как утопила двух своих сыновей",
+   "x": "Это второй раз, когда Смит просит освободить его из тюрьмы за убийство двух мальчиков, которым на тот момент было меньше четырех лет.",
    "r": "Мир",
-   "c": "Наука",
+   "c": "Общее",
    "imp": 63,
-   "ten": 40,
-   "ago": 42,
+   "ten": 48,
+   "ago": 46,
    "s": [
-    "Dawn",
-    "Reuters"
+    "BBC",
+    "AP"
    ],
-   "u": "https://www.dawn.com/news/2045648/islam-forecast-to-soon-exceed-christianity-as-worlds-biggest-religion-by-middle-of-next-decade",
-   "img": "https://i.dawn.com/large/2015/04/553a14bcb38cb.jpg",
-   "img_src": "Dawn",
+   "u": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d76c/live/0d6d9ab0-a76f-11ef-a215-2b35ff609397.jpg",
+   "img_src": "BBC",
    "fresh": true,
    "n": 2,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 27,
-   "t_en": "Islam forecast to soon exceed Christianity as world's biggest religion by middle of next decade",
-   "x_en": "Islam is expected to surpass Christianity as the world’s biggest religion by the middle of the next decade, the Pew Research Centre projected on Wednesday. While Christianity has ranked as humanity’s largest religion for centuries, the global Muslim population"
+   "id": 33,
+   "t_en": "Susan Smith seeks parole again 32 years after drowning her two sons",
+   "x_en": "This is the second time Smith has requested to be released from prison for killing the two boys, who were both under the age of four at the time."
   },
   {
-   "t": "Hegseth makes surprise trip to Venezuela, renews military cooperation",
-   "x": "US Defence Secretary Pete Hegseth made an unannounced visit to Caracas on Wednesday, announcing a resumption of military cooperation with Venezuela and vowing to crack down on drug traffickers. The trip marks the highest-level US visit since the ouster of Nico",
+   "t": "Anthropic начинает торговаться как компания стоимостью 1,5 триллиона долларов в ходе крупнейшего IPO в истории",
+   "x": "Anthropic начала торговаться на Nasdaq в четверг после того, как оценила свое IPO в $83 за акцию, оценив гиганта искусственного интеллекта в $1,5 трлн и превзойдя SpaceX как крупнейшее первичное публичное размещение акций за всю историю. IPO подвергает испытанию успехи Уолл-стрит.",
    "r": "Америка",
-   "c": "Конфликты",
+   "c": "Наука",
    "imp": 62,
-   "ten": 34,
-   "ago": 145,
+   "ten": 40,
+   "ago": 44,
    "s": [
     "France 24",
-    "Euronews",
-    "The Hindu"
+    "AP"
    ],
-   "u": "https://www.france24.com/en/americas/20261118-hegseth-makes-surprise-trip-to-venezuela-renews-military-cooperation",
-   "img": "https://s.france24.com/media/display/2904ad80-e382-11f1-9862-c5c0357b2a0c/w:1024/p:16x9/599f3f4f72051259cd9b18e30eeb84323754b49b.jpg",
+   "u": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
+   "img": "https://s.france24.com/media/display/3f3e1f26-e41f-11f1-91f8-1bac47ab2f5d/w:1024/p:16x9/2026-11-19T132245Z-254191681-RC21ROAVBBO1-RTRMADP-3-ANTHROPIC-IPO-DEBUT.jpg",
    "img_src": "France 24",
-   "fresh": false,
+   "fresh": true,
    "n": 3,
-   "lat": 7.21,
-   "lon": -65.76,
-   "place": "Венесуэла",
-   "place_en": "Venezuela",
-   "id": 28,
-   "t_en": "Hegseth makes surprise trip to Venezuela, renews military cooperation",
-   "x_en": "US Defence Secretary Pete Hegseth made an unannounced visit to Caracas on Wednesday, announcing a resumption of military cooperation with Venezuela and vowing to crack down on drug traffickers. The trip marks the highest-level US visit since the ouster of Nico"
+   "lat": 40.86,
+   "lon": -73.62,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
+   "id": 34,
+   "t_en": "Anthropic begins trading as $1.5 trillion company in biggest IPO on record",
+   "x_en": "Anthropic began trading on the Nasdaq Thursday after pricing its IPO at $83 per share, valuing the artificial intelligence giant at $1.5 trillion and surpassing SpaceX as the largest initial public offering on record. The IPO puts to the test Wall Street's fai"
   },
   {
-   "t": "Godzilla director Yamazaki brings Hiroshima atomic bombing to screen",
+   "t": "Режиссер «Годзиллы» Ямазаки показывает атомную бомбардировку Хиросимы",
    "x": "",
    "r": "Мир",
    "c": "Общее",
@@ -905,288 +1088,134 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 29,
+   "id": 35,
    "t_en": "Godzilla director Yamazaki brings Hiroshima atomic bombing to screen",
    "x_en": ""
   },
   {
-   "t": "(URGENT) Supreme Court upholds ex-first lady's 4-yr prison sentence on corruption charges",
-   "x": "(END)",
-   "r": "Мир",
-   "c": "Политика",
+   "t": "Кризис рохинджа на протяжении многих лет",
+   "x": "После того как в 2017 году правительственные войска и бандиты устроили беспорядки в общинах рохинджа в Мьянме, беженцы бежали в Бангладеш.",
+   "r": "Азия",
+   "c": "Конфликты",
    "imp": 61,
-   "ten": 40,
-   "ago": 7,
+   "ten": 82,
+   "ago": 18,
    "s": [
-    "Yonhap"
+    "NYT"
    ],
-   "u": "https://en.yna.co.kr/view/AEN20261119007400315",
-   "img": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-   "img_src": "Yonhap",
+   "u": "https://www.nytimes.com/2026/11/19/world/asia/rohingya-camps-photos-bangladesh.html",
+   "img": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-Rohingya-Photos-01-cpzw/19int-Rohingya-Photos-01-cpzw-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
    "fresh": true,
    "n": 1,
+   "lat": 22.79,
+   "lon": 90.13,
+   "place": "Бангладеш",
+   "place_en": "Bangladesh",
+   "id": 36,
+   "t_en": "The Rohingya Crisis Over the Years",
+   "x_en": "After government troops and mobs rampaged through Rohingya communities in Myanmar in 2017, refugees fled to to Bangladesh."
+  },
+  {
+   "t": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+   "x": "Картина «Шатенье в цветах» была написана в 1890 году, в последние два месяца жизни Винсента Ван Гога.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 61,
+   "ten": 46,
+   "ago": 171,
+   "s": [
+    "BBC",
+    "CNBC",
+    "ABC News"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a424/live/fe3f6bb0-e428-11f1-99b6-a35a62fa4264.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 30,
-   "t_en": "(URGENT) Supreme Court upholds ex-first lady's 4-yr prison sentence on corruption charges",
-   "x_en": "(END)"
-  },
-  {
-   "t": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
-   "x": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts ",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 95,
-   "ago": 33,
-   "s": [
-    "The Guardian"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
-   "img": "https://i.guim.co.uk/img/media/3f69b15ea7c8c18c019e40efbed19bad36e75bf3/28_0_3330_2664/master/3330.jpg?width=700&quality=85&auto=format&fit=max&s=32f5a108d5b095bc8a22b87968d41896",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 1,
-   "lat": 23.21,
-   "lon": 89.25,
-   "place": "Бангладеш",
-   "place_en": "Bangladesh",
-   "id": 31,
-   "t_en": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
-   "x_en": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts "
-  },
-  {
-   "t": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-   "x": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 61,
-   "ten": 40,
-   "ago": 94,
-   "s": [
-    "BBC",
-    "DW"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 2,
-   "lat": 40.02,
-   "lon": -98.89,
-   "place": "США",
-   "place_en": "United States",
-   "id": 32,
-   "t_en": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-   "x_en": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain."
-  },
-  {
-   "t": "Trump makes third Supreme Court bid to end Venezuelan migrant protections",
-   "x": "Emergency appeal follows a California judge's ruling that ending their temporary protected status was unlawful.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 40,
-   "ago": 165,
-   "s": [
-    "Al Jazeera",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/19/trump-makes-third-supreme-court-bid-to-end-venezuelan-migrant-protections?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-04-29T165126Z_1321080022_RC22ZKANUXXJ_RTRMADP_3_USA-COURT-TRUMP-MIGRANTS-1795057070.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 3,
-   "lat": 38.99,
-   "lon": -99.21,
-   "place": "США",
-   "place_en": "United States",
-   "id": 33,
-   "t_en": "Trump makes third Supreme Court bid to end Venezuelan migrant protections",
-   "x_en": "Emergency appeal follows a California judge's ruling that ending their temporary protected status was unlawful."
-  },
-  {
-   "t": "Muslims projected to outnumber Christians worldwide by 2035",
-   "x": "Islam is expected to surpass Christianity as the world's largest religion by 2035, according to detailed projections released on Wednesday.",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 61,
-   "ten": 38,
-   "ago": 365,
-   "s": [
-    "Sky News",
-    "Washington Post",
-    "Fox News",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://news.sky.com/story/muslims-projected-to-outnumber-christians-by-2035-with-majority-in-uk-non-religious-by-2070-13613731",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-islam-mecca_7409895.jpg?20261118210730",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 5,
-   "lat": 23.18,
-   "lon": 79.26,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 34,
-   "t_en": "Muslims projected to outnumber Christians worldwide by 2035",
-   "x_en": "Islam is expected to surpass Christianity as the world's largest religion by 2035, according to detailed projections released on Wednesday."
-  },
-  {
-   "t": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
-   "x": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive.",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 59,
-   "ten": 74,
-   "ago": 23,
-   "s": [
-    "Al Jazeera"
-   ],
-   "u": "https://www.aljazeera.com/economy/2026/11/19/too-early-to-determine-impact-of-us-siege-on-iran-with-tehran-defiant?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6afcd08a8f84-1794953354.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.36,
-   "lon": 51.48,
-   "place": "Тегеран",
-   "place_en": "Tehran",
-   "id": 35,
-   "t_en": "‘Too early’ to determine impact of US blockade on Iran, with Tehran defiant",
-   "x_en": "The US blockade of Iranian ports has a crippling effect on the economy, but Tehran insists its economy can survive."
-  },
-  {
-   "t": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
-   "x": "A Ukrainian drone and missile strike on Monday night brought down a stretch of the bridge linking the annexed Crimean Peninsula to Russia, potentially crippling a route long used by Moscow to move men and materiel into Crimea and the southern front. Here’s why",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 59,
-   "ten": 68,
-   "ago": 113,
-   "s": [
-    "France 24",
-    "The Hindu"
-   ],
-   "u": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea",
-   "img": "https://s.france24.com/media/display/6b1cf78a-e374-11f1-ae39-1ba7ddfab527/w:1024/p:16x9/2026-11-17T132708Z-373589621-RC2PPOA5FXQR-RTRMADP-3-UKRAINE-CRISIS-ATTACK-CRIMEA-SBU.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 2,
-   "lat": 44.81,
-   "lon": 33.66,
-   "place": "Крым",
-   "place_en": "Crimea",
-   "id": 36,
-   "t_en": "Why Ukraine keeps trying to bring down Russia's bridge to Crimea",
-   "x_en": "A Ukrainian drone and missile strike on Monday night brought down a stretch of the bridge linking the annexed Crimean Peninsula to Russia, potentially crippling a route long used by Moscow to move men and materiel into Crimea and the southern front. Here’s why"
-  },
-  {
-   "t": "Japan logs trade deficit for 6th straight month in October",
-   "x": "",
-   "r": "Азия",
-   "c": "Экономика",
-   "imp": 58,
-   "ten": 48,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/economy/trade/japan-logs-trade-deficit-for-6th-straight-month-in-october",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F9%2F9%2F0%2F13450995-1-eng-GB%2Ff88be54a7985-photo_SXM2026110500014368.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.04,
-   "lon": 139.22,
-   "place": "Япония",
-   "place_en": "Japan",
    "id": 37,
-   "t_en": "Japan logs trade deficit for 6th straight month in October",
-   "x_en": ""
+   "t_en": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+   "x_en": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life."
   },
   {
-   "t": "Trump cites military aid, nuclear power in Manila meeting with Marcos",
+   "t": "Генеральный директор BlackRock предупреждает, что ужесточение правил в области искусственного интеллекта может привести к рецессии в США",
    "x": "",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 48,
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 60,
+   "ten": 57,
    "ago": 1,
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/politics/international-relations/trump-cites-military-aid-nuclear-power-in-manila-meeting-with-marcos",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F3%2F3%2F7%2F13457332-1-eng-GB%2F42f21be0aa5b-2026-11-18T035837Z_724742781_RC23QOAL7TOL_RTRMADP_3_PHILIPPINES-USA-TRUMP.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "u": "https://asia.nikkei.com/editor-s-picks/interview/blackrock-ceo-warns-tighter-ai-regulations-could-lead-to-us-recession",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F4%2F7%2F1%2F13461742-2-eng-GB%2F37b3c0e42e2c-blackrock-finc.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
    "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 14.65,
-   "lon": 120.82,
-   "place": "Манила",
-   "place_en": "Manila",
-   "id": 38,
-   "t_en": "Trump cites military aid, nuclear power in Manila meeting with Marcos",
-   "x_en": ""
-  },
-  {
-   "t": "China using Trump-Xi 'stability' to build strategic edge, US panel warns",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 48,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-using-trump-xi-stability-to-build-strategic-edge-us-panel-warns",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F3%2F4%2F9%2F13459431-1-eng-GB%2F086ce6396e45-2026-11-18T091931Z_1894248599_RC29QOAKOLZZ_RTRMADP_3_APEC-SUMMIT-TRUMP-ARRIVAL.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 38.42,
-   "lon": -99.33,
+   "lat": 40.28,
+   "lon": -99.04,
    "place": "США",
    "place_en": "United States",
-   "id": 39,
-   "t_en": "China using Trump-Xi 'stability' to build strategic edge, US panel warns",
+   "id": 38,
+   "t_en": "BlackRock CEO warns tighter AI regulations could lead to US recession",
    "x_en": ""
   },
   {
-   "t": "Thai floods expose waste pollution in ‘garbage dump’ region",
-   "x": "Prachinburi province, located between Bangkok and Thailand's flagship industrial zone further east, has long faced concerns over waste pollution.",
-   "r": "Азия",
+   "t": "Новорожденный умирает после подозрения на калечащие операции на женских половых органах в Сенегале; родственники арестованы",
+   "x": "Три человека были арестованы на востоке Сенегала после того, как новорожденная девочка умерла в результате предполагаемого калечащих операций на женских половых органах.",
+   "r": "Мир",
    "c": "Общее",
-   "imp": 58,
-   "ten": 48,
+   "imp": 59,
+   "ten": 57,
    "ago": 5,
    "s": [
-    "Japan Times"
+    "ABC News"
    ],
-   "u": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/science-health/thai-floods-pollution-garbage-dump/",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/19/thumbs/400x400/575011.jpg",
-   "img_src": "Japan Times",
+   "u": "https://abcnews.com/International/wireStory/newborn-dies-after-suspected-female-genital-mutilation-senegal-138292570",
+   "img": "https://s.abcnews.com/images/International/wirestory_8ac09f253bb7bd5697ca8b0bdfd30c45_16x9_1600.jpg",
+   "img_src": "ABC News",
    "fresh": true,
    "n": 1,
-   "lat": 16.02,
-   "lon": 101.28,
-   "place": "Таиланд",
-   "place_en": "Thailand",
+   "lat": 15.12,
+   "lon": -14.49,
+   "place": "Сенегал",
+   "place_en": "Senegal",
+   "id": 39,
+   "t_en": "Newborn dies after suspected female genital mutilation in Senegal; relatives arrested",
+   "x_en": "Three people have been arrested in eastern Senegal after a newborn baby girl died following alleged female genital mutilation"
+  },
+  {
+   "t": "США наращивают силы вокруг Ирана, но смогут ли они выдержать новую войну?",
+   "x": "Третий американский авианосец и его эскорт прибыли на Ближний Восток в воскресенье, что еще больше усилило военное присутствие Вашингтона вокруг Ирана. Развертывание ударной группы авианосца USS Theodore Roosevelt происходит даже несмотря на то, что США утверждают, что у них нет никаких намерений.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 59,
+   "ten": 88,
+   "ago": 36,
+   "s": [
+    "Middle East Eye"
+   ],
+   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/us-builds-forces-around-iran-can-it-sustain-another-war",
+   "img": "https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_D7PJ9J2.jpg.jpg?itok=qtB-4JiL",
+   "img_src": "Middle East Eye",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.7,
+   "lon": -98.25,
+   "place": "США",
+   "place_en": "United States",
    "id": 40,
-   "t_en": "Thai floods expose waste pollution in ‘garbage dump’ region",
-   "x_en": "Prachinburi province, located between Bangkok and Thailand's flagship industrial zone further east, has long faced concerns over waste pollution."
+   "t_en": "US builds up forces around Iran, but can it sustain another war?",
+   "x_en": "A third US aircraft carrier and its escorts arrived in the Middle East on Sunday, further bolstering Washington's military presence around Iran. The deployment of the USS Theodore Roosevelt carrier strike group comes even as the US maintains it has no intentio"
   }
  ],
  "history": [
-  {
-   "t": 1794993177365,
-   "v": 49
-  },
   {
    "t": 1795025064023,
    "v": 48
@@ -1198,139 +1227,143 @@
   {
    "t": 1795073509154,
    "v": 46
+  },
+  {
+   "t": 1795106723682,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1794987109154,
-   "v": 46,
-   "n": 29
+   "t": 1795020323682,
+   "v": 52,
+   "n": 35
   },
   {
-   "t": 1794990709154,
-   "v": 48,
-   "n": 38
+   "t": 1795023923682,
+   "v": 52,
+   "n": 28
   },
   {
-   "t": 1794994309154,
-   "v": 49,
-   "n": 43
+   "t": 1795027523682,
+   "v": 50,
+   "n": 20
   },
   {
-   "t": 1794997909154,
-   "v": 47,
-   "n": 43
+   "t": 1795031123682,
+   "v": 41,
+   "n": 22
   },
   {
-   "t": 1795001509154,
+   "t": 1795034723682,
+   "v": 44,
+   "n": 24
+  },
+  {
+   "t": 1795038323682,
    "v": 45,
-   "n": 40
+   "n": 27
   },
   {
-   "t": 1795005109154,
-   "v": 47,
+   "t": 1795041923682,
+   "v": 52,
+   "n": 22
+  },
+  {
+   "t": 1795045523682,
+   "v": 51,
+   "n": 22
+  },
+  {
+   "t": 1795049123682,
+   "v": 51,
+   "n": 26
+  },
+  {
+   "t": 1795052723682,
+   "v": 48,
+   "n": 25
+  },
+  {
+   "t": 1795056323682,
+   "v": 48,
+   "n": 30
+  },
+  {
+   "t": 1795059923682,
+   "v": 45,
    "n": 39
   },
   {
-   "t": 1795008709154,
-   "v": 49,
-   "n": 44
+   "t": 1795063523682,
+   "v": 43,
+   "n": 57
   },
   {
-   "t": 1795012309154,
-   "v": 49,
-   "n": 53
+   "t": 1795067123682,
+   "v": 43,
+   "n": 73
   },
   {
-   "t": 1795015909154,
-   "v": 52,
-   "n": 66
-  },
-  {
-   "t": 1795019509154,
-   "v": 53,
-   "n": 67
-  },
-  {
-   "t": 1795023109154,
-   "v": 53,
-   "n": 60
-  },
-  {
-   "t": 1795026709154,
-   "v": 49,
-   "n": 44
-  },
-  {
-   "t": 1795030309154,
-   "v": 44,
-   "n": 40
-  },
-  {
-   "t": 1795033909154,
-   "v": 44,
-   "n": 51
-  },
-  {
-   "t": 1795037509154,
-   "v": 44,
-   "n": 62
-  },
-  {
-   "t": 1795041109154,
-   "v": 46,
-   "n": 79
-  },
-  {
-   "t": 1795044709154,
-   "v": 46,
-   "n": 77
-  },
-  {
-   "t": 1795048309154,
+   "t": 1795070723682,
    "v": 45,
-   "n": 98
+   "n": 89
   },
   {
-   "t": 1795051909154,
-   "v": 44,
-   "n": 110
-  },
-  {
-   "t": 1795055509154,
-   "v": 43,
-   "n": 128
-  },
-  {
-   "t": 1795059109154,
-   "v": 43,
-   "n": 132
-  },
-  {
-   "t": 1795062709154,
-   "v": 42,
-   "n": 139
-  },
-  {
-   "t": 1795066309154,
-   "v": 43,
-   "n": 153
-  },
-  {
-   "t": 1795069909154,
-   "v": 44,
-   "n": 169
-  },
-  {
-   "t": 1795073509154,
+   "t": 1795074323682,
    "v": 45,
-   "n": 118
+   "n": 92
+  },
+  {
+   "t": 1795077923682,
+   "v": 46,
+   "n": 97
+  },
+  {
+   "t": 1795081523682,
+   "v": 45,
+   "n": 93
+  },
+  {
+   "t": 1795085123682,
+   "v": 49,
+   "n": 114
+  },
+  {
+   "t": 1795088723682,
+   "v": 49,
+   "n": 133
+  },
+  {
+   "t": 1795092323682,
+   "v": 50,
+   "n": 161
+  },
+  {
+   "t": 1795095923682,
+   "v": 51,
+   "n": 162
+  },
+  {
+   "t": 1795099523682,
+   "v": 51,
+   "n": 168
+  },
+  {
+   "t": 1795103123682,
+   "v": 50,
+   "n": 190
+  },
+  {
+   "t": 1795106723682,
+   "v": 48,
+   "n": 140
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 33
+   "items": 35
   },
   {
    "n": "Al Jazeera",
@@ -1338,7 +1371,7 @@
   },
   {
    "n": "DW",
-   "items": 9
+   "items": 11
   },
   {
    "n": "France 24",
@@ -1346,11 +1379,11 @@
   },
   {
    "n": "The Guardian",
-   "items": 37
+   "items": 36
   },
   {
    "n": "Sky News",
-   "items": 5
+   "items": 6
   },
   {
    "n": "NPR",
@@ -1358,11 +1391,11 @@
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 4
   },
   {
    "n": "CNBC",
-   "items": 28
+   "items": 29
   },
   {
    "n": "Euronews",
@@ -1374,15 +1407,15 @@
   },
   {
    "n": "Washington Post",
-   "items": 10
+   "items": 9
   },
   {
    "n": "CBS News",
-   "items": 22
+   "items": 20
   },
   {
    "n": "ABC News",
-   "items": 23
+   "items": 25
   },
   {
    "n": "CNN",
@@ -1390,11 +1423,11 @@
   },
   {
    "n": "Fox News",
-   "items": 18
+   "items": 15
   },
   {
    "n": "ABC Australia",
-   "items": 25
+   "items": 22
   },
   {
    "n": "CNA",
@@ -1406,7 +1439,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1414,7 +1447,7 @@
   },
   {
    "n": "Africanews",
-   "items": 25
+   "items": 38
   },
   {
    "n": "Kyiv Independent",
@@ -1430,11 +1463,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 18
+   "items": 16
   },
   {
    "n": "Dawn",
-   "items": 26
+   "items": 28
   },
   {
    "n": "Times of India",
@@ -1462,9 +1495,7 @@
   }
  ],
  "failed": [
-  "UN News",
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }

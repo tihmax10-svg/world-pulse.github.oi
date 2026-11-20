@@ -1,8 +1,8 @@
 {
- "updated": 1795147214702,
+ "updated": 1795178527897,
  "demo": false,
- "total_articles": 735,
- "second_delta": -1,
+ "total_articles": 714,
+ "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
@@ -12,51 +12,55 @@
   },
   {
    "n": "Al Jazeera",
-   "v": 55
-  },
-  {
-   "n": "DW",
-   "v": 42
-  },
-  {
-   "n": "France 24",
-   "v": 47
-  },
-  {
-   "n": "The Guardian",
-   "v": 46
-  },
-  {
-   "n": "Sky News",
-   "v": 57
-  },
-  {
-   "n": "NPR",
    "v": 52
   },
   {
-   "n": "CNBC",
-   "v": 40
+   "n": "DW",
+   "v": 38
   },
   {
-   "n": "Euronews",
-   "v": 46
-  },
-  {
-   "n": "NYT",
-   "v": 56
-  },
-  {
-   "n": "Washington Post",
-   "v": 54
-  },
-  {
-   "n": "CBS News",
+   "n": "France 24",
    "v": 49
   },
   {
+   "n": "The Guardian",
+   "v": 43
+  },
+  {
+   "n": "Sky News",
+   "v": 62
+  },
+  {
+   "n": "NPR",
+   "v": 54
+  },
+  {
+   "n": "UN News",
+   "v": 40
+  },
+  {
+   "n": "CNBC",
+   "v": 43
+  },
+  {
+   "n": "Euronews",
+   "v": 48
+  },
+  {
+   "n": "NYT",
+   "v": 55
+  },
+  {
+   "n": "Washington Post",
+   "v": 52
+  },
+  {
+   "n": "CBS News",
+   "v": 50
+  },
+  {
    "n": "ABC News",
-   "v": 61
+   "v": 57
   },
   {
    "n": "CNN",
@@ -64,7 +68,7 @@
   },
   {
    "n": "Fox News",
-   "v": 67
+   "v": 66
   },
   {
    "n": "ABC Australia",
@@ -72,23 +76,19 @@
   },
   {
    "n": "CNA",
-   "v": 50
-  },
-  {
-   "n": "Middle East Eye",
-   "v": 74
+   "v": 48
   },
   {
    "n": "Africanews",
-   "v": 53
+   "v": 54
   },
   {
    "n": "Kyiv Independent",
-   "v": 65
+   "v": 75
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 39
   },
   {
    "n": "Nikkei Asia",
@@ -96,49 +96,49 @@
   },
   {
    "n": "The Diplomat",
-   "v": 47
+   "v": 49
   },
   {
    "n": "Dawn",
-   "v": 43
+   "v": 48
   },
   {
    "n": "Times of India",
-   "v": 52
+   "v": 43
   },
   {
    "n": "The Hindu",
-   "v": 47
+   "v": 50
   },
   {
    "n": "Politico EU",
-   "v": 37
+   "v": 53
   },
   {
    "n": "Japan Times",
-   "v": 47
+   "v": 43
   },
   {
    "n": "Reuters",
-   "v": 44
+   "v": 45
   },
   {
    "n": "AP",
-   "v": 41
+   "v": 44
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 47
+   "v": 51
   },
   {
    "n": "Ближний Восток",
-   "v": 64
+   "v": 56
   },
   {
    "n": "Азия",
-   "v": 50
+   "v": 51
   },
   {
    "n": "Африка",
@@ -146,7 +146,7 @@
   },
   {
    "n": "Америка",
-   "v": 50
+   "v": 44
   }
  ],
  "events": [
@@ -155,32 +155,27 @@
    "x": "Беспрецедентный вердикт Международного суда касается военных репрессий 2017 года, в результате которых погибли тысячи людей.",
    "r": "Азия",
    "c": "Политика",
-   "imp": 98,
-   "ten": 86,
+   "imp": 97,
+   "ten": 78,
    "ago": 1,
    "s": [
     "BBC",
+    "Al Jazeera",
     "DW",
     "The Guardian",
     "NPR",
-    "Euronews",
-    "NYT",
     "Washington Post",
     "CBS News",
-    "CNA",
-    "Africanews",
     "Nikkei Asia",
-    "The Diplomat",
-    "Dawn",
     "The Hindu",
-    "Japan Times",
-    "Reuters"
+    "Reuters",
+    "AP"
    ],
    "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d789/live/7c1a8b30-e435-11f1-99b6-a35a62fa4264.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 18,
+   "n": 12,
    "lat": 20.39,
    "lon": 96.86,
    "place": "Мьянма",
@@ -190,301 +185,355 @@
    "x_en": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands."
   },
   {
-   "t": "Как проходил дебют Anthropic на фондовом рынке?",
-   "x": "Самира Хусейн из BBC рассказывает о первом дне существования ИИ-компании как публичной компании: акции выросли на 17%.",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 85,
-   "ten": 57,
-   "ago": 66,
+   "t": "Россия нацелилась на контрольно-пропускной пункт Киева через несколько дней после того, как Украина напала на Крымский мост",
+   "x": "Россия предприняла одну из своих крупнейших воздушных атак, отвергнув перспективу гарантий безопасности для Украины.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 94,
+   "ten": 67,
+   "ago": 7,
    "s": [
     "BBC",
-    "Al Jazeera",
     "Euronews",
-    "Africanews"
+    "NYT",
+    "Africanews",
+    "Reuters"
    ],
-   "u": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d424/live/6731c740-e478-11f1-a094-5fdc692f3e33.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c5e9/live/350d4310-e4d3-11f1-b045-89fda867dd9a.jpg",
    "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 40.65,
-   "lon": -74.26,
-   "place": "Нью-Йорк",
-   "place_en": "New York",
+   "fresh": true,
+   "n": 5,
+   "lat": 50.28,
+   "lon": 30.34,
+   "place": "Киев",
+   "place_en": "Kyiv",
    "id": 2,
-   "t_en": "How did Anthropic's stock market debut unfold?",
-   "x_en": "The BBC's Samira Hussain breaks down the AI company's first day as a publicly traded company, as shares closed up 17%."
+   "t_en": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+   "x_en": "Russia launched one of its biggest air attacks yet as it rejected the prospect of security guarantees for Ukraine."
   },
   {
-   "t": "Трамп, Путин и Си опубликовали «мирную декларацию» после исторической встречи",
-   "x": "Хотя президенты ранее встречались один на один, это их первая трехсторонняя дискуссия.",
-   "r": "Европа",
+   "t": "США осторожно реагируют на решение о геноциде в Мьянме, поскольку ЕС высоко оценивает «критическую» роль высшего суда ООН",
+   "x": "Реакция на решение Международного Суда подчеркивает глобальные разногласия по поводу суда, а Китай выражает обеспокоенность по поводу судебных злоупотреблений. США с осторожностью встретили решение высшего суда мира о том, что Мьянма совершила геноцид против своего меньшинства рохинджа, в то время как Китай",
+   "r": "Азия",
    "c": "Политика",
-   "imp": 83,
-   "ten": 30,
+   "imp": 92,
+   "ten": 89,
    "ago": 44,
+   "s": [
+    "The Guardian",
+    "Sky News",
+    "UN News",
+    "CNA",
+    "The Diplomat",
+    "The Hindu",
+    "Reuters"
+   ],
+   "u": "https://www.theguardian.com/law/2026/nov/20/us-eu-reaction-myanmar-rohingya-genocide-icj-ruling-trump-international-law",
+   "img": "https://i.guim.co.uk/img/media/5988d82b73797347e49b6c59007fbef9ae747fbb/264_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=a0361b3769d9dade685e2c1ff3740e23",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 7,
+   "lat": 21.77,
+   "lon": 97.07,
+   "place": "Мьянма",
+   "place_en": "Myanmar",
+   "id": 3,
+   "t_en": "US reacts cautiously to Myanmar genocide ruling as EU praises ‘critical’ role of UN’s top court",
+   "x_en": "Reactions to ICJ ruling underline global divisions over court with China raising concerns about judicial overreach The US has greeted with caution the world’s highest court’s ruling that Myanmar committed genocide against its Rohingya minority, while China has"
+  },
+  {
+   "t": "Путин обещает «гораздо более болезненный» ответ на удары Украины по Крымскому мосту",
+   "x": "Мост – символ российской оккупации Крымского полуострова – серьезно пострадал в результате комбинированного нападения Украины в начале этой недели.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 88,
+   "ten": 68,
+   "ago": 48,
    "s": [
     "BBC",
     "NYT",
     "Fox News",
-    "CNA",
-    "Dawn",
-    "Japan Times"
+    "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/56c4/live/c36d8970-e448-11f1-a094-5fdc692f3e33.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4dc7/live/1a9ba6c0-e424-11f1-b782-6bf340d7e154.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 7,
-   "lat": 39.69,
-   "lon": -99.47,
+   "n": 4,
+   "lat": 60.57,
+   "lon": 93.58,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 4,
+   "t_en": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+   "x_en": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week."
+  },
+  {
+   "t": "Польский Туск осуждает российскую «провокацию» после того, как Варшава заявила, что ракета поразила территорию",
+   "x": "Польша в пятницу заявила, что никто не пострадал после того, как, по утверждению Варшавы, российская ракета ударила по юго-востоку Польши во время нападения на Украину. Польские власти ранее заявили, что расследуют сообщения о том, что по меньшей мере два неизвестных объекта упали вблизи",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 84,
+   "ten": 75,
+   "ago": 8,
+   "s": [
+    "France 24",
+    "ABC News",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/europe/20261120-poland-says-russian-missile-hit-its-territory-during-attack-on-ukraine",
+   "img": "https://s.france24.com/media/display/0215cd4e-e4cc-11f1-ba35-e56ab3dc0809/w:1024/p:16x9/2026-11-20T091417Z-724863669-RC2KROAVQTVB-RTRMADP-3-UKRAINE-CRISIS-POLAND-OBJECTS.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 3,
+   "lat": 52.22,
+   "lon": 21.32,
+   "place": "Варшава",
+   "place_en": "Warsaw",
+   "id": 5,
+   "t_en": "Poland's Tusk denounces Russian 'provocation' after Warsaw says missile hit territory",
+   "x_en": "Poland on Friday said that no one was hurt after what Warsaw alleged was a Russian missile hit southeast Poland during an attack on Ukraine. Polish authorities earlier said they were investigating reports that at ​least two unknown objects had fallen near the "
+  },
+  {
+   "t": "Решение о геноциде в Мьянме приводит к судебному разбирательству по Израилю и сектору Газа",
+   "x": "Решение Международного Суда касается вопросов, имеющих отношение к делу, возбужденному против Израиля по обвинению в геноциде в секторе Газа. Израиль отверг это обвинение.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 84,
+   "ten": 91,
+   "ago": 117,
+   "s": [
+    "NYT",
+    "CNA",
+    "Africanews",
+    "The Hindu"
+   ],
+   "u": "https://www.nytimes.com/2026/11/19/world/asia/icj-myanmar-gaza.html",
+   "img": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-icj-gaza--qhlj/19int-icj-gaza--qhlj-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": false,
+   "n": 5,
+   "lat": 31.33,
+   "lon": 34.18,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 6,
+   "t_en": "Myanmar Genocide Ruling Sets Up Court Fight Over Israel and Gaza",
+   "x_en": "The ruling by the International Court of Justice deals with issues relevant to the case brought against Israel alleging genocide in Gaza. Israel has rejected the charge."
+  },
+  {
+   "t": "США: протестующие требуют человеческого контроля над ИИ после IPO Anthropic",
+   "x": "Протестующие собрались возле штаб-квартиры Anthropic в Сан-Франциско 19 ноября 2026 года, чтобы потребовать ужесточения регулирования и усиления человеческого контроля над искусственным интеллектом после дебюта компании на фондовом рынке стоимостью 2 триллиона долларов.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 81,
+   "ten": 51,
+   "ago": 1,
+   "s": [
+    "Euronews",
+    "Africanews",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.euronews.com/video/2026/11/20/us-protesters-demand-human-control-over-ai-after-anthropics-ipo",
+   "img": "https://images.euronews.com/articles/stories/10/00/12/52/696x392_cmsv2_7bc30524-5305-510e-aa10-ac64aa22aa33-10001252.jpg",
+   "img_src": "Euronews",
+   "fresh": true,
+   "n": 3,
+   "lat": 39.81,
+   "lon": -98.73,
    "place": "США",
    "place_en": "United States",
-   "id": 3,
-   "t_en": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-   "x_en": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion."
+   "id": 7,
+   "t_en": "US: Protesters demand human control over AI after Anthropic's IPO",
+   "x_en": "Protesters gathered outside Anthropic’s San Francisco headquarters on 19 November 2026 to demand tighter regulation and greater human control over artificial intelligence, following the company’s $2 trillion stock market debut."
+  },
+  {
+   "t": "Белый дом увольняет главу службы кибербезопасности после серии технических сбоев",
+   "x": "CBS сообщает, что он был уволен после того, как потерял доверие главы администрации Белого дома Стивена Миллера.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 40,
+   "ago": 76,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "DW",
+    "Euronews",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/76fa/live/ea62ee60-e4bd-11f1-87df-79d8910e0f29.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 5,
+   "lat": 38.83,
+   "lon": -77.22,
+   "place": "Вашингтон",
+   "place_en": "Washington",
+   "id": 8,
+   "t_en": "White House removes cyber-security chief after series of tech outages",
+   "x_en": "CBS is reporting he has been fired after losing the confidence of White House chief of staff Stephen Miller."
+  },
+  {
+   "t": "Кушнер говорит, что Россия согласна с пактом о безопасности Украины, подобным НАТО: так ли это?",
+   "x": "Статья 5 НАТО гласит, что нападение на одного члена является нападением на всех. Аналитики говорят, что включение Украины «вызывает доверие».",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 79,
+   "ten": 48,
+   "ago": 100,
+   "s": [
+    "Al Jazeera",
+    "CNBC",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/20/kushner-says-russia-ok-with-nato-like-security-pact-for-ukraine-is-it?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T181515Z_1222114708_RC25ROAMOK1I_RTRMADP_3_UKRAINE-CRISIS-GERMANY-1795112208.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": false,
+   "n": 4,
+   "lat": 50.97,
+   "lon": 3.78,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 9,
+   "t_en": "Kushner says Russia OK with ‘NATO-like’ security pact for Ukraine: Is it?",
+   "x_en": "NATO Article 5 says attack on one member is an attack on all. Analysts say inclusion of Ukraine 'stretches credulity'."
+  },
+  {
+   "t": "Букеле из Сальвадора баллотируется на третий срок после изменения конституции",
+   "x": "Критики обвиняют президента-популиста в создании де-факто однопартийного государства в Сальвадоре.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 76,
+   "ten": 49,
+   "ago": 35,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-seeks-third-term-after-constitution-change?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/86fc3e64-e4d9-11f1-a0c6-ebb478925cf0/w:1024/p:16x9/Salvador-00-01-50-03-Still001.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 3,
+   "lat": 13.39,
+   "lon": -87.77,
+   "place": "Сальвадор",
+   "place_en": "El Salvador",
+   "id": 10,
+   "t_en": "El Salvador’s Bukele seeks third term after constitution change",
+   "x_en": "Critics accuse populist president of engineering a de facto one-party state in El Salvador."
+  },
+  {
+   "t": "Си Цзиньпин проецирует глобальное влияние Китая после того, как принял Трампа и Путина в АТЭС",
+   "x": "Президент Китая Си Цзиньпин вышел из саммита Азиатско-Тихоокеанского экономического сотрудничества с дипломатической победой, укрепив свои глобальные позиции, несмотря на ограниченный существенный прогресс.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 72,
+   "ten": 23,
+   "ago": 132,
+   "s": [
+    "ABC News",
+    "Fox News",
+    "CNA",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/xi-projects-chinas-global-influence-after-hosting-trump-138313749",
+   "img": "https://s.abcnews.com/images/International/wirestory_1537a3c561e41a1f8545490a3d29d376_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 6,
+   "lat": 35.47,
+   "lon": 103.76,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 11,
+   "t_en": "Xi projects China’s global influence after hosting Trump and Putin at APEC",
+   "x_en": "China’s President Xi Jinping has emerged from the Asia-Pacific Economic Cooperation summit with a diplomatic win, reinforcing his global standing despite limited substantive progress"
+  },
+  {
+   "t": "Может ли приговор о геноциде рохинджа восстановить справедливость?",
+   "x": "Международный Суд вынес решение против Мьянмы, но безопасное возвращение, гражданство и репарации по-прежнему далеко не гарантированы.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 71,
+   "ten": 76,
+   "ago": 117,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "CNA"
+   ],
+   "u": "https://www.aljazeera.com/opinions/2026/11/20/can-the-rohingya-genocide-verdict-deliver-justice?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/4e0b4c5c18a104b80eb856eb0e127b220dae2103/219_0_3448_2758/master/3448.jpg?width=700&quality=85&auto=format&fit=max&s=223e98dfbdb263af032d790f5058d24e",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 3,
+   "lat": 52.09,
+   "lon": 4.48,
+   "place": "Гаага",
+   "place_en": "The Hague",
+   "id": 12,
+   "t_en": "Can the Rohingya genocide verdict deliver justice?",
+   "x_en": "The ICJ has ruled against Myanmar, but safe return, citizenship and reparations remain far from guaranteed."
+  },
+  {
+   "t": "Войска из 11 стран тренируются в Польше для возможной послевоенной миссии на Украине",
+   "x": "Тысячи европейских военнослужащих принимают участие в крупных военных учениях на юго-востоке Польши.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 70,
+   "ten": 66,
+   "ago": 14,
+   "s": [
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/european-troops-11-countries-drill-poland-potential-postwar-138313096",
+   "img": "https://s.abcnews.com/images/International/wirestory_a28d60d1b37093199dd017472028d7ac_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": true,
+   "n": 2,
+   "lat": 51.58,
+   "lon": 20.39,
+   "place": "Польша",
+   "place_en": "Poland",
+   "id": 13,
+   "t_en": "Troops from 11 countries drill in Poland for potential postwar Ukraine mission",
+   "x_en": "Thousands of European troops are taking part in a major military exercise in southeastern Poland"
   },
   {
    "t": "От недоношенного ребенка до звезды социальных сетей: умерла знаменитая бегемотиха Фиона",
    "x": "Любимый бегемот умер через несколько дней после того, как проглотил вязаную шапку, случайно попавшую в ее вольер в зоопарке Цинциннати.",
    "r": "Америка",
    "c": "Общее",
-   "imp": 83,
+   "imp": 70,
    "ten": 38,
-   "ago": 54,
+   "ago": 192,
    "s": [
     "BBC",
-    "Al Jazeera",
     "The Guardian",
+    "Euronews",
     "AP"
    ],
    "u": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/be94/live/df1a11d0-e46a-11f1-99a1-253766e7ad8b.jpg",
    "img_src": "BBC",
-   "fresh": true,
+   "fresh": false,
    "n": 5,
    "lat": 40.21,
    "lon": -98.22,
    "place": "США",
    "place_en": "United States",
-   "id": 4,
+   "id": 14,
    "t_en": "From premature baby to social media star - Famed hippo Fiona dies",
    "x_en": "The beloved hippopotamus died days after swallowing a knitted hat that accidentally got into her enclosure at the Cincinnati Zoo."
-  },
-  {
-   "t": "Ожидается, что Букеле из Сальвадора официально оформит заявку на третий президентский срок",
-   "x": "Президент Сальвадора завоевал популярность благодаря борьбе с преступностью, которая предоставила государству огромную власть.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 78,
-   "ten": 51,
-   "ago": 21,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-expected-to-formalise-bid-for-third-presidential-term?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_fbbf0ec3bba7966fa1a5d71d04e04e29_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 3,
-   "lat": 13.98,
-   "lon": -89.0,
-   "place": "Сальвадор",
-   "place_en": "El Salvador",
-   "id": 5,
-   "t_en": "El Salvador’s Bukele expected to formalise bid for third presidential term",
-   "x_en": "The Salvadoran president has won popularity through a crime crackdown that has granted the state enormous power."
-  },
-  {
-   "t": "Калифорния нацелилась на Nvidia в деле о чипах искусственного интеллекта в Китае",
-   "x": "Расследование, проведенное в Калифорнии, где находится глобальная штаб-квартира производителя ИИ-чипов, последовало за уходом бывшего генерального директора Дженсена Хуанга.",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 77,
-   "ten": 40,
-   "ago": 112,
-   "s": [
-    "BBC",
-    "CNBC",
-    "The Hindu",
-    "Reuters",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b75/live/e227dc20-e46c-11f1-950d-9b3226707024.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 34.22,
-   "lon": -118.52,
-   "place": "Лос-Анджелес",
-   "place_en": "Los Angeles",
-   "id": 6,
-   "t_en": "California targets Nvidia in China AI chip probe",
-   "x_en": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure."
-  },
-  {
-   "t": "Башня суверенного фонда благосостояния Саудовской Аравии повреждена в результате нападения хуситов на Эр-Рияд",
-   "x": "По данным властей Саудовской Аравии, в результате воздушной атаки йеменских ополченцев пострадало несколько этажей небоскреба, в котором находится Государственный инвестиционный фонд, но при этом никто не пострадал.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 74,
-   "ten": 81,
-   "ago": 87,
-   "s": [
-    "NYT",
-    "Fox News",
-    "Middle East Eye"
-   ],
-   "u": "https://www.nytimes.com/2026/11/19/world/middleeast/saudi-pif-riyadh-tower-houthis-attack.html",
-   "img": "https://static01.nyt.com/images/2026/11/19/multimedia/19int-saudi-pif-attack-wpcj/19int-saudi-pif-attack-wpcj-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": 15.3,
-   "lon": 44.36,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 7,
-   "t_en": "Saudi Sovereign Wealth Fund Tower Damaged as Houthis Attack Riyadh",
-   "x_en": "An aerial attack by the Yemeni militia affected several floors of a skyscraper that is home to the Public Investment Fund, without causing injuries, according to Saudi authorities."
-  },
-  {
-   "t": "Решение Мьянмы придает новую значимость конвенции о геноциде и «полно посланий» для Израиля",
-   "x": "Решение судей, названное «редким моментом справедливости», представляет собой дорожную карту для оценки вопроса о намерениях. Вердикт Международного суда (МС), согласно которому Мьянма стала первой страной в истории, признанной виновной в совершении геноцида, не просто",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 83,
-   "ago": 101,
-   "s": [
-    "The Guardian",
-    "NYT",
-    "Japan Times"
-   ],
-   "u": "https://www.theguardian.com/law/2026/nov/19/myanmar-ruling-new-relevance-genocide-convention-messages-israel",
-   "img": "https://i.guim.co.uk/img/media/12a1d2778195e55812e2b14410698d1ff3269a45/107_0_5160_4128/master/5160.jpg?width=700&quality=85&auto=format&fit=max&s=a3cb4fa30958ea89c7f814c427f834e0",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 3,
-   "lat": 21.75,
-   "lon": 95.67,
-   "place": "Мьянма",
-   "place_en": "Myanmar",
-   "id": 8,
-   "t_en": "Myanmar ruling gives new relevance to genocide convention and is ‘full of messages’ for Israel",
-   "x_en": "Hailed as ‘a rare moment of justice’, judges’ decision sets out a roadmap for assessing the question of intent The international court of justice (ICJ) verdict making Myanmar the first country in history to be found guilty of committing genocide does not just "
-  },
-  {
-   "t": "Китай: Трамп называет Путина своим «другом» на встрече лидеров в Шэньчжэне",
-   "x": "Дональд Трамп приветствовал Владимира Путина как своего друга во время встречи в Шэньчжэне. Их 40-минутная встреча состоялась накануне трехсторонних переговоров с президентом Китая Си Цзиньпином.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 40,
-   "ago": 154,
-   "s": [
-    "Euronews",
-    "CBS News",
-    "Africanews",
-    "The Hindu",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/video/2026/11/19/china-trump-calls-putin-his-friend-as-leaders-meet-amid-in-shenzhen",
-   "img": "https://images.euronews.com/articles/stories/09/99/91/73/696x392_cmsv2_678521ac-0eca-5fc8-8f53-a4f62cfaa8d9-9999173.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 5,
-   "lat": 34.45,
-   "lon": 103.95,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 9,
-   "t_en": "China: Trump calls Putin his \"friend\" as leaders meet in Shenzhen",
-   "x_en": "Donald Trump greeted Vladimir Putin as his friend during a meeting in Shenzhen. Their 40-minute encounter came ahead of trilateral talks with Chinese President Xi Jinping."
-  },
-  {
-   "t": "Путин обещает «гораздо более болезненный» ответ на удары Украины по Крымскому мосту",
-   "x": "Мост – символ российской оккупации Крымского полуострова – серьезно пострадал в результате комбинированного нападения Украины в начале этой недели.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 73,
-   "ten": 59,
-   "ago": 188,
-   "s": [
-    "BBC",
-    "NYT",
-    "Fox News",
-    "Japan Times"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4dc7/live/1a9ba6c0-e424-11f1-b782-6bf340d7e154.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 60.57,
-   "lon": 93.58,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 10,
-   "t_en": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-   "x_en": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week."
-  },
-  {
-   "t": "В результате ударов России по Киеву погиб один человек, нанесен ущерб посольствам Нидерландов и Австрии",
-   "x": "В результате волны дневных российских ударов по Киеву в четверг погиб один человек и был поврежден исторический собор, а также посольства Австрии и Нидерландов. В течение дня в столице Украины прогремели громкие взрывы.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 71,
-   "ten": 82,
-   "ago": 279,
-   "s": [
-    "France 24",
-    "Euronews",
-    "NYT",
-    "Africanews",
-    "Kyiv Independent"
-   ],
-   "u": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies",
-   "img": "https://s.france24.com/media/display/58fdce58-e45f-11f1-99b5-1bac47ab2f5d/w:1024/p:16x9/EN-20261119-203931-204127-CS.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 5,
-   "lat": 50.52,
-   "lon": 30.05,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 11,
-   "t_en": "Russian strikes on Kyiv kill one, damage Dutch and Austrian embassies",
-   "x_en": "A wave of daytime Russian strikes on Kyiv on Thursday killed one person and damaged a historic cathedral as well as the embassies of Austria and the Netherlands. Loud explosions erupted across the Ukraine capital throughout the day as the leaders of Russia, Ch"
-  },
-  {
-   "t": "Индия разрешит Японии использовать полигоны для испытаний ракет класса «земля-корабль»",
-   "x": "Сделка была заключена после того, как высшие дипломаты и руководители оборонных ведомств стран договорились активизировать сотрудничество в военной сфере и военной промышленности.",
-   "r": "Азия",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 44,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "Japan Times"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/india-to-let-japan-use-firing-ranges-for-surface-to-ship-missile-tests",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/20/thumbs/400x400/575106.jpg",
-   "img_src": "Japan Times",
-   "fresh": true,
-   "n": 2,
-   "lat": 22.4,
-   "lon": 80.38,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 12,
-   "t_en": "India to let Japan use firing ranges for surface-to-ship missile tests",
-   "x_en": "The deal came as the nations' top diplomats and defense chiefs agreed to boost military and arms industry cooperation."
   },
   {
    "t": "Japan Tobacco снизила прогноз прибыли на $8,7 млрд из-за ареста активов в России",
@@ -507,267 +556,338 @@
    "lon": 138.51,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 13,
+   "id": 15,
    "t_en": "Japan Tobacco cuts profit forecast by $8.7bn due to asset seizure in Russia",
    "x_en": "The Tokyo-based company now expects an operating loss of ¥368 billion instead of a ¥1 trillion profit."
   },
   {
-   "t": "Такаити встретил прохладный прием в Китае во время первого визита лидера Японии с 2019 года",
-   "x": "Такаичи встретили сдержанно во время ее поездки на саммит АТЭС, поскольку Пекин демонстрирует ограниченный интерес к восстановлению отношений, обострённых тайваньским спором.",
+   "t": "Мусадик Малик прибыл в Нью-Дели для участия в диалоговом форуме ШОС",
+   "x": "Министр по вопросам изменения климата и координации охраны окружающей среды д-р Мусадик Малик прибыл в пятницу в Нью-Дели для участия в Форуме цивилизационного диалога ШОС. Его визит является первым визитом пакистанского министра со времени присутствия бывшего министра иностранных дел Билавала Бхутто-Зардари.",
    "r": "Азия",
    "c": "Политика",
    "imp": 68,
-   "ten": 36,
-   "ago": 1,
-   "s": [
-    "CNBC",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108554895-1795063172662-gettyimages-2305255397-AFP_D7X963Y.jpeg?v=1795073160&w=1920&h=1080",
-   "img_src": "CNBC (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 34.11,
-   "lon": 103.0,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 14,
-   "t_en": "Takaichi gets chilly reception in China on first Japan leader visit since 2019",
-   "x_en": "Takaichi received a subdued welcome on her trip to attend the APEC summit, as Beijing shows limited appetite for repairing ties strained by Taiwan dispute."
-  },
-  {
-   "t": "Антропное IPO вызвало ажиотаж среди японских розничных инвесторов",
-   "x": "Рейтер",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 68,
    "ten": 40,
-   "ago": 1,
+   "ago": 6,
    "s": [
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/ipo/anthropic-ipo-draws-rush-of-japan-retail-investors",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F6%2F6%2F5%2F13465662-1-eng-GB%2Ff0c038675fa4-20261119N-Anthropic-Japan.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": 37.47,
-   "lon": 138.24,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 15,
-   "t_en": "Anthropic IPO draws rush of Japan retail investors",
-   "x_en": "Reuters"
-  },
-  {
-   "t": "Си Цзиньпин призывает к более свободной торговле, поскольку лидеры АТЭС маневрируют перед переговорами Трампа",
-   "x": "Президент Южной Кореи обратился со своим обращением в Шэньчжэне, надеясь побудить коллег-лидеров заняться решением проблем Северной Кореи.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 67,
-   "ten": 32,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "The Diplomat"
-   ],
-   "u": "https://asia.nikkei.com/politics/international-relations/apec/xi-urges-freer-trade-as-apec-leaders-maneuver-ahead-of-trump-talks",
-   "img": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-19-224929.jpg",
-   "img_src": "The Diplomat",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.17,
-   "lon": -98.34,
-   "place": "США",
-   "place_en": "United States",
-   "id": 16,
-   "t_en": "Xi urges freer trade as APEC leaders maneuver ahead of Trump talks",
-   "x_en": "The South Korean president made his appeal in Shenzhen, hoping to entice fellow leaders to address North Korea issues."
-  },
-  {
-   "t": "Илон Маск назвал рекордные расходы в $446 млн на промежуточные выборы в США «довольно глупыми»",
-   "x": "Мультимиллиардер также заявил, что он «не Мага», дистанцируясь от политического движения, связанного с Трампом.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 40,
-   "ago": 130,
-   "s": [
-    "BBC",
     "Dawn",
     "The Hindu"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3333/live/c9ef87a0-e3b5-11f1-ac8e-bf9cbaf16b78.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.45,
-   "lon": -99.49,
-   "place": "США",
-   "place_en": "United States",
-   "id": 17,
-   "t_en": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-   "x_en": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump."
+   "u": "https://www.dawn.com/news/2045878/musadik-malik-arrives-in-new-delhi-to-attend-sco-dialogue-forum",
+   "img": "https://i.dawn.com/large/2026/11/2010494301ccbd5.webp",
+   "img_src": "Dawn",
+   "fresh": true,
+   "n": 2,
+   "lat": 28.36,
+   "lon": 77.31,
+   "place": "Нью-Дели",
+   "place_en": "New Delhi",
+   "id": 16,
+   "t_en": "Musadik Malik arrives in New Delhi to attend SCO dialogue forum",
+   "x_en": "Minister for Climate Change and Environmental Coordination Dr Musadik Malik arrived in New Delhi on Friday to attend the SCO Civilisational Dialogue Forum. His visit is a first by a Pakistani minister since former foreign minister Bilawal Bhutto-Zardari attend"
   },
   {
-   "t": "Полиция Гаити сообщает, что в ходе рейда убиты по меньшей мере 34 предполагаемых члена банды",
-   "x": "Полиция сообщает, что рейд был нацелен на район Мартиссан, расположенный на ключевом маршруте из Порт-о-Пренса, удерживаемый бандами с 2021 года.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 80,
-   "ago": 209,
+   "t": "Катаибу Хезболле грозит крайний срок покинуть иракскую крепость",
+   "x": "Иракские силы безопасности развернуты в оплоте «Катаиб Хезболлы» Джурф аль-Сахар, сообщили в пятницу государственные СМИ, в рамках компромиссного соглашения, заключенного при посредничестве шиитских политиков. Ранее на этой неделе премьер-министр Ирака приказал провести вмешательство в целях безопасности после обвинений в",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 67,
+   "ten": 34,
+   "ago": 92,
    "s": [
     "Al Jazeera",
     "France 24",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/181d54d6-e1f7-11f1-a490-f71d22e7fea9/w:1024/p:16x9/2026-11-12T233346Z-695546907-RC24MOACBCCE-RTRMADP-3-HAITI-VIOLENCE-EL-SALVADOR.jpg",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kataib-hezbollah-faces-deadline-to-leave-iraqi-stronghold?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/8d70c954-e4bb-11f1-9f2f-e56ab3dc0809/w:1024/p:16x9/AP26321593824833.jpg",
    "img_src": "France 24",
    "fresh": false,
-   "n": 4,
-   "lat": 19.77,
-   "lon": -73.17,
-   "place": "Гаити",
-   "place_en": "Haiti",
-   "id": 18,
-   "t_en": "Haiti police say at least 34 suspected gang members killed in raid",
-   "x_en": "Police say the raid targeted the Martissant area, located on a key route out of Port-au-Prince held by gangs since 2021."
+   "n": 3,
+   "lat": 35.1,
+   "lon": 35.59,
+   "place": "Ливан",
+   "place_en": "Lebanon",
+   "id": 17,
+   "t_en": "Kataib Hezbollah faces deadline to leave Iraqi stronghold",
+   "x_en": "Iraqi security forces deployed ​in the Kataib Hezbollah stronghold of Jurf al-Sakhar, state media said on Friday, under a compromise deal brokered by Shi'ite politicians. Iraq's prime minister ordered a security intervention earlier this week after accusing th"
   },
   {
-   "t": "Лула посетил больного вождя Раони, поскольку Бразилия признает землю коренных народов",
-   "x": "Лула чтит Раони в Мату-Гросу, прославляя его наследие и продвигая защиту исконных земель Каяпо и Юджа.",
+   "t": "Фьючерсы на Nasdaq падают, поскольку Anthropic падает через день после дебюта, акции чипов падают: текущие обновления",
+   "x": "Основные индексы упали более чем на 2% каждый в ходе обычных торгов.",
+   "r": "Америка",
+   "c": "Наука",
+   "imp": 66,
+   "ten": 40,
+   "ago": 13,
+   "s": [
+    "CNBC",
+    "AP"
+   ],
+   "u": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108550250-1794502689706-gettyimages-2304263577-US_STOCKS.jpeg?v=1794502821&w=1920&h=1080",
+   "img_src": "CNBC (og)",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.76,
+   "lon": -73.52,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
+   "id": 18,
+   "t_en": "Nasdaq futures drop as Anthropic falls one day after debut, chip stocks decline: Live updates",
+   "x_en": "The major averages fell more than 2% each in regular trading."
+  },
+  {
+   "t": "Внутри лагеря рохинджа после решения о геноциде",
+   "x": "В четверг Международный суд постановил, что зверства против этнического меньшинства рохинджа представляют собой геноцид, осуществленный государством Мьянма. До принятия решения Ханна Бич, корреспондент New York Times, провела неделю в камере для беженцев.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 66,
+   "ten": 94,
+   "ago": 201,
+   "s": [
+    "NYT",
+    "Africanews",
+    "The Hindu"
+   ],
+   "u": "https://www.nytimes.com/video/world/asia/100000011287890/inside-a-rohingya-camp-after-a-genocide-ruling.html",
+   "img": "https://images.euronews.com/articles/stories/09/99/99/57/640x360_cmsv2_aba4030d-aacc-593b-ae6b-b412992a5d1c-9999957.jpg?1795100015",
+   "img_src": "Africanews",
+   "fresh": false,
+   "n": 3,
+   "lat": 40.66,
+   "lon": -73.59,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
+   "id": 19,
+   "t_en": "Inside a Rohingya Camp After a Genocide Ruling",
+   "x_en": "On Thursday, the International Court of Justice ruled that the atrocities against the Rohingya ethnic minority constituted a genocide waged by the Myanmar state. Before the decision, Hannah Beech, a New York Times correspondent, spent a week in the refugee cam"
+  },
+  {
+   "t": "В поисках следующего Месси на чемпионате мира среди юношей до 17 лет",
+   "x": "Около 100 футбольных скаутов находятся в Катаре в поисках следующей суперзвезды на чемпионате мира по футболу среди юношей до 17 лет.",
+   "r": "Ближний Восток",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 40,
+   "ago": 22,
+   "s": [
+    "Al Jazeera",
+    "ABC Australia"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/20/searching-for-the-next-messi-at-the-under-17-world-cup-2?traffic_source=rss",
+   "img": "https://live-production.wcms.abc-cdn.net.au/57f3cfb3327287feddccbbda771be5a6?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=288&width=862&height=485",
+   "img_src": "ABC Australia",
+   "fresh": true,
+   "n": 2,
+   "lat": -34.51,
+   "lon": -63.89,
+   "place": "Аргентина",
+   "place_en": "Argentina",
+   "id": 20,
+   "t_en": "Searching for the next Messi at the Under-17 World Cup",
+   "x_en": "Nearly 100 football scouts are in Qatar, searching for the next superstar at the FIFA Under-17 World Cup."
+  },
+  {
+   "t": "Вадефул: Переговоры «Коалиции желающих» в Берлине посылают сильный сигнал Москве",
+   "x": "Министр иностранных дел Германии Вадефул заявил, что встреча Коалиции желающих в Берлине посылает Москве четкий сигнал серьезно отнестись к мирным переговорам. Он также предупредил, что Украина должна быть готова к провалу мирных переговоров.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 64,
+   "ten": 35,
+   "ago": 121,
+   "s": [
+    "DW",
+    "France 24",
+    "Euronews"
+   ],
+   "u": "https://www.dw.com/en/wadephul-coalition-of-the-willing-talks-in-berlin-send-strong-signal-to-moscow/a-79990664?maca=en-rss-en-world-4025-rdf",
+   "img": "https://s.france24.com/media/display/f8d17efc-e4c8-11f1-8c51-1bac47ab2f5d/w:1024/p:16x9/EN-20261120-100734-100932-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 52.15,
+   "lon": 13.27,
+   "place": "Берлин",
+   "place_en": "Berlin",
+   "id": 21,
+   "t_en": "Wadephul: 'Coalition of the Willing' talks in Berlin send strong signal to Moscow",
+   "x_en": "German Foreign Minister Wadephul has said the Coalition of the Willing meeting in Berlin sends a clear message to Moscow to take peace talks seriously. He also warned Ukraine should be prepared for peace talks to fail."
+  },
+  {
+   "t": "Почему Ким Чен Ын из Северной Кореи не встретился с президентом США Дональдом Трампом, несмотря на шумиху",
+   "x": "Предыдущие саммиты президента США Дональда Трампа и лидера Северной Кореи Ким Чен Ына были направлены на сдерживание ядерной программы Пхеньяна, но не привели к достижению соглашения.",
    "r": "Америка",
    "c": "Политика",
    "imp": 63,
-   "ten": 36,
-   "ago": 35,
+   "ten": 44,
+   "ago": 44,
    "s": [
-    "Al Jazeera",
-    "ABC News"
+    "CNA",
+    "Dawn"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/20/lula-visits-ailing-chief-raoni-as-brazil-recognises-indigenous-land?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_b57fe434e70796eb2213808082261bfe_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.channelnewsasia.com/east-asia/north-korea-kim-jong-un-us-donald-trump-meeting-6568771",
+   "img": "https://dam.mediacorp.sg/image/upload/s--Q1BSBWaX--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/11/20/000_d7x88t4.jpg?itok=deSEkbwz",
+   "img_src": "CNA",
    "fresh": true,
    "n": 2,
-   "lat": -9.71,
-   "lon": -52.06,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 19,
-   "t_en": "Lula visits ailing Chief Raoni as Brazil recognises Indigenous land",
-   "x_en": "Lula honours Raoni in Mato Grosso, celebrating his legacy and advancing protection for Kayapo and Yudja ancestral lands."
+   "lat": 38.95,
+   "lon": 127.4,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 22,
+   "t_en": "Why North Korea's Kim Jong Un didn't meet US President Donald Trump, despite the hype",
+   "x_en": "US President Donald Trump and North Korean leader Kim Jong Un's previous summits had aimed to curb Pyongyang's nuclear programme but failed to produce a deal."
   },
   {
-   "t": "Европа готова к переговорам с Россией о прекращении войны на Украине, заявили лидеры",
-   "x": "Европейские союзники Украины заявляют, что у них есть «единая» переговорная позиция на саммите в Берлине.",
+   "t": "Забастовка в Италии вовлекает рабочих и студентов в общенациональные протесты против заработной платы и стоимости жизни",
+   "x": "Ожидалось, что общенациональная забастовка нарушит работу школ, больниц и местного транспорта по всей Италии в пятницу, поскольку рабочие и студенты начали марши в десятках городов, требуя повышения заработной платы, снижения стоимости жизни и усиления социальной защиты. Трудовой иск coi",
    "r": "Европа",
    "c": "Конфликты",
    "imp": 63,
-   "ten": 68,
-   "ago": 190,
+   "ten": 74,
+   "ago": 77,
    "s": [
-    "BBC",
-    "Sky News",
-    "CNA"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1fd8/live/5c168a90-e44a-11f1-a094-5fdc692f3e33.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 62.69,
-   "lon": 93.96,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 20,
-   "t_en": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-   "x_en": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin."
-  },
-  {
-   "t": "Китай: Си, Трамп и Путин собираются перед трехсторонним саммитом",
-   "x": "Президент Китая Си Цзиньпин, президент США Дональд Трамп и президент России Владимир Путин вместе появились в Шэньчжэне в четверг, 19 ноября 2026 года, позируя для групповой фотографии вместе с другими мировыми лидерами перед внимательно наблюдаемым трехсторонним саммитом.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 63,
-   "ten": 27,
-   "ago": 277,
-   "s": [
-    "Euronews",
-    "Washington Post",
-    "Africanews",
-    "The Hindu",
+    "France 24",
     "AP"
    ],
-   "u": "https://www.euronews.com/video/2026/11/19/china-xi-trump-and-putin-gather-ahead-of-trilateral-summit",
-   "img": "https://images.euronews.com/articles/stories/09/99/88/61/696x392_cmsv2_239623f0-8413-5ff1-b3f9-48f104f76e41-9998861.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 5,
-   "lat": 34.82,
-   "lon": 104.4,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 21,
-   "t_en": "China: Xi, Trump and Putin gather ahead of trilateral summit",
-   "x_en": "Chinese President Xi Jinping, US President Donald Trump and Russian President Vladimir Putin appeared together in Shenzhen, on Thursday 19 November 2026, posing for a group photograph alongside other world leaders ahead of a closely watched trilateral summit."
-  },
-  {
-   "t": "От антивоенного физика до влиятельного посредника в области искусственного интеллекта, Амодей публично демонстрирует свой подход к безопасности.",
-   "x": "Пока Anthropic готовилась к своему дебюту, Дарио Амодей предупредил, что достижения ИИ могут превзойти человеческий контроль, и призвал к замедлению развития.",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 61,
-   "ten": 70,
-   "ago": 91,
-   "s": [
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.japantimes.co.jp/business/2026/11/20/tech/physicist-ai-amodei-safety/",
-   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/20/thumbs/400x400/575144.jpg",
-   "img_src": "Japan Times",
+   "u": "https://www.france24.com/en/video/20261120-italy-strike-draws-workers-students-into-nationwide-protests-over-wages-and-living-costs",
+   "img": "https://s.france24.com/media/display/6abc8560-e4d4-11f1-87e1-e56ab3dc0809/w:1024/p:16x9/EN-20261120-120355-120805-CS.jpg",
+   "img_src": "France 24",
    "fresh": false,
    "n": 2,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 22,
-   "t_en": "From anti-war physicist to AI power broker, Amodei takes his safety approach public",
-   "x_en": "Even as Anthropic prepared for its debut, Dario Amodei warned how AI's advances could outpace human control and urged a slowdown in development."
+   "lat": 42.21,
+   "lon": 13.27,
+   "place": "Италия",
+   "place_en": "Italy",
+   "id": 23,
+   "t_en": "Italy strike draws workers, students into nationwide protests over wages and living costs",
+   "x_en": "A nationwide strike was expected to disrupt schools, hospitals and local transport across Italy on Friday as workers and students began marching in dozens of cities to demand higher wages, lower living costs and greater social protections. The labor action coi"
   },
   {
-   "t": "Десятки человек пропали без вести после того, как лодка с мигрантами затонула у берегов Сенегала",
-   "x": "Из лодки, на которой, как сообщается, находилось от 50 до 100 человек, были извлечены по меньшей мере четыре тела.",
+   "t": "Украина: Станции киевского метро превратились в ночлежки во время воздушных налетов",
+   "x": "Жители Киева (Украина) искали убежища на станциях метро в ночь на четверг, 19 ноября 2026 года, поскольку неоднократные предупреждения о воздушных налетах предупреждали о дальнейших российских атаках на столицу. В результате ударов по украинской столице погиб как минимум один человек, ранены",
    "r": "Европа",
-   "c": "Общее",
-   "imp": 61,
-   "ten": 62,
-   "ago": 459,
+   "c": "Конфликты",
+   "imp": 63,
+   "ten": 95,
+   "ago": 114,
    "s": [
-    "BBC",
     "Euronews",
-    "ABC News",
     "Africanews"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9aab/live/c39b82a0-e419-11f1-b37c-b3a71d7200af.jpg",
-   "img_src": "BBC",
+   "u": "https://www.euronews.com/video/2026/11/20/ukraine-kyiv-metro-stations-become-overnight-shelters-amid-air-raids",
+   "img": "https://images.euronews.com/articles/stories/10/00/11/29/696x392_cmsv2_06226dbd-0c59-5948-8b48-c65587dab2d7-10001129.jpg",
+   "img_src": "Euronews",
    "fresh": false,
-   "n": 4,
-   "lat": 14.4,
-   "lon": -15.5,
-   "place": "Сенегал",
-   "place_en": "Senegal",
-   "id": 23,
-   "t_en": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
-   "x_en": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people."
+   "n": 2,
+   "lat": 50.56,
+   "lon": 30.58,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 24,
+   "t_en": "Ukraine: Kyiv metro stations become overnight shelters amid air raids",
+   "x_en": "Residents of Kyiv, Ukraine, sought refuge in underground metro stations overnight on Thursday 19 November 2026, as repeated air raid alerts warned of further Russian attacks on the capital. Strikes on the Ukrainian capital killed at least one person, injured f"
+  },
+  {
+   "t": "Суд США запретил главе сельского хозяйства Трампа Брук Роллинз отправлять сотрудникам электронные письма религиозного содержания",
+   "x": "АП Новости",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 63,
+   "ten": 40,
+   "ago": 141,
+   "s": [
+    "Times of India",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://timesofindia.indiatimes.com/world/us/a-federal-judge-rules-brooke-rollins-religious-emails-to-roughly-100000-usda-employees-unconstitutional-and-restricts-the-use-of-her-official-account/articleshow/136022704.cms",
+   "img": "https://static.toiimg.com/photo/msid-136022775,imgsize-79910.cms",
+   "img_src": "Times of India",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.53,
+   "lon": -98.9,
+   "place": "США",
+   "place_en": "United States",
+   "id": 25,
+   "t_en": "US judge bars Trump agriculture chief Brooke Rollins from sending religious emails to staff",
+   "x_en": "AP News"
+  },
+  {
+   "t": "Нежелательные беженцы Малайзии: тяжелое положение рохинджа",
+   "x": "19 ноября Международный Суд вынес историческое решение: признал Мьянму виновной в совершении геноцида против рохинджа в 2017 году. Малайзия уже давно поддерживает преследуемое мусульманское меньшинство. Но его роль как безопасного убежища очень важна.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 62,
+   "ten": 61,
+   "ago": 74,
+   "s": [
+    "France 24",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/tv-shows/focus/20261120-malaysia-s-unwanted-refugees-the-plight-of-the-rohingya",
+   "img": "https://s.france24.com/media/display/a4133a2c-e441-11f1-beda-e56ab3dc0809/w:1024/p:16x9/EN-NW-OOV-ECRAN-FREEZE-MALAYSIA-ROHIGNYA-RACISM-BAIN-Lauren.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 2,
+   "lat": 3.08,
+   "lon": 101.7,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 26,
+   "t_en": "Malaysia's unwanted refugees: The plight of the Rohingya",
+   "x_en": "On November 19, the International Court of Justice delivered a historic ruling: finding Myanmar guilty of committing genocide against the Rohingya in 2017. Malaysia has long been a supporter of the persecuted Muslim minority. But its role as a safe haven is co"
+  },
+  {
+   "t": "Индия разрешит Японии использовать полигоны для испытаний ракет класса «земля-корабль»",
+   "x": "",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 61,
+   "ten": 66,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/india-to-let-japan-use-firing-ranges-for-surface-to-ship-missile-tests",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F3%2F7%2F6%2F4%2F13464673-1-eng-GB%2F4e706de9e5bb-20261119N-Japan-India-2-2.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 22.4,
+   "lon": 80.38,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 27,
+   "t_en": "India to let Japan use firing ranges for surface-to-ship missile tests",
+   "x_en": ""
+  },
+  {
+   "t": "🔴 Прямой эфир: Смертоносные российские атаки повредили два моста в Киеве, говорит мэр",
+   "x": "Россия запустила ракеты и беспилотники по Киеву, в результате чего три человека погибли и девять получили ранения",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 61,
+   "ten": 75,
+   "ago": 230,
+   "s": [
+    "France 24",
+    "ABC News",
+    "The Hindu"
+   ],
+   "u": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+   "img": "https://s.abcnews.com/images/International/wirestory_433e18f00cbd37a2a9da94e60fce0e07_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": 50.3,
+   "lon": 30.41,
+   "place": "Киев",
+   "place_en": "Kyiv",
+   "id": 28,
+   "t_en": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
+   "x_en": "Russia has launched missiles and drones across Kyiv, killing three people and injuring nine"
   },
   {
    "t": "Генеральный директор BlackRock предупреждает, что ужесточение правил в области искусственного интеллекта может привести к рецессии в США",
@@ -789,7 +909,7 @@
    "lon": -99.04,
    "place": "США",
    "place_en": "United States",
-   "id": 24,
+   "id": 29,
    "t_en": "BlackRock CEO warns tighter AI regulations could lead to US recession",
    "x_en": ""
   },
@@ -813,182 +933,107 @@
    "lon": -97.24,
    "place": "США",
    "place_en": "United States",
-   "id": 25,
+   "id": 30,
    "t_en": "Xi, Trump, Putin promise to raise energy supplies and lower nuclear risk",
    "x_en": ""
   },
   {
-   "t": "Изолированное племя ава выходит из бразильских лесов Амазонки на фоне тревожных угроз со стороны незаконных захватчиков",
-   "x": "Недавно неуловимое племя ава, известное своей изоляцией, связалось с соседним поселением на территории коренных народов Арарибойя. В поисках еды и помощи их визит выявил серьезные последствия незаконных посягательств на землю. Местные жители д",
-   "r": "Мир",
+   "t": "АТЭС-Китай: 5 выводов о крупных державах, горячих технологиях и завуалированной напряженности",
+   "x": "",
+   "r": "Азия",
    "c": "Общее",
    "imp": 60,
-   "ten": 82,
-   "ago": 25,
+   "ten": 57,
+   "ago": 1,
    "s": [
-    "Times of India"
+    "Nikkei Asia"
    ],
-   "u": "https://timesofindia.indiatimes.com/world/rest-of-world/isolated-tribe-aw-emereges-from-brazilian-amazon-forest-amid-alarming-threats-by-illegal-invaders/articleshow/135985625.cms",
-   "img": "https://static.toiimg.com/photo/msid-135986441,imgsize-124420.cms",
-   "img_src": "Times of India",
+   "u": "https://asia.nikkei.com/politics/international-relations/apec/apec-china-5-takeaways-on-big-powers-hot-tech-and-veiled-tensions",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F4%2F1%2F7%2F13467142-1-eng-GB%2F153c0aa00efd-2026-11-19T032853Z_1514181401_RC2RQOARGPEF_RTRMADP_3_APEC-SUMMIT.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": -8.78,
-   "lon": -51.72,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 26,
-   "t_en": "Isolated tribe Awá emereges from Brazilian Amazon forest amid alarming threats by illegal invaders",
-   "x_en": "Recently, the elusive Awá tribe, famed for their isolation, reached out to a neighboring settlement in the Arariboia Indigenous territory. In search of food and assistance, their visit exposed the severe impacts of illegal land encroachments. Local villagers d"
+   "lat": 34.32,
+   "lon": 102.09,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 31,
+   "t_en": "APEC China: 5 takeaways on big powers, hot tech and veiled tensions",
+   "x_en": ""
   },
   {
-   "t": "Комиссия по свободе вероисповедания в США заявляет: «Индия нацелена на меньшинства при пересмотре списков избирателей»",
-   "x": "USCIRF — это двухпартийный орган правительства США, который контролирует свободу вероисповедания во всем мире и дает политические рекомендации, которые не являются обязательными.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 40,
-   "ago": 60,
-   "s": [
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.thehindu.com/news/international/us-religious-freedom-panel-says-india-is-targeting-minorities-in-voter-roll-revisions/article71722894.ece",
-   "img": "https://th-i.thgim.com/public/incoming/c3aazi/article71722898.ece/alternates/LANDSCAPE_1200/20260222210L.jpg",
-   "img_src": "The Hindu",
-   "fresh": true,
-   "n": 2,
-   "lat": 39.51,
-   "lon": -98.1,
-   "place": "США",
-   "place_en": "United States",
-   "id": 27,
-   "t_en": "U.S. religious freedom panel says ‘India targeting minorities in voter roll revisions’",
-   "x_en": "USCIRF is a bipartisan body of ⁠the U.S. government that monitors religious freedom around the world and makes policy recommendations, which are not binding"
-  },
-  {
-   "t": "Администрация Трампа просит федеральный суд отклонить ее иск по поводу выборов в Сенат США на Аляске – как это произошло",
-   "x": "Этот живой блог закрыт. Министерство юстиции Трампа предлагает отказаться от судебного оспаривания победы Мэри Пелтолы в Сенате Аляски. Подпишитесь на рассылку последних новостей. Электронная почта США. Агентство национальной безопасности третий день наблюдает сбои в своей внутренней сети, NSA Net, которая позволяет",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 40,
-   "ago": 61,
-   "s": [
-    "The Guardian",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates",
-   "img": "https://i.guim.co.uk/img/media/54a728ed2e975155848c4f3d8c0cb7d40a67f7c8/363_0_4528_3623/master/4528.jpg?width=700&quality=85&auto=format&fit=max&s=c8a43f72dc3911eb920163961187b24f",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 2,
-   "lat": 38.67,
-   "lon": -97.37,
-   "place": "США",
-   "place_en": "United States",
-   "id": 28,
-   "t_en": "Trump administration asks federal court to dismiss its lawsuit over US Senate election in Alaska – as it happened",
-   "x_en": "This live blog is now closed. Trump DoJ moves to drop legal challenge to Mary Peltola’s Alaska Senate win Sign up for the Breaking News US email The National Security Agency is seeing a third day of disruptions to its internal network, NSA Net, which allows st"
-  },
-  {
-   "t": "Прокурор США отклонил обвинения против белого полицейского, убившего чернокожего мужчину",
-   "x": "Полицейскому в Висконсине не будет предъявлено обвинение в смертельном расстреле чернокожего мужчины в июле. Прокурор Исмаэль Озанн пришел к выводу, что офицер действовал разумно в ситуации с Кори Руисом. Руис якобы оказал сопротивление при аресте, размахивал ножом и был",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 60,
-   "ten": 66,
-   "ago": 94,
-   "s": [
-    "Times of India",
-    "AP"
-   ],
-   "u": "https://timesofindia.indiatimes.com/world/us/us-prosecutor-declines-charges-against-white-cop-who-killed-black-man/articleshow/136010364.cms",
-   "img": "https://static.toiimg.com/photo/msid-136010406,imgsize-317058.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 2,
-   "lat": 38.97,
-   "lon": -99.16,
-   "place": "США",
-   "place_en": "United States",
-   "id": 29,
-   "t_en": "US prosecutor declines charges against white cop who killed Black man",
-   "x_en": "A police officer in Wisconsin will not be charged for fatally shooting a Black man in July. Prosecutor Ismael Ozanne concluded that the officer acted reasonably in the situation involving Corey Ruiz. Ruiz allegedly resisted arrest, brandished a knife, and was "
-  },
-  {
-   "t": "Представитель Пентагона заявил, что война США с Ираном обошлась США в 48,3 миллиарда долларов",
-   "x": "Представитель Пентагона сообщил законодателям, что война США с Ираном обошлась США примерно в 48,3 миллиарда долларов. «Эта цифра включает боеприпасы, затраты на замену оборудования и эксплуатационные расходы», — сказал Артур Миллер. Однако в эту сумму не включена стоимость ремонта.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 59,
-   "ten": 91,
-   "ago": 39,
-   "s": [
-    "Middle East Eye"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/pentagon-official-says-us-war-iran-cost-483b",
-   "img": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
-   "img_src": "Middle East Eye (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 38.73,
-   "lon": -76.8,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 30,
-   "t_en": "Pentagon official says US war on Iran cost $48.3B",
-   "x_en": "A Pentagon official told lawmakers that the US war on Iran has cost an estimated $48.3 billion. \"That number includes munitions, equipment replacement costs, and operational cost,\" Arthur Miller said. However, the figure does not include the price of repairing"
-  },
-  {
-   "t": "Белый дом увольняет национального директора по кибербезопасности из-за повсеместных сбоев в работе",
-   "x": "Белый дом уволил национального директора по кибербезопасности Шона Кернкросса в четверг после недели технологических сбоев, затронувших авиаперевозки США, службы электронной почты и системы национальной безопасности. Уход произошел на фоне того, что администрация Трампа столкнулась с критикой по поводу своей политики.",
-   "r": "Америка",
+   "t": "США нацелены на перевозки Ирана с корабля на корабль: может ли Тегеран прорвать блокаду?",
+   "x": "ЦЕНТКОМ заявляет, что суда, обходящие иранскую блокаду, могут быть остановлены, взяты на абордаж или даже захвачены американскими войсками.",
+   "r": "Ближний Восток",
    "c": "Общее",
    "imp": 59,
-   "ten": 40,
-   "ago": 70,
+   "ten": 74,
+   "ago": 23,
+   "s": [
+    "Al Jazeera"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/20/us-targets-irans-ship-to-ship-transfers-can-tehran-break-the-blockade?traffic_source=rss",
+   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0023dc-1795171292.jpg?resize=1920%2C1440",
+   "img_src": "Al Jazeera (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.37,
+   "lon": 51.58,
+   "place": "Тегеран",
+   "place_en": "Tehran",
+   "id": 32,
+   "t_en": "US targets Iran’s ship-to-ship transfers: Can Tehran break the blockade?",
+   "x_en": "CENTCOM declares vessels bypassing the Iran blockade could be stopped, boarded or even seized by US forces."
+  },
+  {
+   "t": "Был ли исторический саммит в Шэньчжэне политической победой или унижением Путина?",
+   "x": "В четверг мир, затаив дыхание, наблюдал, как президенты Китая, России и США встретились в течение 90 минут на беспрецедентном трехстороннем саммите в Шэньчжэне. Каждый лидер садился за стол переговоров со своими мотивами. Но российский Влад",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 19,
+   "ago": 41,
    "s": [
     "France 24",
-    "The Hindu"
+    "NYT"
    ],
-   "u": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
-   "img": "https://s.france24.com/media/display/e56edbae-d878-11f1-8aa8-bf1914cabd52/w:1024/p:16x9/AP26294693498447.jpg",
+   "u": "https://www.france24.com/en/asia-pacific/20261120-was-the-historic-shenzhen-summit-political-win-or-humiliation-for-putin",
+   "img": "https://s.france24.com/media/display/b2f34066-e421-11f1-999e-e56ab3dc0809/w:1024/p:16x9/main-shenzen-poutine.png",
    "img_src": "France 24",
-   "fresh": false,
+   "fresh": true,
    "n": 2,
-   "lat": 38.67,
-   "lon": -76.89,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 31,
-   "t_en": "White House fires national cyber director over widespread outages",
-   "x_en": "The White House fired national cyber director Sean Cairncross on Thursday following a week of technology disruptions affecting US air travel, email services and national security systems. The departure comes as the Trump administration faces criticism over its"
+   "lat": 61.83,
+   "lon": 95.22,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 33,
+   "t_en": "Was the historic Shenzhen summit a political win or humiliation for Putin?",
+   "x_en": "The world watched with bated breath Thursday as the presidents of China, Russia and the United States met for 90 minutes for an unprecedented trilateral summit in Shenzhen. Each leader came to the negotiating table with their own motivations. But Russia's Vlad"
   },
   {
-   "t": "Членство Украины в НАТО важно для европейской безопасности, заявил Макрон",
-   "x": "Рейтер",
+   "t": "Великобритания заявляет, что соглашение о перезагрузке ЕС согласовано, но переговоры продолжатся «в некоторых областях» – в прямом эфире",
+   "x": "Заявление Великобритании прозвучало после того, как ЕС заявил, что соглашение не вступит в силу без будущего соглашения по поводу платы за обучение в университетах. Старший корреспондент. Постановка сегодняшней сделки по перезагрузке в зависимость от дальнейшего соглашения об уровне платы за обучение для граждан ЕС призвана нейтрализовать",
    "r": "Европа",
-   "c": "Общее",
+   "c": "Политика",
    "imp": 59,
-   "ten": 40,
-   "ago": 71,
+   "ten": 19,
+   "ago": 47,
    "s": [
-    "Reuters",
-    "AP"
+    "The Guardian",
+    "Reuters"
    ],
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb2RPY2RXb1I0aGpycUdTNHMtZk1aVDBfandNSWtfd2VNcll1UzhYUWpOVm9haTJ4b0tnY3NTeXA5eVZKWVBkbGp0eFlLc3hfdTRLMGRVbktKN3hrRmZpUEQ5M1ljeTV3LVE3eFZJeG01dURZa1pMLWxwaHRXM1NyVE14Y05CM2dNV19qQmE4NEhidW40ZlltY3IxYjRrY1EzcnlJaE1LdnVaeWNr?oc=5",
-   "img": "",
-   "img_src": "",
-   "fresh": false,
+   "u": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+   "img": "https://i.guim.co.uk/img/media/b27d3ee34f879e3cdf8410a75595717f4585e5ed/358_0_2972_2378/master/2972.jpg?width=700&quality=85&auto=format&fit=max&s=faf787d7511ffc9e0ffdbdddfbb181a0",
+   "img_src": "The Guardian",
+   "fresh": true,
    "n": 2,
-   "lat": 50.77,
-   "lon": 4.58,
+   "lat": 50.95,
+   "lon": 4.2,
    "place": "Брюссель",
    "place_en": "Brussels",
-   "id": 32,
-   "t_en": "Ukraine's NATO membership is relevant for European security, Macron says",
-   "x_en": "Reuters"
+   "id": 34,
+   "t_en": "UK says EU reset deal agreed but talks will continue ‘in some areas’ – live",
+   "x_en": "UK statement comes after EU said deal would not take effect without future agreement over university tuition fees Senior correspondent Making today’s reset deal contingent on a further agreement on the level of tuition fees for EU citizens is designed to neutr"
   },
   {
    "t": "Китай использует «стабильность» Трампа и Си Цзиньпина для создания стратегического преимущества, предупреждает комиссия США",
@@ -1010,190 +1055,137 @@
    "lon": -99.33,
    "place": "США",
    "place_en": "United States",
-   "id": 33,
+   "id": 35,
    "t_en": "China using Trump-Xi 'stability' to build strategic edge, US panel warns",
    "x_en": ""
   },
   {
-   "t": "После того, как А.И. Скандал с мошенничеством: Южная Корея вводит новые ограничения для изнурительных вступительных экзаменов в колледж",
-   "x": "Южная Корея разослала три громких оповещения о чрезвычайной ситуации на каждый телефон в стране в рамках кампании по обеспечению честности студентов, сдающих изнурительный тест.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 40,
-   "ago": 80,
-   "s": [
-    "NYT",
-    "CNA"
-   ],
-   "u": "https://www.nytimes.com/2026/11/18/world/asia/south-korea-cheating-college-exam-suneung.html",
-   "img": "https://static01.nyt.com/images/2026/11/18/multimedia/18int-skorea-exam-klmw/18int-skorea-exam-klmw-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 2,
-   "lat": 37.64,
-   "lon": 128.63,
-   "place": "Южная Корея",
-   "place_en": "South Korea",
-   "id": 34,
-   "t_en": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
-   "x_en": "South Korea sent three loud emergency alerts to every phone in the country as part of a campaign to keep students taking a grueling test honest."
-  },
-  {
-   "t": "Цены на нефть растут на фоне атак на нефтяные танкеры",
-   "x": "Цены на нефть незначительно выросли в четверг после недавних сообщений о нападениях на танкеры в Ормузском проливе. В 16:19 по Гринвичу фьючерсы на нефть марки Brent торговались с повышением на 63 цента, или 0,69 процента, до $92,58 за баррель, а декабрьские фьючерсы на нефть марки West Texas Intermediate.",
-   "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 58,
-   "ten": 66,
-   "ago": 120,
-   "s": [
-    "Middle East Eye",
-    "Reuters"
-   ],
-   "u": "https://www.middleeasteye.net/live-blog/live-blog-update/oil-prices-rise-amid-attacks-oil-tankers",
-   "img": "https://www.middleeasteye.net/sites/default/files/2026-11/063_2305953310%281%29.jpg",
-   "img_src": "Middle East Eye (og)",
-   "fresh": false,
-   "n": 2,
-   "lat": 26.34,
-   "lon": 56.29,
-   "place": "Ормузский пролив",
-   "place_en": "Strait of Hormuz",
-   "id": 35,
-   "t_en": "Oil prices rise amid attacks on oil tankers",
-   "x_en": "Oil prices increased slightly on Thursday after recent reports of attacks on tankers in the Strait of Hormuz. Brent crude futures were trading up 63 cents, or 0.69 percent, at $92.58 a barrel at 16:19 GMT, while US West Texas Intermediate futures for December "
-  },
-  {
-   "t": "Шесть человек погибли в результате предполагаемого взрыва газа в жилом доме в Джорджии",
-   "x": "Министр внутренних дел Грузии Сулхан Тамазашвили заявил, что спасатели извлекли из-под обломков шесть тел.",
-   "r": "Мир",
+   "t": "В результате российских атак за минувшие сутки по всей Украине погибло 12 и ранено 82 человека, поскольку страна переживает массовую ночную забастовку",
+   "x": "В ночь на 20 ноября Россия запустила 84 крылатые ракеты и 404 беспилотника, а также баллистические ракеты «Искандер-М/С-400» и гиперзвуковые противокорабельные ракеты «Циркон». Общее количество последних ракет ВВС Украины не раскрыли.",
+   "r": "Европа",
    "c": "Конфликты",
    "imp": 58,
-   "ten": 80,
-   "ago": 137,
+   "ten": 95,
+   "ago": 52,
    "s": [
-    "Al Jazeera",
-    "Times of India"
+    "Kyiv Independent"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
-   "img": "https://static.toiimg.com/photo/msid-136009753,imgsize-1452791.cms",
-   "img_src": "Times of India",
-   "fresh": false,
-   "n": 2,
-   "lat": 42.85,
-   "lon": 43.43,
-   "place": "Грузия",
-   "place_en": "Georgia",
+   "u": "https://kyivindependent.com/russian-attacks-kill-12-injure-82-across-ukraine-over-past-day-as-country-reels-from-mass-overnight-strike/",
+   "img": "https://assets.kyivindependent.com/content/images/2026/11/photo_2026-11-20-12_10_15_20261120-101020.jpeg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 1,
+   "lat": 61.05,
+   "lon": 93.86,
+   "place": "Россия",
+   "place_en": "Russia",
    "id": 36,
-   "t_en": "Six killed in suspected gas explosion at Georgia apartment building",
-   "x_en": "Georgian Interior Minister Sulkhan Tamazashvili said rescuers had recovered six bodies from the wreckage."
+   "t_en": "Russian attacks kill 12, injure 82 across Ukraine over past day as country reels from mass overnight strike",
+   "x_en": "Overnight on Nov. 20, Russia launched 84 cruise missiles and 404 drones, as well as Iskander-M/S-400 ballistic missiles and Zircon hypersonic anti-ship missiles. Ukraine's Air Force did not disclose the total number of the latter missiles."
   },
   {
-   "t": "«Джерузалем Дейли»: Израиль начинает наземное наступление в секторе Газа",
-   "x": "Израиль начинает свое первое крупное наземное наступление в центре сектора Газа, выходя за пределы «желтой линии», которую он контролирует.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
+   "t": "ЕС и Великобритания проводят редкий саммит в попытке «восстановить связи»",
+   "x": "Чиновники Европейского Союза и премьер-министр Великобритании Энди Бернхэм встретились в Брюсселе, чтобы обсудить усилия по восстановлению связей после Брексита.",
+   "r": "Европа",
+   "c": "Политика",
    "imp": 58,
-   "ten": 36,
-   "ago": 422,
+   "ten": 32,
+   "ago": 72,
    "s": [
-    "Al Jazeera",
-    "Sky News",
-    "Euronews",
-    "The Hindu"
+    "DW",
+    "NPR"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-palestinians-gaza_7409882.jpg?20261118205348",
-   "img_src": "Sky News",
+   "u": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-world-4025-rdf",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5303x3535+0+0/resize/5303x3535!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Faf%2Fca%2F5e1352384fd6bdc90c42b50069e8%2Fap26316633592372.jpg",
+   "img_src": "NPR",
    "fresh": false,
-   "n": 4,
-   "lat": 31.6,
-   "lon": 34.21,
-   "place": "Газа",
-   "place_en": "Gaza",
+   "n": 2,
+   "lat": 51.08,
+   "lon": 4.11,
+   "place": "Брюссель",
+   "place_en": "Brussels",
    "id": 37,
-   "t_en": "Jerusalem Daily: Israel launches ground offensive in Gaza",
-   "x_en": "Israel launches its first major ground offensive in central Gaza, pushing beyond the ‘Yellow Line’ it controls"
+   "t_en": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+   "x_en": "European Union officials and UK Prime Minister Andy Burnham met in Brussels to discuss efforts to rebuild ties following Brexit."
   },
   {
-   "t": "Китай демонстрирует видение будущего в Шэньчжэне с множеством бюрократических проволочек",
-   "x": "",
-   "r": "Ближний Восток",
+   "t": "Ватикан: гигантскую рождественскую елку установили рядом с собором Святого Петра",
+   "x": "Высокая 25-метровая рождественская елка была установлена ​​на площади Святого Петра в Ватикане в пятницу, 20 ноября 2026 года, когда началась подготовка к празднованию Рождества в этом году. Серебряная ель, подаренная общиной на юге Италии, будет открыта",
+   "r": "Европа",
    "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
+   "imp": 58,
+   "ten": 35,
+   "ago": 73,
    "s": [
-    "Nikkei Asia"
+    "Euronews",
+    "Africanews"
    ],
-   "u": "https://asia.nikkei.com/politics/international-relations/apec/china-shows-vision-of-future-in-shenzhen-with-plenty-of-red-tape",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F5%2F6%2F7%2F13457657-2-eng-GB%2Fe1233603eda8-Image-3-e.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 34.74,
-   "lon": 101.64,
-   "place": "Китай",
-   "place_en": "China",
+   "u": "https://www.euronews.com/video/2026/11/20/vatican-giant-christmas-tree-lifted-into-place-beside-st-peters-basilica",
+   "img": "https://images.euronews.com/articles/stories/10/00/15/39/696x392_cmsv2_13ac3c41-611c-5f4a-b5d6-846cf5d7d530-10001539.jpg",
+   "img_src": "Euronews",
+   "fresh": false,
+   "n": 3,
+   "lat": 41.79,
+   "lon": 12.73,
+   "place": "Рим",
+   "place_en": "Rome",
    "id": 38,
-   "t_en": "China shows vision of future in Shenzhen with plenty of red tape",
-   "x_en": ""
+   "t_en": "Vatican: Giant Christmas tree lifted into place beside St Peter's Basilica",
+   "x_en": "A towering 25-metre Christmas tree was lifted into place in St Peter's Square, Vatican City, on Friday 20 November 2026, as preparations began for this year's Christmas celebrations. The silver fir, donated by a community in southern Italy, will be unveiled on"
   },
   {
-   "t": "«Все китайские игроки» в конечном итоге будут полагаться на отечественные чипы: Tencent",
-   "x": "",
-   "r": "Мир",
+   "t": "«Наша культура и самобытность»: глухие нигерийцы перенимают языки жестов коренных народов",
+   "x": "Быстрым движением запястья Умару Зайяну передает фразу «Я нигериец». Но 37-летний мужчина жестикулирует не на официальном языке жестов западноафриканской страны. Вместо этого он использует язык жестов хауса. Таких коренных языков жестов предостаточно.",
+   "r": "Африка",
    "c": "Общее",
-   "imp": 57,
+   "imp": 58,
    "ten": 40,
-   "ago": 1,
+   "ago": 81,
    "s": [
-    "Nikkei Asia"
+    "France 24",
+    "Africanews"
    ],
-   "u": "https://asia.nikkei.com/business/china-tech/all-chinese-players-will-rely-on-domestic-chips-eventually-tencent",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F3%2F2%2F8%2F13458239-1-eng-GB%2F1a63bd0c5e1a-2026-11-02T033933Z_1019520471_RC2EFOAJEBJF_RTRMADP_3_HONGKONG-FINTECH.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 34.12,
-   "lon": 103.04,
-   "place": "Китай",
-   "place_en": "China",
+   "u": "https://www.france24.com/en/video/20261120-our-culture-and-identity-deaf-nigerians-embrace-indigenous-sign-languages",
+   "img": "https://s.france24.com/media/display/d854d850-e4d1-11f1-89aa-e56ab3dc0809/w:1024/p:16x9/EN-20261119-215248-215434-CS.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 2,
+   "lat": 9.47,
+   "lon": 8.47,
+   "place": "Нигерия",
+   "place_en": "Nigeria",
    "id": 39,
-   "t_en": "'All Chinese players' will rely on domestic chips eventually: Tencent",
-   "x_en": ""
+   "t_en": "'Our culture and identity': Deaf Nigerians embrace indigenous sign languages",
+   "x_en": "With a quick flick of the wrist, Umaru Zayyanu conveys the phrase \"I am a Nigerian\". But the 37-year-old is not signing, rather in the west African nation's official sign language. Instead, he's using Hausa sign language. Such indigenous sign languages abound "
   },
   {
-   "t": "Toyota и Suzuki полагаются на слабую иену, чтобы поддерживать рост прибыли",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 57,
+   "t": "Калифорния нацелилась на Nvidia в деле о чипах искусственного интеллекта в Китае",
+   "x": "Расследование, проведенное в Калифорнии, где находится глобальная штаб-квартира производителя ИИ-чипов, последовало за уходом бывшего генерального директора Дженсена Хуанга.",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 58,
    "ten": 40,
-   "ago": 1,
+   "ago": 204,
    "s": [
-    "Nikkei Asia"
+    "BBC",
+    "The Guardian",
+    "CNBC"
    ],
-   "u": "https://asia.nikkei.com/business/automobiles/toyota-suzuki-rely-on-weak-yen-to-keep-profits-growing",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F1%2F9%2F8%2F13458917-1-eng-GB%2F42fe406a2431-20261118N-forex-autos.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "u": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b75/live/e227dc20-e46c-11f1-950d-9b3226707024.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 3,
+   "lat": 34.22,
+   "lon": -118.52,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
    "id": 40,
-   "t_en": "Toyota, Suzuki rely on weak yen to keep profits growing",
-   "x_en": ""
+   "t_en": "California targets Nvidia in China AI chip probe",
+   "x_en": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure."
   }
  ],
  "history": [
-  {
-   "t": 1795073509154,
-   "v": 46
-  },
   {
    "t": 1795106723682,
    "v": 49
@@ -1205,139 +1197,143 @@
   {
    "t": 1795147214702,
    "v": 49
+  },
+  {
+   "t": 1795178527897,
+   "v": 49
   }
  ],
  "timeline": [
   {
-   "t": 1795060814702,
-   "v": 43,
-   "n": 16
+   "t": 1795092127897,
+   "v": 53,
+   "n": 61
   },
   {
-   "t": 1795064414702,
-   "v": 42,
-   "n": 27
+   "t": 1795095727897,
+   "v": 56,
+   "n": 51
   },
   {
-   "t": 1795068014702,
-   "v": 45,
-   "n": 35
+   "t": 1795099327897,
+   "v": 55,
+   "n": 47
   },
   {
-   "t": 1795071614702,
-   "v": 48,
-   "n": 39
+   "t": 1795102927897,
+   "v": 55,
+   "n": 42
   },
   {
-   "t": 1795075214702,
-   "v": 47,
-   "n": 36
+   "t": 1795106527897,
+   "v": 54,
+   "n": 60
   },
   {
-   "t": 1795078814702,
-   "v": 49,
-   "n": 41
+   "t": 1795110127897,
+   "v": 50,
+   "n": 56
   },
   {
-   "t": 1795082414702,
-   "v": 44,
+   "t": 1795113727897,
+   "v": 52,
    "n": 49
   },
   {
-   "t": 1795086014702,
-   "v": 49,
-   "n": 58
+   "t": 1795117327897,
+   "v": 55,
+   "n": 33
   },
   {
-   "t": 1795089614702,
-   "v": 51,
-   "n": 67
+   "t": 1795120927897,
+   "v": 55,
+   "n": 35
   },
   {
-   "t": 1795093214702,
-   "v": 54,
-   "n": 78
-  },
-  {
-   "t": 1795096814702,
-   "v": 54,
-   "n": 72
-  },
-  {
-   "t": 1795100414702,
-   "v": 53,
-   "n": 68
-  },
-  {
-   "t": 1795104014702,
+   "t": 1795124527897,
    "v": 52,
+   "n": 31
+  },
+  {
+   "t": 1795128127897,
+   "v": 46,
+   "n": 42
+  },
+  {
+   "t": 1795131727897,
+   "v": 44,
+   "n": 42
+  },
+  {
+   "t": 1795135327897,
+   "v": 45,
+   "n": 48
+  },
+  {
+   "t": 1795138927897,
+   "v": 47,
+   "n": 49
+  },
+  {
+   "t": 1795142527897,
+   "v": 46,
+   "n": 54
+  },
+  {
+   "t": 1795146127897,
+   "v": 44,
    "n": 74
   },
   {
-   "t": 1795107614702,
-   "v": 52,
-   "n": 81
+   "t": 1795149727897,
+   "v": 42,
+   "n": 82
   },
   {
-   "t": 1795111214702,
-   "v": 49,
-   "n": 83
+   "t": 1795153327897,
+   "v": 44,
+   "n": 97
   },
   {
-   "t": 1795114814702,
-   "v": 50,
-   "n": 76
+   "t": 1795156927897,
+   "v": 43,
+   "n": 109
   },
   {
-   "t": 1795118414702,
-   "v": 50,
-   "n": 96
-  },
-  {
-   "t": 1795122014702,
-   "v": 50,
-   "n": 125
-  },
-  {
-   "t": 1795125614702,
-   "v": 48,
-   "n": 136
-  },
-  {
-   "t": 1795129214702,
+   "t": 1795160527897,
    "v": 46,
-   "n": 140
+   "n": 112
   },
   {
-   "t": 1795132814702,
-   "v": 46,
-   "n": 120
-  },
-  {
-   "t": 1795136414702,
-   "v": 48,
-   "n": 110
-  },
-  {
-   "t": 1795140014702,
-   "v": 49,
-   "n": 105
-  },
-  {
-   "t": 1795143614702,
+   "t": 1795164127897,
    "v": 47,
    "n": 127
   },
   {
-   "t": 1795147214702,
-   "v": 45,
-   "n": 96
+   "t": 1795167727897,
+   "v": 49,
+   "n": 133
+  },
+  {
+   "t": 1795171327897,
+   "v": 48,
+   "n": 153
+  },
+  {
+   "t": 1795174927897,
+   "v": 46,
+   "n": 169
+  },
+  {
+   "t": 1795178527897,
+   "v": 46,
+   "n": 118
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 33
+   "items": 37
   },
   {
    "n": "Al Jazeera",
@@ -1345,7 +1341,7 @@
   },
   {
    "n": "DW",
-   "items": 9
+   "items": 11
   },
   {
    "n": "France 24",
@@ -1353,27 +1349,27 @@
   },
   {
    "n": "The Guardian",
-   "items": 35
+   "items": 38
   },
   {
    "n": "Sky News",
-   "items": 9
+   "items": 7
   },
   {
    "n": "NPR",
-   "items": 6
+   "items": 7
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 6
   },
   {
    "n": "CNBC",
-   "items": 28
+   "items": 27
   },
   {
    "n": "Euronews",
-   "items": 36
+   "items": 40
   },
   {
    "n": "NYT",
@@ -1381,11 +1377,11 @@
   },
   {
    "n": "Washington Post",
-   "items": 10
+   "items": 9
   },
   {
    "n": "CBS News",
-   "items": 18
+   "items": 14
   },
   {
    "n": "ABC News",
@@ -1397,11 +1393,11 @@
   },
   {
    "n": "Fox News",
-   "items": 19
+   "items": 10
   },
   {
    "n": "ABC Australia",
-   "items": 25
+   "items": 24
   },
   {
    "n": "CNA",
@@ -1413,7 +1409,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 20
+   "items": 0
   },
   {
    "n": "Arab News",
@@ -1421,7 +1417,7 @@
   },
   {
    "n": "Africanews",
-   "items": 34
+   "items": 40
   },
   {
    "n": "Kyiv Independent",
@@ -1437,11 +1433,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 16
+   "items": 15
   },
   {
    "n": "Dawn",
-   "items": 29
+   "items": 25
   },
   {
    "n": "Times of India",
@@ -1469,8 +1465,8 @@
   }
  ],
  "failed": [
-  "UN News",
   "Times of Israel",
+  "Middle East Eye",
   "Arab News"
  ]
 }

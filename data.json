@@ -1,18 +1,18 @@
 {
- "updated": 1795365832429,
+ "updated": 1795385308826,
  "demo": false,
- "total_articles": 586,
+ "total_articles": 565,
  "second_delta": 1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 57
+   "v": 51
   },
   {
    "n": "Al Jazeera",
-   "v": 59
+   "v": 53
   },
   {
    "n": "DW",
@@ -20,19 +20,19 @@
   },
   {
    "n": "France 24",
-   "v": 54
+   "v": 57
   },
   {
    "n": "The Guardian",
-   "v": 54
+   "v": 51
   },
   {
    "n": "Sky News",
-   "v": 76
+   "v": 68
   },
   {
    "n": "NPR",
-   "v": 40
+   "v": 38
   },
   {
    "n": "UN News",
@@ -44,23 +44,23 @@
   },
   {
    "n": "Euronews",
-   "v": 51
+   "v": 54
   },
   {
    "n": "NYT",
-   "v": 42
+   "v": 45
   },
   {
    "n": "Washington Post",
-   "v": 49
+   "v": 52
   },
   {
    "n": "CBS News",
-   "v": 49
+   "v": 51
   },
   {
    "n": "ABC News",
-   "v": 62
+   "v": 65
   },
   {
    "n": "CNN",
@@ -72,47 +72,43 @@
   },
   {
    "n": "ABC Australia",
-   "v": 41
-  },
-  {
-   "n": "CNA",
-   "v": 48
-  },
-  {
-   "n": "Middle East Eye",
-   "v": 63
-  },
-  {
-   "n": "Africanews",
-   "v": 47
-  },
-  {
-   "n": "Kyiv Independent",
-   "v": 80
-  },
-  {
-   "n": "Yonhap",
-   "v": 41
-  },
-  {
-   "n": "Nikkei Asia",
    "v": 42
   },
   {
+   "n": "CNA",
+   "v": 37
+  },
+  {
+   "n": "Africanews",
+   "v": 48
+  },
+  {
+   "n": "Kyiv Independent",
+   "v": 81
+  },
+  {
+   "n": "Yonhap",
+   "v": 42
+  },
+  {
+   "n": "Nikkei Asia",
+   "v": 43
+  },
+  {
    "n": "Dawn",
-   "v": 44
+   "v": 46
   },
   {
    "n": "Times of India",
-   "v": 38
+   "v": 40
   },
   {
    "n": "The Hindu",
-   "v": 50
+   "v": 52
   },
   {
    "n": "Politico EU",
-   "v": 47
+   "v": 43
   },
   {
    "n": "Japan Times",
@@ -120,21 +116,21 @@
   },
   {
    "n": "Reuters",
-   "v": 45
+   "v": 46
   },
   {
    "n": "AP",
-   "v": 43
+   "v": 45
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 55
+   "v": 59
   },
   {
    "n": "Ближний Восток",
-   "v": 62
+   "v": 58
   },
   {
    "n": "Азия",
@@ -146,131 +142,237 @@
   },
   {
    "n": "Америка",
-   "v": 50
+   "v": 49
   }
  ],
  "events": [
   {
    "t": "Взрыв на российском корабле в порту Ливии вызван предполагаемой атакой беспилотника, заявляют официальные лица",
-   "x": "Правительство восточной части Ливии заявляет, что работает с Россией над расследованием инцидента.",
+   "x": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
    "r": "Африка",
    "c": "Конфликты",
-   "imp": 93,
-   "ten": 88,
-   "ago": 38,
+   "imp": 95,
+   "ten": 90,
+   "ago": 24,
    "s": [
     "BBC",
-    "ABC News",
-    "Reuters",
-    "AP"
+    "Al Jazeera",
+    "Euronews",
+    "Kyiv Independent",
+    "Reuters"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/15a8/live/15e18c00-e693-11f1-99a1-253766e7ad8b.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a198/live/5b2f71d0-e6ae-11f1-a094-5fdc692f3e33.jpg",
    "img_src": "BBC",
    "fresh": true,
-   "n": 4,
+   "n": 6,
    "lat": 61.9,
    "lon": 96.4,
    "place": "Россия",
    "place_en": "Russia",
    "id": 1,
    "t_en": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-   "x_en": "Libya's eastern government says it is working with Russia to investigate the incident."
+   "x_en": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia."
   },
   {
-   "t": "Израильские поселенцы атаковали несколько палестинских деревень на оккупированном Западном Берегу",
-   "x": "Нападения в Рамалле, провинции Эль-Бире, включали поджоги 12 автомобилей и нанесение на дома расистских лозунгов.",
+   "t": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
+   "x": "A Russian navy corvette docked at the Benghazi naval base ​in eastern Libya was hit on Sunday by a suspected Ukrainian sea drone, according to local officials, in what appeared to be the latest attack linked to the Russia-Ukraine war in the North African natio",
    "r": "Ближний Восток",
-   "c": "Экономика",
-   "imp": 89,
-   "ten": 72,
-   "ago": 51,
+   "c": "Конфликты",
+   "imp": 93,
+   "ten": 87,
+   "ago": 35,
    "s": [
-    "Al Jazeera",
+    "France 24",
     "The Guardian",
-    "Euronews",
-    "Africanews",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/22/israeli-settlers-attack-several-palestinian-villages-in-occupied-west-bank?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/efe4dd70505bfcec6b5ab71dc65a3481bf1215d9/1004_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=02cd87d09d705f7a50460fa0fe12f59e",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 5,
-   "lat": 31.8,
-   "lon": 34.97,
-   "place": "Западный берег",
-   "place_en": "West Bank",
-   "id": 2,
-   "t_en": "Israeli settlers attack several Palestinian villages in occupied West Bank",
-   "x_en": "Attacks in Ramallah, el-Bireh provinces included the burning of 12 vehicles and spray-painting racist slogans on homes."
-  },
-  {
-   "t": "«Разочаровывает»: реакция делегатов после того, как переговоры по климату COP31 завершились без соглашения",
-   "x": "Проект текста считается слишком слабым для решения проблемы изменения климата после того, как страны-производители нефти выступили против термина «ископаемое топливо».",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 28,
-   "ago": 10,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "NPR",
-    "CNBC",
-    "Middle East Eye",
-    "Dawn",
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/22/countries-react-after-cop31-climate-talks-end-in-collapse?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/f4d171fdee03f0450e71d98657eea9f310f36fd9/435_0_3766_3014/master/3766.jpg?width=700&quality=85&auto=format&fit=max&s=522cbdd26a4d444b141a899b5a43071d",
-   "img_src": "The Guardian",
-   "fresh": true,
-   "n": 10,
-   "lat": 50.78,
-   "lon": 4.22,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 3,
-   "t_en": "‘Disappointing’: Delegates react after COP31 climate talks end without deal",
-   "x_en": "Draft text considered too weak to deal with climate change after oil-producing countries oppose the term 'fossil fuels'."
-  },
-  {
-   "t": "Ссора по поводу ископаемого топлива привела к тому, что переговоры COP31 переросли в овертаймы",
-   "x": "Ряд стран, в том числе Франция и Панама, опубликовали в пятницу письмо, в котором настаивают на том, что соглашение включает «четкий переход от ископаемого топлива».",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 88,
-   "ten": 34,
-   "ago": 11,
-   "s": [
-    "Euronews",
-    "NYT",
-    "Africanews",
+    "CBS News",
+    "ABC News",
     "AP"
    ],
-   "u": "https://www.euronews.com/2026/11/21/fossil-fuel-row-sees-cop31-talks-spill-into-overtime",
-   "img": "https://images.euronews.com/articles/stories/10/00/24/92/696x392_cmsv2_beb1c20f-ec2a-5adc-9f19-f7c94b22895c-10002492.jpg",
-   "img_src": "Euronews",
+   "u": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+   "img": "https://s.france24.com/media/display/659e3cc8-e6a9-11f1-ae55-1bac47ab2f5d/w:1024/p:16x9/AP26326649718247.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 5,
+   "lat": 61.03,
+   "lon": 95.21,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 2,
+   "t_en": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
+   "x_en": "A Russian navy corvette docked at the Benghazi naval base ​in eastern Libya was hit on Sunday by a suspected Ukrainian sea drone, according to local officials, in what appeared to be the latest attack linked to the Russia-Ukraine war in the North African natio"
+  },
+  {
+   "t": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+   "x": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 87,
+   "ten": 40,
+   "ago": 25,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Euronews",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2aab/live/8ca719f0-e6b0-11f1-b45e-bf1e220bd648.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 5,
+   "lat": 39.18,
+   "lon": -99.43,
+   "place": "США",
+   "place_en": "United States",
+   "id": 3,
+   "t_en": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+   "x_en": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats."
+  },
+  {
+   "t": "Дания обвиняет Россию в заговоре с целью убийства американо-украинского рэпера",
+   "x": "Посольство России в Дании опровергло эти обвинения, что привело к высылке российского военного атташе.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 85,
+   "ten": 73,
+   "ago": 87,
+   "s": [
+    "BBC",
+    "CBS News",
+    "ABC News",
+    "Fox News",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9834/live/684cb9a0-e527-11f1-b32f-b1f1a32fbf0e.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 5,
+   "lat": 56.87,
+   "lon": 9.01,
+   "place": "Дания",
+   "place_en": "Denmark",
+   "id": 4,
+   "t_en": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+   "x_en": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled."
+  },
+  {
+   "t": "Netanyahu’s Likud, Eisenkot’s Yashar end coalition talks without deal",
+   "x": "Parties remain split over who will lead the next government and whether far-right minister Itamar Ben-Gvir will join.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 83,
+   "ten": 22,
+   "ago": 35,
+   "s": [
+    "Al Jazeera",
+    "France 24",
+    "Euronews",
+    "The Hindu"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/22/netanyahus-likud-eisenkots-yashar-end-coalition-talks-without-deal?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/70936d94-e5e9-11f1-943b-13439ca2fe89/w:1024/p:16x9/000-D6U96RP.jpg",
+   "img_src": "France 24",
+   "fresh": true,
+   "n": 6,
+   "lat": 31.45,
+   "lon": 33.84,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 5,
+   "t_en": "Netanyahu’s Likud, Eisenkot’s Yashar end coalition talks without deal",
+   "x_en": "Parties remain split over who will lead the next government and whether far-right minister Itamar Ben-Gvir will join."
+  },
+  {
+   "t": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
+   "x": "Israeli opposition leader Gadi Eisenkot on Sunday condemned arson attacks by settlers on Palestinian villages in the West Bank as “Jewish terrorism.” Israeli police said they opened an investigation into the attacks, which came nearly a month after an inconclu",
+   "r": "Ближний Восток",
+   "c": "Экономика",
+   "imp": 81,
+   "ten": 86,
+   "ago": 39,
+   "s": [
+    "France 24",
+    "Washington Post",
+    "Reuters"
+   ],
+   "u": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank",
+   "img": "https://s.france24.com/media/display/eff41172-e6b8-11f1-a8e7-1bac47ab2f5d/w:1024/p:16x9/AP26326377291946.jpg",
+   "img_src": "France 24",
    "fresh": true,
    "n": 4,
-   "lat": 40.75,
-   "lon": -73.8,
-   "place": "Нью-Йорк",
-   "place_en": "New York",
-   "id": 4,
-   "t_en": "Fossil fuel row sees COP31 talks spill into overtime",
-   "x_en": "A number of countries, including France and Panama, released a letter on Friday insisting that a deal include \"a clear transition away from fossil fuels.\""
+   "lat": 31.91,
+   "lon": 34.89,
+   "place": "Западный берег",
+   "place_en": "West Bank",
+   "id": 6,
+   "t_en": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
+   "x_en": "Israeli opposition leader Gadi Eisenkot on Sunday condemned arson attacks by settlers on Palestinian villages in the West Bank as “Jewish terrorism.” Israeli police said they opened an investigation into the attacks, which came nearly a month after an inconclu"
+  },
+  {
+   "t": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+   "x": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a friend” during their",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 81,
+   "ten": 40,
+   "ago": 73,
+   "s": [
+    "The Guardian",
+    "Times of India",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
+   "img": "https://i.guim.co.uk/img/media/c6e084993e7554d08fa979d5cced63cab321f6b7/445_0_4447_3559/master/4447.jpg?width=700&quality=85&auto=format&fit=max&s=5b1657e9414cb58bea19c6e84bb39ed4",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": 40.46,
+   "lon": -99.56,
+   "place": "США",
+   "place_en": "United States",
+   "id": 7,
+   "t_en": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+   "x_en": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a friend” during their"
+  },
+  {
+   "t": "Десятки человек утонули в результате опрокидывания лодки в Нигерии по пути на похороны",
+   "x": "По меньшей мере 24 человека погибли после того, как лодка, перевозившая скорбящих на похороны, перевернулась в Нигерии.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 74,
+   "ten": 66,
+   "ago": 194,
+   "s": [
+    "Al Jazeera",
+    "Sky News",
+    "ABC News",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dozens-drown-as-boat-capsizes-in-nigeria-en-route-to-funeral?traffic_source=rss",
+   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-nema-nigeria-boat-capsizing_7413023.jpg?20261121221031",
+   "img_src": "Sky News",
+   "fresh": false,
+   "n": 4,
+   "lat": 9.4,
+   "lon": 7.41,
+   "place": "Нигерия",
+   "place_en": "Nigeria",
+   "id": 8,
+   "t_en": "Dozens drown as boat capsizes in Nigeria en route to funeral",
+   "x_en": "At least 24 people have been killed after a boat carrying mourners to a funeral capsized in Nigeria."
   },
   {
    "t": "Десятки человек пропали без вести из-за смертельного пожара на индонезийской кондитерской фабрике",
    "x": "По меньшей мере три человека погибли в результате разрушительного пожара на кондитерской фабрике на Яве. Официальные лица заявили, что гораздо больше людей остаются пропавшими без вести, что вызывает опасения относительно гораздо более серьезной трагедии.",
    "r": "Азия",
    "c": "Конфликты",
-   "imp": 81,
+   "imp": 73,
    "ten": 76,
-   "ago": 122,
+   "ago": 233,
    "s": [
     "DW",
     "The Guardian",
@@ -289,44 +391,100 @@
    "lon": 118.76,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 5,
+   "id": 9,
    "t_en": "Dozens missing as deadly fire hits Indonesian candy factory",
    "x_en": "At least three people were killed in a devastating fire at a confectionery factory on Java. Officials said many more people remain unaccounted for, prompting fears of a much larger tragedy."
   },
   {
-   "t": "Российский корабль, сбитый дронами в Балтийском море, все еще тлеет, а Финляндия и Эстония помогают потушить пожар",
-   "x": "Финские военные заявили, что удар по «Спарте II» в субботу, вероятно, был нанесен Украиной, и что судно позже дрейфовало в финские воды.",
+   "t": "What's next after no deal at COP31 climate talks?",
+   "x": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 70,
+   "ten": 20,
+   "ago": 153,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "CNBC",
+    "Washington Post",
+    "Dawn",
+    "The Hindu",
+    "Japan Times"
+   ],
+   "u": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3c66/live/ad00e440-e6b2-11f1-9607-338132fd22a0.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 8,
+   "lat": 50.92,
+   "lon": 3.84,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 10,
+   "t_en": "What's next after no deal at COP31 climate talks?",
+   "x_en": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end."
+  },
+  {
+   "t": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+   "x": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment.",
    "r": "Европа",
    "c": "Конфликты",
-   "imp": 78,
-   "ten": 68,
-   "ago": 42,
+   "imp": 69,
+   "ten": 74,
+   "ago": 290,
    "s": [
+    "BBC",
     "CNBC",
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.cnbc.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack.html",
-   "img": "https://th-i.thgim.com/public/incoming/ldpog9/article71729312.ece/alternates/LANDSCAPE_1200/2026-11-21T160708Z_1736225898_RC2DSOAQBVC2_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-VESSEL.JPG",
-   "img_src": "The Hindu",
+   "u": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d6f9/live/a55b16b0-e66d-11f1-9e24-791c5321ff0f.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 61.27,
+   "lon": 93.76,
+   "place": "Россия",
+   "place_en": "Russia",
+   "id": 11,
+   "t_en": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+   "x_en": "Finnish defence forces say that Ukraine was likely behind the drone strike on Saturday. Kyiv has yet to comment."
+  },
+  {
+   "t": "China, ASEAN countries struggle over South China Sea code of conduct",
+   "x": "The Philippines wanted a South China Sea code of conduct in place by 2026. But persistent disagreements between China and ASEAN countries are slowing progress toward a deal.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 65,
+   "ten": 28,
+   "ago": 8,
+   "s": [
+    "DW",
+    "CNA"
+   ],
+   "u": "https://www.dw.com/en/china-asean-countries-struggle-over-south-china-sea-code-of-conduct/a-80009799?maca=en-rss-en-world-4025-rdf",
+   "img": "https://dam.mediacorp.sg/image/upload/s--hyb25OrO--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/South_China_Sea_Pact_67925.jpg?itok=5rrWe5Ub",
+   "img_src": "CNA",
    "fresh": true,
-   "n": 3,
-   "lat": 58.28,
-   "lon": 19.79,
-   "place": "Балтика",
-   "place_en": "Baltic Sea",
-   "id": 6,
-   "t_en": "Russian ship hit by drones in Baltic still smolders as Finland, Estonia help put out blaze",
-   "x_en": "The Finnish military has said the strike on the Sparta II on Saturday was likely carried out by Ukraine and that the vessel later drifted into Finnish waters."
+   "n": 2,
+   "lat": 12.08,
+   "lon": 113.79,
+   "place": "Южно-Китайское море",
+   "place_en": "South China Sea",
+   "id": 12,
+   "t_en": "China, ASEAN countries struggle over South China Sea code of conduct",
+   "x_en": "The Philippines wanted a South China Sea code of conduct in place by 2026. But persistent disagreements between China and ASEAN countries are slowing progress toward a deal."
   },
   {
    "t": "Британец переплыл Ормузский пролив, чтобы подчеркнуть экологические издержки войны",
    "x": "Покровитель ООН Льюис Пью видел горящие корабли и истребители над головой во время трехдневного заплыва, поскольку иранский конфликт продолжается. Британский пловец на выносливость завершил трехдневный заплыв через Ормузский пролив, чтобы подчеркнуть экологические последствия иранской войны. Льюис",
    "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 78,
+   "imp": 64,
    "ten": 89,
-   "ago": 188,
+   "ago": 512,
    "s": [
     "The Guardian",
     "Euronews",
@@ -343,428 +501,59 @@
    "lon": 56.18,
    "place": "Ормузский пролив",
    "place_en": "Strait of Hormuz",
-   "id": 7,
+   "id": 13,
    "t_en": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
    "x_en": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran war. Lewis "
   },
   {
-   "t": "Как был пойман Эль Чапо Исидро, предполагаемый лидер мексиканского картеля",
-   "x": "Операция в штате Синалоа привела к смертельно опасным боям между силовиками и боевиками.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 76,
-   "ten": 47,
-   "ago": 130,
-   "s": [
-    "Al Jazeera",
-    "The Guardian",
-    "NYT",
-    "Fox News"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/22/how-el-chapo-isidro-alleged-mexican-cartel-leader-was-captured?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/109833a4d1387ede241180856c6e37007aa8a6a3/264_354_897_717/master/897.jpg?width=700&quality=85&auto=format&fit=max&s=0edca5217d8c45ec717c5f45f4cba86a",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 5,
-   "lat": 22.72,
-   "lon": -102.42,
-   "place": "Мексика",
-   "place_en": "Mexico",
-   "id": 8,
-   "t_en": "How El Chapo Isidro, alleged Mexican cartel leader, was captured",
-   "x_en": "Operation in Sinaloa state resulted in deadly heavy battles between members of security forces and gunmen."
-  },
-  {
-   "t": "Десятки человек утонули в результате опрокидывания лодки в Нигерии по пути на похороны",
-   "x": "По меньшей мере 24 человека погибли после того, как лодка, перевозившая скорбящих на похороны, перевернулась в Нигерии.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 73,
-   "ten": 66,
-   "ago": 80,
-   "s": [
-    "Al Jazeera",
-    "Sky News",
-    "ABC News"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/22/dozens-drown-as-boat-capsizes-in-nigeria-en-route-to-funeral?traffic_source=rss",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-nema-nigeria-boat-capsizing_7413023.jpg?20261121221031",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 3,
-   "lat": 9.4,
-   "lon": 7.41,
-   "place": "Нигерия",
-   "place_en": "Nigeria",
-   "id": 9,
-   "t_en": "Dozens drown as boat capsizes in Nigeria en route to funeral",
-   "x_en": "At least 24 people have been killed after a boat carrying mourners to a funeral capsized in Nigeria."
-  },
-  {
-   "t": "🔴 COP31 завершилась без соглашения, поскольку ЕС отклонил текст из-за отсутствия упоминания об ископаемом топливе",
-   "x": "COP31, последняя часть ежегодной конференции ООН по климату, завершилась в воскресенье без окончательного соглашения после провала нескольких спорных переговоров.",
-   "r": "Европа",
-   "c": "Природа",
-   "imp": 71,
-   "ten": 38,
-   "ago": 62,
-   "s": [
-    "France 24",
-    "CBS News",
-    "Politico EU"
-   ],
-   "u": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
-   "img": "https://s.france24.com/media/display/c43d5b72-e665-11f1-a6c8-1bac47ab2f5d/w:1280/p:16x9/2026-11-22T095903Z-917320092-RC2XSOA2A529-RTRMADP-3-CLIMATE-COP31.jpg",
-   "img_src": "France 24 (og)",
-   "fresh": false,
-   "n": 3,
-   "lat": 51.0,
-   "lon": 4.61,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 10,
-   "t_en": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
-   "x_en": "COP31, the latest installment of the United Nations' annual climate conference, ended Sunday without a final agreement after days of contentious talks collapsed."
-  },
-  {
-   "t": "За последние сутки в результате российских атак по всей Украине пострадали 30 человек, поскольку под Киевом продолжается спасательная операция после удара беспилотника",
-   "x": "ВВС Украины заявили, что российские войска за ночь запустили 186 ударных беспилотников против Украины, из которых 161 был сбит.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 70,
-   "ten": 95,
-   "ago": 47,
-   "s": [
-    "Kyiv Independent",
-    "Reuters"
-   ],
-   "u": "https://kyivindependent.com/russian-attacks-across-ukraine-injure-30-over-past-day-as-rescue-operation-continues-near-kyiv-after-drone-strike/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/photo_2026-11-22_09-19-31_20261122-093845.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": true,
-   "n": 2,
-   "lat": 50.34,
-   "lon": 30.82,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 11,
-   "t_en": "Russian attacks across Ukraine injure 30 over past day as rescue operation continues near Kyiv after drone strike",
-   "x_en": "Ukraine's Air Force said Russian troops launched 186 attack drones against Ukraine overnight, of which 161 were shot down."
-  },
-  {
-   "t": "Министр образования Южной Кореи подал в отставку из-за скандала с мошенничеством на экзаменах",
-   "x": "Чхве Кё Джин признает, что меры, принятые в последнюю минуту, чтобы остановить мошенничество с помощью ИИ во время вступительных экзаменов в колледж, вызвали хаос.",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 70,
-   "ten": 40,
-   "ago": 272,
-   "s": [
-    "BBC",
-    "France 24",
-    "The Guardian",
-    "NYT",
-    "CNA",
-    "Yonhap",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 10,
-   "lat": 36.57,
-   "lon": 127.42,
-   "place": "Южная Корея",
-   "place_en": "South Korea",
-   "id": 12,
-   "t_en": "South Korea education minister resigns over exam cheating scandal",
-   "x_en": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos."
-  },
-  {
-   "t": "Украина: Есть опасения, что до семи человек оказались запертыми под завалами под Киевом после нападения России",
-   "x": "Российский удар в воскресенье частично разрушил жилой дом в Дымере, к северу от Киева. Девять человек, в том числе ребенок, были эвакуированы, поскольку спасатели искали под завалами еще семь человек, которые, как опасались, оказались в ловушке.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 69,
-   "ten": 86,
-   "ago": 154,
-   "s": [
-    "Euronews",
-    "Africanews",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack",
-   "img": "https://images.euronews.com/articles/stories/10/00/33/07/696x392_cmsv2_21c6d2b1-44d1-5165-969c-5598d0392928-10003307.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": 50.58,
-   "lon": 30.58,
-   "place": "Киев",
-   "place_en": "Kyiv",
-   "id": 13,
-   "t_en": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
-   "x_en": "A Russian strike partially destroyed an apartment building in Dymer, north of Kyiv, on Sunday. Nine people, including a child, were evacuated as rescuers searched the rubble for up to seven others feared trapped."
-  },
-  {
-   "t": "Трамп заявил, что хочет «постоянного» соглашения с Ираном",
-   "x": "Несмотря на растущую напряженность, президент Трамп заявил израильскому изданию, что, возможно, не примет решение о своем следующем шаге в войне с Ираном до 2027 года.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 68,
-   "ten": 53,
-   "ago": 14,
-   "s": [
-    "CBS News",
-    "Dawn"
-   ],
-   "u": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
-   "img": "https://i.dawn.com/large/2026/11/180830599041d10.webp",
-   "img_src": "Dawn",
-   "fresh": true,
-   "n": 2,
-   "lat": 38.41,
-   "lon": -98.6,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "Trump says he wants \"permanent\" deal with Iran",
-   "x_en": "Despite rising tension, President Trump told an Israeli outlet he may not make a decision on his next move in the Iran war until 2027."
-  },
-  {
-   "t": "Окинава празднует восстановление зала замка Сюри спустя 7 лет после пожара",
-   "x": "Власти и жители Окинавы отпраздновали восстановление главного зала замка Сюри, что ознаменовало возвращение культурного символа острова.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 67,
-   "ten": 23,
-   "ago": 73,
-   "s": [
-    "ABC News",
-    "Japan Times",
-    "AP"
-   ],
-   "u": "https://abcnews.com/International/wireStory/okinawa-celebrates-restored-shuri-castle-hall-7-years-138356880",
-   "img": "https://s.abcnews.com/images/Weird/wirestory_3ac5a220df1efa2be0a6d32529518314_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 15,
-   "t_en": "Okinawa celebrates restored Shuri Castle hall 7 years after fire",
-   "x_en": "Officials and residents in Okinawa have celebrated the restoration of Shuri Castle's main hall, marking a significant return of the island's cultural symbol"
-  },
-  {
-   "t": "Саудовская Аравия перехватила беспилотник и ракету, когда хуситы сообщили об атаке на Сану",
-   "x": "Хуситские СМИ сообщают, что несколько человек получили ранения в результате нападения на нефтяную компанию, когда средства ПВО Саудовской Аравии сбили дрон.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 84,
-   "ago": 196,
-   "s": [
-    "Al Jazeera",
-    "CNBC",
-    "Middle East Eye"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/22/houthis-report-attack-on-sanaa-as-saudi-arabia-intercepts-drone?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6afe32a94666-1795044009.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 3,
-   "lat": 15.29,
-   "lon": 43.96,
-   "place": "Сана",
-   "place_en": "Sanaa",
-   "id": 16,
-   "t_en": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
-   "x_en": "Houthi media say several people were injured in an attack on an oil company as Saudi air defences down a drone."
-  },
-  {
-   "t": "Почему усилия ООН по регулированию «роботов-убийц» зашли в тупик?",
-   "x": "Страны КХО согласились «разработать» потенциальное соглашение, регулирующее автономное оружие, через два года, что вызвало критику.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 65,
-   "ten": 50,
-   "ago": 299,
-   "s": [
-    "Al Jazeera",
-    "NPR",
-    "CNBC",
-    "The Hindu",
-    "Politico EU"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/22/why-have-un-efforts-to-regulate-killer-robots-stalled?traffic_source=rss",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F47%2Fdc%2Fbe428cfe43728dcf909ce499cadf%2Fgettyimages-2273123489.jpg",
-   "img_src": "NPR",
-   "fresh": false,
-   "n": 5,
-   "lat": 46.33,
-   "lon": 6.2,
-   "place": "Женева",
-   "place_en": "Geneva",
-   "id": 17,
-   "t_en": "Why have UN efforts to regulate ‘killer robots’ stalled?",
-   "x_en": "CWC countries agree to 'elaborate' on potential accord regulating autonomous weapons in two years, prompting criticism."
-  },
-  {
    "t": "В результате атак дронов погибли четыре человека возле столицы Судана и повреждено здание ООН",
    "x": "Силы быстрой поддержки обвиняют в том, что дроны, как сообщается, нанесли удары по зданиям ООН и правительства, а также по аэропорту Хартума.",
-   "r": "Африка",
+   "r": "Европа",
    "c": "Конфликты",
-   "imp": 64,
+   "imp": 62,
    "ten": 95,
-   "ago": 100,
+   "ago": 278,
    "s": [
     "Al Jazeera",
-    "The Hindu"
+    "The Hindu",
+    "AP"
    ],
    "u": "https://www.aljazeera.com/news/2026/11/22/rsf-drones-kill-four-in-khartoum?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/2a8zw1/article71731788.ece/alternates/LANDSCAPE_1200/Sudan_Strike_1_138.jpg",
+   "img": "https://th-i.thgim.com/public/incoming/aquemx/article71731081.ece/alternates/LANDSCAPE_1200/Russia_Ukraine_War_44754.jpg",
    "img_src": "The Hindu",
    "fresh": false,
-   "n": 2,
+   "n": 3,
    "lat": 15.24,
    "lon": 29.78,
    "place": "Судан",
    "place_en": "Sudan",
-   "id": 18,
+   "id": 14,
    "t_en": "Drone attacks kill four near Sudan’s capital, damage UN building",
    "x_en": "The Rapid Support Forces are blamed as drones reportedly hit UN and government buildings, as well as Khartoum's airport."
   },
   {
-   "t": "Российский военный грузовой корабль может затонуть после удара беспилотника в Финском заливе, предупреждает финский чиновник",
-   "x": "Владислав Власюк, советник президента Украины Владимира Зеленского по санкционной политике, прокомментировал инцидент в комментарии газете «Kyiv Independent». \"Да, довольное совпадение, не правда ли? Кажется, суда, попавшие под санкции Украины за систематическую поддержку Р.",
-   "r": "Европа",
+   "t": "Japan weighs scaling back missile and warship purchases",
+   "x": "",
+   "r": "Азия",
    "c": "Конфликты",
-   "imp": 64,
-   "ten": 74,
-   "ago": 190,
+   "imp": 61,
+   "ten": 66,
+   "ago": 1,
    "s": [
-    "Kyiv Independent",
-    "The Hindu",
-    "AP"
+    "Nikkei Asia"
    ],
-   "u": "https://kyivindependent.com/russian-military-linked-cargo-ship-catches-fire-after-reported-drone-strike-in-gulf-of-finland/",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/vaurioitunut-alus-sparta-ii-suomenlahdella-21-11-2026-kuva06_20261121-173800.jpg",
-   "img_src": "Kyiv Independent",
-   "fresh": false,
-   "n": 3,
-   "lat": 61.08,
-   "lon": 93.92,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 19,
-   "t_en": "Russian military-linked cargo ship could sink after drone strike in Gulf of Finland, Finnish official warns",
-   "x_en": "Vladyslav Vlasiuk, Ukrainian President Volodymyr Zelensky's sanctions policy adviser, commented on the incident in remarks to the Kyiv Independent. “Yes, quite a coincidence, isn’t it? It seems that vessels sanctioned by Ukraine for systematically supporting R"
-  },
-  {
-   "t": "Следующее в Россию судно все еще горит после нападения в Финском заливе",
-   "x": "Силы обороны Финляндии заявляют, что за нападением беспилотника на судно, скорее всего, стояла Украина.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 64,
-   "ten": 80,
-   "ago": 209,
-   "s": [
-    "BBC",
-    "France 24",
-    "ABC News"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d6f9/live/a55b16b0-e66d-11f1-9e24-791c5321ff0f.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 62.6,
-   "lon": 94.27,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 20,
-   "t_en": "Russia-bound ship still on fire after attack in Gulf of Finland",
-   "x_en": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel."
-  },
-  {
-   "t": "В деревне на окраине Пешавара убиты трое террористов, связанных с ТТП: CTD",
-   "x": "ПЕШАВАР: Трое террористов были убиты в ходе перестрелки с Контртеррористическим управлением (CTD) и военнослужащими в деревне Пассани, расположенной на окраине Пешавара, поздно вечером в субботу, говорится в заявлении CTD в воскресенье. Государство",
-   "r": "Мир",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 95,
-   "ago": 22,
-   "s": [
-    "Dawn"
-   ],
-   "u": "https://www.dawn.com/news/2046302/3-ttp-linked-terrorists-killed-in-village-on-outskirts-of-peshawar-ctd",
-   "img": "https://i.dawn.com/large/2020/09/5f66fb269a988.jpg",
-   "img_src": "Dawn",
+   "u": "https://asia.nikkei.com/politics/defense/japan-weighs-scaling-back-missile-and-warship-purchases",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F2%2F3%2F5%2F13475329-1-eng-GB%2F96ffc457bee5-photo_SXM2026112100004351.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 21,
-   "t_en": "3 TTP-linked terrorists killed in village on outskirts of Peshawar: CTD",
-   "x_en": "PESHAWAR: Three terrorists were killed during an exchange of fire with Counter-Terrorism Department (CTD) and military personnel in the Passani village, located on Peshawar’s outskirts, late on Saturday night, the CTD said in a statement on Sunday. The stateme"
-  },
-  {
-   "t": "Зеленский призывает США выпустить ракеты Патриот, поскольку Россия убила пятерых на Украине",
-   "x": "В результате двух российских атак погибли по меньшей мере четыре человека под Киевом, а в результате российского обстрела погиб один человек в Запорожье.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 62,
-   "ten": 95,
-   "ago": 115,
-   "s": [
-    "Al Jazeera",
-    "Politico EU"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b02f84230fd-1795356738.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 2,
-   "lat": 48.07,
-   "lon": 30.57,
-   "place": "Украина",
-   "place_en": "Ukraine",
-   "id": 22,
-   "t_en": "Zelenskyy urges US to release Patriot missiles as Russia kills 5 in Ukraine",
-   "x_en": "Two Russian attacks kill at least four people near Kyiv as Russian shelling kills one in Zaporizhzhia."
-  },
-  {
-   "t": "Молодежное крыло индийской оппозиционной партии предупреждает о новых протестах Мета после столкновений с полицией",
-   "x": "Члены партии Конгресс столкнулись с полицией возле офисов технологической компании в пятницу. Молодежное крыло главной оппозиционной партии Индии Конгресс предупредило о новых протестах против удаления аккаунтов некоторых членов партии Meta через день после столкновений с полицией.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 61,
-   "ten": 60,
-   "ago": 449,
-   "s": [
-    "The Guardian",
-    "CNBC",
-    "CNA",
-    "AP"
-   ],
-   "u": "https://www.theguardian.com/world/2026/nov/22/india-congress-meta-protests-police-hyderabad",
-   "img": "https://i.guim.co.uk/img/media/b47066e8f0c23f30a75722f5b8d6c5aa66dacd69/0_691_1056_844/master/1056.jpg?width=700&quality=85&auto=format&fit=max&s=8c60d6db17dc2cfd1947fd5efd4b5e38",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 4,
-   "lat": 22.43,
-   "lon": 79.57,
-   "place": "Индия",
-   "place_en": "India",
-   "id": 23,
-   "t_en": "Indian opposition party’s youth wing warns of more Meta protests after police clashes",
-   "x_en": "Members of Congress party clashed with police outside tech company’s offices on Friday The youth wing of India’s main opposition Congress party warned of more protests against Meta’s removal of some of its members’ ⁠accounts, ⁠a day after clashing with ​police"
+   "lat": 35.76,
+   "lon": 137.84,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 15,
+   "t_en": "Japan weighs scaling back missile and warship purchases",
+   "x_en": ""
   },
   {
    "t": "АТЭС-Китай: 5 выводов о крупных державах, горячих технологиях и завуалированной напряженности",
@@ -786,7 +575,7 @@
    "lon": 102.09,
    "place": "Китай",
    "place_en": "China",
-   "id": 24,
+   "id": 16,
    "t_en": "APEC China: 5 takeaways on big powers, hot tech and veiled tensions",
    "x_en": ""
   },
@@ -810,7 +599,7 @@
    "lon": 138.39,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 25,
+   "id": 17,
    "t_en": "Japan to transfer H3 rocket launch operations to Mitsubishi Heavy",
    "x_en": ""
   },
@@ -834,7 +623,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 26,
+   "id": 18,
    "t_en": "Asahi pours $85mn into AI cybersecurity upgrades after ransomware attack",
    "x_en": ""
   },
@@ -858,7 +647,7 @@
    "lon": 138.62,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 27,
+   "id": 19,
    "t_en": "Japan Tobacco's Russia freezeout threatens its pursuit of Philip Morris, BTI",
    "x_en": ""
   },
@@ -882,35 +671,40 @@
    "lon": 4.21,
    "place": "Гаага",
    "place_en": "The Hague",
-   "id": 28,
+   "id": 20,
    "t_en": "Japan weighs early funding to ICC before US sanctions cutoff",
    "x_en": ""
   },
   {
-   "t": "Айзенкот приглашает партию Нетаньяху на «марафон» переговоры по израильской коалиции",
-   "x": "Лидер израильской оппозиции Гади Айзенкот пригласил правую партию \"Ликуд\" временного премьер-министра Биньямина Нетаньяху на коалиционные переговоры, сообщила в субботу его центристская партия \"Яшар\". «Серия переговоров-марафона» начнется в воскресенье, заявила партия, добавив, что",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 18,
-   "ago": 144,
+   "t": "Министр образования Южной Кореи подал в отставку из-за скандала с мошенничеством на экзаменах",
+   "x": "Чхве Кё Джин признает, что меры, принятые в последнюю минуту, чтобы остановить мошенничество с помощью ИИ во время вступительных экзаменов в колледж, вызвали хаос.",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 60,
+   "ten": 40,
+   "ago": 596,
    "s": [
+    "BBC",
     "France 24",
-    "Middle East Eye",
-    "The Hindu"
+    "The Guardian",
+    "NYT",
+    "CNA",
+    "Yonhap",
+    "The Hindu",
+    "Japan Times"
    ],
-   "u": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks",
-   "img": "https://s.france24.com/media/display/70936d94-e5e9-11f1-943b-13439ca2fe89/w:1024/p:16x9/000-D6U96RP.jpg",
-   "img_src": "France 24",
+   "u": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc28/live/9c42c760-e66a-11f1-99b6-a35a62fa4264.jpg",
+   "img_src": "BBC",
    "fresh": false,
-   "n": 3,
-   "lat": 32.15,
-   "lon": 34.8,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 29,
-   "t_en": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks",
-   "x_en": "Israeli opposition leader Gadi Eisenkot has invited caretaker prime minister Benjamin Netanyahu's right-wing Likud party for coalition talks, his centrist Yashar party said Saturday. The \"marathon series of talks\" starts Sunday, the party said, adding that the"
+   "n": 10,
+   "lat": 36.57,
+   "lon": 127.42,
+   "place": "Южная Корея",
+   "place_en": "South Korea",
+   "id": 21,
+   "t_en": "South Korea education minister resigns over exam cheating scandal",
+   "x_en": "Choi Kyo-jin admits last-minute measures to stop AI-assisted cheating during the college entrance exam caused chaos."
   },
   {
    "t": "Цепочка поставок чипов предупреждает о более масштабных нарушениях из-за нового контроля над экспортом в США",
@@ -932,7 +726,7 @@
    "lon": -98.39,
    "place": "США",
    "place_en": "United States",
-   "id": 30,
+   "id": 22,
    "t_en": "Chip supply chain warns of broader disruption from new US export controls",
    "x_en": ""
   },
@@ -956,57 +750,9 @@
    "lon": -99.46,
    "place": "США",
    "place_en": "United States",
-   "id": 31,
+   "id": 23,
    "t_en": "US-China stability can't rely on bilateral summits, warns AmCham head",
    "x_en": ""
-  },
-  {
-   "t": "Мировые новости: главные и последние мировые новости сегодня",
-   "x": "АП Новости",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 40,
-   "ago": 33,
-   "s": [
-    "AP"
-   ],
-   "u": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1PRFY2SmRjOGtzcEdoNlUzaU5aR2c4MnhydnlTTm9ZR3lOaEFNbzVhZGd3Zmh2S0IySTVERXRBX3pfTjA?oc=5",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 32,
-   "t_en": "World News: Top & Breaking World News Today",
-   "x_en": "AP News"
-  },
-  {
-   "t": "Украинский город переходит на дистанционное обучение, поскольку российские забастовки нарушают работу коммунальных предприятий",
-   "x": "Юг Одесской области понес наибольший ущерб энергетической инфраструктуре на фоне волны недавних российских авиаударов.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 82,
-   "ago": 38,
-   "s": [
-    "Washington Post"
-   ],
-   "u": "https://www.washingtonpost.com/world/2026/11/22/ukrainian-city-moves-remote-learning-russian-strikes-disrupt-utilities/",
-   "img": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fwapo%2FJXYS524Q55OBFU3CDZ7PNT2PRY.JPG&w=1200",
-   "img_src": "Washington Post (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 62.0,
-   "lon": 96.22,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 33,
-   "t_en": "Ukrainian city moves to remote learning as Russian strikes disrupt utilities",
-   "x_en": "The southern Odesa region has suffered the most extensive damage to its energy infrastructure amid a wave of recent Russian airstrikes."
   },
   {
    "t": "Хотите получить наличные из своего дома? Вот ваши лучшие варианты",
@@ -1028,7 +774,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 34,
+   "id": 24,
    "t_en": "Want Cash Out of Your Home? Here Are Your Best Options",
    "x_en": ""
   },
@@ -1052,7 +798,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 35,
+   "id": 25,
    "t_en": "Dream Big with a Home Equity Loan",
    "x_en": ""
   },
@@ -1076,7 +822,7 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 36,
+   "id": 26,
    "t_en": "Experts: this is the best cash back card of 2022",
    "x_en": ""
   },
@@ -1092,15 +838,15 @@
     "CNN"
    ],
    "u": "https://www.fool.com/the-ascent/credit-cards/landing/citi-simplicity-review/?utm_site=theascent&utm_campaign=ta-cc-co-cnn-citisimp2-ron-5-hp-sfpb&utm_medium=cpc&utm_source=cnn",
-   "img": "",
-   "img_src": "",
+   "img": "https://g.foolcdn.com/static/affiliates/project/images/social/credit-cards-social.png",
+   "img_src": "CNN (og)",
    "fresh": true,
    "n": 1,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 37,
+   "id": 27,
    "t_en": "It's official: now avoid credit card interest into 2024",
    "x_en": ""
   },
@@ -1124,12 +870,12 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 38,
+   "id": 28,
    "t_en": "0% intro APR until 2024 is 100% insane",
    "x_en": ""
   },
   {
-   "t": "Антропное IPO вызвало ажиотаж среди японских розничных инвесторов",
+   "t": "Иностранные студенты в Японии сталкиваются с языковыми трудностями при поиске работы",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1139,21 +885,69 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/business/markets/ipo/anthropic-ipo-draws-rush-of-japan-retail-investors",
-   "img": "",
-   "img_src": "",
+   "u": "https://asia.nikkei.com/spotlight/japan-immigration/international-students-in-japan-face-language-hurdles-when-seeking-jobs",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F0%2F6%2F4%2F13464605-1-eng-GB%2Fb4e036319994-20261119N-Japan-job-fair.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
-   "lat": 37.47,
-   "lon": 138.24,
+   "lat": 37.02,
+   "lon": 139.55,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 39,
-   "t_en": "Anthropic IPO draws rush of Japan retail investors",
+   "id": 29,
+   "t_en": "International students in Japan face language hurdles when seeking jobs",
    "x_en": ""
   },
   {
-   "t": "Сельская Япония опасается, что новые визы перенаправят иностранных рабочих в Токио",
+   "t": "Мировые активы деловой репутации достигли $10,5 трлн из-за бума слияний и поглощений, но риск процентных ставок вырисовывается",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/companies/global-goodwill-assets-hit-10.5tn-on-m-a-boom-but-interest-rate-risk-looms",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F8%2F8%2F5%2F13465885-2-eng-GB%2F4316423a8133-photo_SXM2026111200015850.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 30,
+   "t_en": "Global goodwill assets hit $10.5tn on M&A boom but interest rate risk looms",
+   "x_en": ""
+  },
+  {
+   "t": "Сингапурские банки применяют токенизацию на практике с золотом и облигациями",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/finance/singapore-banks-put-tokenization-to-practical-use-with-gold-bonds",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F4%2F7%2F8%2F13448744-2-eng-GB%2Fe9a599deddd2-2026-10-20T040005Z_900984777_RC2NPJAT0T6L_RTRMADP_3_GLOBAL-MARKETS-SAFE-HAVENS.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 2.29,
+   "lon": 104.64,
+   "place": "Сингапур",
+   "place_en": "Singapore",
+   "id": 31,
+   "t_en": "Singapore banks put tokenization to practical use with gold, bonds",
+   "x_en": ""
+  },
+  {
+   "t": "Слабые муссоны в Индии и Эль-Ниньо подчеркивают растущие проблемы с водой в промышленности",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1163,25 +957,213 @@
    "s": [
     "Nikkei Asia"
    ],
-   "u": "https://asia.nikkei.com/spotlight/policy-asia/rural-japan-fears-new-visas-will-divert-foreign-workers-to-tokyo",
+   "u": "https://asia.nikkei.com/spotlight/environment/india-s-weak-monsoon-el-nino-highlight-industry-s-growing-water-issues",
    "img": "",
    "img_src": "",
    "fresh": true,
    "n": 1,
-   "lat": 35.5,
-   "lon": 139.46,
-   "place": "Токио",
-   "place_en": "Tokyo",
+   "lat": 23.65,
+   "lon": 80.0,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 32,
+   "t_en": "India's weak monsoon, El Nino highlight industry's growing water issues",
+   "x_en": ""
+  },
+  {
+   "t": "АТЭС в прямом эфире: Как развивались события в Шэньчжэне",
+   "x": "",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-how-events-in-shenzhen-unfolded",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 33,
+   "t_en": "APEC live: How events in Shenzhen unfolded",
+   "x_en": ""
+  },
+  {
+   "t": "Through the Lens: From ASEAN in Manila to APEC in Shenzhen",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/photos/through-the-lens-from-asean-in-manila-to-apec-in-shenzhen",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 14.87,
+   "lon": 121.21,
+   "place": "Манила",
+   "place_en": "Manila",
+   "id": 34,
+   "t_en": "Through the Lens: From ASEAN in Manila to APEC in Shenzhen",
+   "x_en": ""
+  },
+  {
+   "t": "Editor's Choice: Xi, Trump and Putin's grand diplomatic theater leaves Asia on the sidelines",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks/editor-s-choice-xi-trump-and-putin-s-grand-diplomatic-theater-leaves-asia-on-the-sidelines",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 40.48,
+   "lon": -98.41,
+   "place": "США",
+   "place_en": "United States",
+   "id": 35,
+   "t_en": "Editor's Choice: Xi, Trump and Putin's grand diplomatic theater leaves Asia on the sidelines",
+   "x_en": ""
+  },
+  {
+   "t": "EU curb on Chinese hybrid cars drives shift to niche powertrain",
+   "x": "",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/electric-vehicles/eu-curb-on-chinese-hybrid-cars-drives-shift-to-niche-powertrain",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 50.98,
+   "lon": 4.6,
+   "place": "Брюссель",
+   "place_en": "Brussels",
+   "id": 36,
+   "t_en": "EU curb on Chinese hybrid cars drives shift to niche powertrain",
+   "x_en": ""
+  },
+  {
+   "t": "Japan's government under fire for using conspiracy YouTuber in PR",
+   "x": "",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/japan-s-government-under-fire-for-using-conspiracy-youtuber-in-pr",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 36.26,
+   "lon": 138.49,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 37,
+   "t_en": "Japan's government under fire for using conspiracy YouTuber in PR",
+   "x_en": ""
+  },
+  {
+   "t": "Nepal's PM Shah to meet Modi for Indian flood aid and connectivity",
+   "x": "",
+   "r": "Азия",
+   "c": "Природа",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/international-relations/nepal-s-pm-shah-to-meet-modi-for-indian-flood-aid-and-connectivity",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 22.01,
+   "lon": 79.88,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 38,
+   "t_en": "Nepal's PM Shah to meet Modi for Indian flood aid and connectivity",
+   "x_en": ""
+  },
+  {
+   "t": "Asian tech stocks fall sharply after Anthropic's blockbuster IPO",
+   "x": "",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/asian-tech-stocks-fall-sharply-after-anthropic-s-blockbuster-ipo",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 39,
+   "t_en": "Asian tech stocks fall sharply after Anthropic's blockbuster IPO",
+   "x_en": ""
+  },
+  {
+   "t": "Japan Tobacco shares fall 10%; Russia seizure hits 900,000 investors",
+   "x": "",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/markets/equities/japan-tobacco-shares-fall-10-russia-seizure-hits-900-000-investors",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.92,
+   "lon": 138.64,
+   "place": "Япония",
+   "place_en": "Japan",
    "id": 40,
-   "t_en": "Rural Japan fears new visas will divert foreign workers to Tokyo",
+   "t_en": "Japan Tobacco shares fall 10%; Russia seizure hits 900,000 investors",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1795278418168,
-   "v": 52
-  },
   {
    "t": 1795297651083,
    "v": 52
@@ -1197,139 +1179,143 @@
   {
    "t": 1795365832429,
    "v": 51
+  },
+  {
+   "t": 1795385308826,
+   "v": 50
   }
  ],
  "timeline": [
   {
-   "t": 1795279432429,
-   "v": 57,
-   "n": 33
+   "t": 1795298908826,
+   "v": 53,
+   "n": 26
   },
   {
-   "t": 1795283032429,
-   "v": 59,
+   "t": 1795302508826,
+   "v": 51,
+   "n": 26
+  },
+  {
+   "t": 1795306108826,
+   "v": 55,
+   "n": 24
+  },
+  {
+   "t": 1795309708826,
+   "v": 47,
    "n": 29
   },
   {
-   "t": 1795286632429,
-   "v": 61,
-   "n": 23
+   "t": 1795313308826,
+   "v": 51,
+   "n": 29
   },
   {
-   "t": 1795290232429,
-   "v": 53,
-   "n": 20
-  },
-  {
-   "t": 1795293832429,
-   "v": 49,
+   "t": 1795316908826,
+   "v": 47,
    "n": 31
   },
   {
-   "t": 1795297432429,
-   "v": 49,
+   "t": 1795320508826,
+   "v": 52,
    "n": 30
   },
   {
-   "t": 1795301032429,
-   "v": 49,
-   "n": 32
+   "t": 1795324108826,
+   "v": 48,
+   "n": 39
   },
   {
-   "t": 1795304632429,
-   "v": 52,
-   "n": 20
-  },
-  {
-   "t": 1795308232429,
-   "v": 49,
-   "n": 28
-  },
-  {
-   "t": 1795311832429,
-   "v": 49,
-   "n": 29
-  },
-  {
-   "t": 1795315432429,
-   "v": 50,
-   "n": 35
-  },
-  {
-   "t": 1795319032429,
-   "v": 50,
-   "n": 35
-  },
-  {
-   "t": 1795322632429,
-   "v": 51,
+   "t": 1795327708826,
+   "v": 48,
    "n": 45
   },
   {
-   "t": 1795326232429,
-   "v": 49,
-   "n": 61
+   "t": 1795331308826,
+   "v": 45,
+   "n": 49
   },
   {
-   "t": 1795329832429,
-   "v": 48,
-   "n": 66
-  },
-  {
-   "t": 1795333432429,
+   "t": 1795334908826,
    "v": 46,
-   "n": 56
+   "n": 38
   },
   {
-   "t": 1795337032429,
-   "v": 49,
-   "n": 58
+   "t": 1795338508826,
+   "v": 50,
+   "n": 41
   },
   {
-   "t": 1795340632429,
+   "t": 1795342108826,
    "v": 51,
-   "n": 57
+   "n": 40
   },
   {
-   "t": 1795344232429,
+   "t": 1795345708826,
+   "v": 52,
+   "n": 47
+  },
+  {
+   "t": 1795349308826,
+   "v": 52,
+   "n": 39
+  },
+  {
+   "t": 1795352908826,
+   "v": 52,
+   "n": 41
+  },
+  {
+   "t": 1795356508826,
+   "v": 53,
+   "n": 42
+  },
+  {
+   "t": 1795360108826,
+   "v": 52,
+   "n": 60
+  },
+  {
+   "t": 1795363708826,
+   "v": 52,
+   "n": 77
+  },
+  {
+   "t": 1795367308826,
    "v": 51,
-   "n": 72
+   "n": 99
   },
   {
-   "t": 1795347832429,
+   "t": 1795370908826,
    "v": 48,
-   "n": 80
+   "n": 103
   },
   {
-   "t": 1795351432429,
-   "v": 48,
+   "t": 1795374508826,
+   "v": 47,
    "n": 108
   },
   {
-   "t": 1795355032429,
-   "v": 48,
-   "n": 109
+   "t": 1795378108826,
+   "v": 46,
+   "n": 91
   },
   {
-   "t": 1795358632429,
-   "v": 51,
-   "n": 117
+   "t": 1795381708826,
+   "v": 45,
+   "n": 113
   },
   {
-   "t": 1795362232429,
-   "v": 48,
-   "n": 126
-  },
-  {
-   "t": 1795365832429,
-   "v": 47,
-   "n": 97
+   "t": 1795385308826,
+   "v": 43,
+   "n": 78
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 15
+   "items": 20
   },
   {
    "n": "Al Jazeera",
@@ -1361,23 +1347,23 @@
   },
   {
    "n": "CNBC",
-   "items": 21
+   "items": 18
   },
   {
    "n": "Euronews",
-   "items": 26
+   "items": 25
   },
   {
    "n": "NYT",
-   "items": 21
+   "items": 22
   },
   {
    "n": "Washington Post",
-   "items": 11
+   "items": 12
   },
   {
    "n": "CBS News",
-   "items": 15
+   "items": 17
   },
   {
    "n": "ABC News",
@@ -1397,7 +1383,7 @@
   },
   {
    "n": "CNA",
-   "items": 8
+   "items": 7
   },
   {
    "n": "Times of Israel",
@@ -1405,7 +1391,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 20
+   "items": 0
   },
   {
    "n": "Arab News",
@@ -1413,7 +1399,7 @@
   },
   {
    "n": "Africanews",
-   "items": 25
+   "items": 24
   },
   {
    "n": "Kyiv Independent",
@@ -1421,7 +1407,7 @@
   },
   {
    "n": "Yonhap",
-   "items": 33
+   "items": 28
   },
   {
    "n": "Nikkei Asia",
@@ -1462,6 +1448,7 @@
  ],
  "failed": [
   "Times of Israel",
+  "Middle East Eye",
   "Arab News",
   "The Diplomat"
  ]

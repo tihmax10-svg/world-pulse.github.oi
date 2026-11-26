@@ -1,30 +1,30 @@
 {
- "updated": 1795638800850,
+ "updated": 1795662101364,
  "demo": false,
- "total_articles": 719,
+ "total_articles": 701,
  "second_delta": -1,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 54
+   "v": 55
   },
   {
    "n": "Al Jazeera",
-   "v": 56
+   "v": 58
   },
   {
    "n": "DW",
-   "v": 50
+   "v": 51
   },
   {
    "n": "France 24",
-   "v": 65
+   "v": 57
   },
   {
    "n": "The Guardian",
-   "v": 55
+   "v": 53
   },
   {
    "n": "Sky News",
@@ -32,11 +32,11 @@
   },
   {
    "n": "NPR",
-   "v": 44
+   "v": 48
   },
   {
    "n": "UN News",
-   "v": 64
+   "v": 69
   },
   {
    "n": "CNBC",
@@ -44,23 +44,23 @@
   },
   {
    "n": "Euronews",
-   "v": 53
+   "v": 56
   },
   {
    "n": "NYT",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Washington Post",
-   "v": 51
+   "v": 53
   },
   {
    "n": "CBS News",
-   "v": 52
+   "v": 54
   },
   {
    "n": "ABC News",
-   "v": 55
+   "v": 48
   },
   {
    "n": "CNN",
@@ -72,23 +72,23 @@
   },
   {
    "n": "ABC Australia",
-   "v": 49
+   "v": 44
   },
   {
    "n": "CNA",
-   "v": 42
+   "v": 39
   },
   {
    "n": "Africanews",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Kyiv Independent",
-   "v": 63
+   "v": 66
   },
   {
    "n": "Yonhap",
-   "v": 40
+   "v": 41
   },
   {
    "n": "Nikkei Asia",
@@ -96,11 +96,11 @@
   },
   {
    "n": "The Diplomat",
-   "v": 53
+   "v": 48
   },
   {
    "n": "Dawn",
-   "v": 42
+   "v": 44
   },
   {
    "n": "Times of India",
@@ -108,101 +108,74 @@
   },
   {
    "n": "The Hindu",
-   "v": 51
+   "v": 53
   },
   {
    "n": "Politico EU",
-   "v": 46
+   "v": 47
   },
   {
    "n": "Japan Times",
-   "v": 39
+   "v": 45
   },
   {
    "n": "Reuters",
-   "v": 45
+   "v": 47
   },
   {
    "n": "AP",
-   "v": 45
+   "v": 44
   }
  ],
  "regions": [
   {
    "n": "Европа",
-   "v": 56
+   "v": 57
   },
   {
    "n": "Ближний Восток",
-   "v": 60
+   "v": 65
   },
   {
    "n": "Азия",
-   "v": 44
+   "v": 43
   },
   {
    "n": "Африка",
-   "v": 59
+   "v": 60
   },
   {
    "n": "Америка",
-   "v": 49
+   "v": 48
   }
  ],
  "events": [
   {
-   "t": "Возвращение Дженсена Хуанга в Nvidia показывает, что гонка ИИ между США и Китаем — это нечто большее, чем просто чипы",
-   "x": "Возвращение Дженсена Хуанга на пост генерального директора Nvidia демонстрирует, что гонка искусственного интеллекта между США и Китаем касается не только полупроводников, но и технических талантов.",
-   "r": "Азия",
+   "t": "Израильский удар убил высокопоставленного сотрудника службы безопасности ХАМАС и его семью в городе Газа",
+   "x": "По словам врачей, Мохаммед Абу аль-Уф, глава службы внутренней безопасности ХАМАС на севере Газы, был убит вместе со своей женой и двумя дочерьми-подростками.",
+   "r": "Ближний Восток",
    "c": "Конфликты",
-   "imp": 91,
-   "ten": 40,
-   "ago": 1,
+   "imp": 95,
+   "ten": 92,
+   "ago": 27,
    "s": [
-    "CNBC",
-    "Euronews",
-    "NYT",
-    "Nikkei Asia"
+    "BBC",
+    "Washington Post",
+    "Dawn",
+    "The Hindu"
    ],
-   "u": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
-   "img": "https://images.euronews.com/articles/stories/10/00/59/33/696x392_cmsv2_8d176ab2-7adf-5813-b55c-b93d647ee0ec-10005933.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 5,
-   "lat": 39.81,
-   "lon": -98.05,
-   "place": "США",
-   "place_en": "United States",
-   "id": 1,
-   "t_en": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
-   "x_en": "Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just about semiconductors, but tech talent too."
-  },
-  {
-   "t": "Китай проводит расследование в отношении члена Политбюро и руководителя шанхайской партии Чэнь Цзинина",
-   "x": "Член Политбюро является последним высокопоставленным чиновником, на которого направлена ​​давняя антикоррупционная кампания президента Си Цзиньпина, которая не проявляет никаких признаков ослабления масштабов или глубины.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 91,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "NPR",
-    "NYT",
-    "CNA",
-    "Nikkei Asia"
-   ],
-   "u": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
-   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2667x1778+0+0/resize/2667x1778!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fed%2F04%2Fc2d2c607448da009076d8f5d01e4%2Fap26328447661060.jpg",
-   "img_src": "NPR",
+   "u": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/90a4/live/02d1fbb0-e8d5-11f1-99b6-a35a62fa4264.jpg",
+   "img_src": "BBC",
    "fresh": true,
    "n": 4,
-   "lat": 31.05,
-   "lon": 121.17,
-   "place": "Шанхай",
-   "place_en": "Shanghai",
-   "id": 2,
-   "t_en": "China investigates Politburo member and Shanghai party chief Chen Jining",
-   "x_en": "The Politburo member is the latest senior official targeted in President Xi Jinping's long-running anti-corruption campaign, which has shown no signs of letting up in scope or depth."
+   "lat": 31.66,
+   "lon": 34.75,
+   "place": "Газа",
+   "place_en": "Gaza",
+   "id": 1,
+   "t_en": "Israeli strike kills senior Hamas security official and family in Gaza City",
+   "x_en": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say."
   },
   {
    "t": "Китай отправляет первого иностранного астронавта на свою космическую станцию, а пакистанец присоединился к экипажу «Шэньчжоу-24»",
@@ -227,132 +200,109 @@
    "lon": 103.52,
    "place": "Китай",
    "place_en": "China",
-   "id": 3,
+   "id": 2,
    "t_en": "China sends first foreign astronaut to its space station as Pakistani joins Shenzhou 24 crew",
    "x_en": "The crew will carry out more than 90 scientific experiments and technology tests. according to China's state media reports."
   },
   {
-   "t": "По меньшей мере 30 человек погибли в результате пожара в автомобиле в Египте, сообщило министерство здравоохранения",
-   "x": "Еще 15 человек получили ранения в результате пожара, когда автомобиль с нефтепродуктами перевернулся на главной дороге.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 91,
-   "ten": 78,
-   "ago": 37,
-   "s": [
-    "Al Jazeera",
-    "Euronews",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/10/00/87/06/696x392_cmsv2_90523e67-7923-5431-b927-e7191ca49bda-10008706.jpg",
-   "img_src": "Euronews",
-   "fresh": true,
-   "n": 4,
-   "lat": 26.8,
-   "lon": 32.07,
-   "place": "Египет",
-   "place_en": "Egypt",
-   "id": 4,
-   "t_en": "At least 30 killed in Egypt vehicle fire, health ministry says",
-   "x_en": "An additional 15 were injured in blaze of fire after vehicle carrying petroleum products flipped on a major road."
-  },
-  {
-   "t": "Мигрант, ошибочно депортированный Трампом, уехал из США в Испанию",
-   "x": "Килмар Абрего Гарсия прибыл в Испанию со своей женой после 20-месячной судебной тяжбы с администрацией Трампа.",
+   "t": "US authorises SpaceX to deploy one million satellites to space",
+   "x": "The US' Federal Communications Commission is authorising SpaceX to send a million satellites for data centres in space, the agency said.",
    "r": "Америка",
-   "c": "Политика",
-   "imp": 89,
-   "ten": 43,
-   "ago": 18,
+   "c": "Наука",
+   "imp": 87,
+   "ten": 37,
+   "ago": 26,
    "s": [
-    "Al Jazeera",
-    "The Guardian",
+    "Sky News",
     "CNBC",
-    "Euronews",
-    "Washington Post",
+    "Japan Times",
+    "Reuters",
     "AP"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/15d0ddecd877f6d5df4f8e4c21bb5be5961696ea/1245_0_4004_3203/master/4004.jpg?width=700&quality=85&auto=format&fit=max&s=07232e06887342e29e6c675de596e2dc",
-   "img_src": "The Guardian",
+   "u": "https://news.sky.com/story/us-authorises-elon-musks-spacex-to-deploy-one-million-satellites-to-space-13616493",
+   "img": "https://e3.365dm.com/26/06/1920x1080/skynews-elon-musk-ceo-spacex_7265141.jpg?20260604104503",
+   "img_src": "Sky News",
    "fresh": true,
-   "n": 6,
-   "lat": 38.91,
-   "lon": -98.32,
+   "n": 5,
+   "lat": 39.02,
+   "lon": -99.57,
    "place": "США",
    "place_en": "United States",
-   "id": 5,
-   "t_en": "Migrant wrongly deported by Trump leaves US for Spain",
-   "x_en": "Kilmar Abrego Garcia has arrived in Spain with his wife after a 20-month legal battle with the Trump administration."
+   "id": 3,
+   "t_en": "US authorises SpaceX to deploy one million satellites to space",
+   "x_en": "The US' Federal Communications Commission is authorising SpaceX to send a million satellites for data centres in space, the agency said."
   },
   {
-   "t": "Соломоновы Острова заключают договор о безопасности с Австралией, нанося удар по Китаю",
-   "x": "Соглашение Соломоновых Островов с Китаем от 2022 года вызвало опасения, что оно позволит Пекину установить военное присутствие на острове в Тихом океане. Новое соглашение исключает такие основания.",
-   "r": "Азия",
+   "t": "Netanyahu says corruption trial ‘must end’ as court suggests dropping case",
+   "x": "The judges' recommendations came as Israel's longest-serving prime minister fights for his political survival.",
+   "r": "Ближний Восток",
    "c": "Политика",
-   "imp": 88,
-   "ten": 23,
-   "ago": 1,
+   "imp": 86,
+   "ten": 37,
+   "ago": 35,
    "s": [
-    "NYT",
-    "Nikkei Asia",
-    "The Hindu",
-    "Japan Times"
-   ],
-   "u": "https://www.nytimes.com/2026/11/24/world/asia/solomon-islands-security-treaty-australia-china.html",
-   "img": "https://static01.nyt.com/images/2026/11/25/multimedia/25int-Oz-Solomons-01-gzjw/25int-Oz-Solomons-01-gzjw-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": true,
-   "n": 4,
-   "lat": -24.22,
-   "lon": 134.56,
-   "place": "Австралия",
-   "place_en": "Australia",
-   "id": 6,
-   "t_en": "Solomon Islands Enters Security Treaty With Australia, in a Blow to China",
-   "x_en": "A 2022 Solomon Islands agreement with China had raised concerns it would enable Beijing to establish a military presence on the Pacific island. The new accord precludes such bases."
-  },
-  {
-   "t": "Потери России в войне на Украине: новые сообщения предполагают, что число погибших достигает 700 000 человек",
-   "x": "Новый анализ просочившихся данных российского правительства показывает, что в войне против Украины погибло около 700 000 российских солдат. Независимые российские СМИ обновили свои оценки военных потерь Москвы после того, как белорусские и украинские хакеры обнаружили",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 87,
-   "ten": 94,
-   "ago": 5,
-   "s": [
+    "Al Jazeera",
     "France 24",
-    "Euronews",
-    "CBS News"
+    "NYT",
+    "Fox News",
+    "Times of India"
    ],
-   "u": "https://www.france24.com/en/video/20261125-russian-casualties-in-ukraine-war-new-reports-suggest-death-toll-as-high-as-700-000",
-   "img": "https://s.france24.com/media/display/997db198-e8ea-11f1-9ee6-95e072ff0a91/w:1024/p:16x9/EN-20261125-120429-120550-CS.jpg",
+   "u": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case?traffic_source=rss",
+   "img": "https://s.france24.com/media/display/bc479688-e905-11f1-9b30-29d00e23de9a/w:1024/p:16x9/EN-20261125-201038-201315-CS.jpg",
    "img_src": "France 24",
    "fresh": true,
-   "n": 4,
-   "lat": 61.9,
-   "lon": 95.23,
-   "place": "Россия",
-   "place_en": "Russia",
-   "id": 7,
-   "t_en": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
-   "x_en": "New analysis of leaked Russian government data suggests some 700,000 Russian soldiers have died in the war against Ukraine. Independent Russian media outlets have updated their estimates of Moscow's military casualties after Belarusian and Ukrainian hackers ob"
+   "n": 5,
+   "lat": 31.81,
+   "lon": 35.21,
+   "place": "Израиль",
+   "place_en": "Israel",
+   "id": 4,
+   "t_en": "Netanyahu says corruption trial ‘must end’ as court suggests dropping case",
+   "x_en": "The judges' recommendations came as Israel's longest-serving prime minister fights for his political survival."
+  },
+  {
+   "t": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "x": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 85,
+   "ten": 84,
+   "ago": 96,
+   "s": [
+    "BBC",
+    "France 24",
+    "The Guardian",
+    "CBS News",
+    "ABC News",
+    "Africanews",
+    "The Hindu"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2d4b/live/5e57daf0-e91f-11f1-9108-c5b270b0703d.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 7,
+   "lat": 29.98,
+   "lon": 31.04,
+   "place": "Каир",
+   "place_en": "Cairo",
+   "id": 5,
+   "t_en": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "x_en": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital."
   },
   {
    "t": "Армия США заявляет, что контролируемый взрыв взрывчатки в Айове был «огромным успехом»",
    "x": "Несмотря на широко распространенную обеспокоенность жителей в преддверии взрыва, официальные лица говорят, что показатели содержания свинца в этом районе пока обнадеживают.",
    "r": "Америка",
    "c": "Конфликты",
-   "imp": 86,
-   "ten": 42,
-   "ago": 38,
+   "imp": 84,
+   "ten": 46,
+   "ago": 57,
    "s": [
     "BBC",
     "Al Jazeera",
-    "Reuters",
-    "AP"
+    "The Hindu",
+    "Reuters"
    ],
    "u": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
@@ -363,18 +313,282 @@
    "lon": -98.25,
    "place": "США",
    "place_en": "United States",
-   "id": 8,
+   "id": 6,
    "t_en": "US Army says controlled blast of explosives in Iowa was 'huge success'",
    "x_en": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising."
+  },
+  {
+   "t": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
+   "x": "North Korean leader warns attempts to deny country's nuclear status will be seen as \"an open declaration of war\".",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 83,
+   "ten": 74,
+   "ago": 13,
+   "s": [
+    "Al Jazeera",
+    "Yonhap",
+    "Reuters"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+   "img": "https://img.yna.co.kr/photo/yna/YH/2026/11/26/PYH2026112600590004200_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 4,
+   "lat": 40.85,
+   "lon": 126.12,
+   "place": "КНДР",
+   "place_en": "North Korea",
+   "id": 7,
+   "t_en": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
+   "x_en": "North Korean leader warns attempts to deny country's nuclear status will be seen as \"an open declaration of war\"."
+  },
+  {
+   "t": "Macy's postpones Thanksgiving parade due to weather",
+   "x": "The was the first time ever that the iconic celebration - known for its massive balloons floating past the city's skyscrapers - was delayed because of storms.",
+   "r": "Америка",
+   "c": "Природа",
+   "imp": 79,
+   "ten": 38,
+   "ago": 87,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "CNBC",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/77a3/live/3e055710-e932-11f1-99b6-a35a62fa4264.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 7,
+   "lat": 40.61,
+   "lon": -73.93,
+   "place": "Нью-Йорк",
+   "place_en": "New York",
+   "id": 8,
+   "t_en": "Macy's postpones Thanksgiving parade due to weather",
+   "x_en": "The was the first time ever that the iconic celebration - known for its massive balloons floating past the city's skyscrapers - was delayed because of storms."
+  },
+  {
+   "t": "Соломоновы Острова заключают договор о безопасности с Австралией, нанося удар по Китаю",
+   "x": "Соглашение Соломоновых Островов с Китаем от 2022 года вызвало опасения, что оно позволит Пекину установить военное присутствие на острове в Тихом океане. Новое соглашение исключает такие основания.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 77,
+   "ten": 23,
+   "ago": 1,
+   "s": [
+    "NYT",
+    "Nikkei Asia",
+    "The Hindu"
+   ],
+   "u": "https://www.nytimes.com/2026/11/24/world/asia/solomon-islands-security-treaty-australia-china.html",
+   "img": "https://static01.nyt.com/images/2026/11/25/multimedia/25int-Oz-Solomons-01-gzjw/25int-Oz-Solomons-01-gzjw-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 3,
+   "lat": -24.22,
+   "lon": 134.56,
+   "place": "Австралия",
+   "place_en": "Australia",
+   "id": 9,
+   "t_en": "Solomon Islands Enters Security Treaty With Australia, in a Blow to China",
+   "x_en": "A 2022 Solomon Islands agreement with China had raised concerns it would enable Beijing to establish a military presence on the Pacific island. The new accord precludes such bases."
+  },
+  {
+   "t": "Миграция на испанские Канарские острова побила дневной рекорд: прибыло почти 2000 человек",
+   "x": "Испанские власти сообщают, что во вторник на Канарские острова прибыло около 2000 мигрантов, установив рекорд за один день.",
+   "r": "Европа",
+   "c": "Общее",
+   "imp": 74,
+   "ten": 37,
+   "ago": 77,
+   "s": [
+    "ABC News",
+    "Africanews",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/migration-spains-canary-islands-breaks-single-day-record-138434894",
+   "img": "https://s.abcnews.com/images/International/wirestory_dfa1b036283a58d040ea6a6ae6d8141a_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": 39.53,
+   "lon": -3.24,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 10,
+   "t_en": "Migration to Spain's Canary Islands breaks day record with nearly 2,000 arrivals",
+   "x_en": "Spanish authorities report nearly 2,000 migrants arrived at the Canary Islands on Tuesday, setting a record for a single day"
+  },
+  {
+   "t": "Duran Duran guitarist Andy Taylor dies aged 65",
+   "x": "Andy Taylor, whose guitar riffs helped shape Duran Duran's distinctive sound and propel the British band to global fame in the 1980s, has died aged 65 after a long battle with prostate cancer, the band and his family said Wednesday.",
+   "r": "Мир",
+   "c": "Наука",
+   "imp": 73,
+   "ten": 40,
+   "ago": 150,
+   "s": [
+    "France 24",
+    "The Guardian",
+    "Washington Post",
+    "CBS News",
+    "The Hindu",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
+   "img": "https://s.france24.com/media/display/968794c0-e928-11f1-a2c5-c131ae9bfe9c/w:1024/p:16x9/063-53536468KV127-Fashion-Rocks.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 6,
+   "lat": 53.77,
+   "lon": -4.35,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
+   "id": 11,
+   "t_en": "Duran Duran guitarist Andy Taylor dies aged 65",
+   "x_en": "Andy Taylor, whose guitar riffs helped shape Duran Duran's distinctive sound and propel the British band to global fame in the 1980s, has died aged 65 after a long battle with prostate cancer, the band and his family said Wednesday."
+  },
+  {
+   "t": "Over 30 countries demand Russia stop using chemical agents as weapons of war in Ukraine",
+   "x": "\"We call for the immediate cessation of the use of any toxic chemicals and of riot control agents as a method of warfare in Ukraine,\" the statement reads.",
+   "r": "Европа",
+   "c": "Конфликты",
+   "imp": 69,
+   "ten": 82,
+   "ago": 43,
+   "s": [
+    "Kyiv Independent",
+    "Reuters"
+   ],
+   "u": "https://kyivindependent.com/over-30-countries-demand-russia-stop-using-chemical-agents-as-weapons-of-war-in-ukraine/",
+   "img": "https://assets.kyivindependent.com/content/images/2025/02/GettyImages-2152456898.jpg",
+   "img_src": "Kyiv Independent",
+   "fresh": true,
+   "n": 2,
+   "lat": 49.24,
+   "lon": 30.48,
+   "place": "Украина",
+   "place_en": "Ukraine",
+   "id": 12,
+   "t_en": "Over 30 countries demand Russia stop using chemical agents as weapons of war in Ukraine",
+   "x_en": "\"We call for the immediate cessation of the use of any toxic chemicals and of riot control agents as a method of warfare in Ukraine,\" the statement reads."
+  },
+  {
+   "t": "US announces new tariffs on host of countries including China",
+   "x": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 69,
+   "ten": 55,
+   "ago": 101,
+   "s": [
+    "BBC",
+    "France 24",
+    "Dawn"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9117/live/98cd84e0-e92a-11f1-9929-f96d7c6cbd39.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 4,
+   "lat": 39.95,
+   "lon": -98.65,
+   "place": "США",
+   "place_en": "United States",
+   "id": 13,
+   "t_en": "US announces new tariffs on host of countries including China",
+   "x_en": "The new levies would hit many of America's biggest trading partners, including China and the EU."
+  },
+  {
+   "t": "Китай проводит расследование в отношении члена Политбюро и руководителя шанхайской партии Чэнь Цзинина",
+   "x": "Член Политбюро является последним высокопоставленным чиновником, на которого направлена ​​давняя антикоррупционная кампания президента Си Цзиньпина, которая не проявляет никаких признаков ослабления масштабов или глубины.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "NPR",
+    "Nikkei Asia"
+   ],
+   "u": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
+   "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2667x1778+0+0/resize/2667x1778!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fed%2F04%2Fc2d2c607448da009076d8f5d01e4%2Fap26328447661060.jpg",
+   "img_src": "NPR",
+   "fresh": true,
+   "n": 2,
+   "lat": 31.05,
+   "lon": 121.17,
+   "place": "Шанхай",
+   "place_en": "Shanghai",
+   "id": 14,
+   "t_en": "China investigates Politburo member and Shanghai party chief Chen Jining",
+   "x_en": "The Politburo member is the latest senior official targeted in President Xi Jinping's long-running anti-corruption campaign, which has shown no signs of letting up in scope or depth."
+  },
+  {
+   "t": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+   "x": "Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 66,
+   "ten": 40,
+   "ago": 14,
+   "s": [
+    "CNBC",
+    "The Hindu"
+   ],
+   "u": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+   "img": "https://th-i.thgim.com/public/incoming/6f1vqz/article71745085.ece/alternates/LANDSCAPE_1200/2026-11-25T164248Z_1477569435_RC2TZHAVKLNB_RTRMADP_3_NVIDIA-CEO-CONGRESS.JPG",
+   "img_src": "The Hindu",
+   "fresh": true,
+   "n": 2,
+   "lat": 40.03,
+   "lon": 116.35,
+   "place": "Пекин",
+   "place_en": "Beijing",
+   "id": 15,
+   "t_en": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+   "x_en": "Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing."
+  },
+  {
+   "t": "Колумбийская полиция штурмует супермаркет, чтобы освободить 76 человек, удерживаемых в заложниках в течение 17 часов",
+   "x": "Один вооруженный человек был убит после того, как президент страны назвал неудачным ограбление нагруженного наличными бронеавтомобиля.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 66,
+   "ten": 82,
+   "ago": 401,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Euronews",
+    "CBS News"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/997a/live/4f4b3940-e8c4-11f1-ac76-db9e97f93d67.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 5,
+   "lat": 4.93,
+   "lon": -73.83,
+   "place": "Колумбия",
+   "place_en": "Colombia",
+   "id": 16,
+   "t_en": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+   "x_en": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong."
   },
   {
    "t": "Северная Корея высылает швейцарского дипломата из-за санкций",
    "x": "Швейцарские официальные лица заявили, что отношения будут поддерживаться через посольство Северной Кореи в Берне и ее собственное посольство в Пекине.",
    "r": "Азия",
    "c": "Политика",
-   "imp": 83,
+   "imp": 65,
    "ten": 55,
-   "ago": 74,
+   "ago": 310,
    "s": [
     "BBC",
     "Euronews",
@@ -390,353 +604,188 @@
    "lon": 128.46,
    "place": "КНДР",
    "place_en": "North Korea",
-   "id": 9,
+   "id": 17,
    "t_en": "North Korea expels Swiss diplomat in sanctions row",
    "x_en": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing."
   },
   {
-   "t": "Колумбийская полиция штурмует супермаркет, чтобы освободить 76 человек, удерживаемых в заложниках в течение 17 часов",
-   "x": "Один вооруженный человек был убит после того, как президент страны назвал неудачным ограбление нагруженного наличными бронеавтомобиля.",
+   "t": "Malaysia regulator seeks US$146 million damages from Google over 'harmful' content",
+   "x": "The Malaysian Communications and Multimedia Commission said Google had not taken adequate action to address content related to online gambling, scams and fraud on its YouTube platform.",
    "r": "Америка",
-   "c": "Конфликты",
-   "imp": 83,
-   "ten": 82,
-   "ago": 112,
+   "c": "Общее",
+   "imp": 64,
+   "ten": 40,
+   "ago": 32,
    "s": [
-    "BBC",
-    "Al Jazeera",
-    "France 24",
-    "The Guardian",
-    "Sky News",
-    "Euronews",
-    "CBS News"
+    "CNA",
+    "Times of India"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/997a/live/4f4b3940-e8c4-11f1-ac76-db9e97f93d67.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 8,
-   "lat": 4.93,
-   "lon": -73.83,
-   "place": "Колумбия",
-   "place_en": "Colombia",
-   "id": 10,
-   "t_en": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
-   "x_en": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong."
+   "u": "https://www.channelnewsasia.com/asia/malaysia-communications-regulator-damages-google-harmful-content-6580801",
+   "img": "https://dam.mediacorp.sg/image/upload/s--XZHlDGo0--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-11-13T044927Z_4_LYNXNPEMAC096_RTROPTP_3_EU-ALPHABET-ANTIRUST.JPG?itok=3SFTA4og",
+   "img_src": "CNA",
+   "fresh": true,
+   "n": 2,
+   "lat": 3.7,
+   "lon": 101.73,
+   "place": "Малайзия",
+   "place_en": "Malaysia",
+   "id": 18,
+   "t_en": "Malaysia regulator seeks US$146 million damages from Google over 'harmful' content",
+   "x_en": "The Malaysian Communications and Multimedia Commission said Google had not taken adequate action to address content related to online gambling, scams and fraud on its YouTube platform."
   },
   {
-   "t": "Миграция на испанские Канарские острова побила дневной рекорд: прибыло почти 2000 человек",
-   "x": "Испанские власти сообщают, что во вторник на Канарские острова прибыло около 2000 мигрантов, установив рекорд за один день.",
-   "r": "Европа",
+   "t": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+   "x": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later.",
+   "r": "Мир",
    "c": "Общее",
-   "imp": 80,
-   "ten": 38,
-   "ago": 125,
+   "imp": 64,
+   "ten": 34,
+   "ago": 120,
    "s": [
-    "ABC News",
-    "Africanews",
-    "Reuters",
+    "BBC",
+    "The Guardian",
     "AP"
    ],
-   "u": "https://abcnews.com/International/wireStory/migration-spains-canary-islands-breaks-single-day-record-138434894",
-   "img": "https://s.abcnews.com/images/International/wirestory_dfa1b036283a58d040ea6a6ae6d8141a_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": 39.53,
-   "lon": -3.24,
-   "place": "Испания",
-   "place_en": "Spain",
-   "id": 11,
-   "t_en": "Migration to Spain's Canary Islands breaks day record with nearly 2,000 arrivals",
-   "x_en": "Spanish authorities report nearly 2,000 migrants arrived at the Canary Islands on Tuesday, setting a record for a single day"
-  },
-  {
-   "t": "Израильский удар убил высокопоставленного сотрудника службы безопасности ХАМАС и его семью в городе Газа",
-   "x": "По словам врачей, Мохаммед Абу аль-Уф, глава службы внутренней безопасности ХАМАС на севере Газы, был убит вместе со своей женой и двумя дочерьми-подростками.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 80,
-   "ten": 86,
-   "ago": 154,
-   "s": [
-    "BBC",
-    "Euronews",
-    "Washington Post",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/90a4/live/02d1fbb0-e8d5-11f1-99b6-a35a62fa4264.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/32bb/live/4d5bc080-e920-11f1-9108-c5b270b0703d.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 5,
-   "lat": 31.66,
-   "lon": 34.75,
-   "place": "Газа",
-   "place_en": "Gaza",
-   "id": 12,
-   "t_en": "Israeli strike kills senior Hamas security official and family in Gaza City",
-   "x_en": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say."
-  },
-  {
-   "t": "Двум мужчинам предъявлено обвинение после взлома загородного дома принца Уильяма и Кейт",
-   "x": "Прокуроры заявили, что двое мужчин, которые предстали перед судом в среду, забрались по водосточной трубе, чтобы проникнуть в загородный дом королевской семьи в Норфолке.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 77,
-   "ten": 48,
-   "ago": 180,
-   "s": [
-    "NYT",
-    "Washington Post",
-    "CBS News",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.nytimes.com/2026/11/25/world/europe/prince-william-kate-home-break-in-charged.html",
-   "img": "https://static01.nyt.com/images/2026/11/25/multimedia/25int-uk-royals-break-in-mfgl/25int-uk-royals-break-in-mfgl-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 7,
-   "lat": 51.47,
-   "lon": -0.27,
-   "place": "Лондон",
-   "place_en": "London",
-   "id": 13,
-   "t_en": "2 Men Charged After Break-In at Prince William and Kate’s Country Home",
-   "x_en": "Prosecutors said the two men, who appeared in court on Wednesday, had climbed a drainpipe to break into the royals’ country retreat in Norfolk."
-  },
-  {
-   "t": "Вэнс говорит, что Дженсену Хуангу не нужно помилование после того, как Трамп сказал, что «это вариант»",
-   "x": "Vice-president says he supports reinstatement of Nvidia CEO after ‘assurances’ from top US officials was ‘under no investigation’ JD Vance said on Wednesday that Jensen Huang , the recently reinstalled Nvidia CEO , was never under criminal investigation and th",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 75,
-   "ten": 46,
-   "ago": 37,
-   "s": [
-    "The Guardian",
-    "CNBC",
-    "Reuters"
-   ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/25/trump-open-to-pardoning-jensen-huang-nvidia",
-   "img": "https://i.guim.co.uk/img/media/64ba8040e817c66db39566be7cfba8bd01500879/151_0_2828_2262/master/2828.jpg?width=700&quality=85&auto=format&fit=max&s=78cba36ade1505b3e905fee12defa222",
-   "img_src": "The Guardian",
-   "fresh": true,
    "n": 3,
-   "lat": 38.97,
-   "lon": -97.68,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "Vance says Jensen Huang doesn’t need pardon after Trump says ‘it’s an option’",
-   "x_en": "Vice-president says he supports reinstatement of Nvidia CEO after ‘assurances’ from top US officials was ‘under no investigation’ JD Vance said on Wednesday that Jensen Huang , the recently reinstalled Nvidia CEO , was never under criminal investigation and th"
+   "lat": 46.17,
+   "lon": 3.24,
+   "place": "Франция",
+   "place_en": "France",
+   "id": 19,
+   "t_en": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+   "x_en": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later."
   },
   {
-   "t": "Двое детей среди шести погибших в результате крушения самолета у побережья Миссисипи",
-   "x": "Среди обломков водолазы обнаружили тела троих взрослых, одного подростка 16 лет и двух мальчиков 12 и 10 лет.",
-   "r": "Америка",
+   "t": "Cutting-edge Nvidia chips not hard to find for sale in China, despite U.S. ban",
+   "x": "Though black-market prices have surged amid the turmoil around Nvidia CEO Jensen Huang, traders in Shenzhen persist in hawking the company’s best chips.",
+   "r": "Азия",
+   "c": "Наука",
+   "imp": 64,
+   "ten": 40,
+   "ago": 135,
+   "s": [
+    "Washington Post",
+    "Japan Times",
+    "Reuters"
+   ],
+   "u": "https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/26/thumbs/400x400/576072.jpg",
+   "img_src": "Japan Times",
+   "fresh": false,
+   "n": 3,
+   "lat": 35.04,
+   "lon": 103.41,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 20,
+   "t_en": "Cutting-edge Nvidia chips not hard to find for sale in China, despite U.S. ban",
+   "x_en": "Though black-market prices have surged amid the turmoil around Nvidia CEO Jensen Huang, traders in Shenzhen persist in hawking the company’s best chips."
+  },
+  {
+   "t": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
+   "x": "Shortly before losing contact with the plane, an air traffic controller at Gulfport–Biloxi International Airport advised the pilot of precipitation and adverse weather in the area",
+   "r": "Мир",
    "c": "Общее",
-   "imp": 75,
+   "imp": 63,
    "ten": 66,
    "ago": 67,
    "s": [
-    "BBC",
-    "Sky News",
-    "AP"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/23e1/live/16967230-e906-11f1-b9b5-17bef7133655.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 3,
-   "lat": 39.59,
-   "lon": -97.39,
-   "place": "США",
-   "place_en": "United States",
-   "id": 15,
-   "t_en": "Two children among six dead after plane crash off Mississippi coast",
-   "x_en": "Divers found the bodies of three adult, one teenager aged 16, and two boys, aged 12 and 10, in the wreckage."
-  },
-  {
-   "t": "Момент старта китайской космической миссии с первым пакистанским космонавтом на борту",
-   "x": "Китай запустил космическую миссию «Шэньчжоу-24», чтобы доставить трех астронавтов на свою космическую станцию ​​«Тяньгун».",
-   "r": "Азия",
-   "c": "Наука",
-   "imp": 72,
-   "ten": 48,
-   "ago": 180,
-   "s": [
-    "BBC",
-    "France 24",
     "The Hindu",
     "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4b78/live/6330c460-e889-11f1-a094-5fdc692f3e33.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 4,
-   "lat": 34.81,
-   "lon": 101.53,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 16,
-   "t_en": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
-   "x_en": "China launched its Shenzhou-24 space mission to bring three astronauts to its Tiangong space station."
-  },
-  {
-   "t": "Трамп объявляет о новых тарифах для ЕС и Китая, несмотря на поражение США на промежуточных выборах",
-   "x": "Администрация президента Дональда Трампа в среду возобновила глобальную торговую напряженность, предложив новые тарифы для некоторых крупнейших торговых партнеров США, включая ЕС, Японию и Тайвань. Китаю могут грозить 20-процентные пошлины, заявил высокопоставленный чиновник",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 70,
-   "ten": 62,
-   "ago": 98,
-   "s": [
-    "France 24",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.france24.com/en/americas/20261125-trump-announces-new-tariffs-eu-china-despite-us-midterms-defeat",
-   "img": "https://s.france24.com/media/display/799ca916-e47f-11f1-a351-1bac47ab2f5d/w:1024/p:16x9/2026-11-19T200647Z-677358732-RC2LKOAOVK5M-RTRMADP-3-USA-TRUMP-NEW-YORK-TIMES.jpg",
-   "img_src": "France 24",
-   "fresh": false,
-   "n": 3,
-   "lat": 51.0,
-   "lon": 4.34,
-   "place": "Брюссель",
-   "place_en": "Brussels",
-   "id": 17,
-   "t_en": "Trump announces new tariffs on EU, China despite US midterms defeat",
-   "x_en": "President Donald Trump's administration on Wednesday reignited global trade tensions by proposing new tariffs on some of the largest US trading partners, including the EU, Japan and Taiwan. China could be slapped with a 20 percent tariff, a senior official sai"
-  },
-  {
-   "t": "Азиатские акции подскочили после возвращения Дженсена Хуанга из Nvidia",
-   "x": "Рейтер",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 68,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia",
-    "Reuters"
-   ],
-   "u": "https://asia.nikkei.com/business/markets/asian-stocks-leap-on-return-of-nvidia-s-jensen-huang",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F1%2F1%2F1%2F13481115-1-eng-GB%2Ff69e540928a7-photo_SXM2026112400001567.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 3,
-   "lat": 38.9,
-   "lon": -76.89,
-   "place": "Вашингтон",
-   "place_en": "Washington",
-   "id": 18,
-   "t_en": "Asian stocks leap on return of Nvidia's Jensen Huang",
-   "x_en": "Reuters"
-  },
-  {
-   "t": "Британские военные «перемещают самолеты в ангары на случай атак дронов»",
-   "x": "Эксперты говорят, что этот шаг является «логическим ответом», если есть разведданные, указывающие на вероятную угрозу дронов.",
-   "r": "Европа",
-   "c": "Конфликты",
-   "imp": 65,
-   "ten": 84,
-   "ago": 78,
-   "s": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6b07277337-1795630963.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
+   "u": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
+   "img": "https://th-i.thgim.com/public/incoming/wrqmr0/article71745040.ece/alternates/LANDSCAPE_1200/Mississippi_Plane_Crash_48473.jpg",
+   "img_src": "The Hindu",
    "fresh": false,
    "n": 2,
-   "lat": 53.51,
-   "lon": -1.64,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
-   "id": 19,
-   "t_en": "UK military ‘moving aircraft to hangars in case of drone attacks’",
-   "x_en": "Experts say the move is a 'logical response' if there is intelligence suggesting a likely drone threat."
-  },
-  {
-   "t": "Израильские судьи рекомендуют снять с Нетаньяху самые серьезные обвинения",
-   "x": "Премьер-министр Израиля заявил, что судебный процесс над ним должен завершиться после того, как судьи заявили, что вероятность вынесения обвинительного приговора по одному из трех дел мала.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 64,
-   "ten": 40,
-   "ago": 28,
-   "s": [
-    "BBC",
-    "NYT"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d91d/live/f0a5ecf0-e8fa-11f1-99b6-a35a62fa4264.jpg",
-   "img_src": "BBC",
-   "fresh": true,
-   "n": 2,
-   "lat": 31.28,
-   "lon": 33.83,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 20,
-   "t_en": "Israeli judges recommend dropping most serious charges against Netanyahu",
-   "x_en": "The Israeli PM says his trial should end after judges said there was little chance of conviction in one of three cases."
-  },
-  {
-   "t": "США предлагают новые тарифы для 14 торговых партнеров, включая Китай и ЕС",
-   "x": "Новые сборы направлены на противодействие внешнеторговой практике, которая считается несправедливой, дискриминационной или обременительной для торговли США.",
-   "r": "Америка",
-   "c": "Экономика",
-   "imp": 64,
-   "ten": 51,
-   "ago": 145,
-   "s": [
-    "CNBC",
-    "Dawn",
-    "Reuters"
-   ],
-   "u": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
-   "img": "https://i.dawn.com/large/2026/11/25183916f525cbd.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 3,
-   "lat": 50.86,
-   "lon": 4.53,
-   "place": "Брюссель",
-   "place_en": "Brussels",
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
    "id": 21,
-   "t_en": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-   "x_en": "The new levies seek to counter foreign trade practices deemed unfair, discriminatory or burdensome to U.S. commerce."
+   "t_en": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
+   "x_en": "Shortly before losing contact with the plane, an air traffic controller at Gulfport–Biloxi International Airport advised the pilot of precipitation and adverse weather in the area"
   },
   {
-   "t": "Украинский лазер впервые в мире сбил российский беспилотник с реактивным двигателем",
-   "x": "Украина заявляет, что ее лазерная система Blysk впервые перехватила в бою российский реактивный беспилотник",
+   "t": "Five Russian military jets hit in airfield strike, says Ukraine",
+   "x": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
    "r": "Европа",
    "c": "Конфликты",
    "imp": 63,
-   "ten": 74,
-   "ago": 77,
+   "ten": 76,
+   "ago": 82,
    "s": [
-    "Al Jazeera",
-    "Kyiv Independent"
+    "BBC",
+    "Al Jazeera"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/ukrainian-laser-downs-russian-jet-powered-drone-in-world-first?traffic_source=rss",
-   "img": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2305967011_20261125-174454.jpg",
-   "img_src": "Kyiv Independent",
+   "u": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/263d/live/670b2250-e8df-11f1-a3b9-79c60ec9ab33.jpg",
+   "img_src": "BBC",
    "fresh": false,
    "n": 2,
-   "lat": 50.04,
-   "lon": 31.17,
-   "place": "Украина",
-   "place_en": "Ukraine",
+   "lat": 61.23,
+   "lon": 97.13,
+   "place": "Россия",
+   "place_en": "Russia",
    "id": 22,
-   "t_en": "Ukrainian laser downs Russian jet-powered drone in world first",
-   "x_en": "Ukraine says that its Blysk laser system has intercepted a Russian jet-powered drone in combat for the first time"
+   "t_en": "Five Russian military jets hit in airfield strike, says Ukraine",
+   "x_en": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine."
+  },
+  {
+   "t": "California warns of flooding as king tides peak over Thanksgiving",
+   "x": "Parts of the Canadian province of British Columbia may also be affected by the storms, which come as millions of people travel for the holiday.",
+   "r": "Мир",
+   "c": "Общее",
+   "imp": 63,
+   "ten": 52,
+   "ago": 99,
+   "s": [
+    "BBC",
+    "The Guardian"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6396/live/c71ce590-e919-11f1-8383-53f283141713.jpg",
+   "img_src": "BBC",
+   "fresh": false,
+   "n": 2,
+   "lat": 34.14,
+   "lon": -118.27,
+   "place": "Лос-Анджелес",
+   "place_en": "Los Angeles",
+   "id": 23,
+   "t_en": "California warns of flooding as king tides peak over Thanksgiving",
+   "x_en": "Parts of the Canadian province of British Columbia may also be affected by the storms, which come as millions of people travel for the holiday."
+  },
+  {
+   "t": "Мигрант, ошибочно депортированный Трампом, уехал из США в Испанию",
+   "x": "Килмар Абрего Гарсия прибыл в Испанию со своей женой после 20-месячной судебной тяжбы с администрацией Трампа.",
+   "r": "Америка",
+   "c": "Политика",
+   "imp": 63,
+   "ten": 40,
+   "ago": 311,
+   "s": [
+    "Al Jazeera",
+    "The Guardian",
+    "CNBC",
+    "AP"
+   ],
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss",
+   "img": "https://i.guim.co.uk/img/media/15d0ddecd877f6d5df4f8e4c21bb5be5961696ea/1245_0_4004_3203/master/4004.jpg?width=700&quality=85&auto=format&fit=max&s=07232e06887342e29e6c675de596e2dc",
+   "img_src": "The Guardian",
+   "fresh": false,
+   "n": 4,
+   "lat": 38.91,
+   "lon": -98.32,
+   "place": "США",
+   "place_en": "United States",
+   "id": 24,
+   "t_en": "Migrant wrongly deported by Trump leaves US for Spain",
+   "x_en": "Kilmar Abrego Garcia has arrived in Spain with his wife after a 20-month legal battle with the Trump administration."
   },
   {
    "t": "Индийская BEML планирует разработать туннельные машины в течение «пары лет»",
@@ -758,83 +807,59 @@
    "lon": 79.3,
    "place": "Индия",
    "place_en": "India",
-   "id": 23,
+   "id": 25,
    "t_en": "India’s BEML targets developing tunnel machines within ‘couple of years’",
    "x_en": ""
   },
   {
-   "t": "Пожилого мужчину с болезнью Альцгеймера спасли после 11 дней в джунглях Амазонки",
-   "x": "74-летний мужчина с болезнью Альцгеймера был найден живым после 11-дневного пропажи в тропических лесах Амазонки в Бразилии.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 62,
-   "ten": 32,
-   "ago": 36,
-   "s": [
-    "Al Jazeera",
-    "CBS News"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_man-with-alzheimers-rescued-after-11-days-in-amazon-251126?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795636622.jpg?resize=1920%2C1080&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 2,
-   "lat": -9.96,
-   "lon": -52.7,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 24,
-   "t_en": "Elderly man with Alzheimer’s rescued after 11 days in Amazon jungle",
-   "x_en": "A 74-year-old man with Alzheimer's has been found alive after missing for 11 days in Brazil's Amazon rainforest."
-  },
-  {
-   "t": "Дым виден за милю, когда армия взрывает американские запасы химикатов для изготовления бомб в Айове",
-   "x": "Контролируемый взрыв, направленный на утилизацию азида свинца, рискует выпустить шлейфы токсичных химикатов в радиусе 100 миль. Армия США в среду утром взорвала весь национальный запас азида свинца, материала для изготовления бомб, в Айове, несмотря на волну общественного протеста.",
-   "r": "Америка",
+   "t": "A renovation was meant to improve these Hong Kong homes - it ended in an blaze that killed 168",
+   "x": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice.",
+   "r": "Азия",
    "c": "Конфликты",
-   "imp": 61,
-   "ten": 78,
-   "ago": 101,
+   "imp": 62,
+   "ten": 66,
+   "ago": 80,
    "s": [
-    "The Guardian",
-    "AP"
+    "BBC",
+    "Japan Times"
    ],
-   "u": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
-   "img": "https://i.guim.co.uk/img/media/0fcf154781a9c5157d16068123164b527040fcc0/367_0_1833_1466/master/1833.jpg?width=700&quality=85&auto=format&fit=max&s=62276ac83db3759a1edecd8e32ed3313",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b16/live/b6eddfc0-e8c5-11f1-ac76-db9e97f93d67.jpg",
+   "img_src": "BBC",
    "fresh": false,
    "n": 2,
-   "lat": 40.06,
-   "lon": -97.6,
-   "place": "США",
-   "place_en": "United States",
-   "id": 25,
-   "t_en": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
-   "x_en": "Controlled blast to dispose of lead azide risks releasing plumes of toxic chemicals in 100-mile radius The US army detonated the nation’s entire stockpile of the the bomb-making material lead azide in Iowa on Wednesday morning, despite an outpouring of public "
+   "lat": 21.73,
+   "lon": 114.63,
+   "place": "Гонконг",
+   "place_en": "Hong Kong",
+   "id": 26,
+   "t_en": "A renovation was meant to improve these Hong Kong homes - it ended in an blaze that killed 168",
+   "x_en": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice."
   },
   {
-   "t": "Япония усилит береговую охрану патрульными катерами и дронами для противодействия Китаю",
-   "x": "",
+   "t": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+   "x": "Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO, revealing that a plaque had been restored.",
    "r": "Азия",
-   "c": "Общее",
-   "imp": 60,
-   "ten": 57,
-   "ago": 1,
+   "c": "Наука",
+   "imp": 61,
+   "ten": 32,
+   "ago": 46,
    "s": [
-    "Nikkei Asia"
+    "CNBC",
+    "The Diplomat"
    ],
-   "u": "https://asia.nikkei.com/politics/defense/japan-to-bolster-coast-guard-with-patrol-boats-drones-to-counter-china",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F8%2F4%2F0%2F13480482-2-eng-GB%2Fa7e47378e764-photo_SXM2026112100001462.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
+   "u": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html",
+   "img": "https://images.thediplomat.com/v1/td-list-l-2/2026/11/thediplomat_2026-11-17-225520.jpg",
+   "img_src": "The Diplomat",
    "fresh": true,
-   "n": 1,
-   "lat": 37.11,
-   "lon": 139.74,
-   "place": "Япония",
-   "place_en": "Japan",
-   "id": 26,
-   "t_en": "Japan to bolster coast guard with patrol boats, drones to counter China",
-   "x_en": ""
+   "n": 2,
+   "lat": 34.24,
+   "lon": 103.41,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 27,
+   "t_en": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+   "x_en": "Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO, revealing that a plaque had been restored."
   },
   {
    "t": "Страны избегают открытой поддержки МУС, поскольку Трамп усиливает атаки",
@@ -856,7 +881,7 @@
    "lon": 4.47,
    "place": "Гаага",
    "place_en": "The Hague",
-   "id": 27,
+   "id": 28,
    "t_en": "Countries avoid open support for ICC as Trump ramps up attacks",
    "x_en": ""
   },
@@ -880,7 +905,7 @@
    "lon": 138.34,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 28,
+   "id": 29,
    "t_en": "Push to censure Japan minister threatens to stymie Takaichi's agenda",
    "x_en": ""
   },
@@ -904,135 +929,227 @@
    "lon": 4.53,
    "place": "Гаага",
    "place_en": "The Hague",
-   "id": 29,
+   "id": 30,
    "t_en": "ICC judge says sanctions 'overcompliance' aids US intimidation against court",
    "x_en": ""
   },
   {
-   "t": "Трое погибших и многие другие оказались в ловушке в шахте в Индонезии после сильного дождя",
-   "x": "Предполагается, что по меньшей мере 23 рабочих застряли внутри незаконной шахты с понедельника после того, как ее узкая шахта была затоплена.",
+   "t": "US deploys F-15EX jets to Okinawa in fighter-drone warfare push",
+   "x": "",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 60,
+   "ten": 57,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/defense/us-deploys-f-15ex-jets-to-okinawa-in-fighter-drone-warfare-push",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F5%2F6%2F0%2F13490656-1-eng-GB%2Ff0a1a5a5d800-20261125N-F15EX-fighter.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.53,
+   "lon": -97.72,
+   "place": "США",
+   "place_en": "United States",
+   "id": 31,
+   "t_en": "US deploys F-15EX jets to Okinawa in fighter-drone warfare push",
+   "x_en": ""
+  },
+  {
+   "t": "China widens graft crackdown, putting ex-officials, crypto in crosshairs",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 60,
+   "ten": 57,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/politics/china-widens-graft-crackdown-putting-ex-officials-crypto-in-crosshairs",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F9%2F8%2F0%2F13490891-1-eng-GB%2Fd28e2b5ddcca-20261125N-CPC-Plenum.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
+   "fresh": true,
+   "n": 1,
+   "lat": 35.37,
+   "lon": 101.61,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 32,
+   "t_en": "China widens graft crackdown, putting ex-officials, crypto in crosshairs",
+   "x_en": ""
+  },
+  {
+   "t": "(URGENT) BOK chief sees improvement in S. Korea's potential growth rate",
+   "x": "(END)",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 60,
+   "ten": 32,
+   "ago": 7,
+   "s": [
+    "Yonhap"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261126006000320",
+   "img": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 2,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 33,
+   "t_en": "(URGENT) BOK chief sees improvement in S. Korea's potential growth rate",
+   "x_en": "(END)"
+  },
+  {
+   "t": "(URGENT) Inflation expected to reach target inflation of 2 pct in 2028: BOK gov.",
+   "x": "(END)",
+   "r": "Мир",
+   "c": "Экономика",
+   "imp": 60,
+   "ten": 57,
+   "ago": 33,
+   "s": [
+    "Yonhap"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261126004900320",
+   "img": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 34,
+   "t_en": "(URGENT) Inflation expected to reach target inflation of 2 pct in 2028: BOK gov.",
+   "x_en": "(END)"
+  },
+  {
+   "t": "Norse Atlantic flights suspended after warning finances 'critical'",
+   "x": "Norse Atlantic suspended flights as it warned its financial position was \"critical.\" The airline is seeking short-term financing and exploring a potential takeover.",
    "r": "Мир",
    "c": "Общее",
    "imp": 60,
-   "ten": 51,
-   "ago": 196,
-   "s": [
-    "NYT",
-    "CNA",
-    "The Hindu"
-   ],
-   "u": "https://www.nytimes.com/2026/11/25/world/asia/indonesia-miners-trapped.html",
-   "img": "https://static01.nyt.com/images/2026/11/25/multimedia/25indonesia-mine-ztkg/25indonesia-mine-ztkg-mediumSquareAt3X.jpg",
-   "img_src": "NYT",
-   "fresh": false,
-   "n": 3,
-   "lat": -2.15,
-   "lon": 118.08,
-   "place": "Индонезия",
-   "place_en": "Indonesia",
-   "id": 30,
-   "t_en": "3 Dead and Many More Trapped in Indonesian Mine After Heavy Rainfall",
-   "x_en": "At least 23 workers are believed to have been stuck inside the illegal mine since Monday, after its narrow shaft flooded."
-  },
-  {
-   "t": "Швейцария вынуждена закрыть офис в Северной Корее из-за санкционной вражды",
-   "x": "Закрытие произошло после того, как Северная Корея осудила Швейцарию за добавление детского лагеря в свой санкционный список.",
-   "r": "Азия",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 57,
-   "ago": 215,
-   "s": [
-    "Al Jazeera",
-    "ABC News",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/International/wirestory_a39dbc92d195e69443ce66913a3dff7e_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 3,
-   "lat": 47.07,
-   "lon": 8.84,
-   "place": "Швейцария",
-   "place_en": "Switzerland",
-   "id": 31,
-   "t_en": "Switzerland forced to close office in North Korea over sanctions feud",
-   "x_en": "The closure came after North Korea condemned Switzerland for adding a children’s camp to its sanctions list."
-  },
-  {
-   "t": "Боевые действия на востоке Конго вынуждают рабочих, больных Эболой, эвакуироваться, что угрожает реагированию на вспышку",
-   "x": "Эскалация боевых действий на востоке Конго вынудила медицинских работников эвакуироваться и заблокировала дороги, необходимые для доставки больных Эболой.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 95,
-   "ago": 46,
-   "s": [
-    "ABC News"
-   ],
-   "u": "https://abcnews.com/International/wireStory/fighting-eastern-congo-forces-ebola-workers-evacuate-threatening-138449760",
-   "img": "https://s.abcnews.com/images/International/wirestory_ff1890d63ca7f3c3a8beeb127727e5cd_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": true,
-   "n": 1,
-   "lat": -2.97,
-   "lon": 22.96,
-   "place": "ДР Конго",
-   "place_en": "DR Congo",
-   "id": 32,
-   "t_en": "Fighting in eastern Congo forces Ebola workers to evacuate, threatening outbreak response",
-   "x_en": "Escalating fighting in eastern Congo has forced health workers to evacuate and blocked roads needed to reach Ebola patients"
-  },
-  {
-   "t": "Шесть ключевых вопросов, поднятых возвращением Дженсена Хуанга в Nvidia",
-   "x": "Когда Дженсен Хуанг возвращается в Nvidia, остаются вопросы относительно смены совета директоров, участия Трампа и будущего технологического гиганта.",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 59,
-   "ten": 43,
-   "ago": 74,
+   "ten": 48,
+   "ago": 69,
    "s": [
     "CNBC",
-    "The Hindu"
-   ],
-   "u": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
-   "img": "https://th-i.thgim.com/public/incoming/5byumo/article71740904.ece/alternates/LANDSCAPE_1200/2026-11-24T221933Z_687132274_RC279IA88NC8_RTRMADP_3_NVIDIA-CEO-CONGRESS.JPG",
-   "img_src": "The Hindu",
-   "fresh": false,
-   "n": 3,
-   "lat": 38.58,
-   "lon": -99.49,
-   "place": "США",
-   "place_en": "United States",
-   "id": 33,
-   "t_en": "Six key questions raised by Jensen Huang's return to Nvidia",
-   "x_en": "As Jensen Huang returns to Nvidia, questions remained around the board's reversal, Trump's involvement and the tech giant's future."
-  },
-  {
-   "t": "Парламент Израиля продвигает законопроект, который может помешать Нетаньяху сформировать правительство",
-   "x": "Предлагаемая поправка не позволит любому, кому предъявлено уголовное обвинение в «бесчестии», сформировать правительство. Премьер-министр ведет расследование трех коррупционных дел.",
-   "r": "Ближний Восток",
-   "c": "Политика",
-   "imp": 59,
-   "ten": 48,
-   "ago": 78,
-   "s": [
-    "Washington Post",
     "Reuters"
    ],
-   "u": "https://www.washingtonpost.com/world/2026/11/25/israeli-parliament-advances-bill-that-could-block-netanyahu-forming-government/",
-   "img": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Farc-anglerfish-washpost-prod-washpost.s3.amazonaws.com%2Fpublic%2FX63BKZNOOIXVELHCOGVVBITXSU_size-normalized.jpg&w=1200",
-   "img_src": "Washington Post (og)",
+   "u": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+   "img": "https://image.cnbcfm.com/api/v1/image/108559107-1795599475604-gettyimages-1636812756-230831b6_lax_planes_b-gr_13.jpeg?v=1795599522&w=1920&h=1080",
+   "img_src": "CNBC (og)",
    "fresh": false,
    "n": 2,
-   "lat": 31.65,
-   "lon": 35.36,
-   "place": "Израиль",
-   "place_en": "Israel",
-   "id": 34,
-   "t_en": "Israeli parliament advances bill that could block Netanyahu from forming government",
-   "x_en": "The proposed amendment would prevent anyone facing criminal charges involving “dishonor” from forming a government. The prime minister is fighting three corruption cases."
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 35,
+   "t_en": "Norse Atlantic flights suspended after warning finances 'critical'",
+   "x_en": "Norse Atlantic suspended flights as it warned its financial position was \"critical.\" The airline is seeking short-term financing and exploring a potential takeover."
+  },
+  {
+   "t": "Nigeria seizes $220 million worth of meth, arrests 5 Mexican suspects in major bust",
+   "x": "Nigeria’s anti-drug agency says it seized at least $220 million worth of methamphetamine and arrested five Mexican suspects in a major operation in the African country's southeast",
+   "r": "Африка",
+   "c": "Общее",
+   "imp": 60,
+   "ten": 52,
+   "ago": 81,
+   "s": [
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://abcnews.com/International/wireStory/nigeria-seizes-220-million-worth-meth-arrests-5-138448484",
+   "img": "https://s.abcnews.com/images/International/wirestory_db49b4b7cc43247fd65a49cb96579d7e_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 2,
+   "lat": 9.2,
+   "lon": 7.42,
+   "place": "Нигерия",
+   "place_en": "Nigeria",
+   "id": 36,
+   "t_en": "Nigeria seizes $220 million worth of meth, arrests 5 Mexican suspects in major bust",
+   "x_en": "Nigeria’s anti-drug agency says it seized at least $220 million worth of methamphetamine and arrested five Mexican suspects in a major operation in the African country's southeast"
+  },
+  {
+   "t": "(2nd LD) Supreme Court confirms ex-President Yoon's acquittal in perjury case",
+   "x": "SEOUL, Nov. 26 (Yonhap) -- The Supreme Court on Thursday confirmed former Presid...",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 59,
+   "ten": 40,
+   "ago": 20,
+   "s": [
+    "Yonhap"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261126001552315",
+   "img": "https://img.yna.co.kr/etc/inner/EN/2026/11/26/AEN20261126001552315_01_i_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 4,
+   "lat": 37.5,
+   "lon": 127.25,
+   "place": "Сеул",
+   "place_en": "Seoul",
+   "id": 37,
+   "t_en": "(2nd LD) Supreme Court confirms ex-President Yoon's acquittal in perjury case",
+   "x_en": "SEOUL, Nov. 26 (Yonhap) -- The Supreme Court on Thursday confirmed former Presid..."
+  },
+  {
+   "t": "(URGENT) S. Korea's nominal GDP expected to top 3,000 tln won in 2026, 700 tln won from chip sector: BOK gov.",
+   "x": "(END)",
+   "r": "Азия",
+   "c": "Экономика",
+   "imp": 59,
+   "ten": 40,
+   "ago": 23,
+   "s": [
+    "Yonhap"
+   ],
+   "u": "https://en.yna.co.kr/view/AEN20261126005300320",
+   "img": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+   "img_src": "Yonhap",
+   "fresh": true,
+   "n": 1,
+   "lat": null,
+   "lon": null,
+   "place": "",
+   "place_en": "",
+   "id": 38,
+   "t_en": "(URGENT) S. Korea's nominal GDP expected to top 3,000 tln won in 2026, 700 tln won from chip sector: BOK gov.",
+   "x_en": "(END)"
+  },
+  {
+   "t": "U.S. famine monitor to halt reporting as funding shortfall hits staff, sources say",
+   "x": "More than half the field workers at the Famine Early Warning Systems Network will lose their jobs by the end of the year.",
+   "r": "Америка",
+   "c": "Общее",
+   "imp": 59,
+   "ten": 82,
+   "ago": 29,
+   "s": [
+    "Japan Times"
+   ],
+   "u": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/us-famine-monitor-funding-staff/",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/26/thumbs/400x400/576067.jpg",
+   "img_src": "Japan Times",
+   "fresh": true,
+   "n": 1,
+   "lat": 39.31,
+   "lon": -99.1,
+   "place": "США",
+   "place_en": "United States",
+   "id": 39,
+   "t_en": "U.S. famine monitor to halt reporting as funding shortfall hits staff, sources say",
+   "x_en": "More than half the field workers at the Famine Early Warning Systems Network will lose their jobs by the end of the year."
   },
   {
    "t": "Производство автомобилей в Таиланде упало до шестилетнего минимума после наводнения",
@@ -1054,131 +1171,8 @@
    "lon": 100.19,
    "place": "Таиланд",
    "place_en": "Thailand",
-   "id": 35,
-   "t_en": "Thailand vehicle production hits 6-year low after flooding",
-   "x_en": ""
-  },
-  {
-   "t": "Малайзия оказалась в затруднительном положении из-за рохинджа на фоне негативной реакции и спора о депортации",
-   "x": "",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 48,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/spotlight/immigration/malaysia-caught-in-bind-over-rohingya-amid-backlash-deportation-dispute",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F5%2F0%2F3%2F13423057-1-eng-GB%2F517962bc4057-_MG_5504-copy.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 4.54,
-   "lon": 101.69,
-   "place": "Малайзия",
-   "place_en": "Malaysia",
-   "id": 36,
-   "t_en": "Malaysia caught in bind over Rohingya amid backlash, deportation dispute",
-   "x_en": ""
-  },
-  {
-   "t": "Десятки человек погибли в результате пожара в автомобиле в Египте",
-   "x": "По меньшей мере 30 человек погибли и 15 получили ранения в результате возгорания автомобиля с нефтепродуктами в Египте.",
-   "r": "Африка",
-   "c": "Конфликты",
-   "imp": 58,
-   "ten": 91,
-   "ago": 52,
-   "s": [
-    "Al Jazeera"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795635666.jpg?resize=1920%2C1080&quality=80",
-   "img_src": "Al Jazeera (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 27.92,
-   "lon": 31.07,
-   "place": "Египет",
-   "place_en": "Egypt",
-   "id": 37,
-   "t_en": "Dozens killed in Egypt vehicle fire",
-   "x_en": "At least 30 have been ⁠killed and ⁠15 injured when a vehicle carrying ‌petroleum products caught fire in Egypt."
-  },
-  {
-   "t": "США предоставили SpaceX разрешение на строительство 1 миллиона космических центров обработки данных",
-   "x": "Илон Маск приветствует одобрение FCC проекта SpaceX Starmind как «большое достояние для Америки и всего мира».",
-   "r": "Америка",
-   "c": "Наука",
-   "imp": 58,
-   "ten": 40,
-   "ago": 80,
-   "s": [
-    "Al Jazeera",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7310f6-1785925878.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
-   "fresh": false,
-   "n": 2,
-   "lat": 38.89,
-   "lon": -98.12,
-   "place": "США",
-   "place_en": "United States",
-   "id": 38,
-   "t_en": "US grants SpaceX approval for 1 million space data centres",
-   "x_en": "Elon Musk hails FCC's approval of SpaceX's Starmind project as 'a great asset to America and the world.'"
-  },
-  {
-   "t": "Дженнифер Баррето из Пуэрто-Рико стала первой замужней женщиной, выигравшей Мисс Вселенная.",
-   "x": "Дженнифер Баррето из Пуэрто-Рико выиграла конкурс «Мисс Вселенная 2026» в Сан-Хуане, став первой замужней победительницей конкурса и матерью с 2023 года.",
-   "r": "Мир",
-   "c": "Общее",
-   "imp": 58,
-   "ten": 32,
-   "ago": 193,
-   "s": [
-    "Euronews",
-    "ABC News",
-    "AP"
-   ],
-   "u": "https://www.euronews.com/video/2026/11/25/puerto-ricos-jennifer-barreto-becomes-first-married-woman-to-win-miss-universe",
-   "img": "https://images.euronews.com/articles/stories/10/00/78/39/696x392_cmsv2_70cc8fa8-2d1a-5853-b3b3-609768f93ec9-10007839.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 3,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
-   "id": 39,
-   "t_en": "Puerto Rico's Jennifer Barreto becomes first married woman to win Miss Universe",
-   "x_en": "Puerto Rico's Jennifer Barreto wins Miss Universe 2026 in San Juan, becoming the pageant's first married winner and mother since 2023."
-  },
-  {
-   "t": "ВВП Сингапура вырос на 6,1% в третьем квартале, поскольку спрос на ИИ остается высоким",
-   "x": "",
-   "r": "Мир",
-   "c": "Наука",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/economy/singapore-gdp-grows-6.1-in-q3-as-ai-demand-stays-strong",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F0%2F6%2F6%2F13476600-2-eng-GB%2F84d441c13069-2025-02-20T054143Z_1504036862_RC21YCA8F798_RTRMADP_3_TOTW-TRADE.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 1.85,
-   "lon": 104.42,
-   "place": "Сингапур",
-   "place_en": "Singapore",
    "id": 40,
-   "t_en": "Singapore GDP grows 6.1% in Q3 as AI demand stays strong",
+   "t_en": "Thailand vehicle production hits 6-year low after flooding",
    "x_en": ""
   }
  ],
@@ -1194,139 +1188,143 @@
   {
    "t": 1795638800850,
    "v": 51
+  },
+  {
+   "t": 1795662101364,
+   "v": 51
   }
  ],
  "timeline": [
   {
-   "t": 1795552400850,
-   "v": 55,
-   "n": 25
-  },
-  {
-   "t": 1795556000850,
-   "v": 51,
-   "n": 27
-  },
-  {
-   "t": 1795559600850,
-   "v": 48,
-   "n": 28
-  },
-  {
-   "t": 1795563200850,
-   "v": 53,
-   "n": 29
-  },
-  {
-   "t": 1795566800850,
-   "v": 54,
+   "t": 1795575701364,
+   "v": 47,
    "n": 26
   },
   {
-   "t": 1795570400850,
-   "v": 48,
-   "n": 36
-  },
-  {
-   "t": 1795574000850,
-   "v": 42,
-   "n": 37
-  },
-  {
-   "t": 1795577600850,
-   "v": 44,
-   "n": 53
-  },
-  {
-   "t": 1795581200850,
-   "v": 44,
-   "n": 60
-  },
-  {
-   "t": 1795584800850,
-   "v": 46,
-   "n": 70
-  },
-  {
-   "t": 1795588400850,
-   "v": 46,
-   "n": 65
-  },
-  {
-   "t": 1795592000850,
-   "v": 46,
-   "n": 62
-  },
-  {
-   "t": 1795595600850,
+   "t": 1795579301364,
    "v": 47,
-   "n": 53
+   "n": 34
   },
   {
-   "t": 1795599200850,
-   "v": 47,
-   "n": 53
+   "t": 1795582901364,
+   "v": 50,
+   "n": 41
   },
   {
-   "t": 1795602800850,
+   "t": 1795586501364,
+   "v": 54,
+   "n": 40
+  },
+  {
+   "t": 1795590101364,
    "v": 53,
+   "n": 39
+  },
+  {
+   "t": 1795593701364,
+   "v": 51,
+   "n": 33
+  },
+  {
+   "t": 1795597301364,
+   "v": 47,
+   "n": 39
+  },
+  {
+   "t": 1795600901364,
+   "v": 49,
+   "n": 40
+  },
+  {
+   "t": 1795604501364,
+   "v": 52,
    "n": 51
   },
   {
-   "t": 1795606400850,
-   "v": 52,
-   "n": 47
+   "t": 1795608101364,
+   "v": 54,
+   "n": 46
   },
   {
-   "t": 1795610000850,
+   "t": 1795611701364,
    "v": 56,
-   "n": 52
+   "n": 51
   },
   {
-   "t": 1795613600850,
-   "v": 55,
-   "n": 73
+   "t": 1795615301364,
+   "v": 54,
+   "n": 45
   },
   {
-   "t": 1795617200850,
-   "v": 53,
-   "n": 98
-  },
-  {
-   "t": 1795620800850,
+   "t": 1795618901364,
    "v": 52,
-   "n": 129
+   "n": 59
   },
   {
-   "t": 1795624400850,
+   "t": 1795622501364,
+   "v": 53,
+   "n": 71
+  },
+  {
+   "t": 1795626101364,
+   "v": 53,
+   "n": 77
+  },
+  {
+   "t": 1795629701364,
+   "v": 54,
+   "n": 79
+  },
+  {
+   "t": 1795633301364,
+   "v": 53,
+   "n": 79
+  },
+  {
+   "t": 1795636901364,
+   "v": 52,
+   "n": 92
+  },
+  {
+   "t": 1795640501364,
    "v": 51,
-   "n": 134
+   "n": 99
   },
   {
-   "t": 1795628000850,
-   "v": 53,
-   "n": 144
+   "t": 1795644101364,
+   "v": 48,
+   "n": 99
   },
   {
-   "t": 1795631600850,
-   "v": 52,
+   "t": 1795647701364,
+   "v": 48,
+   "n": 105
+  },
+  {
+   "t": 1795651301364,
+   "v": 47,
+   "n": 116
+  },
+  {
+   "t": 1795654901364,
+   "v": 46,
    "n": 140
   },
   {
-   "t": 1795635200850,
-   "v": 48,
-   "n": 157
+   "t": 1795658501364,
+   "v": 45,
+   "n": 171
   },
   {
-   "t": 1795638800850,
-   "v": 47,
-   "n": 110
+   "t": 1795662101364,
+   "v": 43,
+   "n": 124
   }
  ],
  "feeds": [
   {
    "n": "BBC",
-   "items": 28
+   "items": 29
   },
   {
    "n": "Al Jazeera",
@@ -1334,7 +1332,7 @@
   },
   {
    "n": "DW",
-   "items": 11
+   "items": 6
   },
   {
    "n": "France 24",
@@ -1346,31 +1344,31 @@
   },
   {
    "n": "Sky News",
-   "items": 7
+   "items": 6
   },
   {
    "n": "NPR",
-   "items": 10
+   "items": 6
   },
   {
    "n": "UN News",
-   "items": 12
+   "items": 6
   },
   {
    "n": "CNBC",
-   "items": 28
+   "items": 30
   },
   {
    "n": "Euronews",
-   "items": 40
+   "items": 26
   },
   {
    "n": "NYT",
-   "items": 39
+   "items": 36
   },
   {
    "n": "Washington Post",
-   "items": 13
+   "items": 14
   },
   {
    "n": "CBS News",
@@ -1378,7 +1376,7 @@
   },
   {
    "n": "ABC News",
-   "items": 25
+   "items": 22
   },
   {
    "n": "CNN",
@@ -1390,11 +1388,11 @@
   },
   {
    "n": "ABC Australia",
-   "items": 10
+   "items": 19
   },
   {
    "n": "CNA",
-   "items": 17
+   "items": 19
   },
   {
    "n": "Times of Israel",
@@ -1410,11 +1408,11 @@
   },
   {
    "n": "Africanews",
-   "items": 36
+   "items": 33
   },
   {
    "n": "Kyiv Independent",
-   "items": 15
+   "items": 14
   },
   {
    "n": "Yonhap",
@@ -1426,7 +1424,7 @@
   },
   {
    "n": "The Diplomat",
-   "items": 9
+   "items": 18
   },
   {
    "n": "Dawn",

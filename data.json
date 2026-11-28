@@ -1,18 +1,18 @@
 {
- "updated": 1795837387342,
+ "updated": 1795868725914,
  "demo": false,
  "total_articles": 631,
- "second_delta": 1,
+ "second_delta": 0,
  "second_label": "Сглаженный индекс",
  "second_note": "среднее за последние 3 часа",
  "sources": [
   {
    "n": "BBC",
-   "v": 46
+   "v": 49
   },
   {
    "n": "Al Jazeera",
-   "v": 56
+   "v": 51
   },
   {
    "n": "DW",
@@ -20,19 +20,23 @@
   },
   {
    "n": "France 24",
-   "v": 52
+   "v": 51
   },
   {
    "n": "The Guardian",
-   "v": 48
+   "v": 46
   },
   {
    "n": "Sky News",
-   "v": 65
+   "v": 73
   },
   {
    "n": "NPR",
-   "v": 37
+   "v": 57
+  },
+  {
+   "n": "UN News",
+   "v": 44
   },
   {
    "n": "CNBC",
@@ -44,19 +48,19 @@
   },
   {
    "n": "NYT",
-   "v": 50
+   "v": 48
   },
   {
    "n": "Washington Post",
-   "v": 44
+   "v": 41
   },
   {
    "n": "CBS News",
-   "v": 64
+   "v": 57
   },
   {
    "n": "ABC News",
-   "v": 51
+   "v": 53
   },
   {
    "n": "CNN",
@@ -64,7 +68,7 @@
   },
   {
    "n": "Fox News",
-   "v": 72
+   "v": 66
   },
   {
    "n": "ABC Australia",
@@ -72,19 +76,23 @@
   },
   {
    "n": "CNA",
-   "v": 52
+   "v": 50
+  },
+  {
+   "n": "Middle East Eye",
+   "v": 61
   },
   {
    "n": "Africanews",
-   "v": 51
+   "v": 50
   },
   {
    "n": "Kyiv Independent",
-   "v": 76
+   "v": 78
   },
   {
    "n": "Yonhap",
-   "v": 41
+   "v": 40
   },
   {
    "n": "Nikkei Asia",
@@ -92,23 +100,23 @@
   },
   {
    "n": "The Diplomat",
-   "v": 49
+   "v": 53
   },
   {
    "n": "Dawn",
-   "v": 43
+   "v": 53
   },
   {
    "n": "Times of India",
-   "v": 42
+   "v": 37
   },
   {
    "n": "The Hindu",
-   "v": 52
+   "v": 53
   },
   {
    "n": "Politico EU",
-   "v": 36
+   "v": 35
   },
   {
    "n": "Japan Times",
@@ -116,11 +124,11 @@
   },
   {
    "n": "Reuters",
-   "v": 42
+   "v": 44
   },
   {
    "n": "AP",
-   "v": 41
+   "v": 43
   }
  ],
  "regions": [
@@ -130,15 +138,15 @@
   },
   {
    "n": "Ближний Восток",
-   "v": 64
+   "v": 65
   },
   {
    "n": "Азия",
-   "v": 44
+   "v": 46
   },
   {
    "n": "Африка",
-   "v": 57
+   "v": 52
   },
   {
    "n": "Америка",
@@ -147,251 +155,251 @@
  ],
  "events": [
   {
-   "t": "Taiwan votes in local elections to choose mayors, other leaders",
-   "x": "Key mayoral race in Taipei, a stronghold of the opposition Kuomintang, tests the governing Democratic Progressive Party.",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 91,
-   "ten": 40,
-   "ago": 1,
+   "t": "Два сотрудника погибли в результате удара Израиля по медицинской клинике в секторе Газа, сообщает MSF",
+   "x": "Израильские военные заявляют, что атака была направлена ​​против «террористов ХАМАС», что было осуждено Всемирной организацией здравоохранения.",
+   "r": "Ближний Восток",
+   "c": "Конфликты",
+   "imp": 97,
+   "ten": 93,
+   "ago": 11,
    "s": [
-    "Al Jazeera",
-    "Nikkei Asia",
+    "BBC",
+    "France 24",
+    "The Guardian",
+    "Sky News",
+    "Middle East Eye",
+    "Dawn",
     "The Hindu",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
-   "img": "https://th-i.thgim.com/public/incoming/mupmcb/article71753509.ece/alternates/LANDSCAPE_1200/Taiwan_Election_73887.jpg",
-   "img_src": "The Hindu",
+   "u": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9f48/live/c26c94a0-eb21-11f1-99a1-253766e7ad8b.jpg",
+   "img_src": "BBC",
    "fresh": true,
-   "n": 4,
-   "lat": 23.91,
-   "lon": 120.01,
-   "place": "Тайвань",
-   "place_en": "Taiwan",
+   "n": 8,
+   "lat": 31.35,
+   "lon": 34.35,
+   "place": "Газа",
+   "place_en": "Gaza",
    "id": 1,
-   "t_en": "Taiwan votes in local elections to choose mayors, other leaders",
-   "x_en": "Key mayoral race in Taipei, a stronghold of the opposition Kuomintang, tests the governing Democratic Progressive Party."
+   "t_en": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+   "x_en": "The Israeli military says it targeted \"Hamas terrorists\" in the strike which has been condemned by the World Health Organization."
   },
   {
-   "t": "OpenAI countersues Apple over trade secrets as AI race heats up",
-   "x": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition.",
+   "t": "В результате взрыва в Афганистане погибли 10 студентов и более 100 получили ранения, сообщил чиновник",
+   "x": "Представитель министерства внутренних дел Афганистана заявил, что взрыв произошел из-за неосторожности на расположенном неподалеку складе взрывчатых веществ.",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 93,
+   "ten": 86,
+   "ago": 31,
+   "s": [
+    "BBC",
+    "Al Jazeera",
+    "NPR",
+    "ABC News",
+    "Dawn",
+    "The Hindu",
+    "Reuters",
+    "AP"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2bd9/live/19b5f490-eb1d-11f1-8743-3f686b14075c.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 8,
+   "lat": 33.77,
+   "lon": 66.26,
+   "place": "Афганистан",
+   "place_en": "Afghanistan",
+   "id": 2,
+   "t_en": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+   "x_en": "A spokesman for Afghanistan's interior ministry says the blast was caused by carelessness at an explosives depot nearby."
+  },
+  {
+   "t": "OpenAI подает встречный иск против Apple по обвинению в краже коммерческой тайны",
+   "x": "Разработчик ChatGPT утверждает, что технологический гигант Apple украл коммерческую тайну через бывшего сотрудника.",
    "r": "Мир",
    "c": "Экономика",
    "imp": 84,
-   "ten": 48,
-   "ago": 59,
+   "ten": 40,
+   "ago": 50,
    "s": [
-    "Al Jazeera",
+    "BBC",
     "The Guardian",
     "CNBC",
-    "Times of India",
     "Reuters"
    ],
-   "u": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
-   "img": "https://i.guim.co.uk/img/media/548f2774750f067b58b8293df2904e3bc1888919/833_0_4167_3335/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=9df20e29d49900a1a75a76db6c447047",
-   "img_src": "The Guardian",
+   "u": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f0d/live/51e85220-eb10-11f1-874e-81d351dd336c.jpg",
+   "img_src": "BBC",
    "fresh": true,
-   "n": 5,
+   "n": 4,
    "lat": null,
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 2,
-   "t_en": "OpenAI countersues Apple over trade secrets as AI race heats up",
-   "x_en": "Tensions between the two tech companies have escalated as intensifying race to develop AI products fuels competition."
-  },
-  {
-   "t": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-   "x": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 79,
-   "ten": 79,
-   "ago": 155,
-   "s": [
-    "Al Jazeera",
-    "Sky News",
-    "Japan Times",
-    "Reuters"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
-   "img": "https://e3.365dm.com/26/11/1920x1080/skynews-hamas-gaza_7418335.jpg?20261128004513",
-   "img_src": "Sky News",
-   "fresh": false,
-   "n": 4,
-   "lat": 31.21,
-   "lon": 34.37,
-   "place": "Газа",
-   "place_en": "Gaza",
    "id": 3,
-   "t_en": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
-   "x_en": "Hamas leader Khalil al-Hayya's last surviving son Izzeldeen survived an Israeli assassination attempt on Friday."
+   "t_en": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+   "x_en": "The ChatGPT-maker alleges that tech giant Apple stole trade secrets through a former employee."
   },
   {
-   "t": "US disables ship attempting to breach Iran blockade",
-   "x": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop.",
-   "r": "Америка",
-   "c": "Конфликты",
-   "imp": 77,
-   "ten": 68,
-   "ago": 152,
-   "s": [
-    "Al Jazeera",
-    "CBS News",
-    "Fox News",
-    "Japan Times",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
-   "img": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/hormuz_ship.jpg?ve=1&tl=1",
-   "img_src": "Fox News",
-   "fresh": false,
-   "n": 6,
-   "lat": 38.97,
-   "lon": -99.77,
-   "place": "США",
-   "place_en": "United States",
-   "id": 4,
-   "t_en": "US disables ship attempting to breach Iran blockade",
-   "x_en": "The US military says it disabled a commercial ship after it left an Iranian port and ignored warnings to stop."
-  },
-  {
-   "t": "Polls open across Taiwan in closely watched local elections",
-   "x": "АП Новости",
+   "t": "Угроза со стороны Китая нависла над местными выборами на Тайване",
+   "x": "Тайваньские чиновники выражают тревогу по поводу вмешательства Китая в выборы, которые определят судьбу правящей партии. Тайваньские избиратели пойдут на выборы в субботу на тщательно наблюдаемых местных выборах, которые определят судьбу правящей Демократической прогрессивной партии.",
    "r": "Азия",
    "c": "Политика",
-   "imp": 76,
+   "imp": 81,
+   "ten": 46,
+   "ago": 1,
+   "s": [
+    "The Guardian",
+    "Nikkei Asia",
+    "Japan Times"
+   ],
+   "u": "https://www.theguardian.com/world/2026/nov/27/threat-from-china-looms-large-over-taiwan-local-elections",
+   "img": "https://i.guim.co.uk/img/media/46917c80b05c42e1fe661080ca09495a31ff79a7/387_0_3750_3000/master/3750.jpg?width=700&quality=85&auto=format&fit=max&s=e39b2fbe826a4bbdf674e9714a48cde8",
+   "img_src": "The Guardian",
+   "fresh": true,
+   "n": 3,
+   "lat": 35.39,
+   "lon": 102.69,
+   "place": "Китай",
+   "place_en": "China",
+   "id": 4,
+   "t_en": "Threat from China looms large over Taiwan’s local elections",
+   "x_en": "Taiwanese officials raise alarm over interference by China in elections that will shape fortunes of ruling party Taiwanese voters go to the polls on Saturday in closely watched local elections that will shape the fortunes of the ruling Democratic Progressive p"
+  },
+  {
+   "t": "Предложение Аргентины остановить добычу нефти на Фолклендских островах отклонено",
+   "x": "Совместное предприятие британско-израильских компаний должно начать разведку нефти и газа, но Аргентина попыталась заблокировать его в рамках своих претензий на суверенитет.",
+   "r": "Америка",
+   "c": "Экономика",
+   "imp": 78,
    "ten": 40,
-   "ago": 29,
+   "ago": 10,
+   "s": [
+    "BBC",
+    "The Guardian",
+    "Sky News"
+   ],
+   "u": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1615/live/b6e6bd30-eb1d-11f1-8743-3f686b14075c.jpg",
+   "img_src": "BBC",
+   "fresh": true,
+   "n": 3,
+   "lat": -34.84,
+   "lon": -64.61,
+   "place": "Аргентина",
+   "place_en": "Argentina",
+   "id": 5,
+   "t_en": "Argentina's bid to stop Falkland Islands oil drilling rejected",
+   "x_en": "A joint venture between UK-Israeli companies is set to start exploring for oil and gas, but Argentina sought to block it as part of its claim to sovereignty."
+  },
+  {
+   "t": "Число погибших в результате обрушения здания в Пакистане возросло до 8, около 10 пропали без вести",
+   "x": "Число погибших в результате обрушения строящегося шестиэтажного дома на юге Пакистана возросло до восьми",
+   "r": "Азия",
+   "c": "Конфликты",
+   "imp": 78,
+   "ten": 85,
+   "ago": 62,
    "s": [
     "ABC News",
-    "Japan Times",
-    "AP"
+    "CNA",
+    "Dawn"
    ],
-   "u": "https://abcnews.com/International/wireStory/taiwan-holds-elections-choose-mayors-local-leaders-138489345",
-   "img": "https://s.abcnews.com/images/International/wirestory_a7e3622548f69a41da3e1ec6ce9c9f19_16x9_1600.jpg",
+   "u": "https://abcnews.com/International/wireStory/death-toll-pakistan-building-collapse-rises-8-10-138480840",
+   "img": "https://s.abcnews.com/images/International/wirestory_933e70b96f643eff9964b1001d6643e4_16x9_1600.jpg",
+   "img_src": "ABC News",
+   "fresh": false,
+   "n": 3,
+   "lat": 29.79,
+   "lon": 69.61,
+   "place": "Пакистан",
+   "place_en": "Pakistan",
+   "id": 6,
+   "t_en": "Death toll in Pakistan building collapse rises to 8 with about 10 missing",
+   "x_en": "The death toll from the collapse of a six-story building under construction in southern Pakistan has risen to eight"
+  },
+  {
+   "t": "Сотрудник ООН Альбанезе покинул аэропорт Коста-Рики после приговора Конституционного суда",
+   "x": "Альбанезе покидает аэропорт Коста-Рики, где она содержалась, после того как суд постановил освободить ее из помещения.",
+   "r": "Ближний Восток",
+   "c": "Политика",
+   "imp": 77,
+   "ten": 37,
+   "ago": 16,
+   "s": [
+    "Al Jazeera",
+    "ABC News",
+    "Middle East Eye"
+   ],
+   "u": "https://www.aljazeera.com/news/2026/11/28/uns-albanese-leaves-costa-rica-airport-after-constitutional-court-verdict?traffic_source=rss",
+   "img": "https://s.abcnews.com/images/US/wirestory_63323d8a7852bc461372a321aaf0fb58_16x9_1600.jpg",
    "img_src": "ABC News",
    "fresh": true,
    "n": 3,
-   "lat": 22.92,
-   "lon": 119.99,
-   "place": "Тайвань",
-   "place_en": "Taiwan",
-   "id": 5,
-   "t_en": "Polls open across Taiwan in closely watched local elections",
-   "x_en": "AP News"
-  },
-  {
-   "t": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
-   "x": "Italian Foreign Minister Antonio Tajani says the drone behind the deadly Kuwait strike was made in Iran.",
-   "r": "Ближний Восток",
-   "c": "Конфликты",
-   "imp": 76,
-   "ten": 93,
-   "ago": 223,
-   "s": [
-    "Al Jazeera",
-    "CNBC",
-    "Euronews",
-    "NYT",
-    "CBS News",
-    "The Hindu"
-   ],
-   "u": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
-   "img": "https://images.euronews.com/articles/stories/10/01/04/45/696x392_cmsv2_d2f2807d-6cfc-5a6c-91cf-c5d92d32bdd8-10010445.jpg",
-   "img_src": "Euronews",
-   "fresh": false,
-   "n": 6,
-   "lat": 32.93,
-   "lon": 53.3,
-   "place": "Иран",
-   "place_en": "Iran",
-   "id": 6,
-   "t_en": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
-   "x_en": "Italian Foreign Minister Antonio Tajani says the drone behind the deadly Kuwait strike was made in Iran."
-  },
-  {
-   "t": "Princess of Wales documentary Heal charts ‘pilgrimage’ after cancer treatment",
-   "x": "BBC film follows Catherine as she undertakes Three Peaks challenge to search for what life can be post-chemotherapy On the day the Princess of Wales undertook the Three Peaks challenge, there was rain, hill fog and, finally, watery June sunshine. It is hard to",
-   "r": "Европа",
-   "c": "Наука",
-   "imp": 75,
-   "ten": 36,
-   "ago": 128,
-   "s": [
-    "The Guardian",
-    "NYT",
-    "CBS News",
-    "Reuters"
-   ],
-   "u": "https://www.theguardian.com/uk-news/2026/nov/27/catherine-princess-of-wales-heal-documentary-cancer",
-   "img": "https://i.guim.co.uk/img/media/a11a20908b66f136ae3b496074b25217cbc0b583/180_0_2700_2160/master/2700.jpg?width=700&quality=85&auto=format&fit=max&s=7df980606473477f0834f0baa982a8c8",
-   "img_src": "The Guardian",
-   "fresh": false,
-   "n": 4,
-   "lat": 54.36,
-   "lon": -2.85,
-   "place": "Великобритания",
-   "place_en": "United Kingdom",
+   "lat": 10.72,
+   "lon": -83.22,
+   "place": "Коста-Рика",
+   "place_en": "Costa Rica",
    "id": 7,
-   "t_en": "Princess of Wales documentary Heal charts ‘pilgrimage’ after cancer treatment",
-   "x_en": "BBC film follows Catherine as she undertakes Three Peaks challenge to search for what life can be post-chemotherapy On the day the Princess of Wales undertook the Three Peaks challenge, there was rain, hill fog and, finally, watery June sunshine. It is hard to"
+   "t_en": "UN’s Albanese leaves Costa Rica airport after constitutional court verdict",
+   "x_en": "Albanese leaves the Costa Rican airport where she has been held after the court orders her to be released from the premises."
   },
   {
-   "t": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
-   "x": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
-   "r": "Европа",
-   "c": "Политика",
-   "imp": 74,
-   "ten": 46,
-   "ago": 155,
+   "t": "Лидер кенийского культа Судного дня осужден за еще 123 смерти",
+   "x": "Пол Маккензи признан виновным в убийстве своих последователей спустя несколько недель после того, как его заключили в тюрьму за массовое убийство детей.",
+   "r": "Африка",
+   "c": "Общее",
+   "imp": 76,
+   "ten": 55,
+   "ago": 146,
    "s": [
     "BBC",
-    "CBS News",
-    "ABC News",
-    "The Hindu"
+    "Al Jazeera",
+    "Africanews",
+    "The Hindu",
+    "AP"
    ],
-   "u": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1e73/live/90642570-ea33-11f1-99b6-a35a62fa4264.jpg",
+   "u": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
    "img_src": "BBC",
    "fresh": false,
-   "n": 4,
-   "lat": 49.46,
-   "lon": 31.07,
-   "place": "Украина",
-   "place_en": "Ukraine",
+   "n": 5,
+   "lat": 0.51,
+   "lon": 37.92,
+   "place": "Кения",
+   "place_en": "Kenya",
    "id": 8,
-   "t_en": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
-   "x_en": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend."
+   "t_en": "Kenyan doomsday cult leader convicted over further 123 deaths",
+   "x_en": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children."
   },
   {
-   "t": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
-   "x": "The intrusion was discovered within the past month or so during work to upgrade the system, people familiar with the matter told Reuters.",
-   "r": "Америка",
-   "c": "Общее",
-   "imp": 73,
-   "ten": 37,
-   "ago": 152,
+   "t": "Документальный фильм принцессы Екатерины «Исцеление» о раке: 3 вывода",
+   "x": "«Исцеление», 30-минутный авторизованный документальный фильм, выпущенный на этой неделе, дает представление о выздоровлении Кэтрин после того, как ей поставили диагноз рака в 2024 году и начали лечение.",
+   "r": "Европа",
+   "c": "Наука",
+   "imp": 71,
+   "ten": 34,
+   "ago": 59,
    "s": [
-    "CNBC",
-    "Dawn",
-    "The Hindu",
-    "Japan Times",
+    "NYT",
+    "CBS News",
     "Reuters"
    ],
-   "u": "https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html",
-   "img": "https://i.dawn.com/large/2026/11/2716171212f81e7.webp",
-   "img_src": "Dawn",
-   "fresh": false,
-   "n": 5,
-   "lat": 39.96,
-   "lon": -98.32,
-   "place": "США",
-   "place_en": "United States",
+   "u": "https://www.nytimes.com/2026/11/27/world/europe/princess-catherine-kate-heal-cancer-documentary.html",
+   "img": "https://static01.nyt.com/images/2026/11/27/multimedia/27int-uk-royals-catherine-cancer--pkgv/27int-uk-royals-catherine-cancer--pkgv-mediumSquareAt3X.jpg",
+   "img_src": "NYT",
+   "fresh": true,
+   "n": 3,
+   "lat": 54.23,
+   "lon": -3.35,
+   "place": "Великобритания",
+   "place_en": "United Kingdom",
    "id": 9,
-   "t_en": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
-   "x_en": "The intrusion was discovered within the past month or so during work to upgrade the system, people familiar with the matter told Reuters."
+   "t_en": "Princess Catherine’s Cancer Documentary ‘Heal’: 3 Takeaways",
+   "x_en": "‘Heal,’ a 30-minute authorized documentary released this week, offers glimpses into Catherine’s recovery since her 2024 cancer diagnosis and treatment."
   },
   {
    "t": "Suzuki переходит на редкие безметалловые аккумуляторы на фоне рисков поставок в Китай",
@@ -419,8 +427,33 @@
    "x_en": "By making rare metal-free batteries, the company aims to curb procurement risks for materials for which Japan relies on imports."
   },
   {
-   "t": "New Zealand election: final results show ruling coalition needs minor party to govern",
-   "x": "Incumbent prime minister Christopher Luxon loses majority and needs support of Opportunity party to remain in power, or country faces another election The final results of New Zealand’s general election show the incumbent rightwing coalition will need the supp",
+   "t": "Nissan готовится впервые импортировать автомобили из Китая в Японию",
+   "x": "Этот рост, возможно, отражает увеличение числа браков в 2024 году после нескольких лет спада во время пандемии COVID-19.",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 68,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia",
+    "Japan Times"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/nissan-poised-to-import-cars-from-china-to-japan-for-first-time",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/28/thumbs/400x400/576447.jpg",
+   "img_src": "Japan Times",
+   "fresh": true,
+   "n": 2,
+   "lat": 36.77,
+   "lon": 139.11,
+   "place": "Япония",
+   "place_en": "Japan",
+   "id": 11,
+   "t_en": "Nissan poised to import cars from China to Japan for first time",
+   "x_en": "The rise may have reflected an increase in the number of marriages in 2024 after years of decline during the COVID-19 pandemic."
+  },
+  {
+   "t": "Выборы в Новой Зеландии: окончательные результаты показывают, что правящей коалиции нужна второстепенная партия для управления",
+   "x": "Действующий премьер-министр Кристофер Люксон теряет большинство и нуждается в поддержке партии «Возможности», чтобы остаться у власти, иначе стране грозят новые выборы. Окончательные результаты всеобщих выборов в Новой Зеландии показывают, что действующей правой коалиции понадобится поддержка",
    "r": "Мир",
    "c": "Политика",
    "imp": 68,
@@ -439,13 +472,39 @@
    "lon": 171.33,
    "place": "Новая Зеландия",
    "place_en": "New Zealand",
-   "id": 11,
+   "id": 12,
    "t_en": "New Zealand election: final results show ruling coalition needs minor party to govern",
    "x_en": "Incumbent prime minister Christopher Luxon loses majority and needs support of Opportunity party to remain in power, or country faces another election The final results of New Zealand’s general election show the incumbent rightwing coalition will need the supp"
   },
   {
-   "t": "Indonesia, Philippines and UAE to begin talks on joining CPTPP trade pact",
-   "x": "It could mark the start of the CPTPP alliance’s biggest expansion to date.",
+   "t": "Тайвань ждет результатов местных выборов, а Китай наблюдает за ними",
+   "x": "Мэр Тайбэя Чан Ваньань лидирует по подсчету голосов на выборах против своего оппонента Пумы Шэня, сообщили тайваньские СМИ в субботу.",
+   "r": "Азия",
+   "c": "Политика",
+   "imp": 68,
+   "ten": 40,
+   "ago": 95,
+   "s": [
+    "France 24",
+    "ABC News",
+    "AP"
+   ],
+   "u": "https://www.france24.com/en/taiwan-awaits-local-election-results-as-china-watches",
+   "img": "https://s.france24.com/media/display/ecc14cb8-eb18-11f1-99a7-f9cf020caef6/w:1024/p:16x9/2026-11-28T051224Z-1681141522-RC2RWOA8RD0E-RTRMADP-3-TAIWAN-ELECTION.jpg",
+   "img_src": "France 24",
+   "fresh": false,
+   "n": 3,
+   "lat": 23.87,
+   "lon": 119.69,
+   "place": "Тайвань",
+   "place_en": "Taiwan",
+   "id": 13,
+   "t_en": "Taiwan awaits local election results as China watches",
+   "x_en": "Taipei Mayor ​Chiang Wan-an ​is leading in the vote count in ​an ‌election ⁠against his opponent Puma ‌Shen, Taiwan media outlets ⁠reported on Saturday."
+  },
+  {
+   "t": "Индонезия, Филиппины и ОАЭ начнут переговоры о присоединении к торговому соглашению CPTPP",
+   "x": "Это может ознаменовать начало крупнейшего на сегодняшний день расширения альянса CPTPP.",
    "r": "Азия",
    "c": "Экономика",
    "imp": 67,
@@ -464,62 +523,59 @@
    "lon": 118.45,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 12,
+   "id": 14,
    "t_en": "Indonesia, Philippines and UAE to begin talks on joining CPTPP trade pact",
    "x_en": "It could mark the start of the CPTPP alliance’s biggest expansion to date."
   },
   {
-   "t": "Kenyan doomsday cult leader convicted over further 123 deaths",
-   "x": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
-   "r": "Африка",
-   "c": "Общее",
-   "imp": 66,
-   "ten": 55,
-   "ago": 304,
+   "t": "Испания проголосует на выборах, которые могут привести к власти крайне правых впервые со времен Франко",
+   "x": "Авантюра премьер-министра-социалиста Педро Санчеса с высокими ставками может закончиться поражением коалиции, включающей крайне правую партию Vox. Испанцы в воскресенье отправятся на избирательные участки, чтобы проголосовать на досрочных всеобщих выборах с высокими ставками, которые могут впервые привести к власти крайне правую партию.",
+   "r": "Европа",
+   "c": "Политика",
+   "imp": 65,
+   "ten": 40,
+   "ago": 25,
    "s": [
-    "BBC",
-    "Al Jazeera",
-    "Africanews",
-    "Reuters",
-    "AP"
+    "The Guardian",
+    "CBS News"
    ],
-   "u": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 5,
-   "lat": 0.51,
-   "lon": 37.92,
-   "place": "Кения",
-   "place_en": "Kenya",
-   "id": 13,
-   "t_en": "Kenyan doomsday cult leader convicted over further 123 deaths",
-   "x_en": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children."
-  },
-  {
-   "t": "Parts of US clean up after Thanksgiving storm lashes East Coast",
-   "x": "Power is being slowly restored to hundreds of thousands of customers following a round of heavy wind, rain and snow.",
-   "r": "Америка",
-   "c": "Природа",
-   "imp": 61,
-   "ten": 32,
-   "ago": 43,
-   "s": [
-    "Al Jazeera",
-    "AP"
-   ],
-   "u": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
-   "img": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26331673311397-1795832472.jpg?resize=1920%2C1440",
-   "img_src": "Al Jazeera (og)",
+   "u": "https://www.theguardian.com/world/2026/nov/28/spain-vote-election-could-far-right-power-first-time-franco",
+   "img": "https://i.guim.co.uk/img/media/b9a77ff0acafa5113462214754989b05ee5eaa94/654_0_4700_3760/master/4700.jpg?width=700&quality=85&auto=format&fit=max&s=e682b4419eae4cfca74c4ed6f4b25237",
+   "img_src": "The Guardian",
    "fresh": true,
    "n": 2,
-   "lat": 39.92,
-   "lon": -98.72,
-   "place": "США",
-   "place_en": "United States",
-   "id": 14,
-   "t_en": "Parts of US clean up after Thanksgiving storm lashes East Coast",
-   "x_en": "Power is being slowly restored to hundreds of thousands of customers following a round of heavy wind, rain and snow."
+   "lat": 40.13,
+   "lon": -4.48,
+   "place": "Испания",
+   "place_en": "Spain",
+   "id": 15,
+   "t_en": "Spain to vote in election that could put far right in power for first time since Franco",
+   "x_en": "Socialist PM Pedro Sánchez’s high-stakes gamble could end in defeat to a coalition including the far-right Vox Spaniards head to the polls on Sunday to vote in a high-stakes snap general election that could put a far-right party in government for the first tim"
+  },
+  {
+   "t": "Идеальный шторм, стоящий за самой смертоносной вспышкой Эболы в Конго",
+   "x": "Пациенты и медицинские работники платят ошеломляющую цену, поскольку война и неэффективная система здравоохранения сталкиваются со смертельным вирусом.",
+   "r": "Африка",
+   "c": "Конфликты",
+   "imp": 62,
+   "ten": 53,
+   "ago": 58,
+   "s": [
+    "Al Jazeera",
+    "Africanews"
+   ],
+   "u": "https://www.aljazeera.com/features/longform/2026/11/28/the-perfect-storm-behind-congos-deadliest-ebola-outbreak?traffic_source=rss",
+   "img": "https://images.euronews.com/articles/stories/10/00/99/90/640x360_cmsv2_cf4cf9a1-6217-583d-a0bf-72079e71fcfb-10009990.jpg?1795707375",
+   "img_src": "Africanews",
+   "fresh": true,
+   "n": 2,
+   "lat": -3.52,
+   "lon": 24.04,
+   "place": "ДР Конго",
+   "place_en": "DR Congo",
+   "id": 16,
+   "t_en": "The perfect storm behind Congo’s deadliest Ebola outbreak",
+   "x_en": "Patients and health workers pay a staggering cost as war and a failing health system collide with a deadly virus."
   },
   {
    "t": "Тайвань выдерживает волну кибератак накануне субботних выборов",
@@ -541,12 +597,12 @@
    "lon": 120.05,
    "place": "Тайвань",
    "place_en": "Taiwan",
-   "id": 15,
+   "id": 17,
    "t_en": "Taiwan weathers wave of cyberattacks ahead of Saturday's elections",
    "x_en": ""
   },
   {
-   "t": "Trump's 'double Kissinger' can reduce global nuclear risks",
+   "t": "«Двойной Киссинджер» Трампа может снизить глобальные ядерные риски",
    "x": "",
    "r": "Америка",
    "c": "Общее",
@@ -565,117 +621,64 @@
    "lon": -98.41,
    "place": "США",
    "place_en": "United States",
-   "id": 16,
+   "id": 18,
    "t_en": "Trump's 'double Kissinger' can reduce global nuclear risks",
    "x_en": ""
   },
   {
-   "t": "Lula’s choice of Bradesco banker as Brazil’s finance minister lifts markets",
-   "x": "Brazilian markets have rallied after President Luiz Inácio Lula da Silva confirmed that veteran banker Luiz Carlos Trabuco would lead his finance ministry in 2027, a move seen as a commitment to fiscal discipline",
+   "t": "Сообщается, что хакеры взломали облачную платформу ВВС США, поскольку Пентагон настаивает на безопасности систем",
+   "x": "По сообщениям, поздно вечером в пятницу хакеры взломали платформу Cloud One ВВС США, потенциально раскрыв конфиденциальные военные данные. Пентагон конкретно не отрицал факт доступа к системе, но настаивает на том, что его сети остаются в безопасности на фоне продолжающегося потока атак.",
    "r": "Америка",
-   "c": "Политика",
+   "c": "Конфликты",
    "imp": 60,
-   "ten": 40,
-   "ago": 379,
+   "ten": 37,
+   "ago": 380,
    "s": [
-    "ABC News",
+    "France 24",
+    "CNBC",
+    "Dawn",
     "The Hindu",
-    "Reuters",
-    "AP"
+    "Japan Times"
    ],
-   "u": "https://abcnews.com/International/wireStory/lulas-choice-bradesco-banker-brazils-finance-minister-lifts-138482032",
-   "img": "https://s.abcnews.com/images/International/wirestory_5836b2ca098190540ff6669ebef01669_16x9_1600.jpg",
-   "img_src": "ABC News",
-   "fresh": false,
-   "n": 4,
-   "lat": -9.93,
-   "lon": -51.65,
-   "place": "Бразилия",
-   "place_en": "Brazil",
-   "id": 17,
-   "t_en": "Lula’s choice of Bradesco banker as Brazil’s finance minister lifts markets",
-   "x_en": "Brazilian markets have rallied after President Luiz Inácio Lula da Silva confirmed that veteran banker Luiz Carlos Trabuco would lead his finance ministry in 2027, a move seen as a commitment to fiscal discipline"
-  },
-  {
-   "t": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-   "x": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their fundamental rights.",
-   "r": "Америка",
-   "c": "Политика",
-   "imp": 60,
-   "ten": 42,
-   "ago": 386,
-   "s": [
-    "BBC",
-    "The Guardian",
-    "NYT",
-    "ABC News",
-    "Times of India",
-    "The Hindu",
-    "Reuters"
-   ],
-   "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b5e9/live/7ddd01c0-ea82-11f1-a739-457c2295eaba.jpg",
-   "img_src": "BBC",
-   "fresh": false,
-   "n": 7,
-   "lat": 58.28,
-   "lon": -95.12,
-   "place": "Канада",
-   "place_en": "Canada",
-   "id": 18,
-   "t_en": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-   "x_en": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their fundamental rights."
-  },
-  {
-   "t": "Bulgarians demand action by French after Marseille match violence",
-   "x": "Bulgarians protested at the French embassy after violence at a Europa League match hospitalised six Levski Sofia fans.",
-   "r": "Европа",
-   "c": "Общее",
-   "imp": 59,
-   "ten": 44,
-   "ago": 73,
-   "s": [
-    "Al Jazeera",
-    "France 24"
-   ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
-   "img": "https://s.france24.com/media/display/02485f9a-ea88-11f1-91da-174dac1c1bf0/w:1024/p:16x9/Thumb-Marseille-01-1.jpg",
+   "u": "https://www.france24.com/en/americas/20261128-us-military-cloud-platform-reportedly-hacked-as-pentagon-insists-systems-are-secure",
+   "img": "https://s.france24.com/media/display/d18578fc-eaf0-11f1-9279-f9cf020caef6/w:1024/p:16x9/2026-11-27T110013Z-410933699-RC2K8OA5ONF8-RTRMADP-3-USA-PENTAGON-AIR-FORCE-CLOUD.jpg",
    "img_src": "France 24",
    "fresh": false,
-   "n": 2,
-   "lat": 46.27,
-   "lon": 1.96,
-   "place": "Франция",
-   "place_en": "France",
+   "n": 5,
+   "lat": 39.11,
+   "lon": -77.01,
+   "place": "Вашингтон",
+   "place_en": "Washington",
    "id": 19,
-   "t_en": "Bulgarians demand action by French after Marseille match violence",
-   "x_en": "Bulgarians protested at the French embassy after violence at a Europa League match hospitalised six Levski Sofia fans."
+   "t_en": "Hackers reportedly breach US Air Force cloud platform as Pentagon insists systems are secure",
+   "x_en": "Hackers reportedly breached the US Air Force's Cloud One platform late Friday, potentially exposing sensitive military data. The Pentagon did not specifically deny that the system had been accessed, but insists its networks remain secure amid an ongoing spate "
   },
   {
-   "t": "Francesca Albanese seeks apology from Costa Rica after entry ban",
-   "x": "UN Special Rapporteur Francesca Albanese accuses Costa Rican authorities of defamation after being denied entry.",
+   "t": "Двое итальянцев погибли в результате атаки беспилотника в Кувейте; Трамп заявил, что война с Ираном закончится «когда я этого захочу»",
+   "x": "Министр иностранных дел Ирана Аббас Арагчи заявил: «Инцидент подозрительный и выглядит как заранее приготовленный рецепт войны».",
    "r": "Ближний Восток",
-   "c": "Политика",
+   "c": "Конфликты",
    "imp": 59,
-   "ten": 53,
-   "ago": 211,
+   "ten": 92,
+   "ago": 1384,
    "s": [
-    "Al Jazeera",
-    "ABC News",
-    "The Hindu"
+    "CNBC",
+    "Euronews",
+    "CBS News",
+    "Africanews"
    ],
-   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
-   "img": "https://s.abcnews.com/images/US/wirestory_63323d8a7852bc461372a321aaf0fb58_16x9_1600.jpg",
-   "img_src": "ABC News",
+   "u": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html",
+   "img": "https://images.euronews.com/articles/stories/10/01/04/45/696x392_cmsv2_d2f2807d-6cfc-5a6c-91cf-c5d92d32bdd8-10010445.jpg",
+   "img_src": "Euronews",
    "fresh": false,
    "n": 4,
-   "lat": 9.86,
-   "lon": -84.64,
-   "place": "Коста-Рика",
-   "place_en": "Costa Rica",
+   "lat": 30.22,
+   "lon": 47.15,
+   "place": "Кувейт",
+   "place_en": "Kuwait",
    "id": 20,
-   "t_en": "Francesca Albanese seeks apology from Costa Rica after entry ban",
-   "x_en": "UN Special Rapporteur Francesca Albanese accuses Costa Rican authorities of defamation after being denied entry."
+   "t_en": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+   "x_en": "Iran's foreign minister Abbas Araghchi said \"The incident is suspicious and looks like a precooked recipe for war.\""
   },
   {
    "t": "Азия отвергает основу новых тарифов Трампа, поскольку США собирают боеприпасы для Китая",
@@ -702,55 +705,56 @@
    "x_en": ""
   },
   {
-   "t": "Desperate bid to reunite with family ends in tragedy at Line of Control",
-   "x": "MUZAFFARABAD: For Kashmi­­ris whose aspirations for self-determination remain unfulfilled, the tragedy of a divided homeland continues to take a devastating human toll. The death of 54-year-old Irfan Hassan Shah is the latest example. Shah’s body was spotted o",
-   "r": "Мир",
-   "c": "Общее",
+   "t": "В ноябре дроны «налетели» на базу ВВС США в Лейкенхите в Саффолке.",
+   "x": "Персоналу было приказано укрыться после «предполагаемой несанкционированной активности» шести дронов, которые были отброшены, но не возвращены. Сообщается, что дроны наводнили военную базу США в Саффолке в начале этого месяца и не были обнаружены после отражения. Персонал RAF Lakenhe",
+   "r": "Америка",
+   "c": "Конфликты",
    "imp": 58,
-   "ten": 57,
-   "ago": 14,
+   "ten": 74,
+   "ago": 31,
    "s": [
-    "Dawn"
+    "The Guardian"
    ],
-   "u": "https://www.dawn.com/news/2047562/desperate-bid-to-reunite-with-family-ends-in-tragedy-at-line-of-control",
-   "img": "https://i.dawn.com/large/2026/11/28030658b373eca.webp",
-   "img_src": "Dawn",
+   "u": "https://www.theguardian.com/uk-news/2026/nov/28/drones-us-army-base-raf-lakenheath-suffolk-november",
+   "img": "https://i.guim.co.uk/img/media/1fb3f77e97eb87382938a00f3e78bbfc0e6325e3/312_0_3120_2496/master/3120.jpg?width=700&quality=85&auto=format&fit=max&s=a9d13a431d13d780d4db963a09af3999",
+   "img_src": "The Guardian",
    "fresh": true,
    "n": 1,
-   "lat": null,
-   "lon": null,
-   "place": "",
-   "place_en": "",
+   "lat": 39.91,
+   "lon": -97.04,
+   "place": "США",
+   "place_en": "United States",
    "id": 22,
-   "t_en": "Desperate bid to reunite with family ends in tragedy at Line of Control",
-   "x_en": "MUZAFFARABAD: For Kashmi­­ris whose aspirations for self-determination remain unfulfilled, the tragedy of a divided homeland continues to take a devastating human toll. The death of 54-year-old Irfan Hassan Shah is the latest example. Shah’s body was spotted o"
+   "t_en": "Drones ‘swarmed’ US army base at RAF Lakenheath in Suffolk in November",
+   "x_en": "Personnel told to take cover after ‘suspected unauthorised activity’ of six drones that were repelled but not recovered Drones reportedly swarmed a US army base in Suffolk earlier this month and were not recovered after being repelled. Personnel at RAF Lakenhe"
   },
   {
-   "t": "Japan arcade snags world record with 600 claw machines",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
+   "t": "Войска США вывели из строя коммерческое судно, которое предположительно пыталось прорвать блокаду Ирана",
+   "x": "Центральное командование США сообщило, что военный самолет США нанес удар высокоточными боеприпасами по кораблю под флагом Палау после нескольких предупреждений.",
+   "r": "Америка",
+   "c": "Конфликты",
+   "imp": 58,
+   "ten": 70,
+   "ago": 119,
    "s": [
-    "Nikkei Asia"
+    "CBS News",
+    "Japan Times"
    ],
-   "u": "https://asia.nikkei.com/business/media-entertainment/japan-arcade-snags-world-record-with-600-claw-machines",
-   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F0%2F6%2F1%2F13491609-1-eng-GB%2F76d8c0a71ace-20261125N-Aeon-Fantasy-claw-machine.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-   "img_src": "Nikkei Asia (og)",
-   "fresh": true,
-   "n": 1,
-   "lat": 36.2,
-   "lon": 138.16,
-   "place": "Япония",
-   "place_en": "Japan",
+   "u": "https://www.cbsnews.com/live-updates/iran-war-trump-us-threats-diplomacy-strait-of-hormuz/",
+   "img": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/28/thumbs/400x400/576433.jpg",
+   "img_src": "Japan Times",
+   "fresh": false,
+   "n": 2,
+   "lat": 40.74,
+   "lon": -98.27,
+   "place": "США",
+   "place_en": "United States",
    "id": 23,
-   "t_en": "Japan arcade snags world record with 600 claw machines",
-   "x_en": ""
+   "t_en": "U.S. forces disable commercial ship that allegedly tried to breach Iran blockade",
+   "x_en": "A U.S. military aircraft struck a Palau-flagged ship with precision munitions after giving multiple warnings, U.S. Central Command said."
   },
   {
-   "t": "Nvidia turmoil casts pall over high-flying global AI chip industry",
+   "t": "Беспорядки в Nvidia омрачают перспективную мировую индустрию чипов искусственного интеллекта",
    "x": "",
    "r": "Мир",
    "c": "Наука",
@@ -774,7 +778,7 @@
    "x_en": ""
   },
   {
-   "t": "Fall of Shanghai party chief clouds China's leadership reset in 2027",
+   "t": "Падение лидера партии в Шанхае омрачает перезагрузку руководства Китая в 2027 году",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -822,7 +826,7 @@
    "x_en": ""
   },
   {
-   "t": "Hong Kong fire survivors and families mark anniversary as questions linger",
+   "t": "Выжившие в результате пожара в Гонконге и их семьи отмечают годовщину, поскольку вопросы остаются",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -846,7 +850,7 @@
    "x_en": ""
   },
   {
-   "t": "FSB flags leverage risks in sovereign bond markets amid public debt rise",
+   "t": "ФСБ отмечает, что риски на рынках суверенных облигаций используются на фоне роста государственного долга",
    "x": "",
    "r": "Мир",
    "c": "Общее",
@@ -870,7 +874,7 @@
    "x_en": ""
   },
   {
-   "t": "Pakistan-US economic ties to grow further despite Trump's midterm setback",
+   "t": "Экономические связи Пакистана и США будут продолжать расти, несмотря на неудачу Трампа в среднесрочной перспективе",
    "x": "",
    "r": "Америка",
    "c": "Общее",
@@ -894,7 +898,7 @@
    "x_en": ""
   },
   {
-   "t": "Humanoid robots meet factory reality on Toyota's home turf",
+   "t": "Роботы-гуманоиды встречаются с заводской реальностью на территории Toyota",
    "x": "",
    "r": "Мир",
    "c": "Общее",
@@ -918,7 +922,7 @@
    "x_en": ""
   },
   {
-   "t": "Wife of Japanese journalist held in Russia pleads for his release",
+   "t": "Жена задержанного в России японского журналиста просит его освободить",
    "x": "",
    "r": "Европа",
    "c": "Общее",
@@ -942,7 +946,7 @@
    "x_en": ""
   },
   {
-   "t": "36% minimum wage hike tests Bangladesh garment sector's low-cost model",
+   "t": "Повышение минимальной заработной платы на 36% проверяет низкозатратную модель швейного сектора Бангладеш",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -953,8 +957,8 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/spotlight/work/36-minimum-wage-hike-tests-bangladesh-garment-sector-s-low-cost-model",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F3%2F7%2F2%2F13492738-1-eng-GB%2Fa53e3c710ea8-b.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 22.47,
@@ -966,7 +970,7 @@
    "x_en": ""
   },
   {
-   "t": "AI firms with poor safeguards face inspections under Japan draft law",
+   "t": "Компании, занимающиеся искусственным интеллектом, с плохими гарантиями, подвергаются проверкам в соответствии с законопроектом Японии",
    "x": "",
    "r": "Азия",
    "c": "Наука",
@@ -977,8 +981,8 @@
     "Nikkei Asia"
    ],
    "u": "https://asia.nikkei.com/business/technology/artificial-intelligence/ai-firms-with-poor-safeguards-face-inspections-under-japan-draft-law",
-   "img": "",
-   "img_src": "",
+   "img": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F6%2F1%2F5%2F5%2F13495516-1-eng-GB%2F2c3805669204-illust_SXM2026112600009874.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+   "img_src": "Nikkei Asia (og)",
    "fresh": true,
    "n": 1,
    "lat": 36.22,
@@ -990,7 +994,7 @@
    "x_en": ""
   },
   {
-   "t": "Nvidia, Kioxia team on AI server memory as alternative to South Korean chips",
+   "t": "Команда Nvidia и Kioxia разработала серверную память с искусственным интеллектом в качестве альтернативы южнокорейским чипам",
    "x": "",
    "r": "Мир",
    "c": "Наука",
@@ -1014,31 +1018,7 @@
    "x_en": ""
   },
   {
-   "t": "Nissan poised to import cars from China to Japan for first time",
-   "x": "",
-   "r": "Азия",
-   "c": "Общее",
-   "imp": 57,
-   "ten": 40,
-   "ago": 1,
-   "s": [
-    "Nikkei Asia"
-   ],
-   "u": "https://asia.nikkei.com/business/automobiles/nissan-poised-to-import-cars-from-china-to-japan-for-first-time",
-   "img": "",
-   "img_src": "",
-   "fresh": true,
-   "n": 1,
-   "lat": 35.17,
-   "lon": 103.79,
-   "place": "Китай",
-   "place_en": "China",
-   "id": 35,
-   "t_en": "Nissan poised to import cars from China to Japan for first time",
-   "x_en": ""
-  },
-  {
-   "t": "Trump-Xi summits unlikely to solve China's rare-earth licensing maze",
+   "t": "Саммиты Трампа и Си вряд ли решат лабиринт лицензирования редкоземельных металлов в Китае",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1057,12 +1037,12 @@
    "lon": -99.05,
    "place": "США",
    "place_en": "United States",
-   "id": 36,
+   "id": 35,
    "t_en": "Trump-Xi summits unlikely to solve China's rare-earth licensing maze",
    "x_en": ""
   },
   {
-   "t": "Indonesia pays high price to keep fuel cheap under Prabowo's blanket subsidy",
+   "t": "Индонезия платит высокую цену за сохранение дешевого топлива в рамках общей субсидии Прабово",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1081,12 +1061,12 @@
    "lon": 118.79,
    "place": "Индонезия",
    "place_en": "Indonesia",
-   "id": 37,
+   "id": 36,
    "t_en": "Indonesia pays high price to keep fuel cheap under Prabowo's blanket subsidy",
    "x_en": ""
   },
   {
-   "t": "Japan's JERA aims to build data centers for Anthropic, other AI players near power plants",
+   "t": "Японская компания JERA стремится построить центры обработки данных для Anthropic и других игроков в области искусственного интеллекта рядом с электростанциями.",
    "x": "",
    "r": "Азия",
    "c": "Наука",
@@ -1105,12 +1085,12 @@
    "lon": 137.33,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 38,
+   "id": 37,
    "t_en": "Japan's JERA aims to build data centers for Anthropic, other AI players near power plants",
    "x_en": ""
   },
   {
-   "t": "Cathay reinforces position in Asian hub fight as parent Swire cashes in",
+   "t": "Cathay укрепляет позиции в борьбе за азиатские хабы, поскольку материнская компания Swire получает прибыль",
    "x": "",
    "r": "Мир",
    "c": "Общее",
@@ -1129,12 +1109,12 @@
    "lon": null,
    "place": "",
    "place_en": "",
-   "id": 39,
+   "id": 38,
    "t_en": "Cathay reinforces position in Asian hub fight as parent Swire cashes in",
    "x_en": ""
   },
   {
-   "t": "Humanoids beware! Japan prefers smarter factory machines",
+   "t": "Гуманоиды, будьте осторожны! Япония предпочитает более умные заводские машины",
    "x": "",
    "r": "Азия",
    "c": "Общее",
@@ -1153,16 +1133,36 @@
    "lon": 138.94,
    "place": "Япония",
    "place_en": "Japan",
-   "id": 40,
+   "id": 39,
    "t_en": "Humanoids beware! Japan prefers smarter factory machines",
+   "x_en": ""
+  },
+  {
+   "t": "Bosch поднимает позиции в Индии, поскольку жесткие правила требуют более сложных автозапчастей",
+   "x": "",
+   "r": "Азия",
+   "c": "Общее",
+   "imp": 57,
+   "ten": 40,
+   "ago": 1,
+   "s": [
+    "Nikkei Asia"
+   ],
+   "u": "https://asia.nikkei.com/business/automobiles/bosch-rises-in-india-as-tough-regulations-require-more-complex-auto-parts",
+   "img": "",
+   "img_src": "",
+   "fresh": true,
+   "n": 1,
+   "lat": 22.62,
+   "lon": 80.44,
+   "place": "Индия",
+   "place_en": "India",
+   "id": 40,
+   "t_en": "Bosch rises in India as tough regulations require more complex auto parts",
    "x_en": ""
   }
  ],
  "history": [
-  {
-   "t": 1795751113103,
-   "v": 50
-  },
   {
    "t": 1795785042881,
    "v": 49
@@ -1174,133 +1174,137 @@
   {
    "t": 1795837387342,
    "v": 49
+  },
+  {
+   "t": 1795868725914,
+   "v": 50
   }
  ],
  "timeline": [
   {
-   "t": 1795750987342,
+   "t": 1795782325914,
    "v": 50,
-   "n": 38
+   "n": 34
   },
   {
-   "t": 1795754587342,
-   "v": 48,
-   "n": 38
+   "t": 1795785925914,
+   "v": 51,
+   "n": 41
   },
   {
-   "t": 1795758187342,
-   "v": 45,
-   "n": 40
+   "t": 1795789525914,
+   "v": 53,
+   "n": 48
   },
   {
-   "t": 1795761787342,
-   "v": 42,
-   "n": 55
-  },
-  {
-   "t": 1795765387342,
-   "v": 45,
-   "n": 62
-  },
-  {
-   "t": 1795768987342,
-   "v": 46,
-   "n": 72
-  },
-  {
-   "t": 1795772587342,
+   "t": 1795793125914,
    "v": 49,
-   "n": 55
-  },
-  {
-   "t": 1795776187342,
-   "v": 47,
-   "n": 44
-  },
-  {
-   "t": 1795779787342,
-   "v": 46,
-   "n": 39
-  },
-  {
-   "t": 1795783387342,
-   "v": 48,
    "n": 45
   },
   {
-   "t": 1795786987342,
+   "t": 1795796725914,
+   "v": 51,
+   "n": 41
+  },
+  {
+   "t": 1795800325914,
    "v": 50,
-   "n": 53
+   "n": 43
   },
   {
-   "t": 1795790587342,
-   "v": 51,
-   "n": 67
-  },
-  {
-   "t": 1795794187342,
-   "v": 51,
-   "n": 75
-  },
-  {
-   "t": 1795797787342,
-   "v": 51,
-   "n": 85
-  },
-  {
-   "t": 1795801387342,
-   "v": 50,
-   "n": 87
-  },
-  {
-   "t": 1795804987342,
+   "t": 1795803925914,
    "v": 49,
-   "n": 80
+   "n": 48
   },
   {
-   "t": 1795808587342,
-   "v": 47,
-   "n": 77
+   "t": 1795807525914,
+   "v": 45,
+   "n": 52
   },
   {
-   "t": 1795812187342,
+   "t": 1795811125914,
+   "v": 43,
+   "n": 40
+  },
+  {
+   "t": 1795814725914,
+   "v": 46,
+   "n": 44
+  },
+  {
+   "t": 1795818325914,
+   "v": 45,
+   "n": 50
+  },
+  {
+   "t": 1795821925914,
+   "v": 46,
+   "n": 57
+  },
+  {
+   "t": 1795825525914,
+   "v": 44,
+   "n": 56
+  },
+  {
+   "t": 1795829125914,
+   "v": 46,
+   "n": 46
+  },
+  {
+   "t": 1795832725914,
+   "v": 45,
+   "n": 41
+  },
+  {
+   "t": 1795836325914,
+   "v": 48,
+   "n": 42
+  },
+  {
+   "t": 1795839925914,
+   "v": 49,
+   "n": 51
+  },
+  {
+   "t": 1795843525914,
    "v": 47,
+   "n": 65
+  },
+  {
+   "t": 1795847125914,
+   "v": 49,
    "n": 70
   },
   {
-   "t": 1795815787342,
-   "v": 46,
-   "n": 81
+   "t": 1795850725914,
+   "v": 49,
+   "n": 65
   },
   {
-   "t": 1795819387342,
-   "v": 45,
-   "n": 85
+   "t": 1795854325914,
+   "v": 51,
+   "n": 55
   },
   {
-   "t": 1795822987342,
-   "v": 45,
-   "n": 91
+   "t": 1795857925914,
+   "v": 52,
+   "n": 72
   },
   {
-   "t": 1795826587342,
-   "v": 46,
-   "n": 73
+   "t": 1795861525914,
+   "v": 54,
+   "n": 95
   },
   {
-   "t": 1795830187342,
-   "v": 46,
-   "n": 58
+   "t": 1795865125914,
+   "v": 50,
+   "n": 141
   },
   {
-   "t": 1795833787342,
-   "v": 42,
-   "n": 79
-  },
-  {
-   "t": 1795837387342,
-   "v": 41,
-   "n": 64
+   "t": 1795868725914,
+   "v": 47,
+   "n": 100
   }
  ],
  "feeds": [
@@ -1326,39 +1330,39 @@
   },
   {
    "n": "Sky News",
-   "items": 5
+   "items": 4
   },
   {
    "n": "NPR",
-   "items": 3
+   "items": 5
   },
   {
    "n": "UN News",
-   "items": 0
+   "items": 2
   },
   {
    "n": "CNBC",
-   "items": 22
+   "items": 23
   },
   {
    "n": "Euronews",
-   "items": 34
+   "items": 32
   },
   {
    "n": "NYT",
-   "items": 24
+   "items": 25
   },
   {
    "n": "Washington Post",
-   "items": 11
+   "items": 12
   },
   {
    "n": "CBS News",
-   "items": 13
+   "items": 12
   },
   {
    "n": "ABC News",
-   "items": 25
+   "items": 23
   },
   {
    "n": "CNN",
@@ -1366,11 +1370,11 @@
   },
   {
    "n": "Fox News",
-   "items": 9
+   "items": 4
   },
   {
    "n": "ABC Australia",
-   "items": 16
+   "items": 13
   },
   {
    "n": "CNA",
@@ -1382,7 +1386,7 @@
   },
   {
    "n": "Middle East Eye",
-   "items": 0
+   "items": 20
   },
   {
    "n": "Arab News",
@@ -1390,7 +1394,7 @@
   },
   {
    "n": "Africanews",
-   "items": 36
+   "items": 35
   },
   {
    "n": "Kyiv Independent",
@@ -1406,11 +1410,11 @@
   },
   {
    "n": "The Diplomat",
-   "items": 3
+   "items": 2
   },
   {
    "n": "Dawn",
-   "items": 29
+   "items": 25
   },
   {
    "n": "Times of India",
@@ -1418,7 +1422,7 @@
   },
   {
    "n": "The Hindu",
-   "items": 39
+   "items": 35
   },
   {
    "n": "Politico EU",
@@ -1438,9 +1442,7 @@
   }
  ],
  "failed": [
-  "UN News",
   "Times of Israel",
-  "Middle East Eye",
   "Arab News"
  ]
 }
